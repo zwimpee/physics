@@ -564,9 +564,9 @@ We'll use SymPy to verify the tensor calculations!
 
 ---
 
-# Quick Self-Test
+# Quick Self-Test (Problems 1.1 & 1.2)
 
-Before returning to Problem 1.3, verify you can answer:
+Before proceeding to Problem 1.3, verify you can answer:
 
 1. What is the Minkowski metric in 2D?
 2. What does ds² = 0 represent physically?
@@ -576,5 +576,398 @@ Before returning to Problem 1.3, verify you can answer:
 6. What does global hyperbolicity guarantee?
 7. Why does any causal curve from past-of-S to future-of-S cross S exactly once?
 
-If you can answer these confidently, you're ready for Problem 1.3!
+---
+
+# Problem 1.3: Computing R_tt for Raychaudhuri's Equation
+
+## Problem Statement
+
+Consider the metric:
+```
+ds² = -dt² + g_ij(t, x⃗) dx^i dx^j
+```
+
+where:
+- g_ij is a d×d matrix (d = D-1, where D is spacetime dimension)
+- g⁻¹ is the inverse matrix
+- ġ denotes ∂g/∂t
+
+**Goal:** Verify that:
+```
+R_tt = -½ ∂_t Tr(g⁻¹ġ) - ¼ [Tr(g⁻¹ġ)]²
+```
+
+This formula is the key step in deriving **Raychaudhuri's equation**.
+
+---
+
+## Foundational Concepts
+
+### Concept 1: Why the Metric Tensor?
+
+**Check Your Understanding:**
+> Q: Why do we need a position-dependent metric g_μν(x) instead of the fixed Minkowski metric?
+
+<details>
+<summary>Answer</summary>
+
+**Historical progression:**
+
+1. **Special Relativity (1905):** Fixed interval ds² = -dt² + dx² + dy² + dz²
+2. **Problem:** SR doesn't include gravity
+3. **Equivalence Principle (1907):** Gravity ≈ acceleration (locally indistinguishable)
+4. **Key insight:** If gravity = acceleration = curved motion, then gravity IS curvature of spacetime
+5. **Solution:** Make the "distance formula" vary with position: ds² = g_μν(x) dx^μ dx^ν
+
+The metric tensor g_μν(x) encodes how spacetime is curved at each point.
+</details>
+
+---
+
+### Concept 2: Index Conventions
+
+**Check Your Understanding:**
+> Q: What's the difference between Greek indices (μ, ν) and Latin indices (i, j)?
+
+<details>
+<summary>Answer</summary>
+
+| Index type | Letters | Range | What it covers |
+|------------|---------|-------|----------------|
+| Greek | μ, ν, ρ, σ | 0, 1, ..., D-1 | **All** coordinates (time + space) |
+| Latin | i, j, k | 1, 2, ..., D-1 | **Spatial** coordinates only |
+
+For D = 2: Greek indices ∈ {t, x}, Latin indices ∈ {x} only.
+</details>
+
+---
+
+### Concept 3: The Line Element as a Quadratic Form
+
+The line element ds² = g_μν dx^μ dx^ν is a **quadratic form**:
+```
+ds² = (dx)ᵀ · G · (dx)
+```
+
+where G is the metric matrix and (dx) is the vector of coordinate differentials.
+
+---
+
+## Derivation for D = 2 (Simplified Case)
+
+We work with D = 2 (one time, one space) first, then generalize.
+
+### Step 1: Write the metric in matrix form
+
+**Given:**
+```
+ds² = -dt² + g(t,x) dx²
+```
+
+**Check Your Understanding:**
+> Q: Expand the matrix multiplication ds² = [dt dx] G [dt; dx] and match coefficients.
+
+<details>
+<summary>Answer</summary>
+
+Expanding:
+```
+ds² = [dt  dx] · [ g_tt   g_tx ] · [dt]
+                 [ g_tx   g_xx ]   [dx]
+
+    = [g_tt·dt + g_tx·dx,  g_tx·dt + g_xx·dx] · [dt]
+                                                [dx]
+
+    = g_tt·dt² + g_tx·dx·dt + g_tx·dt·dx + g_xx·dx²
+    = g_tt·dt² + 2g_tx·dt·dx + g_xx·dx²
+```
+
+Matching with ds² = -dt² + g(t,x)·dx²:
+
+| Coefficient of | Value | Therefore |
+|----------------|-------|-----------|
+| dt² | -1 | g_tt = -1 |
+| dt dx | 0 | g_tx = 0 |
+| dx² | g(t,x) | g_xx = g(t,x) |
+
+**The metric matrix:**
+```
+G = g_μν = [ -1       0     ]
+           [  0    g(t,x)   ]
+```
+</details>
+
+---
+
+### Step 2: Compute the inverse metric
+
+**Check Your Understanding:**
+> Q: For a diagonal matrix, how do you find the inverse?
+
+<details>
+<summary>Answer</summary>
+
+For a diagonal matrix, take the reciprocal of each diagonal entry:
+```
+[ a   0 ]⁻¹   =   [ 1/a    0   ]
+[ 0   b ]         [  0    1/b  ]
+```
+
+For our metric:
+```
+g^μν = [ -1        0       ]
+       [  0    1/g(t,x)    ]
+```
+</details>
+
+---
+
+### Step 3: Compute Christoffel symbols
+
+The Christoffel symbols are:
+```
+Γ^ρ_μν = ½ g^ρσ (∂_μ g_νσ + ∂_ν g_μσ - ∂_σ g_μν)
+```
+
+**Check Your Understanding:**
+> Q: Why do most Christoffel symbols vanish for our diagonal metric?
+
+<details>
+<summary>Answer</summary>
+
+- g_tt = -1 is constant → all derivatives of g_tt are zero
+- g_tx = 0 is constant → all derivatives of g_tx are zero
+- Only g_xx = g(t,x) has non-zero derivatives
+
+Most terms in the Christoffel formula involve derivatives of constant components, so they vanish.
+</details>
+
+---
+
+**The non-zero Christoffel symbols (D = 2):**
+
+| Symbol | Computation | Result |
+|--------|-------------|--------|
+| Γ^t_xx | ½ g^tt (−∂_t g_xx) = ½(−1)(−ġ) | **ġ/2** |
+| Γ^x_tx = Γ^x_xt | ½ g^xx (∂_t g_xx) = ½(1/g)(ġ) | **ġ/(2g)** |
+
+where ġ = ∂g/∂t.
+
+All other Christoffel symbols are zero.
+
+---
+
+### Step 4: Compute R_tt
+
+The Ricci tensor formula is:
+```
+R_μν = ∂_ρ Γ^ρ_μν - ∂_ν Γ^ρ_μρ + Γ^ρ_ρσ Γ^σ_μν - Γ^ρ_μσ Γ^σ_νρ
+```
+
+For R_tt:
+```
+R_tt = ∂_ρ Γ^ρ_tt - ∂_t Γ^ρ_tρ + Γ^ρ_ρσ Γ^σ_tt - Γ^ρ_tσ Γ^σ_tρ
+```
+
+**Check Your Understanding:**
+> Q: Since Γ^ρ_tt = 0 for all ρ, which terms vanish?
+
+<details>
+<summary>Answer</summary>
+
+- Term 1: ∂_ρ Γ^ρ_tt = ∂_ρ(0) = 0 ✓
+- Term 3: Γ^ρ_ρσ Γ^σ_tt = Γ^ρ_ρσ · 0 = 0 ✓
+
+Only Terms 2 and 4 survive:
+```
+R_tt = - ∂_t Γ^ρ_tρ - Γ^ρ_tσ Γ^σ_tρ
+```
+</details>
+
+---
+
+### Step 5: Evaluate the surviving terms
+
+**Term 2: -∂_t Γ^ρ_tρ**
+
+First compute Γ^ρ_tρ (sum over ρ):
+```
+Γ^ρ_tρ = Γ^t_tt + Γ^x_tx = 0 + ġ/(2g)
+```
+
+Now take the time derivative:
+```
+∂_t [ġ/(2g)] = ½ ∂_t [ġ · g⁻¹]
+             = ½ [g̈ · g⁻¹ + ġ · (-g⁻² ġ)]
+             = ½ [g̈/g - ġ²/g²]
+```
+
+So:
+```
+-∂_t Γ^ρ_tρ = -½ g̈/g + ½ ġ²/g²
+```
+
+**Term 4: -Γ^ρ_tσ Γ^σ_tρ**
+
+This is a double sum. The only non-zero contribution comes from ρ = x, σ = x:
+```
+-Γ^x_tx Γ^x_tx = -[ġ/(2g)]² = -ġ²/(4g²)
+```
+
+**Combining:**
+```
+R_tt = -½ g̈/g + ½ ġ²/g² - ġ²/(4g²)
+     = -½ g̈/g + ¼ ġ²/g²
+```
+
+---
+
+### Step 6: Rewrite using traces
+
+For D = 2 with one spatial dimension:
+```
+Tr(g⁻¹ġ) = g⁻¹ġ = ġ/g
+```
+
+So:
+```
+∂_t Tr(g⁻¹ġ) = ∂_t(ġ/g) = g̈/g - ġ²/g²
+
+[Tr(g⁻¹ġ)]² = (ġ/g)² = ġ²/g²
+```
+
+Substituting:
+```
+R_tt = -½ ∂_t Tr(g⁻¹ġ) - ¼ [Tr(g⁻¹ġ)]²
+
+     = -½ [g̈/g - ġ²/g²] - ¼ [ġ²/g²]
+     = -½ g̈/g + ½ ġ²/g² - ¼ ġ²/g²
+     = -½ g̈/g + ¼ ġ²/g²  ✓
+```
+
+This matches what we computed directly!
+
+---
+
+## The General Case (D dimensions)
+
+For the general metric with d = D-1 spatial dimensions:
+```
+ds² = -dt² + g_ij(t, x⃗) dx^i dx^j
+```
+
+The same calculation gives:
+```
+R_tt = -½ ∂_t Tr(g⁻¹ġ) - ¼ Tr[(g⁻¹ġ)²]
+```
+
+**Note:** In the general case, we get Tr[(g⁻¹ġ)²] not [Tr(g⁻¹ġ)]². 
+
+For D = 2 (1×1 matrix), these are equal. For higher dimensions, they differ — the trace of a square is not the square of a trace!
+
+---
+
+## Connection to Raychaudhuri's Equation
+
+Define the **expansion**:
+```
+θ = Tr(g⁻¹ġ)/2
+```
+
+This measures how rapidly geodesics are spreading apart (or converging).
+
+Then R_tt becomes:
+```
+R_tt = -dθ/dt - θ² - (shear terms)
+```
+
+The **Raychaudhuri equation** states:
+```
+dθ/dt = -θ²/d - σ² + ω² - R_μν u^μ u^ν
+```
+
+where σ is shear, ω is vorticity, and u is the tangent to geodesics.
+
+This equation is fundamental to singularity theorems: positive energy (R_μν u^μ u^ν > 0) causes focusing (dθ/dt < 0), which leads to caustics and singularities.
+
+---
+
+## Coding Exercise: Verify with SymPy
+
+```python
+import sympy as sp
+
+# Define symbols
+t, x = sp.symbols('t x', real=True)
+g = sp.Function('g')(t, x)  # g(t, x)
+
+# Metric components (D = 2)
+g_tt = -1
+g_tx = 0
+g_xx = g
+
+# Inverse metric
+g_inv_tt = -1
+g_inv_xx = 1/g
+
+# Time derivatives
+g_dot = sp.diff(g, t)
+g_ddot = sp.diff(g, t, 2)
+
+# Christoffel symbols
+Gamma_t_xx = g_dot / 2
+Gamma_x_tx = g_dot / (2*g)
+
+# Trace terms
+Tr_ginv_gdot = g_dot / g
+Tr_ginv_gdot_sq = (g_dot / g)**2
+
+# R_tt via our formula
+R_tt_formula = -sp.Rational(1,2) * sp.diff(Tr_ginv_gdot, t) - sp.Rational(1,4) * Tr_ginv_gdot_sq
+
+# Simplify
+R_tt_simplified = sp.simplify(R_tt_formula)
+print("R_tt =", R_tt_simplified)
+
+# Should give: -g̈/(2g) + ġ²/(4g²)
+```
+
+---
+
+## Summary: Key Formulas
+
+| Object | Formula |
+|--------|---------|
+| Metric | g_μν = diag(-1, g_ij) |
+| Inverse metric | g^μν = diag(-1, g^ij) |
+| Key Christoffel | Γ^t_ij = ½ ġ_ij,  Γ^k_ti = ½ g^kl ġ_il |
+| Expansion | θ = ½ Tr(g⁻¹ġ) = ½ g^ij ġ_ij |
+| R_tt | -½ ∂_t Tr(g⁻¹ġ) - ¼ Tr[(g⁻¹ġ)²] |
+
+---
+
+## Quick Self-Test (Problem 1.3)
+
+Before moving to Problem Set 2, verify you can answer:
+
+1. What is the relationship between the line element ds² and the metric tensor g_μν?
+2. For a diagonal metric, how do you find the inverse?
+3. What is the Christoffel symbol formula?
+4. Why do most Christoffel symbols vanish for ds² = -dt² + g(t,x) dx²?
+5. What is the expansion θ and what does it measure physically?
+6. How does R_tt relate to Raychaudhuri's equation?
+
+---
+
+# Problem Set 1: Complete!
+
+You have now worked through all three problems:
+
+| Problem | Topic | Key Result |
+|---------|-------|------------|
+| 1.1 | Curve convergence | Limit depends on parametrization; can be degenerate |
+| 1.2 | Compactness of causal curves | C_q^p compact via decomposition at Cauchy surface |
+| 1.3 | R_tt calculation | R_tt = -½ ∂_t Tr(g⁻¹ġ) - ¼ Tr(g⁻¹ġ)² |
+
+**Next up: Problem Set 2** — Null hypersurfaces, trapped surfaces, and causal boundaries!
 
