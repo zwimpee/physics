@@ -11,6 +11,8 @@ This guide presents the material we covered in a self-testing format. For each s
 
 ---
 
+asdfasdf
+
 # Problem 1.1: Convergence of Curves in Minkowski Space
 
 ## Problem Statement
