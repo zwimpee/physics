@@ -88,6 +88,35 @@ The trained Schwarzschild model lives at `/workspaces/EinFields/runs/rx4yd4cv`, 
 
 ---
 
+## The Converse: Geometry for Optimization
+
+We pursue a bidirectional relationship:
+
+**Forward**: Deep learning → Understanding spacetime
+**Converse**: Spacetime mathematics → Improving deep learning
+
+The loss landscape of a neural network *is* a curved space. The parameters $\theta$ live on a manifold. Gradient descent attempts to descend this landscape, but it treats the space as flat — it follows coordinate directions, not geodesics.
+
+**The intuition**: Just as a particle in curved spacetime follows geodesics (paths of least action), perhaps optimal learning follows geodesics in parameter space. The Hessian of the loss is the curvature. Christoffel symbols would tell us how to *correct* the naive gradient to account for this curvature.
+
+**Known connections to watch for**:
+
+- *Natural gradient descent*: Uses Fisher information metric $g_{ij} = \mathbb{E}[\partial_i \log p \cdot \partial_j \log p]$ as a Riemannian metric on parameter space
+- *Information geometry*: The space of probability distributions is curved; KL divergence induces a metric
+- *Geodesic optimization*: Following shortest paths in parameter space, not coordinate directions
+- *Ricci flow*: Could smoothing the loss landscape via geometric flow improve trainability?
+
+**Open questions we're hunting for**:
+
+1. Can Christoffel symbols of the loss landscape correct gradient descent?
+2. Does the Raychaudhuri equation say something about when optimization "focuses" toward minima vs. diverges?
+3. Is there a notion of "trapped surface" in optimization — regions from which SGD cannot escape?
+4. Could entanglement entropy measure correlations between layers in a meaningful way?
+
+We remain alert for clues as we work through the physics. When intuition crystallizes, we test on toy models.
+
+---
+
 ## Where We Stand
 
 **Completed**: Act I (Raychaudhuri, R_tt, EinFields verification)
