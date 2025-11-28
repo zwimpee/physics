@@ -24,23 +24,27 @@ This formula looks like it's counting degrees of freedom on a *boundary* rather 
 
 ## The Journey
 
-### Act I: The Grammar of Curved Spacetime *(Complete)*
+### Act I: The Grammar of Curved Spacetime *(Complete — human-verified)*
 
-**Problem Set 1** — The Raychaudhuri equation tells us that gravity focuses light. We learned to compute curvature:
+**Problem Set 1** — The Raychaudhuri equation tells us that gravity focuses light. Worked through by hand via Socratic derivation, then verified computationally:
 
 $$g_{\mu\nu} \to \Gamma^\rho_{\mu\nu} \to R_{\mu\nu}$$
 
-Then verified it computationally: a neural network trained on Schwarzschild spacetime learned not just the metric, but its derivatives — the quantities encoding curvature.
+A neural network trained on Schwarzschild spacetime learned not just the metric, but its derivatives — the quantities encoding curvature.
 
 **Key artifact**: [`notebooks/einfields.ipynb`](notebooks/einfields.ipynb) — Neural Schwarzschild metric verification
 
-### Act II: Where Light Cannot Escape *(Current)*
+### Act II: Where Light Cannot Escape *(AI-generated, pending human verification)*
 
 **Problem Set 2** — Null geodesics and trapped surfaces. A black hole is not "where gravity is strong" but a *causal structure*: a region from which no signal can reach infinity.
 
-### Act III: The Statistical Mechanics of Ignorance *(Upcoming)*
+*Solutions exist as scaffolding; next step is to work through by hand and verify with EinFields.*
+
+### Act III: The Statistical Mechanics of Ignorance *(AI-generated, pending human verification)*
 
 **Problem Set 3** — Density matrices and von Neumann entropy. The mathematics of incomplete knowledge, leading to the Ryu-Takayanagi formula connecting entanglement to geometry.
+
+*Solutions exist as scaffolding; will follow PS2 in the verification cycle.*
 
 ---
 

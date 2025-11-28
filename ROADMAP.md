@@ -139,11 +139,13 @@ This is speculative but mathematically grounded. The same framework that describ
 
 ## Where We Stand
 
-**Completed**: Act I (Raychaudhuri, $R_{tt}$, EinFields verification)
+**Completed**: Act I (Raychaudhuri, $R_{tt}$) — derived by hand, verified with EinFields
 
-**Current**: Act II (null hypersurfaces, trapped surfaces, horizons)
+**Current**: Act II (null hypersurfaces, trapped surfaces, horizons) — AI-generated solutions exist as scaffolding; next step is human derivation + computational verification
 
-**Ahead**: Act III (quantum information) → Synthesis (geometry from entanglement)
+**Ahead**: Act III (quantum information) — AI-generated solutions exist; will follow Act II through the same derivation→verification cycle
+
+**Parallel track**: Connecting each act's mathematical insights to deep learning optimization as we go
 
 The path forward is clear. The destination is profound: understanding how spacetime itself might emerge from quantum information — and whether these insights can flow backward to improve how machines learn.
 
