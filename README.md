@@ -1,6 +1,85 @@
-# Physics Problem Sets Repository
+# The Geometry of Information
 
-A comprehensive collection of solutions and visualizations for advanced physics problem sets, with emphasis on General Relativity and Quantum Information Theory.
+*A computational exploration of General Relativity, Quantum Information, and Deep Learning*
+
+---
+
+## Overview
+
+This repository documents a journey through Edward Witten's **Physics 539: Topics in Quantum Information and Gravity** (IAS, Fall 2022), augmented with neural network verification using the [EinFields](https://github.com/...) framework.
+
+The work is guided by a central intuition: **spacetime geometry and quantum entanglement are two languages describing the same underlying reality** — and the mathematical machinery connecting them may have profound implications for how we understand and optimize learning systems.
+
+---
+
+## The Central Mystery
+
+Why does a black hole have entropy proportional to its *area* rather than its volume?
+
+$$S = \frac{A}{4\hbar G}$$
+
+This formula looks like it's counting degrees of freedom on a *boundary* rather than in the *bulk*. Witten's course builds the mathematical machinery to understand why — and along the way reveals deep connections between curved spacetime, causal structure, and quantum correlations.
+
+---
+
+## The Journey
+
+### Act I: The Grammar of Curved Spacetime *(Complete)*
+
+**Problem Set 1** — The Raychaudhuri equation tells us that gravity focuses light. We learned to compute curvature:
+
+$$g_{\mu\nu} \to \Gamma^\rho_{\mu\nu} \to R_{\mu\nu}$$
+
+Then verified it computationally: a neural network trained on Schwarzschild spacetime learned not just the metric, but its derivatives — the quantities encoding curvature.
+
+**Key artifact**: [`notebooks/einfields.ipynb`](notebooks/einfields.ipynb) — Neural Schwarzschild metric verification
+
+### Act II: Where Light Cannot Escape *(Current)*
+
+**Problem Set 2** — Null geodesics and trapped surfaces. A black hole is not "where gravity is strong" but a *causal structure*: a region from which no signal can reach infinity.
+
+### Act III: The Statistical Mechanics of Ignorance *(Upcoming)*
+
+**Problem Set 3** — Density matrices and von Neumann entropy. The mathematics of incomplete knowledge, leading to the Ryu-Takayanagi formula connecting entanglement to geometry.
+
+---
+
+## The Bidirectional Vision
+
+We pursue a two-way relationship between differential geometry and deep learning:
+
+| Direction | Description |
+|-----------|-------------|
+| **Forward** | Use neural networks to learn and verify spacetime geometry |
+| **Converse** | Use spacetime mathematics to improve optimization algorithms |
+
+### The Converse: Geometry for Optimization
+
+The loss landscape of a neural network *is* a curved space. Gradient descent treats it as flat — following coordinate directions rather than geodesics. 
+
+**The intuition**: Just as particles follow geodesics in curved spacetime, perhaps optimal learning should follow geodesics in parameter space. The Hessian is the curvature. Christoffel symbols could *correct* naive gradients.
+
+**Connections we're exploring**:
+- Natural gradient descent (Fisher information as Riemannian metric)
+- Information geometry (probability space is curved)
+- Ricci flow for smoothing loss landscapes
+- "Trapped surfaces" in optimization (regions SGD cannot escape)
+
+---
+
+## Application: Clinical Trajectory Geometry
+
+A parallel application motivates this work: modeling **hospital encounters as curved spacetime**.
+
+| Spacetime Concept | Clinical Analog |
+|-------------------|-----------------|
+| Points | Patient states (vitals, labs, diagnoses) |
+| Metric | Similarity/distance between states |
+| Geodesics | Optimal clinical trajectories |
+| Curvature | How trajectories focus/diverge |
+| Trapped surfaces | States from which outcomes inevitably deteriorate |
+
+The mathematics of black holes may illuminate the mathematics of clinical decision-making.
 
 ---
 
@@ -8,297 +87,89 @@ A comprehensive collection of solutions and visualizations for advanced physics 
 
 ```
 physics/
-├── README.md
+├── README.md                    # This document
+├── ROADMAP.md                   # Detailed vision and plan
+├── notebooks/
+│   └── einfields.ipynb          # Neural Schwarzschild verification
 └── courses/
-    └── witten_gr_qit/              # E. Witten's GR & QIT Course (Physics 539)
-        ├── problem_set_1/
-        │   ├── solutions.md        # Complete solutions with embedded figures
-        │   ├── extended_notes_problem2.md
-        │   ├── extended_notes_problem3.md
-        │   ├── figures/
-        │   │   ├── curves.png
-        │   │   └── insight.png
-        │   └── scripts/
-        │       └── visualizations.py
-        ├── problem_set_2/
-        │   ├── solutions.md
-        │   ├── figures/
-        │   │   ├── null_hypersurfaces.png
-        │   │   ├── trapped_surfaces.png
-        │   │   └── causal_futures.png
-        │   └── scripts/
-        │       └── visualizations.py
-        └── problem_set_3/
-            ├── solutions.md
-            ├── figures/
-            │   ├── entropy.png
-            │   ├── bloch_sphere.png
-            │   ├── entropy_inequalities.png
-            │   ├── thermodynamics.png
-            │   ├── quantum_channels.png
-            │   └── summary_channels.png
-            └── scripts/
-                ├── visualizations_part1.py
-                └── visualizations_part2.py
+    └── witten_gr_qit/
+        ├── problem_set_1/       # Causal structure, Raychaudhuri (COMPLETE)
+        ├── problem_set_2/       # Null hypersurfaces, trapped surfaces
+        └── problem_set_3/       # Quantum information theory
 ```
 
 ---
 
-## Course: Witten's General Relativity & Quantum Information Theory
+## Setup
 
-**Source:** Physics 539, Fall 2022  
-**Instructor:** Edward Witten  
-**Institution:** Institute for Advanced Study
+### Requirements
 
-### Problem Set 1: Causal Structure and Raychaudhuri's Equation
+- Python 3.11+
+- JAX with CUDA support (for GPU acceleration)
+- [EinFields](https://github.com/...) framework
 
-**Topics:**
-- Convergence of curves in Minkowski space
-- Compactness of causal curves in globally hyperbolic spacetimes
-- Ricci tensor calculations for Raychaudhuri's equation
-
-**Key Concepts:** Euclidean arclength parametrization, global hyperbolicity, Cauchy surfaces, null geodesic congruences
-
-**Visualizations:** 2 figures illustrating curve convergence and arclength accumulation
-
-### Problem Set 2: Null Hypersurfaces and Trapped Surfaces
-
-**Topics:**
-- Computing R_uu along null hypersurfaces
-- Trapped surfaces in conformally flat spacetimes
-- Boundaries of causal futures and black hole horizons
-
-**Key Concepts:** Raychaudhuri equation (null case), conformal geometry, trapped surfaces, event horizons
-
-**Visualizations:** 3 comprehensive multi-panel figures
-
-### Problem Set 3: Quantum Information Theory
-
-**Topics:**
-1. Maximum von Neumann entropy
-2. Density matrices and Bloch sphere representation
-3. Strong subadditivity of entropy
-4. First law of thermodynamics from quantum mechanics
-5. Relative entropy and monotonicity
-6. Kraus operators for collapse channels
-7. Kraus operators for complete dephasing
-
-**Key Concepts:** von Neumann entropy, density matrices, Bloch sphere, strong subadditivity, quantum channels, Kraus representation
-
-**Visualizations:** 6 detailed figures covering entropy, quantum states, and quantum channels
-
----
-
-## How to Use This Repository
-
-### Reading Solutions
-
-Navigate to the appropriate problem set directory and open `solutions.md`. Each solution document includes:
-
-- Complete problem statements as originally assigned
-- Step-by-step derivations with detailed explanations
-- Embedded figures providing visual intuition
-- Physical interpretations and connections to broader theory
-
-### Generating Visualizations
-
-Each problem set includes Python scripts to regenerate all figures:
+### Quick Start
 
 ```bash
-# Problem Set 1
-cd courses/witten_gr_qit/problem_set_1/scripts
-python visualizations.py
+# Clone this repo
+git clone https://github.com/yourusername/physics.git
 
-# Problem Set 2
-cd courses/witten_gr_qit/problem_set_2/scripts
-python visualizations.py
+# Clone EinFields alongside
+git clone https://github.com/... EinFields
 
-# Problem Set 3
-cd courses/witten_gr_qit/problem_set_3/scripts
-python visualizations_part1.py
-python visualizations_part2.py
+# Install dependencies
+pip install jax[cuda12] numpy matplotlib sympy
+
+# Run the verification notebook
+cd physics/notebooks
+jupyter lab einfields.ipynb
 ```
 
-**Dependencies:** numpy, matplotlib, scipy
-
-**Installation:**
-```bash
-pip install numpy matplotlib scipy
-```
-
-### Extended Notes
-
-Problem Set 1 includes additional detailed derivations:
-- `extended_notes_problem2.md`: Comprehensive discussion of compactness and causal structure
-- `extended_notes_problem3.md`: Complete step-by-step R_tt calculation with all Christoffel symbols
+For GPU support, see `.devcontainer/` for a ready-to-use development container configuration.
 
 ---
 
-## Key Results and Formulas
+## Intellectual Lineage
 
-### General Relativity
+This work draws on several traditions:
 
-**Raychaudhuri Equation (Null):**
-$$\frac{d\theta}{du} = -\theta^2 - \sigma_{ab}\sigma^{ab} + \omega_{ab}\omega^{ab} - R_{ab}k^ak^b$$
+- **Edward Witten** — The course material and problem sets
+- **Sylvester James Gates Jr.** — The insight that discrete graph structures (adinkras) encode smooth geometric information, bridging combinatorics and differential geometry
+- **Information Geometry** — Amari, Ay, and others on the Riemannian structure of probability spaces
+- **Neural Differential Geometry** — EinFields and related work on learning geometric quantities
 
-**Trapped Surface Condition (Conformally Flat):**
-For metric $ds^2 = (t^2-1)(-dt^2 + d\vec{x}^2)$, surface at $t=t_0$, $|\vec{x}|=R$ is trapped when:
-$$|t_0| > 1 \quad \text{and} \quad R > |t_0| - \frac{1}{|t_0|}$$
+The connection between Gates' adinkras and the discrete↔smooth bridge is particularly relevant: his work shows how supersymmetry algebras can be encoded in graph-theoretic objects, suggesting deep structural links between discrete and continuous mathematics.
 
-**R_tt Formula:**
+---
+
+## Key Results
+
+### From Problem Set 1
+
+**R_tt Formula** (Raychaudhuri):
 $$R_{tt} = -\frac{1}{2}\partial_t\text{Tr}(g^{-1}\dot{g}) - \frac{1}{4}\text{Tr}(g^{-1}\dot{g})^2$$
 
-### Quantum Information Theory
+**Neural Verification**: Trained MLP achieved loss ~2×10⁻⁶ on Schwarzschild metric with Jacobian and Hessian supervision. Ricci tensor computed via autodiff matches analytical within ~1%.
 
-**Maximum Entropy:**
-$$S(\rho) \leq \log N, \quad \text{equality iff } \rho = \frac{1}{N}\mathbb{I}$$
+### From Quantum Information (Preview)
 
-**Bloch Sphere (Qubits):**
-$$\rho = \frac{1}{2}(\mathbb{I} + \vec{b} \cdot \vec{\sigma}), \quad |\vec{b}| \leq \frac{1}{2}$$
+**Ryu-Takayanagi**:
+$$S_A = \frac{\text{Area}(\gamma_A)}{4 G_N}$$
 
-**Strong Subadditivity:**
-$$S_{AB} + S_{BC} \geq S_B + S_{ABC}$$
-
-**First Law (Quantum):**
-$$\delta E = T \delta S$$
-
-**Quantum Channel:**
-$$\mathcal{E}(\rho) = \sum_k K_k \rho K_k^\dagger, \quad \sum_k K_k^\dagger K_k = \mathbb{I}$$
-
----
-
-##  Expanding the Repository
-
-### Adding New Problem Sets
-
-To add a new problem set to the Witten course:
-
-```bash
-cd courses/witten_gr_qit
-mkdir problem_set_N
-mkdir problem_set_N/scripts
-mkdir problem_set_N/figures
-```
-
-Create `solutions.md` following the existing format:
-1. Problem statement (as originally assigned)
-2. Detailed solution with step-by-step derivations
-3. Embedded figures with descriptive captions
-4. Physical interpretation and connections
-
-### Adding New Courses
-
-To add a new course or problem set collection:
-
-```bash
-cd courses
-mkdir course_name
-mkdir course_name/problem_set_1
-# ... follow structure above
-```
-
-Update this README with:
-- Course description
-- Key topics covered
-- Notable results
-
-### Creating Visualizations
-
-Follow the existing pattern:
-- Save figures to `../figures/` relative to script location
-- Use clear, descriptive filenames
-- Include comprehensive multi-panel figures when appropriate
-- Add figure captions in the solutions document
-- Use LaTeX math rendering in figure text boxes
-
----
-
-## Mathematical Notation
-
-- **Manifolds:** $M$ (spacetime), $S$ (spacelike hypersurface)
-- **Metrics:** $g_{\mu\nu}$ (spacetime), $g_{ij}$ (spatial)
-- **Causal structure:** $J^+(p)$ (causal future), $I^+(p)$ (chronological future)
-- **Quantum states:** $|\psi\rangle$ (pure state), $\rho$ (density matrix)
-- **Operators:** $H$ (Hamiltonian), $\sigma_i$ (Pauli matrices)
-- **Information:** $S(\rho)$ (von Neumann entropy), $S(\rho\|\sigma)$ (relative entropy)
-
----
-
-## References
-
-### General Relativity
-- **Wald**, *General Relativity* - Rigorous mathematical treatment
-- **Hawking & Ellis**, *The Large Scale Structure of Space-Time* - Classic reference
-- **Poisson**, *A Relativist's Toolkit* - Computational methods
-
-### Quantum Information  
-- **Nielsen & Chuang**, *Quantum Computation and Quantum Information* - Comprehensive textbook
-- **Preskill**, Quantum Information Lecture Notes - Detailed and pedagogical
-- **Wilde**, *Quantum Information Theory* - Advanced treatment
-
----
-
-## Pedagogical Features
-
-### Visual-Spatial Intuition
-
-Every solution includes carefully designed visualizations:
-- **Multi-panel figures** showing different aspects of the same concept
-- **Phase space diagrams** illustrating dynamical behavior
-- **3D visualizations** for geometric intuition
-- **Parameter space plots** showing regimes and boundaries
-
-### Step-by-Step Derivations
-
-All calculations include:
-- Clear statement of what is being computed and why
-- Intermediate steps (never skipping "obvious" steps)
-- Physical interpretation at each stage
-- Verification of results when possible
-
-### Connections and Context
-
-Solutions emphasize:
-- How problems relate to each other
-- Connections to broader theoretical frameworks
-- Applications to physical systems
-- Historical context and significance
-
----
-
-## Contributing
-
-This repository is designed to be extended with:
-- Additional problem sets from Physics 539
-- Problem sets from other advanced physics courses
-- Original problems exploring related topics
-- Enhanced visualizations
-- Extended notes on particularly subtle points
-
-When adding content:
-1. Follow the established directory structure
-2. Include complete problem statements
-3. Provide detailed, pedagogical solutions
-4. Create informative visualizations
-5. Update this README
+Entanglement entropy of boundary region = Area of minimal bulk surface. Geometry IS entanglement.
 
 ---
 
 ## License
 
-These solutions are for educational purposes. Problem statements are from Physics 539 (Fall 2022) taught by Edward Witten at the Institute for Advanced Study.
+Educational use. Problem statements from Physics 539 (Fall 2022), Edward Witten, Institute for Advanced Study.
 
 ---
 
-## Acknowledgments
+## Contact
 
-- **Edward Witten** for the original course and problem sets
-- The Physics 539 course for providing excellent problems spanning GR and QIT
+This work is part of ongoing explorations in computational physics and geometric deep learning. For questions or collaboration, please open an issue.
 
 ---
 
-**Last Updated:** November 2024
-
-**Maintainer:** Physics 539 Student
-
-*This repository demonstrates the deep connections between General Relativity and Quantum Information Theory, two of the most fundamental frameworks in modern theoretical physics.*
+*"The universe is not only queerer than we suppose, but queerer than we can suppose."* — J.B.S. Haldane
