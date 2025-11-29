@@ -141,7 +141,7 @@ This is speculative but mathematically grounded. The same framework that describ
 
 **Completed**: Act I (Raychaudhuri, $R_{tt}$) — derived by hand, verified with EinFields
 
-**Current**: Act II (null hypersurfaces, trapped surfaces, horizons) — AI-generated solutions exist as scaffolding; next step is human derivation + computational verification
+**In Progress**: Act II (null hypersurfaces, trapped surfaces, horizons) — began with expansion θ, null coordinates (u,v), and metric transformation; next step is R_uu calculation
 
 **Ahead**: Act III (quantum information) — AI-generated solutions exist; will follow Act II through the same derivation→verification cycle
 
@@ -157,6 +157,7 @@ The path forward is clear. The destination is profound: understanding how spacet
 - [x] Problem 1.2: Compactness of causal curves
 - [x] Problem 1.3: R_tt calculation + EinFields verification
 - [x] Train neural Schwarzschild with Hessian supervision
+- [x] PS2 Foundations: Expansion θ, null coordinates, metric transformation
 - [ ] Problem 2.1: R_uu on null hypersurfaces
 - [ ] Problem 2.2: Trapped surfaces and null expansions  
 - [ ] Problem 2.3: Event horizons as causal boundaries

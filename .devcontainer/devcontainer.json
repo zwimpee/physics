@@ -8,7 +8,8 @@
     "--shm-size", "8g"
   ],
   "mounts": [
-    "source=${localEnv:USERPROFILE}/EinFields,target=/workspaces/EinFields,type=bind"
+    "source=${localEnv:USERPROFILE}/EinFields,target=/workspaces/EinFields,type=bind",
+    "source=G:/My Drive,target=/workspaces/gdrive,type=bind"
   ],
   "workspaceFolder": "/workspaces/physics",
   "postCreateCommand": "pip install -e /workspaces/EinFields 2>/dev/null || pip install -r /workspaces/EinFields/requirements.txt && pip install 'jax[cuda12]' jupyterlab",
@@ -28,6 +29,7 @@
   "forwardPorts": [8888],
   "features": {}
 }
+
 
 
 
