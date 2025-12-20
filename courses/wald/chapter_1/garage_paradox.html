@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Garage Paradox - Wald Chapter 1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-panel: #12121a;
+            --accent-gold: #d4a574;
+            --accent-cyan: #5ee7df;
+            --accent-magenta: #b490ca;
+            --text-primary: #e8e6e3;
+            --text-muted: #8a8a8a;
+            --grid-color: rgba(94, 231, 223, 0.08);
+            --wire-garage: #5ee7df;
+            --wire-car: #ff6b6b;
+            --wire-observer: #ffd93d;
+        }
+        
+        body {
+            font-family: 'Crimson Pro', Georgia, serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(ellipse at 20% 80%, rgba(94, 231, 223, 0.03) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(180, 144, 202, 0.03) 0%, transparent 50%),
+                linear-gradient(180deg, #0a0a0f 0%, #0f0f18 100%);
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            grid-template-rows: auto 1fr;
+            min-height: 100vh;
+            gap: 0;
+        }
+        
+        header {
+            grid-column: 1 / -1;
+            padding: 1.5rem 2rem;
+            background: linear-gradient(180deg, rgba(18, 18, 26, 0.95) 0%, rgba(18, 18, 26, 0.8) 100%);
+            border-bottom: 1px solid rgba(94, 231, 223, 0.15);
+            backdrop-filter: blur(10px);
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            letter-spacing: 0.02em;
+            margin-bottom: 0.3rem;
+        }
+        
+        header p {
+            font-size: 1rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        
+        .controls-panel {
+            background: var(--bg-panel);
+            padding: 1.5rem;
+            border-right: 1px solid rgba(94, 231, 223, 0.1);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .control-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(94, 231, 223, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        
+        .control-section h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-cyan);
+            margin-bottom: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 500;
+        }
+        
+        .slider-group {
+            margin-bottom: 1rem;
+        }
+        
+        .slider-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .slider-group label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .slider-group label span.value {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            font-size: 0.85rem;
+        }
+        
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(94, 231, 223, 0.15);
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent-cyan);
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(94, 231, 223, 0.5);
+            transition: transform 0.15s ease;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+        
+        input[type="range"].velocity::-webkit-slider-thumb {
+            background: var(--accent-magenta);
+            box-shadow: 0 0 10px rgba(180, 144, 202, 0.5);
+        }
+        
+        .frame-toggle {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .frame-btn {
+            flex: 1;
+            padding: 0.7rem 0.5rem;
+            border: 1px solid rgba(94, 231, 223, 0.3);
+            background: transparent;
+            color: var(--text-muted);
+            font-family: 'Crimson Pro', serif;
+            font-size: 0.9rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .frame-btn.active {
+            background: rgba(94, 231, 223, 0.15);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+        
+        .frame-btn:hover:not(.active) {
+            border-color: rgba(94, 231, 223, 0.5);
+            color: var(--text-primary);
+        }
+        
+        .info-box {
+            background: rgba(212, 165, 116, 0.08);
+            border: 1px solid rgba(212, 165, 116, 0.2);
+            border-radius: 6px;
+            padding: 1rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        
+        .info-box .title {
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        .math {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-cyan);
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+        }
+        
+        .event-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+        }
+        
+        .event-indicator.front-enters {
+            background: rgba(255, 107, 107, 0.1);
+            border-left: 3px solid #ff6b6b;
+        }
+        
+        .event-indicator.back-enters {
+            background: rgba(255, 215, 61, 0.1);
+            border-left: 3px solid #ffd93d;
+        }
+        
+        .event-indicator.front-exits {
+            background: rgba(94, 231, 223, 0.1);
+            border-left: 3px solid var(--accent-cyan);
+        }
+        
+        .event-indicator .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        
+        .event-indicator.front-enters .dot { background: #ff6b6b; }
+        .event-indicator.back-enters .dot { background: #ffd93d; }
+        .event-indicator.front-exits .dot { background: var(--accent-cyan); }
+        
+        .event-indicator .status {
+            margin-left: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+        }
+        
+        .event-indicator .status.pending { color: var(--text-muted); }
+        .event-indicator .status.now { color: #5ee7df; font-weight: 600; }
+        .event-indicator .status.passed { color: var(--accent-gold); }
+        
+        .canvas-container {
+            position: relative;
+            background: var(--bg-dark);
+        }
+        
+        #canvas3d {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            display: flex;
+            gap: 1.5rem;
+            padding: 0.8rem 1.2rem;
+            background: rgba(18, 18, 26, 0.9);
+            border-radius: 6px;
+            border: 1px solid rgba(94, 231, 223, 0.15);
+            backdrop-filter: blur(10px);
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 3px;
+            border-radius: 2px;
+        }
+        
+        .legend-color.garage { background: var(--wire-garage); }
+        .legend-color.car { background: var(--wire-car); }
+        .legend-color.observer { background: var(--wire-observer); }
+        
+        .time-display {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            padding: 1rem 1.5rem;
+            background: rgba(18, 18, 26, 0.95);
+            border-radius: 8px;
+            border: 1px solid rgba(94, 231, 223, 0.2);
+            backdrop-filter: blur(10px);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        .time-display .frame-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+        
+        .time-display .time-value {
+            font-size: 1.5rem;
+            color: var(--accent-cyan);
+        }
+        
+        .time-display .time-other {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid rgba(94, 231, 223, 0.1);
+        }
+        
+        .spacetime-diagram {
+            position: absolute;
+            top: 1.5rem;
+            left: 1.5rem;
+            width: 200px;
+            height: 200px;
+            background: rgba(18, 18, 26, 0.95);
+            border-radius: 8px;
+            border: 1px solid rgba(94, 231, 223, 0.2);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+        
+        .spacetime-diagram canvas {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .play-controls {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .play-btn {
+            flex: 1;
+            padding: 0.6rem;
+            border: 1px solid rgba(94, 231, 223, 0.3);
+            background: transparent;
+            color: var(--text-primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .play-btn:hover {
+            background: rgba(94, 231, 223, 0.1);
+            border-color: var(--accent-cyan);
+        }
+        
+        .play-btn.active {
+            background: rgba(94, 231, 223, 0.2);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+        
+        .length-display {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .length-item {
+            padding: 0.5rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .length-item .label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .length-item .value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            margin-top: 0.2rem;
+        }
+        
+        .length-item.garage .value { color: var(--wire-garage); }
+        .length-item.car .value { color: var(--wire-car); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Garage Paradox</h1>
+            <p>Wald, General Relativity — Chapter 1, Problem 1: Resolving apparent contradictions through the relativity of simultaneity</p>
+        </header>
+        
+        <div class="controls-panel">
+            <div class="control-section">
+                <h3>Reference Frame</h3>
+                <div class="frame-toggle">
+                    <button class="frame-btn active" data-frame="garage">Garage Frame</button>
+                    <button class="frame-btn" data-frame="car">Car Frame</button>
+                </div>
+            </div>
+            
+            <div class="control-section">
+                <h3>Time Control</h3>
+                <div class="slider-group">
+                    <label>
+                        Time (selected frame)
+                        <span class="value" id="time-value">t = 0.00</span>
+                    </label>
+                    <input type="range" id="time-slider" min="-3" max="3" step="0.01" value="0">
+                </div>
+                <div class="play-controls">
+                    <button class="play-btn" id="play-btn">▶ Play</button>
+                    <button class="play-btn" id="reset-btn">⟲ Reset</button>
+                </div>
+            </div>
+            
+            <div class="control-section">
+                <h3>Velocity</h3>
+                <div class="slider-group">
+                    <label>
+                        Car velocity
+                        <span class="value" id="velocity-value">v = 0.60c</span>
+                    </label>
+                    <input type="range" class="velocity" id="velocity-slider" min="0.1" max="0.95" step="0.01" value="0.6">
+                </div>
+                <div class="slider-group">
+                    <label>
+                        Lorentz factor
+                        <span class="value" id="gamma-value">γ = 1.25</span>
+                    </label>
+                </div>
+                <div class="length-display">
+                    <div class="length-item garage">
+                        <div class="label">Garage Length</div>
+                        <div class="value" id="garage-length">1.00 L₀</div>
+                    </div>
+                    <div class="length-item car">
+                        <div class="label">Car Length</div>
+                        <div class="value" id="car-length">1.00 L₀</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="control-section">
+                <h3>Events</h3>
+                <div class="event-indicator front-enters">
+                    <div class="dot"></div>
+                    <span>Front enters garage</span>
+                    <span class="status pending" id="event-front-enters">—</span>
+                </div>
+                <div class="event-indicator back-enters">
+                    <div class="dot"></div>
+                    <span>Back enters garage</span>
+                    <span class="status pending" id="event-back-enters">—</span>
+                </div>
+                <div class="event-indicator front-exits">
+                    <div class="dot"></div>
+                    <span>Front exits garage</span>
+                    <span class="status pending" id="event-front-exits">—</span>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <span class="title">The Paradox</span>
+                A car and garage have equal proper lengths. The car travels at relativistic speed toward the garage.
+                <br><br>
+                <strong>Garage observer:</strong> The car is length-contracted and fits entirely inside momentarily.
+                <br><br>
+                <strong>Car driver:</strong> The garage is length-contracted and the car cannot fit.
+                <br><br>
+                <strong>Resolution:</strong> Different observers disagree on which events are simultaneous. The "fitting" depends on <em>when</em> you check each end — and simultaneity is relative!
+            </div>
+            
+            <div class="info-box">
+                <span class="title">Lorentz Transformations</span>
+                <span class="math">x' = γ(x - vt)</span><br>
+                <span class="math">t' = γ(t - vx/c²)</span><br><br>
+                Length contraction: <span class="math">L = L₀/γ</span>
+            </div>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas id="canvas3d"></canvas>
+            
+            <div class="spacetime-diagram">
+                <canvas id="spacetime-canvas"></canvas>
+            </div>
+            
+            <div class="time-display">
+                <div class="frame-label" id="current-frame-label">Garage Frame</div>
+                <div class="time-value" id="current-time">t = 0.00</div>
+                <div class="time-other" id="other-frame-time">Car frame: t' = 0.00</div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color garage"></div>
+                    <span>Garage</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color car"></div>
+                    <span>Car</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color observer"></div>
+                    <span>Observer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script>
+        // ============================================================
+        // PHYSICS CONSTANTS AND STATE
+        // ============================================================
+        const c = 1; // Speed of light (natural units)
+        const L0 = 2; // Proper length of both car and garage
+        
+        let state = {
+            velocity: 0.6,
+            gamma: 1.25,
+            time: 0,
+            frame: 'garage', // 'garage' or 'car'
+            isPlaying: false
+        };
+        
+        // Calculate Lorentz factor
+        function calcGamma(v) {
+            return 1 / Math.sqrt(1 - v * v / (c * c));
+        }
+        
+        // Lorentz transformation from garage frame to car frame
+        function lorentzTransform(x, t, v) {
+            const gamma = calcGamma(v);
+            return {
+                x: gamma * (x - v * t),
+                t: gamma * (t - v * x / (c * c))
+            };
+        }
+        
+        // Inverse Lorentz transformation (car frame to garage frame)
+        function inverseLorentzTransform(xPrime, tPrime, v) {
+            const gamma = calcGamma(v);
+            return {
+                x: gamma * (xPrime + v * tPrime),
+                t: gamma * (tPrime + v * xPrime / (c * c))
+            };
+        }
+        
+        // ============================================================
+        // THREE.JS SETUP
+        // ============================================================
+        const canvas = document.getElementById('canvas3d');
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(50, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+        
+        renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.setClearColor(0x0a0a0f, 1);
+        
+        // Camera position
+        camera.position.set(6, 4, 8);
+        camera.lookAt(0, 0, 0);
+        
+        // Orbit controls
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+        controls.minDistance = 5;
+        controls.maxDistance = 20;
+        
+        // ============================================================
+        // WIREFRAME MATERIALS
+        // ============================================================
+        const garageMaterial = new THREE.LineBasicMaterial({ 
+            color: 0x5ee7df,
+            linewidth: 2,
+            transparent: true,
+            opacity: 0.9
+        });
+        
+        const carMaterial = new THREE.LineBasicMaterial({ 
+            color: 0xff6b6b,
+            linewidth: 2,
+            transparent: true,
+            opacity: 0.9
+        });
+        
+        const observerMaterial = new THREE.LineBasicMaterial({ 
+            color: 0xffd93d,
+            linewidth: 2
+        });
+        
+        const gridMaterial = new THREE.LineBasicMaterial({
+            color: 0x5ee7df,
+            transparent: true,
+            opacity: 0.08
+        });
+        
+        // ============================================================
+        // CREATE WIREFRAME GEOMETRIES
+        // ============================================================
+        
+        // Create wireframe box (edges only)
+        function createWireframeBox(width, height, depth, material) {
+            const geometry = new THREE.BoxGeometry(width, height, depth);
+            const edges = new THREE.EdgesGeometry(geometry);
+            return new THREE.LineSegments(edges, material);
+        }
+        
+        // Create garage with open front and back
+        function createGarage(length) {
+            const group = new THREE.Group();
+            const height = 1.2;
+            const width = 1.5;
+            
+            // Garage frame - just the structural edges
+            const points = [
+                // Bottom rectangle
+                new THREE.Vector3(-length/2, 0, -width/2),
+                new THREE.Vector3(-length/2, 0, width/2),
+                new THREE.Vector3(-length/2, 0, width/2),
+                new THREE.Vector3(length/2, 0, width/2),
+                new THREE.Vector3(length/2, 0, width/2),
+                new THREE.Vector3(length/2, 0, -width/2),
+                new THREE.Vector3(length/2, 0, -width/2),
+                new THREE.Vector3(-length/2, 0, -width/2),
+                
+                // Top rectangle
+                new THREE.Vector3(-length/2, height, -width/2),
+                new THREE.Vector3(-length/2, height, width/2),
+                new THREE.Vector3(-length/2, height, width/2),
+                new THREE.Vector3(length/2, height, width/2),
+                new THREE.Vector3(length/2, height, width/2),
+                new THREE.Vector3(length/2, height, -width/2),
+                new THREE.Vector3(length/2, height, -width/2),
+                new THREE.Vector3(-length/2, height, -width/2),
+                
+                // Vertical posts
+                new THREE.Vector3(-length/2, 0, -width/2),
+                new THREE.Vector3(-length/2, height, -width/2),
+                new THREE.Vector3(-length/2, 0, width/2),
+                new THREE.Vector3(-length/2, height, width/2),
+                new THREE.Vector3(length/2, 0, -width/2),
+                new THREE.Vector3(length/2, height, -width/2),
+                new THREE.Vector3(length/2, 0, width/2),
+                new THREE.Vector3(length/2, height, width/2),
+            ];
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const garage = new THREE.LineSegments(geometry, garageMaterial.clone());
+            group.add(garage);
+            
+            // Add door markers at front (-x) and back (+x)
+            const doorHeight = height * 0.9;
+            const doorWidth = width * 0.8;
+            
+            // Front door frame
+            const frontDoorPoints = [
+                new THREE.Vector3(-length/2 - 0.02, 0, -doorWidth/2),
+                new THREE.Vector3(-length/2 - 0.02, doorHeight, -doorWidth/2),
+                new THREE.Vector3(-length/2 - 0.02, doorHeight, -doorWidth/2),
+                new THREE.Vector3(-length/2 - 0.02, doorHeight, doorWidth/2),
+                new THREE.Vector3(-length/2 - 0.02, doorHeight, doorWidth/2),
+                new THREE.Vector3(-length/2 - 0.02, 0, doorWidth/2),
+            ];
+            const frontDoorGeom = new THREE.BufferGeometry().setFromPoints(frontDoorPoints);
+            const frontDoor = new THREE.LineSegments(frontDoorGeom, garageMaterial.clone());
+            frontDoor.material.opacity = 0.5;
+            group.add(frontDoor);
+            
+            // Back door frame
+            const backDoorPoints = [
+                new THREE.Vector3(length/2 + 0.02, 0, -doorWidth/2),
+                new THREE.Vector3(length/2 + 0.02, doorHeight, -doorWidth/2),
+                new THREE.Vector3(length/2 + 0.02, doorHeight, -doorWidth/2),
+                new THREE.Vector3(length/2 + 0.02, doorHeight, doorWidth/2),
+                new THREE.Vector3(length/2 + 0.02, doorHeight, doorWidth/2),
+                new THREE.Vector3(length/2 + 0.02, 0, doorWidth/2),
+            ];
+            const backDoorGeom = new THREE.BufferGeometry().setFromPoints(backDoorPoints);
+            const backDoor = new THREE.LineSegments(backDoorGeom, garageMaterial.clone());
+            backDoor.material.opacity = 0.5;
+            group.add(backDoor);
+            
+            return group;
+        }
+        
+        // Create car wireframe
+        function createCar(length) {
+            const group = new THREE.Group();
+            const height = 0.8;
+            const width = 1.0;
+            
+            // Main body
+            const bodyPoints = [
+                // Bottom
+                new THREE.Vector3(-length/2, 0.15, -width/2),
+                new THREE.Vector3(-length/2, 0.15, width/2),
+                new THREE.Vector3(-length/2, 0.15, width/2),
+                new THREE.Vector3(length/2, 0.15, width/2),
+                new THREE.Vector3(length/2, 0.15, width/2),
+                new THREE.Vector3(length/2, 0.15, -width/2),
+                new THREE.Vector3(length/2, 0.15, -width/2),
+                new THREE.Vector3(-length/2, 0.15, -width/2),
+                
+                // Hood level
+                new THREE.Vector3(-length/2, 0.4, -width/2),
+                new THREE.Vector3(-length/2, 0.4, width/2),
+                new THREE.Vector3(-length/2, 0.4, width/2),
+                new THREE.Vector3(length * 0.3, 0.4, width/2),
+                new THREE.Vector3(length * 0.3, 0.4, width/2),
+                new THREE.Vector3(length * 0.3, 0.4, -width/2),
+                new THREE.Vector3(length * 0.3, 0.4, -width/2),
+                new THREE.Vector3(-length/2, 0.4, -width/2),
+                
+                // Roof front
+                new THREE.Vector3(-length * 0.2, height, -width/2 * 0.9),
+                new THREE.Vector3(-length * 0.2, height, width/2 * 0.9),
+                new THREE.Vector3(-length * 0.2, height, width/2 * 0.9),
+                new THREE.Vector3(length * 0.25, height, width/2 * 0.9),
+                new THREE.Vector3(length * 0.25, height, width/2 * 0.9),
+                new THREE.Vector3(length * 0.25, height, -width/2 * 0.9),
+                new THREE.Vector3(length * 0.25, height, -width/2 * 0.9),
+                new THREE.Vector3(-length * 0.2, height, -width/2 * 0.9),
+                
+                // Verticals - front
+                new THREE.Vector3(-length/2, 0.15, -width/2),
+                new THREE.Vector3(-length/2, 0.4, -width/2),
+                new THREE.Vector3(-length/2, 0.15, width/2),
+                new THREE.Vector3(-length/2, 0.4, width/2),
+                
+                // Verticals - hood to windshield
+                new THREE.Vector3(-length * 0.2, 0.4, -width/2),
+                new THREE.Vector3(-length * 0.2, height, -width/2 * 0.9),
+                new THREE.Vector3(-length * 0.2, 0.4, width/2),
+                new THREE.Vector3(-length * 0.2, height, width/2 * 0.9),
+                
+                // Verticals - rear window
+                new THREE.Vector3(length * 0.25, 0.4, -width/2),
+                new THREE.Vector3(length * 0.25, height, -width/2 * 0.9),
+                new THREE.Vector3(length * 0.25, 0.4, width/2),
+                new THREE.Vector3(length * 0.25, height, width/2 * 0.9),
+                
+                // Back
+                new THREE.Vector3(length/2, 0.15, -width/2),
+                new THREE.Vector3(length/2, 0.5, -width/2),
+                new THREE.Vector3(length/2, 0.15, width/2),
+                new THREE.Vector3(length/2, 0.5, width/2),
+                new THREE.Vector3(length/2, 0.5, -width/2),
+                new THREE.Vector3(length/2, 0.5, width/2),
+                
+                // Connect hood to back
+                new THREE.Vector3(length * 0.3, 0.4, -width/2),
+                new THREE.Vector3(length/2, 0.5, -width/2),
+                new THREE.Vector3(length * 0.3, 0.4, width/2),
+                new THREE.Vector3(length/2, 0.5, width/2),
+            ];
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(bodyPoints);
+            const car = new THREE.LineSegments(geometry, carMaterial.clone());
+            group.add(car);
+            
+            // Add wheels (circles)
+            const wheelRadius = 0.15;
+            const wheelSegments = 16;
+            
+            const wheelPositions = [
+                [-length * 0.35, 0.15, width/2 + 0.01],
+                [-length * 0.35, 0.15, -width/2 - 0.01],
+                [length * 0.35, 0.15, width/2 + 0.01],
+                [length * 0.35, 0.15, -width/2 - 0.01],
+            ];
+            
+            wheelPositions.forEach(pos => {
+                const wheelGeometry = new THREE.CircleGeometry(wheelRadius, wheelSegments);
+                const edges = new THREE.EdgesGeometry(wheelGeometry);
+                const wheel = new THREE.LineSegments(edges, carMaterial.clone());
+                wheel.position.set(pos[0], pos[1], pos[2]);
+                wheel.rotation.y = Math.PI / 2;
+                group.add(wheel);
+            });
+            
+            return group;
+        }
+        
+        // Create observer figure
+        function createObserver() {
+            const group = new THREE.Group();
+            
+            // Simple stick figure
+            const points = [
+                // Body
+                new THREE.Vector3(0, 0, 0),
+                new THREE.Vector3(0, 0.6, 0),
+                // Head
+                new THREE.Vector3(0, 0.6, 0),
+                new THREE.Vector3(0, 0.8, 0),
+                // Arms
+                new THREE.Vector3(-0.2, 0.5, 0),
+                new THREE.Vector3(0.2, 0.5, 0),
+                // Legs
+                new THREE.Vector3(0, 0, 0),
+                new THREE.Vector3(-0.15, -0.4, 0),
+                new THREE.Vector3(0, 0, 0),
+                new THREE.Vector3(0.15, -0.4, 0),
+            ];
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const observer = new THREE.LineSegments(geometry, observerMaterial);
+            group.add(observer);
+            
+            // Head circle
+            const headGeometry = new THREE.CircleGeometry(0.12, 12);
+            const headEdges = new THREE.EdgesGeometry(headGeometry);
+            const head = new THREE.LineSegments(headEdges, observerMaterial);
+            head.position.set(0, 0.75, 0);
+            group.add(head);
+            
+            return group;
+        }
+        
+        // Create ground grid
+        function createGrid() {
+            const group = new THREE.Group();
+            const size = 10;
+            const divisions = 20;
+            
+            const points = [];
+            const step = size / divisions;
+            
+            for (let i = -size/2; i <= size/2; i += step) {
+                points.push(new THREE.Vector3(i, 0, -size/2));
+                points.push(new THREE.Vector3(i, 0, size/2));
+                points.push(new THREE.Vector3(-size/2, 0, i));
+                points.push(new THREE.Vector3(size/2, 0, i));
+            }
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const grid = new THREE.LineSegments(geometry, gridMaterial);
+            group.add(grid);
+            
+            return group;
+        }
+        
+        // ============================================================
+        // SCENE OBJECTS
+        // ============================================================
+        let garage, car, garageObserver, carObserver, grid;
+        
+        function initScene() {
+            // Clear existing objects
+            while(scene.children.length > 0) { 
+                scene.remove(scene.children[0]); 
+            }
+            
+            // Add grid
+            grid = createGrid();
+            scene.add(grid);
+            
+            // Create garage (always at proper length, position depends on frame)
+            garage = createGarage(L0);
+            scene.add(garage);
+            
+            // Create car
+            car = createCar(L0);
+            scene.add(car);
+            
+            // Create observers
+            garageObserver = createObserver();
+            garageObserver.position.set(0, 0, -2.5);
+            scene.add(garageObserver);
+            
+            carObserver = createObserver();
+            scene.add(carObserver);
+            
+            // Add ambient light (for potential future use)
+            const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+            scene.add(ambientLight);
+            
+            // Axis helper (subtle)
+            const axesHelper = new THREE.AxesHelper(0.5);
+            axesHelper.position.set(-4, 0.01, -3);
+            scene.add(axesHelper);
+        }
+        
+        initScene();
+        
+        // ============================================================
+        // UPDATE FUNCTION
+        // ============================================================
+        function updateScene() {
+            const v = state.velocity;
+            const gamma = state.gamma;
+            const t = state.time;
+            
+            if (state.frame === 'garage') {
+                // GARAGE FRAME
+                // Garage is stationary, car is moving and length-contracted
+                const carLength = L0 / gamma;
+                
+                // Garage at origin
+                garage.scale.x = 1;
+                garage.position.x = 0;
+                
+                // Car position: front of car at x = v*t at time t
+                // Car center is at x = v*t - carLength/2
+                const carFrontX = v * t;
+                const carCenterX = carFrontX - carLength / 2;
+                
+                // Update car
+                car.scale.x = 1 / gamma;
+                car.position.x = carCenterX;
+                
+                // Car observer rides with the car
+                carObserver.position.set(carCenterX, 0, 0);
+                
+                // Garage observer stays at garage
+                garageObserver.position.set(0, 0, -2.5);
+                
+            } else {
+                // CAR FRAME
+                // Car is stationary (at proper length), garage is moving and length-contracted
+                const garageLength = L0 / gamma;
+                
+                // Car at origin
+                car.scale.x = 1;
+                car.position.x = 0;
+                
+                // Garage moving toward car at velocity -v
+                // At t'=0, let's say the garage front was at x' = some initial position
+                // Garage center moves at -v, so at time t': x'_garage = x'_0 - v*t'
+                // We want: at t'=0 in car frame, the front of garage is approaching
+                const garageFrontX = -v * t; // Front of garage at -v*t in car frame
+                const garageCenterX = garageFrontX + garageLength / 2;
+                
+                // Update garage
+                garage.scale.x = 1 / gamma;
+                garage.position.x = garageCenterX;
+                
+                // Car observer at car (origin)
+                carObserver.position.set(0, 0, 0);
+                
+                // Garage observer moves with garage
+                garageObserver.position.set(garageCenterX, 0, -2.5 / gamma);
+            }
+            
+            updateUI();
+            updateSpacetimeDiagram();
+        }
+        
+        // ============================================================
+        // UI UPDATE
+        // ============================================================
+        function updateUI() {
+            const v = state.velocity;
+            const gamma = state.gamma;
+            const t = state.time;
+            
+            // Update displays
+            document.getElementById('time-value').textContent = `t = ${t.toFixed(2)}`;
+            document.getElementById('velocity-value').textContent = `v = ${v.toFixed(2)}c`;
+            document.getElementById('gamma-value').textContent = `γ = ${gamma.toFixed(3)}`;
+            
+            // Length displays depend on frame
+            if (state.frame === 'garage') {
+                document.getElementById('garage-length').textContent = `${L0.toFixed(2)} L₀`;
+                document.getElementById('car-length').textContent = `${(L0/gamma).toFixed(2)} L₀`;
+            } else {
+                document.getElementById('garage-length').textContent = `${(L0/gamma).toFixed(2)} L₀`;
+                document.getElementById('car-length').textContent = `${L0.toFixed(2)} L₀`;
+            }
+            
+            // Time display
+            document.getElementById('current-time').textContent = `t = ${t.toFixed(2)}`;
+            document.getElementById('current-frame-label').textContent = 
+                state.frame === 'garage' ? 'Garage Frame' : 'Car Frame';
+            
+            // Calculate time in other frame (at origin of current frame)
+            // This is a simplification - really depends on position
+            const tOther = gamma * t; // Time dilation
+            document.getElementById('other-frame-time').textContent = 
+                state.frame === 'garage' 
+                    ? `Car frame: t' ≈ ${(t * gamma).toFixed(2)}` 
+                    : `Garage frame: t ≈ ${(t * gamma).toFixed(2)}`;
+            
+            // Update events
+            updateEventIndicators();
+        }
+        
+        function updateEventIndicators() {
+            const v = state.velocity;
+            const gamma = state.gamma;
+            const t = state.time;
+            
+            // Event times in garage frame:
+            // Front of car enters garage (front of car at x = -L0/2): t1 = -L0/(2v) - (L0/gamma)/(2v)
+            // Back of car enters garage: t2 = t1 + (L0/gamma)/v
+            // Front of car exits garage: t3 = t1 + L0/v
+            
+            // Simplified: let's define events relative to when car front is at garage front
+            // At t=0 (garage frame), front of car is at x=0 (garage front at x=-L0/2)
+            
+            // Actually, let's compute based on our coordinate system
+            // Garage: from x=-L0/2 to x=L0/2
+            // Car front at x = v*t, car back at x = v*t - L0/gamma
+            
+            const carLength = L0 / gamma;
+            
+            // Event 1: Front enters (car front reaches x = -L0/2)
+            const t_frontEnters = -L0 / (2 * v);
+            
+            // Event 2: Back enters (car back reaches x = -L0/2)
+            const t_backEnters = t_frontEnters + carLength / v;
+            
+            // Event 3: Front exits (car front reaches x = L0/2)
+            const t_frontExits = L0 / (2 * v);
+            
+            // In car frame, the times are different due to relativity of simultaneity
+            let displayTimes;
+            if (state.frame === 'garage') {
+                displayTimes = {
+                    frontEnters: t_frontEnters,
+                    backEnters: t_backEnters,
+                    frontExits: t_frontExits
+                };
+            } else {
+                // Transform to car frame (at the location of each event)
+                // This requires knowing both x and t of each event
+                
+                // Event 1: (x = -L0/2, t = t_frontEnters) in garage frame
+                const event1 = lorentzTransform(-L0/2, t_frontEnters, v);
+                
+                // Event 2: (x = -L0/2, t = t_backEnters)
+                const event2 = lorentzTransform(-L0/2, t_backEnters, v);
+                
+                // Event 3: (x = L0/2, t = t_frontExits)
+                const event3 = lorentzTransform(L0/2, t_frontExits, v);
+                
+                displayTimes = {
+                    frontEnters: event1.t,
+                    backEnters: event2.t,
+                    frontExits: event3.t
+                };
+            }
+            
+            // Update indicators
+            updateEventStatus('event-front-enters', t, displayTimes.frontEnters);
+            updateEventStatus('event-back-enters', t, displayTimes.backEnters);
+            updateEventStatus('event-front-exits', t, displayTimes.frontExits);
+        }
+        
+        function updateEventStatus(elementId, currentTime, eventTime) {
+            const element = document.getElementById(elementId);
+            const tolerance = 0.1;
+            
+            if (Math.abs(currentTime - eventTime) < tolerance) {
+                element.textContent = 'NOW';
+                element.className = 'status now';
+            } else if (currentTime > eventTime) {
+                element.textContent = `t=${eventTime.toFixed(2)}`;
+                element.className = 'status passed';
+            } else {
+                element.textContent = `t=${eventTime.toFixed(2)}`;
+                element.className = 'status pending';
+            }
+        }
+        
+        // ============================================================
+        // SPACETIME DIAGRAM
+        // ============================================================
+        const stCanvas = document.getElementById('spacetime-canvas');
+        const stCtx = stCanvas.getContext('2d');
+        
+        function updateSpacetimeDiagram() {
+            const width = 200;
+            const height = 200;
+            stCanvas.width = width;
+            stCanvas.height = height;
+            
+            stCtx.fillStyle = '#12121a';
+            stCtx.fillRect(0, 0, width, height);
+            
+            const centerX = width / 2;
+            const centerY = height / 2;
+            const scale = 25;
+            
+            // Draw axes
+            stCtx.strokeStyle = 'rgba(94, 231, 223, 0.3)';
+            stCtx.lineWidth = 1;
+            stCtx.beginPath();
+            stCtx.moveTo(0, centerY);
+            stCtx.lineTo(width, centerY);
+            stCtx.moveTo(centerX, 0);
+            stCtx.lineTo(centerX, height);
+            stCtx.stroke();
+            
+            // Labels
+            stCtx.fillStyle = '#8a8a8a';
+            stCtx.font = '10px JetBrains Mono';
+            stCtx.fillText('x', width - 15, centerY - 5);
+            stCtx.fillText('t', centerX + 5, 15);
+            
+            // Draw light cones (at origin)
+            stCtx.strokeStyle = 'rgba(212, 165, 116, 0.3)';
+            stCtx.setLineDash([3, 3]);
+            stCtx.beginPath();
+            stCtx.moveTo(0, height);
+            stCtx.lineTo(width, 0);
+            stCtx.moveTo(0, 0);
+            stCtx.lineTo(width, height);
+            stCtx.stroke();
+            stCtx.setLineDash([]);
+            
+            const v = state.velocity;
+            const gamma = state.gamma;
+            const t = state.time;
+            
+            // Draw garage worldlines (vertical lines at x = ±L0/2 in garage frame)
+            stCtx.strokeStyle = '#5ee7df';
+            stCtx.lineWidth = 2;
+            
+            if (state.frame === 'garage') {
+                // Garage stationary
+                stCtx.beginPath();
+                stCtx.moveTo(centerX - L0/2 * scale, 0);
+                stCtx.lineTo(centerX - L0/2 * scale, height);
+                stCtx.moveTo(centerX + L0/2 * scale, 0);
+                stCtx.lineTo(centerX + L0/2 * scale, height);
+                stCtx.stroke();
+                
+                // Car worldlines (tilted)
+                stCtx.strokeStyle = '#ff6b6b';
+                const carLength = L0 / gamma;
+                
+                // Car front worldline: x = v*t
+                stCtx.beginPath();
+                for (let tDraw = -4; tDraw <= 4; tDraw += 0.1) {
+                    const x = v * tDraw;
+                    const px = centerX + x * scale;
+                    const py = centerY - tDraw * scale;
+                    if (tDraw === -4) stCtx.moveTo(px, py);
+                    else stCtx.lineTo(px, py);
+                }
+                stCtx.stroke();
+                
+                // Car back worldline: x = v*t - carLength
+                stCtx.beginPath();
+                for (let tDraw = -4; tDraw <= 4; tDraw += 0.1) {
+                    const x = v * tDraw - carLength;
+                    const px = centerX + x * scale;
+                    const py = centerY - tDraw * scale;
+                    if (tDraw === -4) stCtx.moveTo(px, py);
+                    else stCtx.lineTo(px, py);
+                }
+                stCtx.stroke();
+                
+            } else {
+                // Car frame - car stationary, garage moving
+                // Car at x' = 0 to x' = L0
+                stCtx.strokeStyle = '#ff6b6b';
+                stCtx.beginPath();
+                stCtx.moveTo(centerX - L0/2 * scale, 0);
+                stCtx.lineTo(centerX - L0/2 * scale, height);
+                stCtx.moveTo(centerX + L0/2 * scale, 0);
+                stCtx.lineTo(centerX + L0/2 * scale, height);
+                stCtx.stroke();
+                
+                // Garage worldlines (tilted, moving at -v)
+                stCtx.strokeStyle = '#5ee7df';
+                const garageLength = L0 / gamma;
+                
+                // Garage front worldline
+                stCtx.beginPath();
+                for (let tDraw = -4; tDraw <= 4; tDraw += 0.1) {
+                    const x = -v * tDraw;
+                    const px = centerX + x * scale;
+                    const py = centerY - tDraw * scale;
+                    if (tDraw === -4) stCtx.moveTo(px, py);
+                    else stCtx.lineTo(px, py);
+                }
+                stCtx.stroke();
+                
+                // Garage back worldline
+                stCtx.beginPath();
+                for (let tDraw = -4; tDraw <= 4; tDraw += 0.1) {
+                    const x = -v * tDraw + garageLength;
+                    const px = centerX + x * scale;
+                    const py = centerY - tDraw * scale;
+                    if (tDraw === -4) stCtx.moveTo(px, py);
+                    else stCtx.lineTo(px, py);
+                }
+                stCtx.stroke();
+            }
+            
+            // Draw current time line (horizontal in current frame)
+            stCtx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+            stCtx.lineWidth = 1;
+            stCtx.setLineDash([5, 5]);
+            stCtx.beginPath();
+            const timeY = centerY - t * scale;
+            stCtx.moveTo(0, timeY);
+            stCtx.lineTo(width, timeY);
+            stCtx.stroke();
+            stCtx.setLineDash([]);
+            
+            // Mark current time
+            stCtx.fillStyle = '#ffd93d';
+            stCtx.beginPath();
+            stCtx.arc(centerX, timeY, 4, 0, Math.PI * 2);
+            stCtx.fill();
+        }
+        
+        // ============================================================
+        // EVENT LISTENERS
+        // ============================================================
+        
+        // Time slider
+        document.getElementById('time-slider').addEventListener('input', (e) => {
+            state.time = parseFloat(e.target.value);
+            updateScene();
+        });
+        
+        // Velocity slider
+        document.getElementById('velocity-slider').addEventListener('input', (e) => {
+            state.velocity = parseFloat(e.target.value);
+            state.gamma = calcGamma(state.velocity);
+            updateScene();
+        });
+        
+        // Frame toggle buttons
+        document.querySelectorAll('.frame-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.frame-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                state.frame = btn.dataset.frame;
+                state.time = 0;
+                document.getElementById('time-slider').value = 0;
+                updateScene();
+            });
+        });
+        
+        // Play button
+        let animationId = null;
+        document.getElementById('play-btn').addEventListener('click', () => {
+            state.isPlaying = !state.isPlaying;
+            const btn = document.getElementById('play-btn');
+            
+            if (state.isPlaying) {
+                btn.textContent = '⏸ Pause';
+                btn.classList.add('active');
+            } else {
+                btn.textContent = '▶ Play';
+                btn.classList.remove('active');
+            }
+        });
+        
+        // Reset button
+        document.getElementById('reset-btn').addEventListener('click', () => {
+            state.time = 0;
+            document.getElementById('time-slider').value = 0;
+            state.isPlaying = false;
+            document.getElementById('play-btn').textContent = '▶ Play';
+            document.getElementById('play-btn').classList.remove('active');
+            updateScene();
+        });
+        
+        // ============================================================
+        // ANIMATION LOOP
+        // ============================================================
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            if (state.isPlaying) {
+                state.time += 0.02;
+                if (state.time > 3) state.time = -3;
+                document.getElementById('time-slider').value = state.time;
+                updateScene();
+            }
+            
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        
+        // Handle resize
+        window.addEventListener('resize', () => {
+            const container = document.querySelector('.canvas-container');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+            renderer.setSize(width, height);
+        });
+        
+        // Initial setup
+        updateScene();
+        animate();
+        
+        // Trigger resize to set correct dimensions
+        window.dispatchEvent(new Event('resize'));
+    </script>
+</body>
+</html>
+
+

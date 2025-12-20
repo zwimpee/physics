@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wald GR — Chapter 2 — Interactive Visualization Suite</title>
+    <style>
+      :root {
+        --bg: #0b0c10;
+        --panel: #12131a;
+        --border: rgba(94, 231, 223, 0.14);
+        --text: #e8e6e3;
+        --muted: #9aa0a6;
+        --accent: #5ee7df;
+        --accent2: #d4a574;
+        --danger: #ff6b6b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+          "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+        background: radial-gradient(
+            ellipse at 20% 80%,
+            rgba(94, 231, 223, 0.05),
+            transparent 55%
+          ),
+          radial-gradient(
+            ellipse at 80% 20%,
+            rgba(212, 165, 116, 0.05),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #0b0c10, #0f111a);
+        color: var(--text);
+        min-height: 100vh;
+      }
+
+      header {
+        padding: 18px 22px;
+        border-bottom: 1px solid var(--border);
+        background: rgba(18, 19, 26, 0.9);
+        backdrop-filter: blur(10px);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: 650;
+        color: var(--accent2);
+        letter-spacing: 0.02em;
+      }
+
+      header p {
+        margin: 6px 0 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.35;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 0;
+        min-height: calc(100vh - 70px);
+      }
+
+      .sidebar {
+        padding: 16px;
+        border-right: 1px solid var(--border);
+        background: rgba(18, 19, 26, 0.85);
+        overflow-y: auto;
+      }
+
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 14px 14px;
+        background: rgba(255, 255, 255, 0.02);
+        margin-bottom: 12px;
+      }
+
+      .card h3 {
+        margin: 0 0 10px 0;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        color: var(--accent);
+      }
+
+      .tabs {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .tab-btn {
+        width: 100%;
+        text-align: left;
+        background: transparent;
+        border: 1px solid rgba(94, 231, 223, 0.25);
+        color: var(--text);
+        padding: 10px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        font-size: 0.95rem;
+      }
+
+      .tab-btn:hover {
+        border-color: rgba(94, 231, 223, 0.5);
+        background: rgba(94, 231, 223, 0.05);
+      }
+
+      .tab-btn.active {
+        border-color: var(--accent);
+        background: rgba(94, 231, 223, 0.12);
+        color: var(--accent);
+      }
+
+      .control label {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 0.92rem;
+        color: var(--text);
+        margin: 10px 0 6px;
+      }
+
+      .control label span {
+        color: var(--accent2);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.88rem;
+      }
+
+      input[type="range"] {
+        width: 100%;
+      }
+
+      .main {
+        padding: 16px;
+        overflow: auto;
+      }
+
+      .panel {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: rgba(18, 19, 26, 0.7);
+        padding: 14px;
+      }
+
+      .panel h2 {
+        margin: 0 0 8px 0;
+        font-size: 1.1rem;
+        color: var(--accent);
+      }
+
+      .panel p {
+        margin: 0 0 12px 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .plot {
+        width: 100%;
+        height: 520px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .note {
+        margin-top: 12px;
+        padding: 10px 12px;
+        border-radius: 10px;
+        border: 1px solid rgba(212, 165, 116, 0.25);
+        background: rgba(212, 165, 116, 0.08);
+        color: var(--text);
+        line-height: 1.4;
+        font-size: 0.92rem;
+      }
+
+      .note code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.88rem;
+        color: var(--accent);
+      }
+
+      .warn {
+        border-color: rgba(255, 107, 107, 0.35);
+        background: rgba(255, 107, 107, 0.08);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Wald — General Relativity — Chapter 2 — Interactive Visualization Suite</h1>
+      <p>
+        A small interactive lab to build intuition for key Chapter 2 problems:
+        charts on $S^2$ (Problem 1), commutators/flows (Problems 3–4), and rotating
+        coordinates / light cylinder (Problem 8). Open this file directly in a browser.
+      </p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Modules</h3>
+          <div class="tabs">
+            <button class="tab-btn active" data-tab="p1">Problem 1 — Charts on $S^2$</button>
+            <button class="tab-btn" data-tab="p3">Problem 3 — Commutator as flow noncommutativity</button>
+            <button class="tab-btn" data-tab="p8">Problem 8 — Rotating coordinates / light cylinder</button>
+          </div>
+        </div>
+
+        <div class="card" id="controls-card">
+          <h3>Controls</h3>
+          <div id="controls"></div>
+        </div>
+
+        <div class="card">
+          <h3>How to use</h3>
+          <div style="color: var(--muted); font-size: 0.92rem; line-height: 1.45">
+            - Move sliders to change parameters.<br />
+            - Use mouse to rotate/zoom 3D plots.<br />
+            - Goal: connect “symbol rules” to geometric pictures.
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section class="panel" id="panel">
+          <h2 id="panel-title"></h2>
+          <p id="panel-desc"></p>
+          <div id="plot" class="plot"></div>
+          <div id="panel-note" class="note"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+    <script>
+      // ----------------------------------------------------------------------------
+      // Shared helpers
+      // ----------------------------------------------------------------------------
+      function linspace(a, b, n) {
+        const arr = [];
+        for (let i = 0; i < n; i++) arr.push(a + (b - a) * (i / (n - 1)));
+        return arr;
+      }
+
+      function clamp(x, lo, hi) {
+        return Math.max(lo, Math.min(hi, x));
+      }
+
+      function makeSlider({ id, label, min, max, step, value, onInput }) {
+        const wrap = document.createElement("div");
+        wrap.className = "control";
+        const lab = document.createElement("label");
+        const val = document.createElement("span");
+        val.id = `${id}-val`;
+        val.textContent = value;
+        lab.innerHTML = `${label}`;
+        lab.appendChild(val);
+        const input = document.createElement("input");
+        input.type = "range";
+        input.min = min;
+        input.max = max;
+        input.step = step;
+        input.value = value;
+        input.addEventListener("input", (e) => {
+          val.textContent = e.target.value;
+          onInput(parseFloat(e.target.value));
+        });
+        wrap.appendChild(lab);
+        wrap.appendChild(input);
+        return wrap;
+      }
+
+      // ----------------------------------------------------------------------------
+      // Module: Problem 1 — charts on S^2 (hemisphere projection + stereographic)
+      // ----------------------------------------------------------------------------
+      const P1 = (() => {
+        const state = { theta: 1.0, phi: 1.2, hemisphere: "z+" };
+
+        function pointOnSphere(theta, phi) {
+          // theta ∈ [0,π], phi ∈ [0,2π)
+          const x = Math.sin(theta) * Math.cos(phi);
+          const y = Math.sin(theta) * Math.sin(phi);
+          const z = Math.cos(theta);
+          return { x, y, z };
+        }
+
+        function stereographicNorth(p) {
+          // project from north pole (0,0,1) onto plane z=0
+          // (u,v) = (x/(1-z), y/(1-z)) for z != 1
+          const denom = 1 - p.z;
+          return { u: p.x / denom, v: p.y / denom };
+        }
+
+        function stereographicSouth(p) {
+          // project from south pole (0,0,-1) onto plane z=0
+          // (U,V) = (x/(1+z), y/(1+z)) for z != -1
+          const denom = 1 + p.z;
+          return { u: p.x / denom, v: p.y / denom };
+        }
+
+        function updatePlot() {
+          const p = pointOnSphere(state.theta, state.phi);
+
+          // sphere mesh
+          const nTheta = 40;
+          const nPhi = 80;
+          const TH = linspace(0, Math.PI, nTheta);
+          const PH = linspace(0, 2 * Math.PI, nPhi);
+          const xs = [];
+          const ys = [];
+          const zs = [];
+          for (let i = 0; i < nTheta; i++) {
+            xs[i] = [];
+            ys[i] = [];
+            zs[i] = [];
+            for (let j = 0; j < nPhi; j++) {
+              xs[i][j] = Math.sin(TH[i]) * Math.cos(PH[j]);
+              ys[i][j] = Math.sin(TH[i]) * Math.sin(PH[j]);
+              zs[i][j] = Math.cos(TH[i]);
+            }
+          }
+
+          // hemisphere mask (render via opacity trick)
+          const hemi = state.hemisphere;
+          const hemiZ = zs.map((row, i) =>
+            row.map((z, j) => {
+              const x = xs[i][j];
+              const y = ys[i][j];
+              if (hemi === "z+") return z > 0 ? z : null;
+              if (hemi === "z-") return z < 0 ? z : null;
+              if (hemi === "x+") return x > 0 ? z : null;
+              if (hemi === "x-") return x < 0 ? z : null;
+              if (hemi === "y+") return y > 0 ? z : null;
+              if (hemi === "y-") return y < 0 ? z : null;
+              return z > 0 ? z : null;
+            })
+          );
+
+          const sphere = {
+            type: "surface",
+            x: xs,
+            y: ys,
+            z: zs,
+            showscale: false,
+            opacity: 0.12,
+            colorscale: "Greys",
+            hoverinfo: "skip",
+          };
+
+          const hemiSurf = {
+            type: "surface",
+            x: xs,
+            y: ys,
+            z: hemiZ,
+            showscale: false,
+            opacity: 0.65,
+            colorscale: [
+              [0, "#5ee7df"],
+              [1, "#5ee7df"],
+            ],
+            hoverinfo: "skip",
+          };
+
+          const point = {
+            type: "scatter3d",
+            mode: "markers",
+            x: [p.x],
+            y: [p.y],
+            z: [p.z],
+            marker: { size: 6, color: "#d4a574" },
+            name: "point on $S^2$",
+          };
+
+          // drop-one projection onto disk (use z-chart for intuition)
+          // map (x,y,z)->(x,y) for z>0 hemisphere
+          const projLine = {
+            type: "scatter3d",
+            mode: "lines",
+            x: [p.x, p.x],
+            y: [p.y, p.y],
+            z: [p.z, 0],
+            line: { width: 3, color: "#ff6b6b" },
+            name: "projection line to $z=0$",
+          };
+
+          // disk boundary in plane z=0
+          const t = linspace(0, 2 * Math.PI, 200);
+          const disk = {
+            type: "scatter3d",
+            mode: "lines",
+            x: t.map((tt) => Math.cos(tt)),
+            y: t.map((tt) => Math.sin(tt)),
+            z: t.map(() => 0),
+            line: { width: 4, color: "#d4a574" },
+            name: "unit circle (disk boundary)",
+          };
+
+          const layout = {
+            paper_bgcolor: "rgba(0,0,0,0)",
+            plot_bgcolor: "rgba(0,0,0,0)",
+            margin: { l: 0, r: 0, t: 0, b: 0 },
+            scene: {
+              aspectmode: "cube",
+              xaxis: { title: "x", gridcolor: "rgba(94,231,223,0.10)", zerolinecolor: "rgba(255,255,255,0.10)" },
+              yaxis: { title: "y", gridcolor: "rgba(94,231,223,0.10)", zerolinecolor: "rgba(255,255,255,0.10)" },
+              zaxis: { title: "z", gridcolor: "rgba(94,231,223,0.10)", zerolinecolor: "rgba(255,255,255,0.10)" },
+              camera: { eye: { x: 1.4, y: 1.2, z: 1.1 } },
+            },
+            legend: { font: { color: "#e8e6e3" } },
+          };
+
+          Plotly.react("plot", [sphere, hemiSurf, disk, projLine, point], layout, { responsive: true });
+
+          // Update note with coordinate readouts + stereographic
+          const north = stereographicNorth(p);
+          const south = stereographicSouth(p);
+          const proj = { u: p.x, v: p.y }; // drop z
+
+          document.getElementById("panel-note").className = "note";
+          document.getElementById("panel-note").innerHTML = `
+            <div><b>Point on $S^2$:</b> <code>(x,y,z)=(${p.x.toFixed(3)}, ${p.y.toFixed(3)}, ${p.z.toFixed(3)})</code></div>
+            <div style="margin-top:8px"><b>Drop-one chart (z-chart):</b> <code>(u,v)=(x,y)=(${proj.u.toFixed(3)}, ${proj.v.toFixed(3)})</code></div>
+            <div style="margin-top:8px"><b>Stereographic (north pole):</b> <code>(${north.u.toFixed(3)}, ${north.v.toFixed(3)})</code> &nbsp; <span style="color:var(--muted)">(undefined at z=1)</span></div>
+            <div style="margin-top:6px"><b>Stereographic (south pole):</b> <code>(${south.u.toFixed(3)}, ${south.v.toFixed(3)})</code> &nbsp; <span style="color:var(--muted)">(undefined at z=-1)</span></div>
+            <div style="margin-top:10px;color:var(--muted)">
+              Key idea (Problem 1a): restricting to a hemisphere (e.g. $z>0$) picks a single branch of $z=+\\sqrt{1-x^2-y^2}$, making the inverse smooth on the open disk.
+            </div>
+          `;
+        }
+
+        function renderControls(container) {
+          container.innerHTML = "";
+          container.appendChild(
+            makeSlider({
+              id: "p1-theta",
+              label: "Point polar angle θ",
+              min: 0.05,
+              max: Math.PI - 0.05,
+              step: 0.01,
+              value: state.theta,
+              onInput: (v) => {
+                state.theta = v;
+                updatePlot();
+              },
+            })
+          );
+          container.appendChild(
+            makeSlider({
+              id: "p1-phi",
+              label: "Point azimuth φ",
+              min: 0.0,
+              max: 2 * Math.PI,
+              step: 0.01,
+              value: state.phi,
+              onInput: (v) => {
+                state.phi = v;
+                updatePlot();
+              },
+            })
+          );
+
+          const hemiWrap = document.createElement("div");
+          hemiWrap.style.marginTop = "10px";
+          hemiWrap.style.color = "var(--muted)";
+          hemiWrap.innerHTML = `<div style="margin-bottom:6px"><b style="color:var(--text)">Hemisphere chart</b></div>`;
+          const select = document.createElement("select");
+          select.style.width = "100%";
+          select.style.padding = "8px";
+          select.style.borderRadius = "8px";
+          select.style.background = "transparent";
+          select.style.border = "1px solid rgba(94,231,223,0.25)";
+          select.style.color = "var(--text)";
+          const options = [
+            ["z+", "z > 0 (upper)"],
+            ["z-", "z < 0 (lower)"],
+            ["x+", "x > 0"],
+            ["x-", "x < 0"],
+            ["y+", "y > 0"],
+            ["y-", "y < 0"],
+          ];
+          options.forEach(([val, label]) => {
+            const opt = document.createElement("option");
+            opt.value = val;
+            opt.textContent = label;
+            select.appendChild(opt);
+          });
+          select.value = state.hemisphere;
+          select.addEventListener("change", (e) => {
+            state.hemisphere = e.target.value;
+            updatePlot();
+          });
+          hemiWrap.appendChild(select);
+          container.appendChild(hemiWrap);
+        }
+
+        return {
+          title: "Problem 1 — Charts on $S^2$",
+          desc:
+            "Rotate/zoom the sphere, pick a hemisphere, and see how “drop-one coordinate” charts become invertible once you restrict to a hemisphere.",
+          mount: (controlsEl) => {
+            renderControls(controlsEl);
+            updatePlot();
+          },
+        };
+      })();
+
+      // ----------------------------------------------------------------------------
+      // Module: Problem 3 — Commutator as flow noncommutativity
+      // ----------------------------------------------------------------------------
+      const P3 = (() => {
+        const state = { x: 0.6, y: -0.2, eps: 0.6 };
+
+        function X(p) {
+          // X = (1, 0)
+          return { u: 1.0, v: 0.0 };
+        }
+
+        function Y(p) {
+          // Y = (0, x)
+          return { u: 0.0, v: p.x };
+        }
+
+        function add(p, s, v) {
+          return { x: p.x + s * v.u, y: p.y + s * v.v };
+        }
+
+        function updatePlot() {
+          const p = { x: state.x, y: state.y };
+          const eps = state.eps;
+
+          const p1 = add(p, eps, X(p));
+          const p2 = add(p1, eps, Y(p1));
+
+          const q1 = add(p, eps, Y(p));
+          const q2 = add(q1, eps, X(q1));
+
+          const dx = p2.x - q2.x;
+          const dy = p2.y - q2.y;
+          const comm = { u: dx / (eps * eps), v: dy / (eps * eps) };
+
+          // vector field grid
+          const gx = linspace(-1.2, 1.8, 18);
+          const gy = linspace(-1.2, 1.2, 16);
+          const Xg = [];
+          const Yg = [];
+          const Ug = [];
+          const Vg = [];
+          for (const xx of gx) {
+            for (const yy of gy) {
+              Xg.push(xx);
+              Yg.push(yy);
+              Ug.push(1.0);
+              Vg.push(xx);
+            }
+          }
+
+          const field = {
+            type: "cone",
+            x: Xg,
+            y: Yg,
+            z: Xg.map(() => 0),
+            u: Ug,
+            v: Vg,
+            w: Ug.map(() => 0),
+            sizemode: "absolute",
+            sizeref: 0.35,
+            anchor: "tail",
+            colorscale: [
+              [0, "rgba(255,255,255,0.15)"],
+              [1, "rgba(255,255,255,0.15)"],
+            ],
+            showscale: false,
+            hoverinfo: "skip",
+          };
+
+          const pathXY = {
+            type: "scatter3d",
+            mode: "lines+markers",
+            x: [p.x, p1.x, p2.x],
+            y: [p.y, p1.y, p2.y],
+            z: [0, 0, 0],
+            line: { width: 6, color: "#5ee7df" },
+            marker: { size: 4, color: "#5ee7df" },
+            name: "X then Y",
+          };
+
+          const pathYX = {
+            type: "scatter3d",
+            mode: "lines+markers",
+            x: [p.x, q1.x, q2.x],
+            y: [p.y, q1.y, q2.y],
+            z: [0, 0, 0],
+            line: { width: 6, color: "#ff6b6b" },
+            marker: { size: 4, color: "#ff6b6b" },
+            name: "Y then X",
+          };
+
+          const delta = {
+            type: "scatter3d",
+            mode: "lines",
+            x: [q2.x, p2.x],
+            y: [q2.y, p2.y],
+            z: [0, 0],
+            line: { width: 8, color: "#d4a574" },
+            name: "Δ ≈ ε²[X,Y](p)",
+          };
+
+          const layout = {
+            paper_bgcolor: "rgba(0,0,0,0)",
+            plot_bgcolor: "rgba(0,0,0,0)",
+            margin: { l: 0, r: 0, t: 0, b: 0 },
+            scene: {
+              xaxis: { title: "x", gridcolor: "rgba(94,231,223,0.10)" },
+              yaxis: { title: "y", gridcolor: "rgba(94,231,223,0.10)" },
+              zaxis: { visible: false },
+              camera: { eye: { x: 1.35, y: 1.15, z: 0.8 } },
+            },
+            legend: { font: { color: "#e8e6e3" } },
+          };
+
+          Plotly.react("plot", [field, pathXY, pathYX, delta], layout, { responsive: true });
+
+          document.getElementById("panel-note").className = "note";
+          document.getElementById("panel-note").innerHTML = `
+            <div><b>Base point:</b> <code>p=(${p.x.toFixed(2)}, ${p.y.toFixed(2)})</code> &nbsp; <b>step:</b> <code>ε=${eps.toFixed(2)}</code></div>
+            <div style="margin-top:8px"><b>Computed:</b> <code>Δ=(p_{XY}-p_{YX})=(${dx.toFixed(3)}, ${dy.toFixed(3)})</code></div>
+            <div style="margin-top:6px"><b>So:</b> <code>[X,Y](p) ≈ Δ/ε² = (${comm.u.toFixed(3)}, ${comm.v.toFixed(3)})</code></div>
+            <div style="margin-top:10px;color:var(--muted)">
+              This is the geometric content of the commutator: it measures the leading-order failure of two small flows to commute.
+            </div>
+          `;
+        }
+
+        function renderControls(container) {
+          container.innerHTML = "";
+          container.appendChild(
+            makeSlider({
+              id: "p3-x",
+              label: "Basepoint x",
+              min: -1.0,
+              max: 1.5,
+              step: 0.01,
+              value: state.x,
+              onInput: (v) => {
+                state.x = v;
+                updatePlot();
+              },
+            })
+          );
+          container.appendChild(
+            makeSlider({
+              id: "p3-y",
+              label: "Basepoint y",
+              min: -1.0,
+              max: 1.0,
+              step: 0.01,
+              value: state.y,
+              onInput: (v) => {
+                state.y = v;
+                updatePlot();
+              },
+            })
+          );
+          container.appendChild(
+            makeSlider({
+              id: "p3-eps",
+              label: "Step ε",
+              min: 0.1,
+              max: 1.0,
+              step: 0.01,
+              value: state.eps,
+              onInput: (v) => {
+                state.eps = v;
+                updatePlot();
+              },
+            })
+          );
+        }
+
+        return {
+          title: "Problem 3 — Commutator as flow noncommutativity",
+          desc:
+            "Move the base point and step size to see how XY vs YX differ. The commutator is the ε²-leading term of this difference.",
+          mount: (controlsEl) => {
+            renderControls(controlsEl);
+            updatePlot();
+          },
+        };
+      })();
+
+      // ----------------------------------------------------------------------------
+      // Module: Problem 8 — rotating coordinates / light cylinder
+      // ----------------------------------------------------------------------------
+      const P8 = (() => {
+        const state = { omega: 1.0, rhoMax: 2.0 };
+
+        function updatePlot() {
+          const w = state.omega;
+          const rhoMax = state.rhoMax;
+          const rho = linspace(0, rhoMax, 500);
+          const gtt = rho.map((r) => -(1 - (w * w) * r * r));
+
+          const rhoC = 1 / w;
+          const gC = -(1 - w * w * rhoC * rhoC); // 0
+
+          const trace = {
+            type: "scatter",
+            x: rho,
+            y: gtt,
+            mode: "lines",
+            line: { width: 3, color: "#5ee7df" },
+            name: "$g_{tt}(\\rho)$",
+          };
+
+          const cyl = {
+            type: "scatter",
+            x: [rhoC, rhoC],
+            y: [Math.min(...gtt), Math.max(...gtt)],
+            mode: "lines",
+            line: { width: 3, color: "#ff6b6b", dash: "dash" },
+            name: "$\\rho=1/\\omega$",
+          };
+
+          const layout = {
+            paper_bgcolor: "rgba(0,0,0,0)",
+            plot_bgcolor: "rgba(0,0,0,0)",
+            margin: { l: 50, r: 10, t: 10, b: 45 },
+            xaxis: { title: "$\\rho$", gridcolor: "rgba(94,231,223,0.10)", zerolinecolor: "rgba(255,255,255,0.10)" },
+            yaxis: { title: "$g_{tt}$", gridcolor: "rgba(94,231,223,0.10)", zerolinecolor: "rgba(255,255,255,0.10)" },
+            legend: { font: { color: "#e8e6e3" } },
+          };
+
+          Plotly.react("plot", [trace, cyl], layout, { responsive: true });
+
+          const gttExpr = `g_tt = -(1 - ω² ρ²)`;
+          const lightCylinder = (1 / w).toFixed(3);
+          document.getElementById("panel-note").className = "note warn";
+          document.getElementById("panel-note").innerHTML = `
+            <div><b>Metric component in rotating coordinates:</b> <code>${gttExpr}</code></div>
+            <div style="margin-top:8px"><b>ω:</b> <code>${w.toFixed(3)}</code> &nbsp; <b>light cylinder:</b> <code>ρ=1/ω≈${lightCylinder}</code></div>
+            <div style="margin-top:10px;color:var(--muted)">
+              At $\\rho>1/\\omega$, the coordinate time vector $\\partial_t$ becomes spacelike ($g_{tt}>0$). This is the same “light cylinder” that appears in rotating frames (and pulsar magnetospheres).
+            </div>
+          `;
+        }
+
+        function renderControls(container) {
+          container.innerHTML = "";
+          container.appendChild(
+            makeSlider({
+              id: "p8-omega",
+              label: "Angular speed ω",
+              min: 0.2,
+              max: 2.0,
+              step: 0.01,
+              value: state.omega,
+              onInput: (v) => {
+                state.omega = v;
+                updatePlot();
+              },
+            })
+          );
+          container.appendChild(
+            makeSlider({
+              id: "p8-rhomax",
+              label: "Plot max ρ",
+              min: 1.0,
+              max: 4.0,
+              step: 0.05,
+              value: state.rhoMax,
+              onInput: (v) => {
+                state.rhoMax = v;
+                updatePlot();
+              },
+            })
+          );
+        }
+
+        return {
+          title: "Problem 8 — Rotating coordinates / light cylinder",
+          desc:
+            "Move ω to see where $g_{tt}$ changes sign. This is the coordinate signature of the light cylinder in rotating frames.",
+          mount: (controlsEl) => {
+            renderControls(controlsEl);
+            updatePlot();
+          },
+        };
+      })();
+
+      // ----------------------------------------------------------------------------
+      // App router
+      // ----------------------------------------------------------------------------
+      const modules = { p1: P1, p3: P3, p8: P8 };
+      let current = "p1";
+
+      function mount(tabId) {
+        current = tabId;
+        const mod = modules[tabId];
+        document.getElementById("panel-title").textContent = mod.title;
+        document.getElementById("panel-desc").textContent = mod.desc;
+        mod.mount(document.getElementById("controls"));
+      }
+
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          mount(btn.dataset.tab);
+        });
+      });
+
+      // initial
+      mount("p1");
+    </script>
+  </body>
+</html>
+
+
