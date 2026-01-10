@@ -1,0 +1,4601 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.470 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.470 --> 00:00:03.952 align:middle line:90%
+[RUSTLING]
+
+00:00:03.952 --> 00:00:07.410 align:middle line:90%
+[CLICKING]
+
+00:00:07.410 --> 00:00:11.870 align:middle line:90%
+
+
+00:00:11.870 --> 00:00:14.610 align:middle line:90%
+PROFESSOR: OK, good.
+
+00:00:14.610 --> 00:00:20.370 align:middle line:84%
+So last time, we
+quantized this theory.
+
+00:00:20.370 --> 00:00:25.850 align:middle line:84%
+So let me just write
+down the theory again.
+
+00:00:25.850 --> 00:00:31.400 align:middle line:90%
+
+
+00:00:31.400 --> 00:00:33.620 align:middle line:90%
+So we quantized this theory.
+
+00:00:33.620 --> 00:00:36.590 align:middle line:84%
+And so let me also
+just write down
+
+00:00:36.590 --> 00:00:41.360 align:middle line:84%
+its canonical momentum, density,
+and then the Hamiltonian
+
+00:00:41.360 --> 00:00:45.830 align:middle line:90%
+density would be 1/2 pi square.
+
+00:00:45.830 --> 00:01:00.700 align:middle line:90%
+
+
+00:01:00.700 --> 00:01:02.350 align:middle line:84%
+And the classical
+equation of motion--
+
+00:01:02.350 --> 00:01:09.340 align:middle line:90%
+
+
+00:01:09.340 --> 00:01:15.370 align:middle line:84%
+and so we're not repeat
+the quantization procedure.
+
+00:01:15.370 --> 00:01:20.035 align:middle line:84%
+And we wrote down the most
+general solution at the level--
+
+00:01:20.035 --> 00:01:23.590 align:middle line:90%
+
+
+00:01:23.590 --> 00:01:24.970 align:middle line:90%
+can be written as the following.
+
+00:01:24.970 --> 00:01:33.670 align:middle line:90%
+
+
+00:01:33.670 --> 00:01:36.020 align:middle line:90%
+This factor is the convention.
+
+00:01:36.020 --> 00:01:45.730 align:middle line:84%
+And then we have
+a k u k plus a k.
+
+00:01:45.730 --> 00:01:51.130 align:middle line:84%
+So from now on, I
+will suppress the hat.
+
+00:01:51.130 --> 00:01:52.540 align:middle line:90%
+So I will suppress hat.
+
+00:01:52.540 --> 00:01:55.360 align:middle line:84%
+You should always now view
+it as a quantum field--
+
+00:01:55.360 --> 00:01:56.950 align:middle line:90%
+quantum operators.
+
+00:01:56.950 --> 00:02:02.380 align:middle line:90%
+And the plus u k star.
+
+00:02:02.380 --> 00:02:07.580 align:middle line:84%
+And the u k is the
+complete set of solution,
+
+00:02:07.580 --> 00:02:16.780 align:middle line:84%
+which is given by exponential
+minus i omega t plus i k x.
+
+00:02:16.780 --> 00:02:19.480 align:middle line:90%
+
+
+00:02:19.480 --> 00:02:23.810 align:middle line:84%
+So this is just a
+basis of solution.
+
+00:02:23.810 --> 00:02:27.160 align:middle line:84%
+And so this is
+the most general--
+
+00:02:27.160 --> 00:02:31.990 align:middle line:84%
+so this is the complete solution
+to the operator equation
+
+00:02:31.990 --> 00:02:35.350 align:middle line:90%
+for this operator phi.
+
+00:02:35.350 --> 00:02:37.840 align:middle line:90%
+And then you can also find its--
+
+00:02:37.840 --> 00:02:41.000 align:middle line:84%
+find its conjugate
+momentum density.
+
+00:02:41.000 --> 00:02:44.810 align:middle line:84%
+So the pi, you can just take
+the derivative straightforward.
+
+00:02:44.810 --> 00:02:46.370 align:middle line:90%
+I will not write it explicitly.
+
+00:02:46.370 --> 00:02:48.980 align:middle line:90%
+
+
+00:02:48.980 --> 00:02:53.000 align:middle line:84%
+And then we discussed
+that you can
+
+00:02:53.000 --> 00:02:57.890 align:middle line:84%
+impose a canonical
+commutation relation which
+
+00:02:57.890 --> 00:03:12.140 align:middle line:84%
+is that the phi t x phi t
+x prime equal to pi t x,
+
+00:03:12.140 --> 00:03:18.500 align:middle line:90%
+and pi t x prime should be 0.
+
+00:03:18.500 --> 00:03:28.830 align:middle line:90%
+And then phi t x pi t x prime--
+
+00:03:28.830 --> 00:03:30.300 align:middle line:84%
+then given by the
+delta function.
+
+00:03:30.300 --> 00:03:36.420 align:middle line:90%
+
+
+00:03:36.420 --> 00:03:42.450 align:middle line:84%
+So that's what we did at
+the end of last lecture.
+
+00:03:42.450 --> 00:03:45.750 align:middle line:84%
+And then you can
+just plug it in--
+
+00:03:45.750 --> 00:03:48.870 align:middle line:84%
+plug this-- plug those
+expression into here.
+
+00:03:48.870 --> 00:03:50.670 align:middle line:84%
+Then you can find the
+commutation relations
+
+00:03:50.670 --> 00:03:52.620 align:middle line:90%
+between those integrations.
+
+00:03:52.620 --> 00:03:57.840 align:middle line:84%
+So a k and a k dagger
+integrating constant
+
+00:03:57.840 --> 00:03:59.070 align:middle line:90%
+of your operator equations.
+
+00:03:59.070 --> 00:04:01.560 align:middle line:90%
+They are constant operators.
+
+00:04:01.560 --> 00:04:05.287 align:middle line:84%
+And so when you plug them in,
+then you find the canonical--
+
+00:04:05.287 --> 00:04:06.870 align:middle line:84%
+then you find the
+commutation relation
+
+00:04:06.870 --> 00:04:08.710 align:middle line:90%
+between a k and a k dagger.
+
+00:04:08.710 --> 00:04:22.070 align:middle line:84%
+And then you find ak and a
+k prime equal to a dagger
+
+00:04:22.070 --> 00:04:30.140 align:middle line:84%
+k and a dagger k prime
+is equal to 0 and a k
+
+00:04:30.140 --> 00:04:42.375 align:middle line:84%
+a k prime dagger is equal to
+delta function in the wave
+
+00:04:42.375 --> 00:04:42.875 align:middle line:90%
+space.
+
+00:04:42.875 --> 00:04:52.740 align:middle line:90%
+
+
+00:04:52.740 --> 00:04:55.570 align:middle line:84%
+So now, if you look
+at those expressions--
+
+00:04:55.570 --> 00:04:57.930 align:middle line:90%
+so they essentially look--
+
+00:04:57.930 --> 00:04:59.820 align:middle line:84%
+they essentially--
+we essentially
+
+00:04:59.820 --> 00:05:03.810 align:middle line:84%
+find the infinite number
+of harmonic oscillators.
+
+00:05:03.810 --> 00:05:10.860 align:middle line:84%
+And each harmonic oscillator
+labeled by continuous--
+
+00:05:10.860 --> 00:05:13.740 align:middle line:90%
+by a set of continuous number k.
+
+00:05:13.740 --> 00:05:15.870 align:middle line:84%
+And then the
+commutation relation
+
+00:05:15.870 --> 00:05:19.270 align:middle line:84%
+is just like a continuum
+generalization of standard
+
+00:05:19.270 --> 00:05:21.660 align:middle line:90%
+a a dagger equal to 1.
+
+00:05:21.660 --> 00:05:24.330 align:middle line:84%
+And they are independent
+because of this delta function.
+
+00:05:24.330 --> 00:05:28.543 align:middle line:84%
+And if k is not equal to k
+prime, and then you get 0.
+
+00:05:28.543 --> 00:05:29.085 align:middle line:90%
+They commute.
+
+00:05:29.085 --> 00:05:33.520 align:middle line:90%
+
+
+00:05:33.520 --> 00:05:38.950 align:middle line:84%
+So you can see the story
+a little bit sharper.
+
+00:05:38.950 --> 00:05:41.260 align:middle line:84%
+That indeed, we just
+get the infinite number
+
+00:05:41.260 --> 00:05:43.190 align:middle line:90%
+of harmonic oscillators.
+
+00:05:43.190 --> 00:05:45.640 align:middle line:84%
+So these are just
+commutation relations.
+
+00:05:45.640 --> 00:05:49.175 align:middle line:84%
+This still does not tell you
+we have a harmonic oscillator.
+
+00:05:49.175 --> 00:05:50.800 align:middle line:84%
+To see harmonic
+oscillator, we actually
+
+00:05:50.800 --> 00:05:53.470 align:middle line:84%
+need to calculate
+the Hamiltonian.
+
+00:05:53.470 --> 00:05:56.560 align:middle line:84%
+So now let's try to
+calculate the Hamiltonian.
+
+00:05:56.560 --> 00:06:03.680 align:middle line:90%
+
+
+00:06:03.680 --> 00:06:07.310 align:middle line:84%
+So now we can try to
+calculate the Hamiltonian.
+
+00:06:07.310 --> 00:06:12.590 align:middle line:90%
+
+
+00:06:12.590 --> 00:06:15.260 align:middle line:90%
+And so this is just--
+
+00:06:15.260 --> 00:06:16.430 align:middle line:90%
+can just do it--
+
+00:06:16.430 --> 00:06:19.460 align:middle line:90%
+
+
+00:06:19.460 --> 00:06:23.540 align:middle line:84%
+straightforwardly
+just plug that in--
+
+00:06:23.540 --> 00:06:28.370 align:middle line:84%
+just plot it plug that
+expression in we wrote above.
+
+00:06:28.370 --> 00:06:30.230 align:middle line:84%
+And then you just
+plug-in the expression
+
+00:06:30.230 --> 00:06:37.190 align:middle line:84%
+for the phi and the
+pi into that equation,
+
+00:06:37.190 --> 00:06:40.640 align:middle line:84%
+and then just straightforward
+to calculate it.
+
+00:06:40.640 --> 00:06:43.610 align:middle line:84%
+And I will not go
+through the details.
+
+00:06:43.610 --> 00:06:49.380 align:middle line:84%
+Of Yeah, it's a
+straightforward calculation.
+
+00:06:49.380 --> 00:06:55.490 align:middle line:84%
+So then you find maybe
+after some minutes--
+
+00:06:55.490 --> 00:06:59.000 align:middle line:90%
+
+
+00:06:59.000 --> 00:07:02.320 align:middle line:84%
+then you find that
+the following answer.
+
+00:07:02.320 --> 00:07:04.537 align:middle line:84%
+So now, you-- when
+you plug them in,
+
+00:07:04.537 --> 00:07:06.120 align:middle line:84%
+then you find that
+you can do actually
+
+00:07:06.120 --> 00:07:09.900 align:middle line:84%
+do the spatial integral because
+you just have the plane wave.
+
+00:07:09.900 --> 00:07:11.560 align:middle line:84%
+You can just do the
+spatial integral.
+
+00:07:11.560 --> 00:07:13.560 align:middle line:84%
+And when you do the
+spatial integral,
+
+00:07:13.560 --> 00:07:16.210 align:middle line:84%
+then that gives you a delta
+function momentum space,
+
+00:07:16.210 --> 00:07:16.870 align:middle line:90%
+et cetera.
+
+00:07:16.870 --> 00:07:18.290 align:middle line:84%
+And then you can
+reduce everything
+
+00:07:18.290 --> 00:07:19.410 align:middle line:90%
+into a single moment--
+
+00:07:19.410 --> 00:07:21.870 align:middle line:90%
+a single k integral.
+
+00:07:21.870 --> 00:07:27.570 align:middle line:84%
+And then what you find
+is that you get omega k.
+
+00:07:27.570 --> 00:07:35.130 align:middle line:84%
+And then you find
+a k dagger a k.
+
+00:07:35.130 --> 00:07:45.230 align:middle line:90%
+And then plus a k dagger.
+
+00:07:45.230 --> 00:07:46.190 align:middle line:90%
+So let me see.
+
+00:07:46.190 --> 00:07:50.380 align:middle line:84%
+Yeah, actually--
+yeah, I think 1/2.
+
+00:07:50.380 --> 00:07:53.280 align:middle line:90%
+
+
+00:07:53.280 --> 00:07:56.280 align:middle line:90%
+Just get that.
+
+00:07:56.280 --> 00:07:58.470 align:middle line:84%
+So this is the
+standard expression
+
+00:07:58.470 --> 00:08:01.290 align:middle line:90%
+for harmonic oscillator now.
+
+00:08:01.290 --> 00:08:06.780 align:middle line:84%
+Actually, it's exactly
+identical to just some--
+
+00:08:06.780 --> 00:08:10.620 align:middle line:84%
+yeah, integral is like sum--
+just sum over continuum
+
+00:08:10.620 --> 00:08:12.150 align:middle line:90%
+harmonic oscillators.
+
+00:08:12.150 --> 00:08:16.620 align:middle line:84%
+And each with frequency omega
+k, and each harmonic oscillator
+
+00:08:16.620 --> 00:08:19.920 align:middle line:90%
+is labeled by this number k.
+
+00:08:19.920 --> 00:08:24.540 align:middle line:84%
+And so we can do from
+the standard trick
+
+00:08:24.540 --> 00:08:30.330 align:middle line:84%
+to write it actually as
+to write as a commutator.
+
+00:08:30.330 --> 00:08:32.280 align:middle line:90%
+So we can just write it as--
+
+00:08:32.280 --> 00:08:41.210 align:middle line:90%
+
+
+00:08:41.210 --> 00:08:44.340 align:middle line:90%
+and then we just have this.
+
+00:08:44.340 --> 00:08:46.190 align:middle line:84%
+So we combine these
+two terms together
+
+00:08:46.190 --> 00:08:48.230 align:middle line:90%
+and introduce a commutator.
+
+00:08:48.230 --> 00:08:52.610 align:middle line:84%
+You just have a dagger a
+and then plus the commutator
+
+00:08:52.610 --> 00:08:53.240 align:middle line:90%
+between them.
+
+00:08:53.240 --> 00:09:03.090 align:middle line:90%
+
+
+00:09:03.090 --> 00:09:07.980 align:middle line:84%
+So in the standard story,
+this is equal to 1.
+
+00:09:07.980 --> 00:09:13.290 align:middle line:84%
+Then you get the standard answer
+that you get omega a dagger
+
+00:09:13.290 --> 00:09:16.290 align:middle line:90%
+a plus 1/2.
+
+00:09:16.290 --> 00:09:21.390 align:middle line:90%
+But here, we can again--
+
+00:09:21.390 --> 00:09:23.470 align:middle line:90%
+let me just write one more step.
+
+00:09:23.470 --> 00:09:38.320 align:middle line:84%
+So this is k omega k a k
+dagger a k, then plus E0.
+
+00:09:38.320 --> 00:09:42.250 align:middle line:84%
+And now E0 is the sum of all
+the zero point energy of all
+
+00:09:42.250 --> 00:09:43.810 align:middle line:90%
+the harmonic oscillators.
+
+00:09:43.810 --> 00:09:52.850 align:middle line:90%
+
+
+00:09:52.850 --> 00:09:57.770 align:middle line:90%
+So 1/2 omega k--
+
+00:09:57.770 --> 00:10:01.880 align:middle line:84%
+except that the tricky
+thing is the following.
+
+00:10:01.880 --> 00:10:03.690 align:middle line:84%
+Except now, we have
+this commutator
+
+00:10:03.690 --> 00:10:05.300 align:middle line:90%
+of a k with a k dagger.
+
+00:10:05.300 --> 00:10:07.760 align:middle line:84%
+In the standard case,
+this is equal to 1.
+
+00:10:07.760 --> 00:10:14.570 align:middle line:84%
+But in our case, when you
+set k prime equal to k,
+
+00:10:14.570 --> 00:10:16.670 align:middle line:90%
+you get the delta 0.
+
+00:10:16.670 --> 00:10:18.230 align:middle line:90%
+So we get delta 0.
+
+00:10:18.230 --> 00:10:25.760 align:middle line:84%
+So then you get that
+2 pi cubed delta 3 0.
+
+00:10:25.760 --> 00:10:30.170 align:middle line:84%
+And remember, this 0
+is in momentum space.
+
+00:10:30.170 --> 00:10:32.690 align:middle line:84%
+And so this is in k
+space, not in the--
+
+00:10:32.690 --> 00:10:34.430 align:middle line:84%
+we have two kinds
+of delta functions
+
+00:10:34.430 --> 00:10:37.030 align:middle line:84%
+in the-- delta function
+in k space, delta function
+
+00:10:37.030 --> 00:10:38.340 align:middle line:90%
+in coordinate space.
+
+00:10:38.340 --> 00:10:40.580 align:middle line:84%
+So here, I put the
+subscript k-- here
+
+00:10:40.580 --> 00:10:46.490 align:middle line:84%
+means that this is the
+delta function 0 in k space.
+
+00:10:46.490 --> 00:10:48.380 align:middle line:84%
+And so this is the
+zero point energy.
+
+00:10:48.380 --> 00:10:59.430 align:middle line:90%
+
+
+00:10:59.430 --> 00:11:06.030 align:middle line:84%
+So this zero point
+energy is divergent,
+
+00:11:06.030 --> 00:11:09.758 align:middle line:84%
+but we will comment on
+that a little bit later.
+
+00:11:09.758 --> 00:11:11.175 align:middle line:84%
+Do you have any
+questions on this?
+
+00:11:11.175 --> 00:11:16.980 align:middle line:90%
+
+
+00:11:16.980 --> 00:11:17.480 align:middle line:90%
+Good.
+
+00:11:17.480 --> 00:11:25.630 align:middle line:84%
+So remark-- let me just
+make a couple of remarks.
+
+00:11:25.630 --> 00:11:32.220 align:middle line:84%
+First is that-- so something
+interesting happened.
+
+00:11:32.220 --> 00:11:36.060 align:middle line:90%
+So when you plug--
+
+00:11:36.060 --> 00:11:41.220 align:middle line:84%
+when you look at the
+expression for phi and the pi,
+
+00:11:41.220 --> 00:11:44.820 align:middle line:84%
+both phi and the pi
+depend on time explicitly.
+
+00:11:44.820 --> 00:11:47.610 align:middle line:84%
+So there's a time
+dependence here.
+
+00:11:47.610 --> 00:11:51.030 align:middle line:84%
+And here, we only integrate
+over spatial direction.
+
+00:11:51.030 --> 00:11:54.480 align:middle line:90%
+
+
+00:11:54.480 --> 00:11:58.470 align:middle line:84%
+So in terms of integration, we
+don't do anything with time.
+
+00:11:58.470 --> 00:12:01.860 align:middle line:90%
+But what do you notice here?
+
+00:12:01.860 --> 00:12:04.930 align:middle line:90%
+
+
+00:12:04.930 --> 00:12:06.030 align:middle line:90%
+What do you notice there?
+
+00:12:06.030 --> 00:12:08.760 align:middle line:90%
+
+
+00:12:08.760 --> 00:12:10.710 align:middle line:84%
+STUDENT: So you drop
+the time dependence?
+
+00:12:10.710 --> 00:12:13.030 align:middle line:84%
+PROFESSOR: Yes, it's not to
+say we drop time dependence
+
+00:12:13.030 --> 00:12:16.608 align:middle line:84%
+because time
+dependence disappeared.
+
+00:12:16.608 --> 00:12:17.275 align:middle line:90%
+Do you know why?
+
+00:12:17.275 --> 00:12:21.805 align:middle line:90%
+
+
+00:12:21.805 --> 00:12:23.930 align:middle line:84%
+STUDENT: I mean, the
+Hamiltonian doesn't explicitly
+
+00:12:23.930 --> 00:12:26.030 align:middle line:90%
+depend on time.
+
+00:12:26.030 --> 00:12:27.880 align:middle line:90%
+PROFESSOR: No, the Hamiltonian--
+
+00:12:27.880 --> 00:12:30.790 align:middle line:84%
+phi is time dependent,
+pi is time dependent.
+
+00:12:30.790 --> 00:12:37.540 align:middle line:84%
+If you plug-- if you plug
+those expression into here,
+
+00:12:37.540 --> 00:12:39.370 align:middle line:90%
+certainly this--
+
+00:12:39.370 --> 00:12:43.660 align:middle line:84%
+certainly inside there is
+depend on time explicitly.
+
+00:12:43.660 --> 00:12:46.060 align:middle line:84%
+This guy is depend
+on time explicitly.
+
+00:12:46.060 --> 00:12:48.637 align:middle line:90%
+
+
+00:12:48.637 --> 00:12:50.470 align:middle line:84%
+But in the end, after
+you do the integration
+
+00:12:50.470 --> 00:12:52.630 align:middle line:84%
+over spatial
+directions, then you
+
+00:12:52.630 --> 00:12:54.550 align:middle line:84%
+find in the end the
+time dependence actually
+
+00:12:54.550 --> 00:12:58.300 align:middle line:90%
+cancel during the calculation.
+
+00:12:58.300 --> 00:13:01.930 align:middle line:84%
+So do you have a guess why
+somehow this should cancel?
+
+00:13:01.930 --> 00:13:02.500 align:middle line:90%
+Yes?
+
+00:13:02.500 --> 00:13:03.850 align:middle line:84%
+STUDENT: Energy
+conservation or something?
+
+00:13:03.850 --> 00:13:05.140 align:middle line:90%
+PROFESSOR: Yeah, exactly.
+
+00:13:05.140 --> 00:13:10.220 align:middle line:84%
+So you have in your pset
+that the time translation--
+
+00:13:10.220 --> 00:13:14.950 align:middle line:84%
+so this system is time
+translation symmetric.
+
+00:13:14.950 --> 00:13:16.870 align:middle line:84%
+It means that you
+should have the--
+
+00:13:16.870 --> 00:13:21.850 align:middle line:84%
+it means that the H
+is a conserved number.
+
+00:13:21.850 --> 00:13:23.780 align:middle line:90%
+It's a conserved quantity.
+
+00:13:23.780 --> 00:13:29.560 align:middle line:84%
+And by-- so indeed, you see that
+this is independent of time.
+
+00:13:29.560 --> 00:13:31.060 align:middle line:90%
+This is a conserved quantity.
+
+00:13:31.060 --> 00:13:33.220 align:middle line:90%
+We see it explicitly.
+
+00:13:33.220 --> 00:13:44.410 align:middle line:84%
+So there's no time
+dependence since H
+
+00:13:44.410 --> 00:13:45.950 align:middle line:90%
+is a conserved quantity.
+
+00:13:45.950 --> 00:13:50.900 align:middle line:84%
+So this integration
+is absolutely crucial,
+
+00:13:50.900 --> 00:13:55.010 align:middle line:84%
+because if you don't
+do integration,
+
+00:13:55.010 --> 00:13:56.990 align:middle line:90%
+Hamiltonian density is not--
+
+00:13:56.990 --> 00:13:59.430 align:middle line:84%
+it's only the total
+Hamiltonian is conserved.
+
+00:13:59.430 --> 00:14:02.120 align:middle line:90%
+
+
+00:14:02.120 --> 00:14:03.125 align:middle line:90%
+So this is a comment.
+
+00:14:03.125 --> 00:14:06.610 align:middle line:90%
+
+
+00:14:06.610 --> 00:14:10.190 align:middle line:90%
+And the second --
+
+00:14:10.190 --> 00:14:11.920 align:middle line:84%
+so since I only
+have two comments,
+
+00:14:11.920 --> 00:14:15.160 align:middle line:84%
+let me just call it one
+rather than call it 0.
+
+00:14:15.160 --> 00:14:19.270 align:middle line:84%
+So for the second
+comment is that--
+
+00:14:19.270 --> 00:14:20.290 align:middle line:90%
+yeah, just repeat.
+
+00:14:20.290 --> 00:14:26.820 align:middle line:84%
+We already said-- you
+just have OFT of phi.
+
+00:14:26.820 --> 00:14:31.060 align:middle line:84%
+And we see this QFT
+of phi reduce this
+
+00:14:31.060 --> 00:14:44.050 align:middle line:84%
+to essentially a
+system of a continuum
+
+00:14:44.050 --> 00:15:08.700 align:middle line:84%
+of harmonic oscillators labeled
+by k with frequency omega k.
+
+00:15:08.700 --> 00:15:10.440 align:middle line:84%
+So we call this
+omega k is defined
+
+00:15:10.440 --> 00:15:13.230 align:middle line:90%
+to be k squared plus m square.
+
+00:15:13.230 --> 00:15:22.990 align:middle line:90%
+
+
+00:15:22.990 --> 00:15:28.480 align:middle line:84%
+So as we mentioned
+last time, the fact
+
+00:15:28.480 --> 00:15:31.360 align:middle line:84%
+that we actually see infinite
+number of harmonic oscillator
+
+00:15:31.360 --> 00:15:35.350 align:middle line:84%
+is actually not surprising
+from the perspective
+
+00:15:35.350 --> 00:15:40.300 align:middle line:84%
+that this field theory can
+be written as the continuum
+
+00:15:40.300 --> 00:15:42.460 align:middle line:90%
+limit of a chain--
+
+00:15:42.460 --> 00:15:46.600 align:middle line:84%
+say, of atoms
+connected by springs.
+
+00:15:46.600 --> 00:15:50.470 align:middle line:84%
+So when you have a
+chain, we wrote down
+
+00:15:50.470 --> 00:15:52.390 align:middle line:90%
+a one-dimensional system.
+
+00:15:52.390 --> 00:15:55.480 align:middle line:84%
+You can easily generalize
+to three-dimensional.
+
+00:15:55.480 --> 00:16:01.270 align:middle line:84%
+Yeah, so you have those chains
+of atoms connected by spring,
+
+00:16:01.270 --> 00:16:03.520 align:middle line:84%
+and they are just
+coupled oscillators.
+
+00:16:03.520 --> 00:16:06.898 align:middle line:84%
+And then you can just
+diagonalize them, and find
+
+00:16:06.898 --> 00:16:08.440 align:middle line:84%
+the normal spectrum,
+and each of them
+
+00:16:08.440 --> 00:16:10.340 align:middle line:90%
+is just a harmonic oscillator.
+
+00:16:10.340 --> 00:16:13.900 align:middle line:84%
+And so when we find those
+solution by doing Fourier
+
+00:16:13.900 --> 00:16:15.040 align:middle line:90%
+transform--
+
+00:16:15.040 --> 00:16:18.700 align:middle line:84%
+and essentially, we are just
+diagonalize those interactions
+
+00:16:18.700 --> 00:16:22.360 align:middle line:90%
+between those springs.
+
+00:16:22.360 --> 00:16:26.180 align:middle line:84%
+And yeah, so that's why we get
+infinite harmonic oscillator.
+
+00:16:26.180 --> 00:16:30.190 align:middle line:84%
+So from that way, if
+you think about it,
+
+00:16:30.190 --> 00:16:32.620 align:middle line:84%
+it's totally unsurprising
+we get the infinite number
+
+00:16:32.620 --> 00:16:34.240 align:middle line:90%
+of harmonic oscillators.
+
+00:16:34.240 --> 00:16:36.988 align:middle line:84%
+But it does surprising--
+it is surprising
+
+00:16:36.988 --> 00:16:39.280 align:middle line:84%
+if you think about it from
+the point of view of a field
+
+00:16:39.280 --> 00:16:40.210 align:middle line:90%
+theory.
+
+00:16:40.210 --> 00:16:43.150 align:middle line:84%
+So if you find when you
+quantize a field theory,
+
+00:16:43.150 --> 00:16:44.680 align:middle line:84%
+and then you find
+in the end you get
+
+00:16:44.680 --> 00:16:47.080 align:middle line:90%
+a bunch of harmonic oscillator.
+
+00:16:47.080 --> 00:16:52.480 align:middle line:84%
+And before doing
+that, it's hard to--
+
+00:16:52.480 --> 00:16:55.060 align:middle line:84%
+before you actually carry
+out the quantization,
+
+00:16:55.060 --> 00:16:58.240 align:middle line:84%
+it's actually hard to
+anticipate that if you
+
+00:16:58.240 --> 00:17:01.195 align:middle line:84%
+don't have this intuition
+from this discrete system.
+
+00:17:01.195 --> 00:17:03.713 align:middle line:90%
+
+
+00:17:03.713 --> 00:17:05.130 align:middle line:84%
+Do you have any
+questions on this?
+
+00:17:05.130 --> 00:17:06.060 align:middle line:90%
+Yes?
+
+00:17:06.060 --> 00:17:06.930 align:middle line:84%
+STUDENT: So when
+you say that there's
+
+00:17:06.930 --> 00:17:08.762 align:middle line:84%
+an infinite amount of
+harmonic oscillators,
+
+00:17:08.762 --> 00:17:11.220 align:middle line:84%
+are you saying that there's an
+infinite amount at any given
+
+00:17:11.220 --> 00:17:13.230 align:middle line:84%
+point in space,
+or that each given
+
+00:17:13.230 --> 00:17:15.099 align:middle line:84%
+point in a continuum
+of location there
+
+00:17:15.099 --> 00:17:16.530 align:middle line:90%
+is one harmonic oscillator?
+
+00:17:16.530 --> 00:17:21.730 align:middle line:84%
+PROFESSOR: Yeah, that's
+a very good question.
+
+00:17:21.730 --> 00:17:27.390 align:middle line:84%
+And so it's at each point, you
+have a harmonic oscillator.
+
+00:17:27.390 --> 00:17:29.010 align:middle line:84%
+Yeah, at each
+point-- essentially,
+
+00:17:29.010 --> 00:17:32.280 align:middle line:84%
+at each point you have
+a harmonic oscillator,
+
+00:17:32.280 --> 00:17:34.590 align:middle line:84%
+and then they
+connected in space.
+
+00:17:34.590 --> 00:17:37.780 align:middle line:90%
+
+
+00:17:37.780 --> 00:17:38.500 align:middle line:90%
+Yes?
+
+00:17:38.500 --> 00:17:40.292 align:middle line:84%
+STUDENT: Is there any
+reason why you didn't
+
+00:17:40.292 --> 00:17:43.570 align:middle line:90%
+compute the integral in E0?
+
+00:17:43.570 --> 00:17:46.240 align:middle line:84%
+You have a delta
+function in there?
+
+00:17:46.240 --> 00:17:47.620 align:middle line:90%
+PROFESSOR: Sorry, say it again?
+
+00:17:47.620 --> 00:17:49.840 align:middle line:84%
+STUDENT: So the
+integral if E0 equals.
+
+00:17:49.840 --> 00:17:51.130 align:middle line:90%
+Why didn't you just--
+
+00:17:51.130 --> 00:17:53.710 align:middle line:84%
+PROFESSOR: Oh, this-- we
+cannot do the integral.
+
+00:17:53.710 --> 00:17:54.820 align:middle line:90%
+STUDENT: No, up there--
+
+00:17:54.820 --> 00:17:55.900 align:middle line:90%
+the zero point energy.
+
+00:17:55.900 --> 00:17:56.775 align:middle line:90%
+PROFESSOR: Oh, right.
+
+00:17:56.775 --> 00:18:01.030 align:middle line:84%
+Yeah, we will talk
+a little bit later,
+
+00:18:01.030 --> 00:18:03.790 align:middle line:84%
+because later, we are
+going to elaborate
+
+00:18:03.790 --> 00:18:06.880 align:middle line:84%
+on this a little bit later
+because we are going to try
+
+00:18:06.880 --> 00:18:10.110 align:middle line:90%
+to give interpretation of this.
+
+00:18:10.110 --> 00:18:11.250 align:middle line:90%
+Yes?
+
+00:18:11.250 --> 00:18:15.750 align:middle line:84%
+STUDENT: In homework 1, we found
+that a hat was time dependent.
+
+00:18:15.750 --> 00:18:19.530 align:middle line:84%
+Is a hat not time
+dependent here,
+
+00:18:19.530 --> 00:18:22.860 align:middle line:84%
+and is that why the Hamiltonian
+is not time dependent?
+
+00:18:22.860 --> 00:18:25.860 align:middle line:84%
+PROFESSOR: Yeah, a hat
+is a constant operator.
+
+00:18:25.860 --> 00:18:31.290 align:middle line:84%
+Yeah, because a hat is
+an integration constant
+
+00:18:31.290 --> 00:18:32.790 align:middle line:90%
+of your operator equation.
+
+00:18:32.790 --> 00:18:36.960 align:middle line:90%
+
+
+00:18:36.960 --> 00:18:37.593 align:middle line:90%
+Yes?
+
+00:18:37.593 --> 00:18:39.510 align:middle line:84%
+STUDENT: Is there an
+analog of coherent states
+
+00:18:39.510 --> 00:18:41.880 align:middle line:84%
+for each harmonic
+oscillator in the QFT?
+
+00:18:41.880 --> 00:18:45.030 align:middle line:84%
+PROFESSOR: Yeah, there's an
+analog of coherent state.
+
+00:18:45.030 --> 00:18:45.750 align:middle line:90%
+Yeah, indeed.
+
+00:18:45.750 --> 00:18:46.662 align:middle line:84%
+STUDENT: Does it tell you
+anything useful if you are
+
+00:18:46.662 --> 00:18:48.150 align:middle line:90%
+in Heisenberg interpretation.
+
+00:18:48.150 --> 00:18:50.430 align:middle line:90%
+PROFESSOR: Yeah, you can--
+
+00:18:50.430 --> 00:18:54.750 align:middle line:90%
+yeah, we will-- you will see--
+
+00:18:54.750 --> 00:18:56.460 align:middle line:84%
+yeah, this question
+will become clearer
+
+00:18:56.460 --> 00:18:58.543 align:middle line:84%
+when we talk a little bit
+about the Hilbert space.
+
+00:18:58.543 --> 00:19:02.430 align:middle line:90%
+
+
+00:19:02.430 --> 00:19:03.420 align:middle line:90%
+Other questions?
+
+00:19:03.420 --> 00:19:07.010 align:middle line:90%
+
+
+00:19:07.010 --> 00:19:10.720 align:middle line:90%
+OK, good.
+
+00:19:10.720 --> 00:19:16.150 align:middle line:84%
+Now, let's-- before we talk
+about the Hilbert space,
+
+00:19:16.150 --> 00:19:18.505 align:middle line:84%
+we need to talk
+about two things.
+
+00:19:18.505 --> 00:19:22.610 align:middle line:90%
+
+
+00:19:22.610 --> 00:19:26.500 align:middle line:84%
+So here-- yeah,
+here, I have a dot.
+
+00:19:26.500 --> 00:19:28.100 align:middle line:90%
+And the second thing--
+
+00:19:28.100 --> 00:19:31.460 align:middle line:84%
+so Hamiltonian is an
+important quantity.
+
+00:19:31.460 --> 00:19:34.700 align:middle line:84%
+So this is one of the
+conserved quantity.
+
+00:19:34.700 --> 00:19:36.760 align:middle line:84%
+So there are other
+conserved quantities.
+
+00:19:36.760 --> 00:19:48.350 align:middle line:90%
+
+
+00:19:48.350 --> 00:19:52.330 align:middle line:84%
+So there are other conserved
+quantities, and one of them
+
+00:19:52.330 --> 00:19:54.100 align:middle line:84%
+is the conserved
+quantity corresponding
+
+00:19:54.100 --> 00:19:56.860 align:middle line:90%
+to spatial translation.
+
+00:19:56.860 --> 00:20:01.750 align:middle line:84%
+So the spatial translation
+gives you conserved momentum--
+
+00:20:01.750 --> 00:20:05.210 align:middle line:90%
+momentum conservation.
+
+00:20:05.210 --> 00:20:17.020 align:middle line:84%
+So from spatial
+translation, then you
+
+00:20:17.020 --> 00:20:20.776 align:middle line:90%
+get this conserved charge p i.
+
+00:20:20.776 --> 00:20:23.740 align:middle line:90%
+
+
+00:20:23.740 --> 00:20:26.920 align:middle line:84%
+Again, you should have
+done this in your homework
+
+00:20:26.920 --> 00:20:28.300 align:middle line:90%
+to have the following form--
+
+00:20:28.300 --> 00:20:31.210 align:middle line:90%
+
+
+00:20:31.210 --> 00:20:33.410 align:middle line:90%
+d3 x pi.
+
+00:20:33.410 --> 00:20:45.370 align:middle line:90%
+
+
+00:20:45.370 --> 00:20:50.590 align:middle line:84%
+So this is the Noether charge
+for the conserved quantity
+
+00:20:50.590 --> 00:20:53.470 align:middle line:84%
+associated with the
+spatial translation.
+
+00:20:53.470 --> 00:20:58.290 align:middle line:84%
+And we interpret it as
+a spacetime momentum.
+
+00:20:58.290 --> 00:21:00.590 align:middle line:84%
+This should be interpreted
+as spacetime momentum.
+
+00:21:00.590 --> 00:21:04.440 align:middle line:90%
+
+
+00:21:04.440 --> 00:21:07.580 align:middle line:84%
+So this is-- so here, we
+have two momentum here.
+
+00:21:07.580 --> 00:21:12.420 align:middle line:90%
+You don't confuse them.
+
+00:21:12.420 --> 00:21:18.350 align:middle line:84%
+So this pi is the canonical
+momentum conjugate
+
+00:21:18.350 --> 00:21:20.090 align:middle line:90%
+to this canonical variable--
+
+00:21:20.090 --> 00:21:23.630 align:middle line:90%
+
+
+00:21:23.630 --> 00:21:26.270 align:middle line:84%
+pi is the canonical
+momentum conjugate
+
+00:21:26.270 --> 00:21:30.500 align:middle line:90%
+to this field variable phi.
+
+00:21:30.500 --> 00:21:35.270 align:middle line:84%
+And this is the genuine
+physical spacetime momentum.
+
+00:21:35.270 --> 00:21:37.760 align:middle line:84%
+It's the momentum of
+your full system--
+
+00:21:37.760 --> 00:21:39.350 align:middle line:90%
+of your full physical system.
+
+00:21:39.350 --> 00:21:42.300 align:middle line:90%
+
+
+00:21:42.300 --> 00:21:46.650 align:middle line:84%
+And again, we can
+just plug it in--
+
+00:21:46.650 --> 00:21:49.980 align:middle line:84%
+we can just plug in the explicit
+expression of pi and phi.
+
+00:21:49.980 --> 00:21:53.340 align:middle line:84%
+We already know
+its time evolution.
+
+00:21:53.340 --> 00:21:55.080 align:middle line:84%
+We already know
+the time evolution,
+
+00:21:55.080 --> 00:21:58.120 align:middle line:90%
+and then we can plug them in.
+
+00:21:58.120 --> 00:22:04.270 align:middle line:84%
+And then you find that
+the answer is given by--
+
+00:22:04.270 --> 00:22:10.410 align:middle line:84%
+again, after some smaller
+number of minutes calculation.
+
+00:22:10.410 --> 00:22:12.890 align:middle line:84%
+And then you find that the
+answer is given by this.
+
+00:22:12.890 --> 00:22:17.390 align:middle line:90%
+
+
+00:22:17.390 --> 00:22:19.680 align:middle line:84%
+In this case, there is
+no zero point energy.
+
+00:22:19.680 --> 00:22:21.230 align:middle line:90%
+You just have this expression.
+
+00:22:21.230 --> 00:22:30.540 align:middle line:90%
+
+
+00:22:30.540 --> 00:22:35.640 align:middle line:84%
+And furthermore, you also have
+a Lorentz transformation--
+
+00:22:35.640 --> 00:22:36.435 align:middle line:90%
+Lorentz symmetry.
+
+00:22:36.435 --> 00:22:42.120 align:middle line:90%
+
+
+00:22:42.120 --> 00:22:45.900 align:middle line:84%
+And then that will lead to, say,
+the conserved charge associated
+
+00:22:45.900 --> 00:22:48.150 align:middle line:90%
+with Lorentz transformation.
+
+00:22:48.150 --> 00:22:51.600 align:middle line:84%
+And again, you can
+find it explicitly.
+
+00:22:51.600 --> 00:22:57.045 align:middle line:84%
+And so in your pset 2, you will
+find the expression of this M
+
+00:22:57.045 --> 00:22:59.280 align:middle line:90%
+mu nu in terms of phi and pi.
+
+00:22:59.280 --> 00:23:02.880 align:middle line:90%
+
+
+00:23:02.880 --> 00:23:04.830 align:middle line:84%
+And then you can
+again express this guy
+
+00:23:04.830 --> 00:23:07.500 align:middle line:90%
+in terms of a and a dagger.
+
+00:23:07.500 --> 00:23:12.490 align:middle line:84%
+But I didn't have the guts to
+assign as the part of the pset,
+
+00:23:12.490 --> 00:23:15.420 align:middle line:84%
+so I used it as a bonus problem
+because that calculation--
+
+00:23:15.420 --> 00:23:17.340 align:middle line:84%
+involved a little bit
+extra calculation.
+
+00:23:17.340 --> 00:23:20.760 align:middle line:84%
+Yeah, it involves a little
+bit slightly more tedious
+
+00:23:20.760 --> 00:23:24.030 align:middle line:84%
+calculation, so I used
+that as a bonus problem
+
+00:23:24.030 --> 00:23:29.010 align:middle line:84%
+for those people who like
+to have some more fun.
+
+00:23:29.010 --> 00:23:33.690 align:middle line:90%
+Yeah, anyway, so this you can--
+
+00:23:33.690 --> 00:23:35.180 align:middle line:90%
+will see in your pset.
+
+00:23:35.180 --> 00:23:37.920 align:middle line:90%
+
+
+00:23:37.920 --> 00:23:38.870 align:middle line:90%
+Good.
+
+00:23:38.870 --> 00:23:43.280 align:middle line:84%
+And then again, pi,
+you see the explicitly
+
+00:23:43.280 --> 00:23:46.490 align:middle line:90%
+that this is time independent--
+
+00:23:46.490 --> 00:23:48.086 align:middle line:90%
+it's time independent.
+
+00:23:48.086 --> 00:23:53.440 align:middle line:90%
+
+
+00:23:53.440 --> 00:23:54.820 align:middle line:90%
+Good.
+
+00:23:54.820 --> 00:23:57.460 align:middle line:84%
+And then the next
+thing is let's talk
+
+00:23:57.460 --> 00:23:58.690 align:middle line:90%
+about this zero point energy.
+
+00:23:58.690 --> 00:24:02.290 align:middle line:90%
+
+
+00:24:02.290 --> 00:24:05.730 align:middle line:84%
+So this zero point energy, we
+can write it as the following.
+
+00:24:05.730 --> 00:24:08.260 align:middle line:90%
+
+
+00:24:08.260 --> 00:24:12.730 align:middle line:84%
+So we can-- yeah, so
+this is a constant.
+
+00:24:12.730 --> 00:24:15.120 align:middle line:84%
+So you can take it outside
+of this k integral.
+
+00:24:15.120 --> 00:24:18.510 align:middle line:84%
+This does not depend
+on k because the--
+
+00:24:18.510 --> 00:24:21.030 align:middle line:90%
+yeah.
+
+00:24:21.030 --> 00:24:27.360 align:middle line:84%
+So this is just 2
+pi cube delta 3 0.
+
+00:24:27.360 --> 00:24:31.470 align:middle line:84%
+So this is-- remember, this
+is a k space delta function.
+
+00:24:31.470 --> 00:24:33.390 align:middle line:90%
+And then you have the d3 k.
+
+00:24:33.390 --> 00:24:43.650 align:middle line:90%
+
+
+00:24:43.650 --> 00:24:45.660 align:middle line:90%
+So that's the expression we get.
+
+00:24:45.660 --> 00:24:50.750 align:middle line:90%
+
+
+00:24:50.750 --> 00:24:52.510 align:middle line:84%
+So now, let's try
+to understand what's
+
+00:24:52.510 --> 00:24:53.680 align:middle line:90%
+the meaning of this term?
+
+00:24:53.680 --> 00:24:56.860 align:middle line:90%
+
+
+00:24:56.860 --> 00:24:59.080 align:middle line:84%
+Let's try to understand
+the meaning of this term.
+
+00:24:59.080 --> 00:25:00.705 align:middle line:84%
+To understand the
+meaning of that term,
+
+00:25:00.705 --> 00:25:03.550 align:middle line:84%
+we need to do a little bit
+of a mathematical trick.
+
+00:25:03.550 --> 00:25:06.460 align:middle line:84%
+We need to a little bit
+of a mathematical trick.
+
+00:25:06.460 --> 00:25:12.740 align:middle line:84%
+So remember the definition
+of delta function,
+
+00:25:12.740 --> 00:25:23.540 align:middle line:84%
+we have 2 pi cubed delta 3k
+equal to the Fourier transform
+
+00:25:23.540 --> 00:25:26.400 align:middle line:90%
+of the exponential of i k x.
+
+00:25:26.400 --> 00:25:28.773 align:middle line:84%
+And so this is the
+definition of-- essentially,
+
+00:25:28.773 --> 00:25:30.315 align:middle line:84%
+the definition of
+the delta function.
+
+00:25:30.315 --> 00:25:35.730 align:middle line:90%
+
+
+00:25:35.730 --> 00:25:39.900 align:middle line:84%
+And now, here, we want
+to set k equal to 0.
+
+00:25:39.900 --> 00:25:42.670 align:middle line:90%
+So let's set k equal to 0 here.
+
+00:25:42.670 --> 00:25:47.910 align:middle line:84%
+And then we find that
+these 2 pi cubed theta 0--
+
+00:25:47.910 --> 00:25:51.450 align:middle line:84%
+so let's remember this
+again in the k space.
+
+00:25:51.450 --> 00:25:54.540 align:middle line:84%
+And then we just set
+k equal to 0 here.
+
+00:25:54.540 --> 00:25:56.070 align:middle line:90%
+And then what is this?
+
+00:25:56.070 --> 00:25:59.040 align:middle line:84%
+If you set k equal to
+0, you get what this?
+
+00:25:59.040 --> 00:25:59.730 align:middle line:90%
+Yes?
+
+00:25:59.730 --> 00:26:00.390 align:middle line:90%
+STUDENT: The volume--
+
+00:26:00.390 --> 00:26:01.230 align:middle line:90%
+PROFESSOR: Yeah, that's right.
+
+00:26:01.230 --> 00:26:01.860 align:middle line:90%
+STUDENT: --of the full space.
+
+00:26:01.860 --> 00:26:04.068 align:middle line:84%
+PROFESSOR: You just get the
+volume of the full space.
+
+00:26:04.068 --> 00:26:07.590 align:middle line:90%
+
+
+00:26:07.590 --> 00:26:10.080 align:middle line:90%
+Let's just imagine you--
+
+00:26:10.080 --> 00:26:12.150 align:middle line:84%
+in order to make sense
+of this quantity,
+
+00:26:12.150 --> 00:26:15.990 align:middle line:84%
+you can put the whole
+universe in a big box.
+
+00:26:15.990 --> 00:26:18.030 align:middle line:84%
+Imagine the whole
+universe is in a big box,
+
+00:26:18.030 --> 00:26:21.570 align:middle line:84%
+and then this is
+the total volume.
+
+00:26:21.570 --> 00:26:24.877 align:middle line:84%
+And now, since
+this is the volume,
+
+00:26:24.877 --> 00:26:26.460 align:middle line:84%
+now we have a very
+good interpretation
+
+00:26:26.460 --> 00:26:28.510 align:middle line:90%
+of this quantity.
+
+00:26:28.510 --> 00:26:34.830 align:middle line:84%
+And now we can write E0 as
+merely volume times epsilon 0.
+
+00:26:34.830 --> 00:26:36.723 align:middle line:84%
+And then this quantity
+epsilon 0 then
+
+00:26:36.723 --> 00:26:38.640 align:middle line:84%
+have the interpretation
+of the energy density.
+
+00:26:38.640 --> 00:26:46.610 align:middle line:90%
+
+
+00:26:46.610 --> 00:26:47.870 align:middle line:90%
+So now this is energy density.
+
+00:26:47.870 --> 00:26:56.000 align:middle line:90%
+
+
+00:26:56.000 --> 00:26:59.910 align:middle line:84%
+So this energy density, we can
+write it in one more step--
+
+00:26:59.910 --> 00:27:02.270 align:middle line:90%
+so continue to here.
+
+00:27:02.270 --> 00:27:04.490 align:middle line:84%
+So we can write
+it one more step.
+
+00:27:04.490 --> 00:27:08.120 align:middle line:84%
+Plug in the expression
+value of omega k.
+
+00:27:08.120 --> 00:27:09.710 align:middle line:90%
+So this is the--
+
+00:27:09.710 --> 00:27:10.460 align:middle line:90%
+just 1/2.
+
+00:27:10.460 --> 00:27:13.220 align:middle line:90%
+
+
+00:27:13.220 --> 00:27:23.400 align:middle line:90%
+Sorry, I forgot 2 pi d k.
+
+00:27:23.400 --> 00:27:25.470 align:middle line:90%
+And then you have k square.
+
+00:27:25.470 --> 00:27:28.680 align:middle line:90%
+
+
+00:27:28.680 --> 00:27:30.255 align:middle line:90%
+Yeah, so that's what you get.
+
+00:27:30.255 --> 00:27:32.940 align:middle line:90%
+
+
+00:27:32.940 --> 00:27:34.350 align:middle line:84%
+So how do you like
+this integral?
+
+00:27:34.350 --> 00:27:37.790 align:middle line:90%
+
+
+00:27:37.790 --> 00:27:41.390 align:middle line:84%
+STUDENT: So just a
+question to go back here.
+
+00:27:41.390 --> 00:27:44.060 align:middle line:84%
+Wouldn't it be quicker if you
+just left the delta function
+
+00:27:44.060 --> 00:27:46.550 align:middle line:84%
+inside of your
+integral and just say
+
+00:27:46.550 --> 00:27:48.560 align:middle line:90%
+that it's one for your entire--
+
+00:27:48.560 --> 00:27:50.180 align:middle line:90%
+like for all k.
+
+00:27:50.180 --> 00:27:53.950 align:middle line:84%
+So why are those two
+pictures equivalent?
+
+00:27:53.950 --> 00:27:56.740 align:middle line:84%
+Because in that picture,
+you don't get the volume?
+
+00:27:56.740 --> 00:27:59.170 align:middle line:90%
+PROFESSOR: Sorry, say it again?
+
+00:27:59.170 --> 00:28:00.190 align:middle line:90%
+What's two picture?
+
+00:28:00.190 --> 00:28:03.100 align:middle line:84%
+STUDENT: If you didn't pull
+out your delta function from
+
+00:28:03.100 --> 00:28:05.230 align:middle line:84%
+your integral-- you
+just did it with--
+
+00:28:05.230 --> 00:28:07.570 align:middle line:84%
+that delta function
+is one for all k.
+
+00:28:07.570 --> 00:28:10.210 align:middle line:84%
+PROFESSOR: No, because
+this is just a constant.
+
+00:28:10.210 --> 00:28:12.160 align:middle line:84%
+Just when you have an
+integral of a constant,
+
+00:28:12.160 --> 00:28:14.830 align:middle line:90%
+you can always pull it out.
+
+00:28:14.830 --> 00:28:17.380 align:middle line:84%
+Because delta 0 does
+not depend on k anymore.
+
+00:28:17.380 --> 00:28:21.920 align:middle line:90%
+
+
+00:28:21.920 --> 00:28:22.910 align:middle line:90%
+Good.
+
+00:28:22.910 --> 00:28:26.020 align:middle line:84%
+So how do you like
+this integral?
+
+00:28:26.020 --> 00:28:27.640 align:middle line:90%
+Can you do it?
+
+00:28:27.640 --> 00:28:28.900 align:middle line:90%
+STUDENT: No, it diverges
+
+00:28:28.900 --> 00:28:29.650 align:middle line:90%
+PROFESSOR: Good.
+
+00:28:29.650 --> 00:28:32.800 align:middle line:84%
+So it's fruitless
+to do this integral
+
+00:28:32.800 --> 00:28:34.120 align:middle line:90%
+because this is divergent.
+
+00:28:34.120 --> 00:28:38.580 align:middle line:90%
+
+
+00:28:38.580 --> 00:28:44.500 align:middle line:84%
+And there's very good reason
+for this divergence physically.
+
+00:28:44.500 --> 00:28:47.530 align:middle line:84%
+So this is just
+the energy density.
+
+00:28:47.530 --> 00:28:51.015 align:middle line:84%
+So essentially, this is the
+energy per unit volume--
+
+00:28:51.015 --> 00:28:53.630 align:middle line:90%
+
+
+00:28:53.630 --> 00:28:56.800 align:middle line:90%
+say in some unit volume.
+
+00:28:56.800 --> 00:28:58.920 align:middle line:84%
+So let's imagine you
+have a unit volume here.
+
+00:28:58.920 --> 00:29:04.200 align:middle line:90%
+
+
+00:29:04.200 --> 00:29:12.720 align:middle line:84%
+Remember, this-- beside-- before
+this, corresponding to you
+
+00:29:12.720 --> 00:29:15.810 align:middle line:84%
+take a discrete system with
+some lattice spacing a,
+
+00:29:15.810 --> 00:29:19.200 align:middle line:84%
+and then you take the lattice,
+and each lattice point,
+
+00:29:19.200 --> 00:29:20.940 align:middle line:84%
+you have a harmonic
+oscillator, and then
+
+00:29:20.940 --> 00:29:24.300 align:middle line:84%
+you take a lattice
+spacing-- a equal to 0.
+
+00:29:24.300 --> 00:29:26.550 align:middle line:84%
+So that means for
+any unit volume, when
+
+00:29:26.550 --> 00:29:30.090 align:middle line:84%
+you take a equal to 0,
+you have infinite number
+
+00:29:30.090 --> 00:29:31.125 align:middle line:90%
+of oscillators inside.
+
+00:29:31.125 --> 00:29:33.810 align:middle line:90%
+
+
+00:29:33.810 --> 00:29:35.475 align:middle line:84%
+So essentially,
+when you-- yeah, you
+
+00:29:35.475 --> 00:29:39.180 align:middle line:84%
+have the lattice of
+oscillators at each point.
+
+00:29:39.180 --> 00:29:41.310 align:middle line:84%
+Anyway, I will not
+try to draw it.
+
+00:29:41.310 --> 00:29:45.390 align:middle line:84%
+And then when you take a
+to 0, you have any unit--
+
+00:29:45.390 --> 00:29:49.680 align:middle line:84%
+any volume unit, you will
+have the number of oscillators
+
+00:29:49.680 --> 00:29:53.430 align:middle line:84%
+go to infinity, and that's
+where this divergence come from.
+
+00:29:53.430 --> 00:29:54.900 align:middle line:90%
+It just come from--
+
+00:29:54.900 --> 00:29:58.000 align:middle line:84%
+in field theory, you have a
+continuum degree of freedom.
+
+00:29:58.000 --> 00:30:00.030 align:middle line:84%
+So at each point, you
+have a degree of freedom,
+
+00:30:00.030 --> 00:30:02.670 align:middle line:84%
+and within any volume,
+then you definitely
+
+00:30:02.670 --> 00:30:05.010 align:middle line:84%
+have infinite number
+of degrees of freedom.
+
+00:30:05.010 --> 00:30:11.770 align:middle line:84%
+so this is just from
+continuum of freedom.
+
+00:30:11.770 --> 00:30:15.430 align:middle line:84%
+So this is the first
+time you see a diverging
+
+00:30:15.430 --> 00:30:18.160 align:middle line:84%
+quantity in quantum
+field theory,
+
+00:30:18.160 --> 00:30:20.185 align:middle line:84%
+but you will soon
+find that this is--
+
+00:30:20.185 --> 00:30:22.830 align:middle line:90%
+
+
+00:30:22.830 --> 00:30:26.760 align:middle line:84%
+soon, you find that
+this is normal.
+
+00:30:26.760 --> 00:30:28.080 align:middle line:90%
+It will be a fact of life.
+
+00:30:28.080 --> 00:30:31.410 align:middle line:84%
+Just you will see
+divergence very commonly--
+
+00:30:31.410 --> 00:30:34.140 align:middle line:84%
+and so-- because you have
+continuum degrees of freedom.
+
+00:30:34.140 --> 00:30:37.090 align:middle line:90%
+
+
+00:30:37.090 --> 00:30:41.320 align:middle line:84%
+So the whole thing about
+quantum field theory
+
+00:30:41.320 --> 00:30:45.580 align:middle line:84%
+is to find a way to deal
+with those divergences.
+
+00:30:45.580 --> 00:30:49.840 align:middle line:84%
+And one of the key differences
+between quantum field theory
+
+00:30:49.840 --> 00:30:52.970 align:middle line:84%
+and just finite quantum
+mechanics or finite number
+
+00:30:52.970 --> 00:30:56.170 align:middle line:84%
+degrees of freedom is
+because of those divergences.
+
+00:30:56.170 --> 00:30:58.120 align:middle line:84%
+And the big part of
+quantum field theory
+
+00:30:58.120 --> 00:31:00.790 align:middle line:84%
+is to understand how to
+treat those divergences.
+
+00:31:00.790 --> 00:31:04.180 align:middle line:84%
+And they actually don't
+affect your physics,
+
+00:31:04.180 --> 00:31:08.830 align:middle line:84%
+but you do have to develop
+sometimes sophisticated tricks
+
+00:31:08.830 --> 00:31:14.090 align:middle line:90%
+to treat OK,
+
+00:31:14.090 --> 00:31:14.590 align:middle line:90%
+Good.
+
+00:31:14.590 --> 00:31:17.430 align:middle line:90%
+
+
+00:31:17.430 --> 00:31:22.470 align:middle line:84%
+And this infinite
+answer is also closely
+
+00:31:22.470 --> 00:31:26.670 align:middle line:84%
+connected to a very famous
+problem you may have heard.
+
+00:31:26.670 --> 00:31:30.360 align:middle line:84%
+It's called the cosmological
+constant problem.
+
+00:31:30.360 --> 00:31:34.740 align:middle line:84%
+Because this tells you
+that any quantum field
+
+00:31:34.740 --> 00:31:40.480 align:middle line:84%
+theory have an infinite,
+say, 0 point energy.
+
+00:31:40.480 --> 00:31:43.090 align:middle line:90%
+And so you may say, OK--
+
+00:31:43.090 --> 00:31:50.730 align:middle line:84%
+so infinite-- whenever we
+say something infinite,
+
+00:31:50.730 --> 00:31:55.800 align:middle line:84%
+there's one thing you
+always do to treat it.
+
+00:31:55.800 --> 00:31:57.620 align:middle line:84%
+Can you guess what is
+the thing you always
+
+00:31:57.620 --> 00:31:59.150 align:middle line:90%
+do when you see infinities?
+
+00:31:59.150 --> 00:32:02.690 align:middle line:90%
+
+
+00:32:02.690 --> 00:32:03.440 align:middle line:90%
+Yes?
+
+00:32:03.440 --> 00:32:05.550 align:middle line:84%
+STUDENT: Just like
+subtract infinity.
+
+00:32:05.550 --> 00:32:07.600 align:middle line:84%
+PROFESSOR: Yeah,
+that's one idea.
+
+00:32:07.600 --> 00:32:10.560 align:middle line:84%
+That's one idea, but to
+subtract infinity is very hard.
+
+00:32:10.560 --> 00:32:14.240 align:middle line:84%
+In your calculus class,
+when you subtract infinity
+
+00:32:14.240 --> 00:32:16.680 align:middle line:84%
+from infinity, you
+can get infinity,
+
+00:32:16.680 --> 00:32:19.580 align:middle line:90%
+so you have to be very careful.
+
+00:32:19.580 --> 00:32:20.270 align:middle line:90%
+Yes?
+
+00:32:20.270 --> 00:32:22.150 align:middle line:90%
+STUDENT: Just ignore the term.
+
+00:32:22.150 --> 00:32:23.900 align:middle line:84%
+PROFESSOR: That's a
+lot of very good idea.
+
+00:32:23.900 --> 00:32:26.690 align:middle line:90%
+[LAUGHTER]
+
+00:32:26.690 --> 00:32:28.220 align:middle line:90%
+Indeed, that's what we often do.
+
+00:32:28.220 --> 00:32:28.820 align:middle line:90%
+Yes?
+
+00:32:28.820 --> 00:32:30.980 align:middle line:90%
+STUDENT: Divide by.
+
+00:32:30.980 --> 00:32:33.350 align:middle line:90%
+PROFESSOR: That's also-- indeed.
+
+00:32:33.350 --> 00:32:39.220 align:middle line:84%
+But to do all those things,
+you have to do one thing first.
+
+00:32:39.220 --> 00:32:40.090 align:middle line:90%
+Yes?
+
+00:32:40.090 --> 00:32:42.673 align:middle line:84%
+STUDENT: You might approximate
+it, it's like 1 over the Planck
+
+00:32:42.673 --> 00:32:43.300 align:middle line:90%
+constant.
+
+00:32:43.300 --> 00:32:45.180 align:middle line:84%
+PROFESSOR: Yeah,
+it's also very close.
+
+00:32:45.180 --> 00:32:46.434 align:middle line:90%
+You need to do--
+
+00:32:46.434 --> 00:32:47.267 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+00:32:47.267 --> 00:32:47.694 align:middle line:90%
+PROFESSOR: Hmm?
+
+00:32:47.694 --> 00:32:48.550 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+00:32:48.550 --> 00:32:49.592 align:middle line:90%
+PROFESSOR: Yeah, exactly.
+
+00:32:49.592 --> 00:32:52.900 align:middle line:84%
+You need to find a way
+to make it finite first,
+
+00:32:52.900 --> 00:32:54.580 align:middle line:90%
+and then you can subtract it.
+
+00:32:54.580 --> 00:32:58.420 align:middle line:84%
+And then you can-- yeah, just
+like when you sum 1 plus 1/2
+
+00:32:58.420 --> 00:33:00.740 align:middle line:90%
+plus 1/3, et cetera.
+
+00:33:00.740 --> 00:33:03.970 align:middle line:90%
+You get an infinite series.
+
+00:33:03.970 --> 00:33:06.290 align:middle line:84%
+But if you want to estimate
+the outcome-- yeah,
+
+00:33:06.290 --> 00:33:07.090 align:middle line:90%
+you get divergence.
+
+00:33:07.090 --> 00:33:10.330 align:middle line:84%
+But you always try to
+cut it off the series,
+
+00:33:10.330 --> 00:33:12.400 align:middle line:84%
+and then approximate
+definite answer.
+
+00:33:12.400 --> 00:33:14.560 align:middle line:90%
+And here is similar.
+
+00:33:14.560 --> 00:33:19.060 align:middle line:84%
+So here we always put
+some momentum cut-off.
+
+00:33:19.060 --> 00:33:22.840 align:middle line:84%
+So imagine the
+momentum is smaller
+
+00:33:22.840 --> 00:33:25.930 align:middle line:84%
+than some momentum--
+say, some value lambda.
+
+00:33:25.930 --> 00:33:27.610 align:middle line:84%
+And lambda
+corresponding to maybe
+
+00:33:27.610 --> 00:33:30.520 align:middle line:84%
+to the scale which this quantum
+field is no longer apply,
+
+00:33:30.520 --> 00:33:33.250 align:middle line:84%
+because nobody told you
+that this quantum field
+
+00:33:33.250 --> 00:33:36.190 align:middle line:84%
+theory should apply
+at all length scales.
+
+00:33:36.190 --> 00:33:39.880 align:middle line:84%
+Because for example,
+in this lattice model,
+
+00:33:39.880 --> 00:33:41.815 align:middle line:84%
+this scale will be 1
+over the lattice spacing.
+
+00:33:41.815 --> 00:33:45.440 align:middle line:90%
+
+
+00:33:45.440 --> 00:33:49.910 align:middle line:84%
+Anyway, so once you
+cut it off, still you
+
+00:33:49.910 --> 00:33:52.840 align:middle line:90%
+get a pretty big number.
+
+00:33:52.840 --> 00:33:57.040 align:middle line:84%
+And you cannot ignore it because
+this is a physical zero point
+
+00:33:57.040 --> 00:33:57.730 align:middle line:90%
+energy.
+
+00:33:57.730 --> 00:34:00.280 align:middle line:84%
+In principle, you
+can measure it.
+
+00:34:00.280 --> 00:34:03.980 align:middle line:84%
+But in real life,
+we don't see it.
+
+00:34:03.980 --> 00:34:07.810 align:middle line:84%
+So we have quantum fields
+flying around all the time,
+
+00:34:07.810 --> 00:34:10.580 align:middle line:84%
+but we don't see this
+big vacuum energy.
+
+00:34:10.580 --> 00:34:13.900 align:middle line:84%
+So this is called the
+cosmological constant problem.
+
+00:34:13.900 --> 00:34:18.429 align:middle line:84%
+Actually, there was just
+a colloquium last week
+
+00:34:18.429 --> 00:34:21.310 align:middle line:84%
+about this cosmological related
+to this cosmological constant
+
+00:34:21.310 --> 00:34:23.800 align:middle line:90%
+problem.
+
+00:34:23.800 --> 00:34:24.300 align:middle line:90%
+Good.
+
+00:34:24.300 --> 00:34:25.199 align:middle line:90%
+Any questions?
+
+00:34:25.199 --> 00:34:28.143 align:middle line:90%
+
+
+00:34:28.143 --> 00:34:29.685 align:middle line:84%
+Now, we can talk
+about Hilbert space.
+
+00:34:29.685 --> 00:34:43.870 align:middle line:90%
+
+
+00:34:43.870 --> 00:34:47.380 align:middle line:90%
+So as a harmonic oscillator--
+
+00:34:47.380 --> 00:34:50.110 align:middle line:84%
+so we can first define
+the vacuum state.
+
+00:34:50.110 --> 00:34:55.980 align:middle line:84%
+So now, what we will do is
+indeed in quantum field theory
+
+00:34:55.980 --> 00:35:00.210 align:middle line:84%
+itself, we can just
+ignore this E0.
+
+00:35:00.210 --> 00:35:02.880 align:middle line:90%
+
+
+00:35:02.880 --> 00:35:06.660 align:middle line:84%
+From now on, we will just
+ignore this E0 because this just
+
+00:35:06.660 --> 00:35:07.920 align:middle line:90%
+to give you overall--
+
+00:35:07.920 --> 00:35:13.140 align:middle line:84%
+just give you a constant,
+which does not do anything.
+
+00:35:13.140 --> 00:35:16.860 align:middle line:84%
+It's like the potential
+energy E and M.
+
+00:35:16.860 --> 00:35:21.470 align:middle line:84%
+Yeah, just like the unit--
+yeah, just like the-- anyway,
+
+00:35:21.470 --> 00:35:25.280 align:middle line:84%
+so from now on, we
+ignore this term.
+
+00:35:25.280 --> 00:35:27.372 align:middle line:84%
+So often, I will just
+write the Hamiltonian--
+
+00:35:27.372 --> 00:35:28.330 align:middle line:90%
+I just write this term.
+
+00:35:28.330 --> 00:35:32.180 align:middle line:90%
+
+
+00:35:32.180 --> 00:35:35.663 align:middle line:84%
+But later, we actually
+see examples--
+
+00:35:35.663 --> 00:35:36.830 align:middle line:90%
+later, we will see examples.
+
+00:35:36.830 --> 00:35:40.250 align:middle line:84%
+Actually, this E0 can actually
+have physical implications,
+
+00:35:40.250 --> 00:35:43.040 align:middle line:84%
+but just for our current
+purpose, we ignore it.
+
+00:35:43.040 --> 00:35:46.570 align:middle line:90%
+
+
+00:35:46.570 --> 00:35:49.280 align:middle line:84%
+So now, the lowest
+energy state--
+
+00:35:49.280 --> 00:35:52.740 align:middle line:84%
+then it's clear from
+here because this
+
+00:35:52.740 --> 00:35:54.310 align:middle line:90%
+is just a constant.
+
+00:35:54.310 --> 00:36:01.470 align:middle line:84%
+So the lowest energy
+state ground state, which
+
+00:36:01.470 --> 00:36:04.790 align:middle line:84%
+is we often call
+the vacuum state,
+
+00:36:04.790 --> 00:36:09.790 align:middle line:84%
+means there's nothing there,
+is given by a k 0 equal
+
+00:36:09.790 --> 00:36:15.130 align:middle line:90%
+to 0 defined to be for any k.
+
+00:36:15.130 --> 00:36:19.730 align:middle line:84%
+So the ground state satisfy,
+which I denoted by 0--
+
+00:36:19.730 --> 00:36:24.610 align:middle line:84%
+then satisfy
+annihlated by this ak.
+
+00:36:24.610 --> 00:36:27.580 align:middle line:90%
+And then the general state--
+
+00:36:27.580 --> 00:36:31.210 align:middle line:84%
+you can just-- so general
+states have the following form.
+
+00:36:31.210 --> 00:36:36.150 align:middle line:90%
+
+
+00:36:36.150 --> 00:36:38.790 align:middle line:90%
+Say I can write n k 1.
+
+00:36:38.790 --> 00:36:42.090 align:middle line:84%
+So the k 1 oscillator
+excited n times.
+
+00:36:42.090 --> 00:36:45.930 align:middle line:90%
+n k 2-- n k--
+
+00:36:45.930 --> 00:36:49.380 align:middle line:84%
+the k 2 oscillator
+excited n k 2 times,
+
+00:36:49.380 --> 00:36:52.140 align:middle line:90%
+et cetera, which is given by--
+
+00:36:52.140 --> 00:37:00.780 align:middle line:84%
+which is proportional to a k
+1 dagger to the power n k 1
+
+00:37:00.780 --> 00:37:09.060 align:middle line:84%
+a k 2 dagger n k 2
+etcetera acting on 0
+
+00:37:09.060 --> 00:37:13.170 align:middle line:84%
+just like we have large number
+of harmonic oscillators.
+
+00:37:13.170 --> 00:37:22.390 align:middle line:90%
+
+
+00:37:22.390 --> 00:37:23.980 align:middle line:90%
+Questions on this?
+
+00:37:23.980 --> 00:37:24.798 align:middle line:90%
+Yes?
+
+00:37:24.798 --> 00:37:26.340 align:middle line:84%
+STUDENT: How do you
+know there exists
+
+00:37:26.340 --> 00:37:28.757 align:middle line:84%
+some state that's annihilated
+by every single annihilation
+
+00:37:28.757 --> 00:37:30.010 align:middle line:90%
+operator?
+
+00:37:30.010 --> 00:37:34.150 align:middle line:84%
+PROFESSOR: You postulate,
+but you can actually write it
+
+00:37:34.150 --> 00:37:37.750 align:middle line:90%
+down its wave function.
+
+00:37:37.750 --> 00:37:42.970 align:middle line:84%
+Just as in the standard
+harmonic oscillator case,
+
+00:37:42.970 --> 00:37:48.624 align:middle line:84%
+you can starting from a
+dagger annihlated by a.
+
+00:37:48.624 --> 00:37:50.830 align:middle line:84%
+You can start from this
+equation to write down
+
+00:37:50.830 --> 00:37:51.950 align:middle line:90%
+its wave function.
+
+00:37:51.950 --> 00:37:55.060 align:middle line:84%
+And here, you can write down
+the wave function for the vacuum
+
+00:37:55.060 --> 00:37:56.500 align:middle line:90%
+state to in terms of phi.
+
+00:37:56.500 --> 00:37:59.790 align:middle line:90%
+
+
+00:37:59.790 --> 00:38:01.350 align:middle line:90%
+Yes?
+
+00:38:01.350 --> 00:38:03.300 align:middle line:84%
+STUDENT: In the notation
+for the ket there
+
+00:38:03.300 --> 00:38:05.990 align:middle line:84%
+it looks like we have countable
+number of frequencies?
+
+00:38:05.990 --> 00:38:08.738 align:middle line:90%
+Is that, like why is that?
+
+00:38:08.738 --> 00:38:09.780 align:middle line:90%
+PROFESSOR: You mean here?
+
+00:38:09.780 --> 00:38:10.580 align:middle line:90%
+STUDENT: Yeah.
+
+00:38:10.580 --> 00:38:12.720 align:middle line:84%
+PROFESSOR: Yeah, here,
+I'm just saying it
+
+00:38:12.720 --> 00:38:15.145 align:middle line:90%
+depends on which k are excited.
+
+00:38:15.145 --> 00:38:17.763 align:middle line:90%
+
+
+00:38:17.763 --> 00:38:19.180 align:middle line:84%
+Yeah, that's a
+very good question.
+
+00:38:19.180 --> 00:38:22.140 align:middle line:84%
+I will comment on
+related issues very soon.
+
+00:38:22.140 --> 00:38:26.660 align:middle line:84%
+But here, I just
+write down some state.
+
+00:38:26.660 --> 00:38:30.770 align:middle line:90%
+Yeah, excite k1, k2 as I want.
+
+00:38:30.770 --> 00:38:34.130 align:middle line:84%
+I'm not saying
+that this is the--
+
+00:38:34.130 --> 00:38:37.488 align:middle line:84%
+yeah, you can have
+as many as you want.
+
+00:38:37.488 --> 00:38:39.780 align:middle line:84%
+STUDENT: Yeah, but if you
+use that notation it's still.
+
+00:38:39.780 --> 00:38:40.230 align:middle line:90%
+PROFESSOR: That's right.
+
+00:38:40.230 --> 00:38:40.770 align:middle line:90%
+It's true.
+
+00:38:40.770 --> 00:38:43.830 align:middle line:90%
+Yeah, but I write it--
+
+00:38:43.830 --> 00:38:45.850 align:middle line:84%
+when I write it
+this way, it implies
+
+00:38:45.850 --> 00:38:48.690 align:middle line:84%
+I only excite countable
+number of them.
+
+00:38:48.690 --> 00:38:51.720 align:middle line:84%
+But in principle--
+yeah, we will soon
+
+00:38:51.720 --> 00:38:55.110 align:middle line:84%
+touch a point, which is
+related to your question.
+
+00:38:55.110 --> 00:38:56.040 align:middle line:90%
+Other questions?
+
+00:38:56.040 --> 00:38:59.200 align:middle line:90%
+
+
+00:38:59.200 --> 00:39:01.470 align:middle line:90%
+OK, good.
+
+00:39:01.470 --> 00:39:04.770 align:middle line:84%
+And so for example, the
+simplest excited state
+
+00:39:04.770 --> 00:39:06.660 align:middle line:84%
+would be just
+excite one of them.
+
+00:39:06.660 --> 00:39:09.420 align:middle line:90%
+
+
+00:39:09.420 --> 00:39:12.930 align:middle line:90%
+So let me denote this by k.
+
+00:39:12.930 --> 00:39:16.110 align:middle line:84%
+And then the simplest way
+you just excite two of them.
+
+00:39:16.110 --> 00:39:24.690 align:middle line:90%
+
+
+00:39:24.690 --> 00:39:26.690 align:middle line:84%
+So this k1 and k2
+can be the same.
+
+00:39:26.690 --> 00:39:31.820 align:middle line:84%
+If these k1 k2 are the same,
+and then just like the square.
+
+00:39:31.820 --> 00:39:33.200 align:middle line:84%
+And here, also I
+will not be very
+
+00:39:33.200 --> 00:39:37.180 align:middle line:90%
+careful about the normalization.
+
+00:39:37.180 --> 00:39:41.380 align:middle line:84%
+And now, we ask, what are
+the physical interpretations
+
+00:39:41.380 --> 00:39:43.060 align:middle line:90%
+of those states?
+
+00:39:43.060 --> 00:39:47.816 align:middle line:84%
+So now let's ask what are
+the physical interpretations?
+
+00:39:47.816 --> 00:39:54.980 align:middle line:90%
+
+
+00:39:54.980 --> 00:40:04.850 align:middle line:84%
+So for this purpose, we can just
+look at their quantum numbers
+
+00:40:04.850 --> 00:40:08.735 align:middle line:84%
+under, say, the Hamiltonian and
+under the spacetime momentum.
+
+00:40:08.735 --> 00:40:11.660 align:middle line:90%
+
+
+00:40:11.660 --> 00:40:14.690 align:middle line:90%
+So for example, H 0--
+
+00:40:14.690 --> 00:40:19.260 align:middle line:84%
+so if you act on H
+on 0, then of course,
+
+00:40:19.260 --> 00:40:25.010 align:middle line:84%
+you get 0 assuming
+we throw E0 away.
+
+00:40:25.010 --> 00:40:31.070 align:middle line:90%
+Say ignore E0 so far.
+
+00:40:31.070 --> 00:40:33.980 align:middle line:84%
+And then so for
+the ground state--
+
+00:40:33.980 --> 00:40:35.660 align:middle line:90%
+and the p i acting on 0.
+
+00:40:35.660 --> 00:40:37.430 align:middle line:90%
+Of course, it's 0.
+
+00:40:37.430 --> 00:40:40.590 align:middle line:84%
+So you can see just
+because this have ak here.
+
+00:40:40.590 --> 00:40:42.560 align:middle line:90%
+And so E also--
+
+00:40:42.560 --> 00:40:45.242 align:middle line:84%
+when we throw this away,
+you have this --yeah.
+
+00:40:45.242 --> 00:40:47.980 align:middle line:90%
+
+
+00:40:47.980 --> 00:40:50.456 align:middle line:84%
+And now, let's look
+at the excited state.
+
+00:40:50.456 --> 00:40:54.760 align:middle line:90%
+
+
+00:40:54.760 --> 00:40:59.650 align:middle line:90%
+So now to look at this state.
+
+00:40:59.650 --> 00:41:02.320 align:middle line:90%
+So H acting on k--
+
+00:41:02.320 --> 00:41:05.650 align:middle line:84%
+so this answer is obvious
+because all different
+
+00:41:05.650 --> 00:41:08.260 align:middle line:84%
+oscillators, they are
+independent of each other,
+
+00:41:08.260 --> 00:41:11.770 align:middle line:90%
+and this just gives you omega k.
+
+00:41:11.770 --> 00:41:14.110 align:middle line:84%
+We can just use our result
+for harmonic oscillator.
+
+00:41:14.110 --> 00:41:18.090 align:middle line:90%
+
+
+00:41:18.090 --> 00:41:20.250 align:middle line:84%
+And now, you can look
+at the momentum--
+
+00:41:20.250 --> 00:41:23.280 align:middle line:90%
+
+
+00:41:23.280 --> 00:41:28.580 align:middle line:84%
+so this is a spacetime momentum
+operator acting on here.
+
+00:41:28.580 --> 00:41:32.030 align:middle line:90%
+And then it has k i.
+
+00:41:32.030 --> 00:41:37.550 align:middle line:84%
+If you look at this
+expression, when you do the--
+
+00:41:37.550 --> 00:41:40.730 align:middle line:90%
+act this on that--
+
+00:41:40.730 --> 00:41:43.520 align:middle line:90%
+
+
+00:41:43.520 --> 00:41:48.470 align:middle line:84%
+you act this on that,
+and when you can just
+
+00:41:48.470 --> 00:41:51.470 align:middle line:84%
+use the standard trick
+when you do the commutator.
+
+00:41:51.470 --> 00:41:54.320 align:middle line:84%
+And then the particular
+k for this is chosen,
+
+00:41:54.320 --> 00:41:57.775 align:middle line:84%
+and then the eigenvalue will be
+just given by that particular k
+
+00:41:57.775 --> 00:41:58.700 align:middle line:90%
+i.
+
+00:41:58.700 --> 00:42:00.950 align:middle line:84%
+So this is one step
+of calculation there,
+
+00:42:00.950 --> 00:42:03.470 align:middle line:90%
+and you should do it yourself.
+
+00:42:03.470 --> 00:42:06.830 align:middle line:90%
+1-minute calculation.
+
+00:42:06.830 --> 00:42:09.170 align:middle line:84%
+This a delta function
+will be generated,
+
+00:42:09.170 --> 00:42:12.200 align:middle line:84%
+and then that will get
+rid of that integral,
+
+00:42:12.200 --> 00:42:13.820 align:middle line:84%
+and then you will
+pick up this k i.
+
+00:42:13.820 --> 00:42:18.220 align:middle line:90%
+
+
+00:42:18.220 --> 00:42:20.440 align:middle line:90%
+So now, this equation has very--
+
+00:42:20.440 --> 00:42:24.790 align:middle line:84%
+now has an obvious
+physical interpretation.
+
+00:42:24.790 --> 00:42:31.810 align:middle line:84%
+So that means that this state
+k has spacetime momentum.
+
+00:42:31.810 --> 00:42:38.850 align:middle line:84%
+So now, I write down a
+four-momentum omega k n k.
+
+00:42:38.850 --> 00:42:43.500 align:middle line:84%
+So this is exactly the momentum
+of a relativistic particle
+
+00:42:43.500 --> 00:42:45.480 align:middle line:90%
+on shell.
+
+00:42:45.480 --> 00:42:49.200 align:middle line:90%
+So this is of a relativistic--
+
+00:42:49.200 --> 00:43:04.510 align:middle line:84%
+so this is a momentum of
+a relativistic particle,
+
+00:43:04.510 --> 00:43:06.500 align:middle line:84%
+because omega k is
+equal to k squared
+
+00:43:06.500 --> 00:43:09.440 align:middle line:90%
+plus m square of mass m.
+
+00:43:09.440 --> 00:43:14.190 align:middle line:90%
+
+
+00:43:14.190 --> 00:43:17.560 align:middle line:84%
+Yeah, so this means
+that the p squared.
+
+00:43:17.560 --> 00:43:19.960 align:middle line:84%
+So this is a four-vector
+squared is equal to m--
+
+00:43:19.960 --> 00:43:21.610 align:middle line:84%
+yeah, so this
+satisfies the p squared
+
+00:43:21.610 --> 00:43:22.750 align:middle line:90%
+equal to minus m square.
+
+00:43:22.750 --> 00:43:27.560 align:middle line:90%
+
+
+00:43:27.560 --> 00:43:29.570 align:middle line:90%
+So we can just--
+
+00:43:29.570 --> 00:43:31.550 align:middle line:84%
+so it's very logical
+just to interpret this
+
+00:43:31.550 --> 00:43:37.240 align:middle line:84%
+as a particle of mass m,
+because we can just interpret it
+
+00:43:37.240 --> 00:43:38.240 align:middle line:90%
+as a particle of mass m.
+
+00:43:38.240 --> 00:43:41.400 align:middle line:90%
+
+
+00:43:41.400 --> 00:43:42.950 align:middle line:90%
+Good?
+
+00:43:42.950 --> 00:43:46.080 align:middle line:90%
+So now, let's look at this one.
+
+00:43:46.080 --> 00:43:49.260 align:middle line:84%
+So again, the calculation
+is very simple.
+
+00:43:49.260 --> 00:43:50.600 align:middle line:90%
+So you find for that one--
+
+00:43:50.600 --> 00:44:28.220 align:middle line:90%
+
+
+00:44:28.220 --> 00:44:31.040 align:middle line:90%
+so you find for that one--
+
+00:44:31.040 --> 00:44:40.560 align:middle line:90%
+for k1 k2, you find the energy--
+
+00:44:40.560 --> 00:44:42.820 align:middle line:84%
+energy just defined--
+again, you find
+
+00:44:42.820 --> 00:44:45.370 align:middle line:84%
+that this is an energy
+eigenstate of the H.
+
+00:44:45.370 --> 00:44:49.450 align:middle line:84%
+It's an eigenstate of H
+with energy eigenvalue
+
+00:44:49.450 --> 00:44:52.390 align:middle line:90%
+omega k1 plus omega k2.
+
+00:44:52.390 --> 00:44:55.480 align:middle line:90%
+
+
+00:44:55.480 --> 00:45:00.700 align:middle line:84%
+And it's a momentum eigenstate
+of P i with an eigenvalue given
+
+00:45:00.700 --> 00:45:02.860 align:middle line:90%
+by k1 plus k2.
+
+00:45:02.860 --> 00:45:09.480 align:middle line:90%
+
+
+00:45:09.480 --> 00:45:27.954 align:middle line:84%
+So E, k are
+eigenvalues of H and P.
+
+00:45:27.954 --> 00:45:28.920 align:middle line:90%
+STUDENT: Question.
+
+00:45:28.920 --> 00:45:29.810 align:middle line:90%
+PROFESSOR: Yeah?
+
+00:45:29.810 --> 00:45:31.890 align:middle line:84%
+STUDENT: Yeah, so
+could that mass be 0?
+
+00:45:31.890 --> 00:45:34.830 align:middle line:90%
+
+
+00:45:34.830 --> 00:45:38.540 align:middle line:84%
+PROFESSOR: So here-- so this
+mass is not 0 because omega k
+
+00:45:38.540 --> 00:45:40.970 align:middle line:90%
+is defined to be this--
+
+00:45:40.970 --> 00:45:44.970 align:middle line:84%
+it's defined by my theory--
+defined by my Lagrangian.
+
+00:45:44.970 --> 00:45:48.990 align:middle line:84%
+So this is the
+parameter of your--
+
+00:45:48.990 --> 00:45:50.670 align:middle line:90%
+yeah, of your action.
+
+00:45:50.670 --> 00:45:51.270 align:middle line:90%
+Yes?
+
+00:45:51.270 --> 00:45:54.720 align:middle line:84%
+STUDENT: So I have a --
+with the energy spectrum,
+
+00:45:54.720 --> 00:45:55.650 align:middle line:90%
+does the spacing--
+
+00:45:55.650 --> 00:45:57.240 align:middle line:84%
+does it happen
+the same way where
+
+00:45:57.240 --> 00:45:59.640 align:middle line:84%
+the spacing gets smaller
+as you go to higher
+
+00:45:59.640 --> 00:46:00.750 align:middle line:90%
+and higher energies or?
+
+00:46:00.750 --> 00:46:03.780 align:middle line:84%
+PROFESSOR: Yeah, for
+here, it's uniform.
+
+00:46:03.780 --> 00:46:06.390 align:middle line:84%
+Here, just for each
+k, it's uniform.
+
+00:46:06.390 --> 00:46:08.140 align:middle line:84%
+But of course, when
+you add them together,
+
+00:46:08.140 --> 00:46:10.590 align:middle line:84%
+you get something
+very complicated.
+
+00:46:10.590 --> 00:46:12.675 align:middle line:84%
+But for each k,
+you just uniform.
+
+00:46:12.675 --> 00:46:16.020 align:middle line:90%
+
+
+00:46:16.020 --> 00:46:18.270 align:middle line:84%
+So the very-- so
+the most natural way
+
+00:46:18.270 --> 00:46:29.310 align:middle line:84%
+to interpret this is
+just have two particles
+
+00:46:29.310 --> 00:46:45.302 align:middle line:84%
+of momentum of four momenta
+omega k1 k1 and omega k2 k2.
+
+00:46:45.302 --> 00:46:48.750 align:middle line:90%
+
+
+00:46:48.750 --> 00:46:54.300 align:middle line:84%
+And similarly, you can do
+this for any state like this.
+
+00:46:54.300 --> 00:46:56.910 align:middle line:90%
+
+
+00:46:56.910 --> 00:47:11.400 align:middle line:84%
+They are all eigenvectors
+of H and P. So n k 1, n k 2,
+
+00:47:11.400 --> 00:47:12.360 align:middle line:90%
+you catch--
+
+00:47:12.360 --> 00:47:13.320 align:middle line:90%
+et cetera.
+
+00:47:13.320 --> 00:47:21.105 align:middle line:84%
+So this corresponding to n
+k 1 particles of momentum.
+
+00:47:21.105 --> 00:47:23.900 align:middle line:90%
+
+
+00:47:23.900 --> 00:47:26.670 align:middle line:90%
+They're all on shell--
+
+00:47:26.670 --> 00:47:33.290 align:middle line:84%
+on shell particle
+of momentum k1 and n
+
+00:47:33.290 --> 00:47:37.950 align:middle line:84%
+k 2 has two particles
+of momentum k2.
+
+00:47:37.950 --> 00:47:41.490 align:middle line:90%
+
+
+00:47:41.490 --> 00:47:44.190 align:middle line:90%
+So this tells you one thing.
+
+00:47:44.190 --> 00:47:48.225 align:middle line:84%
+So now let me just
+make some remarks.
+
+00:47:48.225 --> 00:47:59.960 align:middle line:90%
+
+
+00:47:59.960 --> 00:48:02.180 align:middle line:84%
+Any questions on this
+before I make my remarks?
+
+00:48:02.180 --> 00:48:05.350 align:middle line:90%
+
+
+00:48:05.350 --> 00:48:06.190 align:middle line:90%
+Good.
+
+00:48:06.190 --> 00:48:08.410 align:middle line:84%
+So the first point
+is that now you
+
+00:48:08.410 --> 00:48:12.430 align:middle line:84%
+can see this can describe
+any number of particles.
+
+00:48:12.430 --> 00:48:21.150 align:middle line:90%
+
+
+00:48:21.150 --> 00:48:23.010 align:middle line:84%
+So mathematically,
+in our description,
+
+00:48:23.010 --> 00:48:25.830 align:middle line:90%
+there are harmonic oscillators.
+
+00:48:25.830 --> 00:48:27.838 align:middle line:84%
+But each excitation of
+the harmonic oscillator
+
+00:48:27.838 --> 00:48:29.880 align:middle line:84%
+is from the spacetime
+point of view corresponding
+
+00:48:29.880 --> 00:48:31.690 align:middle line:90%
+to a particle.
+
+00:48:31.690 --> 00:48:35.190 align:middle line:84%
+So this is the beautiful
+thing of this theory.
+
+00:48:35.190 --> 00:48:40.730 align:middle line:90%
+
+
+00:48:40.730 --> 00:48:44.810 align:middle line:90%
+And then due to--
+
+00:48:44.810 --> 00:48:49.190 align:middle line:84%
+because of the commutation
+relation, a k 1 dagger,
+
+00:48:49.190 --> 00:48:53.440 align:middle line:84%
+a k 2 dagger equal
+to 0 for any k1 k2.
+
+00:48:53.440 --> 00:48:55.990 align:middle line:90%
+
+
+00:48:55.990 --> 00:48:57.550 align:middle line:90%
+So you have full symmetry.
+
+00:48:57.550 --> 00:48:59.260 align:middle line:84%
+So when you construct
+the state, you
+
+00:48:59.260 --> 00:49:01.660 align:middle line:84%
+can just commute
+them as you want.
+
+00:49:01.660 --> 00:49:03.640 align:middle line:90%
+So that means they're--
+
+00:49:03.640 --> 00:49:21.090 align:middle line:84%
+so full symmetry in permuting
+all these different particles
+
+00:49:21.090 --> 00:49:22.215 align:middle line:90%
+in the general state.
+
+00:49:22.215 --> 00:49:27.840 align:middle line:90%
+
+
+00:49:27.840 --> 00:49:30.560 align:middle line:84%
+So this tells us
+these are bosons.
+
+00:49:30.560 --> 00:49:43.750 align:middle line:90%
+
+
+00:49:43.750 --> 00:49:50.035 align:middle line:84%
+And two is that all particles
+have positive energy.
+
+00:49:50.035 --> 00:49:58.010 align:middle line:90%
+
+
+00:49:58.010 --> 00:50:07.510 align:middle line:84%
+So even though that
+E squared equal to k
+
+00:50:07.510 --> 00:50:10.990 align:middle line:84%
+squared plus m squared-- this
+equation have two solutions--
+
+00:50:10.990 --> 00:50:13.960 align:middle line:90%
+plus minus omega k.
+
+00:50:13.960 --> 00:50:16.120 align:middle line:84%
+But when you look
+at physical state--
+
+00:50:16.120 --> 00:50:18.370 align:middle line:84%
+when you look at your state
+and look at the eigenvalue
+
+00:50:18.370 --> 00:50:18.980 align:middle line:90%
+of state--
+
+00:50:18.980 --> 00:50:21.040 align:middle line:84%
+so all particles have
+physical energies,
+
+00:50:21.040 --> 00:50:24.160 align:middle line:84%
+so you don't have this negative
+energy problem associated
+
+00:50:24.160 --> 00:50:25.375 align:middle line:90%
+with taking the square root.
+
+00:50:25.375 --> 00:50:43.990 align:middle line:90%
+
+
+00:50:43.990 --> 00:50:55.510 align:middle line:84%
+Also you have total
+energy of a state
+
+00:50:55.510 --> 00:51:04.690 align:middle line:84%
+is equal to sum of energies
+of all the particles.
+
+00:51:04.690 --> 00:51:11.890 align:middle line:90%
+
+
+00:51:11.890 --> 00:51:15.250 align:middle line:84%
+So this tells you there's no
+interactions between them.
+
+00:51:15.250 --> 00:51:19.390 align:middle line:84%
+Because if you have potential
+energies between particles,
+
+00:51:19.390 --> 00:51:21.940 align:middle line:84%
+and then that will
+change the energy.
+
+00:51:21.940 --> 00:51:24.190 align:middle line:84%
+When you put the two
+particles together,
+
+00:51:24.190 --> 00:51:27.130 align:middle line:84%
+will no longer be
+the same over the sum
+
+00:51:27.130 --> 00:51:30.280 align:middle line:84%
+of the individual energy
+for each particle.
+
+00:51:30.280 --> 00:51:33.980 align:middle line:84%
+And so that tells you
+there's no interactions.
+
+00:51:33.980 --> 00:51:38.186 align:middle line:84%
+So this is a theory
+of free particles.
+
+00:51:38.186 --> 00:51:47.930 align:middle line:90%
+
+
+00:51:47.930 --> 00:51:50.065 align:middle line:84%
+Now, this is a good
+starting point.
+
+00:51:50.065 --> 00:51:53.050 align:middle line:90%
+
+
+00:51:53.050 --> 00:51:54.580 align:middle line:90%
+At least now, we have particles.
+
+00:51:54.580 --> 00:52:05.170 align:middle line:90%
+
+
+00:52:05.170 --> 00:52:07.030 align:middle line:90%
+Questions on this?
+
+00:52:07.030 --> 00:52:07.720 align:middle line:90%
+Yes?
+
+00:52:07.720 --> 00:52:12.640 align:middle line:84%
+STUDENT: So
+[INAUDIBLE] a k 1 let's
+
+00:52:12.640 --> 00:52:14.710 align:middle line:84%
+say, and you have a
+particle with momentum k1
+
+00:52:14.710 --> 00:52:17.950 align:middle line:84%
+now, is there a way to change
+this particle's momentum,
+
+00:52:17.950 --> 00:52:20.530 align:middle line:84%
+or if you apply again,
+you-- like in this picture,
+
+00:52:20.530 --> 00:52:23.285 align:middle line:84%
+it's like you have another
+particle momentum k1.
+
+00:52:23.285 --> 00:52:24.910 align:middle line:84%
+PROFESSOR: No, there's
+no way to change
+
+00:52:24.910 --> 00:52:26.380 align:middle line:90%
+the momentum of a particle.
+
+00:52:26.380 --> 00:52:29.110 align:middle line:84%
+So once you created
+the particle,
+
+00:52:29.110 --> 00:52:30.580 align:middle line:90%
+it just goes straight.
+
+00:52:30.580 --> 00:52:35.080 align:middle line:84%
+Yeah, it just does
+not change anymore.
+
+00:52:35.080 --> 00:52:37.420 align:middle line:84%
+Momentum for that
+particle is conserved.
+
+00:52:37.420 --> 00:52:39.160 align:middle line:84%
+STUDENT: Is there--
+if you wanted to--
+
+00:52:39.160 --> 00:52:40.780 align:middle line:84%
+if you wanted to
+create a theory where
+
+00:52:40.780 --> 00:52:43.300 align:middle line:84%
+you can change the momentum,
+is there a way, or is it just--
+
+00:52:43.300 --> 00:52:44.870 align:middle line:90%
+PROFESSOR: Yeah, there is a way.
+
+00:52:44.870 --> 00:52:46.960 align:middle line:84%
+So after dealing with
+this free theory,
+
+00:52:46.960 --> 00:52:50.500 align:middle line:84%
+and then we will consider
+the last simplest theory,
+
+00:52:50.500 --> 00:52:52.360 align:middle line:84%
+and then that will
+introduce interactions.
+
+00:52:52.360 --> 00:52:52.585 align:middle line:90%
+STUDENT: I see.
+
+00:52:52.585 --> 00:52:52.660 align:middle line:90%
+So--
+
+00:52:52.660 --> 00:52:54.410 align:middle line:84%
+PROFESSOR: And when
+you have interactions,
+
+00:52:54.410 --> 00:52:56.620 align:middle line:84%
+then the particle
+momentum can change.
+
+00:52:56.620 --> 00:52:57.120 align:middle line:90%
+Yes?
+
+00:52:57.120 --> 00:52:58.578 align:middle line:84%
+STUDENT: So the
+thing we're calling
+
+00:52:58.578 --> 00:53:00.640 align:middle line:84%
+particles are like
+localized in momentum space,
+
+00:53:00.640 --> 00:53:02.553 align:middle line:84%
+but not at all in
+position space.
+
+00:53:02.553 --> 00:53:03.220 align:middle line:90%
+PROFESSOR: Good.
+
+00:53:03.220 --> 00:53:05.170 align:middle line:90%
+Yeah, these are the momentum--
+
+00:53:05.170 --> 00:53:09.220 align:middle line:84%
+yeah, it's like the plane wave
+in the non-relativistic-- yeah.
+
+00:53:09.220 --> 00:53:11.713 align:middle line:84%
+STUDENT: And if you were to
+try to localize it in position
+
+00:53:11.713 --> 00:53:13.630 align:middle line:84%
+space like a Gaussian
+wave packet or something
+
+00:53:13.630 --> 00:53:15.100 align:middle line:84%
+kind of like that,
+would you still
+
+00:53:15.100 --> 00:53:16.780 align:middle line:84%
+be able to commute
+things and stuff?
+
+00:53:16.780 --> 00:53:19.390 align:middle line:84%
+PROFESSOR: Yeah, so
+the commute things
+
+00:53:19.390 --> 00:53:23.410 align:middle line:84%
+don't change because
+everything is built by a k,
+
+00:53:23.410 --> 00:53:26.720 align:middle line:84%
+and they always commute,
+and so that won't change.
+
+00:53:26.720 --> 00:53:28.750 align:middle line:84%
+But indeed, we will talk
+about the wave packet
+
+00:53:28.750 --> 00:53:31.840 align:middle line:90%
+to localize in space.
+
+00:53:31.840 --> 00:53:35.090 align:middle line:90%
+Other questions?
+
+00:53:35.090 --> 00:53:35.830 align:middle line:90%
+OK, good.
+
+00:53:35.830 --> 00:53:52.610 align:middle line:90%
+
+
+00:53:52.610 --> 00:53:55.060 align:middle line:90%
+So also-- so the last--
+
+00:53:55.060 --> 00:54:01.150 align:middle line:84%
+we will talk a little bit
+about the technical point.
+
+00:54:01.150 --> 00:54:04.900 align:middle line:90%
+
+
+00:54:04.900 --> 00:54:09.130 align:middle line:84%
+It's that so far, we haven't
+talked about the normalization
+
+00:54:09.130 --> 00:54:10.853 align:middle line:90%
+of such a state.
+
+00:54:10.853 --> 00:54:12.895 align:middle line:84%
+So now, let's look at the
+normalization of state.
+
+00:54:12.895 --> 00:54:21.550 align:middle line:90%
+
+
+00:54:21.550 --> 00:54:25.605 align:middle line:84%
+So let's just look
+at this state.
+
+00:54:25.605 --> 00:54:26.980 align:middle line:84%
+The single particle
+state-- let's
+
+00:54:26.980 --> 00:54:30.800 align:middle line:90%
+look at this normalization.
+
+00:54:30.800 --> 00:54:33.010 align:middle line:90%
+So let's look at k with k prime.
+
+00:54:33.010 --> 00:54:36.310 align:middle line:90%
+
+
+00:54:36.310 --> 00:54:39.940 align:middle line:84%
+So now, if you take the overlap
+of this with the k prime,
+
+00:54:39.940 --> 00:54:42.700 align:middle line:84%
+and then you can reduce this
+to the commutator of a k
+
+00:54:42.700 --> 00:54:44.150 align:middle line:90%
+and a k prime--
+
+00:54:44.150 --> 00:54:46.120 align:middle line:90%
+a k dagger and a k prime.
+
+00:54:46.120 --> 00:54:50.380 align:middle line:90%
+So you will get just this.
+
+00:54:50.380 --> 00:54:54.560 align:middle line:84%
+So again, this is a
+five-second calculation.
+
+00:54:54.560 --> 00:54:57.865 align:middle line:84%
+So you find this if
+you do the overlap.
+
+00:54:57.865 --> 00:55:02.380 align:middle line:90%
+
+
+00:55:02.380 --> 00:55:06.850 align:middle line:84%
+But you already
+did in your p set--
+
+00:55:06.850 --> 00:55:09.310 align:middle line:84%
+this thing is actually
+not Lorentz invariant.
+
+00:55:09.310 --> 00:55:11.150 align:middle line:90%
+This is another good thing.
+
+00:55:11.150 --> 00:55:16.150 align:middle line:84%
+This is another good object
+under Lorentz transformations.
+
+00:55:16.150 --> 00:55:18.580 align:middle line:84%
+But when we construct
+state, we would
+
+00:55:18.580 --> 00:55:21.400 align:middle line:84%
+like to have our state to have
+good properties under Lorentz
+
+00:55:21.400 --> 00:55:23.260 align:middle line:90%
+transformation.
+
+00:55:23.260 --> 00:55:28.090 align:middle line:84%
+So we will choose a slightly
+different normalization.
+
+00:55:28.090 --> 00:55:33.400 align:middle line:84%
+So instead of this
+state, so we will
+
+00:55:33.400 --> 00:55:35.350 align:middle line:90%
+define the following states.
+
+00:55:35.350 --> 00:55:39.340 align:middle line:84%
+And we will define a k
+now without the vector
+
+00:55:39.340 --> 00:55:46.300 align:middle line:84%
+to be the square root
+2 omega k and this k.
+
+00:55:46.300 --> 00:55:48.950 align:middle line:90%
+
+
+00:55:48.950 --> 00:56:00.410 align:middle line:84%
+And so this is the 2 square root
+of k a k dagger acting on 0.
+
+00:56:00.410 --> 00:56:07.130 align:middle line:84%
+And now, if you compute the
+overlap with this k and k
+
+00:56:07.130 --> 00:56:08.610 align:middle line:90%
+prime--
+
+00:56:08.610 --> 00:56:10.940 align:middle line:90%
+so now, you have square root k--
+
+00:56:10.940 --> 00:56:13.010 align:middle line:84%
+square root omega
+k, for one of them,
+
+00:56:13.010 --> 00:56:15.740 align:middle line:84%
+and then you have square
+root k for two of them,
+
+00:56:15.740 --> 00:56:17.435 align:middle line:90%
+and then you have 2 omega k.
+
+00:56:17.435 --> 00:56:20.030 align:middle line:90%
+
+
+00:56:20.030 --> 00:56:29.680 align:middle line:84%
+And then you have 2 pi cubed
+delta 3k k minus [INAUDIBLE]..
+
+00:56:29.680 --> 00:56:33.190 align:middle line:84%
+So now you recognize this
+object from your pset.
+
+00:56:33.190 --> 00:56:37.030 align:middle line:84%
+The omega k multiply
+by this guy actually
+
+00:56:37.030 --> 00:56:40.660 align:middle line:84%
+have good Lorentz
+transformation properties.
+
+00:56:40.660 --> 00:56:46.840 align:middle line:84%
+So this guy actually
+transforms nicely
+
+00:56:46.840 --> 00:56:50.480 align:middle line:90%
+under Lorentz transformations.
+
+00:56:50.480 --> 00:56:53.170 align:middle line:84%
+So this will be
+the normalization
+
+00:56:53.170 --> 00:56:55.480 align:middle line:90%
+we will use from now on.
+
+00:56:55.480 --> 00:56:58.880 align:middle line:90%
+
+
+00:56:58.880 --> 00:57:02.600 align:middle line:90%
+So these states have very--
+
+00:57:02.600 --> 00:57:05.630 align:middle line:90%
+so indeed, you can show--
+
+00:57:05.630 --> 00:57:08.630 align:middle line:84%
+so that will be, I
+think, in your pset 3.
+
+00:57:08.630 --> 00:57:10.580 align:middle line:90%
+You should look forward to it.
+
+00:57:10.580 --> 00:57:16.940 align:middle line:84%
+So you can show if you act
+a Lorentz transformation--
+
+00:57:16.940 --> 00:57:18.740 align:middle line:84%
+so lambda is a Lorentz
+transformation,
+
+00:57:18.740 --> 00:57:22.460 align:middle line:84%
+and u Lambda is the operator
+to generate that Lorentz
+
+00:57:22.460 --> 00:57:24.590 align:middle line:90%
+transformation--
+
+00:57:24.590 --> 00:57:28.370 align:middle line:84%
+on such a state k, and
+then you just get lambda k.
+
+00:57:28.370 --> 00:57:30.620 align:middle line:84%
+And lambda k is the
+Lorentz transformation
+
+00:57:30.620 --> 00:57:32.900 align:middle line:90%
+acting on that k.
+
+00:57:32.900 --> 00:57:35.060 align:middle line:84%
+It's the Lorentz
+transform the k.
+
+00:57:35.060 --> 00:57:37.880 align:middle line:90%
+
+
+00:57:37.880 --> 00:57:46.720 align:middle line:84%
+But yeah, you should see
+your maybe p set 3, so--
+
+00:57:46.720 --> 00:57:47.815 align:middle line:90%
+if I remember it.
+
+00:57:47.815 --> 00:57:53.950 align:middle line:90%
+
+
+00:57:53.950 --> 00:57:54.470 align:middle line:90%
+Good.
+
+00:57:54.470 --> 00:57:55.510 align:middle line:90%
+Any questions on this?
+
+00:57:55.510 --> 00:58:01.520 align:middle line:90%
+
+
+00:58:01.520 --> 00:58:03.890 align:middle line:90%
+Yes?
+
+00:58:03.890 --> 00:58:05.570 align:middle line:84%
+STUDENT: So I'm not
+sure in this case
+
+00:58:05.570 --> 00:58:08.940 align:middle line:84%
+here why we assume that omega
+k is the same for both k and k
+
+00:58:08.940 --> 00:58:09.440 align:middle line:90%
+prime?
+
+00:58:09.440 --> 00:58:12.320 align:middle line:84%
+PROFESSOR: Oh, because you
+have a delta function here.
+
+00:58:12.320 --> 00:58:15.005 align:middle line:84%
+Yeah, because omega
+k only depend on k--
+
+00:58:15.005 --> 00:58:16.505 align:middle line:84%
+it only depends on
+the spatial part.
+
+00:58:16.505 --> 00:58:19.313 align:middle line:90%
+
+
+00:58:19.313 --> 00:58:19.980 align:middle line:90%
+Other questions?
+
+00:58:19.980 --> 00:58:20.490 align:middle line:90%
+Yes?
+
+00:58:20.490 --> 00:58:22.657 align:middle line:84%
+STUDENT: Yeah, so the inner
+product of the k k prime
+
+00:58:22.657 --> 00:58:24.270 align:middle line:90%
+is not Lorentz invariant.
+
+00:58:24.270 --> 00:58:30.590 align:middle line:84%
+Is that just if you're
+listing one of the states?
+
+00:58:30.590 --> 00:58:34.353 align:middle line:84%
+PROFESSOR: No, just
+this guy-- when you--
+
+00:58:34.353 --> 00:58:36.270 align:middle line:84%
+it's not about whether
+it's Lorentz invariant.
+
+00:58:36.270 --> 00:58:37.395 align:middle line:90%
+It's not Lorentz covariant.
+
+00:58:37.395 --> 00:58:40.790 align:middle line:84%
+Just when you transform
+it, just this object--
+
+00:58:40.790 --> 00:58:44.660 align:middle line:84%
+when you transform
+it, it's very awkward.
+
+00:58:44.660 --> 00:58:46.890 align:middle line:84%
+Does not have very--
+you can transform it.
+
+00:58:46.890 --> 00:58:49.520 align:middle line:84%
+You can write down a
+transformation for this object.
+
+00:58:49.520 --> 00:58:52.190 align:middle line:84%
+It just does not
+transform nicely.
+
+00:58:52.190 --> 00:58:55.070 align:middle line:84%
+Then that means if this
+does not transform nicely,
+
+00:58:55.070 --> 00:58:57.800 align:middle line:84%
+it means each of them
+don't transform nicely,
+
+00:58:57.800 --> 00:59:00.600 align:middle line:90%
+and then just not convenient.
+
+00:59:00.600 --> 00:59:02.990 align:middle line:84%
+So this one have the
+property that when
+
+00:59:02.990 --> 00:59:06.770 align:middle line:84%
+I act u on this thing,
+and then actually,
+
+00:59:06.770 --> 00:59:09.740 align:middle line:84%
+you can just directly
+corresponding to the state
+
+00:59:09.740 --> 00:59:13.550 align:middle line:84%
+with Lorentz transform
+with the momentum.
+
+00:59:13.550 --> 00:59:15.410 align:middle line:90%
+Yeah, and then it's very easy.
+
+00:59:15.410 --> 00:59:18.140 align:middle line:84%
+And this property does
+not apply to this one.
+
+00:59:18.140 --> 00:59:19.520 align:middle line:90%
+It does not apply to this k.
+
+00:59:19.520 --> 00:59:24.560 align:middle line:90%
+
+
+00:59:24.560 --> 00:59:27.720 align:middle line:90%
+OK, good.
+
+00:59:27.720 --> 00:59:33.590 align:middle line:84%
+So you can also talk
+about a wave packet.
+
+00:59:33.590 --> 00:59:36.210 align:middle line:90%
+So this is the plane wave.
+
+00:59:36.210 --> 00:59:38.010 align:middle line:90%
+So this is like a plane wave.
+
+00:59:38.010 --> 00:59:40.760 align:middle line:90%
+This is a momentum eigenstate.
+
+00:59:40.760 --> 00:59:42.530 align:middle line:84%
+So we can also
+consider general--
+
+00:59:42.530 --> 00:59:48.370 align:middle line:90%
+
+
+00:59:48.370 --> 00:59:50.815 align:middle line:84%
+say, single particle state
+will have the following form.
+
+00:59:50.815 --> 01:00:03.130 align:middle line:90%
+
+
+01:00:03.130 --> 01:00:04.460 align:middle line:90%
+So we have the following form.
+
+01:00:04.460 --> 01:00:09.520 align:middle line:84%
+We can write it as psi just
+as a superposition of this k.
+
+01:00:09.520 --> 01:00:10.960 align:middle line:84%
+Again, you only
+need to integrate
+
+01:00:10.960 --> 01:00:14.440 align:middle line:84%
+over spatial momentum, because
+only the spatial momentum are
+
+01:00:14.440 --> 01:00:16.970 align:middle line:90%
+independent.
+
+01:00:16.970 --> 01:00:21.650 align:middle line:84%
+And then some arbitrary function
+of k, and then on this k.
+
+01:00:21.650 --> 01:00:23.840 align:middle line:84%
+So any single
+particle state, you
+
+01:00:23.840 --> 01:00:25.370 align:middle line:84%
+should be able to
+write it this way.
+
+01:00:25.370 --> 01:00:27.980 align:middle line:90%
+
+
+01:00:27.980 --> 01:00:34.340 align:middle line:84%
+So in particular, by
+choosing appropriate f k,
+
+01:00:34.340 --> 01:00:36.905 align:middle line:84%
+you can construct a
+local wave packet.
+
+01:00:36.905 --> 01:01:09.920 align:middle line:90%
+
+
+01:01:09.920 --> 01:01:15.800 align:middle line:84%
+So you can-- so
+choose k-- you can
+
+01:01:15.800 --> 01:01:28.295 align:middle line:84%
+choose f k to construct a
+localized wave packet in space.
+
+01:01:28.295 --> 01:01:37.350 align:middle line:90%
+
+
+01:01:37.350 --> 01:01:39.690 align:middle line:84%
+So again, we will
+have some exercises
+
+01:01:39.690 --> 01:01:42.630 align:middle line:90%
+like this in your pset 3.
+
+01:01:42.630 --> 01:01:45.510 align:middle line:90%
+
+
+01:01:45.510 --> 01:01:56.250 align:middle line:84%
+And also earlier, you could
+have objected when I called this
+
+01:01:56.250 --> 01:01:57.675 align:middle line:90%
+to be a two-particle state.
+
+01:01:57.675 --> 01:02:01.230 align:middle line:90%
+
+
+01:02:01.230 --> 01:02:03.720 align:middle line:90%
+Because each is a plane wave.
+
+01:02:03.720 --> 01:02:06.570 align:middle line:84%
+So essentially, they
+are not localized.
+
+01:02:06.570 --> 01:02:08.400 align:middle line:90%
+They cover all space.
+
+01:02:08.400 --> 01:02:12.660 align:middle line:84%
+And in one sense, they
+corresponding to two particles.
+
+01:02:12.660 --> 01:02:16.830 align:middle line:84%
+So now, you can solve
+this problem, say,
+
+01:02:16.830 --> 01:02:29.100 align:middle line:84%
+by constructing using
+d k1 2 pi cube d k2.
+
+01:02:29.100 --> 01:02:32.100 align:middle line:90%
+
+
+01:02:32.100 --> 01:02:40.890 align:middle line:84%
+So by choosing appropriate
+function k1 k2, this k1 k2,
+
+01:02:40.890 --> 01:02:49.935 align:middle line:84%
+you can construct two widely
+separated wave packets.
+
+01:02:49.935 --> 01:03:00.190 align:middle line:90%
+
+
+01:03:00.190 --> 01:03:05.420 align:middle line:84%
+Again, it's in space, so
+you can really talk about--
+
+01:03:05.420 --> 01:03:09.450 align:middle line:84%
+so these are the genuine
+two particle states.
+
+01:03:09.450 --> 01:03:12.310 align:middle line:84%
+And so that confirms
+actually this k
+
+01:03:12.310 --> 01:03:17.020 align:middle line:84%
+should be a interpreted
+as the plane wave
+
+01:03:17.020 --> 01:03:18.610 align:middle line:84%
+version of the two
+particle states.
+
+01:03:18.610 --> 01:03:35.260 align:middle line:90%
+
+
+01:03:35.260 --> 01:03:35.760 align:middle line:90%
+Good.
+
+01:03:35.760 --> 01:03:38.340 align:middle line:90%
+Any questions?
+
+01:03:38.340 --> 01:03:39.240 align:middle line:90%
+Yes?
+
+01:03:39.240 --> 01:03:41.820 align:middle line:84%
+STUDENT: So now that we don't
+have a position operator
+
+01:03:41.820 --> 01:03:45.360 align:middle line:84%
+like we did before, what's
+the conjugate, I guess,
+
+01:03:45.360 --> 01:03:48.270 align:middle line:84%
+operator to our momentum
+operator, or is there--
+
+01:03:48.270 --> 01:03:49.020 align:middle line:90%
+PROFESSOR: Good.
+
+01:03:49.020 --> 01:03:51.390 align:middle line:90%
+That's a very good question.
+
+01:03:51.390 --> 01:03:56.790 align:middle line:84%
+Indeed, there will be a problem
+in your pset 3 which asks you
+
+01:03:56.790 --> 01:04:01.027 align:middle line:84%
+to show there's no eigenstate--
+or there's no eigenstate --
+
+01:04:01.027 --> 01:04:01.860 align:middle line:90%
+there is no perfect.
+
+01:04:01.860 --> 01:04:04.470 align:middle line:84%
+Yeah, so in non-relativistic
+quantum mechanics,
+
+01:04:04.470 --> 01:04:05.940 align:middle line:90%
+you have this state.
+
+01:04:05.940 --> 01:04:09.480 align:middle line:84%
+You have this wave function, so
+you can localize at the point,
+
+01:04:09.480 --> 01:04:12.780 align:middle line:84%
+but there's no analog
+of such kind of state
+
+01:04:12.780 --> 01:04:15.780 align:middle line:84%
+in the relativistic
+case precisely
+
+01:04:15.780 --> 01:04:18.210 align:middle line:84%
+because there's no
+position operator anymore.
+
+01:04:18.210 --> 01:04:22.710 align:middle line:84%
+Yeah, so you will explore this a
+little bit more later yourself.
+
+01:04:22.710 --> 01:04:26.950 align:middle line:84%
+Just with this formalism, you
+can explore all these questions
+
+01:04:26.950 --> 01:04:28.210 align:middle line:90%
+yourself.
+
+01:04:28.210 --> 01:04:29.020 align:middle line:90%
+That's the key.
+
+01:04:29.020 --> 01:04:32.125 align:middle line:84%
+Actually, you already
+have the power to do that.
+
+01:04:32.125 --> 01:04:40.300 align:middle line:90%
+
+
+01:04:40.300 --> 01:04:43.270 align:middle line:84%
+So now, let's say
+a little bit more
+
+01:04:43.270 --> 01:04:46.280 align:middle line:84%
+on the structure of
+the Hilbert space.
+
+01:04:46.280 --> 01:04:48.340 align:middle line:84%
+So, here the structure
+of the Hilbert space
+
+01:04:48.340 --> 01:04:57.800 align:middle line:84%
+is a little bit special
+because there's no interaction.
+
+01:04:57.800 --> 01:05:00.400 align:middle line:84%
+So you can just
+separate it into--
+
+01:05:00.400 --> 01:05:04.750 align:middle line:84%
+so the full Hilbert space,
+which I write as script H.
+
+01:05:04.750 --> 01:05:07.960 align:middle line:84%
+Then, you can separate
+it into the vacuum state,
+
+01:05:07.960 --> 01:05:11.068 align:middle line:84%
+and then you have the one
+particle Hilbert space,
+
+01:05:11.068 --> 01:05:13.110 align:middle line:84%
+and then you have the two
+particle Hilbert space,
+
+01:05:13.110 --> 01:05:13.990 align:middle line:90%
+and they're all--
+
+01:05:13.990 --> 01:05:16.030 align:middle line:84%
+they don't have anything
+to do with each other
+
+01:05:16.030 --> 01:05:17.695 align:middle line:90%
+because there's no interaction.
+
+01:05:17.695 --> 01:05:24.200 align:middle line:90%
+
+
+01:05:24.200 --> 01:05:26.840 align:middle line:84%
+So in principle, you can
+have infinite number of them.
+
+01:05:26.840 --> 01:05:29.640 align:middle line:84%
+You can have infinite
+number of them.
+
+01:05:29.640 --> 01:05:36.050 align:middle line:84%
+So if you restrict to always
+a finite number of particles--
+
+01:05:36.050 --> 01:05:37.550 align:middle line:90%
+so the set of states--
+
+01:05:37.550 --> 01:05:42.420 align:middle line:90%
+
+
+01:05:42.420 --> 01:05:49.470 align:middle line:84%
+so this is one particle, this
+is two particle, et cetera.
+
+01:05:49.470 --> 01:05:54.140 align:middle line:84%
+So that's of states with a
+finite number of particles.
+
+01:05:54.140 --> 01:06:03.970 align:middle line:90%
+
+
+01:06:03.970 --> 01:06:05.095 align:middle line:90%
+It's called the Fock space.
+
+01:06:05.095 --> 01:06:13.480 align:middle line:90%
+
+
+01:06:13.480 --> 01:06:16.240 align:middle line:84%
+In the Fock space,
+we only have state
+
+01:06:16.240 --> 01:06:17.680 align:middle line:90%
+of finite number of particles.
+
+01:06:17.680 --> 01:06:20.920 align:middle line:84%
+One can have arbitrary
+number of them--
+
+01:06:20.920 --> 01:06:22.570 align:middle line:90%
+as large as you want.
+
+01:06:22.570 --> 01:06:26.485 align:middle line:84%
+10 billion, 100 billion,
+but it will be finite.
+
+01:06:26.485 --> 01:06:30.850 align:middle line:90%
+
+
+01:06:30.850 --> 01:06:41.150 align:middle line:90%
+So finally, those k--
+
+01:06:41.150 --> 01:06:43.580 align:middle line:84%
+either this k or
+this k, they are just
+
+01:06:43.580 --> 01:06:46.250 align:middle line:84%
+plane wave normalized
+because they're
+
+01:06:46.250 --> 01:06:48.330 align:middle line:90%
+normalize by delta function.
+
+01:06:48.330 --> 01:06:52.520 align:middle line:84%
+So strictly speaking, they
+are not normalizable states.
+
+01:06:52.520 --> 01:06:54.440 align:middle line:84%
+And so strictly
+speaking, they are not
+
+01:06:54.440 --> 01:06:56.780 align:middle line:90%
+in the physical Hilbert space.
+
+01:06:56.780 --> 01:07:06.550 align:middle line:84%
+So strictly, speaking k or k
+or any of those states of k--
+
+01:07:06.550 --> 01:07:10.580 align:middle line:90%
+or k1 k2 are not normalizable.
+
+01:07:10.580 --> 01:07:12.410 align:middle line:84%
+They are only plane
+wave normalizable.
+
+01:07:12.410 --> 01:07:19.820 align:middle line:90%
+
+
+01:07:19.820 --> 01:07:27.410 align:middle line:84%
+So just like-- just as psi
+is equal to exponential ik
+
+01:07:27.410 --> 01:07:31.970 align:middle line:84%
+x in non-relativistic quantum
+mechanics is not normalizable.
+
+01:07:31.970 --> 01:07:37.430 align:middle line:90%
+
+
+01:07:37.430 --> 01:07:41.960 align:middle line:84%
+So they're convenient
+for various mathematical
+
+01:07:41.960 --> 01:07:44.720 align:middle line:84%
+operations, but they
+don't correspond
+
+01:07:44.720 --> 01:07:47.750 align:middle line:90%
+to genuine physical states.
+
+01:07:47.750 --> 01:07:51.980 align:middle line:90%
+So not genuine physical states.
+
+01:07:51.980 --> 01:07:55.340 align:middle line:90%
+
+
+01:07:55.340 --> 01:08:03.330 align:middle line:84%
+So physical state, we have
+to consider for example
+
+01:08:03.330 --> 01:08:05.280 align:middle line:90%
+this kind of state.
+
+01:08:05.280 --> 01:08:11.400 align:middle line:84%
+And then you choose f k
+so that is normalizable.
+
+01:08:11.400 --> 01:08:15.380 align:middle line:90%
+So if we take this, and then--
+
+01:08:15.380 --> 01:08:22.960 align:middle line:90%
+
+
+01:08:22.960 --> 01:08:33.529 align:middle line:84%
+so with psi, given by that,
+then the normalization of psi,
+
+01:08:33.529 --> 01:08:37.670 align:middle line:84%
+you can calculate it, and
+then this is given by--
+
+01:08:37.670 --> 01:08:41.779 align:middle line:90%
+
+
+01:08:41.779 --> 01:08:45.750 align:middle line:84%
+so you can easily
+guess the answer.
+
+01:08:45.750 --> 01:08:47.960 align:middle line:84%
+So when you do the
+overlap exactly,
+
+01:08:47.960 --> 01:08:50.930 align:middle line:84%
+you find that this given by
+the modulus of f k squared.
+
+01:08:50.930 --> 01:08:56.050 align:middle line:90%
+
+
+01:08:56.050 --> 01:08:57.850 align:middle line:84%
+So if you do the
+calculation to calculate
+
+01:08:57.850 --> 01:09:00.430 align:middle line:84%
+the norm of that state, you
+find that given by that.
+
+01:09:00.430 --> 01:09:02.859 align:middle line:84%
+And then we can choose
+this to be finite,
+
+01:09:02.859 --> 01:09:05.650 align:middle line:84%
+and then this will be then
+will be a normalized state.
+
+01:09:05.650 --> 01:09:14.229 align:middle line:90%
+
+
+01:09:14.229 --> 01:09:19.210 align:middle line:84%
+So for this reason,
+it's sometimes--
+
+01:09:19.210 --> 01:09:20.410 align:middle line:90%
+we don't do it very often--
+
+01:09:20.410 --> 01:09:22.930 align:middle line:90%
+
+
+01:09:22.930 --> 01:09:33.905 align:middle line:84%
+can choose just a basis
+of f x, say, of f i.
+
+01:09:33.905 --> 01:09:36.720 align:middle line:90%
+
+
+01:09:36.720 --> 01:09:39.300 align:middle line:90%
+So i runs some number.
+
+01:09:39.300 --> 01:09:58.920 align:middle line:84%
+And then this alpha-- then you
+can define alpha i and then
+
+01:09:58.920 --> 01:10:00.000 align:middle line:90%
+this will provide--
+
+01:10:00.000 --> 01:10:07.290 align:middle line:84%
+the alpha i will provide a
+basis of the single particle
+
+01:10:07.290 --> 01:10:08.280 align:middle line:90%
+normalizable states--
+
+01:10:08.280 --> 01:10:11.130 align:middle line:90%
+
+
+01:10:11.130 --> 01:10:13.150 align:middle line:90%
+a single particle state.
+
+01:10:13.150 --> 01:10:18.500 align:middle line:84%
+So here is a fun fact related to
+the earlier question was asked.
+
+01:10:18.500 --> 01:10:23.140 align:middle line:90%
+So naively, here, you have--
+
+01:10:23.140 --> 01:10:26.320 align:middle line:90%
+if you look at the k--
+
+01:10:26.320 --> 01:10:28.000 align:middle line:90%
+so k form a basis.
+
+01:10:28.000 --> 01:10:30.670 align:middle line:84%
+Let's just look at the
+single particle state.
+
+01:10:30.670 --> 01:10:36.490 align:middle line:84%
+So naively, this k forms
+a continuum-- uncountable
+
+01:10:36.490 --> 01:10:38.140 align:middle line:90%
+continuum of basis of states.
+
+01:10:38.140 --> 01:10:41.170 align:middle line:90%
+
+
+01:10:41.170 --> 01:10:44.710 align:middle line:84%
+But once we impose this
+normalizable condition,
+
+01:10:44.710 --> 01:10:47.920 align:middle line:84%
+means you need to choose
+the normalizable f.
+
+01:10:47.920 --> 01:10:51.100 align:middle line:84%
+And then you can show the basis
+of this normalizable f actually
+
+01:10:51.100 --> 01:10:52.900 align:middle line:90%
+is countable.
+
+01:10:52.900 --> 01:10:54.750 align:middle line:84%
+So in the end, the
+Hilbert space--
+
+01:10:54.750 --> 01:10:56.910 align:middle line:84%
+the one-dimensional the
+one particle Hilbert
+
+01:10:56.910 --> 01:11:00.600 align:middle line:84%
+space is actually generated
+by countable basis
+
+01:11:00.600 --> 01:11:03.540 align:middle line:84%
+just like in your ordinary
+quantum mechanics.
+
+01:11:03.540 --> 01:11:07.860 align:middle line:84%
+It's actually rather than
+uncountable basis like in k
+
+01:11:07.860 --> 01:11:09.552 align:middle line:84%
+once you restrict
+normalizability.
+
+01:11:09.552 --> 01:11:11.850 align:middle line:84%
+And so this is a fun
+mathematical fact.
+
+01:11:11.850 --> 01:11:16.450 align:middle line:90%
+
+
+01:11:16.450 --> 01:11:17.820 align:middle line:90%
+Good.
+
+01:11:17.820 --> 01:11:18.810 align:middle line:90%
+Questions on this?
+
+01:11:18.810 --> 01:11:29.450 align:middle line:90%
+
+
+01:11:29.450 --> 01:11:41.270 align:middle line:84%
+So the last few minutes, we
+talk about conserved charges.
+
+01:11:41.270 --> 01:11:46.220 align:middle line:90%
+
+
+01:11:46.220 --> 01:11:52.090 align:middle line:84%
+Quantum-- the role
+of conserved charges.
+
+01:11:52.090 --> 01:11:58.480 align:middle line:90%
+
+
+01:11:58.480 --> 01:12:05.410 align:middle line:84%
+So classically, we
+say if an action is
+
+01:12:05.410 --> 01:12:07.450 align:middle line:90%
+invariant under some symmetry--
+
+01:12:07.450 --> 01:12:10.690 align:middle line:84%
+some transformation-- some
+continuous transformation,
+
+01:12:10.690 --> 01:12:20.880 align:middle line:84%
+say, of the infinitesimal
+form, so the alpha are
+
+01:12:20.880 --> 01:12:23.910 align:middle line:90%
+the infinitesimal parameters.
+
+01:12:23.910 --> 01:12:27.060 align:middle line:84%
+So the alpha label
+different transformations,
+
+01:12:27.060 --> 01:12:28.950 align:middle line:90%
+and a label different fields.
+
+01:12:28.950 --> 01:12:31.140 align:middle line:84%
+Alpha label different
+transformations.
+
+01:12:31.140 --> 01:12:35.820 align:middle line:84%
+And then you will get
+the conserved current J
+
+01:12:35.820 --> 01:12:39.810 align:middle line:84%
+mu labeled by this alpha,
+so alpha label differently
+
+01:12:39.810 --> 01:12:40.740 align:middle line:90%
+for each.
+
+01:12:40.740 --> 01:12:44.970 align:middle line:84%
+So alpha label different
+symmetries for each symmetry,
+
+01:12:44.970 --> 01:12:47.760 align:middle line:84%
+and then you have a
+conserved current,
+
+01:12:47.760 --> 01:12:51.345 align:middle line:84%
+which is satisfy the
+J mu alpha equal to 0.
+
+01:12:51.345 --> 01:12:54.590 align:middle line:90%
+
+
+01:12:54.590 --> 01:12:57.350 align:middle line:84%
+The alpha equal to
+1, 2, et cetera--
+
+01:12:57.350 --> 01:12:58.940 align:middle line:90%
+label different symmetries.
+
+01:12:58.940 --> 01:13:06.800 align:middle line:90%
+
+
+01:13:06.800 --> 01:13:10.760 align:middle line:84%
+And then you can write
+down your Noether current.
+
+01:13:10.760 --> 01:13:13.490 align:middle line:84%
+So we derive a general formula
+for the Noether current
+
+01:13:13.490 --> 01:13:16.475 align:middle line:84%
+is given by the form,
+say, partial L--
+
+01:13:16.475 --> 01:13:19.250 align:middle line:90%
+
+
+01:13:19.250 --> 01:13:23.446 align:middle line:90%
+partial partial mu phi a.
+
+01:13:23.446 --> 01:13:25.040 align:middle line:90%
+And then f a alpha.
+
+01:13:25.040 --> 01:13:26.790 align:middle line:84%
+So this is essentially
+the same as before.
+
+01:13:26.790 --> 01:13:29.670 align:middle line:84%
+Essentially, I just add the
+index alpha now to label.
+
+01:13:29.670 --> 01:13:32.070 align:middle line:84%
+You can have more
+than one symmetries.
+
+01:13:32.070 --> 01:13:34.620 align:middle line:90%
+And then minus k mu alpha.
+
+01:13:34.620 --> 01:13:38.730 align:middle line:84%
+So k mu alpha is
+the derivative--
+
+01:13:38.730 --> 01:13:43.410 align:middle line:84%
+total derivative -- suppose
+-- delta L is given by epsilon
+
+01:13:43.410 --> 01:13:47.280 align:middle line:90%
+alpha partial mu k mu alpha.
+
+01:13:47.280 --> 01:13:51.070 align:middle line:84%
+So the k mu alpha is the
+total derivative corresponding
+
+01:13:51.070 --> 01:13:53.280 align:middle line:90%
+to that respect --
+
+01:13:53.280 --> 01:13:57.270 align:middle line:84%
+corresponding to
+that transformation.
+
+01:13:57.270 --> 01:14:00.420 align:middle line:84%
+And then the q
+alpha, that will be
+
+01:14:00.420 --> 01:14:08.130 align:middle line:84%
+the conserved charge for that
+current, so zeroth component.
+
+01:14:08.130 --> 01:14:09.810 align:middle line:90%
+So this is the classical story.
+
+01:14:09.810 --> 01:14:13.080 align:middle line:84%
+Now, I'm using a little
+bit more general notation
+
+01:14:13.080 --> 01:14:15.730 align:middle line:90%
+for each alpha.
+
+01:14:15.730 --> 01:14:16.995 align:middle line:90%
+So now, the key thing--
+
+01:14:16.995 --> 01:14:21.115 align:middle line:90%
+
+
+01:14:21.115 --> 01:14:23.240 align:middle line:84%
+so now the key thing is
+that at the quantum level--
+
+01:14:23.240 --> 01:14:34.768 align:middle line:90%
+
+
+01:14:34.768 --> 01:14:35.810 align:middle line:90%
+so at the quantum level--
+
+01:14:35.810 --> 01:14:43.910 align:middle line:90%
+
+
+01:14:43.910 --> 01:14:45.500 align:middle line:84%
+first, as we already
+seen in the case
+
+01:14:45.500 --> 01:14:48.320 align:middle line:84%
+of the Hamiltonian and
+the momentum operator,
+
+01:14:48.320 --> 01:14:52.640 align:middle line:90%
+so q alpha is time independent--
+
+01:14:52.640 --> 01:14:54.170 align:middle line:90%
+is a constant operator.
+
+01:14:54.170 --> 01:15:00.260 align:middle line:90%
+
+
+01:15:00.260 --> 01:15:03.050 align:middle line:84%
+So this is the fact
+that this is conserved.
+
+01:15:03.050 --> 01:15:08.350 align:middle line:90%
+
+
+01:15:08.350 --> 01:15:13.610 align:middle line:84%
+And also another
+important property of q
+
+01:15:13.610 --> 01:15:19.520 align:middle line:84%
+is that when you act
+q alpha on your field,
+
+01:15:19.520 --> 01:15:22.255 align:middle line:84%
+if you look at the commutator
+between this q alpha
+
+01:15:22.255 --> 01:15:27.560 align:middle line:84%
+on your field, it
+actually generates
+
+01:15:27.560 --> 01:15:30.760 align:middle line:90%
+finite transformation.
+
+01:15:30.760 --> 01:15:40.480 align:middle line:84%
+So turns out-- yeah,
+so if we have put
+
+01:15:40.480 --> 01:15:42.325 align:middle line:84%
+a parameter here--
+epsilon alpha.
+
+01:15:42.325 --> 01:15:45.190 align:middle line:90%
+
+
+01:15:45.190 --> 01:15:47.770 align:middle line:84%
+Yeah, so it doesn't
+matter for Q--
+
+01:15:47.770 --> 01:15:50.680 align:middle line:90%
+say, it's upstairs, downstairs.
+
+01:15:50.680 --> 01:15:51.715 align:middle line:90%
+And then you get--
+
+01:15:51.715 --> 01:15:56.060 align:middle line:90%
+
+
+01:15:56.060 --> 01:15:59.150 align:middle line:84%
+so you just generate the
+transformation for f--
+
+01:15:59.150 --> 01:16:01.280 align:middle line:90%
+for phi.
+
+01:16:01.280 --> 01:16:03.120 align:middle line:90%
+So this can be shown explicitly.
+
+01:16:03.120 --> 01:16:05.900 align:middle line:90%
+
+
+01:16:05.900 --> 01:16:08.520 align:middle line:90%
+So you can show this explicitly.
+
+01:16:08.520 --> 01:16:10.260 align:middle line:90%
+We're running out of time now.
+
+01:16:10.260 --> 01:16:14.540 align:middle line:84%
+So you can show explicitly
+just using this expression.
+
+01:16:14.540 --> 01:16:20.310 align:middle line:84%
+So let me just quickly
+outline the way to do it.
+
+01:16:20.310 --> 01:16:21.995 align:middle line:90%
+So if you, say--
+
+01:16:21.995 --> 01:16:26.510 align:middle line:90%
+
+
+01:16:26.510 --> 01:16:31.956 align:middle line:84%
+so let's look at the
+zeroth component of this J.
+
+01:16:31.956 --> 01:16:46.530 align:middle line:84%
+So the zeroth component of
+the J just equal to partial L,
+
+01:16:46.530 --> 01:16:52.155 align:middle line:84%
+partial, partial, 0
+phi a and f a alpha.
+
+01:16:52.155 --> 01:16:55.200 align:middle line:90%
+
+
+01:16:55.200 --> 01:16:56.700 align:middle line:90%
+So let's consider the--
+
+01:16:56.700 --> 01:17:00.300 align:middle line:90%
+
+
+01:17:00.300 --> 01:17:04.080 align:middle line:84%
+yeah, I think today we will
+not have time to finish anyway.
+
+01:17:04.080 --> 01:17:08.640 align:middle line:84%
+Yeah, let's just leave
+this to the next time.
+
+01:17:08.640 --> 01:17:11.640 align:middle line:84%
+Yeah, let me just say
+that the quantum level,
+
+01:17:11.640 --> 01:17:15.160 align:middle line:84%
+this will generate the
+infinitesimal transformation.
+
+01:17:15.160 --> 01:17:17.880 align:middle line:84%
+And then you can
+also exponentiate
+
+01:17:17.880 --> 01:17:24.930 align:middle line:84%
+this Q. You can introduce,
+say, exponential i lambda Q.
+
+01:17:24.930 --> 01:17:28.620 align:middle line:84%
+So if q is the
+conserved charge--
+
+01:17:28.620 --> 01:17:32.460 align:middle line:84%
+and then you can
+exponentiate Q like this.
+
+01:17:32.460 --> 01:17:38.700 align:middle line:84%
+And then this operator
+then generates--
+
+01:17:38.700 --> 01:17:45.970 align:middle line:84%
+when it acts on
+phi, then generates
+
+01:17:45.970 --> 01:17:47.380 align:middle line:90%
+finite transformations.
+
+01:17:47.380 --> 01:17:58.960 align:middle line:90%
+
+
+01:17:58.960 --> 01:18:02.050 align:middle line:84%
+So this takes you
+to phi a prime--
+
+01:18:02.050 --> 01:18:03.400 align:middle line:90%
+the finite transformations.
+
+01:18:03.400 --> 01:18:07.450 align:middle line:84%
+Anyway, so in your
+pset, for pset 2,
+
+01:18:07.450 --> 01:18:12.290 align:middle line:84%
+you actually check yourself
+a couple of simple examples,
+
+01:18:12.290 --> 01:18:15.800 align:middle line:90%
+and you will see this works.
+
+01:18:15.800 --> 01:18:21.100 align:middle line:84%
+And in the next lecture, we will
+give you a simple derivation
+
+01:18:21.100 --> 01:18:23.620 align:middle line:90%
+to show this actually works.
+
+01:18:23.620 --> 01:18:25.740 align:middle line:90%
+It works in general.
+
+01:18:25.740 --> 01:18:31.000 align:middle line:90%

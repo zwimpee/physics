@@ -1,0 +1,4433 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.986 align:middle line:84%
+[SQUEAKING]
+[RUSTLING] [CLICKING]
+
+00:00:06.986 --> 00:00:10.990 align:middle line:90%
+
+
+00:00:10.990 --> 00:00:17.200 align:middle line:84%
+PROFESSOR: Last time, we started
+talking about the quantize--
+
+00:00:17.200 --> 00:00:20.590 align:middle line:84%
+the Maxwell theory
+in the Lorenz gauge.
+
+00:00:20.590 --> 00:00:26.185 align:middle line:84%
+So in the Lorenz gauge, we
+consider the following action.
+
+00:00:26.185 --> 00:00:35.010 align:middle line:90%
+
+
+00:00:35.010 --> 00:00:35.850 align:middle line:90%
+OK.
+
+00:00:35.850 --> 00:00:40.530 align:middle line:84%
+So we showed earlier
+that the Lorentz gauge
+
+00:00:40.530 --> 00:00:44.140 align:middle line:84%
+can be ensured just following
+the equation of motion.
+
+00:00:44.140 --> 00:00:48.900 align:middle line:84%
+So you just get from here, the
+equation of motion, and then
+
+00:00:48.900 --> 00:00:50.440 align:middle line:90%
+the equation of motion--
+
+00:00:50.440 --> 00:00:53.700 align:middle line:84%
+yeah, so the equation
+of motion will
+
+00:00:53.700 --> 00:01:00.240 align:middle line:84%
+lead to partial square,
+partial mu A mu equal to 0.
+
+00:01:00.240 --> 00:01:03.730 align:middle line:84%
+So this is ensures partial
+mu a mu equal to 0.
+
+00:01:03.730 --> 00:01:05.910 align:middle line:84%
+You just have to make
+sure your boundary
+
+00:01:05.910 --> 00:01:10.425 align:middle line:84%
+conditions, such as the
+partial mu A mu equal to O. OK?
+
+00:01:10.425 --> 00:01:12.960 align:middle line:90%
+
+
+00:01:12.960 --> 00:01:15.690 align:middle line:84%
+And in particular, the
+action is particularly
+
+00:01:15.690 --> 00:01:22.330 align:middle line:84%
+simple for xi equal to 1,
+in which case we just have--
+
+00:01:22.330 --> 00:01:23.950 align:middle line:84%
+actually we just
+have [INAUDIBLE]..
+
+00:01:23.950 --> 00:01:30.550 align:middle line:90%
+
+
+00:01:30.550 --> 00:01:31.450 align:middle line:90%
+OK.
+
+00:01:31.450 --> 00:01:35.600 align:middle line:84%
+So as if you just have 4
+decoupled massless scalar.
+
+00:01:35.600 --> 00:01:36.100 align:middle line:90%
+OK?
+
+00:01:36.100 --> 00:01:39.520 align:middle line:84%
+As if you just have
+4 massless scalar.
+
+00:01:39.520 --> 00:01:42.070 align:middle line:84%
+And the equation of motion
+is actually all very simple.
+
+00:01:42.070 --> 00:01:46.390 align:middle line:90%
+
+
+00:01:46.390 --> 00:01:47.860 align:middle line:90%
+So we can just proceed.
+
+00:01:47.860 --> 00:01:56.190 align:middle line:84%
+Copy our result before
+for massless scalar.
+
+00:01:56.190 --> 00:01:59.040 align:middle line:84%
+And just treat each A
+mu as a massless scalar,
+
+00:01:59.040 --> 00:02:01.420 align:middle line:90%
+and then we can just do it.
+
+00:02:01.420 --> 00:02:08.970 align:middle line:84%
+For example, the canonical
+momentum conjugate to A mu
+
+00:02:08.970 --> 00:02:15.085 align:middle line:84%
+would be just a mu
+dot, just A mu dot.
+
+00:02:15.085 --> 00:02:15.585 align:middle line:90%
+OK.
+
+00:02:15.585 --> 00:02:19.230 align:middle line:90%
+
+
+00:02:19.230 --> 00:02:23.805 align:middle line:84%
+So the canonical quantization
+condition, then, is given by--
+
+00:02:23.805 --> 00:02:43.540 align:middle line:90%
+
+
+00:02:43.540 --> 00:02:48.670 align:middle line:84%
+and we can also just
+straightforwardly write down
+
+00:02:48.670 --> 00:02:56.020 align:middle line:84%
+A mu, the expansion for-- the
+operator expansion for A mu.
+
+00:02:56.020 --> 00:03:07.485 align:middle line:90%
+
+
+00:03:07.485 --> 00:03:07.985 align:middle line:90%
+OK.
+
+00:03:07.985 --> 00:03:11.020 align:middle line:90%
+
+
+00:03:11.020 --> 00:03:13.460 align:middle line:90%
+So we have four of them.
+
+00:03:13.460 --> 00:03:16.450 align:middle line:90%
+So again, we will--
+
+00:03:16.450 --> 00:03:19.810 align:middle line:84%
+instead of writing them
+as 4 massless scalar,
+
+00:03:19.810 --> 00:03:24.250 align:middle line:84%
+we will-- as we did before,
+for the Coulomb gauge case,
+
+00:03:24.250 --> 00:03:27.640 align:middle line:84%
+we introduce a
+polarization vector.
+
+00:03:27.640 --> 00:03:29.810 align:middle line:84%
+So we will introduce
+a polarization vector.
+
+00:03:29.810 --> 00:03:31.510 align:middle line:84%
+So there are four
+possible things.
+
+00:03:31.510 --> 00:03:33.380 align:middle line:90%
+There are four components.
+
+00:03:33.380 --> 00:03:37.940 align:middle line:84%
+So there are four
+possible polarizations--
+
+00:03:37.940 --> 00:03:38.440 align:middle line:90%
+times.
+
+00:03:38.440 --> 00:04:12.070 align:middle line:90%
+
+
+00:04:12.070 --> 00:04:13.810 align:middle line:90%
+OK.
+
+00:04:13.810 --> 00:04:16.089 align:middle line:90%
+So we just get that.
+
+00:04:16.089 --> 00:04:25.320 align:middle line:84%
+So this epsilon mu alpha for
+alpha equal to 0, 1, 2, 3--
+
+00:04:25.320 --> 00:04:27.640 align:middle line:84%
+so these are four
+polarization vectors.
+
+00:04:27.640 --> 00:04:28.140 align:middle line:90%
+OK?
+
+00:04:28.140 --> 00:04:36.690 align:middle line:90%
+
+
+00:04:36.690 --> 00:04:37.680 align:middle line:90%
+You can choose.
+
+00:04:37.680 --> 00:04:44.250 align:middle line:84%
+You can just choose, say, 1,
+0, 0, 0, 0, 1, 0, 0, et cetera.
+
+00:04:44.250 --> 00:04:47.670 align:middle line:84%
+And then this just like
+four decoupled scalar, OK?
+
+00:04:47.670 --> 00:04:51.390 align:middle line:84%
+But this way introduces
+a polarization vector,
+
+00:04:51.390 --> 00:04:56.240 align:middle line:84%
+allowing to write them
+in a more general way.
+
+00:04:56.240 --> 00:04:57.445 align:middle line:90%
+So we normally pick--
+
+00:04:57.445 --> 00:05:05.070 align:middle line:90%
+
+
+00:05:05.070 --> 00:05:09.870 align:middle line:84%
+for example, the 0-th component,
+the 0-th polarization vector
+
+00:05:09.870 --> 00:05:14.080 align:middle line:84%
+just to be along the
+time direction, OK?
+
+00:05:14.080 --> 00:05:17.090 align:middle line:84%
+So just along the
+time direction.
+
+00:05:17.090 --> 00:05:21.980 align:middle line:84%
+And then we also
+introduce another--
+
+00:05:21.980 --> 00:05:25.490 align:middle line:84%
+so the number 3,
+we introduce to be
+
+00:05:25.490 --> 00:05:28.940 align:middle line:84%
+proportional to the
+direction of the momentum.
+
+00:05:28.940 --> 00:05:33.910 align:middle line:90%
+
+
+00:05:33.910 --> 00:05:35.470 align:middle line:90%
+So this is proportional to the--
+
+00:05:35.470 --> 00:05:39.100 align:middle line:84%
+parallel to the momentum,
+to the spatial momentum.
+
+00:05:39.100 --> 00:05:43.990 align:middle line:90%
+So the k mu here would be--
+
+00:05:43.990 --> 00:05:46.490 align:middle line:90%
+because this is massless.
+
+00:05:46.490 --> 00:05:47.650 align:middle line:90%
+So we just have this.
+
+00:05:47.650 --> 00:05:49.510 align:middle line:84%
+OK so so the 0-th
+component is just
+
+00:05:49.510 --> 00:05:53.210 align:middle line:90%
+equal to the magnitude of k.
+
+00:05:53.210 --> 00:06:02.870 align:middle line:84%
+And then we take the epsilon 1,
+2 epsilon mu, then 1, 2 to be,
+
+00:06:02.870 --> 00:06:06.725 align:middle line:84%
+let's say, orthogonal
+to the momentum.
+
+00:06:06.725 --> 00:06:09.790 align:middle line:90%
+
+
+00:06:09.790 --> 00:06:18.940 align:middle line:84%
+So these are called the
+transverse polarizations.
+
+00:06:18.940 --> 00:06:25.000 align:middle line:90%
+
+
+00:06:25.000 --> 00:06:30.280 align:middle line:84%
+So we take them also to be
+orthogonal to 0-th component.
+
+00:06:30.280 --> 00:06:32.620 align:middle line:90%
+That means there's no--
+
+00:06:32.620 --> 00:06:35.650 align:middle line:84%
+the time component for
+1, 2 will be 0, too,
+
+00:06:35.650 --> 00:06:39.010 align:middle line:84%
+and then also it should be
+proportional-- it should also
+
+00:06:39.010 --> 00:06:40.720 align:middle line:90%
+be orthogonal to the momentum.
+
+00:06:40.720 --> 00:06:45.730 align:middle line:90%
+
+
+00:06:45.730 --> 00:06:51.260 align:middle line:84%
+So we take, also, them to
+be orthogonal to each other.
+
+00:06:51.260 --> 00:06:58.278 align:middle line:90%
+
+
+00:06:58.278 --> 00:06:59.022 align:middle line:90%
+Eta mu nu.
+
+00:06:59.022 --> 00:07:00.855 align:middle line:84%
+We take them to be
+orthogonal to each other.
+
+00:07:00.855 --> 00:07:06.370 align:middle line:90%
+
+
+00:07:06.370 --> 00:07:10.930 align:middle line:84%
+This is the normal,
+orthonormal condition.
+
+00:07:10.930 --> 00:07:18.060 align:middle line:90%
+
+
+00:07:18.060 --> 00:07:19.200 align:middle line:90%
+OK?
+
+00:07:19.200 --> 00:07:21.240 align:middle line:84%
+Take these spaces
+to be orthonormal.
+
+00:07:21.240 --> 00:07:23.400 align:middle line:90%
+And then this is also complete.
+
+00:07:23.400 --> 00:07:27.900 align:middle line:84%
+Means that if I sum over
+different alpha and beta--
+
+00:07:27.900 --> 00:07:34.130 align:middle line:90%
+
+
+00:07:34.130 --> 00:07:36.650 align:middle line:84%
+and actually I can
+get back to eta mu nu.
+
+00:07:36.650 --> 00:07:39.160 align:middle line:90%
+OK?
+
+00:07:39.160 --> 00:07:41.620 align:middle line:84%
+So this is called
+the completeness.
+
+00:07:41.620 --> 00:07:44.440 align:middle line:90%
+So they form a complete basis.
+
+00:07:44.440 --> 00:07:48.234 align:middle line:84%
+So any Lorentz vector can
+be expanded in terms of it.
+
+00:07:48.234 --> 00:07:53.340 align:middle line:90%
+
+
+00:07:53.340 --> 00:08:00.950 align:middle line:84%
+So if we take, say, k
+to be the z-direction,
+
+00:08:00.950 --> 00:08:03.980 align:middle line:84%
+then the simplest choice
+would be, say, you just do--
+
+00:08:03.980 --> 00:08:08.120 align:middle line:90%
+
+
+00:08:08.120 --> 00:08:09.395 align:middle line:90%
+so we just have that.
+
+00:08:09.395 --> 00:08:31.860 align:middle line:90%
+
+
+00:08:31.860 --> 00:08:33.270 align:middle line:90%
+OK, so this is simplest.
+
+00:08:33.270 --> 00:08:36.510 align:middle line:84%
+But you can consider more
+general polarization.
+
+00:08:36.510 --> 00:08:40.210 align:middle line:90%
+
+
+00:08:40.210 --> 00:08:45.760 align:middle line:84%
+And so now, if you
+plug in this expansion,
+
+00:08:45.760 --> 00:08:48.460 align:middle line:84%
+as we do, for the scalar,
+and then you plug in
+
+00:08:48.460 --> 00:08:51.237 align:middle line:84%
+back to that
+commutation relation,
+
+00:08:51.237 --> 00:08:53.320 align:middle line:84%
+then you will get the
+commutation relation with a.
+
+00:08:53.320 --> 00:08:55.460 align:middle line:90%
+So this is straightforward.
+
+00:08:55.460 --> 00:08:58.540 align:middle line:84%
+So if we call this
+equation star--
+
+00:08:58.540 --> 00:09:01.225 align:middle line:90%
+star star, this equation star.
+
+00:09:01.225 --> 00:09:03.880 align:middle line:90%
+
+
+00:09:03.880 --> 00:09:20.180 align:middle line:84%
+So plug star star into star,
+and then we get the ak alpha ak
+
+00:09:20.180 --> 00:09:32.870 align:middle line:84%
+prime beta dagger should be
+equal to beta alpha beta 2 pi
+
+00:09:32.870 --> 00:09:40.710 align:middle line:90%
+cubed delta -- prime OK.
+
+00:09:40.710 --> 00:09:45.030 align:middle line:84%
+And the the rest
+commutators are all 0.
+
+00:09:45.030 --> 00:09:53.500 align:middle line:90%
+
+
+00:09:53.500 --> 00:09:56.005 align:middle line:84%
+And then you can
+define the vacuum.
+
+00:09:56.005 --> 00:10:00.310 align:middle line:90%
+
+
+00:10:00.310 --> 00:10:10.850 align:middle line:84%
+Define a annihlated by all the
+alphas for any alpha and k.
+
+00:10:10.850 --> 00:10:15.300 align:middle line:90%
+
+
+00:10:15.300 --> 00:10:20.580 align:middle line:84%
+And I will introduce
+the Hilbert space.
+
+00:10:20.580 --> 00:10:25.245 align:middle line:90%
+I call it H big to be the psi--
+
+00:10:25.245 --> 00:10:28.740 align:middle line:90%
+
+
+00:10:28.740 --> 00:10:42.930 align:middle line:84%
+the collection of psi built by
+acting ak alpha dagger on 0.
+
+00:10:42.930 --> 00:10:45.630 align:middle line:90%
+OK?
+
+00:10:45.630 --> 00:10:50.370 align:middle line:84%
+So you can just add arbitrary
+number of them on 0,
+
+00:10:50.370 --> 00:10:52.480 align:middle line:90%
+then you get your Hilbert space.
+
+00:10:52.480 --> 00:10:56.020 align:middle line:84%
+So we call this Hilbert space
+to be my big Hilbert space.
+
+00:10:56.020 --> 00:11:00.960 align:middle line:84%
+And you will see the
+reason we do that.
+
+00:11:00.960 --> 00:11:01.770 align:middle line:90%
+OK?
+
+00:11:01.770 --> 00:11:05.720 align:middle line:84%
+So later, we will see
+why we call this H big.
+
+00:11:05.720 --> 00:11:09.670 align:middle line:90%
+So this is seemingly all fine.
+
+00:11:09.670 --> 00:11:12.090 align:middle line:84%
+But of course,
+there are problems.
+
+00:11:12.090 --> 00:11:18.120 align:middle line:84%
+This cannot be right, because
+the Maxwell theory, we said,
+
+00:11:18.120 --> 00:11:21.720 align:middle line:84%
+only has two transverse
+degrees of freedom.
+
+00:11:21.720 --> 00:11:23.040 align:middle line:90%
+But here we have four.
+
+00:11:23.040 --> 00:11:25.140 align:middle line:84%
+We have four massless
+with degrees freedom.
+
+00:11:25.140 --> 00:11:28.490 align:middle line:90%
+We must have too many.
+
+00:11:28.490 --> 00:11:34.280 align:middle line:84%
+And indeed, you see
+there, here, are problems.
+
+00:11:34.280 --> 00:11:36.340 align:middle line:90%
+So one problem is the following.
+
+00:11:36.340 --> 00:11:40.210 align:middle line:90%
+
+
+00:11:40.210 --> 00:11:44.218 align:middle line:90%
+So one problem is the following.
+
+00:11:44.218 --> 00:11:45.135 align:middle line:90%
+So there are problems.
+
+00:11:45.135 --> 00:11:48.670 align:middle line:90%
+
+
+00:11:48.670 --> 00:11:50.070 align:middle line:90%
+So one problem, yeah--
+
+00:11:50.070 --> 00:11:52.740 align:middle line:84%
+so the zeroth order
+problem is that we
+
+00:11:52.740 --> 00:12:02.940 align:middle line:84%
+have four massless degrees
+of freedom, two too many.
+
+00:12:02.940 --> 00:12:03.440 align:middle line:90%
+OK?
+
+00:12:03.440 --> 00:12:07.590 align:middle line:90%
+
+
+00:12:07.590 --> 00:12:12.270 align:middle line:84%
+So we know that we only
+should only have two.
+
+00:12:12.270 --> 00:12:16.400 align:middle line:84%
+And the second, you see
+that this is problematic.
+
+00:12:16.400 --> 00:12:20.640 align:middle line:90%
+
+
+00:12:20.640 --> 00:12:22.140 align:middle line:90%
+Is that, you notice--
+
+00:12:22.140 --> 00:12:25.840 align:middle line:84%
+so here, we have eta
+alpha beta eta mu mu.
+
+00:12:25.840 --> 00:12:30.270 align:middle line:84%
+So this is all just from
+Lorentz covariance, OK?
+
+00:12:30.270 --> 00:12:34.720 align:middle line:84%
+But this eta alpha
+beta is problematic
+
+00:12:34.720 --> 00:12:45.040 align:middle line:84%
+because if you look at
+the commutator for ak 0--
+
+00:12:45.040 --> 00:12:46.090 align:middle line:90%
+OK, so the zeros--
+
+00:12:46.090 --> 00:12:50.410 align:middle line:90%
+
+
+00:12:50.410 --> 00:13:01.450 align:middle line:84%
+that polarization, then you
+have ak 0 ak prime 0 dagger
+
+00:13:01.450 --> 00:13:05.770 align:middle line:90%
+equal to minus 2 pi cubed.
+
+00:13:05.770 --> 00:13:07.345 align:middle line:90%
+Say delta k minus k prime.
+
+00:13:07.345 --> 00:13:09.910 align:middle line:90%
+
+
+00:13:09.910 --> 00:13:11.110 align:middle line:90%
+OK, you have a minus sign.
+
+00:13:11.110 --> 00:13:15.290 align:middle line:90%
+
+
+00:13:15.290 --> 00:13:21.670 align:middle line:84%
+So this is problematic because
+if we, say, create particles--
+
+00:13:21.670 --> 00:13:37.850 align:middle line:84%
+say if we create the particles
+by acting ak alpha dagger
+
+00:13:37.850 --> 00:13:46.450 align:middle line:84%
+on the 0, and then you find,
+because of this minus sign,
+
+00:13:46.450 --> 00:14:04.980 align:middle line:84%
+this create the particle with
+polarization epsilon alpha mu.
+
+00:14:04.980 --> 00:14:06.960 align:middle line:84%
+So now, because of
+this minus sign,
+
+00:14:06.960 --> 00:14:13.140 align:middle line:84%
+you see that if we look at the
+overlap between the particle
+
+00:14:13.140 --> 00:14:15.690 align:middle line:90%
+with the 0 polarization--
+
+00:14:15.690 --> 00:14:26.360 align:middle line:84%
+so if we look at k 0
+with some k prime 0--
+
+00:14:26.360 --> 00:14:30.815 align:middle line:84%
+and then because of this
+minus sign, we have minus.
+
+00:14:30.815 --> 00:14:33.680 align:middle line:90%
+
+
+00:14:33.680 --> 00:14:40.940 align:middle line:84%
+So this will be proportional
+to minus 2 pi cube theta cube
+
+00:14:40.940 --> 00:14:43.520 align:middle line:90%
+k minus k.
+
+00:14:43.520 --> 00:14:46.670 align:middle line:90%
+So this is smaller than 0.
+
+00:14:46.670 --> 00:14:49.835 align:middle line:84%
+So you see, actually,
+in the product--
+
+00:14:49.835 --> 00:14:52.550 align:middle line:90%
+
+
+00:14:52.550 --> 00:14:55.790 align:middle line:84%
+so that means that this state
+actually has negative norm.
+
+00:14:55.790 --> 00:15:04.380 align:middle line:90%
+
+
+00:15:04.380 --> 00:15:06.090 align:middle line:84%
+That means this state
+is negative norm.
+
+00:15:06.090 --> 00:15:17.560 align:middle line:90%
+
+
+00:15:17.560 --> 00:15:21.350 align:middle line:84%
+But this is actually
+a good sign.
+
+00:15:21.350 --> 00:15:24.250 align:middle line:84%
+So this is another way
+to see that we have
+
+00:15:24.250 --> 00:15:27.130 align:middle line:90%
+too many degrees of freedom.
+
+00:15:27.130 --> 00:15:30.850 align:middle line:84%
+So that means not all degrees
+of freedom here can be physical.
+
+00:15:30.850 --> 00:15:34.390 align:middle line:84%
+So here, it just tells you there
+are some degree of freedom here
+
+00:15:34.390 --> 00:15:38.370 align:middle line:84%
+that must be unphysical because
+they have negative norm.
+
+00:15:38.370 --> 00:15:41.250 align:middle line:84%
+The states they create
+have negative norm.
+
+00:15:41.250 --> 00:15:43.995 align:middle line:84%
+So they cannot really correspond
+to genuine physical states.
+
+00:15:43.995 --> 00:15:50.100 align:middle line:90%
+
+
+00:15:50.100 --> 00:15:54.090 align:middle line:84%
+But those problems should
+not worry us because, so far,
+
+00:15:54.090 --> 00:15:57.720 align:middle line:84%
+what we have done is to
+quantize this theory.
+
+00:15:57.720 --> 00:16:01.553 align:middle line:90%
+
+
+00:16:01.553 --> 00:16:03.720 align:middle line:84%
+So far what we have done
+is to quantize this theory.
+
+00:16:03.720 --> 00:16:06.780 align:middle line:84%
+But this theory is not
+the Maxwell theory.
+
+00:16:06.780 --> 00:16:10.880 align:middle line:84%
+To get the Maxwell theory,
+we have to do two more steps.
+
+00:16:10.880 --> 00:16:16.140 align:middle line:84%
+One more step-- one step
+is to impose conditions
+
+00:16:16.140 --> 00:16:18.950 align:middle line:84%
+so that makes sure this
+partial mu a mu is equal to 0,
+
+00:16:18.950 --> 00:16:21.860 align:middle line:84%
+because we haven't
+fixed the gauge.
+
+00:16:21.860 --> 00:16:25.170 align:middle line:84%
+The second condition,
+we mentioned before.
+
+00:16:25.170 --> 00:16:27.010 align:middle line:84%
+So there are two more
+things we need to.
+
+00:16:27.010 --> 00:16:38.930 align:middle line:90%
+
+
+00:16:38.930 --> 00:16:47.180 align:middle line:84%
+So first is that we
+need to ensure the gauge
+
+00:16:47.180 --> 00:16:48.560 align:middle line:90%
+partial mu A mu is equal to 0.
+
+00:16:48.560 --> 00:16:52.340 align:middle line:90%
+
+
+00:16:52.340 --> 00:16:55.680 align:middle line:84%
+The second thing, as
+we mentioned before,
+
+00:16:55.680 --> 00:16:59.070 align:middle line:84%
+is that after fixing
+the Lorenz gauge,
+
+00:16:59.070 --> 00:17:02.580 align:middle line:84%
+they're still residual gauge
+degrees of freedom left.
+
+00:17:02.580 --> 00:17:09.000 align:middle line:84%
+And we have to fix
+the residual gauge
+
+00:17:09.000 --> 00:17:10.500 align:middle line:90%
+freedom in the Lorenz gauge.
+
+00:17:10.500 --> 00:17:14.485 align:middle line:90%
+
+
+00:17:14.485 --> 00:17:14.985 align:middle line:90%
+OK?
+
+00:17:14.985 --> 00:17:22.700 align:middle line:90%
+
+
+00:17:22.700 --> 00:17:28.665 align:middle line:84%
+So when you do this, then you
+will get a physical Hilbert
+
+00:17:28.665 --> 00:17:29.165 align:middle line:90%
+space.
+
+00:17:29.165 --> 00:17:31.753 align:middle line:90%
+
+
+00:17:31.753 --> 00:17:33.420 align:middle line:84%
+You will get the
+physical Hilbert space.
+
+00:17:33.420 --> 00:17:36.890 align:middle line:84%
+And this physical Hilbert
+space, we will see--
+
+00:17:36.890 --> 00:17:40.490 align:middle line:84%
+you will see-- will
+only contain, indeed,
+
+00:17:40.490 --> 00:17:43.700 align:middle line:84%
+two transverse massless
+degrees of freedom.
+
+00:17:43.700 --> 00:17:49.340 align:middle line:84%
+And the two degrees of freedom
+here are gotten rid of,
+
+00:17:49.340 --> 00:17:51.330 align:middle line:90%
+I got rid of.
+
+00:17:51.330 --> 00:17:59.030 align:middle line:84%
+And so in the past, I described
+those procedures in detail
+
+00:17:59.030 --> 00:18:00.630 align:middle line:90%
+in class.
+
+00:18:00.630 --> 00:18:04.430 align:middle line:84%
+But actually, that didn't
+have very good effect.
+
+00:18:04.430 --> 00:18:07.910 align:middle line:90%
+So later, I put it in your Pset.
+
+00:18:07.910 --> 00:18:09.660 align:middle line:84%
+Actually, I think
+it worked better,
+
+00:18:09.660 --> 00:18:12.980 align:middle line:84%
+so forced you to go through it
+and to think through it, how
+
+00:18:12.980 --> 00:18:16.160 align:middle line:90%
+to do these two steps.
+
+00:18:16.160 --> 00:18:22.610 align:middle line:84%
+Because those steps, they are
+not difficult technically,
+
+00:18:22.610 --> 00:18:24.680 align:middle line:90%
+but you need to think carefully.
+
+00:18:24.680 --> 00:18:26.150 align:middle line:90%
+You need to think carefully.
+
+00:18:26.150 --> 00:18:28.835 align:middle line:84%
+So let me just make some
+comments on this step.
+
+00:18:28.835 --> 00:18:31.410 align:middle line:90%
+
+
+00:18:31.410 --> 00:18:33.765 align:middle line:90%
+So recall in the Coulomb gauge--
+
+00:18:33.765 --> 00:18:38.410 align:middle line:90%
+
+
+00:18:38.410 --> 00:18:39.685 align:middle line:90%
+so in the Coulomb gauge--
+
+00:18:39.685 --> 00:18:44.830 align:middle line:90%
+
+
+00:18:44.830 --> 00:18:59.710 align:middle line:84%
+so recall in Coulomb gauge,
+we impose this condition.
+
+00:18:59.710 --> 00:19:01.300 align:middle line:84%
+We essentially solve
+this condition.
+
+00:19:01.300 --> 00:19:02.630 align:middle line:90%
+We impose this condition.
+
+00:19:02.630 --> 00:19:04.990 align:middle line:84%
+So classically, we
+impose this condition,
+
+00:19:04.990 --> 00:19:07.780 align:middle line:84%
+essentially, as part of
+the equation of motion.
+
+00:19:07.780 --> 00:19:11.200 align:middle line:84%
+And we solve the A, which
+satisfies this condition.
+
+00:19:11.200 --> 00:19:15.650 align:middle line:84%
+We just one into two
+transverse A, OK?
+
+00:19:15.650 --> 00:19:19.100 align:middle line:84%
+And then quantum mechanically,
+because we impose it
+
+00:19:19.100 --> 00:19:23.060 align:middle line:84%
+as a classical
+equation-- we impose it
+
+00:19:23.060 --> 00:19:25.430 align:middle line:84%
+as part of the equation
+of motion, classically.
+
+00:19:25.430 --> 00:19:28.050 align:middle line:84%
+So quantum mechanically, this
+becomes an operator equation,
+
+00:19:28.050 --> 00:19:31.300 align:middle line:90%
+which we impose on operators.
+
+00:19:31.300 --> 00:19:36.150 align:middle line:84%
+But in this case, we
+can no longer impose.
+
+00:19:36.150 --> 00:19:37.995 align:middle line:90%
+But in Lorenz gauge--
+
+00:19:37.995 --> 00:19:39.645 align:middle line:84%
+so this leads to the
+operator equation.
+
+00:19:39.645 --> 00:19:43.110 align:middle line:90%
+
+
+00:19:43.110 --> 00:19:58.910 align:middle line:84%
+But in the Lorenz gauge, we
+cannot impose partial mu a mu
+
+00:19:58.910 --> 00:20:11.960 align:middle line:84%
+as the operator equation,
+because the equation of motion
+
+00:20:11.960 --> 00:20:16.950 align:middle line:84%
+already almost implies
+this is equal to 0.
+
+00:20:16.950 --> 00:20:21.240 align:middle line:84%
+We just have to impose
+some boundary condition
+
+00:20:21.240 --> 00:20:24.720 align:middle line:84%
+to ensure that, indeed,
+this equation only has
+
+00:20:24.720 --> 00:20:28.260 align:middle line:84%
+solutions corresponding to
+partial mu and mu equal to 0.
+
+00:20:28.260 --> 00:20:31.030 align:middle line:84%
+So if you impose this
+separately as the--
+
+00:20:31.030 --> 00:20:34.580 align:middle line:90%
+
+
+00:20:34.580 --> 00:20:36.320 align:middle line:90%
+yeah.
+
+00:20:36.320 --> 00:20:40.350 align:middle line:84%
+So you only need to impose
+them as boundary condition.
+
+00:20:40.350 --> 00:20:44.780 align:middle line:84%
+So quantum mechanically, that
+implies we cannot impose this
+
+00:20:44.780 --> 00:20:45.920 align:middle line:90%
+as an operator equation.
+
+00:20:45.920 --> 00:20:47.780 align:middle line:84%
+Indeed, you are
+showing your pset,
+
+00:20:47.780 --> 00:20:49.887 align:middle line:84%
+and it will be
+inconsistent if you impose
+
+00:20:49.887 --> 00:20:51.095 align:middle line:90%
+this as an operator equation.
+
+00:20:51.095 --> 00:20:53.600 align:middle line:90%
+
+
+00:20:53.600 --> 00:20:57.410 align:middle line:84%
+So what does it mean at the
+common level corresponding
+
+00:20:57.410 --> 00:21:02.280 align:middle line:84%
+to classically you impose
+the boundary condition?
+
+00:21:02.280 --> 00:21:04.420 align:middle line:84%
+So classically-imposed
+boundary condition
+
+00:21:04.420 --> 00:21:06.850 align:middle line:84%
+limits possible
+configurations you
+
+00:21:06.850 --> 00:21:11.650 align:middle line:84%
+can have, limit possible
+configurations you can have
+
+00:21:11.650 --> 00:21:13.900 align:middle line:84%
+at the quantum-mechanical
+level corresponding
+
+00:21:13.900 --> 00:21:17.510 align:middle line:90%
+to restriction on the states.
+
+00:21:17.510 --> 00:21:20.480 align:middle line:84%
+So the quantum level, it turns
+out that the right thing to do
+
+00:21:20.480 --> 00:21:25.130 align:middle line:84%
+is to impose this kind of
+condition on the states,
+
+00:21:25.130 --> 00:21:29.210 align:middle line:84%
+require your states
+to be annihilated
+
+00:21:29.210 --> 00:21:32.160 align:middle line:90%
+by something like this.
+
+00:21:32.160 --> 00:21:35.420 align:middle line:84%
+But it turns out, actually, the
+story is more subtle than that.
+
+00:21:35.420 --> 00:21:39.860 align:middle line:84%
+If you just require the state
+annihilated by this thing,
+
+00:21:39.860 --> 00:21:41.202 align:middle line:90%
+actually it does not work.
+
+00:21:41.202 --> 00:21:43.160 align:middle line:84%
+And so you have to do a
+little bit more subtle.
+
+00:21:43.160 --> 00:21:45.200 align:middle line:90%
+So the fun will be in your Pset.
+
+00:21:45.200 --> 00:21:46.790 align:middle line:90%
+You will go through that.
+
+00:21:46.790 --> 00:21:49.020 align:middle line:90%
+You'll go through that.
+
+00:21:49.020 --> 00:21:52.830 align:middle line:90%
+So do you have any questions?
+
+00:21:52.830 --> 00:21:53.820 align:middle line:90%
+Yes?
+
+00:21:53.820 --> 00:21:56.275 align:middle line:84%
+AUDIENCE: Why is it too
+much to just say that is 0?
+
+00:21:56.275 --> 00:21:58.650 align:middle line:84%
+I guess it makes sense that
+you can just fix the boundary
+
+00:21:58.650 --> 00:22:00.770 align:middle line:90%
+conditions but --
+
+00:22:00.770 --> 00:22:04.010 align:middle line:84%
+PROFESSOR: Yeah, so
+classically, it does not matter.
+
+00:22:04.010 --> 00:22:07.210 align:middle line:84%
+As a classical,
+it doesn't matter.
+
+00:22:07.210 --> 00:22:10.960 align:middle line:84%
+But quantum mechanically,
+you will show you
+
+00:22:10.960 --> 00:22:14.860 align:middle line:84%
+a P set if you impose this
+as an operator equation.
+
+00:22:14.860 --> 00:22:18.880 align:middle line:84%
+Then that's incompatible with
+this canonical quantization
+
+00:22:18.880 --> 00:22:19.720 align:middle line:90%
+condition.
+
+00:22:19.720 --> 00:22:21.910 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:22:21.910 --> 00:22:24.700 align:middle line:84%
+PROFESSOR: Yeah, here, I just
+motivate that classically
+
+00:22:24.700 --> 00:22:27.850 align:middle line:84%
+in order to ensure this unity to
+impose the boundary condition,
+
+00:22:27.850 --> 00:22:29.900 align:middle line:90%
+not as the equation of motion.
+
+00:22:29.900 --> 00:22:32.140 align:middle line:84%
+So quantum mechanically,
+we just-- yeah.
+
+00:22:32.140 --> 00:22:36.253 align:middle line:90%
+
+
+00:22:36.253 --> 00:22:36.920 align:middle line:90%
+Other questions?
+
+00:22:36.920 --> 00:22:37.970 align:middle line:90%
+Yes?
+
+00:22:37.970 --> 00:22:40.766 align:middle line:84%
+AUDIENCE: Is there a reason why
+the subspace with positive norm
+
+00:22:40.766 --> 00:22:42.474 align:middle line:84%
+is like closed -- a
+closed Hilbert space?
+
+00:22:42.474 --> 00:22:45.780 align:middle line:90%
+
+
+00:22:45.780 --> 00:22:47.030 align:middle line:90%
+PROFESSOR: Yeah, you will see.
+
+00:22:47.030 --> 00:22:48.710 align:middle line:90%
+You will see.
+
+00:22:48.710 --> 00:22:50.450 align:middle line:84%
+You will see what's
+happening, yeah.
+
+00:22:50.450 --> 00:22:52.100 align:middle line:90%
+So it turns out--
+
+00:22:52.100 --> 00:22:55.830 align:middle line:84%
+yeah, let me just
+say some words.
+
+00:22:55.830 --> 00:22:59.150 align:middle line:84%
+So it turns out when
+you do this step,
+
+00:22:59.150 --> 00:23:02.400 align:middle line:90%
+and then you will eliminate--
+
+00:23:02.400 --> 00:23:12.285 align:middle line:84%
+so the step one, we eliminate
+the negative norm state.
+
+00:23:12.285 --> 00:23:17.000 align:middle line:90%
+
+
+00:23:17.000 --> 00:23:18.550 align:middle line:90%
+AUDIENCE: OK.
+
+00:23:18.550 --> 00:23:23.260 align:middle line:84%
+PROFESSOR: So you find that once
+you impose properly this kind
+
+00:23:23.260 --> 00:23:25.750 align:middle line:84%
+of condition on the
+states, and you actually
+
+00:23:25.750 --> 00:23:28.810 align:middle line:84%
+eliminate the
+negative norm state.
+
+00:23:28.810 --> 00:23:31.420 align:middle line:84%
+But then you find after you
+eliminate the negative norm
+
+00:23:31.420 --> 00:23:34.775 align:middle line:90%
+states, in this Hilbert space--
+
+00:23:34.775 --> 00:23:37.970 align:middle line:90%
+
+
+00:23:37.970 --> 00:23:44.090 align:middle line:84%
+in this Hilbert space, there's
+still states of zero-norm.
+
+00:23:44.090 --> 00:23:45.920 align:middle line:84%
+There's still
+states of zero-norm.
+
+00:23:45.920 --> 00:23:50.940 align:middle line:84%
+And then when you fix
+the second, and then
+
+00:23:50.940 --> 00:23:52.785 align:middle line:84%
+you eliminate those
+zero-norm states.
+
+00:23:52.785 --> 00:23:56.160 align:middle line:90%
+
+
+00:23:56.160 --> 00:24:02.250 align:middle line:84%
+And then you get your
+physical Hilbert space,
+
+00:24:02.250 --> 00:24:04.440 align:middle line:84%
+because, remember,
+in the Coulomb gauge,
+
+00:24:04.440 --> 00:24:08.850 align:middle line:84%
+everything is just like
+harmonic oscillator.
+
+00:24:08.850 --> 00:24:11.340 align:middle line:90%
+There's no zero-norm state.
+
+00:24:11.340 --> 00:24:13.140 align:middle line:90%
+You fix the gauge completely.
+
+00:24:13.140 --> 00:24:16.410 align:middle line:84%
+But here, because you didn't
+fix the gauge completely--
+
+00:24:16.410 --> 00:24:19.170 align:middle line:84%
+and even after you eliminate
+those negative norm states,
+
+00:24:19.170 --> 00:24:20.610 align:middle line:90%
+you have zero-norm states.
+
+00:24:20.610 --> 00:24:24.360 align:middle line:84%
+And then they correspond
+to remaining gauge freedom.
+
+00:24:24.360 --> 00:24:28.804 align:middle line:84%
+And once you get rid of them,
+and then you have your--
+
+00:24:28.804 --> 00:24:29.304 align:middle line:90%
+yeah.
+
+00:24:29.304 --> 00:24:31.990 align:middle line:90%
+
+
+00:24:31.990 --> 00:24:33.290 align:middle line:90%
+Good.
+
+00:24:33.290 --> 00:24:35.110 align:middle line:90%
+Any questions on this?
+
+00:24:35.110 --> 00:24:35.662 align:middle line:90%
+Yes?
+
+00:24:35.662 --> 00:24:37.620 align:middle line:84%
+AUDIENCE: Instead of
+doing Maxwell theory, what
+
+00:24:37.620 --> 00:24:40.390 align:middle line:84%
+if we're just trying to
+do four massless scalars?
+
+00:24:40.390 --> 00:24:42.472 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:24:42.472 --> 00:24:44.680 align:middle line:84%
+AUDIENCE: And if you try to
+do it with these vectors,
+
+00:24:44.680 --> 00:24:46.314 align:middle line:84%
+you'd still get
+these negative norms.
+
+00:24:46.314 --> 00:24:48.923 align:middle line:90%
+
+
+00:24:48.923 --> 00:24:49.840 align:middle line:90%
+What's going on there?
+
+00:24:49.840 --> 00:24:51.273 align:middle line:90%
+PROFESSOR: Good, good, good.
+
+00:24:51.273 --> 00:24:52.690 align:middle line:84%
+That's a very good
+question, which
+
+00:24:52.690 --> 00:24:56.350 align:middle line:90%
+I'm waiting for you to ask.
+
+00:24:56.350 --> 00:24:57.950 align:middle line:90%
+So the key thing--
+
+00:24:57.950 --> 00:25:00.970 align:middle line:84%
+so you say we can certainly
+consider four massless scalar
+
+00:25:00.970 --> 00:25:02.200 align:middle line:90%
+field.
+
+00:25:02.200 --> 00:25:04.510 align:middle line:84%
+If I consider four
+Maxwell scalar field,
+
+00:25:04.510 --> 00:25:07.000 align:middle line:84%
+there should not
+be a problem, why
+
+00:25:07.000 --> 00:25:09.400 align:middle line:84%
+there should be negative norm
+state or zero-norm state.
+
+00:25:09.400 --> 00:25:14.955 align:middle line:84%
+But the key is that
+here, the states
+
+00:25:14.955 --> 00:25:17.820 align:middle line:84%
+are contract-- this A
+mu A mu are contracted
+
+00:25:17.820 --> 00:25:21.410 align:middle line:90%
+using the Lorentzian metric.
+
+00:25:21.410 --> 00:25:24.400 align:middle line:84%
+And so if you look
+at this Lagrangian,
+
+00:25:24.400 --> 00:25:29.350 align:middle line:84%
+the 0-th components actually
+have the opposite sign
+
+00:25:29.350 --> 00:25:35.570 align:middle line:84%
+to the standard massless scalar
+field, and because of that.
+
+00:25:35.570 --> 00:25:37.930 align:middle line:84%
+So this is not your ordinary
+massless scalar field.
+
+00:25:37.930 --> 00:25:40.770 align:middle line:84%
+They actually have opposite
+signs in your Lagrangian.
+
+00:25:40.770 --> 00:25:42.630 align:middle line:84%
+But you say, oh,
+can we just change
+
+00:25:42.630 --> 00:25:43.920 align:middle line:90%
+the sign for that component?
+
+00:25:43.920 --> 00:25:46.875 align:middle line:84%
+You cannot because we
+have Lorentz symmetry.
+
+00:25:46.875 --> 00:25:48.660 align:middle line:84%
+Because we have
+Lorentz symmetry.
+
+00:25:48.660 --> 00:25:51.630 align:middle line:84%
+PROFESSOR: So the Lorentz
+symmetry forces you, somehow,
+
+00:25:51.630 --> 00:25:54.210 align:middle line:84%
+when you reduce the Maxwell
+theory to this four massless
+
+00:25:54.210 --> 00:25:56.550 align:middle line:84%
+scalar, one of them
+have the wrong sign.
+
+00:25:56.550 --> 00:25:59.430 align:middle line:84%
+So that's why-- so that the
+wrong sign is related to why
+
+00:25:59.430 --> 00:26:00.780 align:middle line:90%
+you have the wrong sign here.
+
+00:26:00.780 --> 00:26:04.050 align:middle line:90%
+
+
+00:26:04.050 --> 00:26:06.630 align:middle line:84%
+The same kind of
+Lorentz covariance
+
+00:26:06.630 --> 00:26:11.217 align:middle line:84%
+tells you here is eta alpha beta
+rather than delta alpha beta,
+
+00:26:11.217 --> 00:26:12.300 align:middle line:90%
+and then delta alpha beta.
+
+00:26:12.300 --> 00:26:16.650 align:middle line:90%
+
+
+00:26:16.650 --> 00:26:18.330 align:middle line:90%
+Good?
+
+00:26:18.330 --> 00:26:20.700 align:middle line:90%
+OK.
+
+00:26:20.700 --> 00:26:24.930 align:middle line:84%
+So this concludes our discussion
+of the canonical quantization
+
+00:26:24.930 --> 00:26:27.870 align:middle line:90%
+for the Maxwell series.
+
+00:26:27.870 --> 00:26:29.818 align:middle line:84%
+So here I will
+quickly describe how
+
+00:26:29.818 --> 00:26:31.110 align:middle line:90%
+to do it for the path integral.
+
+00:26:31.110 --> 00:26:34.080 align:middle line:90%
+
+
+00:26:34.080 --> 00:26:37.890 align:middle line:84%
+So I will just do
+it very quickly,
+
+00:26:37.890 --> 00:26:42.250 align:middle line:84%
+because many of the elements
+are familiar before.
+
+00:26:42.250 --> 00:26:44.310 align:middle line:84%
+And so I will just
+point out things which
+
+00:26:44.310 --> 00:26:49.270 align:middle line:90%
+are new for the Maxwell case.
+
+00:26:49.270 --> 00:26:49.770 align:middle line:90%
+OK?
+
+00:26:49.770 --> 00:27:04.520 align:middle line:90%
+
+
+00:27:04.520 --> 00:27:10.040 align:middle line:84%
+So we already familiar how
+to do the path integral.
+
+00:27:10.040 --> 00:27:12.960 align:middle line:84%
+So Maxwell theory
+is a free theory.
+
+00:27:12.960 --> 00:27:15.300 align:middle line:84%
+So in principle, we
+know how to do it.
+
+00:27:15.300 --> 00:27:17.920 align:middle line:90%
+So let's just-- yeah.
+
+00:27:17.920 --> 00:27:22.300 align:middle line:84%
+So here, let's go back without
+fixing the gauge first, OK?
+
+00:27:22.300 --> 00:27:27.040 align:middle line:84%
+So this is now completely
+starting from the original,
+
+00:27:27.040 --> 00:27:36.220 align:middle line:84%
+just starting from the Maxwell
+equal to minus 1/4 as with mu F
+
+00:27:36.220 --> 00:27:39.048 align:middle line:90%
+mu mu.
+
+00:27:39.048 --> 00:27:40.590 align:middle line:84%
+So let's just go
+back to this theory.
+
+00:27:40.590 --> 00:27:43.500 align:middle line:90%
+
+
+00:27:43.500 --> 00:27:46.850 align:middle line:90%
+Let's go back to this theory.
+
+00:27:46.850 --> 00:27:50.120 align:middle line:84%
+And then let's
+just try to do a--
+
+00:27:50.120 --> 00:27:55.630 align:middle line:84%
+try to see how the
+path integral works.
+
+00:27:55.630 --> 00:27:59.700 align:middle line:84%
+So remember, this
+is a free theory.
+
+00:27:59.700 --> 00:28:01.980 align:middle line:84%
+So we can just write down
+the generating functional
+
+00:28:01.980 --> 00:28:03.180 align:middle line:90%
+for this theory.
+
+00:28:03.180 --> 00:28:05.190 align:middle line:84%
+And then we can, in
+principle, calculate
+
+00:28:05.190 --> 00:28:07.170 align:middle line:84%
+all possible correlation
+functions here.
+
+00:28:07.170 --> 00:28:10.110 align:middle line:84%
+Free theory is supposed
+to be very simple.
+
+00:28:10.110 --> 00:28:13.050 align:middle line:84%
+So we just write down the
+generating functional, which
+
+00:28:13.050 --> 00:28:17.380 align:middle line:90%
+we integrate over all A mu.
+
+00:28:17.380 --> 00:28:19.330 align:middle line:90%
+And then we have i S--
+
+00:28:19.330 --> 00:28:22.750 align:middle line:90%
+so this is Maxwell theory--
+
+00:28:22.750 --> 00:28:23.800 align:middle line:90%
+then we add the source.
+
+00:28:23.800 --> 00:28:31.550 align:middle line:90%
+
+
+00:28:31.550 --> 00:28:33.260 align:middle line:84%
+So this J mu will
+have nothing to do
+
+00:28:33.260 --> 00:28:34.630 align:middle line:90%
+with electromagnetic current.
+
+00:28:34.630 --> 00:28:37.010 align:middle line:84%
+This is just a J mu with
+the generating function
+
+00:28:37.010 --> 00:28:42.360 align:middle line:90%
+used to take derivatives.
+
+00:28:42.360 --> 00:28:44.955 align:middle line:84%
+So this is just an
+external source.
+
+00:28:44.955 --> 00:28:48.110 align:middle line:90%
+
+
+00:28:48.110 --> 00:28:49.680 align:middle line:84%
+So now this is a
+Gaussian integral.
+
+00:28:49.680 --> 00:28:54.920 align:middle line:84%
+So in principle,
+we can just do it.
+
+00:28:54.920 --> 00:28:56.900 align:middle line:84%
+Because this is
+quadratic, and now
+
+00:28:56.900 --> 00:28:59.780 align:middle line:84%
+we are familiar how to do
+the quadratic integral.
+
+00:28:59.780 --> 00:29:01.610 align:middle line:90%
+We can just do it.
+
+00:29:01.610 --> 00:29:11.565 align:middle line:84%
+And to do it inside, we always
+write it in the form like this.
+
+00:29:11.565 --> 00:29:17.050 align:middle line:90%
+
+
+00:29:17.050 --> 00:29:18.415 align:middle line:90%
+We write it in the matrix form.
+
+00:29:18.415 --> 00:29:27.780 align:middle line:90%
+
+
+00:29:27.780 --> 00:29:30.280 align:middle line:84%
+OK, we write it
+as a matrix form.
+
+00:29:30.280 --> 00:29:34.440 align:middle line:84%
+And this K mu nu just can be
+read from here by integration
+
+00:29:34.440 --> 00:29:35.650 align:middle line:90%
+by parts, et cetera.
+
+00:29:35.650 --> 00:29:37.900 align:middle line:84%
+So let me just write
+down the answer.
+
+00:29:37.900 --> 00:29:43.370 align:middle line:84%
+So this gave me
+mu just equal to--
+
+00:29:43.370 --> 00:29:50.490 align:middle line:84%
+so let me call this 0,
+call this 0 K mu nu.
+
+00:29:50.490 --> 00:29:54.000 align:middle line:84%
+So this just given
+by partial square eta
+
+00:29:54.000 --> 00:30:00.933 align:middle line:84%
+mu nu minus partial mu
+partial nu, and then
+
+00:30:00.933 --> 00:30:01.725 align:middle line:90%
+the delta function.
+
+00:30:01.725 --> 00:30:04.570 align:middle line:90%
+
+
+00:30:04.570 --> 00:30:05.750 align:middle line:90%
+And the delta function.
+
+00:30:05.750 --> 00:30:08.050 align:middle line:84%
+So this partial
+will only act on x.
+
+00:30:08.050 --> 00:30:10.560 align:middle line:90%
+
+
+00:30:10.560 --> 00:30:13.110 align:middle line:90%
+So naively, we can just--
+
+00:30:13.110 --> 00:30:14.850 align:middle line:84%
+so now this is just
+a Gaussian integral,
+
+00:30:14.850 --> 00:30:17.835 align:middle line:84%
+so we can use principle just to
+directly write down the answer.
+
+00:30:17.835 --> 00:30:26.590 align:middle line:90%
+
+
+00:30:26.590 --> 00:30:28.090 align:middle line:90%
+Actually, let me keep this here.
+
+00:30:28.090 --> 00:30:46.380 align:middle line:90%
+
+
+00:30:46.380 --> 00:30:49.010 align:middle line:84%
+So in principle, we can just
+directly write down the answer,
+
+00:30:49.010 --> 00:30:57.920 align:middle line:84%
+just this Z J equal to some
+number, some infinite number,
+
+00:30:57.920 --> 00:31:03.365 align:middle line:84%
+which we never care,
+and the exponential i
+
+00:31:03.365 --> 00:31:14.660 align:middle line:90%
+d 4x d 4y then J mu x.
+
+00:31:14.660 --> 00:31:27.410 align:middle line:90%
+Then the K 0 mu nu minus 1.
+
+00:31:27.410 --> 00:31:29.225 align:middle line:84%
+Yeah, so let me just
+write it like this.
+
+00:31:29.225 --> 00:31:32.340 align:middle line:90%
+
+
+00:31:32.340 --> 00:31:35.290 align:middle line:90%
+K0 minus 1 mu mu.
+
+00:31:35.290 --> 00:31:39.030 align:middle line:90%
+
+
+00:31:39.030 --> 00:31:42.762 align:middle line:90%
+x minus y J mu.
+
+00:31:42.762 --> 00:31:43.262 align:middle line:90%
+OK?
+
+00:31:43.262 --> 00:31:46.430 align:middle line:90%
+
+
+00:31:46.430 --> 00:31:51.580 align:middle line:84%
+So this is just almost exactly
+the same as we do before.
+
+00:31:51.580 --> 00:31:55.330 align:middle line:84%
+So this is like the kernel
+for your Gaussian integral.
+
+00:31:55.330 --> 00:31:58.100 align:middle line:84%
+And you just take
+the inverse of it.
+
+00:31:58.100 --> 00:32:01.150 align:middle line:84%
+And then you contract
+it with the source.
+
+00:32:01.150 --> 00:32:05.920 align:middle line:84%
+OK, so you just know the only
+difference from the scalar
+
+00:32:05.920 --> 00:32:13.660 align:middle line:84%
+case, or the spinor case, other
+than the functional space of x
+
+00:32:13.660 --> 00:32:16.630 align:middle line:84%
+and y, now you
+also have a matrix
+
+00:32:16.630 --> 00:32:20.745 align:middle line:84%
+in terms of Lorentz
+index, mu nu.
+
+00:32:20.745 --> 00:32:22.120 align:middle line:84%
+Everything is the
+same as before.
+
+00:32:22.120 --> 00:32:25.780 align:middle line:90%
+
+
+00:32:25.780 --> 00:32:30.260 align:middle line:84%
+So it looks like, then, we
+already solved this theory, OK?
+
+00:32:30.260 --> 00:32:33.060 align:middle line:90%
+But you should feel uneasy.
+
+00:32:33.060 --> 00:32:34.710 align:middle line:84%
+You should feel
+easy because when
+
+00:32:34.710 --> 00:32:37.410 align:middle line:84%
+we quantize it using
+the canonical method,
+
+00:32:37.410 --> 00:32:40.750 align:middle line:84%
+we do have to go
+through some trouble.
+
+00:32:40.750 --> 00:32:42.820 align:middle line:84%
+So how come, somehow,
+path integral just do it
+
+00:32:42.820 --> 00:32:43.990 align:middle line:90%
+immediately?
+
+00:32:43.990 --> 00:32:47.560 align:middle line:84%
+Somehow the trouble
+has to be conserved,
+
+00:32:47.560 --> 00:32:51.850 align:middle line:84%
+no matter what method you use,
+no matter what method you use.
+
+00:32:51.850 --> 00:32:56.750 align:middle line:84%
+Indeed, can someone guess what
+would be the potential trouble
+
+00:32:56.750 --> 00:32:57.250 align:middle line:90%
+here?
+
+00:32:57.250 --> 00:32:57.790 align:middle line:90%
+Yes?
+
+00:32:57.790 --> 00:33:01.690 align:middle line:84%
+AUDIENCE: Are you
+overcounting, because when
+
+00:33:01.690 --> 00:33:05.500 align:middle line:84%
+you integrate over, like,
+DA, you could have two--
+
+00:33:05.500 --> 00:33:07.740 align:middle line:90%
+two A's differ only by gauge?
+
+00:33:07.740 --> 00:33:10.480 align:middle line:90%
+PROFESSOR: Yeah, right.
+
+00:33:10.480 --> 00:33:14.830 align:middle line:84%
+AUDIENCE: Yeah, so then you're
+integrating over too many?
+
+00:33:14.830 --> 00:33:17.290 align:middle line:90%
+PROFESSOR: Yeah, indeed.
+
+00:33:17.290 --> 00:33:19.870 align:middle line:90%
+That's the correct statement.
+
+00:33:19.870 --> 00:33:22.060 align:middle line:84%
+But if I just do it
+straightforwardly,
+
+00:33:22.060 --> 00:33:25.345 align:middle line:84%
+somehow, then what's
+wrong with that?
+
+00:33:25.345 --> 00:33:31.370 align:middle line:90%
+
+
+00:33:31.370 --> 00:33:33.810 align:middle line:84%
+So, yeah, what you said is
+conceptually-- conceptually,
+
+00:33:33.810 --> 00:33:36.930 align:middle line:84%
+you should suspect there's
+something wrong here.
+
+00:33:36.930 --> 00:33:39.050 align:middle line:84%
+So whenever you
+conceptually suspect
+
+00:33:39.050 --> 00:33:40.670 align:middle line:84%
+there's something
+wrong here, then you
+
+00:33:40.670 --> 00:33:44.030 align:middle line:84%
+should technically be looking
+for some mathematical problem,
+
+00:33:44.030 --> 00:33:46.130 align:middle line:84%
+because the conceptual
+mistake will always
+
+00:33:46.130 --> 00:33:48.770 align:middle line:84%
+reflect in some
+mathematical difficulty.
+
+00:33:48.770 --> 00:33:49.270 align:middle line:90%
+Yeah.
+
+00:33:49.270 --> 00:33:50.383 align:middle line:90%
+Yes?
+
+00:33:50.383 --> 00:33:51.800 align:middle line:84%
+AUDIENCE: So you
+have to integrate
+
+00:33:51.800 --> 00:33:55.763 align:middle line:90%
+to measure [INAUDIBLE]
+
+00:33:55.763 --> 00:33:56.430 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:33:56.430 --> 00:33:57.360 align:middle line:90%
+Yeah, you're right.
+
+00:33:57.360 --> 00:33:59.563 align:middle line:84%
+It's just you
+integrate more things.
+
+00:33:59.563 --> 00:34:01.980 align:middle line:84%
+You integrate more things,
+then you just get more infinite
+
+00:34:01.980 --> 00:34:03.420 align:middle line:90%
+constant, but we don't care.
+
+00:34:03.420 --> 00:34:06.210 align:middle line:90%
+
+
+00:34:06.210 --> 00:34:09.090 align:middle line:84%
+AUDIENCE: Maybe like
+a sign will be off,
+
+00:34:09.090 --> 00:34:10.860 align:middle line:84%
+because the sign was
+off earlier, right?
+
+00:34:10.860 --> 00:34:14.730 align:middle line:84%
+So when you do the eigenvalues
+of the determinant or whatever,
+
+00:34:14.730 --> 00:34:15.810 align:middle line:90%
+maybe it messes that up.
+
+00:34:15.810 --> 00:34:16.800 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:34:16.800 --> 00:34:20.280 align:middle line:84%
+Yeah, but we have i, so it
+doesn't matter the sign.
+
+00:34:20.280 --> 00:34:20.937 align:middle line:90%
+Yes?
+
+00:34:20.937 --> 00:34:23.520 align:middle line:84%
+AUDIENCE: Does the K end up not
+being invertible or something?
+
+00:34:23.520 --> 00:34:24.690 align:middle line:90%
+PROFESSOR: Yeah, exactly.
+
+00:34:24.690 --> 00:34:29.048 align:middle line:84%
+So the key is that the K
+is actually not invertible.
+
+00:34:29.048 --> 00:34:31.320 align:middle line:90%
+Turns out K minus 1--
+
+00:34:31.320 --> 00:34:38.639 align:middle line:84%
+so K 0 actually
+is not invertible.
+
+00:34:38.639 --> 00:34:47.699 align:middle line:90%
+
+
+00:34:47.699 --> 00:34:50.330 align:middle line:90%
+So the reason is simple.
+
+00:34:50.330 --> 00:34:52.550 align:middle line:84%
+It's that because
+the gauge freedom
+
+00:34:52.550 --> 00:34:55.949 align:middle line:90%
+in the original theory--
+
+00:34:55.949 --> 00:34:58.950 align:middle line:84%
+because the gauge freedom
+in the original theory,
+
+00:34:58.950 --> 00:35:03.360 align:middle line:84%
+by gauge freedom, we mean that
+when you make a transformation
+
+00:35:03.360 --> 00:35:08.850 align:middle line:84%
+by some arbitrary function,
+your action does not change.
+
+00:35:08.850 --> 00:35:13.440 align:middle line:84%
+Then that means that this
+kernel must be invariant
+
+00:35:13.440 --> 00:35:17.070 align:middle line:90%
+under some transformation.
+
+00:35:17.070 --> 00:35:19.350 align:middle line:84%
+It's invariant under
+some transformation means
+
+00:35:19.350 --> 00:35:22.170 align:middle line:84%
+that this must have
+zero eigenvector.
+
+00:35:22.170 --> 00:35:25.290 align:middle line:84%
+When it has zero
+eigenvector, then they
+
+00:35:25.290 --> 00:35:27.900 align:middle line:90%
+must not be invertible.
+
+00:35:27.900 --> 00:35:28.920 align:middle line:90%
+OK?
+
+00:35:28.920 --> 00:35:32.715 align:middle line:84%
+So now let's just see it
+explicitly.] To see it
+
+00:35:32.715 --> 00:35:37.100 align:middle line:84%
+explicitly, it's easier to
+see this in momentum space.
+
+00:35:37.100 --> 00:35:39.020 align:middle line:84%
+So if we see this
+in momentum space--
+
+00:35:39.020 --> 00:35:48.052 align:middle line:90%
+
+
+00:35:48.052 --> 00:35:50.260 align:middle line:84%
+so in momentum space, we
+can just directly write down
+
+00:35:50.260 --> 00:35:53.470 align:middle line:90%
+the K0 mu mu.
+
+00:35:53.470 --> 00:35:59.220 align:middle line:84%
+It's just equal to k
+square, just k mu k
+
+00:35:59.220 --> 00:36:04.240 align:middle line:90%
+nu minus k square eta mu mu.
+
+00:36:04.240 --> 00:36:10.310 align:middle line:90%
+
+
+00:36:10.310 --> 00:36:14.180 align:middle line:84%
+So now it's obvious this
+has a zero eigenvector
+
+00:36:14.180 --> 00:36:19.020 align:middle line:84%
+because this is precisely
+the minus k square,
+
+00:36:19.020 --> 00:36:20.700 align:middle line:90%
+the transverse projector.
+
+00:36:20.700 --> 00:36:25.030 align:middle line:90%
+
+
+00:36:25.030 --> 00:36:28.180 align:middle line:84%
+So P mu nu T is the
+projector into the direction
+
+00:36:28.180 --> 00:36:30.820 align:middle line:90%
+perpendicular to k mu.
+
+00:36:30.820 --> 00:36:35.370 align:middle line:84%
+So this satisfies the
+property that pT mu
+
+00:36:35.370 --> 00:36:44.490 align:middle line:84%
+mu is equal to eta mu mu minus
+k mu k mu divided by k square,
+
+00:36:44.490 --> 00:36:50.905 align:middle line:84%
+and satisfies the property p mu
+mu T k nu is always equal to 0.
+
+00:36:50.905 --> 00:36:51.405 align:middle line:90%
+OK?
+
+00:36:51.405 --> 00:36:56.770 align:middle line:90%
+
+
+00:36:56.770 --> 00:36:58.480 align:middle line:84%
+So you can easily see
+it, because if you
+
+00:36:58.480 --> 00:37:01.540 align:middle line:84%
+contract with this k mu,
+and k mu contract with here
+
+00:37:01.540 --> 00:37:04.840 align:middle line:84%
+and give you k square, and
+cancel with k square here,
+
+00:37:04.840 --> 00:37:07.940 align:middle line:84%
+and you have k mu, and then
+k mu contract with this one,
+
+00:37:07.940 --> 00:37:08.710 align:middle line:90%
+you just get k mu.
+
+00:37:08.710 --> 00:37:11.110 align:middle line:90%
+So they get canceled.
+
+00:37:11.110 --> 00:37:13.450 align:middle line:84%
+So this is the projector
+to the transverse space.
+
+00:37:13.450 --> 00:37:16.750 align:middle line:84%
+Of course, it has
+zero eigenvalue--
+
+00:37:16.750 --> 00:37:18.020 align:middle line:90%
+zero eigenvectors.
+
+00:37:18.020 --> 00:37:21.490 align:middle line:90%
+
+
+00:37:21.490 --> 00:37:25.000 align:middle line:84%
+So then we see that this is not
+invertible in momentum space,
+
+00:37:25.000 --> 00:37:27.460 align:middle line:84%
+and then it will not be
+invertible in coordinate space.
+
+00:37:27.460 --> 00:37:30.530 align:middle line:84%
+It will not be invertible
+in coordinate space.
+
+00:37:30.530 --> 00:37:35.530 align:middle line:84%
+And now, in coordinate
+space, now we
+
+00:37:35.530 --> 00:37:39.270 align:middle line:84%
+can see with this
+understanding, then
+
+00:37:39.270 --> 00:37:42.740 align:middle line:84%
+now we can immediately
+see in coordinate space
+
+00:37:42.740 --> 00:37:45.290 align:middle line:84%
+the eigenvector
+of zero eigenvalue
+
+00:37:45.290 --> 00:37:48.240 align:middle line:84%
+precisely corresponding
+to a gauge transformation.
+
+00:37:48.240 --> 00:37:56.950 align:middle line:90%
+
+
+00:37:56.950 --> 00:38:04.990 align:middle line:84%
+It's because in coordinate
+space, k mu translate--
+
+00:38:04.990 --> 00:38:09.930 align:middle line:84%
+when you translate to coordinate
+space, means partial mu.
+
+00:38:09.930 --> 00:38:16.640 align:middle line:84%
+So k mu to coordinate
+space means partial mu.
+
+00:38:16.640 --> 00:38:28.760 align:middle line:84%
+So that means that for any
+function, partial mu lambda--
+
+00:38:28.760 --> 00:38:34.250 align:middle line:84%
+this is K0 mu nu, partial
+nu lambda must be 0.
+
+00:38:34.250 --> 00:38:38.140 align:middle line:90%
+
+
+00:38:38.140 --> 00:38:41.010 align:middle line:90%
+And you can check explicitly.
+
+00:38:41.010 --> 00:38:44.970 align:middle line:84%
+So if you contract
+with partial mu here,
+
+00:38:44.970 --> 00:38:48.870 align:middle line:84%
+and then you have a partial
+square and you have partial mu,
+
+00:38:48.870 --> 00:38:52.800 align:middle line:84%
+and then eta mu mu will give you
+partial mu, again, they cancel.
+
+00:38:52.800 --> 00:38:54.900 align:middle line:84%
+And of course, this is
+just precisely the gauge
+
+00:38:54.900 --> 00:38:57.000 align:middle line:90%
+transformation.
+
+00:38:57.000 --> 00:38:59.073 align:middle line:84%
+This is precisely the
+gauge transformation.
+
+00:38:59.073 --> 00:39:03.150 align:middle line:90%
+
+
+00:39:03.150 --> 00:39:05.230 align:middle line:84%
+OK, so the gauge
+transformation precisely
+
+00:39:05.230 --> 00:39:09.330 align:middle line:84%
+is the zero eigenvector
+of this kernel.
+
+00:39:09.330 --> 00:39:13.090 align:middle line:84%
+It's the eigenvector of zero
+eigenvalue of this kernel.
+
+00:39:13.090 --> 00:39:15.090 align:middle line:84%
+So that's why this
+is not invertible.
+
+00:39:15.090 --> 00:39:28.530 align:middle line:90%
+
+
+00:39:28.530 --> 00:39:35.650 align:middle line:84%
+So the way to fix is simple
+because remember this picture.
+
+00:39:35.650 --> 00:39:41.580 align:middle line:84%
+So this is the space of the
+full configurations of A mu.
+
+00:39:41.580 --> 00:39:44.760 align:middle line:84%
+And A mu along those
+trajectories are equivalent.
+
+00:39:44.760 --> 00:39:47.820 align:middle line:90%
+
+
+00:39:47.820 --> 00:39:50.430 align:middle line:84%
+To quantize it,
+we need to just--
+
+00:39:50.430 --> 00:39:52.470 align:middle line:84%
+the physical configuration
+corresponding
+
+00:39:52.470 --> 00:39:54.940 align:middle line:90%
+to a section of it.
+
+00:39:54.940 --> 00:39:59.140 align:middle line:84%
+So what this says
+is that K0 is not
+
+00:39:59.140 --> 00:40:02.440 align:middle line:84%
+invertible in this full
+space because you have
+
+00:40:02.440 --> 00:40:05.253 align:middle line:84%
+zero eigenvectors
+along this direction,
+
+00:40:05.253 --> 00:40:06.670 align:middle line:84%
+OK, zero eigenvector
+corresponding
+
+00:40:06.670 --> 00:40:07.490 align:middle line:90%
+to this direction.
+
+00:40:07.490 --> 00:40:12.370 align:middle line:84%
+But if we restrict to a
+cross-section, and then
+
+00:40:12.370 --> 00:40:15.220 align:middle line:84%
+this zero eigenvector
+no longer exists.
+
+00:40:15.220 --> 00:40:17.350 align:middle line:90%
+And then it will be invertible.
+
+00:40:17.350 --> 00:40:21.370 align:middle line:84%
+OK, so once we fix the
+gauge, then we expect--
+
+00:40:21.370 --> 00:40:24.760 align:middle line:84%
+then the k mu after we fix the
+gauge should be invertible.
+
+00:40:24.760 --> 00:40:29.400 align:middle line:90%
+
+
+00:40:29.400 --> 00:40:31.820 align:middle line:90%
+Good?
+
+00:40:31.820 --> 00:40:33.380 align:middle line:90%
+So now let's fix the gauge.
+
+00:40:33.380 --> 00:40:37.340 align:middle line:90%
+
+
+00:40:37.340 --> 00:40:48.390 align:middle line:84%
+So K0 mu nu restricted
+to a section
+
+00:40:48.390 --> 00:40:50.960 align:middle line:90%
+should it be invertible.
+
+00:40:50.960 --> 00:40:55.070 align:middle line:90%
+
+
+00:40:55.070 --> 00:40:59.135 align:middle line:90%
+OK, so we need to fix the gauge.
+
+00:40:59.135 --> 00:41:06.700 align:middle line:90%
+
+
+00:41:06.700 --> 00:41:09.660 align:middle line:84%
+So we will do this
+for the Lorenz gauge.
+
+00:41:09.660 --> 00:41:13.830 align:middle line:84%
+You can do similar things
+for the Coulomb gauge.
+
+00:41:13.830 --> 00:41:15.450 align:middle line:84%
+The reason we do
+the Lorenz gauge,
+
+00:41:15.450 --> 00:41:20.650 align:middle line:84%
+just the Lorenz gauge, later
+when we introduce interactions,
+
+00:41:20.650 --> 00:41:23.040 align:middle line:84%
+we will always work
+with the Lorenz gauge.
+
+00:41:23.040 --> 00:41:24.855 align:middle line:84%
+And when we discuss
+QED, we will always
+
+00:41:24.855 --> 00:41:25.980 align:middle line:90%
+work with the Lorenz gauge.
+
+00:41:25.980 --> 00:41:28.860 align:middle line:84%
+So here I will elaborate
+in the Lorenz gauge.
+
+00:41:28.860 --> 00:41:29.730 align:middle line:90%
+Yes?
+
+00:41:29.730 --> 00:41:31.180 align:middle line:84%
+AUDIENCE: Can you
+explain what you
+
+00:41:31.180 --> 00:41:33.090 align:middle line:84%
+mean by when you do
+the cross-section,
+
+00:41:33.090 --> 00:41:35.160 align:middle line:84%
+the eigenvectors here
+doesn't exist anymore?
+
+00:41:35.160 --> 00:41:36.960 align:middle line:90%
+PROFESSOR: Oh, yeah.
+
+00:41:36.960 --> 00:41:39.060 align:middle line:90%
+So this zero eigenvector--
+
+00:41:39.060 --> 00:41:43.110 align:middle line:84%
+so this is a zero
+eigenvector of the K0, right?
+
+00:41:43.110 --> 00:41:46.530 align:middle line:84%
+So at the partial mu,
+partial mu lambda, just
+
+00:41:46.530 --> 00:41:50.120 align:middle line:90%
+parameterize this direction.
+
+00:41:50.120 --> 00:41:54.580 align:middle line:84%
+But if you restrict to a
+section of it, and then
+
+00:41:54.580 --> 00:41:58.000 align:middle line:84%
+you are not allowed
+to worry away from it.
+
+00:41:58.000 --> 00:42:00.070 align:middle line:84%
+And then this
+direction just gone,
+
+00:42:00.070 --> 00:42:03.700 align:middle line:84%
+so you no longer have that
+zero eigenvector anymore.
+
+00:42:03.700 --> 00:42:05.000 align:middle line:90%
+Yeah.
+
+00:42:05.000 --> 00:42:05.690 align:middle line:90%
+Yes?
+
+00:42:05.690 --> 00:42:08.510 align:middle line:84%
+AUDIENCE: Should there be a
+convolution in the equation
+
+00:42:08.510 --> 00:42:11.480 align:middle line:90%
+on the bottom left?
+
+00:42:11.480 --> 00:42:12.320 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:42:12.320 --> 00:42:13.190 align:middle line:90%
+Yeah, good.
+
+00:42:13.190 --> 00:42:15.980 align:middle line:90%
+
+
+00:42:15.980 --> 00:42:17.570 align:middle line:84%
+Indeed, you have to
+integrate-- yeah,
+
+00:42:17.570 --> 00:42:18.950 align:middle line:90%
+you have to integrate over y.
+
+00:42:18.950 --> 00:42:20.300 align:middle line:90%
+Yeah.
+
+00:42:20.300 --> 00:42:21.710 align:middle line:90%
+Thank you.
+
+00:42:21.710 --> 00:42:23.720 align:middle line:84%
+Yeah, if I write
+this precisely, you
+
+00:42:23.720 --> 00:42:27.560 align:middle line:84%
+have to integrate
+over this y and y.
+
+00:42:27.560 --> 00:42:29.180 align:middle line:90%
+Yeah, that's right.
+
+00:42:29.180 --> 00:42:32.540 align:middle line:84%
+So this is the proper
+way to write it.
+
+00:42:32.540 --> 00:42:34.030 align:middle line:90%
+Good.
+
+00:42:34.030 --> 00:42:35.760 align:middle line:84%
+AUDIENCE: Why does
+this issue only
+
+00:42:35.760 --> 00:42:37.710 align:middle line:90%
+happen for gauge symmetries?
+
+00:42:37.710 --> 00:42:41.000 align:middle line:84%
+Like, why don't the other
+symmetries need to do the same?
+
+00:42:41.000 --> 00:42:42.110 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:42:42.110 --> 00:42:48.580 align:middle line:84%
+Because other symmetries--
+you have local symmetries.
+
+00:42:48.580 --> 00:42:50.460 align:middle line:84%
+So the local symmetry
+tells you there's
+
+00:42:50.460 --> 00:42:52.980 align:middle line:84%
+really some degree
+of freedom redundant.
+
+00:42:52.980 --> 00:42:55.530 align:middle line:84%
+So this is really
+corresponding to--
+
+00:42:55.530 --> 00:43:00.240 align:middle line:84%
+so this lambda x, so all
+possible choice of lambda,
+
+00:43:00.240 --> 00:43:04.290 align:middle line:84%
+is really corresponding
+to some finite trajectory
+
+00:43:04.290 --> 00:43:06.370 align:middle line:90%
+in your configuration space.
+
+00:43:06.370 --> 00:43:07.890 align:middle line:84%
+So if you have a
+global symmetry,
+
+00:43:07.890 --> 00:43:10.870 align:middle line:84%
+global symmetry is
+independent of coordinates.
+
+00:43:10.870 --> 00:43:13.470 align:middle line:84%
+So from this point of
+view, a global symmetry
+
+00:43:13.470 --> 00:43:16.050 align:middle line:84%
+just relates to the
+configuration at this point
+
+00:43:16.050 --> 00:43:20.400 align:middle line:84%
+to the configuration at that
+point and at that point.
+
+00:43:20.400 --> 00:43:23.820 align:middle line:84%
+A global symmetry, because
+it's independent of spacetime,
+
+00:43:23.820 --> 00:43:28.040 align:middle line:84%
+that transformation
+doesn't change your number
+
+00:43:28.040 --> 00:43:29.590 align:middle line:90%
+of degrees of freedom.
+
+00:43:29.590 --> 00:43:31.930 align:middle line:84%
+They don't correspond
+to actually a trajectory
+
+00:43:31.930 --> 00:43:33.700 align:middle line:90%
+in your configuration space.
+
+00:43:33.700 --> 00:43:37.540 align:middle line:90%
+
+
+00:43:37.540 --> 00:43:38.260 align:middle line:90%
+Good.
+
+00:43:38.260 --> 00:43:41.330 align:middle line:90%
+Other questions?
+
+00:43:41.330 --> 00:43:43.180 align:middle line:90%
+OK, very good.
+
+00:43:43.180 --> 00:43:45.710 align:middle line:90%
+So now we will fix the gauge.
+
+00:43:45.710 --> 00:43:50.800 align:middle line:84%
+So in the path integral, to
+fix the gauge, in principle,
+
+00:43:50.800 --> 00:43:53.320 align:middle line:90%
+is straightforward.
+
+00:43:53.320 --> 00:43:54.865 align:middle line:84%
+So we will consider
+Lorenz gauge.
+
+00:43:54.865 --> 00:43:59.350 align:middle line:90%
+
+
+00:43:59.350 --> 00:44:00.100 align:middle line:90%
+OK.
+
+00:44:00.100 --> 00:44:04.540 align:middle line:84%
+You can do the similar thing
+with the Coulomb gauge.
+
+00:44:04.540 --> 00:44:08.620 align:middle line:84%
+Just Lorenz gauge,
+normally, we work with more.
+
+00:44:08.620 --> 00:44:11.120 align:middle line:90%
+So how do we fix the gauge?
+
+00:44:11.120 --> 00:44:15.130 align:middle line:84%
+So in the path integral,
+we do it easily.
+
+00:44:15.130 --> 00:44:18.810 align:middle line:90%
+So we have this integral.
+
+00:44:18.810 --> 00:44:24.120 align:middle line:84%
+Then we insert the delta
+function corresponding
+
+00:44:24.120 --> 00:44:25.470 align:middle line:90%
+to the Lorenz gauge.
+
+00:44:25.470 --> 00:44:30.810 align:middle line:90%
+
+
+00:44:30.810 --> 00:44:37.120 align:middle line:84%
+So this should be considered
+as a delta function.
+
+00:44:37.120 --> 00:44:38.860 align:middle line:84%
+So this is a delta
+function at one point,
+
+00:44:38.860 --> 00:44:41.350 align:middle line:84%
+and then you take the
+product over all points.
+
+00:44:41.350 --> 00:44:44.740 align:middle line:84%
+So this is the delta function
+in the functional space.
+
+00:44:44.740 --> 00:44:50.460 align:middle line:84%
+And then we will have
+i S, this S Maxwell,
+
+00:44:50.460 --> 00:44:55.680 align:middle line:84%
+and then you can have A J. You
+can consider the generating
+
+00:44:55.680 --> 00:44:57.490 align:middle line:90%
+function.
+
+00:44:57.490 --> 00:45:10.820 align:middle line:84%
+So this will restrict you
+on some cross-section,
+
+00:45:10.820 --> 00:45:12.780 align:middle line:90%
+on some cross-section.
+
+00:45:12.780 --> 00:45:13.280 align:middle line:90%
+OK.
+
+00:45:13.280 --> 00:45:20.090 align:middle line:90%
+
+
+00:45:20.090 --> 00:45:21.455 align:middle line:90%
+So let me make a remark here.
+
+00:45:21.455 --> 00:45:24.017 align:middle line:90%
+
+
+00:45:24.017 --> 00:45:26.475 align:middle line:84%
+So here, you actually have to
+be a little bit more careful.
+
+00:45:26.475 --> 00:45:29.270 align:middle line:90%
+
+
+00:45:29.270 --> 00:45:32.840 align:middle line:84%
+So what we actually
+really want to do--
+
+00:45:32.840 --> 00:45:37.835 align:middle line:84%
+OK, what we really want to do
+is we just want to insert here.
+
+00:45:37.835 --> 00:45:41.720 align:middle line:90%
+
+
+00:45:41.720 --> 00:45:46.370 align:middle line:84%
+We just want to
+insert here delta A mu
+
+00:45:46.370 --> 00:45:48.740 align:middle line:90%
+equal to A mu gauge fixed.
+
+00:45:48.740 --> 00:45:54.410 align:middle line:90%
+
+
+00:45:54.410 --> 00:45:56.900 align:middle line:84%
+What we want, what
+we really want, to do
+
+00:45:56.900 --> 00:46:01.940 align:middle line:84%
+is we want just to restrict
+A mu to some cross-section.
+
+00:46:01.940 --> 00:46:05.507 align:middle line:90%
+
+
+00:46:05.507 --> 00:46:07.340 align:middle line:84%
+But for example, here,
+for the Lorenz gauge,
+
+00:46:07.340 --> 00:46:09.410 align:middle line:84%
+we can normally not
+solve this condition.
+
+00:46:09.410 --> 00:46:11.930 align:middle line:84%
+So that's why we
+do here, because we
+
+00:46:11.930 --> 00:46:15.560 align:middle line:84%
+don't know how to write
+this a mu fixed explicitly.
+
+00:46:15.560 --> 00:46:17.540 align:middle line:90%
+OK?
+
+00:46:17.540 --> 00:46:20.630 align:middle line:84%
+But going from here to
+here, actually there's
+
+00:46:20.630 --> 00:46:26.190 align:middle line:84%
+a non-trivial Jacobian,
+because this is a non-trivial
+
+00:46:26.190 --> 00:46:27.750 align:middle line:90%
+in the functional space.
+
+00:46:27.750 --> 00:46:34.800 align:middle line:84%
+And then this is a
+non-trivial function on A mu.
+
+00:46:34.800 --> 00:46:39.908 align:middle line:90%
+So in principle-- the related--
+
+00:46:39.908 --> 00:46:41.325 align:middle line:84%
+in principle, there
+is a Jacobian.
+
+00:46:41.325 --> 00:46:47.122 align:middle line:90%
+
+
+00:46:47.122 --> 00:46:48.580 align:middle line:84%
+So let me just
+write this explicit.
+
+00:46:48.580 --> 00:46:52.760 align:middle line:90%
+
+
+00:46:52.760 --> 00:47:00.820 align:middle line:84%
+A mu x are related by
+some Jacobian, then
+
+00:47:00.820 --> 00:47:04.690 align:middle line:84%
+delta A mu minus
+delta A mu fixed--
+
+00:47:04.690 --> 00:47:11.660 align:middle line:90%
+uh minus A mu fixed, OK?
+
+00:47:11.660 --> 00:47:16.550 align:middle line:90%
+
+
+00:47:16.550 --> 00:47:20.000 align:middle line:84%
+But now, notice that this
+function is a linear function
+
+00:47:20.000 --> 00:47:23.980 align:middle line:84%
+of A. So remember, when
+you do the Jacobian,
+
+00:47:23.980 --> 00:47:25.480 align:middle line:90%
+you have to take the derivative.
+
+00:47:25.480 --> 00:47:28.530 align:middle line:90%
+
+
+00:47:28.530 --> 00:47:30.950 align:middle line:84%
+Yeah, just remember
+this function.
+
+00:47:30.950 --> 00:47:33.950 align:middle line:90%
+Remember this formula.
+
+00:47:33.950 --> 00:47:43.450 align:middle line:84%
+Delta f x is equal to 1 over
+f prime x delta x minus x 0.
+
+00:47:43.450 --> 00:47:45.680 align:middle line:84%
+So x0 is a solution
+for f x equal to 0.
+
+00:47:45.680 --> 00:47:46.180 align:middle line:90%
+OK?
+
+00:47:46.180 --> 00:47:49.390 align:middle line:90%
+
+
+00:47:49.390 --> 00:47:54.130 align:middle line:84%
+And so you have-- yeah,
+so this is a Jacobian when
+
+00:47:54.130 --> 00:47:57.730 align:middle line:90%
+you convert the delta function.
+
+00:47:57.730 --> 00:48:00.458 align:middle line:84%
+If you have multiple
+variables, then this
+
+00:48:00.458 --> 00:48:01.375 align:middle line:90%
+would be the Jacobian.
+
+00:48:01.375 --> 00:48:04.260 align:middle line:90%
+
+
+00:48:04.260 --> 00:48:07.980 align:middle line:84%
+So this course, you take the
+derivative on this function.
+
+00:48:07.980 --> 00:48:10.870 align:middle line:90%
+But this is a linear--
+
+00:48:10.870 --> 00:48:13.185 align:middle line:90%
+this thing is linear in A mu.
+
+00:48:13.185 --> 00:48:14.560 align:middle line:84%
+When you take the
+derivative, you
+
+00:48:14.560 --> 00:48:17.380 align:middle line:84%
+will get something which
+is independent of a mu.
+
+00:48:17.380 --> 00:48:21.660 align:middle line:84%
+So this Jacobian will
+just involve in some--
+
+00:48:21.660 --> 00:48:25.050 align:middle line:84%
+it will be independent of
+a mu in the function space.
+
+00:48:25.050 --> 00:48:28.158 align:middle line:84%
+Something independent of a
+mu is just some constant.
+
+00:48:28.158 --> 00:48:30.075 align:middle line:84%
+So this just gives you
+some infinite constant.
+
+00:48:30.075 --> 00:48:35.150 align:middle line:90%
+
+
+00:48:35.150 --> 00:48:37.240 align:middle line:84%
+And so we always
+throw infinite numbers
+
+00:48:37.240 --> 00:48:40.090 align:middle line:84%
+infinite number of ways,
+so we don't care about it.
+
+00:48:40.090 --> 00:48:44.060 align:middle line:84%
+And so we can just
+write down this.
+
+00:48:44.060 --> 00:48:45.680 align:middle line:90%
+So this is just a remark.
+
+00:48:45.680 --> 00:48:52.550 align:middle line:90%
+
+
+00:48:52.550 --> 00:48:56.040 align:middle line:84%
+So now we have to
+evaluate this guy.
+
+00:48:56.040 --> 00:48:59.290 align:middle line:90%
+
+
+00:48:59.290 --> 00:49:02.840 align:middle line:84%
+So now we have to
+evaluate this guy.
+
+00:49:02.840 --> 00:49:05.810 align:middle line:84%
+It turns out that this guy
+is still not easy to solve.
+
+00:49:05.810 --> 00:49:08.967 align:middle line:84%
+And for the same, it's
+not easy to do, just
+
+00:49:08.967 --> 00:49:09.800 align:middle line:90%
+for the same reason.
+
+00:49:09.800 --> 00:49:11.930 align:middle line:84%
+We don't know how to
+solve this A mu fixed.
+
+00:49:11.930 --> 00:49:15.260 align:middle line:84%
+OK, we don't know how to solve
+this condition explicitly.
+
+00:49:15.260 --> 00:49:18.290 align:middle line:84%
+So now I'm going
+to use some trick.
+
+00:49:18.290 --> 00:49:21.920 align:middle line:90%
+I will use two tricks.
+
+00:49:21.920 --> 00:49:25.010 align:middle line:84%
+OK, I will use two
+tricks to convert this
+
+00:49:25.010 --> 00:49:30.900 align:middle line:84%
+into something manageable, to
+convert into this manageable.
+
+00:49:30.900 --> 00:49:36.950 align:middle line:84%
+And so this trick
+applying to the Maxwell
+
+00:49:36.950 --> 00:49:42.280 align:middle line:84%
+is like killing a little
+bird with a big cannon.
+
+00:49:42.280 --> 00:49:47.350 align:middle line:84%
+And so, yeah, it works
+here, but it's real,
+
+00:49:47.350 --> 00:49:50.270 align:middle line:84%
+genuine use is actually in
+the long Abelian gauge theory.
+
+00:49:50.270 --> 00:49:52.630 align:middle line:84%
+So when you quantize
+the Yang-Mills theory,
+
+00:49:52.630 --> 00:49:56.590 align:middle line:84%
+that becomes essential, because
+it will be very complicated
+
+00:49:56.590 --> 00:49:58.120 align:middle line:90%
+quantizing using other methods.
+
+00:49:58.120 --> 00:50:03.160 align:middle line:84%
+And so quantizing Yang-Mills
+theory become essential.
+
+00:50:03.160 --> 00:50:05.620 align:middle line:84%
+But nevertheless, let me just
+tell you these two tricks,
+
+00:50:05.620 --> 00:50:06.890 align:middle line:90%
+how to treat this here.
+
+00:50:06.890 --> 00:50:07.390 align:middle line:90%
+OK?
+
+00:50:07.390 --> 00:50:19.500 align:middle line:90%
+
+
+00:50:19.500 --> 00:50:23.420 align:middle line:84%
+So this method is called
+Faddeev-Popov method,
+
+00:50:23.420 --> 00:50:30.510 align:middle line:84%
+and it was invented by two
+Russians, former Soviet,
+
+00:50:30.510 --> 00:50:33.720 align:middle line:90%
+Faddeev, Popov, in the '60s.
+
+00:50:33.720 --> 00:50:38.640 align:middle line:90%
+
+
+00:50:38.640 --> 00:50:42.350 align:middle line:84%
+So actually, there
+was a story behind it.
+
+00:50:42.350 --> 00:50:45.290 align:middle line:84%
+So when they
+invented this method,
+
+00:50:45.290 --> 00:50:49.160 align:middle line:84%
+they actually wanted to
+quantize not this Maxwell
+
+00:50:49.160 --> 00:50:54.320 align:middle line:84%
+theory, this non-Abelian
+Yang-Mills theory, which later
+
+00:50:54.320 --> 00:50:57.090 align:middle line:90%
+will become the standard model.
+
+00:50:57.090 --> 00:51:00.440 align:middle line:84%
+It becomes standard model of
+particle physics, electroweak
+
+00:51:00.440 --> 00:51:02.520 align:middle line:90%
+theory, QCD, et cetera.
+
+00:51:02.520 --> 00:51:04.370 align:middle line:84%
+But when they worked
+on Yang-Mills theory,
+
+00:51:04.370 --> 00:51:08.690 align:middle line:84%
+Yang-Mills theory was some small
+corner of mathematical physics.
+
+00:51:08.690 --> 00:51:10.595 align:middle line:90%
+Nobody cared.
+
+00:51:10.595 --> 00:51:12.290 align:middle line:84%
+So when they
+invented this method,
+
+00:51:12.290 --> 00:51:15.140 align:middle line:90%
+nobody really paid attention.
+
+00:51:15.140 --> 00:51:17.190 align:middle line:90%
+Nobody really paid attention.
+
+00:51:17.190 --> 00:51:23.090 align:middle line:84%
+But then, in 1971, 't Hooft,
+who was a 21-year-old,
+
+00:51:23.090 --> 00:51:25.970 align:middle line:84%
+like a graduate
+student, then he used
+
+00:51:25.970 --> 00:51:30.920 align:middle line:84%
+that, which quantized
+the non-Abelian gauge
+
+00:51:30.920 --> 00:51:33.620 align:middle line:90%
+theory coupled to Higgs.
+
+00:51:33.620 --> 00:51:37.370 align:middle line:84%
+So before that, people thought
+that theory was inconsistent.
+
+00:51:37.370 --> 00:51:39.200 align:middle line:84%
+But then he used
+this path integral
+
+00:51:39.200 --> 00:51:41.340 align:middle line:90%
+to quantize that theory.
+
+00:51:41.340 --> 00:51:44.340 align:middle line:84%
+And so that was a triumph,
+for which 't Hooft got a Nobel
+
+00:51:44.340 --> 00:51:46.270 align:middle line:90%
+Prize a number of years ago.
+
+00:51:46.270 --> 00:51:50.010 align:middle line:84%
+And when 't Hooft came
+out using this method,
+
+00:51:50.010 --> 00:51:52.380 align:middle line:84%
+nobody could
+understand it in US.
+
+00:51:52.380 --> 00:51:54.930 align:middle line:90%
+
+
+00:51:54.930 --> 00:52:01.610 align:middle line:84%
+People like Weinberg, who wrote
+the electroweak theory, which
+
+00:52:01.610 --> 00:52:05.470 align:middle line:84%
+'t Hooft quantized, he
+couldn't understand it.
+
+00:52:05.470 --> 00:52:08.340 align:middle line:84%
+And there's only one
+person, one person who
+
+00:52:08.340 --> 00:52:11.340 align:middle line:90%
+could understand it in the US.
+
+00:52:11.340 --> 00:52:17.550 align:middle line:84%
+He was an assistant
+professor at Stony Brook.
+
+00:52:17.550 --> 00:52:20.790 align:middle line:84%
+So he started his assistant
+professor going to Stony Brook,
+
+00:52:20.790 --> 00:52:24.510 align:middle line:84%
+and in Stony Brook, there was
+a big shot, the Nobel Prize
+
+00:52:24.510 --> 00:52:27.550 align:middle line:84%
+winner, C.N. Yang, who invented
+this Yang-Mills theory.
+
+00:52:27.550 --> 00:52:31.710 align:middle line:84%
+So he was asking Yang, oh, what
+should I do for my research,
+
+00:52:31.710 --> 00:52:35.100 align:middle line:84%
+ask for a Nobel Prize
+winner for advice.
+
+00:52:35.100 --> 00:52:37.950 align:middle line:84%
+And Yang said, maybe you can
+look at this Faddeev-Popov
+
+00:52:37.950 --> 00:52:39.010 align:middle line:90%
+stuff.
+
+00:52:39.010 --> 00:52:41.280 align:middle line:84%
+And then it turned
+out later only
+
+00:52:41.280 --> 00:52:43.560 align:middle line:84%
+himself could understand
+'t Hooft's paper.
+
+00:52:43.560 --> 00:52:45.150 align:middle line:90%
+And then he made it--
+
+00:52:45.150 --> 00:52:47.430 align:middle line:84%
+of course, he also did
+some other good stuff.
+
+00:52:47.430 --> 00:52:54.400 align:middle line:84%
+But immediately, he became the
+only person everybody went to
+
+00:52:54.400 --> 00:52:56.590 align:middle line:84%
+because he really
+understood the story.
+
+00:52:56.590 --> 00:52:57.310 align:middle line:90%
+Yeah, anyway.
+
+00:52:57.310 --> 00:53:00.265 align:middle line:84%
+Yeah, so it's an actually very
+interesting story behind this.
+
+00:53:00.265 --> 00:53:03.460 align:middle line:90%
+
+
+00:53:03.460 --> 00:53:07.960 align:middle line:84%
+So first, we have to actually
+modify this Lorenz gauge
+
+00:53:07.960 --> 00:53:11.030 align:middle line:90%
+condition a little bit.
+
+00:53:11.030 --> 00:53:15.230 align:middle line:84%
+So rather than writing
+as partial mu A mu,
+
+00:53:15.230 --> 00:53:27.080 align:middle line:84%
+let's try to impose the
+gauge partial mu A mu equal
+
+00:53:27.080 --> 00:53:34.280 align:middle line:84%
+to some arbitrary function
+Bx, because partial mu a mu
+
+00:53:34.280 --> 00:53:38.000 align:middle line:90%
+will give some trajectory here.
+
+00:53:38.000 --> 00:53:41.422 align:middle line:84%
+But if I choose some
+arbitrary function Bx,
+
+00:53:41.422 --> 00:53:44.570 align:middle line:84%
+it will just give you
+some other trajectory.
+
+00:53:44.570 --> 00:53:46.760 align:middle line:90%
+It's still some trajectory.
+
+00:53:46.760 --> 00:53:51.140 align:middle line:84%
+So what Bx you choose
+doesn't matter.
+
+00:53:51.140 --> 00:53:56.270 align:middle line:84%
+So you can just replace this
+delta function partial mu
+
+00:53:56.270 --> 00:54:04.240 align:middle line:84%
+A mu here by delta
+partial mu A mu Bx.
+
+00:54:04.240 --> 00:54:06.580 align:middle line:84%
+So this is the first
+non-trivial step.
+
+00:54:06.580 --> 00:54:09.400 align:middle line:90%
+OK?
+
+00:54:09.400 --> 00:54:12.830 align:middle line:84%
+So this will give you
+some other trajectory.
+
+00:54:12.830 --> 00:54:17.360 align:middle line:84%
+So now, since the
+Bx does not matter--
+
+00:54:17.360 --> 00:54:19.310 align:middle line:84%
+OK, since the Bx
+does not matter,
+
+00:54:19.310 --> 00:54:23.080 align:middle line:84%
+we can actually
+integrate over Bx.
+
+00:54:23.080 --> 00:54:27.910 align:middle line:90%
+And then the next step is to--
+
+00:54:27.910 --> 00:54:31.580 align:middle line:90%
+so first you replace that.
+
+00:54:31.580 --> 00:54:33.020 align:middle line:90%
+So this is the first step.
+
+00:54:33.020 --> 00:54:36.520 align:middle line:84%
+And then the next step
+is that you replace Z
+
+00:54:36.520 --> 00:54:56.700 align:middle line:84%
+by you integrate over Bx with
+a measure B squared x, and then
+
+00:54:56.700 --> 00:55:01.560 align:middle line:90%
+original Z. So original ZJ.
+
+00:55:01.560 --> 00:55:06.100 align:middle line:90%
+
+
+00:55:06.100 --> 00:55:13.950 align:middle line:84%
+We can now depend on B because
+I have replaced this condition.
+
+00:55:13.950 --> 00:55:19.660 align:middle line:84%
+And now since this
+B does not matter,
+
+00:55:19.660 --> 00:55:22.290 align:middle line:84%
+so I can just integrate over
+B with some arbitrary measure
+
+00:55:22.290 --> 00:55:23.940 align:middle line:90%
+you want.
+
+00:55:23.940 --> 00:55:25.410 align:middle line:90%
+OK?
+
+00:55:25.410 --> 00:55:30.310 align:middle line:84%
+The only thing this does is just
+give you an infinite constant.
+
+00:55:30.310 --> 00:55:33.510 align:middle line:84%
+Again, we don't care--
+infinite constant.
+
+00:55:33.510 --> 00:55:42.570 align:middle line:84%
+OK, so this gives you
+some infinite constant
+
+00:55:42.570 --> 00:55:47.370 align:middle line:84%
+since this thing is supposed
+to not be dependent on B.
+
+00:55:47.370 --> 00:55:53.340 align:middle line:84%
+But this, actually, is very
+useful because the reason
+
+00:55:53.340 --> 00:55:57.390 align:middle line:84%
+we do this is because now, when
+we do this, the path integral
+
+00:55:57.390 --> 00:56:02.200 align:middle line:84%
+will become the following,
+become DB DA mu.
+
+00:56:02.200 --> 00:56:07.780 align:middle line:84%
+Now we have delta
+partial mu A mu minus Bx.
+
+00:56:07.780 --> 00:56:10.890 align:middle line:90%
+
+
+00:56:10.890 --> 00:56:17.840 align:middle line:84%
+And then we have exponential
+i S, then minus this i xi 1/2
+
+00:56:17.840 --> 00:56:18.675 align:middle line:90%
+B square.
+
+00:56:18.675 --> 00:56:22.530 align:middle line:90%
+
+
+00:56:22.530 --> 00:56:33.190 align:middle line:84%
+And then I have this i J dot
+A. So now you see the benefit,
+
+00:56:33.190 --> 00:56:36.454 align:middle line:84%
+because now I have
+integration over B.
+
+00:56:36.454 --> 00:56:41.330 align:middle line:84%
+But the appears very simply
+in the delta function.
+
+00:56:41.330 --> 00:56:43.750 align:middle line:84%
+So now I can evaluate
+the delta function
+
+00:56:43.750 --> 00:56:51.440 align:middle line:84%
+by using the integral of B,
+by using the integral of B.
+
+00:56:51.440 --> 00:56:53.780 align:middle line:84%
+So now I can just
+straightforwardly do
+
+00:56:53.780 --> 00:56:54.440 align:middle line:90%
+the B integral.
+
+00:56:54.440 --> 00:56:59.050 align:middle line:90%
+
+
+00:56:59.050 --> 00:57:00.255 align:middle line:90%
+So now I get a new action.
+
+00:57:00.255 --> 00:57:06.186 align:middle line:90%
+
+
+00:57:06.186 --> 00:57:16.650 align:middle line:84%
+i S xi plus i J dot A.
+And now this i S xi--
+
+00:57:16.650 --> 00:57:26.280 align:middle line:84%
+so this S xi just given by your
+original Maxwell, then minus xi
+
+00:57:26.280 --> 00:57:31.110 align:middle line:90%
+over 2 partial mu a mu squared.
+
+00:57:31.110 --> 00:57:34.230 align:middle line:90%
+
+
+00:57:34.230 --> 00:57:36.150 align:middle line:90%
+OK?
+
+00:57:36.150 --> 00:57:39.950 align:middle line:84%
+So this is the reason
+we put B square here,
+
+00:57:39.950 --> 00:57:42.810 align:middle line:84%
+is that when we evaluate
+the B integral, then
+
+00:57:42.810 --> 00:57:45.770 align:middle line:90%
+we get something quadratic.
+
+00:57:45.770 --> 00:57:48.090 align:middle line:90%
+And now we have that.
+
+00:57:48.090 --> 00:57:52.440 align:middle line:84%
+And now you see this
+action is precisely
+
+00:57:52.440 --> 00:57:57.570 align:middle line:90%
+this action we have there.
+
+00:57:57.570 --> 00:58:00.120 align:middle line:84%
+OK, it's precisely that
+action given there.
+
+00:58:00.120 --> 00:58:04.080 align:middle line:84%
+So we also derive it
+using path integral.
+
+00:58:04.080 --> 00:58:07.170 align:middle line:84%
+We also derive it using path
+integral, using this trick.
+
+00:58:07.170 --> 00:58:12.410 align:middle line:90%
+
+
+00:58:12.410 --> 00:58:13.640 align:middle line:90%
+So now we just have this.
+
+00:58:13.640 --> 00:58:16.270 align:middle line:90%
+
+
+00:58:16.270 --> 00:58:17.800 align:middle line:90%
+Now we just have this.
+
+00:58:17.800 --> 00:58:23.178 align:middle line:84%
+And now we can straightforwardly
+calculate-- now we
+
+00:58:23.178 --> 00:58:25.470 align:middle line:84%
+can straightforwardly calculate
+this Gaussian integral.
+
+00:58:25.470 --> 00:58:32.740 align:middle line:90%
+
+
+00:58:32.740 --> 00:58:33.250 align:middle line:90%
+One second.
+
+00:58:33.250 --> 00:58:37.008 align:middle line:90%
+
+
+00:58:37.008 --> 00:58:39.050 align:middle line:84%
+Yeah, now we can just
+straightforwardly calculate
+
+00:58:39.050 --> 00:58:39.633 align:middle line:90%
+this integral.
+
+00:58:39.633 --> 00:59:05.260 align:middle line:90%
+
+
+00:59:05.260 --> 00:59:14.490 align:middle line:84%
+By the way, the reason I say
+the story here is trivial,
+
+00:59:14.490 --> 00:59:17.060 align:middle line:84%
+it's a little bit of
+killing a bird with--
+
+00:59:17.060 --> 00:59:19.580 align:middle line:84%
+it's because for
+the Maxwell case,
+
+00:59:19.580 --> 00:59:22.010 align:middle line:84%
+this Jacobian is
+actually trivial.
+
+00:59:22.010 --> 00:59:23.100 align:middle line:90%
+It's a constant.
+
+00:59:23.100 --> 00:59:25.340 align:middle line:84%
+But if you do it for a
+non-Abelian gauge theory,
+
+00:59:25.340 --> 00:59:28.430 align:middle line:84%
+say, for the electroweak
+theory or for QCD,
+
+00:59:28.430 --> 00:59:30.980 align:middle line:84%
+this Jacobian is
+highly non-trivial.
+
+00:59:30.980 --> 00:59:34.070 align:middle line:84%
+And part of this
+trick is also how
+
+00:59:34.070 --> 00:59:37.520 align:middle line:84%
+to treat this Jacobian, which
+we don't have to do here.
+
+00:59:37.520 --> 00:59:40.550 align:middle line:84%
+So here we have a
+much simpler story.
+
+00:59:40.550 --> 00:59:44.000 align:middle line:84%
+So now we can just look at
+this path integral, which
+
+00:59:44.000 --> 00:59:47.300 align:middle line:84%
+now S xi become invertible,
+because we already know
+
+00:59:47.300 --> 00:59:49.730 align:middle line:90%
+from here this is invertible.
+
+00:59:49.730 --> 00:59:52.010 align:middle line:84%
+At least for xi equal
+to 1, given by this,
+
+00:59:52.010 --> 00:59:54.080 align:middle line:90%
+this is invertible.
+
+00:59:54.080 --> 00:59:58.290 align:middle line:90%
+So you can actually now invert.
+
+00:59:58.290 --> 01:00:12.220 align:middle line:84%
+So now we can write this S xi is
+equal to 1/2 d4x A mu x K mu --
+
+01:00:12.220 --> 01:00:16.870 align:middle line:90%
+K mu nu xi x minus y A nu y.
+
+01:00:16.870 --> 01:00:19.920 align:middle line:90%
+
+
+01:00:19.920 --> 01:00:21.220 align:middle line:90%
+And this K mu nu--
+
+01:00:21.220 --> 01:00:25.680 align:middle line:90%
+
+
+01:00:25.680 --> 01:00:30.630 align:middle line:84%
+yeah, K mu nu just whatever
+you get from that thing,
+
+01:00:30.630 --> 01:00:32.370 align:middle line:84%
+just whatever you
+get from that thing.
+
+01:00:32.370 --> 01:00:37.800 align:middle line:84%
+And then the K mu mu
+now is invertible.
+
+01:00:37.800 --> 01:00:44.690 align:middle line:84%
+And then you find this thing
+just becomes some constant,
+
+01:00:44.690 --> 01:00:58.060 align:middle line:84%
+then exponential i d4x
+d4y J mu x, then K xi
+
+01:00:58.060 --> 01:01:05.780 align:middle line:90%
+minus 1 mu nu x minus 1 J nu y.
+
+01:01:05.780 --> 01:01:07.550 align:middle line:90%
+OK?
+
+01:01:07.550 --> 01:01:11.420 align:middle line:84%
+And again, this inverse gives
+you the Feynman function.
+
+01:01:11.420 --> 01:01:14.230 align:middle line:90%
+
+
+01:01:14.230 --> 01:01:18.070 align:middle line:84%
+Again, this gives you
+the Feynman function.
+
+01:01:18.070 --> 01:01:21.730 align:middle line:90%
+So the K xi minus 1 mu mu--
+
+01:01:21.730 --> 01:01:24.500 align:middle line:90%
+
+
+01:01:24.500 --> 01:01:25.280 align:middle line:90%
+or mu nu.
+
+01:01:25.280 --> 01:01:30.770 align:middle line:90%
+
+
+01:01:30.770 --> 01:01:32.630 align:middle line:84%
+Yeah, so we're not
+going into detail here.
+
+01:01:32.630 --> 01:01:34.380 align:middle line:90%
+The story is straightforward.
+
+01:01:34.380 --> 01:01:45.350 align:middle line:84%
+So this should correspond
+to the Feynman function
+
+01:01:45.350 --> 01:01:48.290 align:middle line:90%
+for the two gauge fields.
+
+01:01:48.290 --> 01:01:56.977 align:middle line:90%
+
+
+01:01:56.977 --> 01:01:59.060 align:middle line:84%
+OK, this should correspond
+to the Feynman function
+
+01:01:59.060 --> 01:02:02.250 align:middle line:90%
+of these two gauge fields.
+
+01:02:02.250 --> 01:02:05.410 align:middle line:84%
+So now let me just
+write down the answer.
+
+01:02:05.410 --> 01:02:09.910 align:middle line:84%
+So I urge you to check
+it yourself explicitly.
+
+01:02:09.910 --> 01:02:13.900 align:middle line:84%
+So you can easily write
+down what is K mu nu here.
+
+01:02:13.900 --> 01:02:20.050 align:middle line:84%
+And then you need to write
+down what is K mu nu here,
+
+01:02:20.050 --> 01:02:26.920 align:middle line:84%
+and then you can write
+down what is the K minus 1.
+
+01:02:26.920 --> 01:02:30.280 align:middle line:84%
+So let me just write down
+the answer, which we actually
+
+01:02:30.280 --> 01:02:34.780 align:middle line:84%
+will use later for the
+Feynman diagram calculation.
+
+01:02:34.780 --> 01:02:43.050 align:middle line:84%
+OK, so you can show this given
+by a momentum space minus i k
+
+01:02:43.050 --> 01:02:45.090 align:middle line:90%
+squared minus i epsilon.
+
+01:02:45.090 --> 01:02:47.460 align:middle line:84%
+Remember, now,
+here it's massless.
+
+01:02:47.460 --> 01:02:51.070 align:middle line:90%
+And you have eta mu nu minus--
+
+01:02:51.070 --> 01:03:00.840 align:middle line:84%
+plus xi minus 1 k mu k
+nu divided by k squared.
+
+01:03:00.840 --> 01:03:04.550 align:middle line:90%
+
+
+01:03:04.550 --> 01:03:08.620 align:middle line:84%
+So you can work out the
+inverse given by this.
+
+01:03:08.620 --> 01:03:16.250 align:middle line:84%
+And so this can also be written
+in terms to the minus i k
+
+01:03:16.250 --> 01:03:17.945 align:middle line:90%
+squared plus i epsilon.
+
+01:03:17.945 --> 01:03:23.160 align:middle line:90%
+
+
+01:03:23.160 --> 01:03:25.770 align:middle line:84%
+You can write it in terms of
+this transverse projector,
+
+01:03:25.770 --> 01:03:37.760 align:middle line:84%
+k mu mu t, then
+plus xi P mu nu L.
+
+01:03:37.760 --> 01:03:45.120 align:middle line:84%
+So P mu nu L is the
+longitudinal projector.
+
+01:03:45.120 --> 01:03:51.900 align:middle line:84%
+You just define it by k mu
+k nu divided by k squared.
+
+01:03:51.900 --> 01:03:53.520 align:middle line:90%
+That's divided by k squared.
+
+01:03:53.520 --> 01:03:56.740 align:middle line:90%
+
+
+01:03:56.740 --> 01:03:58.715 align:middle line:84%
+So this is an
+answer very simple.
+
+01:03:58.715 --> 01:04:01.310 align:middle line:90%
+
+
+01:04:01.310 --> 01:04:04.860 align:middle line:90%
+So now the interesting thing--
+
+01:04:04.860 --> 01:04:06.750 align:middle line:84%
+the two interesting
+things here--
+
+01:04:06.750 --> 01:04:11.985 align:middle line:90%
+
+
+01:04:11.985 --> 01:04:13.360 align:middle line:84%
+so let me just
+make some remarks.
+
+01:04:13.360 --> 01:04:20.580 align:middle line:90%
+
+
+01:04:20.580 --> 01:04:31.900 align:middle line:84%
+So first, if you look
+at xi equal to 1,
+
+01:04:31.900 --> 01:04:35.530 align:middle line:84%
+then this term
+vanishes, and then
+
+01:04:35.530 --> 01:04:40.210 align:middle line:84%
+you just have eta mu divided
+by k squared minus i epsilon.
+
+01:04:40.210 --> 01:04:44.240 align:middle line:84%
+So that's exactly what
+we expect from here.
+
+01:04:44.240 --> 01:04:51.050 align:middle line:84%
+So here, you just essentially
+have the massless 1 over k
+
+01:04:51.050 --> 01:04:55.480 align:middle line:84%
+square propagator for
+the massless particle.
+
+01:04:55.480 --> 01:05:02.410 align:middle line:84%
+And then you have eta mu mu
+from the Lorenz signature.
+
+01:05:02.410 --> 01:05:05.605 align:middle line:84%
+So for eta equal to 1-- xi equal
+to 1, indeed we covered that.
+
+01:05:05.605 --> 01:05:08.570 align:middle line:90%
+
+
+01:05:08.570 --> 01:05:10.855 align:middle line:84%
+So comment is that
+when xi is equal to 0.
+
+01:05:10.855 --> 01:05:14.740 align:middle line:90%
+
+
+01:05:14.740 --> 01:05:17.530 align:middle line:84%
+so this is just proportional
+to the transverse projector.
+
+01:05:17.530 --> 01:05:21.240 align:middle line:90%
+
+
+01:05:21.240 --> 01:05:22.510 align:middle line:90%
+To the transverse projector.
+
+01:05:22.510 --> 01:05:28.410 align:middle line:84%
+But remember, the
+original Maxwell action,
+
+01:05:28.410 --> 01:05:29.820 align:middle line:90%
+we used xi equal to 0.
+
+01:05:29.820 --> 01:05:31.290 align:middle line:90%
+Actually, that's not invertible.
+
+01:05:31.290 --> 01:05:34.110 align:middle line:90%
+
+
+01:05:34.110 --> 01:05:36.890 align:middle line:84%
+So here, we're actually
+doing a different order.
+
+01:05:36.890 --> 01:05:39.180 align:middle line:90%
+We first take a nonzero xi.
+
+01:05:39.180 --> 01:05:40.680 align:middle line:90%
+We invert it.
+
+01:05:40.680 --> 01:05:43.350 align:middle line:84%
+And then you can set
+actually xi equal to 0.
+
+01:05:43.350 --> 01:05:44.920 align:middle line:90%
+OK, that's still works.
+
+01:05:44.920 --> 01:05:48.720 align:middle line:84%
+And then xi equal to 0 still
+works, because we already
+
+01:05:48.720 --> 01:05:50.010 align:middle line:90%
+fixed the gauge.
+
+01:05:50.010 --> 01:05:53.232 align:middle line:90%
+We already fixed the gauge.
+
+01:05:53.232 --> 01:05:54.440 align:middle line:90%
+So this is the second remark.
+
+01:05:54.440 --> 01:05:59.500 align:middle line:90%
+
+
+01:05:59.500 --> 01:06:07.480 align:middle line:84%
+And then the Wick's
+theorem for A mu
+
+01:06:07.480 --> 01:06:10.540 align:middle line:84%
+just immediately
+follows from here.
+
+01:06:10.540 --> 01:06:18.391 align:middle line:84%
+Just as in the case for the
+scalars and the fermions,
+
+01:06:18.391 --> 01:06:19.750 align:middle line:90%
+it immediately follows.
+
+01:06:19.750 --> 01:06:28.240 align:middle line:90%
+
+
+01:06:28.240 --> 01:06:29.090 align:middle line:90%
+You just contract.
+
+01:06:29.090 --> 01:06:33.020 align:middle line:84%
+We all get these Feynman
+functions between them.
+
+01:06:33.020 --> 01:06:33.652 align:middle line:90%
+Yes?
+
+01:06:33.652 --> 01:06:35.110 align:middle line:84%
+AUDIENCE: How
+difficult would it be
+
+01:06:35.110 --> 01:06:37.840 align:middle line:84%
+to show that the path
+integral approach
+
+01:06:37.840 --> 01:06:41.440 align:middle line:84%
+and the canonical approach
+are equivalent for the vector?
+
+01:06:41.440 --> 01:06:50.630 align:middle line:84%
+PROFESSOR: Oh, no, it's not
+difficult. One simple thing--
+
+01:06:50.630 --> 01:06:55.700 align:middle line:84%
+this one point I'm going
+to make a little bit later,
+
+01:06:55.700 --> 01:07:01.760 align:middle line:84%
+in a few minutes later,
+and actually for--
+
+01:07:01.760 --> 01:07:04.430 align:middle line:84%
+yeah, let me make some
+comment a little bit later.
+
+01:07:04.430 --> 01:07:06.410 align:middle line:84%
+Yeah, they are
+completely equivalent.
+
+01:07:06.410 --> 01:07:08.570 align:middle line:84%
+AUDIENCE: It just seems
+a little not obvious
+
+01:07:08.570 --> 01:07:11.290 align:middle line:90%
+at first glance from the gauge.
+
+01:07:11.290 --> 01:07:12.290 align:middle line:90%
+PROFESSOR: Right, right.
+
+01:07:12.290 --> 01:07:13.920 align:middle line:90%
+Yeah.
+
+01:07:13.920 --> 01:07:17.940 align:middle line:84%
+So for what we want
+to do, it's actually
+
+01:07:17.940 --> 01:07:23.560 align:middle line:84%
+a little bit simpler, for
+reasons I'm going to mention.
+
+01:07:23.560 --> 01:07:25.160 align:middle line:90%
+Other questions?
+
+01:07:25.160 --> 01:07:25.660 align:middle line:90%
+Yes?
+
+01:07:25.660 --> 01:07:32.900 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+01:07:32.900 --> 01:07:37.180 align:middle line:84%
+PROFESSOR: Yeah, it's
+because a projector is just
+
+01:07:37.180 --> 01:07:40.170 align:middle line:90%
+a very simple way to--
+
+01:07:40.170 --> 01:07:45.740 align:middle line:90%
+so this is just--
+
+01:07:45.740 --> 01:07:49.750 align:middle line:84%
+so by definition, this
+is symmetric, in mu nu.
+
+01:07:49.750 --> 01:07:52.720 align:middle line:84%
+This definition is
+symmetric in mu nu,
+
+01:07:52.720 --> 01:07:56.650 align:middle line:84%
+because under time ordering,
+you can just exchange them.
+
+01:07:56.650 --> 01:08:00.670 align:middle line:84%
+That means that in terms
+of Lorentz indices,
+
+01:08:00.670 --> 01:08:04.330 align:middle line:84%
+you must be able to expand it
+in some symmetric tensors built
+
+01:08:04.330 --> 01:08:07.400 align:middle line:90%
+from k mu.
+
+01:08:07.400 --> 01:08:10.420 align:middle line:84%
+Because k mu is the
+only vector here.
+
+01:08:10.420 --> 01:08:13.270 align:middle line:84%
+So that means you have to
+build this symmetric tensor
+
+01:08:13.270 --> 01:08:16.120 align:middle line:90%
+from just eta mu mu and k mu.
+
+01:08:16.120 --> 01:08:21.399 align:middle line:84%
+And the transverse and the
+longitudinal projectors
+
+01:08:21.399 --> 01:08:25.540 align:middle line:84%
+are just the tensors
+you can build from k mu.
+
+01:08:25.540 --> 01:08:26.595 align:middle line:90%
+Yes?
+
+01:08:26.595 --> 01:08:27.970 align:middle line:84%
+AUDIENCE: Until
+we fix the gauge,
+
+01:08:27.970 --> 01:08:30.609 align:middle line:84%
+we still have these
+parameters xi we still
+
+01:08:30.609 --> 01:08:32.590 align:middle line:90%
+have a family of actions.
+
+01:08:32.590 --> 01:08:34.257 align:middle line:84%
+Is that the residual
+gauge freedom?
+
+01:08:34.257 --> 01:08:34.840 align:middle line:90%
+PROFESSOR: No.
+
+01:08:34.840 --> 01:08:36.590 align:middle line:84%
+No, that's not the
+residual gauge freedom.
+
+01:08:36.590 --> 01:08:39.340 align:middle line:84%
+Just so you can show that the
+physics are independent of xi.
+
+01:08:39.340 --> 01:08:41.665 align:middle line:84%
+Yeah, you can take
+xi to be any value.
+
+01:08:41.665 --> 01:08:45.250 align:middle line:90%
+
+
+01:08:45.250 --> 01:08:46.420 align:middle line:90%
+OK, good.
+
+01:08:46.420 --> 01:08:47.800 align:middle line:90%
+Other questions?
+
+01:08:47.800 --> 01:08:48.300 align:middle line:90%
+Yes?
+
+01:08:48.300 --> 01:08:51.720 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+01:08:51.720 --> 01:08:53.819 align:middle line:84%
+PROFESSOR: Good,
+good, good, good.
+
+01:08:53.819 --> 01:08:56.310 align:middle line:84%
+Yeah, so that's the comment
+I'm going to make later.
+
+01:08:56.310 --> 01:08:57.420 align:middle line:90%
+Yeah, that's coming.
+
+01:08:57.420 --> 01:09:02.670 align:middle line:84%
+That's a good question, which
+I'm going to make later.
+
+01:09:02.670 --> 01:09:05.149 align:middle line:84%
+Yeah, let me just
+make this comment
+
+01:09:05.149 --> 01:09:07.520 align:middle line:90%
+and then we'll be clear.
+
+01:09:07.520 --> 01:09:09.130 align:middle line:84%
+I need to make
+one comment first.
+
+01:09:09.130 --> 01:09:13.170 align:middle line:90%
+
+
+01:09:13.170 --> 01:09:18.060 align:middle line:84%
+So now, for various
+physical processes
+
+01:09:18.060 --> 01:09:22.649 align:middle line:84%
+which we will
+consider later, we are
+
+01:09:22.649 --> 01:09:26.640 align:middle line:84%
+interested in the
+following thing.
+
+01:09:26.640 --> 01:09:29.130 align:middle line:84%
+So now we can just
+generalize immediately.
+
+01:09:29.130 --> 01:09:41.729 align:middle line:90%
+
+
+01:09:41.729 --> 01:09:56.570 align:middle line:84%
+Now we can just consider an
+interacting theory of A mu psi
+
+01:09:56.570 --> 01:09:58.790 align:middle line:90%
+and phi.
+
+01:09:58.790 --> 01:10:01.410 align:middle line:90%
+OK, so A mu will be the Maxwell.
+
+01:10:01.410 --> 01:10:02.660 align:middle line:90%
+This will be some Dirac field.
+
+01:10:02.660 --> 01:10:06.510 align:middle line:84%
+This will be some scalar field
+or even multiples of them.
+
+01:10:06.510 --> 01:10:13.460 align:middle line:84%
+So for any such theory, we
+know how to compute the vacuum
+
+01:10:13.460 --> 01:10:14.335 align:middle line:90%
+correlation function.
+
+01:10:14.335 --> 01:10:17.200 align:middle line:90%
+
+
+01:10:17.200 --> 01:10:22.420 align:middle line:84%
+Then just what we did before
+just immediately follows,
+
+01:10:22.420 --> 01:10:34.910 align:middle line:84%
+just D phi then x
+exponential i S phi, and then
+
+01:10:34.910 --> 01:10:37.820 align:middle line:90%
+D phi exponential i S.
+
+01:10:37.820 --> 01:10:41.960 align:middle line:84%
+OK, so again, I always use
+omega to denote the vacuum
+
+01:10:41.960 --> 01:10:44.360 align:middle line:90%
+of the interacting theory.
+
+01:10:44.360 --> 01:10:46.100 align:middle line:84%
+And then, again,
+you can rewrite this
+
+01:10:46.100 --> 01:10:48.980 align:middle line:90%
+as a theory of free theory.
+
+01:10:48.980 --> 01:10:51.170 align:middle line:84%
+Now this becomes,
+in the free theory,
+
+01:10:51.170 --> 01:11:03.487 align:middle line:84%
+0 Tx exponential i interacting
+part 0, and the 0 exponential T
+
+01:11:03.487 --> 01:11:07.280 align:middle line:90%
+SI 0.
+
+01:11:07.280 --> 01:11:09.680 align:middle line:84%
+So now, again, for any
+interacting theory,
+
+01:11:09.680 --> 01:11:11.690 align:middle line:84%
+we can just use
+the same procedure,
+
+01:11:11.690 --> 01:11:14.675 align:middle line:84%
+and then we can just
+do Feynman diagrams.
+
+01:11:14.675 --> 01:11:16.050 align:middle line:84%
+You can just do
+Feynman diagrams.
+
+01:11:16.050 --> 01:11:24.770 align:middle line:90%
+
+
+01:11:24.770 --> 01:11:25.270 align:middle line:90%
+OK?
+
+01:11:25.270 --> 01:11:31.020 align:middle line:90%
+
+
+01:11:31.020 --> 01:11:36.120 align:middle line:90%
+And then the Feynman rule--
+
+01:11:36.120 --> 01:11:39.845 align:middle line:90%
+we can just do Feynman diagrams.
+
+01:11:39.845 --> 01:11:42.910 align:middle line:90%
+
+
+01:11:42.910 --> 01:11:44.470 align:middle line:84%
+And the Feynman
+rules just follow.
+
+01:11:44.470 --> 01:11:56.910 align:middle line:90%
+
+
+01:11:56.910 --> 01:12:01.890 align:middle line:84%
+So now, as you
+already asked, this
+
+01:12:01.890 --> 01:12:06.460 align:middle line:84%
+sounds a little bit too
+simple, because we just
+
+01:12:06.460 --> 01:12:07.495 align:middle line:90%
+look at this action--
+
+01:12:07.495 --> 01:12:10.980 align:middle line:90%
+
+
+01:12:10.980 --> 01:12:14.110 align:middle line:84%
+we just look at
+this action, but we
+
+01:12:14.110 --> 01:12:19.680 align:middle line:84%
+haven't done what we promised
+you would do in your Pset.
+
+01:12:19.680 --> 01:12:21.870 align:middle line:84%
+Because by doing this,
+we say you haven't--
+
+01:12:21.870 --> 01:12:27.360 align:middle line:84%
+you really have not completely
+fixed the imposed partial mu
+
+01:12:27.360 --> 01:12:30.000 align:middle line:90%
+A mu yet.
+
+01:12:30.000 --> 01:12:34.090 align:middle line:84%
+So remember, we said
+that when you have this,
+
+01:12:34.090 --> 01:12:37.135 align:middle line:84%
+that will lead to
+this kind of equation.
+
+01:12:37.135 --> 01:12:43.230 align:middle line:90%
+
+
+01:12:43.230 --> 01:12:46.110 align:middle line:84%
+You still have to impose the
+boundary conditions to impose
+
+01:12:46.110 --> 01:12:48.150 align:middle line:90%
+the partial mu A mu equal to 0.
+
+01:12:48.150 --> 01:12:51.690 align:middle line:84%
+But now it seems like we are
+not doing anything like that.
+
+01:12:51.690 --> 01:12:53.190 align:middle line:84%
+We are not doing
+anything like that.
+
+01:12:53.190 --> 01:12:56.190 align:middle line:84%
+And also, it seems like we are
+not fixing the residual gauge
+
+01:12:56.190 --> 01:12:58.110 align:middle line:90%
+freedom.
+
+01:12:58.110 --> 01:13:00.070 align:middle line:90%
+Why don't we do it?
+
+01:13:00.070 --> 01:13:04.980 align:middle line:84%
+So we don't have to do
+it because, here, we
+
+01:13:04.980 --> 01:13:09.000 align:middle line:84%
+are only interested in
+calculating the vacuum
+
+01:13:09.000 --> 01:13:10.810 align:middle line:90%
+correlation functions.
+
+01:13:10.810 --> 01:13:15.580 align:middle line:84%
+And the vacuum is
+automatically a physical state.
+
+01:13:15.580 --> 01:13:17.290 align:middle line:84%
+As you will see in
+your Pset, the vacuum
+
+01:13:17.290 --> 01:13:19.090 align:middle line:90%
+is automatic physical state.
+
+01:13:19.090 --> 01:13:23.740 align:middle line:84%
+And so it's already
+a physical state.
+
+01:13:23.740 --> 01:13:26.390 align:middle line:84%
+So in the vacuum, all
+those unphysical degrees
+
+01:13:26.390 --> 01:13:28.480 align:middle line:84%
+of freedon just
+automatically will decouple.
+
+01:13:28.480 --> 01:13:31.180 align:middle line:84%
+You don't have to
+worry about them.
+
+01:13:31.180 --> 01:13:33.130 align:middle line:84%
+And so that's why-- but
+if you're interested
+
+01:13:33.130 --> 01:13:36.400 align:middle line:84%
+in the excited states, then you
+have to go through the exactly
+
+01:13:36.400 --> 01:13:39.070 align:middle line:84%
+the same kind of
+procedure to get rid of--
+
+01:13:39.070 --> 01:13:44.020 align:middle line:84%
+to do a more complicated thing,
+as you would do in your Pset.
+
+01:13:44.020 --> 01:13:48.910 align:middle line:84%
+But here, since we are
+computing just a special class
+
+01:13:48.910 --> 01:13:52.270 align:middle line:84%
+of physical quantities,
+then just by doing this,
+
+01:13:52.270 --> 01:13:53.500 align:middle line:90%
+it's already enough.
+
+01:13:53.500 --> 01:13:56.570 align:middle line:84%
+You don't have to worry
+about other subtle stuff.
+
+01:13:56.570 --> 01:14:00.230 align:middle line:84%
+You don't have to worry
+about other subtle stuff.
+
+01:14:00.230 --> 01:14:06.970 align:middle line:84%
+OK, so I think we are
+done for the quantizing
+
+01:14:06.970 --> 01:14:09.250 align:middle line:90%
+the Maxwell theory.
+
+01:14:09.250 --> 01:14:11.220 align:middle line:90%
+So now we have all our elements.
+
+01:14:11.220 --> 01:14:11.720 align:middle line:90%
+Yes?
+
+01:14:11.720 --> 01:14:15.580 align:middle line:84%
+AUDIENCE: So when you have like
+multiple internal vertices,
+
+01:14:15.580 --> 01:14:17.300 align:middle line:90%
+we used to--
+
+01:14:17.300 --> 01:14:20.690 align:middle line:84%
+the first interacting
+theory, when we had just
+
+01:14:20.690 --> 01:14:21.950 align:middle line:90%
+expanded the [INAUDIBLE].
+
+01:14:21.950 --> 01:14:25.655 align:middle line:90%
+
+
+01:14:25.655 --> 01:14:27.030 align:middle line:84%
+PROFESSOR: You do
+the same thing.
+
+01:14:27.030 --> 01:14:27.940 align:middle line:90%
+You do the same thing, right?
+
+01:14:27.940 --> 01:14:28.815 align:middle line:90%
+You just expand them.
+
+01:14:28.815 --> 01:14:30.780 align:middle line:84%
+AUDIENCE: --each
+coupling, or like --
+
+01:14:30.780 --> 01:14:32.010 align:middle line:90%
+PROFESSOR: Just expand S i.
+
+01:14:32.010 --> 01:14:35.820 align:middle line:84%
+Whatever is in S i, you
+just treat them together.
+
+01:14:35.820 --> 01:14:37.350 align:middle line:84%
+AUDIENCE: I guess,
+I think, like,
+
+01:14:37.350 --> 01:14:40.610 align:middle line:84%
+earlier in order of whatever
+[INAUDIBLE] whatever.
+
+01:14:40.610 --> 01:14:41.420 align:middle line:90%
+PROFESSOR: Yeah.
+
+01:14:41.420 --> 01:14:44.900 align:middle line:84%
+AUDIENCE: But now is
+it order of which--
+
+01:14:44.900 --> 01:14:47.690 align:middle line:90%
+PROFESSOR: Yeah, yeah.
+
+01:14:47.690 --> 01:14:51.185 align:middle line:84%
+Indeed, so normally, we
+assume all the coupling
+
+01:14:51.185 --> 01:14:54.890 align:middle line:84%
+S I are of the same order, and
+then you just expand the S I
+
+01:14:54.890 --> 01:14:56.420 align:middle line:90%
+and then-- yeah.
+
+01:14:56.420 --> 01:14:59.670 align:middle line:84%
+But indeed, you can see
+the special situation.
+
+01:14:59.670 --> 01:15:01.400 align:middle line:84%
+You may want to
+expand some couplings,
+
+01:15:01.400 --> 01:15:03.080 align:middle line:90%
+not expand some other couplings.
+
+01:15:03.080 --> 01:15:05.000 align:middle line:84%
+Then that depends on
+specific situation.
+
+01:15:05.000 --> 01:15:08.540 align:middle line:90%
+
+
+01:15:08.540 --> 01:15:09.500 align:middle line:90%
+Other questions?
+
+01:15:09.500 --> 01:15:12.120 align:middle line:90%
+
+
+01:15:12.120 --> 01:15:14.300 align:middle line:90%
+OK, good.
+
+01:15:14.300 --> 01:15:17.780 align:middle line:84%
+So let's conclude our
+discussion of quantizing
+
+01:15:17.780 --> 01:15:19.460 align:middle line:90%
+of Maxwell's theory.
+
+01:15:19.460 --> 01:15:26.420 align:middle line:84%
+And so now-- so we have
+quantized the photon.
+
+01:15:26.420 --> 01:15:29.930 align:middle line:84%
+We have quantized the Maxwell's
+theory using the Coulomb gauge.
+
+01:15:29.930 --> 01:15:32.630 align:middle line:84%
+Then we see the two-photon
+degrees of freedom.
+
+01:15:32.630 --> 01:15:35.240 align:middle line:84%
+And then we also did
+canonical quantization
+
+01:15:35.240 --> 01:15:37.760 align:middle line:84%
+for the Lorenz gauge, which
+you will finish in your pset.
+
+01:15:37.760 --> 01:15:41.420 align:middle line:84%
+And then we also discussed how
+to treat it in path integral
+
+01:15:41.420 --> 01:15:45.710 align:middle line:84%
+so that you can calculate
+these kind of questions,
+
+01:15:45.710 --> 01:15:48.460 align:middle line:84%
+so that we can treat
+these kind of questions.
+
+01:15:48.460 --> 01:15:53.100 align:middle line:84%
+And so now, the next goal-- now
+we have all the technicality,
+
+01:15:53.100 --> 01:15:55.800 align:middle line:90%
+all the tools we need.
+
+01:15:55.800 --> 01:15:58.380 align:middle line:90%
+Now we can tackle QED.
+
+01:15:58.380 --> 01:16:01.890 align:middle line:84%
+So now, finally,
+we can tackle QED.
+
+01:16:01.890 --> 01:16:08.250 align:middle line:84%
+So this is the theory of
+photon and the electron.
+
+01:16:08.250 --> 01:16:10.670 align:middle line:84%
+This is the theory of
+photon and electron,
+
+01:16:10.670 --> 01:16:14.840 align:middle line:84%
+and so we can consider
+the physical process
+
+01:16:14.840 --> 01:16:17.150 align:middle line:84%
+in this theory, which
+A mu and psi are now
+
+01:16:17.150 --> 01:16:19.160 align:middle line:90%
+interacting with each other.
+
+01:16:19.160 --> 01:16:22.880 align:middle line:84%
+A mu and psi are now
+interacting with each other.
+
+01:16:22.880 --> 01:16:25.640 align:middle line:90%
+So we will start doing it.
+
+01:16:25.640 --> 01:16:27.130 align:middle line:90%
+I think we are out--
+
+01:16:27.130 --> 01:16:28.820 align:middle line:84%
+yeah, we only have
+two minutes left.
+
+01:16:28.820 --> 01:16:33.290 align:middle line:84%
+So maybe we will finish
+a little bit early today.
+
+01:16:33.290 --> 01:16:34.310 align:middle line:90%
+OK, yeah.
+
+01:16:34.310 --> 01:16:36.520 align:middle line:90%
+So that's all for today.
+
+01:16:36.520 --> 01:16:41.000 align:middle line:90%

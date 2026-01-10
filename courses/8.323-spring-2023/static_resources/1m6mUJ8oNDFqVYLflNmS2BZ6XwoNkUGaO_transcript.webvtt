@@ -1,0 +1,4920 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.968 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.968 --> 00:00:04.428 align:middle line:90%
+[RUSTLING]
+
+00:00:04.428 --> 00:00:06.396 align:middle line:90%
+[CLICKING]
+
+00:00:06.396 --> 00:00:10.340 align:middle line:90%
+
+
+00:00:10.340 --> 00:00:14.255 align:middle line:84%
+HONG LIU: Yeah, so, today, we
+are going to start a new topic.
+
+00:00:14.255 --> 00:00:30.790 align:middle line:90%
+
+
+00:00:30.790 --> 00:00:32.290 align:middle line:90%
+OK?
+
+00:00:32.290 --> 00:00:34.210 align:middle line:84%
+So, first, we talk
+about chiral fermions.
+
+00:00:34.210 --> 00:00:41.560 align:middle line:90%
+
+
+00:00:41.560 --> 00:00:53.050 align:middle line:84%
+So remember, say, under
+Lorentz transformation,
+
+00:00:53.050 --> 00:01:04.840 align:middle line:84%
+lambda, the Dirac spinor fields
+transform as S lambda psi x.
+
+00:01:04.840 --> 00:01:08.110 align:middle line:84%
+And the x prime is a
+Lorentz transformation of x.
+
+00:01:08.110 --> 00:01:13.500 align:middle line:84%
+So x prime is
+lambda act on x, OK?
+
+00:01:13.500 --> 00:01:16.060 align:middle line:90%
+
+
+00:01:16.060 --> 00:01:31.790 align:middle line:84%
+And then the S is given by, say,
+omega mu nu, sigma, mu, nu, OK?
+
+00:01:31.790 --> 00:01:35.300 align:middle line:84%
+And the sigma mu, nu is driven
+by the commutator of the gamma
+
+00:01:35.300 --> 00:01:37.100 align:middle line:90%
+matrices.
+
+00:01:37.100 --> 00:01:38.390 align:middle line:90%
+So let me just write it down.
+
+00:01:38.390 --> 00:01:40.400 align:middle line:90%
+So sigma mu, nu--
+
+00:01:40.400 --> 00:01:43.400 align:middle line:84%
+just remind you--
+i divided by 4.
+
+00:01:43.400 --> 00:01:47.040 align:middle line:90%
+
+
+00:01:47.040 --> 00:01:47.540 align:middle line:90%
+OK.
+
+00:01:47.540 --> 00:01:53.030 align:middle line:90%
+
+
+00:01:53.030 --> 00:01:56.610 align:middle line:90%
+So one natural question--
+
+00:01:56.610 --> 00:02:01.600 align:middle line:84%
+so, previously, when we
+derived the Dirac equation,
+
+00:02:01.600 --> 00:02:04.120 align:middle line:84%
+we showed that the Dirac
+equation requires, actually,
+
+00:02:04.120 --> 00:02:06.835 align:middle line:90%
+psi to have four components, OK?
+
+00:02:06.835 --> 00:02:11.990 align:middle line:90%
+
+
+00:02:11.990 --> 00:02:14.570 align:middle line:84%
+But, then, we showed that the
+Dirac equation is covariant
+
+00:02:14.570 --> 00:02:18.920 align:middle line:90%
+if the psi transform this way.
+
+00:02:18.920 --> 00:02:21.590 align:middle line:84%
+So natural question is that
+whether you can actually
+
+00:02:21.590 --> 00:02:25.010 align:middle line:90%
+restrict to a smaller part--
+
+00:02:25.010 --> 00:02:27.690 align:middle line:90%
+say, to a subset of psi--
+
+00:02:27.690 --> 00:02:29.580 align:middle line:84%
+whether they still have
+well-defined Lorentz
+
+00:02:29.580 --> 00:02:34.290 align:middle line:84%
+transformation,
+whether we actually
+
+00:02:34.290 --> 00:02:37.980 align:middle line:84%
+need to have four components
+to have well-defined--
+
+00:02:37.980 --> 00:02:40.440 align:middle line:84%
+four complex component to
+have well-defined Lorentz
+
+00:02:40.440 --> 00:02:42.660 align:middle line:90%
+transformation, OK?
+
+00:02:42.660 --> 00:02:46.470 align:middle line:84%
+And the answer turns out
+to be, no, you actually
+
+00:02:46.470 --> 00:02:49.080 align:middle line:84%
+don't need to have
+four complex components
+
+00:02:49.080 --> 00:02:51.360 align:middle line:84%
+to have well-defined
+Lorentz transformation.
+
+00:02:51.360 --> 00:02:55.650 align:middle line:90%
+Actually, you can reduce it, OK?
+
+00:02:55.650 --> 00:02:57.780 align:middle line:84%
+And so there are two
+ways to reduce it,
+
+00:02:57.780 --> 00:02:59.610 align:middle line:84%
+and one is called
+chiral fermion,
+
+00:02:59.610 --> 00:03:02.730 align:middle line:84%
+and the one is called
+the Majorana fermion, OK?
+
+00:03:02.730 --> 00:03:06.830 align:middle line:84%
+So one is called the
+Majorana fermion.
+
+00:03:06.830 --> 00:03:10.070 align:middle line:84%
+So we first talk about the
+chiral fermion and one way
+
+00:03:10.070 --> 00:03:11.700 align:middle line:90%
+to do it.
+
+00:03:11.700 --> 00:03:13.310 align:middle line:84%
+So, for this
+purpose, we will look
+
+00:03:13.310 --> 00:03:17.120 align:middle line:84%
+at the specific representation
+of gamma matrices, OK?
+
+00:03:17.120 --> 00:03:20.300 align:middle line:84%
+Consider-- so now I will use
+a representation which is
+
+00:03:20.300 --> 00:03:23.930 align:middle line:90%
+different from what you--
+
+00:03:23.930 --> 00:03:27.350 align:middle line:84%
+so we consider
+the following one.
+
+00:03:27.350 --> 00:03:32.660 align:middle line:90%
+Gamma 0 equal to 0, i, i, 0.
+
+00:03:32.660 --> 00:03:40.250 align:middle line:84%
+Gamma i equal to 0 minus
+i sigma i, i sigma i.
+
+00:03:40.250 --> 00:03:45.010 align:middle line:90%
+
+
+00:03:45.010 --> 00:03:48.360 align:middle line:84%
+So let's look at this choice
+of gamma matrices, OK?
+
+00:03:48.360 --> 00:03:55.500 align:middle line:84%
+So I will call this
+choice to be star, OK?
+
+00:03:55.500 --> 00:03:58.410 align:middle line:90%
+And so you can also work it out.
+
+00:03:58.410 --> 00:04:01.450 align:middle line:90%
+You find the sigma.
+
+00:04:01.450 --> 00:04:05.340 align:middle line:90%
+So sigma 0, i--
+
+00:04:05.340 --> 00:04:08.560 align:middle line:84%
+so this is the sigma
+corresponding to the boost.
+
+00:04:08.560 --> 00:04:11.940 align:middle line:84%
+So you find the sigma i, you
+can just do the commutator.
+
+00:04:11.940 --> 00:04:16.790 align:middle line:84%
+From the sigma i is equal
+to minus i divided by 2,
+
+00:04:16.790 --> 00:04:19.170 align:middle line:90%
+have this block diagonal form.
+
+00:04:19.170 --> 00:04:23.160 align:middle line:84%
+Sigma i 0, 0 sigma i--
+again, the small sigma i
+
+00:04:23.160 --> 00:04:26.130 align:middle line:90%
+is always the Pauli matrices.
+
+00:04:26.130 --> 00:04:30.930 align:middle line:84%
+And then you can also
+work out the sigma ij.
+
+00:04:30.930 --> 00:04:35.040 align:middle line:84%
+Then you find the is
+given by minus 1/2,
+
+00:04:35.040 --> 00:04:46.590 align:middle line:84%
+epsilon ijk, then sigma
+k, 0, 0, sigma k, OK?
+
+00:04:46.590 --> 00:04:47.110 align:middle line:90%
+Oh, sorry.
+
+00:04:47.110 --> 00:04:50.140 align:middle line:90%
+Here, there's a minus sign.
+
+00:04:50.140 --> 00:04:53.190 align:middle line:90%
+OK, here, there's a minus sign.
+
+00:04:53.190 --> 00:04:59.890 align:middle line:84%
+OK, so you find that they
+have the following form.
+
+00:04:59.890 --> 00:05:01.620 align:middle line:84%
+So what do you
+observe about this?
+
+00:05:01.620 --> 00:05:05.320 align:middle line:90%
+
+
+00:05:05.320 --> 00:05:08.570 align:middle line:90%
+So do you see something?
+
+00:05:08.570 --> 00:05:09.100 align:middle line:90%
+Yes?
+
+00:05:09.100 --> 00:05:10.475 align:middle line:84%
+AUDIENCE: They're
+block diagonal.
+
+00:05:10.475 --> 00:05:12.290 align:middle line:84%
+HONG LIU: Yes, they
+are block diagonal.
+
+00:05:12.290 --> 00:05:15.100 align:middle line:84%
+So if sigma is block
+diagonal, then that
+
+00:05:15.100 --> 00:05:20.640 align:middle line:84%
+means this S is also
+block diagonal, OK?
+
+00:05:20.640 --> 00:05:23.370 align:middle line:84%
+So when S is block diagonal,
+what does that mean?
+
+00:05:23.370 --> 00:05:30.350 align:middle line:90%
+
+
+00:05:30.350 --> 00:05:31.557 align:middle line:90%
+Yes?
+
+00:05:31.557 --> 00:05:33.409 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:05:33.409 --> 00:05:33.992 align:middle line:90%
+HONG LIU: Hmm?
+
+00:05:33.992 --> 00:05:34.970 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:05:34.970 --> 00:05:36.790 align:middle line:90%
+HONG LIU: Exactly.
+
+00:05:36.790 --> 00:05:41.740 align:middle line:84%
+So when the S is block diagonal,
+that means, when I write psi--
+
+00:05:41.740 --> 00:05:43.750 align:middle line:90%
+so, psi-- have four components.
+
+00:05:43.750 --> 00:05:46.720 align:middle line:84%
+That means that the upper two
+component and the lower two
+
+00:05:46.720 --> 00:05:49.940 align:middle line:84%
+components-- they don't
+transform to each other, OK?
+
+00:05:49.940 --> 00:05:51.590 align:middle line:84%
+They only transform
+within themselves.
+
+00:05:51.590 --> 00:05:54.080 align:middle line:84%
+They don't transform
+to each other, OK?
+
+00:05:54.080 --> 00:06:02.135 align:middle line:84%
+So if I choose, that means
+this lambda is block diagonal.
+
+00:06:02.135 --> 00:06:06.290 align:middle line:90%
+
+
+00:06:06.290 --> 00:06:16.751 align:middle line:84%
+So that means, if I write psi x
+into two component vector, psi
+
+00:06:16.751 --> 00:06:21.560 align:middle line:84%
+L and psi R, so I denote the
+upper two components by psi L
+
+00:06:21.560 --> 00:06:24.956 align:middle line:84%
+and lower two
+components by psi R--
+
+00:06:24.956 --> 00:06:31.900 align:middle line:84%
+are two component
+complex vector.
+
+00:06:31.900 --> 00:06:37.980 align:middle line:90%
+
+
+00:06:37.980 --> 00:06:47.010 align:middle line:84%
+That means, under Lorentz
+transformation, under S lambda,
+
+00:06:47.010 --> 00:06:50.760 align:middle line:90%
+psi L and psi R do not mix.
+
+00:06:50.760 --> 00:06:54.690 align:middle line:90%
+
+
+00:06:54.690 --> 00:06:58.540 align:middle line:84%
+So they just transform
+among themselves.
+
+00:06:58.540 --> 00:07:00.190 align:middle line:84%
+They just transform
+among themselves.
+
+00:07:00.190 --> 00:07:02.460 align:middle line:84%
+So they actually have
+well-defined Lorentz
+
+00:07:02.460 --> 00:07:05.610 align:middle line:84%
+transformation as
+a smaller unit, OK?
+
+00:07:05.610 --> 00:07:07.860 align:middle line:84%
+You don't need four components
+to be able to transform
+
+00:07:07.860 --> 00:07:09.068 align:middle line:90%
+under Lorentz transformation.
+
+00:07:09.068 --> 00:07:10.480 align:middle line:84%
+Actually, at least
+two components
+
+00:07:10.480 --> 00:07:13.380 align:middle line:90%
+can already transform.
+
+00:07:13.380 --> 00:07:15.410 align:middle line:90%
+OK.
+
+00:07:15.410 --> 00:07:32.500 align:middle line:84%
+So this tells you, in a sense
+that the Lorentz covariance
+
+00:07:32.500 --> 00:07:39.850 align:middle line:84%
+only requires two
+component spinors.
+
+00:07:39.850 --> 00:07:43.690 align:middle line:90%
+
+
+00:07:43.690 --> 00:07:45.580 align:middle line:84%
+Just by Lorentz
+transformation itself,
+
+00:07:45.580 --> 00:07:47.410 align:middle line:84%
+you don't actually
+need four components.
+
+00:07:47.410 --> 00:07:50.390 align:middle line:90%
+
+
+00:07:50.390 --> 00:07:50.890 align:middle line:90%
+OK.
+
+00:07:50.890 --> 00:07:54.108 align:middle line:90%
+
+
+00:07:54.108 --> 00:07:55.900 align:middle line:84%
+So, now, I'm going to
+tell you, we actually
+
+00:07:55.900 --> 00:07:59.000 align:middle line:90%
+knew this all along.
+
+00:07:59.000 --> 00:08:04.060 align:middle line:84%
+So how did we know
+this all along?
+
+00:08:04.060 --> 00:08:04.690 align:middle line:90%
+Yes.
+
+00:08:04.690 --> 00:08:07.030 align:middle line:84%
+AUDIENCE: Why is
+there no [INAUDIBLE]??
+
+00:08:07.030 --> 00:08:15.883 align:middle line:90%
+
+
+00:08:15.883 --> 00:08:16.550 align:middle line:90%
+HONG LIU: Sorry.
+
+00:08:16.550 --> 00:08:17.745 align:middle line:90%
+Say it again.
+
+00:08:17.745 --> 00:08:21.511 align:middle line:84%
+AUDIENCE: Didn't we have to
+go to four components in there
+
+00:08:21.511 --> 00:08:26.435 align:middle line:84%
+because there are no
+representation [INAUDIBLE]??
+
+00:08:26.435 --> 00:08:27.310 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:08:27.310 --> 00:08:30.760 align:middle line:84%
+We have to go to four
+components because there's
+
+00:08:30.760 --> 00:08:36.730 align:middle line:84%
+no two component representation
+of the gamma matrices.
+
+00:08:36.730 --> 00:08:39.610 align:middle line:84%
+But that doesn't say it's
+a Lorentz transformation.
+
+00:08:39.610 --> 00:08:40.299 align:middle line:90%
+Yeah.
+
+00:08:40.299 --> 00:08:43.330 align:middle line:84%
+To write down the algebra
+for the gamma matrices,
+
+00:08:43.330 --> 00:08:46.040 align:middle line:90%
+you need four components.
+
+00:08:46.040 --> 00:08:50.060 align:middle line:84%
+But we actually knew all
+along that two components
+
+00:08:50.060 --> 00:08:54.340 align:middle line:84%
+is enough for Lorentz
+transformation.
+
+00:08:54.340 --> 00:08:57.440 align:middle line:84%
+How do we actually
+know all along?
+
+00:08:57.440 --> 00:09:00.495 align:middle line:84%
+AUDIENCE: Lorentz assumption
+isn't just [INAUDIBLE] spin
+
+00:09:00.495 --> 00:09:03.710 align:middle line:84%
+like difference between
+the [INAUDIBLE]??
+
+00:09:03.710 --> 00:09:06.380 align:middle line:84%
+HONG LIU: Yeah, this is
+maybe more complicated.
+
+00:09:06.380 --> 00:09:08.240 align:middle line:90%
+We have something much simpler.
+
+00:09:08.240 --> 00:09:09.407 align:middle line:90%
+Yes.
+
+00:09:09.407 --> 00:09:10.990 align:middle line:84%
+AUDIENCE: Is it the
+massless particle?
+
+00:09:10.990 --> 00:09:12.460 align:middle line:90%
+HONG LIU: Yeah, exactly.
+
+00:09:12.460 --> 00:09:17.020 align:middle line:84%
+So we already said before, if
+you have a massless case when
+
+00:09:17.020 --> 00:09:19.870 align:middle line:84%
+m equal to 0, and
+the Dirac equation
+
+00:09:19.870 --> 00:09:23.790 align:middle line:84%
+reduces to the two
+components, and it's
+
+00:09:23.790 --> 00:09:26.460 align:middle line:84%
+enough to do two components,
+and the Dirac equation
+
+00:09:26.460 --> 00:09:27.810 align:middle line:90%
+is covariant, OK?
+
+00:09:27.810 --> 00:09:29.460 align:middle line:84%
+And so that means
+that, actually, you
+
+00:09:29.460 --> 00:09:31.920 align:middle line:84%
+should be able to do it
+with two components, OK?
+
+00:09:31.920 --> 00:09:33.503 align:middle line:84%
+Because the massless
+particle-- they
+
+00:09:33.503 --> 00:09:35.920 align:middle line:84%
+should be able to transform
+on the Lorentz transformation.
+
+00:09:35.920 --> 00:09:37.530 align:middle line:90%
+And so, yeah.
+
+00:09:37.530 --> 00:09:44.660 align:middle line:90%
+
+
+00:09:44.660 --> 00:09:49.100 align:middle line:84%
+So we already saw this
+because the massless.
+
+00:09:49.100 --> 00:09:57.590 align:middle line:84%
+So the hint from before
+is that the massless only
+
+00:09:57.590 --> 00:10:06.470 align:middle line:90%
+require two components.
+
+00:10:06.470 --> 00:10:09.690 align:middle line:90%
+
+
+00:10:09.690 --> 00:10:11.390 align:middle line:84%
+Since the massless
+case must also be
+
+00:10:11.390 --> 00:10:13.295 align:middle line:90%
+Lorentz covariant so that--
+
+00:10:13.295 --> 00:10:14.930 align:middle line:84%
+and Lorentz symmetry
+itself should only
+
+00:10:14.930 --> 00:10:16.830 align:middle line:90%
+require two components.
+
+00:10:16.830 --> 00:10:20.660 align:middle line:84%
+So it is not a Lorentz
+symmetry, actually.
+
+00:10:20.660 --> 00:10:23.300 align:middle line:84%
+Lorentz covariance
+requires Dirac theory
+
+00:10:23.300 --> 00:10:24.440 align:middle line:90%
+to have four component.
+
+00:10:24.440 --> 00:10:26.990 align:middle line:90%
+It is the mass, OK?
+
+00:10:26.990 --> 00:10:28.310 align:middle line:90%
+So it is the mass--
+
+00:10:28.310 --> 00:10:33.620 align:middle line:90%
+
+
+00:10:33.620 --> 00:10:35.090 align:middle line:90%
+mass m.
+
+00:10:35.090 --> 00:10:39.170 align:middle line:84%
+If you want to describe
+a massive particle,
+
+00:10:39.170 --> 00:10:42.170 align:middle line:84%
+then you must have
+four components, OK?
+
+00:10:42.170 --> 00:10:44.690 align:middle line:84%
+So it is the mass
+which is the key.
+
+00:10:44.690 --> 00:11:03.650 align:middle line:90%
+
+
+00:11:03.650 --> 00:11:04.710 align:middle line:90%
+OK, good.
+
+00:11:04.710 --> 00:11:05.735 align:middle line:90%
+Any questions on this?
+
+00:11:05.735 --> 00:11:13.220 align:middle line:90%
+
+
+00:11:13.220 --> 00:11:18.590 align:middle line:84%
+So, now, we have shown in
+this particular representation
+
+00:11:18.590 --> 00:11:20.780 align:middle line:84%
+of gamma matrices, for
+this particular choice
+
+00:11:20.780 --> 00:11:28.330 align:middle line:84%
+of gamma matrices, and then the
+psi transform block diagonally.
+
+00:11:28.330 --> 00:11:34.110 align:middle line:84%
+But then we also said, but,
+now, consider a different choice
+
+00:11:34.110 --> 00:11:36.450 align:middle line:90%
+of gamma matrices.
+
+00:11:36.450 --> 00:11:39.310 align:middle line:84%
+And then this property
+will not hold, OK?
+
+00:11:39.310 --> 00:11:40.780 align:middle line:90%
+This property will not hold.
+
+00:11:40.780 --> 00:11:43.960 align:middle line:84%
+Now, the question
+is that, does this--
+
+00:11:43.960 --> 00:11:47.440 align:middle line:84%
+even with other gamma
+matrices, can we actually
+
+00:11:47.440 --> 00:11:51.450 align:middle line:84%
+reduce psi to some
+smaller components?
+
+00:11:51.450 --> 00:11:54.390 align:middle line:84%
+The answer still
+should still be yes
+
+00:11:54.390 --> 00:11:58.410 align:middle line:84%
+because we said that all
+representation of gamma
+
+00:11:58.410 --> 00:12:00.370 align:middle line:90%
+matrices should be equivalent.
+
+00:12:00.370 --> 00:12:03.960 align:middle line:84%
+So if we can do it in this
+choice of gamma matrices,
+
+00:12:03.960 --> 00:12:06.870 align:middle line:84%
+then we should be able to
+do it in any choice of gamma
+
+00:12:06.870 --> 00:12:08.720 align:middle line:90%
+matrices, OK?
+
+00:12:08.720 --> 00:12:12.580 align:middle line:84%
+So, now, let me tell you how
+to do it for the general gamma
+
+00:12:12.580 --> 00:12:13.080 align:middle line:90%
+matrices.
+
+00:12:13.080 --> 00:12:17.120 align:middle line:90%
+
+
+00:12:17.120 --> 00:12:26.030 align:middle line:84%
+So this property that you
+can reduce to two components
+
+00:12:26.030 --> 00:12:39.360 align:middle line:84%
+should exist for all
+choice of gamma matrices.
+
+00:12:39.360 --> 00:12:43.230 align:middle line:90%
+
+
+00:12:43.230 --> 00:12:47.600 align:middle line:84%
+Just for other choice
+of gamma matrices,
+
+00:12:47.600 --> 00:12:53.640 align:middle line:84%
+to separate the psi into psi
+L and psi R is more subtle.
+
+00:12:53.640 --> 00:12:56.670 align:middle line:84%
+You no longer-- is just
+simple the upper two component
+
+00:12:56.670 --> 00:12:57.970 align:middle line:90%
+or lower two component.
+
+00:12:57.970 --> 00:13:02.040 align:middle line:84%
+So we have to do a
+little bit of work, OK?
+
+00:13:02.040 --> 00:13:05.610 align:middle line:84%
+Actually, we don't need to
+do much work if you actually
+
+00:13:05.610 --> 00:13:09.630 align:middle line:90%
+find the right trick, OK?
+
+00:13:09.630 --> 00:13:12.960 align:middle line:84%
+And so the beautiful
+trick to do this
+
+00:13:12.960 --> 00:13:16.320 align:middle line:84%
+for any choice of
+gamma matrices is
+
+00:13:16.320 --> 00:13:18.195 align:middle line:84%
+that you can introduce
+the following object--
+
+00:13:18.195 --> 00:13:23.610 align:middle line:90%
+
+
+00:13:23.610 --> 00:13:24.855 align:middle line:90%
+what is called gamma 5.
+
+00:13:24.855 --> 00:13:28.840 align:middle line:90%
+
+
+00:13:28.840 --> 00:13:35.170 align:middle line:84%
+So gamma 5 is defined to be
+i gamma 0, gamma 1, gamma
+
+00:13:35.170 --> 00:13:37.180 align:middle line:90%
+2, gamma 3, OK?
+
+00:13:37.180 --> 00:13:40.210 align:middle line:84%
+So you take the product
+of all the gamma
+
+00:13:40.210 --> 00:13:46.860 align:middle line:84%
+matrices together and then
+with a factor of i, OK?
+
+00:13:46.860 --> 00:13:50.490 align:middle line:84%
+So the i there is for
+the purpose that if you--
+
+00:13:50.490 --> 00:13:52.980 align:middle line:90%
+you can check yourself--
+
+00:13:52.980 --> 00:13:56.760 align:middle line:84%
+that the gamma 5 is
+actually Hermitian.
+
+00:13:56.760 --> 00:14:01.190 align:middle line:84%
+So the i is there
+for this purpose, OK?
+
+00:14:01.190 --> 00:14:04.020 align:middle line:90%
+You need i for this to be true.
+
+00:14:04.020 --> 00:14:13.280 align:middle line:84%
+You also can check yourself that
+gamma 5 squared is equal to 1,
+
+00:14:13.280 --> 00:14:15.620 align:middle line:90%
+OK?
+
+00:14:15.620 --> 00:14:20.000 align:middle line:84%
+So, this, you can almost
+easily understand because it's
+
+00:14:20.000 --> 00:14:22.460 align:middle line:90%
+all gamma 0, gamma 1, gamma 3.
+
+00:14:22.460 --> 00:14:26.990 align:middle line:84%
+So you multiply itself again
+because any same gamma matrix,
+
+00:14:26.990 --> 00:14:30.020 align:middle line:84%
+they multiply
+either 1 or minus 1.
+
+00:14:30.020 --> 00:14:32.360 align:middle line:84%
+So you multiply them
+together, in the end,
+
+00:14:32.360 --> 00:14:33.950 align:middle line:90%
+they can be either 1 or minus 1.
+
+00:14:33.950 --> 00:14:37.370 align:middle line:84%
+Just turns out, for this
+choice of i, it's 1, OK?
+
+00:14:37.370 --> 00:14:39.470 align:middle line:90%
+So yeah.
+
+00:14:39.470 --> 00:14:44.960 align:middle line:84%
+And then you can also check
+the gamma 5 anticommute
+
+00:14:44.960 --> 00:14:46.115 align:middle line:90%
+with any gamma matrices.
+
+00:14:46.115 --> 00:14:49.070 align:middle line:90%
+
+
+00:14:49.070 --> 00:14:51.620 align:middle line:84%
+So mu here is, of
+course, from 0 to 3.
+
+00:14:51.620 --> 00:14:54.550 align:middle line:90%
+
+
+00:14:54.550 --> 00:14:59.120 align:middle line:90%
+And so this is of--
+
+00:14:59.120 --> 00:15:02.668 align:middle line:84%
+you can see
+immediately from here--
+
+00:15:02.668 --> 00:15:03.960 align:middle line:90%
+you can immediately from here--
+
+00:15:03.960 --> 00:15:10.630 align:middle line:84%
+because gamma matrices whose
+indices are not the same,
+
+00:15:10.630 --> 00:15:12.660 align:middle line:90%
+they anticommute, OK?
+
+00:15:12.660 --> 00:15:17.490 align:middle line:84%
+So if you try to commute
+this with any gamma matrices,
+
+00:15:17.490 --> 00:15:18.870 align:middle line:90%
+you have three of them.
+
+00:15:18.870 --> 00:15:21.600 align:middle line:90%
+
+
+00:15:21.600 --> 00:15:25.440 align:middle line:84%
+Yeah, because this runs
+over all gamma matrices.
+
+00:15:25.440 --> 00:15:29.810 align:middle line:84%
+So the one in which-- yeah, so
+if you take with some gamma mu,
+
+00:15:29.810 --> 00:15:31.220 align:middle line:84%
+and that particular
+one, which is
+
+00:15:31.220 --> 00:15:33.590 align:middle line:84%
+the same as gamma mu, of
+course, commutes with gamma mu.
+
+00:15:33.590 --> 00:15:35.270 align:middle line:90%
+But then you have three others.
+
+00:15:35.270 --> 00:15:39.140 align:middle line:84%
+But three others will
+give you minus sign, OK?
+
+00:15:39.140 --> 00:15:40.730 align:middle line:90%
+And you can also check yourself.
+
+00:15:40.730 --> 00:15:43.590 align:middle line:90%
+
+
+00:15:43.590 --> 00:15:46.248 align:middle line:84%
+Gamma 5 actually
+have 0 trace, OK?
+
+00:15:46.248 --> 00:15:47.790 align:middle line:84%
+So, this, I will
+leave as an exercise
+
+00:15:47.790 --> 00:15:54.215 align:middle line:84%
+for yourself, what you can do
+is you did before with other--
+
+00:15:54.215 --> 00:15:56.990 align:middle line:90%
+
+
+00:15:56.990 --> 00:16:00.230 align:middle line:90%
+yeah, in your homework--
+
+00:16:00.230 --> 00:16:03.240 align:middle line:84%
+yeah, similar to the exercise
+you have done in your homework.
+
+00:16:03.240 --> 00:16:06.590 align:middle line:90%
+So, now, from this properties--
+
+00:16:06.590 --> 00:16:09.410 align:middle line:84%
+now we can say the following
+things about the gamma 5
+
+00:16:09.410 --> 00:16:10.610 align:middle line:90%
+matrix.
+
+00:16:10.610 --> 00:16:17.900 align:middle line:84%
+First, because gamma 5
+squared, squared to 1.
+
+00:16:17.900 --> 00:16:19.820 align:middle line:90%
+And, also, this is Hermitian.
+
+00:16:19.820 --> 00:16:25.300 align:middle line:84%
+So it is Hermitian means its
+eigenvalue is all real, OK?
+
+00:16:25.300 --> 00:16:28.510 align:middle line:84%
+So its eigenvalues are
+all real, and gamma 5
+
+00:16:28.510 --> 00:16:31.210 align:middle line:84%
+squared equal to 1-- that
+means its eigenvalue is either
+
+00:16:31.210 --> 00:16:33.190 align:middle line:90%
+plus or minus 1, OK?
+
+00:16:33.190 --> 00:16:40.190 align:middle line:84%
+So have eigenvalues
+plus, minus 1.
+
+00:16:40.190 --> 00:16:44.070 align:middle line:90%
+
+
+00:16:44.070 --> 00:16:47.770 align:middle line:84%
+And then from the property
+that this is traceless,
+
+00:16:47.770 --> 00:16:51.220 align:middle line:84%
+they tell you the number of the
+eigenvalues, which is plus 1,
+
+00:16:51.220 --> 00:16:52.970 align:middle line:90%
+and the number of minus 1.
+
+00:16:52.970 --> 00:16:54.740 align:middle line:90%
+They should be the same.
+
+00:16:54.740 --> 00:16:56.110 align:middle line:90%
+Otherwise, they won't cancel.
+
+00:16:56.110 --> 00:16:57.370 align:middle line:90%
+It won't be traceless.
+
+00:16:57.370 --> 00:17:01.838 align:middle line:84%
+And so each eigenspace
+is two-dimensional.
+
+00:17:01.838 --> 00:17:08.530 align:middle line:90%
+
+
+00:17:08.530 --> 00:17:09.210 align:middle line:90%
+OK?
+
+00:17:09.210 --> 00:17:12.160 align:middle line:90%
+So you have four eigenvalues.
+
+00:17:12.160 --> 00:17:13.980 align:middle line:90%
+So there's 2 plus 1, 2 minus 1.
+
+00:17:13.980 --> 00:17:14.760 align:middle line:90%
+It must be.
+
+00:17:14.760 --> 00:17:18.859 align:middle line:90%
+
+
+00:17:18.859 --> 00:17:22.040 align:middle line:84%
+So since you have eigenvalues
+2 plus 1, 2 minus 1,
+
+00:17:22.040 --> 00:17:26.180 align:middle line:84%
+and then we can introduce
+a projector to project
+
+00:17:26.180 --> 00:17:28.970 align:middle line:84%
+into the eigenspace,
+say, with plus 1--
+
+00:17:28.970 --> 00:17:32.420 align:middle line:84%
+with eigenvalue plus 1 or
+the eigenvalue minus 1, OK?
+
+00:17:32.420 --> 00:17:37.400 align:middle line:84%
+So I can introduce a projector
+which, for historical reasons,
+
+00:17:37.400 --> 00:17:39.760 align:middle line:90%
+is called PL.
+
+00:17:39.760 --> 00:17:44.530 align:middle line:84%
+It's defined to be
+1/2 1 plus gamma 5.
+
+00:17:44.530 --> 00:17:53.530 align:middle line:84%
+And the PR is 1/2 1
+minus gamma 5, OK?
+
+00:17:53.530 --> 00:18:00.280 align:middle line:84%
+So this will project into
+eigenspace with the eigenvalue
+
+00:18:00.280 --> 00:18:01.900 align:middle line:90%
+plus 1 squared.
+
+00:18:01.900 --> 00:18:06.200 align:middle line:84%
+And this will project into an
+eigenspace with a minus 1, OK?
+
+00:18:06.200 --> 00:18:08.630 align:middle line:90%
+Because when 1 minus 1 plus--
+
+00:18:08.630 --> 00:18:10.970 align:middle line:90%
+yeah, anyway.
+
+00:18:10.970 --> 00:18:12.530 align:middle line:90%
+So you can check, OK?
+
+00:18:12.530 --> 00:18:17.100 align:middle line:90%
+
+
+00:18:17.100 --> 00:18:18.990 align:middle line:84%
+So you can check they
+are really projectors.
+
+00:18:18.990 --> 00:18:24.060 align:middle line:84%
+So PL squared equal to
+PR squared equal to 1
+
+00:18:24.060 --> 00:18:30.990 align:middle line:84%
+and PLPR equal to 0 and PL
+plus PR equal to identity, OK?
+
+00:18:30.990 --> 00:18:34.460 align:middle line:90%
+
+
+00:18:34.460 --> 00:18:39.220 align:middle line:90%
+And then-- OK.
+
+00:18:39.220 --> 00:18:43.340 align:middle line:90%
+
+
+00:18:43.340 --> 00:18:45.200 align:middle line:90%
+So, now, I introduce--
+
+00:18:45.200 --> 00:18:51.020 align:middle line:90%
+
+
+00:18:51.020 --> 00:18:53.810 align:middle line:90%
+now I can project--
+
+00:18:53.810 --> 00:18:59.510 align:middle line:84%
+define the projection of psi L
+of the projection of PL psi--
+
+00:18:59.510 --> 00:19:03.500 align:middle line:90%
+project to the left space, OK?
+
+00:19:03.500 --> 00:19:06.950 align:middle line:84%
+And psi R to be the
+projection to the other space.
+
+00:19:06.950 --> 00:19:10.770 align:middle line:90%
+
+
+00:19:10.770 --> 00:19:11.270 align:middle line:90%
+OK.
+
+00:19:11.270 --> 00:19:13.890 align:middle line:90%
+I define them this way.
+
+00:19:13.890 --> 00:19:17.360 align:middle line:84%
+And then you can easily
+see, by definition,
+
+00:19:17.360 --> 00:19:20.870 align:middle line:84%
+you can easily convince
+yourself gamma 5 acting on psi
+
+00:19:20.870 --> 00:19:23.990 align:middle line:84%
+then just equal to psi
+L. And the gamma 5 psi
+
+00:19:23.990 --> 00:19:28.940 align:middle line:90%
+R is equal to minus psi R, OK?
+
+00:19:28.940 --> 00:19:32.240 align:middle line:84%
+So they project into the
+eigenvalues of plus, minus 1.
+
+00:19:32.240 --> 00:19:32.900 align:middle line:90%
+Yes?
+
+00:19:32.900 --> 00:19:33.890 align:middle line:84%
+AUDIENCE: Wait,
+why is PL squared
+
+00:19:33.890 --> 00:19:35.170 align:middle line:90%
+equal to PR squared plus 1?
+
+00:19:35.170 --> 00:19:37.720 align:middle line:90%
+
+
+00:19:37.720 --> 00:19:38.830 align:middle line:90%
+HONG LIU: Oh, sorry.
+
+00:19:38.830 --> 00:19:40.700 align:middle line:90%
+Sorry, sorry, sorry.
+
+00:19:40.700 --> 00:19:41.530 align:middle line:90%
+No, no.
+
+00:19:41.530 --> 00:19:42.586 align:middle line:90%
+This is good.
+
+00:19:42.586 --> 00:19:45.250 align:middle line:90%
+
+
+00:19:45.250 --> 00:19:47.200 align:middle line:90%
+This is completely wrong, OK?
+
+00:19:47.200 --> 00:19:48.250 align:middle line:90%
+This is completely wrong.
+
+00:19:48.250 --> 00:19:50.350 align:middle line:90%
+I was dreaming.
+
+00:19:50.350 --> 00:19:56.450 align:middle line:84%
+So PL squared equal
+to PL, PR squared.
+
+00:19:56.450 --> 00:19:57.020 align:middle line:90%
+Sorry.
+
+00:19:57.020 --> 00:19:57.850 align:middle line:90%
+Yeah, thank you.
+
+00:19:57.850 --> 00:20:02.160 align:middle line:90%
+
+
+00:20:02.160 --> 00:20:04.455 align:middle line:84%
+Yeah, so you can check
+their projectors, OK?
+
+00:20:04.455 --> 00:20:09.550 align:middle line:90%
+
+
+00:20:09.550 --> 00:20:11.830 align:middle line:90%
+So, indeed, you see--
+
+00:20:11.830 --> 00:20:13.610 align:middle line:84%
+so, from here, from
+this definition,
+
+00:20:13.610 --> 00:20:15.190 align:middle line:90%
+you can check this is true, OK?
+
+00:20:15.190 --> 00:20:17.530 align:middle line:90%
+This is a one-second check.
+
+00:20:17.530 --> 00:20:22.000 align:middle line:84%
+And so, indeed, they project
+to the eigenspace of gamma 5
+
+00:20:22.000 --> 00:20:24.910 align:middle line:90%
+or plus, minus 1.
+
+00:20:24.910 --> 00:20:26.790 align:middle line:90%
+OK.
+
+00:20:26.790 --> 00:20:31.230 align:middle line:90%
+So then, by definition--
+
+00:20:31.230 --> 00:20:33.420 align:middle line:84%
+OK, so now this
+psi L, psi R, which
+
+00:20:33.420 --> 00:20:37.180 align:middle line:84%
+is now defined for any
+choice of gamma matrices--
+
+00:20:37.180 --> 00:20:56.155 align:middle line:84%
+so, again, they have to two
+independent complex component,
+
+00:20:56.155 --> 00:20:56.655 align:middle line:90%
+OK?
+
+00:20:56.655 --> 00:21:08.270 align:middle line:90%
+
+
+00:21:08.270 --> 00:21:14.440 align:middle line:84%
+And so they call
+the chiral spinors--
+
+00:21:14.440 --> 00:21:17.590 align:middle line:90%
+
+
+00:21:17.590 --> 00:21:19.480 align:middle line:84%
+sometimes also
+called Weyl spinors.
+
+00:21:19.480 --> 00:21:23.830 align:middle line:90%
+
+
+00:21:23.830 --> 00:21:27.910 align:middle line:84%
+And so this is the
+analog of psi L and psi R
+
+00:21:27.910 --> 00:21:32.790 align:middle line:84%
+here for the general
+choice of gamma matrices.
+
+00:21:32.790 --> 00:21:36.820 align:middle line:84%
+So, now, we will check
+this actually, indeed.
+
+00:21:36.820 --> 00:21:39.400 align:middle line:84%
+So now the claim is
+that psi L and psi R
+
+00:21:39.400 --> 00:21:42.555 align:middle line:84%
+defined this way will
+transform under themselves
+
+00:21:42.555 --> 00:21:43.930 align:middle line:84%
+under the Lorentz
+transformation.
+
+00:21:43.930 --> 00:21:46.660 align:middle line:84%
+They will not mix
+with each other, OK?
+
+00:21:46.660 --> 00:21:52.970 align:middle line:84%
+So, again, psi L and psi R here
+each have four components, OK?
+
+00:21:52.970 --> 00:21:57.080 align:middle line:84%
+They just have only two
+independent compact components.
+
+00:21:57.080 --> 00:21:59.860 align:middle line:84%
+So they still have four
+complex components, OK?
+
+00:21:59.860 --> 00:22:02.020 align:middle line:84%
+And there's still
+four component spinors
+
+00:22:02.020 --> 00:22:06.850 align:middle line:84%
+because just there's only
+two independent ones.
+
+00:22:06.850 --> 00:22:10.300 align:middle line:84%
+There's only two
+independent ones.
+
+00:22:10.300 --> 00:22:15.250 align:middle line:84%
+OK, so, now, it's easy to
+check they actually transform
+
+00:22:15.250 --> 00:22:16.790 align:middle line:90%
+among themselves.
+
+00:22:16.790 --> 00:22:27.820 align:middle line:84%
+So you can check the
+gamma 5 actually commutes
+
+00:22:27.820 --> 00:22:29.355 align:middle line:90%
+with sigma mu, nu.
+
+00:22:29.355 --> 00:22:34.650 align:middle line:90%
+
+
+00:22:34.650 --> 00:22:35.150 align:middle line:90%
+OK.
+
+00:22:35.150 --> 00:22:39.660 align:middle line:90%
+
+
+00:22:39.660 --> 00:22:41.475 align:middle line:90%
+So this is very easy to see.
+
+00:22:41.475 --> 00:22:44.470 align:middle line:90%
+
+
+00:22:44.470 --> 00:22:48.510 align:middle line:84%
+So, from here, gamma 5
+commutes with any gamma
+
+00:22:48.510 --> 00:22:54.890 align:middle line:84%
+mu or anticommute
+with any gamma mu.
+
+00:22:54.890 --> 00:22:57.920 align:middle line:84%
+And the sigma mu, nu is
+just the sum of two--
+
+00:22:57.920 --> 00:23:00.260 align:middle line:90%
+the product of two gamma mus--
+
+00:23:00.260 --> 00:23:01.220 align:middle line:90%
+have even gamma mus.
+
+00:23:01.220 --> 00:23:06.460 align:middle line:84%
+So the gamma 5 will
+compete with them, OK?
+
+00:23:06.460 --> 00:23:08.120 align:middle line:84%
+So gamma 5 will
+commute with them.
+
+00:23:08.120 --> 00:23:10.210 align:middle line:84%
+So if gamma 5 commutes
+with sigma mu, nu,
+
+00:23:10.210 --> 00:23:13.480 align:middle line:84%
+then gamma 5 commutes
+with S lambda
+
+00:23:13.480 --> 00:23:18.530 align:middle line:84%
+because S lambda just
+generated by sigma mu, nu.
+
+00:23:18.530 --> 00:23:19.535 align:middle line:90%
+And then that means--
+
+00:23:19.535 --> 00:23:22.060 align:middle line:90%
+
+
+00:23:22.060 --> 00:23:24.360 align:middle line:84%
+so we commute with
+S. That means,
+
+00:23:24.360 --> 00:23:28.823 align:middle line:84%
+under transformation,
+S will not--
+
+00:23:28.823 --> 00:23:30.240 align:middle line:84%
+under transformation
+by S will not
+
+00:23:30.240 --> 00:23:32.550 align:middle line:84%
+change the eigenvalues
+of gamma 5, OK?
+
+00:23:32.550 --> 00:23:41.640 align:middle line:84%
+So that means that psi L prime,
+S lambda, psi L, and gamma
+
+00:23:41.640 --> 00:23:47.400 align:middle line:84%
+5 acting on psi L
+prime is still gamma L.
+
+00:23:47.400 --> 00:23:48.900 align:middle line:84%
+So it's still within
+the same space.
+
+00:23:48.900 --> 00:23:51.880 align:middle line:90%
+
+
+00:23:51.880 --> 00:23:53.960 align:middle line:90%
+And, similarly, we say--
+
+00:23:53.960 --> 00:23:57.340 align:middle line:84%
+OK, so that tells you
+that psi L and psi
+
+00:23:57.340 --> 00:24:00.910 align:middle line:84%
+R-- they transform separately
+because the gamma 5 commutes
+
+00:24:00.910 --> 00:24:05.350 align:middle line:90%
+with Lorentz transformation.
+
+00:24:05.350 --> 00:24:07.830 align:middle line:84%
+And so each eigenspace,
+they transform separately
+
+00:24:07.830 --> 00:24:09.520 align:middle line:90%
+from each other.
+
+00:24:09.520 --> 00:24:10.020 align:middle line:90%
+OK.
+
+00:24:10.020 --> 00:24:15.420 align:middle line:90%
+
+
+00:24:15.420 --> 00:24:15.920 align:middle line:90%
+Good.
+
+00:24:15.920 --> 00:24:16.837 align:middle line:90%
+Any questions on this?
+
+00:24:16.837 --> 00:24:19.220 align:middle line:90%
+
+
+00:24:19.220 --> 00:24:23.360 align:middle line:90%
+So you can also find in the--
+
+00:24:23.360 --> 00:24:34.180 align:middle line:84%
+so in the chiral representation,
+you can check in this star--
+
+00:24:34.180 --> 00:24:37.090 align:middle line:84%
+so the star-- this
+particular choice of gamma
+
+00:24:37.090 --> 00:24:40.330 align:middle line:84%
+is called the chiral
+representation, OK?
+
+00:24:40.330 --> 00:24:43.810 align:middle line:84%
+Because in that
+choice of gamma--
+
+00:24:43.810 --> 00:24:46.060 align:middle line:84%
+things simplify, we just
+have upper two components
+
+00:24:46.060 --> 00:24:47.570 align:middle line:90%
+and lower two components.
+
+00:24:47.570 --> 00:24:54.280 align:middle line:84%
+So you can check yourself,
+just by working it out,
+
+00:24:54.280 --> 00:25:04.510 align:middle line:84%
+that the gamma 5 indeed just
+have block diagonal form--
+
+00:25:04.510 --> 00:25:07.750 align:middle line:90%
+1, 0, 0 minus 1, OK?
+
+00:25:07.750 --> 00:25:08.830 align:middle line:90%
+So that's why.
+
+00:25:08.830 --> 00:25:11.320 align:middle line:84%
+In that case, it's
+very simple, OK?
+
+00:25:11.320 --> 00:25:13.570 align:middle line:84%
+But in other
+representation, gamma 5
+
+00:25:13.570 --> 00:25:14.680 align:middle line:90%
+can be more complicated.
+
+00:25:14.680 --> 00:25:23.120 align:middle line:90%
+
+
+00:25:23.120 --> 00:25:23.620 align:middle line:90%
+Good.
+
+00:25:23.620 --> 00:25:24.537 align:middle line:90%
+Any questions on this?
+
+00:25:24.537 --> 00:25:31.760 align:middle line:90%
+
+
+00:25:31.760 --> 00:25:34.100 align:middle line:90%
+Yes, you have a question?
+
+00:25:34.100 --> 00:25:35.480 align:middle line:90%
+OK.
+
+00:25:35.480 --> 00:25:36.350 align:middle line:90%
+Yes?
+
+00:25:36.350 --> 00:25:38.267 align:middle line:84%
+AUDIENCE: Another way
+to do that, as you said,
+
+00:25:38.267 --> 00:25:41.910 align:middle line:84%
+would be to try to find the
+unitary matrix that shows--
+
+00:25:41.910 --> 00:25:43.620 align:middle line:84%
+under which this
+arbitrary representation
+
+00:25:43.620 --> 00:25:45.880 align:middle line:84%
+is equivalent to the
+chiral representation.
+
+00:25:45.880 --> 00:25:49.420 align:middle line:84%
+From this argument,
+can we figure out what
+
+00:25:49.420 --> 00:25:50.945 align:middle line:84%
+that unitary
+[INAUDIBLE] looks like?
+
+00:25:50.945 --> 00:25:51.820 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:25:51.820 --> 00:25:52.510 align:middle line:90%
+Yeah, you can.
+
+00:25:52.510 --> 00:25:53.580 align:middle line:90%
+Yeah, yeah.
+
+00:25:53.580 --> 00:25:55.330 align:middle line:84%
+No it's not a unitary
+transformation, just
+
+00:25:55.330 --> 00:25:57.760 align:middle line:90%
+a similar transformation, yeah.
+
+00:25:57.760 --> 00:26:00.370 align:middle line:84%
+So each of them are related
+by a similar transformation.
+
+00:26:00.370 --> 00:26:04.000 align:middle line:90%
+And, indeed, the gamma 5--
+
+00:26:04.000 --> 00:26:05.890 align:middle line:84%
+gamma 5 in the
+other representation
+
+00:26:05.890 --> 00:26:08.473 align:middle line:84%
+are related to this one just by
+a similar transformation, too.
+
+00:26:08.473 --> 00:26:11.650 align:middle line:90%
+
+
+00:26:11.650 --> 00:26:13.690 align:middle line:84%
+Yeah, so I will
+use that language
+
+00:26:13.690 --> 00:26:15.930 align:middle line:84%
+when I talk about
+Majorana spinor.
+
+00:26:15.930 --> 00:26:17.800 align:middle line:84%
+So, in this case, it's
+sufficiently simple.
+
+00:26:17.800 --> 00:26:20.150 align:middle line:84%
+I don't need to
+use that language.
+
+00:26:20.150 --> 00:26:22.800 align:middle line:84%
+Yeah, but you can
+use that language.
+
+00:26:22.800 --> 00:26:26.970 align:middle line:84%
+OK, so let's go back to
+this chiral representation
+
+00:26:26.970 --> 00:26:30.270 align:middle line:84%
+and write the
+Dirac equation into
+
+00:26:30.270 --> 00:26:32.027 align:middle line:90%
+this chiral representation.
+
+00:26:32.027 --> 00:26:36.950 align:middle line:90%
+
+
+00:26:36.950 --> 00:26:38.705 align:middle line:90%
+Yeah, one second.
+
+00:26:38.705 --> 00:26:43.080 align:middle line:90%
+
+
+00:26:43.080 --> 00:26:44.820 align:middle line:84%
+So, now, if you write
+the Dirac equation
+
+00:26:44.820 --> 00:26:48.820 align:middle line:90%
+in terms of psi L and psi R--
+
+00:26:48.820 --> 00:26:51.850 align:middle line:84%
+so, remember, the Dirac
+equation have the following form
+
+00:26:51.850 --> 00:26:53.950 align:middle line:90%
+of Dirac Lagrangian density.
+
+00:26:53.950 --> 00:26:59.830 align:middle line:90%
+
+
+00:26:59.830 --> 00:27:02.310 align:middle line:90%
+OK?
+
+00:27:02.310 --> 00:27:06.720 align:middle line:84%
+And then since psi is just
+equal to the sum of the--
+
+00:27:06.720 --> 00:27:14.820 align:middle line:90%
+so psi-- psi R, OK?
+
+00:27:14.820 --> 00:27:17.790 align:middle line:84%
+And then you can just write
+this in terms of psi L
+
+00:27:17.790 --> 00:27:21.450 align:middle line:84%
+and psi R. Write this in
+terms psi L and psi R.
+
+00:27:21.450 --> 00:27:24.150 align:middle line:84%
+And then you find that
+the cross term vanish.
+
+00:27:24.150 --> 00:27:26.070 align:middle line:84%
+You can also check
+this explicitly
+
+00:27:26.070 --> 00:27:29.130 align:middle line:84%
+in the chiral representation,
+but the expression
+
+00:27:29.130 --> 00:27:31.230 align:middle line:90%
+I'm writing down is general, OK?
+
+00:27:31.230 --> 00:27:35.710 align:middle line:84%
+So you can write
+it as psi dagger
+
+00:27:35.710 --> 00:27:48.945 align:middle line:84%
+partial sub 0, plus i sigma i,
+partial i, psi L. Yeah, sorry.
+
+00:27:48.945 --> 00:27:53.470 align:middle line:90%
+
+
+00:27:53.470 --> 00:27:55.210 align:middle line:90%
+Yeah.
+
+00:27:55.210 --> 00:27:59.680 align:middle line:90%
+Yeah, actually, psi R dagger.
+
+00:27:59.680 --> 00:28:00.978 align:middle line:90%
+Yeah, let me first write.
+
+00:28:00.978 --> 00:28:02.270 align:middle line:90%
+I think I said something wrong.
+
+00:28:02.270 --> 00:28:02.830 align:middle line:90%
+Yeah, OK.
+
+00:28:02.830 --> 00:28:40.850 align:middle line:90%
+
+
+00:28:40.850 --> 00:28:41.350 align:middle line:90%
+OK?
+
+00:28:41.350 --> 00:28:44.620 align:middle line:90%
+
+
+00:28:44.620 --> 00:28:47.410 align:middle line:84%
+So, yeah, as I said,
+so this expression
+
+00:28:47.410 --> 00:28:49.750 align:middle line:84%
+only applies to the
+chiral representation, OK?
+
+00:28:49.750 --> 00:28:58.570 align:middle line:84%
+So in the chiral
+representation of gamma star--
+
+00:28:58.570 --> 00:29:01.630 align:middle line:84%
+in this space of star, and
+then we have two components.
+
+00:29:01.630 --> 00:29:04.090 align:middle line:84%
+Then I can write this psi
+and the psi L and psi R
+
+00:29:04.090 --> 00:29:05.890 align:middle line:90%
+into two components.
+
+00:29:05.890 --> 00:29:07.720 align:middle line:90%
+And then, yeah.
+
+00:29:07.720 --> 00:29:10.390 align:middle line:84%
+So this is just ordinary
+sigma matrices, OK?
+
+00:29:10.390 --> 00:29:14.470 align:middle line:90%
+
+
+00:29:14.470 --> 00:29:17.140 align:middle line:84%
+And so this is the
+expression you get, OK?
+
+00:29:17.140 --> 00:29:20.170 align:middle line:90%
+
+
+00:29:20.170 --> 00:29:21.265 align:middle line:90%
+So what you notice--
+
+00:29:21.265 --> 00:29:26.110 align:middle line:90%
+
+
+00:29:26.110 --> 00:29:27.550 align:middle line:90%
+is that for m equal to 0--
+
+00:29:27.550 --> 00:29:30.760 align:middle line:90%
+
+
+00:29:30.760 --> 00:29:44.620 align:middle line:84%
+so there's no coupling
+between psi L and psi R, OK?
+
+00:29:44.620 --> 00:29:48.700 align:middle line:84%
+So it's the mass term which
+coupled them together, OK?
+
+00:29:48.700 --> 00:29:50.860 align:middle line:90%
+Kinetic term-- psi L--
+
+00:29:50.860 --> 00:29:56.380 align:middle line:84%
+there's no cross term between
+the psi L and psi R, OK?
+
+00:29:56.380 --> 00:29:58.090 align:middle line:84%
+And this behavior
+is actually general.
+
+00:29:58.090 --> 00:30:00.277 align:middle line:84%
+You can write it in
+arbitrary representations.
+
+00:30:00.277 --> 00:30:02.110 align:middle line:84%
+But, of course, in
+arbitrary representation,
+
+00:30:02.110 --> 00:30:04.510 align:middle line:84%
+I can no longer use
+this sigma i, OK?
+
+00:30:04.510 --> 00:30:10.630 align:middle line:90%
+And so in this particular form--
+
+00:30:10.630 --> 00:30:12.610 align:middle line:84%
+even though this
+feature is general,
+
+00:30:12.610 --> 00:30:15.340 align:middle line:84%
+but this particular
+form of the kinetic term
+
+00:30:15.340 --> 00:30:18.630 align:middle line:84%
+only applies for the
+chiral representation.
+
+00:30:18.630 --> 00:30:19.130 align:middle line:90%
+OK.
+
+00:30:19.130 --> 00:30:22.460 align:middle line:90%
+
+
+00:30:22.460 --> 00:30:26.660 align:middle line:84%
+So for m equal to 0, you don't
+have coupling between the psi L
+
+00:30:26.660 --> 00:30:31.360 align:middle line:84%
+and psi R. And then you only
+have to say, oh, diagonal
+
+00:30:31.360 --> 00:30:33.560 align:middle line:90%
+term and psi R term.
+
+00:30:33.560 --> 00:30:38.320 align:middle line:84%
+And then that gives
+you something else, OK?
+
+00:30:38.320 --> 00:30:41.200 align:middle line:84%
+So, again, this is reduced
+to our previous statement
+
+00:30:41.200 --> 00:30:43.420 align:middle line:84%
+that if you have
+a massless case,
+
+00:30:43.420 --> 00:30:46.000 align:middle line:84%
+you can describe using a
+two-component spinor, OK?
+
+00:30:46.000 --> 00:30:48.160 align:middle line:90%
+So here, indeed.
+
+00:30:48.160 --> 00:30:51.290 align:middle line:84%
+But, here, there's
+also something extra.
+
+00:30:51.290 --> 00:30:52.420 align:middle line:90%
+So what do you see--
+
+00:30:52.420 --> 00:30:53.590 align:middle line:90%
+something extra here?
+
+00:30:53.590 --> 00:30:59.970 align:middle line:90%
+
+
+00:30:59.970 --> 00:31:01.110 align:middle line:90%
+Yeah.
+
+00:31:01.110 --> 00:31:03.210 align:middle line:90%
+Did somebody raise your-- yes.
+
+00:31:03.210 --> 00:31:05.080 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:31:05.080 --> 00:31:06.104 align:middle line:90%
+HONG LIU: Yeah.
+
+00:31:06.104 --> 00:31:10.944 align:middle line:84%
+AUDIENCE: Why are we now taking
+the psi equals psi L plus psi
+
+00:31:10.944 --> 00:31:15.532 align:middle line:84%
+R instead of before we
+had it as psi L and Psi R
+
+00:31:15.532 --> 00:31:16.490 align:middle line:90%
+HONG LIU: Right, right.
+
+00:31:16.490 --> 00:31:17.120 align:middle line:90%
+Yeah, yeah.
+
+00:31:17.120 --> 00:31:18.850 align:middle line:90%
+Sorry.
+
+00:31:18.850 --> 00:31:19.998 align:middle line:90%
+A good question.
+
+00:31:19.998 --> 00:31:21.290 align:middle line:90%
+Yeah, this expression is wrong.
+
+00:31:21.290 --> 00:31:23.600 align:middle line:90%
+OK.
+
+00:31:23.600 --> 00:31:25.810 align:middle line:90%
+Somehow, I was doing a--
+
+00:31:25.810 --> 00:31:27.330 align:middle line:90%
+I was trying to-- yeah.
+
+00:31:27.330 --> 00:31:30.210 align:middle line:90%
+
+
+00:31:30.210 --> 00:31:32.490 align:middle line:84%
+I remembered I wrote this
+in the general basis,
+
+00:31:32.490 --> 00:31:34.650 align:middle line:84%
+but then I realized I only
+wrote it in that basis.
+
+00:31:34.650 --> 00:31:36.240 align:middle line:84%
+Yeah, in the general
+basis, I would
+
+00:31:36.240 --> 00:31:39.480 align:middle line:84%
+have psi equal to psi
+L plus psi R. Yeah.
+
+00:31:39.480 --> 00:31:41.610 align:middle line:84%
+But then I realized, I
+only write the kinetic term
+
+00:31:41.610 --> 00:31:43.590 align:middle line:90%
+in this specific basis.
+
+00:31:43.590 --> 00:31:46.410 align:middle line:90%
+
+
+00:31:46.410 --> 00:31:46.910 align:middle line:90%
+Good.
+
+00:31:46.910 --> 00:31:47.410 align:middle line:90%
+Yeah.
+
+00:31:47.410 --> 00:31:50.792 align:middle line:84%
+Yeah, so that expression does
+not apply for the chiral basis
+
+00:31:50.792 --> 00:31:51.875 align:middle line:90%
+but apply for the general.
+
+00:31:51.875 --> 00:31:56.710 align:middle line:90%
+
+
+00:31:56.710 --> 00:32:00.590 align:middle line:84%
+So here, actually,
+something profound
+
+00:32:00.590 --> 00:32:06.430 align:middle line:84%
+happens because, when m equal to
+0, when you don't have coupling
+
+00:32:06.430 --> 00:32:09.490 align:middle line:84%
+between psi L and
+psi R, you actually
+
+00:32:09.490 --> 00:32:11.980 align:middle line:90%
+get the extra symmetry, OK?
+
+00:32:11.980 --> 00:32:24.890 align:middle line:84%
+So in the Dirac Lagrangian,
+as we discussed earlier,
+
+00:32:24.890 --> 00:32:28.150 align:middle line:90%
+so we have a U1 symmetry.
+
+00:32:28.150 --> 00:32:33.290 align:middle line:84%
+Psi goes to exponential
+i alpha psi, OK?
+
+00:32:33.290 --> 00:32:35.810 align:middle line:84%
+So this Dirac Lagrangian
+is invariant under that
+
+00:32:35.810 --> 00:32:37.070 align:middle line:90%
+because the psi is complex.
+
+00:32:37.070 --> 00:32:43.830 align:middle line:90%
+
+
+00:32:43.830 --> 00:32:48.340 align:middle line:84%
+But, now, psi L and psi
+R-- they are separate.
+
+00:32:48.340 --> 00:32:51.330 align:middle line:84%
+So, now, I can actually
+transform psi L and psi R
+
+00:32:51.330 --> 00:32:52.740 align:middle line:90%
+separately, OK?
+
+00:32:52.740 --> 00:32:57.030 align:middle line:84%
+So under this transformation,
+psi L and psi R
+
+00:32:57.030 --> 00:32:59.760 align:middle line:90%
+transform the same, OK?
+
+00:32:59.760 --> 00:33:05.410 align:middle line:90%
+But, now, m equal to 0--
+
+00:33:05.410 --> 00:33:09.760 align:middle line:84%
+I can have psi L goes to
+exponential i alpha L,
+
+00:33:09.760 --> 00:33:22.710 align:middle line:84%
+psi L. Psi R goes to exponential
+i alpha R, psi R because they
+
+00:33:22.710 --> 00:33:26.640 align:middle line:90%
+only couple to themselves, OK?
+
+00:33:26.640 --> 00:33:32.390 align:middle line:84%
+And, now, I have
+this symmetry, OK?
+
+00:33:32.390 --> 00:33:36.770 align:middle line:84%
+And so, now-- so,
+here, you have U1,
+
+00:33:36.770 --> 00:33:43.340 align:middle line:84%
+and now you have U1 times U1
+called U1 times L and U1R.
+
+00:33:43.340 --> 00:33:48.430 align:middle line:84%
+So these are called
+chiral symmetries
+
+00:33:48.430 --> 00:33:52.240 align:middle line:84%
+because they transform the
+left and the right separately.
+
+00:33:52.240 --> 00:33:55.335 align:middle line:90%
+
+
+00:33:55.335 --> 00:33:55.835 align:middle line:90%
+OK.
+
+00:33:55.835 --> 00:34:01.090 align:middle line:90%
+
+
+00:34:01.090 --> 00:34:01.750 align:middle line:90%
+Yes?
+
+00:34:01.750 --> 00:34:03.560 align:middle line:84%
+AUDIENCE: I'm a
+little bit confused
+
+00:34:03.560 --> 00:34:06.430 align:middle line:84%
+why you can't write psi as the
+sum of the two projections?
+
+00:34:06.430 --> 00:34:07.120 align:middle line:90%
+HONG LIU: Sorry?
+
+00:34:07.120 --> 00:34:08.643 align:middle line:84%
+AUDIENCE: Why you
+can't write psi
+
+00:34:08.643 --> 00:34:10.060 align:middle line:84%
+as the sum of the
+two projections?
+
+00:34:10.060 --> 00:34:10.601 align:middle line:90%
+HONG LIU: No.
+
+00:34:10.601 --> 00:34:12.810 align:middle line:84%
+No, I can write it-- no,
+I can write it that way.
+
+00:34:12.810 --> 00:34:16.710 align:middle line:84%
+Just, now, I'm using
+the two-component form.
+
+00:34:16.710 --> 00:34:19.739 align:middle line:84%
+When I write two-component
+form, then I write psi that way,
+
+00:34:19.739 --> 00:34:24.960 align:middle line:84%
+it doesn't make sense because
+psi L is the upper two
+
+00:34:24.960 --> 00:34:27.030 align:middle line:84%
+component, and psi R is
+the lower two component.
+
+00:34:27.030 --> 00:34:27.800 align:middle line:90%
+Yeah.
+
+00:34:27.800 --> 00:34:28.800 align:middle line:90%
+Yeah, yeah.
+
+00:34:28.800 --> 00:34:32.550 align:middle line:84%
+I'm using the same
+notation for this spaces.
+
+00:34:32.550 --> 00:34:35.310 align:middle line:84%
+And so in these spaces,
+psi L and psi R,
+
+00:34:35.310 --> 00:34:36.630 align:middle line:90%
+they only have two components.
+
+00:34:36.630 --> 00:34:39.780 align:middle line:84%
+But in the general case, there
+have four components, OK?
+
+00:34:39.780 --> 00:34:42.429 align:middle line:84%
+So in the general case, I
+can write psi equal to psi L
+
+00:34:42.429 --> 00:34:45.190 align:middle line:84%
+and psi R. But in
+these spaces, I cannot.
+
+00:34:45.190 --> 00:34:47.651 align:middle line:84%
+Yeah, using this
+notation, I cannot.
+
+00:34:47.651 --> 00:34:55.719 align:middle line:90%
+
+
+00:34:55.719 --> 00:35:00.160 align:middle line:84%
+So, now, you have a
+new symmetry equal to--
+
+00:35:00.160 --> 00:35:09.410 align:middle line:84%
+which you can transform
+them separately, OK?
+
+00:35:09.410 --> 00:35:12.110 align:middle line:84%
+And the symmetries are one
+of the most important aspect
+
+00:35:12.110 --> 00:35:15.930 align:middle line:84%
+of physics, and they have
+very important implications,
+
+00:35:15.930 --> 00:35:16.920 align:middle line:90%
+et cetera.
+
+00:35:16.920 --> 00:35:23.990 align:middle line:84%
+And the chiral symmetry actually
+has also very important effect
+
+00:35:23.990 --> 00:35:26.780 align:middle line:90%
+in particle physics--
+
+00:35:26.780 --> 00:35:30.020 align:middle line:90%
+for example, the pions.
+
+00:35:30.020 --> 00:35:33.290 align:middle line:90%
+The pions has to do with--
+
+00:35:33.290 --> 00:35:35.180 align:middle line:90%
+I will not go into detail.
+
+00:35:35.180 --> 00:35:39.890 align:middle line:84%
+The pions-- they essentially
+come from the chiral
+
+00:35:39.890 --> 00:35:41.360 align:middle line:90%
+symmetries.
+
+00:35:41.360 --> 00:35:43.700 align:middle line:84%
+Without the chiral
+symmetries, there's no pion.
+
+00:35:43.700 --> 00:35:46.070 align:middle line:90%
+There's no pions, OK?
+
+00:35:46.070 --> 00:35:51.620 align:middle line:84%
+And actually understanding
+how the pions
+
+00:35:51.620 --> 00:35:53.920 align:middle line:84%
+come from the chiral
+symmetries, et cetera--
+
+00:35:53.920 --> 00:35:58.110 align:middle line:84%
+there was a Nobel Prize to
+Nambu a number of years ago,
+
+00:35:58.110 --> 00:35:59.930 align:middle line:84%
+which our colleague
+Goldstone also
+
+00:35:59.930 --> 00:36:04.560 align:middle line:84%
+made a very important
+contribution to that.
+
+00:36:04.560 --> 00:36:08.750 align:middle line:84%
+And, also, nature--
+also interesting
+
+00:36:08.750 --> 00:36:12.540 align:middle line:84%
+about this chiral symmetry
+is that they are there.
+
+00:36:12.540 --> 00:36:14.990 align:middle line:84%
+Say, if you have a
+classical massless-- say,
+
+00:36:14.990 --> 00:36:18.920 align:middle line:84%
+if you have a
+massless Lagrangian,
+
+00:36:18.920 --> 00:36:21.890 align:middle line:84%
+then you can have the symmetry
+in the classical level,
+
+00:36:21.890 --> 00:36:23.430 align:middle line:90%
+in the Lagrangian level.
+
+00:36:23.430 --> 00:36:24.980 align:middle line:84%
+But once you
+quantize this theory,
+
+00:36:24.980 --> 00:36:28.140 align:middle line:90%
+you find the symmetry goes away.
+
+00:36:28.140 --> 00:36:29.130 align:middle line:90%
+It becomes anomalous.
+
+00:36:29.130 --> 00:36:30.840 align:middle line:90%
+It could become anomalous.
+
+00:36:30.840 --> 00:36:33.090 align:middle line:84%
+Symmetry is only present
+in the classical level
+
+00:36:33.090 --> 00:36:36.777 align:middle line:90%
+but not in the quantum level.
+
+00:36:36.777 --> 00:36:38.610 align:middle line:84%
+And, again, that plays
+a very important role
+
+00:36:38.610 --> 00:36:40.130 align:middle line:90%
+in particle physics, actually.
+
+00:36:40.130 --> 00:36:40.630 align:middle line:90%
+OK.
+
+00:36:40.630 --> 00:36:44.280 align:middle line:84%
+Yeah, the bottom line is
+that the chiral symmetry
+
+00:36:44.280 --> 00:36:49.470 align:middle line:84%
+is very important in
+many aspects of physics.
+
+00:36:49.470 --> 00:36:52.200 align:middle line:84%
+It's also important in many
+condensed matter systems,
+
+00:36:52.200 --> 00:36:54.880 align:middle line:90%
+like liquid helium, et cetera.
+
+00:36:54.880 --> 00:36:58.275 align:middle line:84%
+So you can also write this
+symmetry for general gamma.
+
+00:36:58.275 --> 00:37:04.470 align:middle line:90%
+
+
+00:37:04.470 --> 00:37:08.530 align:middle line:84%
+So for general gamma, you can
+have your previous symmetry.
+
+00:37:08.530 --> 00:37:11.620 align:middle line:84%
+So, now, I'm using the
+four-component notation,
+
+00:37:11.620 --> 00:37:15.490 align:middle line:84%
+which psi L and psi R
+transform the same way.
+
+00:37:15.490 --> 00:37:17.205 align:middle line:84%
+And then, now, you
+have a new symmetry.
+
+00:37:17.205 --> 00:37:22.280 align:middle line:90%
+
+
+00:37:22.280 --> 00:37:25.760 align:middle line:90%
+Gamma 5-- OK.
+
+00:37:25.760 --> 00:37:28.430 align:middle line:84%
+And now you can put the
+gamma 5 in the exponents.
+
+00:37:28.430 --> 00:37:37.510 align:middle line:90%
+
+
+00:37:37.510 --> 00:37:38.770 align:middle line:90%
+Good.
+
+00:37:38.770 --> 00:37:40.230 align:middle line:90%
+Any questions on this?
+
+00:37:40.230 --> 00:37:40.890 align:middle line:90%
+Yes.
+
+00:37:40.890 --> 00:37:42.365 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:37:42.365 --> 00:37:43.240 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:37:43.240 --> 00:37:44.655 align:middle line:84%
+Alpha tilde is just
+some other constant--
+
+00:37:44.655 --> 00:37:45.360 align:middle line:90%
+AUDIENCE: Oh, alpha tilde.
+
+00:37:45.360 --> 00:37:46.810 align:middle line:84%
+HONG LIU: If tilde is
+just some other constant,
+
+00:37:46.810 --> 00:37:47.893 align:middle line:90%
+then you multiply gamma 5.
+
+00:37:47.893 --> 00:37:50.780 align:middle line:90%
+
+
+00:37:50.780 --> 00:37:55.150 align:middle line:84%
+So the way to understand
+that these two are related--
+
+00:37:55.150 --> 00:37:58.850 align:middle line:84%
+so think about the
+transformation here.
+
+00:37:58.850 --> 00:38:02.330 align:middle line:84%
+So, here, we can rewrite
+a little bit differently.
+
+00:38:02.330 --> 00:38:06.370 align:middle line:84%
+We can consider rewrite
+this alpha L and alpha R
+
+00:38:06.370 --> 00:38:09.120 align:middle line:90%
+in terms of the following.
+
+00:38:09.120 --> 00:38:11.900 align:middle line:84%
+Let's consider the two
+transformation-- one
+
+00:38:11.900 --> 00:38:16.350 align:middle line:84%
+transformation, psi L, and
+psi R transform the same.
+
+00:38:16.350 --> 00:38:21.090 align:middle line:84%
+And the other transformation is
+that they transform oppositely.
+
+00:38:21.090 --> 00:38:23.460 align:middle line:84%
+They transform in the
+opposite phase, OK?
+
+00:38:23.460 --> 00:38:26.325 align:middle line:90%
+So I write the alpha--
+
+00:38:26.325 --> 00:38:28.350 align:middle line:84%
+and this writing
+is like that, OK?
+
+00:38:28.350 --> 00:38:33.110 align:middle line:84%
+So, in this way, psi L and psi
+R transform the same, but--
+
+00:38:33.110 --> 00:38:35.370 align:middle line:84%
+psi L and psi R, they
+transform opposite
+
+00:38:35.370 --> 00:38:39.080 align:middle line:84%
+because they have opposite
+eigenvalue on the gamma 5.
+
+00:38:39.080 --> 00:38:40.700 align:middle line:84%
+And so this is
+equivalent to that.
+
+00:38:40.700 --> 00:38:46.660 align:middle line:90%
+
+
+00:38:46.660 --> 00:38:47.210 align:middle line:90%
+Good.
+
+00:38:47.210 --> 00:38:49.870 align:middle line:90%
+Any questions on this?
+
+00:38:49.870 --> 00:38:50.650 align:middle line:90%
+Yes.
+
+00:38:50.650 --> 00:38:54.500 align:middle line:84%
+AUDIENCE: Why is it called gamma
+5 rather than, say, gamma 4?
+
+00:38:54.500 --> 00:38:56.870 align:middle line:84%
+HONG LIU: I think, again,
+it's a historical reason.
+
+00:38:56.870 --> 00:38:59.870 align:middle line:90%
+
+
+00:38:59.870 --> 00:39:06.280 align:middle line:84%
+So people often like to
+go to Euclidean space.
+
+00:39:06.280 --> 00:39:07.890 align:middle line:84%
+So when you go to
+Euclidean space,
+
+00:39:07.890 --> 00:39:11.610 align:middle line:90%
+you continue gamma 0 to gamma 4.
+
+00:39:11.610 --> 00:39:14.310 align:middle line:90%
+Yeah, just-- yeah, to gamma 4.
+
+00:39:14.310 --> 00:39:17.580 align:middle line:84%
+And then you reserve
+gamma 4 for that.
+
+00:39:17.580 --> 00:39:19.530 align:middle line:84%
+Then the gamma 5 is
+the next one you take.
+
+00:39:19.530 --> 00:39:22.133 align:middle line:90%
+
+
+00:39:22.133 --> 00:39:22.800 align:middle line:90%
+Other questions?
+
+00:39:22.800 --> 00:39:23.820 align:middle line:90%
+Yes.
+
+00:39:23.820 --> 00:39:27.030 align:middle line:84%
+AUDIENCE: Is there a
+physical reason why
+
+00:39:27.030 --> 00:39:29.190 align:middle line:90%
+the massless case is special?
+
+00:39:29.190 --> 00:39:31.050 align:middle line:84%
+Is it because it
+becomes scale-free,
+
+00:39:31.050 --> 00:39:32.370 align:middle line:90%
+or something like that?
+
+00:39:32.370 --> 00:39:33.870 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:39:33.870 --> 00:39:36.510 align:middle line:84%
+So massless case--
+it's always special.
+
+00:39:36.510 --> 00:39:39.810 align:middle line:84%
+And you will see, in
+physics, actually,
+
+00:39:39.810 --> 00:39:43.260 align:middle line:84%
+the massless case
+actually gives you
+
+00:39:43.260 --> 00:39:45.990 align:middle line:84%
+very much richer
+structure, normally,
+
+00:39:45.990 --> 00:39:51.570 align:middle line:90%
+than the massive particle.
+
+00:39:51.570 --> 00:39:54.060 align:middle line:84%
+Mathematically, it's
+because the massless case--
+
+00:39:54.060 --> 00:39:57.290 align:middle line:90%
+
+
+00:39:57.290 --> 00:39:59.180 align:middle line:84%
+in the massless case,
+the representation
+
+00:39:59.180 --> 00:40:01.490 align:middle line:84%
+of the Lorentz group
+is very different
+
+00:40:01.490 --> 00:40:03.440 align:middle line:90%
+from the massive case.
+
+00:40:03.440 --> 00:40:05.390 align:middle line:84%
+For example, if you
+have a vector field,
+
+00:40:05.390 --> 00:40:08.330 align:middle line:84%
+say, for Maxwell
+field, for the photon,
+
+00:40:08.330 --> 00:40:10.910 align:middle line:84%
+massless photon have
+two polarizations.
+
+00:40:10.910 --> 00:40:13.040 align:middle line:84%
+But if you have a
+massive vector--
+
+00:40:13.040 --> 00:40:14.690 align:middle line:90%
+say, for the photon is massive--
+
+00:40:14.690 --> 00:40:16.850 align:middle line:84%
+then we'll have
+three polarizations.
+
+00:40:16.850 --> 00:40:20.180 align:middle line:84%
+And so the massless case
+and the massive case
+
+00:40:20.180 --> 00:40:22.400 align:middle line:90%
+are very, very different.
+
+00:40:22.400 --> 00:40:24.830 align:middle line:90%
+The fermion case is the same.
+
+00:40:24.830 --> 00:40:26.810 align:middle line:84%
+So if you have a
+massive fermion,
+
+00:40:26.810 --> 00:40:28.432 align:middle line:84%
+you have four
+complex components.
+
+00:40:28.432 --> 00:40:30.140 align:middle line:84%
+But if you have a
+massless case, then you
+
+00:40:30.140 --> 00:40:32.770 align:middle line:90%
+have two complex components.
+
+00:40:32.770 --> 00:40:34.270 align:middle line:84%
+AUDIENCE: How about
+very small mass?
+
+00:40:34.270 --> 00:40:39.270 align:middle line:84%
+Doesn't that cause a problem
+if you go from x [INAUDIBLE]??
+
+00:40:39.270 --> 00:40:40.242 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:40:40.242 --> 00:40:41.700 align:middle line:84%
+That's a very
+interesting question.
+
+00:40:41.700 --> 00:40:43.075 align:middle line:84%
+And there are a
+lot of subtleties
+
+00:40:43.075 --> 00:40:47.190 align:middle line:84%
+associated with that kind
+of questions, indeed.
+
+00:40:47.190 --> 00:40:47.850 align:middle line:90%
+Yes?
+
+00:40:47.850 --> 00:40:49.516 align:middle line:84%
+AUDIENCE: Is there
+any sense in which
+
+00:40:49.516 --> 00:40:53.530 align:middle line:84%
+we can treat psi L and psi R
+as different dynamical fields,
+
+00:40:53.530 --> 00:40:59.000 align:middle line:84%
+like a complex scalar field
+the case phi and phi star?
+
+00:40:59.000 --> 00:41:02.920 align:middle line:84%
+HONG LIU: Oh, psi L and psi
+R certainly are independent--
+
+00:41:02.920 --> 00:41:07.980 align:middle line:84%
+you can certainly treat them
+as independent dynamical, yeah.
+
+00:41:07.980 --> 00:41:08.940 align:middle line:90%
+Other questions?
+
+00:41:08.940 --> 00:41:12.890 align:middle line:90%
+
+
+00:41:12.890 --> 00:41:15.100 align:middle line:90%
+OK.
+
+00:41:15.100 --> 00:41:19.690 align:middle line:84%
+So let's conclude our discussion
+of the chiral spinors.
+
+00:41:19.690 --> 00:41:22.000 align:middle line:84%
+And now we can talk about
+the Majorana spinors.
+
+00:41:22.000 --> 00:41:31.840 align:middle line:90%
+
+
+00:41:31.840 --> 00:41:40.590 align:middle line:84%
+OK, so the so the
+Dirac spinor, which
+
+00:41:40.590 --> 00:41:44.320 align:middle line:84%
+we have talked about so
+far, is four components.
+
+00:41:44.320 --> 00:41:48.810 align:middle line:84%
+So you have four times
+two real components, OK?
+
+00:41:48.810 --> 00:41:51.300 align:middle line:84%
+And then the chiral
+spinor we talked about--
+
+00:41:51.300 --> 00:41:54.190 align:middle line:90%
+
+
+00:41:54.190 --> 00:41:57.800 align:middle line:84%
+essentially, you have
+two complex components.
+
+00:41:57.800 --> 00:42:02.150 align:middle line:84%
+It's, say, 2 times 2
+real components, OK?
+
+00:42:02.150 --> 00:42:03.990 align:middle line:90%
+2 times 2 real components.
+
+00:42:03.990 --> 00:42:05.870 align:middle line:84%
+So the next one I'm
+going to talk about
+
+00:42:05.870 --> 00:42:14.380 align:middle line:84%
+is the Majorana, in which
+case, I would argue,
+
+00:42:14.380 --> 00:42:17.770 align:middle line:84%
+we have 4 times
+1 real component.
+
+00:42:17.770 --> 00:42:21.920 align:middle line:84%
+So it has four independent
+real components, OK?
+
+00:42:21.920 --> 00:42:22.420 align:middle line:90%
+Yes?
+
+00:42:22.420 --> 00:42:24.600 align:middle line:84%
+AUDIENCE: Sorry going
+back real quick.
+
+00:42:24.600 --> 00:42:27.630 align:middle line:84%
+So I'm assuming R and L are for
+right-handed and left-handed
+
+00:42:27.630 --> 00:42:28.480 align:middle line:90%
+in this [INAUDIBLE].
+
+00:42:28.480 --> 00:42:30.990 align:middle line:84%
+HONG LIU: Yeah,
+yeah, yeah, yeah.
+
+00:42:30.990 --> 00:42:34.960 align:middle line:84%
+AUDIENCE: So can you ever
+have a spinor where--
+
+00:42:34.960 --> 00:42:37.780 align:middle line:84%
+what does it mean to have
+one of [INAUDIBLE] non-zero?
+
+00:42:37.780 --> 00:42:40.140 align:middle line:84%
+So both of them are
+non-zero, I guess.
+
+00:42:40.140 --> 00:42:41.910 align:middle line:84%
+What is that--
+because, in my mind,
+
+00:42:41.910 --> 00:42:43.690 align:middle line:84%
+it is either right-handed
+or right handed.
+
+00:42:43.690 --> 00:42:44.860 align:middle line:90%
+What is the mixture of--
+
+00:42:44.860 --> 00:42:46.090 align:middle line:90%
+HONG LIU: No, no, no, no.
+
+00:42:46.090 --> 00:42:49.120 align:middle line:84%
+Physically, electron
+contains both left and right.
+
+00:42:49.120 --> 00:42:51.490 align:middle line:84%
+Yeah, so for massive
+particle, because they always
+
+00:42:51.490 --> 00:42:53.610 align:middle line:90%
+couple together--
+
+00:42:53.610 --> 00:42:56.930 align:middle line:84%
+so the left hand, so psi
+L turning into psi R,
+
+00:42:56.930 --> 00:42:59.370 align:middle line:84%
+psi R turning to
+psi L all the time.
+
+00:42:59.370 --> 00:43:03.430 align:middle line:84%
+And for massive particle, you
+cannot really separate them.
+
+00:43:03.430 --> 00:43:09.520 align:middle line:84%
+But, now, for massless particle,
+then psi L and psi R-- yeah,
+
+00:43:09.520 --> 00:43:12.710 align:middle line:84%
+this is a very good question--
+psi L and psi R are preserved.
+
+00:43:12.710 --> 00:43:16.030 align:middle line:84%
+So massless particle is
+either psi L or psi R.
+
+00:43:16.030 --> 00:43:20.140 align:middle line:84%
+And then if you look at
+their so-called helicity,
+
+00:43:20.140 --> 00:43:22.730 align:middle line:84%
+it's either left-handed
+or right-handed.
+
+00:43:22.730 --> 00:43:26.620 align:middle line:84%
+So that's where the name
+psi L and psi R come from.
+
+00:43:26.620 --> 00:43:29.180 align:middle line:84%
+But, for the massive
+particle, you cannot make this
+
+00:43:29.180 --> 00:43:30.310 align:middle line:90%
+separation.
+
+00:43:30.310 --> 00:43:32.440 align:middle line:84%
+But for the massless
+case, then it's preserved.
+
+00:43:32.440 --> 00:43:37.820 align:middle line:84%
+And then it's generally
+left-handed or right-handed.
+
+00:43:37.820 --> 00:43:38.580 align:middle line:90%
+OK, good.
+
+00:43:38.580 --> 00:43:41.450 align:middle line:84%
+And, now, let's talk
+about the last case--
+
+00:43:41.450 --> 00:43:43.265 align:middle line:90%
+this case, which is--
+
+00:43:43.265 --> 00:43:45.645 align:middle line:84%
+you have four real
+components, OK?
+
+00:43:45.645 --> 00:43:49.990 align:middle line:90%
+
+
+00:43:49.990 --> 00:43:50.920 align:middle line:90%
+So what do you do?
+
+00:43:50.920 --> 00:43:53.440 align:middle line:84%
+Again, we follow
+the similar strategy
+
+00:43:53.440 --> 00:43:58.780 align:middle line:84%
+to see whether it's possible
+to have four real components.
+
+00:43:58.780 --> 00:44:01.900 align:middle line:84%
+Again, we first-- the
+idea is that you first
+
+00:44:01.900 --> 00:44:05.230 align:middle line:84%
+try to find the special
+representation of gamma
+
+00:44:05.230 --> 00:44:10.200 align:middle line:84%
+matrices so that a spinor
+that can be real, OK?
+
+00:44:10.200 --> 00:44:13.260 align:middle line:84%
+And then you try to generalize
+to any representation of gamma
+
+00:44:13.260 --> 00:44:14.470 align:middle line:90%
+matrices.
+
+00:44:14.470 --> 00:44:14.970 align:middle line:90%
+OK.
+
+00:44:14.970 --> 00:44:18.100 align:middle line:90%
+
+
+00:44:18.100 --> 00:44:26.050 align:middle line:84%
+So, now, if you look
+at the Dirac equation--
+
+00:44:26.050 --> 00:44:47.392 align:middle line:90%
+
+
+00:44:47.392 --> 00:44:48.725 align:middle line:90%
+now, look at the Dirac equation.
+
+00:44:48.725 --> 00:44:58.310 align:middle line:90%
+
+
+00:44:58.310 --> 00:45:05.360 align:middle line:84%
+So if I want to find
+the real spinor,
+
+00:45:05.360 --> 00:45:07.550 align:middle line:84%
+then I ask myself
+whether real spinor
+
+00:45:07.550 --> 00:45:10.700 align:middle line:84%
+is compatible with
+this equation, OK?
+
+00:45:10.700 --> 00:45:14.300 align:middle line:84%
+So if the real scalar is not
+compatible with this equation--
+
+00:45:14.300 --> 00:45:17.300 align:middle line:84%
+because I take the
+complex conjugate,
+
+00:45:17.300 --> 00:45:18.635 align:middle line:90%
+I then take a gamma mu star.
+
+00:45:18.635 --> 00:45:23.480 align:middle line:90%
+
+
+00:45:23.480 --> 00:45:30.120 align:middle line:84%
+If psi is real, then psi also
+have to satisfy this equation,
+
+00:45:30.120 --> 00:45:30.630 align:middle line:90%
+OK?
+
+00:45:30.630 --> 00:45:34.400 align:middle line:84%
+But, in general, gamma mu is
+complex, as we wrote before--
+
+00:45:34.400 --> 00:45:35.450 align:middle line:90%
+yeah, I just erased it.
+
+00:45:35.450 --> 00:45:39.270 align:middle line:84%
+For example, in these
+spaces, it's complex.
+
+00:45:39.270 --> 00:45:42.670 align:middle line:84%
+With complex, then these two
+equations are not compatible,
+
+00:45:42.670 --> 00:45:45.600 align:middle line:90%
+and then psi cannot be real, OK?
+
+00:45:45.600 --> 00:45:46.290 align:middle line:90%
+Simple as that.
+
+00:45:46.290 --> 00:45:49.110 align:middle line:90%
+
+
+00:45:49.110 --> 00:45:51.570 align:middle line:90%
+But there's a way out.
+
+00:45:51.570 --> 00:45:53.790 align:middle line:84%
+The way out is
+that, if they exist,
+
+00:45:53.790 --> 00:45:58.690 align:middle line:84%
+the representation of
+gamma mu, the question
+
+00:45:58.690 --> 00:46:06.720 align:middle line:84%
+is whether there exists a
+representation of gamma mu
+
+00:46:06.720 --> 00:46:07.995 align:middle line:90%
+so that gamma mu is real.
+
+00:46:07.995 --> 00:46:13.680 align:middle line:90%
+
+
+00:46:13.680 --> 00:46:18.570 align:middle line:84%
+So if this is real, and then
+these two equations become
+
+00:46:18.570 --> 00:46:27.370 align:middle line:84%
+the same, and then
+for psi being real
+
+00:46:27.370 --> 00:46:30.980 align:middle line:84%
+is compatible with the
+Dirac equation, OK?
+
+00:46:30.980 --> 00:46:34.940 align:middle line:84%
+It's compatible with
+the Dirac equation.
+
+00:46:34.940 --> 00:46:41.240 align:middle line:84%
+So, now, let's-- so then this
+becomes a question of trial
+
+00:46:41.240 --> 00:46:42.710 align:middle line:90%
+and error, OK?
+
+00:46:42.710 --> 00:46:44.990 align:middle line:84%
+So you try to find the
+representation of gamma
+
+00:46:44.990 --> 00:46:48.960 align:middle line:90%
+matrices so that it's real OK.
+
+00:46:48.960 --> 00:46:54.990 align:middle line:84%
+And then it turns
+out, you can find it,
+
+00:46:54.990 --> 00:46:56.860 align:middle line:90%
+and here is the answer.
+
+00:46:56.860 --> 00:46:59.940 align:middle line:84%
+So let me just write
+down the answer.
+
+00:46:59.940 --> 00:47:04.070 align:middle line:84%
+I don't know how he
+originally found it--
+
+00:47:04.070 --> 00:47:07.895 align:middle line:84%
+Majorana originally found
+it, but here is the answer.
+
+00:47:07.895 --> 00:47:32.290 align:middle line:90%
+
+
+00:47:32.290 --> 00:47:35.600 align:middle line:90%
+So this is four gamma matrices.
+
+00:47:35.600 --> 00:47:37.900 align:middle line:84%
+And you can see
+there, each of them
+
+00:47:37.900 --> 00:47:43.530 align:middle line:84%
+is real because sigma 2 is pure
+imaginary, and sigma 1, sigma 3
+
+00:47:43.530 --> 00:47:44.920 align:middle line:90%
+are real.
+
+00:47:44.920 --> 00:47:46.630 align:middle line:90%
+And so this is purely real.
+
+00:47:46.630 --> 00:47:47.400 align:middle line:90%
+And you can check.
+
+00:47:47.400 --> 00:47:51.258 align:middle line:84%
+This satisfied the algebra
+of the government matrices.
+
+00:47:51.258 --> 00:47:53.050 align:middle line:84%
+They satisfy the algebra
+of gamma matrices.
+
+00:47:53.050 --> 00:47:57.990 align:middle line:84%
+They anticommute with each
+other, and each of them
+
+00:47:57.990 --> 00:47:58.740 align:middle line:90%
+square--
+
+00:47:58.740 --> 00:48:00.653 align:middle line:90%
+so each of them squaring 1.
+
+00:48:00.653 --> 00:48:02.070 align:middle line:84%
+So these three
+square them into 1.
+
+00:48:02.070 --> 00:48:03.300 align:middle line:90%
+This square equal minus 1.
+
+00:48:03.300 --> 00:48:12.480 align:middle line:90%
+
+
+00:48:12.480 --> 00:48:15.210 align:middle line:84%
+So, now, this is compatible
+with Dirac equation,
+
+00:48:15.210 --> 00:48:18.370 align:middle line:90%
+but this is actually not enough.
+
+00:48:18.370 --> 00:48:20.910 align:middle line:84%
+We also have to be sure this
+is compatible with the Lorentz
+
+00:48:20.910 --> 00:48:24.430 align:middle line:90%
+transformation, OK?
+
+00:48:24.430 --> 00:48:26.930 align:middle line:84%
+So, now, let's check whether
+this is compatible with Lorentz
+
+00:48:26.930 --> 00:48:29.130 align:middle line:90%
+transformation.
+
+00:48:29.130 --> 00:48:32.750 align:middle line:90%
+So, now, we have this sigma mu--
+
+00:48:32.750 --> 00:48:33.590 align:middle line:90%
+gamma mu.
+
+00:48:33.590 --> 00:48:36.800 align:middle line:84%
+And, remember,
+the sigma mu, nu--
+
+00:48:36.800 --> 00:48:38.030 align:middle line:90%
+I just erased it.
+
+00:48:38.030 --> 00:48:43.290 align:middle line:90%
+
+
+00:48:43.290 --> 00:48:47.810 align:middle line:84%
+So now this is pure imaginary
+because if gamma mu and gamma
+
+00:48:47.810 --> 00:48:50.030 align:middle line:84%
+nu are real, their
+commutator is also real.
+
+00:48:50.030 --> 00:48:53.750 align:middle line:84%
+And then sigma mu, nu
+will be pure imaginary.
+
+00:48:53.750 --> 00:48:55.295 align:middle line:90%
+And then that means S lambda--
+
+00:48:55.295 --> 00:49:04.640 align:middle line:90%
+
+
+00:49:04.640 --> 00:49:06.245 align:middle line:90%
+so this is now purely real.
+
+00:49:06.245 --> 00:49:10.260 align:middle line:90%
+
+
+00:49:10.260 --> 00:49:12.610 align:middle line:90%
+Now, this means this is real.
+
+00:49:12.610 --> 00:49:14.800 align:middle line:90%
+And, now, we are done, OK?
+
+00:49:14.800 --> 00:49:19.180 align:middle line:84%
+That means that if we
+take the psi is real, then
+
+00:49:19.180 --> 00:49:24.010 align:middle line:84%
+after Lorentz transformation,
+this remains to be real, OK?
+
+00:49:24.010 --> 00:49:27.550 align:middle line:84%
+And so that means that it's
+compatible with Lorentz
+
+00:49:27.550 --> 00:49:29.260 align:middle line:90%
+transformation.
+
+00:49:29.260 --> 00:49:32.250 align:middle line:84%
+So if we were not compatible
+with Lorentz transmission,
+
+00:49:32.250 --> 00:49:35.010 align:middle line:90%
+then we were finished, OK?
+
+00:49:35.010 --> 00:49:36.720 align:middle line:84%
+So this shows that
+this remains real.
+
+00:49:36.720 --> 00:49:52.738 align:middle line:90%
+
+
+00:49:52.738 --> 00:49:56.350 align:middle line:84%
+So such a spinor is called
+a Majorana spinor, OK?
+
+00:49:56.350 --> 00:49:59.140 align:middle line:90%
+So it has four real components.
+
+00:49:59.140 --> 00:50:02.080 align:middle line:84%
+Yeah, we wrote there-- it
+has four real components.
+
+00:50:02.080 --> 00:50:06.940 align:middle line:90%
+
+
+00:50:06.940 --> 00:50:11.230 align:middle line:84%
+So you can quantize
+it, which, I think
+
+00:50:11.230 --> 00:50:14.140 align:middle line:84%
+I will give it as an
+exercise for you to do, OK?
+
+00:50:14.140 --> 00:50:15.430 align:middle line:90%
+You can quantize it.
+
+00:50:15.430 --> 00:50:21.910 align:middle line:84%
+And then, in this
+case, then the fermions
+
+00:50:21.910 --> 00:50:31.000 align:middle line:84%
+are its own antiparticle, rather
+than for the Dirac spinor.
+
+00:50:31.000 --> 00:50:32.950 align:middle line:84%
+You have particle
+and antiparticle,
+
+00:50:32.950 --> 00:50:39.374 align:middle line:84%
+so this is the analog of the
+real scalar in the spinor case.
+
+00:50:39.374 --> 00:50:42.100 align:middle line:90%
+
+
+00:50:42.100 --> 00:50:48.490 align:middle line:84%
+So this was discovered
+by Majorana in 1937, OK?
+
+00:50:48.490 --> 00:50:49.660 align:middle line:90%
+And he was very young.
+
+00:50:49.660 --> 00:50:52.240 align:middle line:90%
+At the time, he was 31.
+
+00:50:52.240 --> 00:50:57.670 align:middle line:84%
+And, yeah, a brilliant
+physicist, complete genius.
+
+00:50:57.670 --> 00:51:01.070 align:middle line:90%
+And then, in 1938--
+
+00:51:01.070 --> 00:51:03.860 align:middle line:90%
+so he lived in Sicily, OK?
+
+00:51:03.860 --> 00:51:05.600 align:middle line:90%
+So his hometown was in Sicily.
+
+00:51:05.600 --> 00:51:13.220 align:middle line:84%
+So he boarded a ship
+from Naples to Sicily.
+
+00:51:13.220 --> 00:51:17.150 align:middle line:84%
+And then he just disappeared
+on the ship, never seen again.
+
+00:51:17.150 --> 00:51:20.110 align:middle line:90%
+
+
+00:51:20.110 --> 00:51:25.760 align:middle line:84%
+At the age of 32,
+he just disappeared.
+
+00:51:25.760 --> 00:51:29.300 align:middle line:90%
+Yeah, it's a quite--
+
+00:51:29.300 --> 00:51:32.690 align:middle line:90%
+
+
+00:51:32.690 --> 00:51:34.790 align:middle line:84%
+yeah, extremely
+brilliant physicist.
+
+00:51:34.790 --> 00:51:35.900 align:middle line:90%
+Yeah.
+
+00:51:35.900 --> 00:51:37.940 align:middle line:84%
+And there are all
+kinds of stories
+
+00:51:37.940 --> 00:51:41.630 align:middle line:84%
+about his disappearance--
+that he may be killed by Mafia
+
+00:51:41.630 --> 00:51:44.360 align:middle line:90%
+or maybe suicide, et cetera.
+
+00:51:44.360 --> 00:51:46.600 align:middle line:90%
+But just nobody knows.
+
+00:51:46.600 --> 00:51:47.925 align:middle line:90%
+Yes?
+
+00:51:47.925 --> 00:51:50.300 align:middle line:84%
+AUDIENCE: You said that all
+the choices of gamma matrices
+
+00:51:50.300 --> 00:51:51.260 align:middle line:90%
+were equivalent.
+
+00:51:51.260 --> 00:51:52.190 align:middle line:90%
+HONG LIU: Yeah.
+
+00:51:52.190 --> 00:51:54.410 align:middle line:84%
+AUDIENCE: This doesn't
+really feel equivalent.
+
+00:51:54.410 --> 00:51:56.650 align:middle line:84%
+It is still equivalent to
+the other representations?
+
+00:51:56.650 --> 00:51:57.250 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:51:57.250 --> 00:51:58.270 align:middle line:90%
+We will talk about that.
+
+00:51:58.270 --> 00:52:02.070 align:middle line:90%
+
+
+00:52:02.070 --> 00:52:07.940 align:middle line:84%
+So now we have chosen a
+very specific representation
+
+00:52:07.940 --> 00:52:14.450 align:middle line:84%
+for gamma matrices, which psi
+can be chosen to be real, OK?
+
+00:52:14.450 --> 00:52:21.170 align:middle line:84%
+But how about for the
+general representation?
+
+00:52:21.170 --> 00:52:23.225 align:middle line:84%
+So now we talk
+about the general.
+
+00:52:23.225 --> 00:52:29.240 align:middle line:90%
+
+
+00:52:29.240 --> 00:52:34.360 align:middle line:90%
+Majorana spinor-- yeah.
+
+00:52:34.360 --> 00:52:36.060 align:middle line:84%
+Yeah, also, let me
+just make a remark.
+
+00:52:36.060 --> 00:52:39.750 align:middle line:84%
+Majorana spinor, of course,
+also plays a very important role
+
+00:52:39.750 --> 00:52:41.550 align:middle line:90%
+in modern-day physics.
+
+00:52:41.550 --> 00:52:45.720 align:middle line:90%
+
+
+00:52:45.720 --> 00:52:51.810 align:middle line:84%
+Say, for example, people suspect
+a neutrino could be a Majorana
+
+00:52:51.810 --> 00:52:53.310 align:middle line:90%
+spinner, OK?
+
+00:52:53.310 --> 00:52:57.330 align:middle line:84%
+So to check whether a neutrino
+is a Majorana spinor--
+
+00:52:57.330 --> 00:53:00.600 align:middle line:90%
+
+
+00:53:00.600 --> 00:53:03.990 align:middle line:84%
+yeah, it's a forefront
+experimental program--
+
+00:53:03.990 --> 00:53:06.600 align:middle line:90%
+has been pursued by many years.
+
+00:53:06.600 --> 00:53:12.990 align:middle line:84%
+And, also, in condensed
+matter, in quantum information,
+
+00:53:12.990 --> 00:53:16.090 align:middle line:84%
+and Majorana spinor play
+a very important role.
+
+00:53:16.090 --> 00:53:19.210 align:middle line:84%
+And so, in condensed matter,
+you only have electron.
+
+00:53:19.210 --> 00:53:23.440 align:middle line:84%
+So electron and the Majorana
+spinor is, like, half electron,
+
+00:53:23.440 --> 00:53:23.940 align:middle line:90%
+OK?
+
+00:53:23.940 --> 00:53:26.810 align:middle line:84%
+Because the electron have
+eight components, right?
+
+00:53:26.810 --> 00:53:27.390 align:middle line:90%
+Remember.
+
+00:53:27.390 --> 00:53:29.170 align:middle line:84%
+And Majorana only
+have four components.
+
+00:53:29.170 --> 00:53:32.190 align:middle line:84%
+So Majorana is,
+like, half electron.
+
+00:53:32.190 --> 00:53:36.280 align:middle line:84%
+So precisely because it's
+heuristically half electron,
+
+00:53:36.280 --> 00:53:40.210 align:middle line:84%
+it has very stable
+topological properties,
+
+00:53:40.210 --> 00:53:43.150 align:middle line:84%
+which a single
+electron does not have.
+
+00:53:43.150 --> 00:53:48.280 align:middle line:84%
+And whether you can engineer in
+your condensed matter systems,
+
+00:53:48.280 --> 00:53:50.620 align:middle line:84%
+Majorana spinor then
+became a Holy Grail.
+
+00:53:50.620 --> 00:53:54.220 align:middle line:84%
+Because if you can do it,
+and then you can do lots of--
+
+00:53:54.220 --> 00:53:58.840 align:middle line:84%
+yeah, you can achieve more
+stable quantum computation,
+
+00:53:58.840 --> 00:54:00.760 align:middle line:90%
+et cetera.
+
+00:54:00.760 --> 00:54:01.510 align:middle line:90%
+Yeah.
+
+00:54:01.510 --> 00:54:04.090 align:middle line:84%
+During the last
+number of years, there
+
+00:54:04.090 --> 00:54:06.580 align:middle line:84%
+have been various
+experimental reports.
+
+00:54:06.580 --> 00:54:10.480 align:middle line:84%
+People say they have
+engineered Majorana spinor
+
+00:54:10.480 --> 00:54:14.920 align:middle line:84%
+in the lab, which I think has
+never been fully confirmed,
+
+00:54:14.920 --> 00:54:15.880 align:middle line:90%
+I think.
+
+00:54:15.880 --> 00:54:18.130 align:middle line:84%
+None of them has
+been fully confirmed.
+
+00:54:18.130 --> 00:54:23.310 align:middle line:84%
+Anyway, so, yeah, so, now,
+let's talk about Majorana spinor
+
+00:54:23.310 --> 00:54:33.415 align:middle line:84%
+in general basis,
+for general gamma mu.
+
+00:54:33.415 --> 00:54:36.370 align:middle line:90%
+
+
+00:54:36.370 --> 00:54:43.570 align:middle line:84%
+So the idea would be similar to
+the case of the chiral spinor.
+
+00:54:43.570 --> 00:54:46.180 align:middle line:90%
+For the chiral spinor--
+
+00:54:46.180 --> 00:54:48.220 align:middle line:84%
+in the chiral basis,
+it's very simple, just
+
+00:54:48.220 --> 00:54:51.780 align:middle line:90%
+upper and lower components.
+
+00:54:51.780 --> 00:54:54.020 align:middle line:84%
+So, for the chiral
+spinor, you have
+
+00:54:54.020 --> 00:54:55.430 align:middle line:84%
+to introduce some
+other structure
+
+00:54:55.430 --> 00:54:59.780 align:middle line:84%
+to isolate psi L and
+psi R. So you have to--
+
+00:54:59.780 --> 00:55:02.000 align:middle line:84%
+now, you have this
+nontrivial condition, OK?
+
+00:55:02.000 --> 00:55:05.177 align:middle line:84%
+And the chiral fermions come
+from this nontrivial condition.
+
+00:55:05.177 --> 00:55:09.280 align:middle line:90%
+
+
+00:55:09.280 --> 00:55:10.900 align:middle line:84%
+So, now, the key
+is that, how do you
+
+00:55:10.900 --> 00:55:16.070 align:middle line:84%
+find the analogous condition
+to the psi to be real
+
+00:55:16.070 --> 00:55:18.560 align:middle line:90%
+in the general basis, OK?
+
+00:55:18.560 --> 00:55:23.370 align:middle line:84%
+Because when gamma mu is
+generally complex, clearly,
+
+00:55:23.370 --> 00:55:25.730 align:middle line:84%
+you cannot set the psi
+equal to psi star, OK?
+
+00:55:25.730 --> 00:55:27.290 align:middle line:90%
+That does not make sense.
+
+00:55:27.290 --> 00:55:30.530 align:middle line:84%
+You have to find another
+equivalent equation
+
+00:55:30.530 --> 00:55:32.420 align:middle line:84%
+to do, essentially,
+the same thing, OK?
+
+00:55:32.420 --> 00:55:35.180 align:middle line:90%
+So that's the basic idea.
+
+00:55:35.180 --> 00:55:41.430 align:middle line:84%
+OK, so for this
+purpose, we want to--
+
+00:55:41.430 --> 00:55:43.950 align:middle line:84%
+now, we use any
+gamma matrices that
+
+00:55:43.950 --> 00:55:47.090 align:middle line:84%
+are equivalent to each other
+up to a similar transformation,
+
+00:55:47.090 --> 00:55:48.820 align:middle line:90%
+OK?
+
+00:55:48.820 --> 00:55:59.840 align:middle line:84%
+So let's denote-- this
+basis by gamma m, OK?
+
+00:55:59.840 --> 00:56:05.870 align:middle line:84%
+And then we have gamma m, which
+is this called Majorana basis.
+
+00:56:05.870 --> 00:56:09.860 align:middle line:84%
+And then any choice of gamma
+mu then related to gamma m
+
+00:56:09.860 --> 00:56:11.690 align:middle line:84%
+by a similar
+transformation-- that
+
+00:56:11.690 --> 00:56:22.460 align:middle line:84%
+means there exists some matrix
+C that the C can take any gamma
+
+00:56:22.460 --> 00:56:26.390 align:middle line:90%
+mu into gamma mu m, OK?
+
+00:56:26.390 --> 00:56:29.690 align:middle line:84%
+So there must exist C, and
+this equation is satisfied.
+
+00:56:29.690 --> 00:56:37.265 align:middle line:90%
+
+
+00:56:37.265 --> 00:56:37.765 align:middle line:90%
+Good.
+
+00:56:37.765 --> 00:56:45.010 align:middle line:90%
+
+
+00:56:45.010 --> 00:56:47.530 align:middle line:84%
+So, now, given this
+C, then we can easily
+
+00:56:47.530 --> 00:56:59.260 align:middle line:84%
+write down the condition
+for the general basis
+
+00:56:59.260 --> 00:57:09.190 align:middle line:84%
+because under such
+a change of basis,
+
+00:57:09.190 --> 00:57:11.720 align:middle line:84%
+the spinor in the Majorana
+basis, which is real,
+
+00:57:11.720 --> 00:57:14.900 align:middle line:84%
+is related to the spinor
+in the gamma mu basis
+
+00:57:14.900 --> 00:57:18.840 align:middle line:90%
+by this transformation C, OK?
+
+00:57:18.840 --> 00:57:21.270 align:middle line:84%
+So the C relates to
+the gamma matrices.
+
+00:57:21.270 --> 00:57:23.400 align:middle line:84%
+But the C, of course, also
+relates to the spinor.
+
+00:57:23.400 --> 00:57:25.110 align:middle line:90%
+It's just a change of basis, OK?
+
+00:57:25.110 --> 00:57:29.840 align:middle line:84%
+And so psi M will be
+related to psi by C.
+
+00:57:29.840 --> 00:57:36.620 align:middle line:84%
+And now, since the psi M
+is equal to psi M star,
+
+00:57:36.620 --> 00:57:43.920 align:middle line:84%
+so that means that C star psi
+star should be equal to C psi,
+
+00:57:43.920 --> 00:57:44.420 align:middle line:90%
+OK?
+
+00:57:44.420 --> 00:57:50.990 align:middle line:84%
+So that means the psi star
+should be equal to B psi
+
+00:57:50.990 --> 00:57:59.390 align:middle line:84%
+with B equal to C
+minus 1 star C, OK?
+
+00:57:59.390 --> 00:58:01.340 align:middle line:84%
+So that should be the
+condition which you
+
+00:58:01.340 --> 00:58:02.705 align:middle line:90%
+impose in the general basis.
+
+00:58:02.705 --> 00:58:13.282 align:middle line:90%
+
+
+00:58:13.282 --> 00:58:14.740 align:middle line:84%
+OK, so that should
+be the condition
+
+00:58:14.740 --> 00:58:17.240 align:middle line:84%
+you should impose in
+the general basis.
+
+00:58:17.240 --> 00:58:20.350 align:middle line:84%
+So you have to introduce
+this C. So if you find that
+
+00:58:20.350 --> 00:58:28.410 align:middle line:84%
+the transformation between the
+general gamma mu and the gamma
+
+00:58:28.410 --> 00:58:32.000 align:middle line:84%
+mu m, and then you can
+use that to find the B.
+
+00:58:32.000 --> 00:58:35.580 align:middle line:84%
+And once you find the B, and
+then you can find the-- you can
+
+00:58:35.580 --> 00:58:36.540 align:middle line:90%
+impose the--
+
+00:58:36.540 --> 00:58:38.760 align:middle line:84%
+yeah, so this is called
+a Majorana condition
+
+00:58:38.760 --> 00:58:39.840 align:middle line:90%
+in the general basis.
+
+00:58:39.840 --> 00:58:53.170 align:middle line:90%
+
+
+00:58:53.170 --> 00:58:56.770 align:middle line:84%
+So let's understand
+a little bit.
+
+00:58:56.770 --> 00:59:00.435 align:middle line:84%
+So, actually, we can understand
+the B more directly, OK?
+
+00:59:00.435 --> 00:59:02.310 align:middle line:84%
+So, here, we expanded
+from C. But we actually
+
+00:59:02.310 --> 00:59:05.220 align:middle line:90%
+can find the B more directly.
+
+00:59:05.220 --> 00:59:13.920 align:middle line:84%
+We can just take the complex
+conjugate of this equation
+
+00:59:13.920 --> 00:59:16.830 align:middle line:90%
+because gamma mu m is real.
+
+00:59:16.830 --> 00:59:19.690 align:middle line:84%
+So we can also take the complex
+conjugate of this equation.
+
+00:59:19.690 --> 00:59:28.997 align:middle line:84%
+So that means that, since gamma
+mu m equal to gamma mu m star,
+
+00:59:28.997 --> 00:59:31.080 align:middle line:84%
+but if we take complex
+conjugate of that equation,
+
+00:59:31.080 --> 00:59:35.370 align:middle line:84%
+means that the C star
+gamma mu, C minus 1 star
+
+00:59:35.370 --> 00:59:40.770 align:middle line:84%
+is equal to C gamma
+mu, C minus 1.
+
+00:59:40.770 --> 00:59:42.960 align:middle line:90%
+And now, again, you just--
+
+00:59:42.960 --> 00:59:43.815 align:middle line:90%
+sorry.
+
+00:59:43.815 --> 00:59:46.020 align:middle line:90%
+This would be star, OK?
+
+00:59:46.020 --> 00:59:48.750 align:middle line:84%
+So, now, if we put all
+the C to this side,
+
+00:59:48.750 --> 00:59:56.280 align:middle line:84%
+and then we find
+gamma mu star is
+
+00:59:56.280 --> 01:00:01.050 align:middle line:84%
+just equal to B gamma
+mu, B minus 1, OK?
+
+01:00:01.050 --> 01:00:03.180 align:middle line:84%
+So you just put
+this to this side.
+
+01:00:03.180 --> 01:00:05.280 align:middle line:84%
+Then you just--
+so this becomes B,
+
+01:00:05.280 --> 01:00:09.300 align:middle line:84%
+and then this becomes
+B minus 1, OK?
+
+01:00:09.300 --> 01:00:13.950 align:middle line:90%
+So, now, we see that B--
+
+01:00:13.950 --> 01:00:15.740 align:middle line:90%
+this actually makes sense.
+
+01:00:15.740 --> 01:00:20.530 align:middle line:84%
+This is actually the matrix we
+take gamma mu to gamma mu star,
+
+01:00:20.530 --> 01:00:22.430 align:middle line:90%
+OK?
+
+01:00:22.430 --> 01:00:25.735 align:middle line:84%
+So B is the matrix
+to take star, OK?
+
+01:00:25.735 --> 01:00:31.830 align:middle line:90%
+
+
+01:00:31.830 --> 01:00:32.330 align:middle line:90%
+Good.
+
+01:00:32.330 --> 01:00:33.970 align:middle line:90%
+Any questions on this?
+
+01:00:33.970 --> 01:00:35.432 align:middle line:90%
+Yes?
+
+01:00:35.432 --> 01:00:38.610 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+this is [INAUDIBLE]..
+
+01:00:38.610 --> 01:00:39.870 align:middle line:90%
+What group to they belong to?
+
+01:00:39.870 --> 01:00:44.400 align:middle line:84%
+HONG LIU: Well, they're just
+general, nonsingular matrices.
+
+01:00:44.400 --> 01:00:45.890 align:middle line:90%
+Yeah.
+
+01:00:45.890 --> 01:00:49.295 align:middle line:84%
+Yeah, just 4-by-4
+nonsingular matrices.
+
+01:00:49.295 --> 01:00:53.480 align:middle line:90%
+
+
+01:00:53.480 --> 01:00:57.225 align:middle line:84%
+They often can be
+chosen to be unitary.
+
+01:00:57.225 --> 01:00:58.600 align:middle line:84%
+But, in principle,
+you don't have
+
+01:00:58.600 --> 01:01:00.324 align:middle line:90%
+to choose them to be unitary.
+
+01:01:00.324 --> 01:01:05.100 align:middle line:90%
+
+
+01:01:05.100 --> 01:01:08.790 align:middle line:90%
+OK, so, now, let's double check.
+
+01:01:08.790 --> 01:01:12.450 align:middle line:84%
+So let's call this
+equation star star.
+
+01:01:12.450 --> 01:01:17.550 align:middle line:90%
+So let's check that star star--
+
+01:01:17.550 --> 01:01:21.030 align:middle line:84%
+so we show that, here,
+in this representation,
+
+01:01:21.030 --> 01:01:23.520 align:middle line:84%
+this is compatible with
+Lorentz transformation, OK?
+
+01:01:23.520 --> 01:01:27.750 align:middle line:84%
+So we still need
+to check star, star
+
+01:01:27.750 --> 01:01:36.150 align:middle line:84%
+is compatible with
+Lorentz transformation.
+
+01:01:36.150 --> 01:01:41.340 align:middle line:90%
+
+
+01:01:41.340 --> 01:01:45.720 align:middle line:84%
+So what do we mean by this
+is compatible with Lorentz
+
+01:01:45.720 --> 01:01:47.740 align:middle line:90%
+transformation?
+
+01:01:47.740 --> 01:01:51.220 align:middle line:84%
+We mean that, if
+we take a psi which
+
+01:01:51.220 --> 01:01:52.630 align:middle line:90%
+satisfies this condition--
+
+01:01:52.630 --> 01:01:58.860 align:middle line:90%
+
+
+01:01:58.860 --> 01:02:04.070 align:middle line:84%
+take a psi which
+satisfies star star,
+
+01:02:04.070 --> 01:02:06.560 align:middle line:84%
+and then we make a
+Lorentz transformation psi
+
+01:02:06.560 --> 01:02:15.860 align:middle line:84%
+prime equal to S lambda psi,
+and then psi prime should also
+
+01:02:15.860 --> 01:02:17.614 align:middle line:90%
+satisfy that condition--
+
+01:02:17.614 --> 01:02:21.570 align:middle line:90%
+
+
+01:02:21.570 --> 01:02:22.440 align:middle line:90%
+star star, OK?
+
+01:02:22.440 --> 01:02:24.982 align:middle line:84%
+So that means this is compatible
+with Lorentz transformation.
+
+01:02:24.982 --> 01:02:29.070 align:middle line:84%
+It means that the
+psi prime star should
+
+01:02:29.070 --> 01:02:34.740 align:middle line:84%
+be equal to the same
+as B psi prime, OK?
+
+01:02:34.740 --> 01:02:42.080 align:middle line:84%
+So it means that psi prime star
+should satisfy that equation.
+
+01:02:42.080 --> 01:02:43.910 align:middle line:90%
+So, now, let's check that.
+
+01:02:43.910 --> 01:02:44.870 align:middle line:90%
+Now, let's check this.
+
+01:02:44.870 --> 01:02:49.110 align:middle line:90%
+
+
+01:02:49.110 --> 01:02:53.283 align:middle line:84%
+So from here-- so
+before checking that,
+
+01:02:53.283 --> 01:02:54.700 align:middle line:84%
+do you have any
+questions on this?
+
+01:02:54.700 --> 01:02:58.750 align:middle line:90%
+
+
+01:02:58.750 --> 01:02:59.250 align:middle line:90%
+OK.
+
+01:02:59.250 --> 01:03:30.450 align:middle line:90%
+
+
+01:03:30.450 --> 01:03:33.080 align:middle line:90%
+Good.
+
+01:03:33.080 --> 01:03:34.850 align:middle line:84%
+So, first, from this
+equation-- let's
+
+01:03:34.850 --> 01:03:36.095 align:middle line:90%
+call this star, star, star.
+
+01:03:36.095 --> 01:03:39.740 align:middle line:90%
+
+
+01:03:39.740 --> 01:03:42.830 align:middle line:84%
+From this star cube
+equation, so we
+
+01:03:42.830 --> 01:03:56.780 align:middle line:84%
+can find the B when you
+act on sigma mu B minus 1.
+
+01:03:56.780 --> 01:04:01.790 align:middle line:84%
+So that gives you minus
+sigma mu, nu, star, OK?
+
+01:04:01.790 --> 01:04:08.030 align:middle line:84%
+So this is obvious because
+sigma mu, nu has i there.
+
+01:04:08.030 --> 01:04:10.010 align:middle line:84%
+So the minus sign
+comes from the i.
+
+01:04:10.010 --> 01:04:15.320 align:middle line:84%
+And, otherwise, the B takes each
+gamma matrices there into star,
+
+01:04:15.320 --> 01:04:18.080 align:middle line:90%
+OK?
+
+01:04:18.080 --> 01:04:24.660 align:middle line:84%
+And then that means
+that the S star, lambda,
+
+01:04:24.660 --> 01:04:30.635 align:middle line:84%
+which is given by exponential
+1/2 omega mu, nu, sigma star--
+
+01:04:30.635 --> 01:04:33.930 align:middle line:90%
+
+
+01:04:33.930 --> 01:04:38.675 align:middle line:84%
+sigma mu, nu star,
+now this is equal to--
+
+01:04:38.675 --> 01:04:45.310 align:middle line:90%
+
+
+01:04:45.310 --> 01:04:47.815 align:middle line:90%
+yeah, you can just plug this in.
+
+01:04:47.815 --> 01:04:50.910 align:middle line:90%
+
+
+01:04:50.910 --> 01:04:53.620 align:middle line:84%
+It just becomes
+exponential minus i
+
+01:04:53.620 --> 01:05:06.480 align:middle line:84%
+omega mu, nu, B
+sigma B minus 1, OK?
+
+01:05:06.480 --> 01:05:07.850 align:middle line:90%
+So let me just--
+
+01:05:07.850 --> 01:05:11.850 align:middle line:84%
+yeah-- B sigma mu,
+nu, B minus 1, OK?
+
+01:05:11.850 --> 01:05:14.640 align:middle line:84%
+So I just inserted the
+sigma mu, nu, star.
+
+01:05:14.640 --> 01:05:16.440 align:middle line:84%
+It's equal to minus
+that here, OK?
+
+01:05:16.440 --> 01:05:19.740 align:middle line:90%
+
+
+01:05:19.740 --> 01:05:23.670 align:middle line:84%
+So, now, you can see that this
+B minus 1 is in the exponential.
+
+01:05:23.670 --> 01:05:25.980 align:middle line:84%
+You can immediately
+take it down.
+
+01:05:25.980 --> 01:05:33.295 align:middle line:84%
+So that is just equal to
+B S lambda B minus 1, OK?
+
+01:05:33.295 --> 01:05:36.970 align:middle line:90%
+
+
+01:05:36.970 --> 01:05:39.750 align:middle line:84%
+So because when you expand
+this in power series, B and B
+
+01:05:39.750 --> 01:05:43.710 align:middle line:84%
+minus 1 always cancel, except
+the first one and the last one.
+
+01:05:43.710 --> 01:05:46.830 align:middle line:84%
+So we have used this
+trick many times.
+
+01:05:46.830 --> 01:05:52.380 align:middle line:84%
+Yeah, and then so we get
+a very nice relation that,
+
+01:05:52.380 --> 01:05:56.220 align:middle line:84%
+under Lorentz transformation--
+so the Lorentz transformation
+
+01:05:56.220 --> 01:05:58.230 align:middle line:84%
+matrix on the
+complex conjugation,
+
+01:05:58.230 --> 01:06:03.660 align:middle line:84%
+again, is generated by this
+B, related by this B matrix.
+
+01:06:03.660 --> 01:06:05.415 align:middle line:84%
+And, now, it's
+just immediate, OK?
+
+01:06:05.415 --> 01:06:09.360 align:middle line:90%
+
+
+01:06:09.360 --> 01:06:15.080 align:middle line:84%
+And now just immediate, so when
+you have the psi prime equal
+
+01:06:15.080 --> 01:06:20.560 align:middle line:84%
+to that, let's just take the
+star of this equation, OK?
+
+01:06:20.560 --> 01:06:36.770 align:middle line:84%
+So psi prime star just equal
+to S star, lambda psi star, OK?
+
+01:06:36.770 --> 01:06:44.300 align:middle line:84%
+So that is equal to B S
+lambda B minus 1 and B S--
+
+01:06:44.300 --> 01:06:48.590 align:middle line:90%
+B psi, OK?
+
+01:06:48.590 --> 01:06:54.650 align:middle line:84%
+So this is equal to
+B S lambda psi, OK?
+
+01:06:54.650 --> 01:06:58.190 align:middle line:84%
+So this is equal
+to B psi prime--
+
+01:06:58.190 --> 01:06:59.780 align:middle line:84%
+precisely what we
+were trying to show.
+
+01:06:59.780 --> 01:07:09.420 align:middle line:90%
+
+
+01:07:09.420 --> 01:07:09.920 align:middle line:90%
+Good.
+
+01:07:09.920 --> 01:07:10.930 align:middle line:90%
+Any questions on this?
+
+01:07:10.930 --> 01:07:17.110 align:middle line:90%
+
+
+01:07:17.110 --> 01:07:19.710 align:middle line:84%
+OK, so, now, let me give
+you an explicit example
+
+01:07:19.710 --> 01:07:28.320 align:middle line:90%
+of this matrix B in the--
+
+01:07:28.320 --> 01:07:30.480 align:middle line:84%
+so for this Majorana
+representation,
+
+01:07:30.480 --> 01:07:32.760 align:middle line:84%
+the B is just equal
+to identity, OK?
+
+01:07:32.760 --> 01:07:37.170 align:middle line:84%
+So B is just equal to identity
+in this representation.
+
+01:07:37.170 --> 01:07:39.772 align:middle line:84%
+And, now, let's try to give
+you an example of the B
+
+01:07:39.772 --> 01:07:42.330 align:middle line:90%
+in the other representation.
+
+01:07:42.330 --> 01:07:46.240 align:middle line:84%
+So suppose, in the
+chiral representation,
+
+01:07:46.240 --> 01:07:50.160 align:middle line:90%
+which I wrote down before--
+
+01:07:50.160 --> 01:07:54.630 align:middle line:84%
+so, yeah, I should
+not have erased it.
+
+01:07:54.630 --> 01:07:56.220 align:middle line:90%
+Yeah, anyway.
+
+01:07:56.220 --> 01:07:59.320 align:middle line:84%
+So in the chiral representation
+I wrote down before,
+
+01:07:59.320 --> 01:08:01.350 align:middle line:84%
+so if you stare at
+that expression,
+
+01:08:01.350 --> 01:08:07.185 align:middle line:84%
+you find that gamma 0,
+gamma 1, and gamma 2--
+
+01:08:07.185 --> 01:08:12.330 align:middle line:84%
+or gamma 0, gamma 1, and gamma
+3 are imaginary, pure imaginary.
+
+01:08:12.330 --> 01:08:17.880 align:middle line:90%
+
+
+01:08:17.880 --> 01:08:20.040 align:middle line:90%
+And the gamma 2 is real.
+
+01:08:20.040 --> 01:08:22.800 align:middle line:90%
+
+
+01:08:22.800 --> 01:08:27.720 align:middle line:90%
+Gamma 2 is real, OK?
+
+01:08:27.720 --> 01:08:32.370 align:middle line:84%
+So this pure imaginary means,
+when you take the star of them,
+
+01:08:32.370 --> 01:08:34.210 align:middle line:90%
+you get the minus sign.
+
+01:08:34.210 --> 01:08:35.850 align:middle line:84%
+So this one, you take
+the star of them,
+
+01:08:35.850 --> 01:08:40.160 align:middle line:90%
+you just get back to itself.
+
+01:08:40.160 --> 01:08:48.790 align:middle line:84%
+So, now, if we look
+at this equation,
+
+01:08:48.790 --> 01:08:52.840 align:middle line:84%
+so if this is pure
+imaginary, you get the star.
+
+01:08:52.840 --> 01:08:55.290 align:middle line:90%
+You get the minus itself.
+
+01:08:55.290 --> 01:08:57.420 align:middle line:84%
+And then, essentially,
+you get the minus self
+
+01:08:57.420 --> 01:09:02.680 align:middle line:84%
+means the B actually
+anticommutes with gamma mu, OK?
+
+01:09:02.680 --> 01:09:05.590 align:middle line:84%
+Because you can just bring
+B minus 1 to this side,
+
+01:09:05.590 --> 01:09:10.600 align:middle line:84%
+so it just becomes gamma mu
+star B equal to B gamma mu.
+
+01:09:10.600 --> 01:09:12.340 align:middle line:84%
+So if this is minus
+gamma mu, that
+
+01:09:12.340 --> 01:09:16.270 align:middle line:84%
+means B should anticommute
+with gamma mu, OK?
+
+01:09:16.270 --> 01:09:22.109 align:middle line:84%
+But if gamma is real, that means
+B will commute with mu, OK?
+
+01:09:22.109 --> 01:09:25.560 align:middle line:84%
+If mu is real, then that means
+B should commute with mu.
+
+01:09:25.560 --> 01:09:30.990 align:middle line:84%
+So, now, in this chiral basis,
+these three are pure imaginary.
+
+01:09:30.990 --> 01:09:34.580 align:middle line:84%
+That means B needs to
+anticommute with them.
+
+01:09:34.580 --> 01:09:35.399 align:middle line:90%
+But this is real.
+
+01:09:35.399 --> 01:09:37.770 align:middle line:84%
+It means B needs to
+commute with this guy.
+
+01:09:37.770 --> 01:09:39.410 align:middle line:90%
+Then what is B?
+
+01:09:39.410 --> 01:09:40.400 align:middle line:90%
+AUDIENCE: Gamma 2.
+
+01:09:40.400 --> 01:09:41.346 align:middle line:90%
+HONG LIU: Hmm?
+
+01:09:41.346 --> 01:09:42.240 align:middle line:90%
+AUDIENCE: Gamma 2.
+
+01:09:42.240 --> 01:09:43.050 align:middle line:90%
+HONG LIU: Exactly.
+
+01:09:43.050 --> 01:09:47.005 align:middle line:84%
+So B, in this case, can
+only be gamma 2, OK?
+
+01:09:47.005 --> 01:09:50.380 align:middle line:90%
+
+
+01:09:50.380 --> 01:09:53.260 align:middle line:84%
+And then we can work
+out, what is the Majorana
+
+01:09:53.260 --> 01:09:54.384 align:middle line:90%
+condition in this basis--
+
+01:09:54.384 --> 01:09:59.600 align:middle line:90%
+
+
+01:09:59.600 --> 01:10:01.280 align:middle line:90%
+so, essentially, this condition.
+
+01:10:01.280 --> 01:10:04.710 align:middle line:90%
+
+
+01:10:04.710 --> 01:10:15.890 align:middle line:84%
+So that means that the psi star
+should be equal to gamma 2 psi,
+
+01:10:15.890 --> 01:10:16.910 align:middle line:90%
+OK?
+
+01:10:16.910 --> 01:10:20.040 align:middle line:84%
+So that's the Majorana
+condition here.
+
+01:10:20.040 --> 01:10:22.400 align:middle line:84%
+So, now, remember,
+in the chiral basis,
+
+01:10:22.400 --> 01:10:26.870 align:middle line:84%
+we can write psi in terms
+of the psi L and psi R.
+
+01:10:26.870 --> 01:10:28.910 align:middle line:84%
+So, essentially, we
+have this condition.
+
+01:10:28.910 --> 01:10:35.860 align:middle line:90%
+
+
+01:10:35.860 --> 01:10:38.210 align:middle line:90%
+So I erased my gamma 2.
+
+01:10:38.210 --> 01:10:40.160 align:middle line:90%
+So I saw the gamma 2--
+
+01:10:40.160 --> 01:10:42.290 align:middle line:90%
+let me write it here explicitly.
+
+01:10:42.290 --> 01:10:54.670 align:middle line:84%
+It's minus i gamma 2, 0 minus i
+sigma 2 and sigma 2, here, OK?
+
+01:10:54.670 --> 01:10:56.440 align:middle line:84%
+So, now, if you look
+at this condition,
+
+01:10:56.440 --> 01:11:00.460 align:middle line:84%
+this means that no longer
+psi L and psi R are no longer
+
+01:11:00.460 --> 01:11:02.060 align:middle line:90%
+independent of each other.
+
+01:11:02.060 --> 01:11:08.680 align:middle line:84%
+So psi L star should be equal
+to minus i sigma 2 psi R
+
+01:11:08.680 --> 01:11:14.280 align:middle line:84%
+or, equivalently, psi R
+equal to i sigma 2 psi L--
+
+01:11:14.280 --> 01:11:17.340 align:middle line:90%
+
+
+01:11:17.340 --> 01:11:20.550 align:middle line:90%
+or L star, OK?
+
+01:11:20.550 --> 01:11:25.340 align:middle line:84%
+So, in this case, the psi,
+then, have the following form--
+
+01:11:25.340 --> 01:11:30.450 align:middle line:84%
+psi L i sigma 2
+psi L. So sigma R
+
+01:11:30.450 --> 01:11:35.010 align:middle line:84%
+just can be expressed
+in terms of sigma L.
+
+01:11:35.010 --> 01:11:41.160 align:middle line:84%
+So this is the Majorana spinor
+in the chiral basis, OK?
+
+01:11:41.160 --> 01:11:44.550 align:middle line:84%
+You see, there are only four
+independent, real components
+
+01:11:44.550 --> 01:11:48.270 align:middle line:84%
+because each psi L is two
+complex components, OK?
+
+01:11:48.270 --> 01:11:51.950 align:middle line:90%
+
+
+01:11:51.950 --> 01:11:52.580 align:middle line:90%
+Yes?
+
+01:11:52.580 --> 01:11:54.038 align:middle line:84%
+AUDIENCE: So why
+do you [INAUDIBLE]
+
+01:11:54.038 --> 01:11:58.023 align:middle line:84%
+that psi and psi star are
+not independent [INAUDIBLE]??
+
+01:11:58.023 --> 01:11:58.606 align:middle line:90%
+HONG LIU: Hmm?
+
+01:11:58.606 --> 01:11:59.380 align:middle line:90%
+AUDIENCE: Why are they--
+
+01:11:59.380 --> 01:12:00.255 align:middle line:90%
+HONG LIU: No, no, no.
+
+01:12:00.255 --> 01:12:03.360 align:middle line:84%
+No, here, we are imposing
+this condition, right?
+
+01:12:03.360 --> 01:12:05.610 align:middle line:90%
+We are imposing this condition.
+
+01:12:05.610 --> 01:12:06.110 align:middle line:90%
+Yeah.
+
+01:12:06.110 --> 01:12:07.568 align:middle line:84%
+Yeah, this is
+Majorana condition we
+
+01:12:07.568 --> 01:12:09.040 align:middle line:90%
+want to impose in this basis.
+
+01:12:09.040 --> 01:12:12.005 align:middle line:84%
+AUDIENCE: And this is now
+independent of massless
+
+01:12:12.005 --> 01:12:12.880 align:middle line:90%
+or massive particles?
+
+01:12:12.880 --> 01:12:14.030 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+01:12:14.030 --> 01:12:15.260 align:middle line:90%
+Yeah, this is-- yeah.
+
+01:12:15.260 --> 01:12:18.730 align:middle line:90%
+
+
+01:12:18.730 --> 01:12:20.140 align:middle line:90%
+Good?
+
+01:12:20.140 --> 01:12:24.100 align:middle line:84%
+So this concludes our discussion
+of the Majorana spinor.
+
+01:12:24.100 --> 01:12:26.670 align:middle line:84%
+Do you have any
+questions on this?
+
+01:12:26.670 --> 01:12:27.390 align:middle line:90%
+Yes?
+
+01:12:27.390 --> 01:12:33.200 align:middle line:84%
+AUDIENCE: So is the
+orthogonal component of psi--
+
+01:12:33.200 --> 01:12:36.240 align:middle line:84%
+the Majorana
+fermion [INAUDIBLE]??
+
+01:12:36.240 --> 01:12:37.020 align:middle line:90%
+HONG LIU: Sorry?
+
+01:12:37.020 --> 01:12:38.437 align:middle line:84%
+AUDIENCE: The
+orthogonal component
+
+01:12:38.437 --> 01:12:41.800 align:middle line:90%
+of this Majorana species--
+
+01:12:41.800 --> 01:12:44.740 align:middle line:84%
+like, possible--
+in the chiral one,
+
+01:12:44.740 --> 01:12:47.060 align:middle line:84%
+like, psi L, and
+then you [INAUDIBLE]
+
+01:12:47.060 --> 01:12:50.265 align:middle line:84%
+and then psi R. [INAUDIBLE]
+two components of psi.
+
+01:12:50.265 --> 01:12:50.890 align:middle line:90%
+HONG LIU: Yeah.
+
+01:12:50.890 --> 01:12:52.180 align:middle line:90%
+AUDIENCE: So we are--
+
+01:12:52.180 --> 01:12:54.910 align:middle line:84%
+we have one component
+of psi, and there
+
+01:12:54.910 --> 01:12:57.080 align:middle line:90%
+should be another one, right?
+
+01:12:57.080 --> 01:12:57.705 align:middle line:90%
+So is that one?
+
+01:12:57.705 --> 01:12:58.372 align:middle line:90%
+HONG LIU: Sorry.
+
+01:12:58.372 --> 01:13:00.440 align:middle line:84%
+I don't quite understand
+your question.
+
+01:13:00.440 --> 01:13:01.607 align:middle line:90%
+Say it again-- what?
+
+01:13:01.607 --> 01:13:02.690 align:middle line:90%
+AUDIENCE: OK, [INAUDIBLE].
+
+01:13:02.690 --> 01:13:03.950 align:middle line:90%
+HONG LIU: OK, OK.
+
+01:13:03.950 --> 01:13:04.670 align:middle line:90%
+Other questions?
+
+01:13:04.670 --> 01:13:05.270 align:middle line:90%
+Yes?
+
+01:13:05.270 --> 01:13:07.580 align:middle line:84%
+AUDIENCE: So, I guess, related
+to an earlier question,
+
+01:13:07.580 --> 01:13:09.470 align:middle line:84%
+how do we consider
+handedness here
+
+01:13:09.470 --> 01:13:13.792 align:middle line:84%
+for a massless particle that's
+also the Majorana, which psi L
+
+01:13:13.792 --> 01:13:17.070 align:middle line:90%
+and psi R are [INAUDIBLE]?
+
+01:13:17.070 --> 01:13:18.150 align:middle line:90%
+HONG LIU: Right.
+
+01:13:18.150 --> 01:13:24.982 align:middle line:90%
+So for the-- yeah, if we--
+
+01:13:24.982 --> 01:13:26.440 align:middle line:84%
+for massless
+particle, you can just
+
+01:13:26.440 --> 01:13:30.850 align:middle line:84%
+direct it because then you don't
+have to think about the psi R,
+
+01:13:30.850 --> 01:13:34.510 align:middle line:84%
+and this, you just have the
+same number degrees of freedom
+
+01:13:34.510 --> 01:13:35.620 align:middle line:90%
+as a massless particle.
+
+01:13:35.620 --> 01:13:40.330 align:middle line:90%
+
+
+01:13:40.330 --> 01:13:42.160 align:middle line:90%
+Other questions?
+
+01:13:42.160 --> 01:13:42.660 align:middle line:90%
+Good.
+
+01:13:42.660 --> 01:13:45.500 align:middle line:90%
+OK.
+
+01:13:45.500 --> 01:13:46.320 align:middle line:90%
+OK, good.
+
+01:13:46.320 --> 01:13:49.220 align:middle line:84%
+So let's now go
+to the next topic.
+
+01:13:49.220 --> 01:13:52.160 align:middle line:84%
+We only have a few minutes,
+so we can only just
+
+01:13:52.160 --> 01:13:53.285 align:middle line:90%
+make some general comments.
+
+01:13:53.285 --> 01:14:01.260 align:middle line:90%
+
+
+01:14:01.260 --> 01:14:03.450 align:middle line:84%
+So so far, mostly,
+we have been talking
+
+01:14:03.450 --> 01:14:05.430 align:middle line:90%
+about continuous symmetries.
+
+01:14:05.430 --> 01:14:09.060 align:middle line:90%
+
+
+01:14:09.060 --> 01:14:14.635 align:middle line:84%
+But there are also
+discrete symmetries, OK?
+
+01:14:14.635 --> 01:14:17.960 align:middle line:90%
+
+
+01:14:17.960 --> 01:14:25.930 align:middle line:84%
+So, by definition,
+discrete symmetries
+
+01:14:25.930 --> 01:14:33.505 align:middle line:84%
+are symmetries, which don't
+have continuous parameters, OK?
+
+01:14:33.505 --> 01:14:37.780 align:middle line:90%
+
+
+01:14:37.780 --> 01:14:40.300 align:middle line:84%
+So continuous symmetries
+are symmetries, which--
+
+01:14:40.300 --> 01:14:43.450 align:middle line:90%
+
+
+01:14:43.450 --> 01:14:46.390 align:middle line:84%
+yeah, which the
+transformation dependence
+
+01:14:46.390 --> 01:14:48.520 align:middle line:90%
+on continuous parameter.
+
+01:14:48.520 --> 01:14:50.770 align:middle line:84%
+Discrete symmetries,
+you just don't, OK?
+
+01:14:50.770 --> 01:14:53.740 align:middle line:84%
+You don't have
+continuous parameter.
+
+01:14:53.740 --> 01:14:58.690 align:middle line:84%
+So simple example-- say,
+let's imagine we have--
+
+01:14:58.690 --> 01:15:01.555 align:middle line:84%
+so this real scalar theory--
+we can see that before.
+
+01:15:01.555 --> 01:15:11.410 align:middle line:90%
+
+
+01:15:11.410 --> 01:15:15.150 align:middle line:84%
+So this theory has a discrete
+symmetry because this
+
+01:15:15.150 --> 01:15:16.950 align:middle line:90%
+is invariant under phi.
+
+01:15:16.950 --> 01:15:20.940 align:middle line:90%
+It goes to minus phi, OK?
+
+01:15:20.940 --> 01:15:23.790 align:middle line:84%
+So because you see all
+the terms are even,
+
+01:15:23.790 --> 01:15:27.150 align:middle line:84%
+so it's invariant under
+phi go to minus phi.
+
+01:15:27.150 --> 01:15:29.880 align:middle line:84%
+And this transformation is
+no continuous parameter, OK?
+
+01:15:29.880 --> 01:15:33.190 align:middle line:90%
+So this is a discrete symmetry.
+
+01:15:33.190 --> 01:15:35.940 align:middle line:90%
+And so this is--
+
+01:15:35.940 --> 01:15:37.873 align:middle line:84%
+if you do it twice,
+you go back to itself.
+
+01:15:37.873 --> 01:15:39.540 align:middle line:84%
+So this is often
+called the Z2 symmetry.
+
+01:15:39.540 --> 01:15:43.500 align:middle line:90%
+
+
+01:15:43.500 --> 01:15:45.330 align:middle line:84%
+OK, so this is called
+the Z2 symmetry.
+
+01:15:45.330 --> 01:15:48.480 align:middle line:90%
+
+
+01:15:48.480 --> 01:15:53.540 align:middle line:84%
+And there are also spacetime
+discrete symmetries, OK?
+
+01:15:53.540 --> 01:15:55.940 align:middle line:84%
+So this is an internal discrete
+symmetry-- have nothing
+
+01:15:55.940 --> 01:15:57.740 align:middle line:90%
+to do with spacetime, OK?
+
+01:15:57.740 --> 01:16:00.170 align:middle line:84%
+There are also spacetime
+discrete symmetries.
+
+01:16:00.170 --> 01:16:14.640 align:middle line:90%
+
+
+01:16:14.640 --> 01:16:18.350 align:middle line:84%
+So spacetime discrete symmetries
+including, say, if we consider
+
+01:16:18.350 --> 01:16:19.850 align:middle line:90%
+Minkowski spacetime--
+
+01:16:19.850 --> 01:16:27.610 align:middle line:90%
+
+
+01:16:27.610 --> 01:16:30.820 align:middle line:84%
+so you can have t
+goes to minus t.
+
+01:16:30.820 --> 01:16:38.300 align:middle line:84%
+So you can have
+so-called time reversal,
+
+01:16:38.300 --> 01:16:44.110 align:middle line:84%
+which corresponding to your
+t, x goes to minus t, x, OK?
+
+01:16:44.110 --> 01:16:47.050 align:middle line:90%
+You just transform the time.
+
+01:16:47.050 --> 01:16:49.095 align:middle line:84%
+You can also have
+the so-called parity.
+
+01:16:49.095 --> 01:16:52.500 align:middle line:90%
+
+
+01:16:52.500 --> 01:16:53.640 align:middle line:90%
+You take t.
+
+01:16:53.640 --> 01:17:00.315 align:middle line:84%
+Then you revert all the
+spatial direction, OK?
+
+01:17:00.315 --> 01:17:09.000 align:middle line:90%
+
+
+01:17:09.000 --> 01:17:13.110 align:middle line:84%
+So comment that you
+can ask why we actually
+
+01:17:13.110 --> 01:17:16.230 align:middle line:90%
+reverse all three directions.
+
+01:17:16.230 --> 01:17:18.690 align:middle line:84%
+How about if I just
+reverse one direction
+
+01:17:18.690 --> 01:17:21.060 align:middle line:90%
+or reverse two directions, OK?
+
+01:17:21.060 --> 01:17:23.910 align:middle line:84%
+That seems also to be
+a discrete symmetry.
+
+01:17:23.910 --> 01:17:25.270 align:middle line:90%
+And indeed.
+
+01:17:25.270 --> 01:17:28.310 align:middle line:84%
+So if you just change
+the directions,
+
+01:17:28.310 --> 01:17:32.220 align:middle line:84%
+say, in the x direction, that's
+also a discrete symmetry.
+
+01:17:32.220 --> 01:17:33.940 align:middle line:84%
+And if you only
+change the direction
+
+01:17:33.940 --> 01:17:35.640 align:middle line:84%
+in both x and the
+y direction, that's
+
+01:17:35.640 --> 01:17:37.690 align:middle line:90%
+also a discrete symmetry.
+
+01:17:37.690 --> 01:17:42.510 align:middle line:90%
+But if you change--
+
+01:17:42.510 --> 01:17:46.870 align:middle line:84%
+if you do the reflection
+in two directions,
+
+01:17:46.870 --> 01:17:49.840 align:middle line:84%
+that's equivalent to
+a 90-degree rotation--
+
+01:17:49.840 --> 01:17:57.670 align:middle line:84%
+a 180-degree rotation
+in that plane, OK?
+
+01:17:57.670 --> 01:18:02.270 align:middle line:84%
+And so it's part of the
+continuous symmetries,
+
+01:18:02.270 --> 01:18:06.200 align:middle line:84%
+so it's not independent
+discrete symmetry.
+
+01:18:06.200 --> 01:18:10.430 align:middle line:84%
+And now, when you change all
+three directions compared
+
+01:18:10.430 --> 01:18:13.580 align:middle line:84%
+to change one direction,
+you differ only
+
+01:18:13.580 --> 01:18:15.390 align:middle line:90%
+by changing two directions.
+
+01:18:15.390 --> 01:18:17.240 align:middle line:84%
+So that means changing
+all three directions
+
+01:18:17.240 --> 01:18:18.907 align:middle line:84%
+and changing one
+direction-- they differ
+
+01:18:18.907 --> 01:18:21.380 align:middle line:90%
+by 180-degree rotation, OK?
+
+01:18:21.380 --> 01:18:23.060 align:middle line:84%
+So that means that
+when you change--
+
+01:18:23.060 --> 01:18:29.040 align:middle line:84%
+this is the only independent
+discrete symmetry
+
+01:18:29.040 --> 01:18:33.150 align:middle line:84%
+from the spatial
+reflection point of view.
+
+01:18:33.150 --> 01:18:35.160 align:middle line:90%
+OK.
+
+01:18:35.160 --> 01:18:40.030 align:middle line:90%
+So for a complex scalar field--
+
+01:18:40.030 --> 01:18:42.060 align:middle line:84%
+so if you consider
+complex scalar field--
+
+01:18:42.060 --> 01:18:48.630 align:middle line:90%
+
+
+01:18:48.630 --> 01:18:52.320 align:middle line:84%
+if you can see the
+complex scalar field,
+
+01:18:52.320 --> 01:18:57.380 align:middle line:84%
+then this is no longer
+a discrete symmetry
+
+01:18:57.380 --> 01:19:01.220 align:middle line:84%
+because, remember, we can
+rotate phi by a phase.
+
+01:19:01.220 --> 01:19:02.900 align:middle line:84%
+When you rotate
+the phi by a phase,
+
+01:19:02.900 --> 01:19:04.970 align:middle line:84%
+if you take that
+phase to be pi--
+
+01:19:04.970 --> 01:19:08.630 align:middle line:84%
+say, exponential i pi-- and
+then you take to be minus phi.
+
+01:19:08.630 --> 01:19:11.000 align:middle line:84%
+And so, in that
+case, this is part
+
+01:19:11.000 --> 01:19:12.890 align:middle line:84%
+of the continuous
+symmetry, so it's no longer
+
+01:19:12.890 --> 01:19:15.500 align:middle line:90%
+independent discrete symmetry.
+
+01:19:15.500 --> 01:19:17.090 align:middle line:84%
+But, here, there's,
+nevertheless,
+
+01:19:17.090 --> 01:19:19.910 align:middle line:90%
+another discrete symmetry.
+
+01:19:19.910 --> 01:19:22.400 align:middle line:84%
+Can you see what is the other
+independent discrete symmetry
+
+01:19:22.400 --> 01:19:23.880 align:middle line:90%
+here?
+
+01:19:23.880 --> 01:19:25.690 align:middle line:90%
+Yes?
+
+01:19:25.690 --> 01:19:26.230 align:middle line:90%
+Good.
+
+01:19:26.230 --> 01:19:30.430 align:middle line:84%
+You can take phi
+to phi star, OK?
+
+01:19:30.430 --> 01:19:33.640 align:middle line:84%
+You can exchange
+phi to phi star, OK?
+
+01:19:33.640 --> 01:19:35.020 align:middle line:90%
+It's a complex conjugation.
+
+01:19:35.020 --> 01:19:38.460 align:middle line:84%
+And this is often called
+charge conjugation.
+
+01:19:38.460 --> 01:19:44.360 align:middle line:90%
+
+
+01:19:44.360 --> 01:19:44.860 align:middle line:90%
+OK.
+
+01:19:44.860 --> 01:19:48.460 align:middle line:84%
+This is often called charge
+conjugation because, remember,
+
+01:19:48.460 --> 01:19:53.270 align:middle line:84%
+heuristically, we can
+think of phi as create--
+
+01:19:53.270 --> 01:19:55.270 align:middle line:84%
+yeah, it's just one of
+them create the particle,
+
+01:19:55.270 --> 01:19:57.350 align:middle line:84%
+and the other create
+the antiparticle.
+
+01:19:57.350 --> 01:19:59.770 align:middle line:84%
+And they have
+opposite charge, OK?
+
+01:19:59.770 --> 01:20:01.900 align:middle line:84%
+So it's called a
+charge conjugation.
+
+01:20:01.900 --> 01:20:05.470 align:middle line:84%
+So, this, will give
+a symbol called T--
+
+01:20:05.470 --> 01:20:09.610 align:middle line:84%
+script T. And, this, we give
+a symbol called P-- script P.
+
+01:20:09.610 --> 01:20:13.300 align:middle line:84%
+And, this, we give a
+symbol called script C. So,
+
+01:20:13.300 --> 01:20:16.420 align:middle line:84%
+altogether, they are
+called CPT symmetry, OK?
+
+01:20:16.420 --> 01:20:16.920 align:middle line:90%
+Yeah.
+
+01:20:16.920 --> 01:20:19.140 align:middle line:90%
+Yeah, let's stop here.
+
+01:20:19.140 --> 01:20:23.000 align:middle line:90%

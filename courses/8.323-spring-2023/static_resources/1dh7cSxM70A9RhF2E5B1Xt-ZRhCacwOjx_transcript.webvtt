@@ -1,0 +1,4404 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.479 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.479 --> 00:00:02.958 align:middle line:90%
+[RUSTLING]
+
+00:00:02.958 --> 00:00:05.423 align:middle line:90%
+[CLICKING]
+
+00:00:05.423 --> 00:00:10.670 align:middle line:90%
+
+
+00:00:10.670 --> 00:00:12.880 align:middle line:90%
+HONG LIU: Let us start.
+
+00:00:12.880 --> 00:00:21.120 align:middle line:84%
+So last lecture, we discussed
+the Compton scattering.
+
+00:00:21.120 --> 00:00:23.220 align:middle line:84%
+So with that example
+essentially we
+
+00:00:23.220 --> 00:00:29.970 align:middle line:84%
+covered all the tree-level
+diagrams in QED.
+
+00:00:29.970 --> 00:00:34.680 align:middle line:84%
+So tree-level diagrams means
+those not involving loop.
+
+00:00:34.680 --> 00:00:59.120 align:middle line:84%
+OK so far encountered diagrams,
+which are called the tree-level
+
+00:00:59.120 --> 00:01:06.140 align:middle line:90%
+-- without loops.
+
+00:01:06.140 --> 00:01:10.675 align:middle line:84%
+So these are called just
+tree-level diagrams.
+
+00:01:10.675 --> 00:01:18.280 align:middle line:90%
+
+
+00:01:18.280 --> 00:01:24.970 align:middle line:84%
+And so now you should be
+able to actually treat
+
+00:01:24.970 --> 00:01:26.980 align:middle line:84%
+all possible
+tree-level diagrams.
+
+00:01:26.980 --> 00:01:29.950 align:middle line:84%
+You already have all
+the tools to treat
+
+00:01:29.950 --> 00:01:33.800 align:middle line:84%
+all possible
+tree-level diagrams.
+
+00:01:33.800 --> 00:01:37.010 align:middle line:84%
+But tree-level
+diagrams, actually there
+
+00:01:37.010 --> 00:01:40.655 align:middle line:84%
+are many important
+things missing just
+
+00:01:40.655 --> 00:01:41.780 align:middle line:90%
+in the tree-level diagrams.
+
+00:01:41.780 --> 00:01:44.450 align:middle line:90%
+
+
+00:01:44.450 --> 00:01:50.550 align:middle line:84%
+So now today we will talk
+about how to go beyond that,
+
+00:01:50.550 --> 00:01:52.820 align:middle line:84%
+so we talk about
+quantum fluctuations.
+
+00:01:52.820 --> 00:02:11.230 align:middle line:90%
+
+
+00:02:11.230 --> 00:02:14.700 align:middle line:84%
+So this is a very big
+subject and actually will
+
+00:02:14.700 --> 00:02:20.710 align:middle line:84%
+consist of a big chunk of
+quantum field theory II.
+
+00:02:20.710 --> 00:02:22.860 align:middle line:84%
+So here it's more
+just to give you
+
+00:02:22.860 --> 00:02:29.145 align:middle line:84%
+a preview of the basic
+idea of the subject.
+
+00:02:29.145 --> 00:02:32.620 align:middle line:90%
+
+
+00:02:32.620 --> 00:02:35.860 align:middle line:84%
+So one feature of the tree-level
+diagram we have encountered.
+
+00:02:35.860 --> 00:02:47.620 align:middle line:90%
+
+
+00:02:47.620 --> 00:02:50.050 align:middle line:84%
+So if you want to
+summarize the say
+
+00:02:50.050 --> 00:02:52.405 align:middle line:84%
+features of tree-level
+diagrams, what would you say?
+
+00:02:52.405 --> 00:02:59.300 align:middle line:90%
+
+
+00:02:59.300 --> 00:03:00.770 align:middle line:90%
+Other than the looks.
+
+00:03:00.770 --> 00:03:02.780 align:middle line:90%
+Other than looks like tree.
+
+00:03:02.780 --> 00:03:03.740 align:middle line:90%
+Yes?
+
+00:03:03.740 --> 00:03:07.130 align:middle line:84%
+AUDIENCE: There's
+like no free momenta.
+
+00:03:07.130 --> 00:03:08.060 align:middle line:90%
+HONG LIU: Exactly.
+
+00:03:08.060 --> 00:03:22.380 align:middle line:84%
+So the key is that all
+intermediate momentum
+
+00:03:22.380 --> 00:03:29.940 align:middle line:84%
+say in all propagators,
+all intermediate momenta,
+
+00:03:29.940 --> 00:03:37.370 align:middle line:84%
+they are determined
+from external ones.
+
+00:03:37.370 --> 00:03:45.220 align:middle line:90%
+
+
+00:03:45.220 --> 00:03:48.400 align:middle line:84%
+So when you treat the
+tree-level diagram,
+
+00:03:48.400 --> 00:03:52.780 align:middle line:90%
+there's no momentum integration.
+
+00:03:52.780 --> 00:04:03.960 align:middle line:90%
+
+
+00:04:03.960 --> 00:04:08.370 align:middle line:84%
+So this looks like a very
+simple mathematical feature,
+
+00:04:08.370 --> 00:04:11.100 align:middle line:84%
+but actually it
+turns out there's
+
+00:04:11.100 --> 00:04:15.930 align:middle line:84%
+a profound difference, both
+mathematically and physically.
+
+00:04:15.930 --> 00:04:23.160 align:middle line:84%
+When you include the loops,
+there are profound differences.
+
+00:04:23.160 --> 00:04:29.630 align:middle line:90%
+And also you can show that the--
+
+00:04:29.630 --> 00:04:32.420 align:middle line:90%
+So now let me just summarize.
+
+00:04:32.420 --> 00:04:45.160 align:middle line:84%
+So now when including
+the loops, there are many
+
+00:04:45.160 --> 00:04:48.370 align:middle line:90%
+new features arises.
+
+00:04:48.370 --> 00:04:51.880 align:middle line:84%
+And so let me just first
+give you some simple examples
+
+00:04:51.880 --> 00:04:53.260 align:middle line:90%
+including loops.
+
+00:04:53.260 --> 00:04:58.630 align:middle line:84%
+So let's just consider say for
+example one is just consider
+
+00:04:58.630 --> 00:05:03.370 align:middle line:84%
+the electron propagator
+and it's just a line.
+
+00:05:03.370 --> 00:05:06.550 align:middle line:84%
+But now you can consider
+adding a photon line here.
+
+00:05:06.550 --> 00:05:09.210 align:middle line:90%
+
+
+00:05:09.210 --> 00:05:10.840 align:middle line:90%
+Adding a photon line.
+
+00:05:10.840 --> 00:05:14.400 align:middle line:84%
+So this is the process
+and now you have a loop.
+
+00:05:14.400 --> 00:05:18.850 align:middle line:84%
+It consists of this photon
+line and this electron line.
+
+00:05:18.850 --> 00:05:22.060 align:middle line:84%
+And so you can consider
+this as a process
+
+00:05:22.060 --> 00:05:26.170 align:middle line:84%
+that the electron propagates,
+and then can emit a photon,
+
+00:05:26.170 --> 00:05:28.400 align:middle line:90%
+and then it absorbs itself.
+
+00:05:28.400 --> 00:05:29.920 align:middle line:84%
+So this photon is
+purely virtual.
+
+00:05:29.920 --> 00:05:33.250 align:middle line:90%
+
+
+00:05:33.250 --> 00:05:35.620 align:middle line:90%
+It's purely a virtual photon.
+
+00:05:35.620 --> 00:05:37.360 align:middle line:84%
+But such kind of
+process actually
+
+00:05:37.360 --> 00:05:42.180 align:middle line:84%
+affects the propagation
+of an electron.
+
+00:05:42.180 --> 00:05:45.690 align:middle line:84%
+So you can view these
+photons as something
+
+00:05:45.690 --> 00:05:48.300 align:middle line:90%
+fluctuate from the vacuum.
+
+00:05:48.300 --> 00:05:51.870 align:middle line:84%
+So you can imagine these come
+from the vacuum fluctuations.
+
+00:05:51.870 --> 00:05:54.500 align:middle line:90%
+
+
+00:05:54.500 --> 00:05:56.330 align:middle line:90%
+So this is one process.
+
+00:05:56.330 --> 00:05:58.460 align:middle line:84%
+And another simple
+process, if you consider
+
+00:05:58.460 --> 00:05:59.510 align:middle line:90%
+propagation of a photon.
+
+00:05:59.510 --> 00:06:02.250 align:middle line:90%
+
+
+00:06:02.250 --> 00:06:07.610 align:middle line:84%
+And then the photon
+can actually break up,
+
+00:06:07.610 --> 00:06:10.550 align:middle line:84%
+say can compare create the
+electron and the positron pair.
+
+00:06:10.550 --> 00:06:13.570 align:middle line:90%
+
+
+00:06:13.570 --> 00:06:20.630 align:middle line:84%
+And then this pair can
+annihilate again and then
+
+00:06:20.630 --> 00:06:22.100 align:middle line:90%
+to form another photon.
+
+00:06:22.100 --> 00:06:26.190 align:middle line:90%
+
+
+00:06:26.190 --> 00:06:31.230 align:middle line:84%
+Again, this is a correction
+to just a simple propagation
+
+00:06:31.230 --> 00:06:32.200 align:middle line:90%
+of a single photon.
+
+00:06:32.200 --> 00:06:34.080 align:middle line:84%
+So initial state
+is still one photon
+
+00:06:34.080 --> 00:06:36.180 align:middle line:84%
+and the final state
+is still one photon,
+
+00:06:36.180 --> 00:06:38.610 align:middle line:84%
+but something
+happens in between.
+
+00:06:38.610 --> 00:06:42.810 align:middle line:84%
+And again, this something
+that happens in between,
+
+00:06:42.810 --> 00:06:47.670 align:middle line:84%
+you can interpret it as some
+kind of vacuum fluctuation.
+
+00:06:47.670 --> 00:06:51.780 align:middle line:84%
+So both electron and positron
+here are completely virtual.
+
+00:06:51.780 --> 00:06:53.640 align:middle line:84%
+There's no real
+electrons you can detect.
+
+00:06:53.640 --> 00:06:56.660 align:middle line:90%
+
+
+00:06:56.660 --> 00:07:00.870 align:middle line:84%
+So the third simple
+process is this one,
+
+00:07:00.870 --> 00:07:06.640 align:middle line:84%
+remember we have the electron,
+the photon interacting vertex.
+
+00:07:06.640 --> 00:07:10.030 align:middle line:90%
+So this is i e gamma mu.
+
+00:07:10.030 --> 00:07:13.090 align:middle line:84%
+So this is the electron
+phonon interaction vertex.
+
+00:07:13.090 --> 00:07:15.400 align:middle line:84%
+And this vertex can
+also be corrected.
+
+00:07:15.400 --> 00:07:18.700 align:middle line:90%
+So imagine you have a photon.
+
+00:07:18.700 --> 00:07:23.250 align:middle line:84%
+So imagine the electron when
+it comes to and then first
+
+00:07:23.250 --> 00:07:27.750 align:middle line:84%
+emit a photon and then get
+absorbed by the electron which
+
+00:07:27.750 --> 00:07:29.960 align:middle line:90%
+comes out.
+
+00:07:29.960 --> 00:07:34.270 align:middle line:84%
+And so this will
+correct the vertex,
+
+00:07:34.270 --> 00:07:36.190 align:middle line:84%
+and so this is called
+the vertex corrections.
+
+00:07:36.190 --> 00:07:39.880 align:middle line:84%
+So these two correct the
+propagator and this one
+
+00:07:39.880 --> 00:07:41.650 align:middle line:90%
+is the corrected vertex.
+
+00:07:41.650 --> 00:07:44.560 align:middle line:84%
+So these are the
+simplest loop diagrams.
+
+00:07:44.560 --> 00:07:46.360 align:middle line:84%
+These are the simplest
+loop diagrams.
+
+00:07:46.360 --> 00:07:51.940 align:middle line:84%
+In each of them here,
+there's a single loop
+
+00:07:51.940 --> 00:07:55.910 align:middle line:84%
+and then there's a free
+momentum in the loop.
+
+00:07:55.910 --> 00:07:59.200 align:middle line:84%
+So you have to integrate over
+the momentum in this loop
+
+00:07:59.200 --> 00:08:02.670 align:middle line:84%
+because it's no longer
+determined by external momenta.
+
+00:08:02.670 --> 00:08:06.200 align:middle line:84%
+It's no longer
+determined by external.
+
+00:08:06.200 --> 00:08:10.580 align:middle line:84%
+So it turns out such kind
+of momentum integration,
+
+00:08:10.580 --> 00:08:17.750 align:middle line:84%
+so if I call this momentum k,
+and then you were involving--
+
+00:08:17.750 --> 00:08:21.320 align:middle line:90%
+
+
+00:08:21.320 --> 00:08:23.540 align:middle line:84%
+So let me first talk about
+the mathematical features.
+
+00:08:23.540 --> 00:08:27.930 align:middle line:90%
+
+
+00:08:27.930 --> 00:08:38.390 align:middle line:84%
+So mathematical new
+features for loop diagram.
+
+00:08:38.390 --> 00:08:44.243 align:middle line:84%
+So mathematically now you
+need to integrate over
+
+00:08:44.243 --> 00:08:45.160 align:middle line:90%
+the internal momentum.
+
+00:08:45.160 --> 00:08:50.320 align:middle line:90%
+
+
+00:08:50.320 --> 00:08:53.740 align:middle line:84%
+So now you have some free
+momentum to integrate.
+
+00:08:53.740 --> 00:08:56.440 align:middle line:90%
+
+
+00:08:56.440 --> 00:09:01.390 align:middle line:84%
+So this may look like
+something just not very--
+
+00:09:01.390 --> 00:09:03.430 align:middle line:84%
+you may say this
+is not a big deal,
+
+00:09:03.430 --> 00:09:06.950 align:middle line:84%
+but actually this turns
+out to be a very big deal
+
+00:09:06.950 --> 00:09:12.380 align:middle line:84%
+because this momentum,
+this integration, just
+
+00:09:12.380 --> 00:09:16.560 align:middle line:84%
+by definition, is you integrate
+over all possible momentum.
+
+00:09:16.560 --> 00:09:19.110 align:middle line:90%
+
+
+00:09:19.110 --> 00:09:21.180 align:middle line:84%
+So each k is integrated
+from minus infinity
+
+00:09:21.180 --> 00:09:23.520 align:middle line:90%
+to plus infinity.
+
+00:09:23.520 --> 00:09:32.690 align:middle line:84%
+So in particular, this
+includes the region
+
+00:09:32.690 --> 00:09:37.320 align:middle line:84%
+that k0 can go to infinity
+and the magnitude of k
+
+00:09:37.320 --> 00:09:38.670 align:middle line:90%
+can also go to infinity.
+
+00:09:38.670 --> 00:09:42.380 align:middle line:90%
+
+
+00:09:42.380 --> 00:09:45.000 align:middle line:90%
+So we include those regions.
+
+00:09:45.000 --> 00:09:48.950 align:middle line:84%
+So you have this infinite
+range of integrals,
+
+00:09:48.950 --> 00:09:52.450 align:middle line:84%
+then there's a possibility
+you get divergence.
+
+00:09:52.450 --> 00:09:54.200 align:middle line:84%
+There is a possibility
+you get divergence.
+
+00:09:54.200 --> 00:09:58.300 align:middle line:84%
+And in fact, the
+divergence does happen
+
+00:09:58.300 --> 00:10:01.390 align:middle line:90%
+and happened almost everywhere.
+
+00:10:01.390 --> 00:10:03.760 align:middle line:84%
+Whenever you look
+at loop diagrams,
+
+00:10:03.760 --> 00:10:07.200 align:middle line:84%
+you always, essentially
+always, find the divergences.
+
+00:10:07.200 --> 00:10:12.160 align:middle line:90%
+
+
+00:10:12.160 --> 00:10:18.470 align:middle line:90%
+So this leads to divergences.
+
+00:10:18.470 --> 00:10:24.150 align:middle line:90%
+
+
+00:10:24.150 --> 00:10:28.750 align:middle line:84%
+And such divergences are
+now more complicated.
+
+00:10:28.750 --> 00:10:30.720 align:middle line:84%
+It's not like the
+simple divergences.
+
+00:10:30.720 --> 00:10:34.050 align:middle line:84%
+We already considered,
+we've already
+
+00:10:34.050 --> 00:10:36.570 align:middle line:84%
+seen where is
+divergent quantities,
+
+00:10:36.570 --> 00:10:38.640 align:middle line:84%
+and so far those
+divergent quantities
+
+00:10:38.640 --> 00:10:41.620 align:middle line:84%
+can be treated in a
+more or less simple way.
+
+00:10:41.620 --> 00:10:46.390 align:middle line:84%
+So we add or subtract
+the infinite constant
+
+00:10:46.390 --> 00:10:49.480 align:middle line:84%
+or you multiply by
+the infinite constant.
+
+00:10:49.480 --> 00:10:52.120 align:middle line:84%
+And in the case of when you
+multiply by infinite constant,
+
+00:10:52.120 --> 00:10:54.220 align:middle line:84%
+you can always take
+the ratio and then
+
+00:10:54.220 --> 00:10:55.720 align:middle line:84%
+those infinite
+constants go away.
+
+00:10:55.720 --> 00:10:58.210 align:middle line:84%
+Or you can just subtract
+the infinite constant,
+
+00:10:58.210 --> 00:11:02.730 align:middle line:84%
+redefine your energy, redefine
+your charge, et cetera.
+
+00:11:02.730 --> 00:11:04.527 align:middle line:84%
+But in those diagrams,
+the divergences
+
+00:11:04.527 --> 00:11:06.110 align:middle line:84%
+are much more
+complicated because they
+
+00:11:06.110 --> 00:11:11.820 align:middle line:84%
+come from doing some integration
+of some complicated expression.
+
+00:11:11.820 --> 00:11:15.000 align:middle line:84%
+And so those divergences cannot
+be simply removed where you
+
+00:11:15.000 --> 00:11:16.950 align:middle line:84%
+just add the constant,
+or remove a constant,
+
+00:11:16.950 --> 00:11:18.195 align:middle line:90%
+or just multiply by a factor.
+
+00:11:18.195 --> 00:11:20.740 align:middle line:90%
+
+
+00:11:20.740 --> 00:11:26.980 align:middle line:84%
+And so they actually
+cannot be removed.
+
+00:11:26.980 --> 00:11:29.560 align:middle line:90%
+
+
+00:11:29.560 --> 00:11:39.660 align:middle line:84%
+In general, cannot be removed
+simply by say subtractions.
+
+00:11:39.660 --> 00:11:55.610 align:middle line:84%
+Removed by simple
+subtractions or divisions.
+
+00:11:55.610 --> 00:11:59.240 align:middle line:90%
+
+
+00:11:59.240 --> 00:12:00.920 align:middle line:84%
+So in other words,
+the expression
+
+00:12:00.920 --> 00:12:02.660 align:middle line:84%
+you get from doing
+such integration just
+
+00:12:02.660 --> 00:12:03.500 align:middle line:90%
+don't make sense.
+
+00:12:03.500 --> 00:12:06.020 align:middle line:90%
+
+
+00:12:06.020 --> 00:12:19.258 align:middle line:84%
+So the results from these
+diagrams are not well-defined.
+
+00:12:19.258 --> 00:12:35.920 align:middle line:90%
+
+
+00:12:35.920 --> 00:12:39.030 align:middle line:84%
+So the result is
+not well-defined.
+
+00:12:39.030 --> 00:12:47.580 align:middle line:84%
+So normally when we
+encounter divergences,
+
+00:12:47.580 --> 00:12:51.060 align:middle line:84%
+we always tell a student
+we encounter divergences
+
+00:12:51.060 --> 00:12:55.980 align:middle line:84%
+of course, one obvious reason
+is that you did something wrong.
+
+00:12:55.980 --> 00:12:59.250 align:middle line:90%
+You just made a mistake.
+
+00:12:59.250 --> 00:13:01.890 align:middle line:84%
+But if you have done
+everything right,
+
+00:13:01.890 --> 00:13:05.550 align:middle line:84%
+when you encounter divergences,
+actually that's an opportunity.
+
+00:13:05.550 --> 00:13:07.458 align:middle line:84%
+Because each time
+you see a divergence,
+
+00:13:07.458 --> 00:13:09.000 align:middle line:84%
+then that means
+there's something you
+
+00:13:09.000 --> 00:13:11.600 align:middle line:90%
+don't understand about physics.
+
+00:13:11.600 --> 00:13:14.240 align:middle line:84%
+If you understand, by
+definition, in physics
+
+00:13:14.240 --> 00:13:18.020 align:middle line:84%
+you do not have divergences, if
+you understand everything well.
+
+00:13:18.020 --> 00:13:23.990 align:middle line:84%
+And so divergence is
+mathematics telling you
+
+00:13:23.990 --> 00:13:26.080 align:middle line:84%
+there's some important
+physics you're missing.
+
+00:13:26.080 --> 00:13:30.960 align:middle line:90%
+
+
+00:13:30.960 --> 00:13:32.460 align:middle line:84%
+So when you look
+at this divergence,
+
+00:13:32.460 --> 00:13:36.540 align:middle line:84%
+you can say, oh, what
+physics are we missing here?
+
+00:13:36.540 --> 00:13:40.270 align:middle line:84%
+So the physics missing
+here is very simple.
+
+00:13:40.270 --> 00:13:43.080 align:middle line:84%
+The physics missing
+here is very simple.
+
+00:13:43.080 --> 00:13:46.350 align:middle line:84%
+Because these integrals,
+because the divergent region
+
+00:13:46.350 --> 00:13:49.437 align:middle line:84%
+corresponding to those
+quantities go to infinity,
+
+00:13:49.437 --> 00:13:51.020 align:middle line:84%
+so those quantities
+go to the infinity
+
+00:13:51.020 --> 00:13:53.010 align:middle line:84%
+because one is you
+have very high energy,
+
+00:13:53.010 --> 00:13:54.005 align:middle line:90%
+very large momentum.
+
+00:13:54.005 --> 00:13:57.800 align:middle line:90%
+
+
+00:13:57.800 --> 00:14:03.580 align:middle line:84%
+In other words, from very
+short distance physics.
+
+00:14:03.580 --> 00:14:07.030 align:middle line:84%
+But very short,
+that comes from--
+
+00:14:07.030 --> 00:14:10.470 align:middle line:90%
+
+
+00:14:10.470 --> 00:14:22.170 align:middle line:84%
+So divergences come from
+naive extrapolation.
+
+00:14:22.170 --> 00:14:28.100 align:middle line:90%
+
+
+00:14:28.100 --> 00:14:42.240 align:middle line:84%
+They say consider QED to
+arbitrarily high energy scales.
+
+00:14:42.240 --> 00:14:48.900 align:middle line:90%
+
+
+00:14:48.900 --> 00:14:52.290 align:middle line:84%
+Because we used the
+framework of QED
+
+00:14:52.290 --> 00:14:57.110 align:middle line:84%
+but when we do this integration
+involving very large momentum.
+
+00:14:57.110 --> 00:15:00.380 align:middle line:84%
+But nobody actually tells us
+that a QED should be valid
+
+00:15:00.380 --> 00:15:03.980 align:middle line:84%
+at not very high energies
+because the real experiment you
+
+00:15:03.980 --> 00:15:09.710 align:middle line:84%
+cannot probe very high energy
+process or very short distance
+
+00:15:09.710 --> 00:15:13.780 align:middle line:84%
+because it's the limit
+of our energy resolution.
+
+00:15:13.780 --> 00:15:16.760 align:middle line:84%
+So there's no reason
+to trust actually QED
+
+00:15:16.760 --> 00:15:22.280 align:middle line:84%
+should be valid for k
+0 and k to infinity.
+
+00:15:22.280 --> 00:15:23.060 align:middle line:90%
+Yes?
+
+00:15:23.060 --> 00:15:26.780 align:middle line:84%
+AUDIENCE: Is the divergence
+the result of the problem
+
+00:15:26.780 --> 00:15:30.730 align:middle line:90%
+in the perturbative expansion?
+
+00:15:30.730 --> 00:15:35.370 align:middle line:84%
+Or is it a problem with
+the original [INAUDIBLE]??
+
+00:15:35.370 --> 00:15:37.500 align:middle line:84%
+HONG LIU: Yeah,
+it's not a feature
+
+00:15:37.500 --> 00:15:39.000 align:middle line:90%
+of the perturbative expansion.
+
+00:15:39.000 --> 00:15:41.550 align:middle line:84%
+AUDIENCE: So it's a
+legitimate problem.
+
+00:15:41.550 --> 00:15:43.300 align:middle line:84%
+HONG LIU: Yeah, it's
+a legitimate problem.
+
+00:15:43.300 --> 00:15:48.440 align:middle line:90%
+
+
+00:15:48.440 --> 00:15:51.668 align:middle line:84%
+So this divergence just
+comes from we extrapolate QED
+
+00:15:51.668 --> 00:15:53.085 align:middle line:84%
+to arbitrary higher
+energy scales.
+
+00:15:53.085 --> 00:15:56.270 align:middle line:90%
+
+
+00:15:56.270 --> 00:16:01.770 align:middle line:84%
+So you say, OK,
+then what do we do?
+
+00:16:01.770 --> 00:16:02.880 align:middle line:90%
+Then what do we do?
+
+00:16:02.880 --> 00:16:09.530 align:middle line:84%
+So the simplest thing you can
+do you say, I only can measure
+
+00:16:09.530 --> 00:16:15.170 align:middle line:84%
+suppose in the 1930s when people
+first encountered this problem.
+
+00:16:15.170 --> 00:16:20.000 align:middle line:84%
+And you say, OK, and then
+let's put the cutoff.
+
+00:16:20.000 --> 00:16:24.560 align:middle line:84%
+Here let's only include
+the energy regime
+
+00:16:24.560 --> 00:16:25.835 align:middle line:90%
+which we can access.
+
+00:16:25.835 --> 00:16:29.460 align:middle line:90%
+
+
+00:16:29.460 --> 00:16:34.110 align:middle line:84%
+But again, what cutoff
+do you put here?
+
+00:16:34.110 --> 00:16:36.510 align:middle line:84%
+So it's not clear what kind
+of cutoff you put there.
+
+00:16:36.510 --> 00:16:40.170 align:middle line:84%
+What is the validity
+of this theory?
+
+00:16:40.170 --> 00:16:42.450 align:middle line:84%
+So ideally you should
+put a cutoff there
+
+00:16:42.450 --> 00:16:50.820 align:middle line:84%
+to add the boundary of
+the validity of the QED.
+
+00:16:50.820 --> 00:16:53.790 align:middle line:84%
+But before you actually
+can probe the scale
+
+00:16:53.790 --> 00:16:56.850 align:middle line:90%
+which QED breaks down.
+
+00:16:56.850 --> 00:16:58.690 align:middle line:90%
+Which scale should we put there?
+
+00:16:58.690 --> 00:17:00.690 align:middle line:90%
+So we don't know.
+
+00:17:00.690 --> 00:17:04.819 align:middle line:84%
+So for many years,
+people thought
+
+00:17:04.819 --> 00:17:08.060 align:middle line:84%
+just doing these
+kinds of diagrams
+
+00:17:08.060 --> 00:17:11.359 align:middle line:84%
+just doesn't make physical
+sense because we don't know
+
+00:17:11.359 --> 00:17:13.800 align:middle line:90%
+the short distance physics.
+
+00:17:13.800 --> 00:17:17.200 align:middle line:84%
+We don't know the
+short distance physics.
+
+00:17:17.200 --> 00:17:23.760 align:middle line:84%
+And indeed, this point
+of view was justified.
+
+00:17:23.760 --> 00:17:30.080 align:middle line:84%
+So for some years people
+just gave up on these ideas.
+
+00:17:30.080 --> 00:17:32.890 align:middle line:84%
+They just said, maybe
+this does not make sense.
+
+00:17:32.890 --> 00:17:39.520 align:middle line:84%
+But then after the Second
+World War in the late 40s,
+
+00:17:39.520 --> 00:17:42.370 align:middle line:84%
+a few young physicists
+at the time,
+
+00:17:42.370 --> 00:17:48.490 align:middle line:84%
+Schwinger, Feynman in the United
+States and Tomonaga in Japan,
+
+00:17:48.490 --> 00:17:53.470 align:middle line:84%
+they actually say,
+OK, even though there
+
+00:17:53.470 --> 00:17:56.830 align:middle line:84%
+are these kinds of
+divergences, and even though we
+
+00:17:56.830 --> 00:17:59.110 align:middle line:84%
+don't understand the
+short distance physics,
+
+00:17:59.110 --> 00:18:03.070 align:middle line:84%
+let's see whether we can
+just use brute force,
+
+00:18:03.070 --> 00:18:07.150 align:middle line:84%
+try to design some
+mathematical way to get rid
+
+00:18:07.150 --> 00:18:09.550 align:middle line:84%
+of those divergences,
+and see whether I
+
+00:18:09.550 --> 00:18:12.540 align:middle line:90%
+can get sensible results.
+
+00:18:12.540 --> 00:18:15.030 align:middle line:84%
+And so that was
+their starting point,
+
+00:18:15.030 --> 00:18:17.430 align:middle line:84%
+and that was their
+starting point.
+
+00:18:17.430 --> 00:18:19.740 align:middle line:84%
+And it was a crazy
+starting point
+
+00:18:19.740 --> 00:18:22.020 align:middle line:84%
+because of the physical
+reason for those divergences
+
+00:18:22.020 --> 00:18:24.090 align:middle line:90%
+are very clear.
+
+00:18:24.090 --> 00:18:27.540 align:middle line:84%
+But then it turned
+out that they actually
+
+00:18:27.540 --> 00:18:30.030 align:middle line:90%
+managed to be successful.
+
+00:18:30.030 --> 00:18:43.570 align:middle line:84%
+So in the late 1940s
+people found the method.
+
+00:18:43.570 --> 00:18:49.240 align:middle line:84%
+So Feynman, Schwinger,
+and Tomonaga
+
+00:18:49.240 --> 00:19:13.750 align:middle line:84%
+managed to find a way to
+remove the divergences
+
+00:19:13.750 --> 00:19:31.595 align:middle line:84%
+and create a physically sensible
+answer from such diagrams.
+
+00:19:31.595 --> 00:19:39.990 align:middle line:90%
+
+
+00:19:39.990 --> 00:19:44.700 align:middle line:84%
+And also, at the
+beginning, their work
+
+00:19:44.700 --> 00:19:47.610 align:middle line:84%
+was very complicated and
+very few people actually
+
+00:19:47.610 --> 00:19:49.110 align:middle line:90%
+understood them.
+
+00:19:49.110 --> 00:19:52.620 align:middle line:84%
+And then Feynman used
+Feynman diagrams,
+
+00:19:52.620 --> 00:19:55.710 align:middle line:84%
+so he invented the Feynman
+diagrams to do this.
+
+00:19:55.710 --> 00:19:57.960 align:middle line:84%
+Because previously people
+do those calculations.
+
+00:19:57.960 --> 00:20:01.380 align:middle line:84%
+They don't use Feynman diagrams
+and they use very complicated
+
+00:20:01.380 --> 00:20:04.110 align:middle line:84%
+perturbation
+theory, as you do in
+
+00:20:04.110 --> 00:20:06.390 align:middle line:90%
+the long relativistic physics.
+
+00:20:06.390 --> 00:20:08.580 align:middle line:84%
+It's very complicated,
+and actually that's
+
+00:20:08.580 --> 00:20:12.340 align:middle line:84%
+what the Schwinger and the
+Tomonaga they were doing.
+
+00:20:12.340 --> 00:20:14.940 align:middle line:84%
+So at the beginning, this
+thing was very complicated,
+
+00:20:14.940 --> 00:20:19.770 align:middle line:84%
+but then Freeman Dyson
+soon afterwards, he
+
+00:20:19.770 --> 00:20:23.630 align:middle line:84%
+understood all their work and
+actually greatly simplified
+
+00:20:23.630 --> 00:20:25.260 align:middle line:90%
+the process.
+
+00:20:25.260 --> 00:20:28.020 align:middle line:84%
+And actually, the
+current understanding
+
+00:20:28.020 --> 00:20:30.630 align:middle line:84%
+essentially came from
+the simplification
+
+00:20:30.630 --> 00:20:31.950 align:middle line:90%
+of the Freeman Dyson.
+
+00:20:31.950 --> 00:20:35.410 align:middle line:84%
+And the Freeman Dyson actually
+operated a Feynman diagram fact
+
+00:20:35.410 --> 00:20:35.910 align:middle line:90%
+--
+
+00:20:35.910 --> 00:20:38.580 align:middle line:90%
+Feynman diagram training --
+
+00:20:38.580 --> 00:20:42.660 align:middle line:84%
+essentially operated the Feynman
+diagram training at camp,
+
+00:20:42.660 --> 00:20:46.040 align:middle line:84%
+at the institute for advanced
+study when he was a member.
+
+00:20:46.040 --> 00:20:48.060 align:middle line:84%
+So people went through
+there, they all
+
+00:20:48.060 --> 00:20:51.210 align:middle line:84%
+learned this Feynman diagram
+techniques from Freeman Dyson,
+
+00:20:51.210 --> 00:20:53.970 align:middle line:84%
+and then they spread it
+out to all other places.
+
+00:20:53.970 --> 00:20:57.900 align:middle line:84%
+That's how Feynman diagram
+techniques got spread out
+
+00:20:57.900 --> 00:20:59.790 align:middle line:90%
+in the physical community.
+
+00:20:59.790 --> 00:21:05.790 align:middle line:84%
+And anyway, so Freeman Dyson,
+he simplified the process,
+
+00:21:05.790 --> 00:21:09.900 align:middle line:84%
+and then people
+eventually understood.
+
+00:21:09.900 --> 00:21:14.350 align:middle line:84%
+And there is a well-defined
+mathematical procedure
+
+00:21:14.350 --> 00:21:16.810 align:middle line:84%
+you can actually get
+rid of those divergences
+
+00:21:16.810 --> 00:21:21.880 align:middle line:84%
+and get a physically
+sensible answer.
+
+00:21:21.880 --> 00:21:24.270 align:middle line:90%
+And so it was a funny story.
+
+00:21:24.270 --> 00:21:27.110 align:middle line:90%
+
+
+00:21:27.110 --> 00:21:29.722 align:middle line:84%
+This is called the program
+of renormalization.
+
+00:21:29.722 --> 00:21:32.490 align:middle line:90%
+
+
+00:21:32.490 --> 00:21:35.370 align:middle line:84%
+The process of getting
+rid of the divergences.
+
+00:21:35.370 --> 00:21:41.720 align:middle line:90%
+
+
+00:21:41.720 --> 00:21:44.890 align:middle line:90%
+And this is a funny story.
+
+00:21:44.890 --> 00:21:51.120 align:middle line:84%
+It's because, as I said,
+there's a very physical--
+
+00:21:51.120 --> 00:21:54.510 align:middle line:84%
+This is a very funny story
+for the following reason.
+
+00:21:54.510 --> 00:21:59.880 align:middle line:84%
+As I mentioned, we do know
+where the divergences come from.
+
+00:21:59.880 --> 00:22:02.850 align:middle line:84%
+Divergences come from our lack
+understanding of short distance
+
+00:22:02.850 --> 00:22:04.100 align:middle line:90%
+physics.
+
+00:22:04.100 --> 00:22:08.690 align:middle line:84%
+And normally you believe you
+can only cure the divergence
+
+00:22:08.690 --> 00:22:10.400 align:middle line:90%
+if you understand that physics.
+
+00:22:10.400 --> 00:22:12.020 align:middle line:84%
+If you don't understand
+that physics,
+
+00:22:12.020 --> 00:22:15.170 align:middle line:90%
+how you cure that divergence?
+
+00:22:15.170 --> 00:22:17.700 align:middle line:84%
+So that's what most people
+thought at the time,
+
+00:22:17.700 --> 00:22:20.690 align:middle line:84%
+including all these quantum
+mechanics big shots.
+
+00:22:20.690 --> 00:22:24.740 align:middle line:84%
+All these old people,
+like Dirac, Pauli,
+
+00:22:24.740 --> 00:22:27.020 align:middle line:84%
+all those giants of
+quantum mechanics.
+
+00:22:27.020 --> 00:22:31.880 align:middle line:84%
+They all believed you have to
+do something radical to QED,
+
+00:22:31.880 --> 00:22:33.755 align:middle line:84%
+otherwise QED cannot
+be made sense.
+
+00:22:33.755 --> 00:22:37.070 align:middle line:84%
+You have to invent some
+completely new formalism
+
+00:22:37.070 --> 00:22:41.420 align:middle line:84%
+to circumvent those
+divergences exactly.
+
+00:22:41.420 --> 00:22:48.930 align:middle line:84%
+But then Dyson later commented
+that those young people at
+
+00:22:48.930 --> 00:22:51.810 align:middle line:84%
+the time they said
+we were conservative.
+
+00:22:51.810 --> 00:22:54.153 align:middle line:84%
+We want you just to look
+at those calculations
+
+00:22:54.153 --> 00:22:56.070 align:middle line:84%
+just want to make sense
+of those calculations.
+
+00:22:56.070 --> 00:22:58.110 align:middle line:84%
+We don't think of
+those grand physics.
+
+00:22:58.110 --> 00:23:00.330 align:middle line:84%
+I just want to make sense
+of those calculations,
+
+00:23:00.330 --> 00:23:02.040 align:middle line:90%
+and then they succeeded.
+
+00:23:02.040 --> 00:23:04.920 align:middle line:84%
+So this is an example in
+which very old people,
+
+00:23:04.920 --> 00:23:07.830 align:middle line:84%
+they want to do
+grand new physics,
+
+00:23:07.830 --> 00:23:10.350 align:middle line:84%
+but young people wanted to
+do conservative physics, just
+
+00:23:10.350 --> 00:23:15.020 align:middle line:84%
+two calculations, one
+calculation at a time
+
+00:23:15.020 --> 00:23:18.390 align:middle line:84%
+without clear
+physical motivation.
+
+00:23:18.390 --> 00:23:21.330 align:middle line:84%
+But those young people
+turned out to be correct,
+
+00:23:21.330 --> 00:23:23.700 align:middle line:84%
+and so they came up
+with this program.
+
+00:23:23.700 --> 00:23:24.360 align:middle line:90%
+Yes?
+
+00:23:24.360 --> 00:23:28.860 align:middle line:84%
+AUDIENCE: So
+[INAUDIBLE] resolve is
+
+00:23:28.860 --> 00:23:33.380 align:middle line:84%
+more accurate than the
+tree-level diagram?
+
+00:23:33.380 --> 00:23:35.467 align:middle line:90%
+And then how much more accurate?
+
+00:23:35.467 --> 00:23:37.050 align:middle line:84%
+HONG LIU: No, it's
+not about accuracy.
+
+00:23:37.050 --> 00:23:41.880 align:middle line:84%
+It's about finding a sensible
+way to hide the divergences.
+
+00:23:41.880 --> 00:23:44.325 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:23:44.325 --> 00:23:44.950 align:middle line:90%
+HONG LIU: Yeah.
+
+00:23:44.950 --> 00:23:47.987 align:middle line:90%
+
+
+00:23:47.987 --> 00:23:50.320 align:middle line:84%
+Because today we will not be
+able to go into the detail.
+
+00:23:50.320 --> 00:23:54.070 align:middle line:84%
+I'm going to only
+tell you the result.
+
+00:23:54.070 --> 00:23:57.970 align:middle line:84%
+So that's why their result was
+actually radical in some way.
+
+00:23:57.970 --> 00:24:02.130 align:middle line:84%
+Because they realized
+there is some way somehow
+
+00:24:02.130 --> 00:24:04.290 align:middle line:84%
+those divergences,
+even they are there,
+
+00:24:04.290 --> 00:24:07.560 align:middle line:84%
+they do not affect
+those observable physics
+
+00:24:07.560 --> 00:24:11.570 align:middle line:90%
+you can measure.
+
+00:24:11.570 --> 00:24:13.410 align:middle line:90%
+They don't affect those things.
+
+00:24:13.410 --> 00:24:16.160 align:middle line:84%
+So you can find some
+mathematical trick
+
+00:24:16.160 --> 00:24:17.840 align:middle line:90%
+to remove them.
+
+00:24:17.840 --> 00:24:27.550 align:middle line:90%
+
+
+00:24:27.550 --> 00:24:30.970 align:middle line:84%
+But for many years, so
+after they succeeded,
+
+00:24:30.970 --> 00:24:34.270 align:middle line:84%
+so this is late 1940s,
+and the Dyson was also
+
+00:24:34.270 --> 00:24:39.670 align:middle line:90%
+late 1940s, early 1950.
+
+00:24:39.670 --> 00:24:45.100 align:middle line:84%
+And then as I'm going to mention
+at the end of today's lecture,
+
+00:24:45.100 --> 00:24:51.400 align:middle line:84%
+the first calculated quantity is
+this anomalous magnetic moment,
+
+00:24:51.400 --> 00:24:56.240 align:middle line:84%
+which now requires doing
+a calculation of this one.
+
+00:24:56.240 --> 00:24:59.440 align:middle line:84%
+Doing a calculation of
+this one and Schwinger
+
+00:24:59.440 --> 00:25:01.240 align:middle line:90%
+did the first calculation.
+
+00:25:01.240 --> 00:25:05.350 align:middle line:84%
+And then he calculated
+the correction of this
+
+00:25:05.350 --> 00:25:09.040 align:middle line:84%
+to the magnetic
+moment of electron.
+
+00:25:09.040 --> 00:25:11.870 align:middle line:84%
+And that agreed very
+well with experiments,
+
+00:25:11.870 --> 00:25:15.280 align:middle line:84%
+so that was a
+triumph at the time.
+
+00:25:15.280 --> 00:25:19.680 align:middle line:84%
+So the experiment
+verified their success.
+
+00:25:19.680 --> 00:25:23.790 align:middle line:84%
+But still, many people
+didn't believe this actually
+
+00:25:23.790 --> 00:25:26.948 align:middle line:90%
+was something sensible.
+
+00:25:26.948 --> 00:25:28.740 align:middle line:84%
+For many years, people
+thought this is just
+
+00:25:28.740 --> 00:25:32.890 align:middle line:84%
+a mathematical trick
+to get some answer.
+
+00:25:32.890 --> 00:25:36.000 align:middle line:84%
+And so many people
+still, for many years
+
+00:25:36.000 --> 00:25:40.800 align:middle line:84%
+people were doubting this
+program of renormalization.
+
+00:25:40.800 --> 00:25:47.160 align:middle line:84%
+And then only much later
+in late 1960s or 1970s,
+
+00:25:47.160 --> 00:25:51.720 align:middle line:84%
+when Ken Wilson came
+up with this idea
+
+00:25:51.720 --> 00:25:54.450 align:middle line:84%
+called renormalization
+group, and then
+
+00:25:54.450 --> 00:25:58.140 align:middle line:84%
+people finally understood
+the physical reasoning
+
+00:25:58.140 --> 00:26:00.540 align:middle line:84%
+and the physical basis
+behind this program
+
+00:26:00.540 --> 00:26:01.875 align:middle line:90%
+of renormalization.
+
+00:26:01.875 --> 00:26:04.560 align:middle line:90%
+
+
+00:26:04.560 --> 00:26:12.180 align:middle line:84%
+So that was a revolutionary
+progress made by Wilson.
+
+00:26:12.180 --> 00:26:19.610 align:middle line:84%
+So all this will be covered in
+detail in Quantum Field Theory
+
+00:26:19.610 --> 00:26:21.605 align:middle line:90%
+II.
+
+00:26:21.605 --> 00:26:25.310 align:middle line:84%
+And so today let me just
+very quickly tell you
+
+00:26:25.310 --> 00:26:30.470 align:middle line:84%
+what these three
+loop diagrams do.
+
+00:26:30.470 --> 00:26:33.270 align:middle line:90%
+
+
+00:26:33.270 --> 00:26:37.470 align:middle line:84%
+So first let me make
+some general remarks.
+
+00:26:37.470 --> 00:26:40.260 align:middle line:84%
+So mathematically,
+you get divergences
+
+00:26:40.260 --> 00:26:46.890 align:middle line:84%
+and then you have to find a way
+to get rid of the divergences.
+
+00:26:46.890 --> 00:26:48.975 align:middle line:84%
+And physically, there are
+also some new features.
+
+00:26:48.975 --> 00:26:53.393 align:middle line:90%
+
+
+00:26:53.393 --> 00:26:54.810 align:middle line:84%
+New important
+conceptual features.
+
+00:26:54.810 --> 00:26:57.930 align:middle line:90%
+
+
+00:26:57.930 --> 00:26:59.190 align:middle line:90%
+So any questions on this?
+
+00:26:59.190 --> 00:27:02.130 align:middle line:90%
+
+
+00:27:02.130 --> 00:27:15.240 align:middle line:84%
+So the first feature,
+I already mentioned.
+
+00:27:15.240 --> 00:27:18.230 align:middle line:90%
+We include such loops.
+
+00:27:18.230 --> 00:27:31.740 align:middle line:84%
+You essentially include
+the quantum fluctuations
+
+00:27:31.740 --> 00:27:32.340 align:middle line:90%
+of the vacuum.
+
+00:27:32.340 --> 00:27:37.450 align:middle line:90%
+
+
+00:27:37.450 --> 00:27:42.390 align:middle line:84%
+So all this process, so that
+electron pair, that photon,
+
+00:27:42.390 --> 00:27:44.970 align:middle line:84%
+and that photon they all
+some virtual particle
+
+00:27:44.970 --> 00:27:50.650 align:middle line:84%
+just come from the vacuum, just
+from the vacuum fluctuations.
+
+00:27:50.650 --> 00:27:56.727 align:middle line:84%
+So you can actually show
+mathematically rigorously.
+
+00:27:56.727 --> 00:27:57.935 align:middle line:90%
+That the tree-level diagrams.
+
+00:27:57.935 --> 00:28:01.370 align:middle line:90%
+
+
+00:28:01.370 --> 00:28:13.880 align:middle line:84%
+Any tree-level diagrams
+can be obtained
+
+00:28:13.880 --> 00:28:28.827 align:middle line:84%
+from solving your equation
+of motion perturbatively.
+
+00:28:28.827 --> 00:28:40.770 align:middle line:90%
+
+
+00:28:40.770 --> 00:28:45.420 align:middle line:84%
+So just take your nonlinear
+equation of motion,
+
+00:28:45.420 --> 00:28:48.930 align:middle line:84%
+take the QED, you write down the
+nonlinear equation of motion,
+
+00:28:48.930 --> 00:28:50.803 align:middle line:84%
+and then you have
+this coupling, e,
+
+00:28:50.803 --> 00:28:53.220 align:middle line:84%
+and then you just solve that
+equation perturbatively order
+
+00:28:53.220 --> 00:28:54.150 align:middle line:90%
+by order.
+
+00:28:54.150 --> 00:28:56.460 align:middle line:84%
+And now all tree-level
+diagrams can be
+
+00:28:56.460 --> 00:28:58.650 align:middle line:90%
+understood from that process.
+
+00:28:58.650 --> 00:29:00.480 align:middle line:84%
+Essentially just
+coming from solving
+
+00:29:00.480 --> 00:29:05.900 align:middle line:90%
+your equation of motion.
+
+00:29:05.900 --> 00:29:08.990 align:middle line:84%
+But then we know that
+the quantum nature comes
+
+00:29:08.990 --> 00:29:11.270 align:middle line:90%
+from doing the path integral.
+
+00:29:11.270 --> 00:29:15.830 align:middle line:84%
+Equation of motion captures
+some classical physics,
+
+00:29:15.830 --> 00:29:17.960 align:middle line:84%
+but the genuine
+quantum physics come
+
+00:29:17.960 --> 00:29:19.940 align:middle line:84%
+from doing the classic
+path integral, which
+
+00:29:19.940 --> 00:29:23.040 align:middle line:84%
+you integrate over all
+possible configurations.
+
+00:29:23.040 --> 00:29:25.290 align:middle line:90%
+And so that is not captured.
+
+00:29:25.290 --> 00:29:26.930 align:middle line:84%
+So those features
+of path integral
+
+00:29:26.930 --> 00:29:28.722 align:middle line:84%
+are not captured by
+the tree-level diagram.
+
+00:29:28.722 --> 00:29:30.850 align:middle line:90%
+
+
+00:29:30.850 --> 00:29:33.760 align:middle line:84%
+But you may ask, does
+tree-level diagram actually
+
+00:29:33.760 --> 00:29:35.170 align:middle line:90%
+capture any quantum physics?
+
+00:29:35.170 --> 00:29:36.250 align:middle line:90%
+Of course it does.
+
+00:29:36.250 --> 00:29:40.330 align:middle line:84%
+It does capture quantum
+physics because all this notion
+
+00:29:40.330 --> 00:29:42.490 align:middle line:84%
+of the particles,
+even the notion
+
+00:29:42.490 --> 00:29:46.530 align:middle line:84%
+of quantizing the
+particles, that's already
+
+00:29:46.530 --> 00:29:49.480 align:middle line:90%
+included in the quantum effect.
+
+00:29:49.480 --> 00:29:53.118 align:middle line:84%
+Just the tree-level diagram does
+not include the fluctuations
+
+00:29:53.118 --> 00:29:53.785 align:middle line:90%
+from the vacuum.
+
+00:29:53.785 --> 00:29:57.650 align:middle line:90%
+
+
+00:29:57.650 --> 00:29:59.450 align:middle line:90%
+Good?
+
+00:29:59.450 --> 00:30:02.330 align:middle line:84%
+And so this is
+the first feature.
+
+00:30:02.330 --> 00:30:05.660 align:middle line:84%
+So when you include the
+loop, you actually now
+
+00:30:05.660 --> 00:30:08.090 align:middle line:84%
+finally include the
+quantum fluctuations.
+
+00:30:08.090 --> 00:30:13.260 align:middle line:84%
+And the second feature,
+it's very important,
+
+00:30:13.260 --> 00:30:29.490 align:middle line:84%
+is that the physical mass
+charge and the physical fields
+
+00:30:29.490 --> 00:30:46.285 align:middle line:84%
+are not the same as that
+appearing in the Lagrangian.
+
+00:30:46.285 --> 00:30:54.660 align:middle line:90%
+
+
+00:30:54.660 --> 00:30:56.800 align:middle line:84%
+So let me elaborate
+what this means.
+
+00:30:56.800 --> 00:31:00.510 align:middle line:84%
+So remember, when we write
+down the Lagrangian for QED,
+
+00:31:00.510 --> 00:31:07.230 align:middle line:84%
+you have i psi bar gamma
+mu partial mu minus i
+
+00:31:07.230 --> 00:31:20.040 align:middle line:84%
+e A mu psi minus m psi minus
+one half one quarter F squared.
+
+00:31:20.040 --> 00:31:21.790 align:middle line:90%
+So that's Lagrangian.
+
+00:31:21.790 --> 00:31:27.960 align:middle line:84%
+And then we say that this is
+the charge of the electron,
+
+00:31:27.960 --> 00:31:31.150 align:middle line:84%
+and this is the mass
+of the electron,
+
+00:31:31.150 --> 00:31:35.650 align:middle line:84%
+and this psi denotes
+the electron field.
+
+00:31:35.650 --> 00:31:38.680 align:middle line:84%
+Means that when you
+acted on the vacuum,
+
+00:31:38.680 --> 00:31:42.250 align:middle line:84%
+you can create the
+electron or anti electron.
+
+00:31:42.250 --> 00:31:47.680 align:middle line:84%
+And similarly, A mu
+because A mu is massless,
+
+00:31:47.680 --> 00:31:49.690 align:middle line:84%
+and when A mu acting
+on the vacuum,
+
+00:31:49.690 --> 00:31:51.550 align:middle line:90%
+it can create the photon.
+
+00:31:51.550 --> 00:31:54.700 align:middle line:90%
+
+
+00:31:54.700 --> 00:31:58.340 align:middle line:84%
+Turns out when you
+include the loop effect,
+
+00:31:58.340 --> 00:32:01.410 align:middle line:90%
+the mass we actually measure.
+
+00:32:01.410 --> 00:32:03.950 align:middle line:84%
+So by physical
+mass, means the mass
+
+00:32:03.950 --> 00:32:06.650 align:middle line:84%
+of the electron we actually
+measure in the lab,
+
+00:32:06.650 --> 00:32:09.620 align:middle line:84%
+and the charge we actually
+measure in the lab.
+
+00:32:09.620 --> 00:32:13.390 align:middle line:84%
+They are no longer
+the same as the one
+
+00:32:13.390 --> 00:32:15.420 align:middle line:90%
+appearing in the Lagrangian.
+
+00:32:15.420 --> 00:32:17.550 align:middle line:84%
+So the y in the Lagrangian
+should be just viewed
+
+00:32:17.550 --> 00:32:19.610 align:middle line:90%
+as some kind of parameter.
+
+00:32:19.610 --> 00:32:23.830 align:middle line:84%
+And so and the geophysical
+mass and the charge
+
+00:32:23.830 --> 00:32:28.190 align:middle line:84%
+are functions of
+those parameters.
+
+00:32:28.190 --> 00:32:30.200 align:middle line:84%
+Now there's a more
+complicated relation
+
+00:32:30.200 --> 00:32:32.755 align:middle line:84%
+between those parameters
+and your physical mass
+
+00:32:32.755 --> 00:32:33.380 align:middle line:90%
+and the charge.
+
+00:32:33.380 --> 00:32:36.120 align:middle line:90%
+
+
+00:32:36.120 --> 00:32:39.450 align:middle line:84%
+Also, the physical field, which
+actually creates the electron,
+
+00:32:39.450 --> 00:32:43.520 align:middle line:84%
+is no longer directly
+given by this psi.
+
+00:32:43.520 --> 00:32:45.325 align:middle line:84%
+It's related by psi
+by some relation.
+
+00:32:45.325 --> 00:32:48.880 align:middle line:90%
+
+
+00:32:48.880 --> 00:32:53.640 align:middle line:84%
+So this difference is also
+called renormalization.
+
+00:32:53.640 --> 00:32:57.870 align:middle line:90%
+
+
+00:32:57.870 --> 00:33:02.790 align:middle line:84%
+So here this true sense
+of renormalization,
+
+00:33:02.790 --> 00:33:04.650 align:middle line:84%
+which is actually
+used for completely
+
+00:33:04.650 --> 00:33:08.800 align:middle line:90%
+two different contexts.
+
+00:33:08.800 --> 00:33:11.460 align:middle line:84%
+So this renormalization
+just means the removal
+
+00:33:11.460 --> 00:33:14.520 align:middle line:84%
+of the divergences, and
+this renormalization
+
+00:33:14.520 --> 00:33:20.250 align:middle line:84%
+means the parameters
+in your Lagrangian
+
+00:33:20.250 --> 00:33:23.160 align:middle line:84%
+may not be the same as the
+physical mass and the charge
+
+00:33:23.160 --> 00:33:25.350 align:middle line:90%
+you measure.
+
+00:33:25.350 --> 00:33:27.240 align:middle line:84%
+So the thing you
+measure actually
+
+00:33:27.240 --> 00:33:29.250 align:middle line:84%
+it's related to the
+parameters in the Lagrangian
+
+00:33:29.250 --> 00:33:31.270 align:middle line:90%
+in a non-trivial way.
+
+00:33:31.270 --> 00:33:35.710 align:middle line:84%
+And this renormalization
+is in principle
+
+00:33:35.710 --> 00:33:36.910 align:middle line:90%
+not due to the divergence.
+
+00:33:36.910 --> 00:33:38.470 align:middle line:84%
+It's just due to
+the interactions.
+
+00:33:38.470 --> 00:33:43.520 align:middle line:90%
+
+
+00:33:43.520 --> 00:33:46.660 align:middle line:84%
+So heuristically the
+physical is as follows--
+
+00:33:46.660 --> 00:33:50.060 align:middle line:84%
+just imagine you
+have a free electron.
+
+00:33:50.060 --> 00:33:55.130 align:middle line:84%
+So if you have a free
+electron, and then
+
+00:33:55.130 --> 00:33:59.450 align:middle line:84%
+the mass of the electron,
+then it is what you measure.
+
+00:33:59.450 --> 00:34:03.050 align:middle line:84%
+But now if you include the
+interactions, and now electron
+
+00:34:03.050 --> 00:34:05.570 align:middle line:84%
+can interact with the
+photon in a complicated way,
+
+00:34:05.570 --> 00:34:08.293 align:middle line:84%
+and that interaction
+then can change
+
+00:34:08.293 --> 00:34:09.335 align:middle line:90%
+the mass of the electron.
+
+00:34:09.335 --> 00:34:12.260 align:middle line:90%
+
+
+00:34:12.260 --> 00:34:17.989 align:middle line:84%
+So that's why, in general
+for interacting theory, what
+
+00:34:17.989 --> 00:34:21.620 align:middle line:84%
+appears in your
+Lagrangian, they don't
+
+00:34:21.620 --> 00:34:25.949 align:middle line:84%
+have to be the quantity
+you actually measure.
+
+00:34:25.949 --> 00:34:29.429 align:middle line:84%
+Because the
+interactions can change
+
+00:34:29.429 --> 00:34:31.260 align:middle line:84%
+how you translate
+those quantities
+
+00:34:31.260 --> 00:34:33.929 align:middle line:84%
+into the physical
+quantities you measure.
+
+00:34:33.929 --> 00:34:39.423 align:middle line:90%
+
+
+00:34:39.423 --> 00:34:40.840 align:middle line:84%
+So this renormalization
+just means
+
+00:34:40.840 --> 00:34:46.030 align:middle line:84%
+the renormalization changes
+the value of your parameters.
+
+00:34:46.030 --> 00:34:51.310 align:middle line:90%
+
+
+00:34:51.310 --> 00:34:53.882 align:middle line:84%
+So now let me just make this
+a little bit more explicit.
+
+00:34:53.882 --> 00:34:55.840 align:middle line:84%
+So before I do that, do
+you have any questions?
+
+00:34:55.840 --> 00:34:56.590 align:middle line:90%
+Yes.
+
+00:34:56.590 --> 00:35:02.350 align:middle line:84%
+AUDIENCE: [INAUDIBLE] looking
+at QED by itself [INAUDIBLE]
+
+00:35:02.350 --> 00:35:04.950 align:middle line:84%
+any other theories,
+wouldn't we have
+
+00:35:04.950 --> 00:35:10.030 align:middle line:84%
+to assume that this parameter m
+corresponds to a physical mass?
+
+00:35:10.030 --> 00:35:16.310 align:middle line:84%
+[INAUDIBLE] how we
+say [INAUDIBLE]..
+
+00:35:16.310 --> 00:35:18.020 align:middle line:84%
+But you're saying
+that QED on its own
+
+00:35:18.020 --> 00:35:21.260 align:middle line:84%
+has its way of explaining
+how this parameter m relates
+
+00:35:21.260 --> 00:35:22.150 align:middle line:90%
+to the physical m?
+
+00:35:22.150 --> 00:35:26.295 align:middle line:90%
+
+
+00:35:26.295 --> 00:35:30.480 align:middle line:84%
+HONG LIU: Yeah, so when I write
+down this Lagrangian and then
+
+00:35:30.480 --> 00:35:34.940 align:middle line:84%
+I have parameters
+here for the e and m,
+
+00:35:34.940 --> 00:35:40.480 align:middle line:84%
+so if I ignore the
+interaction, then the m
+
+00:35:40.480 --> 00:35:44.630 align:middle line:84%
+will be the mass of the
+particle you actually measure.
+
+00:35:44.630 --> 00:35:46.730 align:middle line:84%
+But now when you
+include the interaction,
+
+00:35:46.730 --> 00:35:50.850 align:middle line:84%
+then the interaction
+can change that mass.
+
+00:35:50.850 --> 00:35:54.580 align:middle line:84%
+It's not related
+to the Higgs story.
+
+00:35:54.580 --> 00:35:58.510 align:middle line:84%
+The Higgs explains
+where this m comes from.
+
+00:35:58.510 --> 00:36:03.760 align:middle line:84%
+Hicks explains where this
+parameter comes from.
+
+00:36:03.760 --> 00:36:05.890 align:middle line:84%
+So this is a renormalization
+on top of that.
+
+00:36:05.890 --> 00:36:09.040 align:middle line:90%
+
+
+00:36:09.040 --> 00:36:09.830 align:middle line:90%
+Good.
+
+00:36:09.830 --> 00:36:12.560 align:middle line:84%
+So now let me just
+elaborate what this means.
+
+00:36:12.560 --> 00:36:16.220 align:middle line:90%
+
+
+00:36:16.220 --> 00:36:20.420 align:middle line:84%
+So for this purpose now
+let me put a subscript B
+
+00:36:20.420 --> 00:36:25.403 align:middle line:84%
+here on everything
+just to emphasize
+
+00:36:25.403 --> 00:36:26.445 align:middle line:90%
+that they are no longer--
+
+00:36:26.445 --> 00:36:29.958 align:middle line:90%
+
+
+00:36:29.958 --> 00:36:31.250 align:middle line:90%
+AUDIENCE: Can I ask a question?
+
+00:36:31.250 --> 00:36:31.875 align:middle line:90%
+HONG LIU: Yeah.
+
+00:36:31.875 --> 00:36:34.610 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:36:34.610 --> 00:36:52.490 align:middle line:90%
+
+
+00:36:52.490 --> 00:36:54.608 align:middle line:84%
+HONG LIU: Yeah, it
+changes the energy you
+
+00:36:54.608 --> 00:36:55.775 align:middle line:90%
+need to create the particle.
+
+00:36:55.775 --> 00:37:01.520 align:middle line:90%
+
+
+00:37:01.520 --> 00:37:05.430 align:middle line:84%
+So now I denoted
+everything with B,
+
+00:37:05.430 --> 00:37:07.580 align:middle line:84%
+so those are called
+the bare parameters.
+
+00:37:07.580 --> 00:37:19.670 align:middle line:84%
+So eB is called the bare charge,
+and mB called the bare mass,
+
+00:37:19.670 --> 00:37:26.300 align:middle line:84%
+and this psi B and A mu B
+is called the bare fields.
+
+00:37:26.300 --> 00:37:31.560 align:middle line:90%
+
+
+00:37:31.560 --> 00:37:34.830 align:middle line:84%
+And when I write this F
+square means that the F square
+
+00:37:34.830 --> 00:37:42.550 align:middle line:90%
+constructed out of A mu B.
+
+00:37:42.550 --> 00:37:46.840 align:middle line:84%
+So now let's just illustrate
+this thing using these three
+
+00:37:46.840 --> 00:37:49.510 align:middle line:90%
+simple diagrams.
+
+00:37:49.510 --> 00:37:55.278 align:middle line:84%
+So let's look at first that
+diagram, the propagation
+
+00:37:55.278 --> 00:37:55.945 align:middle line:90%
+of the electron.
+
+00:37:55.945 --> 00:38:00.987 align:middle line:90%
+
+
+00:38:00.987 --> 00:38:02.320 align:middle line:90%
+The propagation of the electron.
+
+00:38:02.320 --> 00:38:07.070 align:middle line:90%
+
+
+00:38:07.070 --> 00:38:15.010 align:middle line:84%
+So what you need to do is
+you calculate this diagram
+
+00:38:15.010 --> 00:38:18.520 align:middle line:84%
+and then you find the
+correction to the propagator.
+
+00:38:18.520 --> 00:38:21.580 align:middle line:84%
+So this diagram will
+induce a correction
+
+00:38:21.580 --> 00:38:23.200 align:middle line:84%
+to the propagator
+of the electron.
+
+00:38:23.200 --> 00:38:25.840 align:middle line:90%
+
+
+00:38:25.840 --> 00:38:29.290 align:middle line:84%
+And from this correction,
+then you find that the--
+
+00:38:29.290 --> 00:38:32.050 align:middle line:90%
+
+
+00:38:32.050 --> 00:38:37.740 align:middle line:84%
+So let's first write down
+the tree-level propagator.
+
+00:38:37.740 --> 00:38:48.690 align:middle line:90%
+
+
+00:38:48.690 --> 00:38:57.090 align:middle line:84%
+So this is given by minus 1 i
+k slash minus m plus i epsilon.
+
+00:38:57.090 --> 00:38:58.100 align:middle line:90%
+So this is just mB.
+
+00:38:58.100 --> 00:39:05.540 align:middle line:90%
+
+
+00:39:05.540 --> 00:39:08.780 align:middle line:84%
+So you can interpret
+the mass of the electron
+
+00:39:08.780 --> 00:39:10.670 align:middle line:90%
+as the pole of this k.
+
+00:39:10.670 --> 00:39:14.810 align:middle line:84%
+So when k is equal to mB
+and then that corresponding
+
+00:39:14.810 --> 00:39:16.790 align:middle line:90%
+to the mass of the electron.
+
+00:39:16.790 --> 00:39:19.160 align:middle line:84%
+And the mass of the
+electron corresponding
+
+00:39:19.160 --> 00:39:22.250 align:middle line:90%
+to the pole of this propagator.
+
+00:39:22.250 --> 00:39:23.000 align:middle line:90%
+Yes?
+
+00:39:23.000 --> 00:39:25.760 align:middle line:84%
+AUDIENCE: What does
+it mean [INAUDIBLE]??
+
+00:39:25.760 --> 00:39:30.710 align:middle line:84%
+HONG LIU: Yeah, what I mean
+is just when you invert it,
+
+00:39:30.710 --> 00:39:36.260 align:middle line:84%
+this becomes k squared plus
+m squared minus i epsilon.
+
+00:39:36.260 --> 00:39:38.510 align:middle line:84%
+It just means k
+squared equals this.
+
+00:39:38.510 --> 00:39:42.530 align:middle line:84%
+So upstairs we have
+k slash plus m.
+
+00:39:42.530 --> 00:39:45.650 align:middle line:84%
+It just means k
+squared plus m square.
+
+00:39:45.650 --> 00:39:48.590 align:middle line:84%
+Just essentially
+the mass electron
+
+00:39:48.590 --> 00:39:52.870 align:middle line:84%
+corresponding to the
+pole of the propagator.
+
+00:39:52.870 --> 00:39:55.880 align:middle line:84%
+So now when you include
+such corrections,
+
+00:39:55.880 --> 00:39:59.000 align:middle line:84%
+then you find your
+propagator modified
+
+00:39:59.000 --> 00:40:00.100 align:middle line:90%
+into the following thing--
+
+00:40:00.100 --> 00:40:08.780 align:middle line:84%
+Z divided by i k slash minus
+some other mass plus epsilon.
+
+00:40:08.780 --> 00:40:13.080 align:middle line:84%
+And then now this m mass
+is no longer the same.
+
+00:40:13.080 --> 00:40:23.690 align:middle line:84%
+So this physical mass, it's now
+just mB plus some correction.
+
+00:40:23.690 --> 00:40:24.935 align:middle line:90%
+So this is a physical mass.
+
+00:40:24.935 --> 00:40:38.980 align:middle line:90%
+
+
+00:40:38.980 --> 00:40:44.340 align:middle line:84%
+So this tells you that the
+mass of the electron when
+
+00:40:44.340 --> 00:40:45.840 align:middle line:84%
+included such
+diagram actually gets
+
+00:40:45.840 --> 00:40:49.790 align:middle line:90%
+shifted from your bare mass.
+
+00:40:49.790 --> 00:40:53.260 align:middle line:90%
+
+
+00:40:53.260 --> 00:40:56.290 align:middle line:84%
+So if we calculate
+it and then you
+
+00:40:56.290 --> 00:41:00.160 align:middle line:84%
+find the contribution
+of this diagram
+
+00:41:00.160 --> 00:41:02.530 align:middle line:84%
+is infinite and so that's
+why you need to include
+
+00:41:02.530 --> 00:41:03.880 align:middle line:90%
+this renormalization.
+
+00:41:03.880 --> 00:41:07.330 align:middle line:84%
+And then to calculate the
+finite quantity of this delta m.
+
+00:41:07.330 --> 00:41:12.440 align:middle line:90%
+
+
+00:41:12.440 --> 00:41:17.520 align:middle line:84%
+So you find that the pole
+of the propagator changed.
+
+00:41:17.520 --> 00:41:20.850 align:middle line:84%
+You also find actually
+the residue also changed.
+
+00:41:20.850 --> 00:41:23.810 align:middle line:90%
+So here the residue just 1.
+
+00:41:23.810 --> 00:41:30.100 align:middle line:84%
+Here the residue becomes
+some other constant Z. So
+
+00:41:30.100 --> 00:41:38.480 align:middle line:84%
+that means that when you
+act psi B on the vacuum,
+
+00:41:38.480 --> 00:41:42.410 align:middle line:84%
+you no longer
+create just the k--
+
+00:41:42.410 --> 00:41:44.840 align:middle line:84%
+here I'm just writing
+schematically--
+
+00:41:44.840 --> 00:41:49.290 align:middle line:84%
+you're actually creating
+square root of Z times k
+
+00:41:49.290 --> 00:41:51.840 align:middle line:90%
+OK because of the prefactor.
+
+00:41:51.840 --> 00:41:55.770 align:middle line:84%
+So remember, our previous psi
+B is equal to a dagger etc.,
+
+00:41:55.770 --> 00:41:58.410 align:middle line:84%
+when you act on the 0 you
+will create a particle
+
+00:41:58.410 --> 00:41:59.820 align:middle line:90%
+normalized in a certain way.
+
+00:41:59.820 --> 00:42:02.910 align:middle line:84%
+But now with this
+Z factor, and now
+
+00:42:02.910 --> 00:42:11.220 align:middle line:84%
+you create a lot of the
+factor now with a prefactor Z.
+
+00:42:11.220 --> 00:42:19.620 align:middle line:84%
+So we normally define
+the physical field
+
+00:42:19.620 --> 00:42:23.760 align:middle line:84%
+as the one which psi, when you
+act on the vacuum, which just
+
+00:42:23.760 --> 00:42:25.170 align:middle line:90%
+precisely created the state.
+
+00:42:25.170 --> 00:42:29.620 align:middle line:90%
+
+
+00:42:29.620 --> 00:42:31.660 align:middle line:84%
+And so now there's a
+relation between this bear
+
+00:42:31.660 --> 00:42:34.015 align:middle line:90%
+field and the physical field.
+
+00:42:34.015 --> 00:42:36.880 align:middle line:90%
+
+
+00:42:36.880 --> 00:42:39.070 align:middle line:84%
+And now there's a relation
+between the bear field
+
+00:42:39.070 --> 00:42:40.800 align:middle line:84%
+and physical field
+through this factor.
+
+00:42:40.800 --> 00:42:46.850 align:middle line:90%
+
+
+00:42:46.850 --> 00:42:54.710 align:middle line:84%
+So this tells you that the
+magnitude of the field itself
+
+00:42:54.710 --> 00:42:56.245 align:middle line:90%
+also get renormalized.
+
+00:42:56.245 --> 00:42:59.890 align:middle line:90%
+
+
+00:42:59.890 --> 00:43:02.120 align:middle line:90%
+Any questions on this?
+
+00:43:02.120 --> 00:43:06.450 align:middle line:84%
+So the similar thing is
+happening for the photon case.
+
+00:43:06.450 --> 00:43:10.620 align:middle line:84%
+So if you consider
+this process, so this
+
+00:43:10.620 --> 00:43:13.560 align:middle line:84%
+corresponded to a modification
+to the photon propagator.
+
+00:43:13.560 --> 00:43:24.640 align:middle line:90%
+
+
+00:43:24.640 --> 00:43:27.940 align:middle line:84%
+So this created a propagation
+to the photon propagator.
+
+00:43:27.940 --> 00:43:33.330 align:middle line:84%
+So now you find that actually
+the photon mass is not changed.
+
+00:43:33.330 --> 00:43:35.150 align:middle line:84%
+So even when you include
+such corrections,
+
+00:43:35.150 --> 00:43:37.720 align:middle line:90%
+the photon is still massless.
+
+00:43:37.720 --> 00:43:42.120 align:middle line:84%
+So remember, previously we
+say why you cannot add a mass
+
+00:43:42.120 --> 00:43:45.050 align:middle line:90%
+to a photon?
+
+00:43:45.050 --> 00:43:51.960 align:middle line:84%
+So remember why we cannot add a
+mass term to the Maxwell field?
+
+00:43:51.960 --> 00:43:54.180 align:middle line:90%
+The guage invariance.
+
+00:43:54.180 --> 00:43:58.710 align:middle line:84%
+So the fact that the mass cannot
+be generated by such correction
+
+00:43:58.710 --> 00:44:02.910 align:middle line:84%
+just means that the gauge
+symmetry is maintained,
+
+00:44:02.910 --> 00:44:04.515 align:middle line:90%
+so the photon remains massless.
+
+00:44:04.515 --> 00:44:13.180 align:middle line:90%
+
+
+00:44:13.180 --> 00:44:16.960 align:middle line:84%
+But you do have similar
+renormalization of the strength
+
+00:44:16.960 --> 00:44:19.450 align:middle line:90%
+of the Maxwell field.
+
+00:44:19.450 --> 00:44:28.500 align:middle line:84%
+So now the bare field is
+related to your physical field
+
+00:44:28.500 --> 00:44:32.635 align:middle line:84%
+through some factor
+normally called Z3.
+
+00:44:32.635 --> 00:44:36.050 align:middle line:90%
+
+
+00:44:36.050 --> 00:44:36.740 align:middle line:90%
+Yes?
+
+00:44:36.740 --> 00:44:39.620 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:44:39.620 --> 00:44:42.500 align:middle line:90%
+
+
+00:44:42.500 --> 00:44:44.090 align:middle line:84%
+HONG LIU: Yeah, this
+just a constant.
+
+00:44:44.090 --> 00:44:48.410 align:middle line:90%
+Yeah, this is just a constant.
+
+00:44:48.410 --> 00:44:56.440 align:middle line:90%
+
+
+00:44:56.440 --> 00:44:59.010 align:middle line:84%
+So this is defined
+to be the residue
+
+00:44:59.010 --> 00:45:02.151 align:middle line:90%
+of the pole of the propagator.
+
+00:45:02.151 --> 00:45:06.000 align:middle line:90%
+
+
+00:45:06.000 --> 00:45:07.290 align:middle line:90%
+Good?
+
+00:45:07.290 --> 00:45:11.210 align:middle line:84%
+So finally, let me mention a
+little bit the last diagram.
+
+00:45:11.210 --> 00:45:31.420 align:middle line:90%
+
+
+00:45:31.420 --> 00:45:34.530 align:middle line:84%
+So this last diagram, which
+I will redraw it here.
+
+00:45:34.530 --> 00:45:41.760 align:middle line:90%
+
+
+00:45:41.760 --> 00:45:48.240 align:middle line:84%
+So remember, if you just
+have the original one,
+
+00:45:48.240 --> 00:45:51.195 align:middle line:90%
+then here is just i eB gamma mu.
+
+00:45:51.195 --> 00:45:53.920 align:middle line:90%
+
+
+00:45:53.920 --> 00:45:56.860 align:middle line:84%
+And now when you add
+such a correction,
+
+00:45:56.860 --> 00:45:59.980 align:middle line:84%
+so this is the tree-level one
+and then at one loop level
+
+00:45:59.980 --> 00:46:01.580 align:middle line:90%
+you can add such a thing.
+
+00:46:01.580 --> 00:46:04.450 align:middle line:84%
+And when you add such
+a thing, then you
+
+00:46:04.450 --> 00:46:07.060 align:middle line:90%
+renormalize the charge.
+
+00:46:07.060 --> 00:46:09.910 align:middle line:90%
+Then the charge gets changed.
+
+00:46:09.910 --> 00:46:18.550 align:middle line:84%
+So now you find interestingly
+that the new electric charge is
+
+00:46:18.550 --> 00:46:19.670 align:middle line:90%
+related.
+
+00:46:19.670 --> 00:46:23.170 align:middle line:84%
+So this is the measured
+charge, physical charge.
+
+00:46:23.170 --> 00:46:28.215 align:middle line:90%
+
+
+00:46:28.215 --> 00:46:29.590 align:middle line:84%
+Through a complicated
+calculation
+
+00:46:29.590 --> 00:46:36.320 align:middle line:84%
+you find this physical charge
+is related to the bare charge
+
+00:46:36.320 --> 00:46:40.310 align:middle line:84%
+by the same factor,
+Z3, as in the case
+
+00:46:40.310 --> 00:46:45.350 align:middle line:84%
+of the relation
+between the bare field
+
+00:46:45.350 --> 00:46:48.050 align:middle line:90%
+and the renormalized field.
+
+00:46:48.050 --> 00:46:50.420 align:middle line:84%
+You find that the
+same number that
+
+00:46:50.420 --> 00:46:52.933 align:middle line:84%
+appears in the relation between
+the physical electron charge
+
+00:46:52.933 --> 00:46:53.975 align:middle line:90%
+and then the bare charge.
+
+00:46:53.975 --> 00:46:59.770 align:middle line:90%
+
+
+00:46:59.770 --> 00:47:04.550 align:middle line:84%
+So this is important for
+the following reason.
+
+00:47:04.550 --> 00:47:13.590 align:middle line:84%
+So now you observe because
+of these two relation,
+
+00:47:13.590 --> 00:47:24.490 align:middle line:84%
+that eB A mu B is
+actually equal to e A mu.
+
+00:47:24.490 --> 00:47:29.930 align:middle line:84%
+So the product here is the
+same because the square root 3
+
+00:47:29.930 --> 00:47:30.635 align:middle line:90%
+factor cancels.
+
+00:47:30.635 --> 00:47:38.950 align:middle line:90%
+
+
+00:47:38.950 --> 00:47:40.090 align:middle line:90%
+And this is important.
+
+00:47:40.090 --> 00:47:48.560 align:middle line:84%
+Because of this, that means your
+covariant derivative does not
+
+00:47:48.560 --> 00:47:49.060 align:middle line:90%
+change.
+
+00:47:49.060 --> 00:48:05.310 align:middle line:90%
+
+
+00:48:05.310 --> 00:48:09.830 align:middle line:84%
+So remember, the structure
+of this covariant derivative
+
+00:48:09.830 --> 00:48:13.400 align:middle line:84%
+is needed for the
+gauge invariance.
+
+00:48:13.400 --> 00:48:17.150 align:middle line:84%
+It's needed for the
+gauge invariance.
+
+00:48:17.150 --> 00:48:20.510 align:middle line:84%
+So that this is
+maintained, again,
+
+00:48:20.510 --> 00:48:26.550 align:middle line:84%
+is an implication that the
+gauge symmetry is maintained.
+
+00:48:26.550 --> 00:48:29.670 align:middle line:84%
+In other words, you
+want to say that if we
+
+00:48:29.670 --> 00:48:34.350 align:middle line:84%
+want to maintain the gauge
+symmetry, then eB and A mu B,
+
+00:48:34.350 --> 00:48:36.640 align:middle line:84%
+they have to renormalize
+in the opposite way
+
+00:48:36.640 --> 00:48:37.860 align:middle line:90%
+so that this is the same.
+
+00:48:37.860 --> 00:48:43.990 align:middle line:90%
+
+
+00:48:43.990 --> 00:48:46.900 align:middle line:90%
+So this diagram has two effects.
+
+00:48:46.900 --> 00:48:50.500 align:middle line:90%
+
+
+00:48:50.500 --> 00:48:54.400 align:middle line:84%
+One effect is correct
+the electric charge.
+
+00:48:54.400 --> 00:48:57.280 align:middle line:84%
+And another effect is
+generate the magnetic moment.
+
+00:48:57.280 --> 00:49:00.710 align:middle line:84%
+Generate an anomalous
+magnetic moment.
+
+00:49:00.710 --> 00:49:02.410 align:middle line:90%
+So this has two effects.
+
+00:49:02.410 --> 00:49:05.560 align:middle line:84%
+The first effect
+is to renormalize,
+
+00:49:05.560 --> 00:49:09.910 align:middle line:84%
+to change your charge,
+and the second effect
+
+00:49:09.910 --> 00:49:15.555 align:middle line:84%
+is generate an anomalous
+magnetic moment.
+
+00:49:15.555 --> 00:49:33.790 align:middle line:90%
+
+
+00:49:33.790 --> 00:49:41.695 align:middle line:84%
+So you may have learned
+in your quantum mechanics
+
+00:49:41.695 --> 00:49:55.210 align:middle line:84%
+that e minus has a magnetic
+moment, which is normally
+
+00:49:55.210 --> 00:50:00.220 align:middle line:84%
+written as following--
+mu e equal to minus e
+
+00:50:00.220 --> 00:50:05.960 align:middle line:84%
+divided by 2m g and
+the spin operator.
+
+00:50:05.960 --> 00:50:08.660 align:middle line:84%
+Just because the electron
+has spin, spin half,
+
+00:50:08.660 --> 00:50:10.700 align:middle line:90%
+and so it has a magnetic moment.
+
+00:50:10.700 --> 00:50:13.880 align:middle line:84%
+And this spin half
+of course is normally
+
+00:50:13.880 --> 00:50:17.540 align:middle line:90%
+written this spin operator.
+
+00:50:17.540 --> 00:50:20.810 align:middle line:84%
+It's in the spin half space,
+then just a sigma matrix.
+
+00:50:20.810 --> 00:50:23.630 align:middle line:90%
+
+
+00:50:23.630 --> 00:50:27.590 align:middle line:84%
+And this g factor, so
+this is a g factor which
+
+00:50:27.590 --> 00:50:31.340 align:middle line:90%
+relates the g, just a number.
+
+00:50:31.340 --> 00:50:32.700 align:middle line:90%
+g is just a number.
+
+00:50:32.700 --> 00:50:33.990 align:middle line:90%
+So normally called g factor--
+
+00:50:33.990 --> 00:50:34.490 align:middle line:90%
+Yes.
+
+00:50:34.490 --> 00:50:41.180 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+diagrammatic expansion
+
+00:50:41.180 --> 00:50:44.630 align:middle line:84%
+of the perturbation theory
+in powers of lambda.
+
+00:50:44.630 --> 00:50:49.400 align:middle line:84%
+So you're saying you add a term
+and you change e with the --
+
+00:50:49.400 --> 00:50:53.480 align:middle line:84%
+HONG LIU: Yeah, the e
+can change itself Yeah.
+
+00:50:53.480 --> 00:50:58.610 align:middle line:84%
+So you just shift
+the value of e right.
+
+00:50:58.610 --> 00:51:02.140 align:middle line:90%
+AUDIENCE: [INAUDIBLE].
+
+00:51:02.140 --> 00:51:05.590 align:middle line:84%
+HONG LIU: Yeah,
+change is also small.
+
+00:51:05.590 --> 00:51:06.870 align:middle line:90%
+The change is a higher order.
+
+00:51:06.870 --> 00:51:09.930 align:middle line:90%
+
+
+00:51:09.930 --> 00:51:13.150 align:middle line:84%
+But this is a very
+good question.
+
+00:51:13.150 --> 00:51:15.510 align:middle line:84%
+This is a very good question
+because, as I mentioned,
+
+00:51:15.510 --> 00:51:18.190 align:middle line:84%
+naively if you look
+at those corrections,
+
+00:51:18.190 --> 00:51:25.240 align:middle line:84%
+say this delta m and this
+change between e and eB,
+
+00:51:25.240 --> 00:51:27.360 align:middle line:90%
+they are all divergent.
+
+00:51:27.360 --> 00:51:31.463 align:middle line:84%
+So that's why they're
+all very complicated.
+
+00:51:31.463 --> 00:51:32.880 align:middle line:84%
+These are all
+divergent, so that's
+
+00:51:32.880 --> 00:51:37.110 align:middle line:84%
+why it's non-trivial to
+find a scheme to make
+
+00:51:37.110 --> 00:51:38.990 align:middle line:90%
+sense of those equations.
+
+00:51:38.990 --> 00:51:43.573 align:middle line:84%
+But we'll have all those
+divergences flying around.
+
+00:51:43.573 --> 00:51:44.240 align:middle line:90%
+Other questions?
+
+00:51:44.240 --> 00:51:45.100 align:middle line:90%
+Yes?
+
+00:51:45.100 --> 00:51:47.475 align:middle line:84%
+AUDIENCE: What is the difference
+between square root of Z
+
+00:51:47.475 --> 00:51:48.753 align:middle line:90%
+and the square root of Z3?
+
+00:51:48.753 --> 00:51:49.420 align:middle line:90%
+HONG LIU: Sorry?
+
+00:51:49.420 --> 00:51:51.311 align:middle line:84%
+AUDIENCE: What is the difference
+between square root of Z
+
+00:51:51.311 --> 00:51:52.060 align:middle line:90%
+and the square root of Z3?
+
+00:51:52.060 --> 00:51:54.220 align:middle line:84%
+HONG LIU: Oh, they're
+just different numbers.
+
+00:51:54.220 --> 00:51:57.040 align:middle line:84%
+So this is one number,
+this is some other number.
+
+00:51:57.040 --> 00:52:00.850 align:middle line:84%
+Just the electron field
+renormalized in a different way
+
+00:52:00.850 --> 00:52:04.000 align:middle line:84%
+from the photon, but
+somehow the charge
+
+00:52:04.000 --> 00:52:06.310 align:middle line:84%
+has to be renormalized
+in the same way.
+
+00:52:06.310 --> 00:52:09.740 align:middle line:90%
+
+
+00:52:09.740 --> 00:52:11.210 align:middle line:90%
+AUDIENCE: [INAUDIBLE].
+
+00:52:11.210 --> 00:52:30.210 align:middle line:90%
+
+
+00:52:30.210 --> 00:52:36.540 align:middle line:84%
+HONG LIU: Yeah, but
+that come out from--
+
+00:52:36.540 --> 00:52:42.213 align:middle line:84%
+It comes out from
+the gauge symmetry,
+
+00:52:42.213 --> 00:52:43.880 align:middle line:84%
+from the requirements
+of gauge symmetry.
+
+00:52:43.880 --> 00:52:47.740 align:middle line:90%
+
+
+00:52:47.740 --> 00:52:49.540 align:middle line:90%
+Good?
+
+00:52:49.540 --> 00:53:00.520 align:middle line:84%
+So this g factor, so one of the
+triumphs of the Dirac equation,
+
+00:53:00.520 --> 00:53:02.830 align:middle line:84%
+when Dirac first
+wrote it down, it
+
+00:53:02.830 --> 00:53:09.100 align:middle line:84%
+said the Dirac equation
+predicts that g equals to 2.
+
+00:53:09.100 --> 00:53:15.040 align:middle line:90%
+
+
+00:53:15.040 --> 00:53:21.238 align:middle line:84%
+But in reality, in the
+late 30s and early 40s,
+
+00:53:21.238 --> 00:53:22.780 align:middle line:84%
+the experiments were
+accurate enough.
+
+00:53:22.780 --> 00:53:25.210 align:middle line:84%
+At the beginning, people
+thought that g equals to 2,
+
+00:53:25.210 --> 00:53:28.420 align:middle line:84%
+so that was considered to be a
+triumph of the Dirac equation.
+
+00:53:28.420 --> 00:53:30.010 align:middle line:84%
+But then later,
+when the experiment
+
+00:53:30.010 --> 00:53:33.550 align:middle line:84%
+became more accurate, they
+find that g is actually
+
+00:53:33.550 --> 00:53:34.960 align:middle line:90%
+slightly greater than 2.
+
+00:53:34.960 --> 00:53:41.200 align:middle line:90%
+
+
+00:53:41.200 --> 00:53:45.310 align:middle line:84%
+Of course, this
+accuracy is later.
+
+00:53:45.310 --> 00:53:47.920 align:middle line:84%
+At the beginning,
+in the 40s, they
+
+00:53:47.920 --> 00:53:50.990 align:middle line:84%
+can already see that
+the g is no longer 2.
+
+00:53:50.990 --> 00:53:52.720 align:middle line:90%
+There's some small corrections.
+
+00:53:52.720 --> 00:53:56.660 align:middle line:84%
+So there was a big
+question at the time--
+
+00:53:56.660 --> 00:53:58.933 align:middle line:84%
+how do you calculate
+this correction?
+
+00:53:58.933 --> 00:54:04.420 align:middle line:90%
+
+
+00:54:04.420 --> 00:54:07.160 align:middle line:84%
+So that amounts to
+calculate this diagram.
+
+00:54:07.160 --> 00:54:08.920 align:middle line:90%
+So that's what Schwinger did.
+
+00:54:08.920 --> 00:54:11.330 align:middle line:84%
+And so he calculated
+this diagram,
+
+00:54:11.330 --> 00:54:13.330 align:middle line:84%
+he managed to get rid
+of the divergence,
+
+00:54:13.330 --> 00:54:16.260 align:middle line:84%
+and he managed to reproduce
+these small corrections.
+
+00:54:16.260 --> 00:54:20.210 align:middle line:90%
+
+
+00:54:20.210 --> 00:54:25.210 align:middle line:84%
+So now let me just very
+quickly tell you tell you
+
+00:54:25.210 --> 00:54:26.590 align:middle line:90%
+where this result comes from.
+
+00:54:26.590 --> 00:54:29.530 align:middle line:90%
+
+
+00:54:29.530 --> 00:54:33.130 align:middle line:84%
+Why Dirac equation
+predicts the g equal to 2.
+
+00:54:33.130 --> 00:54:36.270 align:middle line:84%
+So this actually I
+had at some point
+
+00:54:36.270 --> 00:54:40.950 align:middle line:84%
+was thinking as a homework
+exercise, but never got
+
+00:54:40.950 --> 00:54:45.060 align:middle line:84%
+to put it in the homework, but
+it's an instructive exercise.
+
+00:54:45.060 --> 00:54:53.100 align:middle line:84%
+And so now let me try to
+explain where it comes from.
+
+00:54:53.100 --> 00:55:03.300 align:middle line:90%
+
+
+00:55:03.300 --> 00:55:04.952 align:middle line:90%
+So we have the Dirac equation.
+
+00:55:04.952 --> 00:55:06.660 align:middle line:84%
+So now let's consider
+the Dirac equation.
+
+00:55:06.660 --> 00:55:15.100 align:middle line:90%
+
+
+00:55:15.100 --> 00:55:23.490 align:middle line:84%
+Of electron coupled to
+the electromagnetic field.
+
+00:55:23.490 --> 00:55:24.855 align:middle line:90%
+So let's consider this equation.
+
+00:55:24.855 --> 00:55:29.830 align:middle line:90%
+
+
+00:55:29.830 --> 00:55:36.550 align:middle line:84%
+So the claim-- from this
+equation, of course,
+
+00:55:36.550 --> 00:55:39.540 align:middle line:84%
+we don't see anything
+about the magnetic moment.
+
+00:55:39.540 --> 00:55:41.770 align:middle line:84%
+We don't see anything
+about the magnetic moment.
+
+00:55:41.770 --> 00:55:45.180 align:middle line:84%
+So the claim is that if you
+take this equation and go
+
+00:55:45.180 --> 00:55:51.250 align:middle line:84%
+to nonrelativistic limit, if
+you go to nonrelativistic limit,
+
+00:55:51.250 --> 00:55:54.180 align:middle line:84%
+you will get the
+Schrodinger equation,
+
+00:55:54.180 --> 00:55:57.070 align:middle line:84%
+you get the so-called
+Pauli equation.
+
+00:55:57.070 --> 00:55:59.560 align:middle line:84%
+So you get the
+Schrodinger equation,
+
+00:55:59.560 --> 00:56:05.280 align:middle line:84%
+and with a spin half particle
+and with a magnetic moment
+
+00:56:05.280 --> 00:56:07.140 align:middle line:90%
+precisely given by g equal to 2.
+
+00:56:07.140 --> 00:56:10.840 align:middle line:90%
+
+
+00:56:10.840 --> 00:56:13.590 align:middle line:90%
+So now let's try to see this.
+
+00:56:13.590 --> 00:56:17.880 align:middle line:90%
+
+
+00:56:17.880 --> 00:56:20.970 align:middle line:90%
+Do you have any questions?
+
+00:56:20.970 --> 00:56:23.460 align:middle line:84%
+So this is just the
+Dirac equation itself,
+
+00:56:23.460 --> 00:56:27.070 align:middle line:84%
+but now if you include
+that vertex correction,
+
+00:56:27.070 --> 00:56:30.370 align:middle line:84%
+and then that will generate
+this additional term.
+
+00:56:30.370 --> 00:56:33.820 align:middle line:90%
+
+
+00:56:33.820 --> 00:56:35.910 align:middle line:84%
+So now let's look at this
+nonrelativistic limit.
+
+00:56:35.910 --> 00:56:43.710 align:middle line:90%
+
+
+00:56:43.710 --> 00:56:55.290 align:middle line:84%
+So remember, the Dirac equation,
+as it was originally conceived,
+
+00:56:55.290 --> 00:56:59.820 align:middle line:84%
+was already an equation
+of the Schrodinger type.
+
+00:56:59.820 --> 00:57:07.140 align:middle line:84%
+So you have the form of the
+i H t psi equal to H psi.
+
+00:57:07.140 --> 00:57:12.810 align:middle line:84%
+So you just multiply the
+i gamma 0 on both sides
+
+00:57:12.810 --> 00:57:16.110 align:middle line:90%
+and then remove everything away.
+
+00:57:16.110 --> 00:57:19.350 align:middle line:84%
+So just this side
+keeps only i partial t.
+
+00:57:19.350 --> 00:57:21.300 align:middle line:84%
+So through this
+procedure you have
+
+00:57:21.300 --> 00:57:35.865 align:middle line:84%
+H is equal to m times beta plus
+alpha p plus eA then plus eA0.
+
+00:57:35.865 --> 00:57:42.270 align:middle line:84%
+eA0 is 0 component of A and eA
+is the vector component of A.
+
+00:57:42.270 --> 00:57:47.670 align:middle line:84%
+So the beta is just the
+minus gamma i gamma 0,
+
+00:57:47.670 --> 00:57:57.970 align:middle line:84%
+and alpha i is equal to minus
+i gamma 0 gamma i, and the p
+
+00:57:57.970 --> 00:58:02.770 align:middle line:84%
+goes to minus i, the
+standard gradient operator.
+
+00:58:02.770 --> 00:58:05.600 align:middle line:90%
+
+
+00:58:05.600 --> 00:58:07.370 align:middle line:84%
+So now the claim
+is that if I want
+
+00:58:07.370 --> 00:58:10.370 align:middle line:84%
+to take the
+nonrelativistic limit,
+
+00:58:10.370 --> 00:58:14.210 align:middle line:84%
+this equation becomes an
+ordinary Schrodinger equation,
+
+00:58:14.210 --> 00:58:15.560 align:middle line:90%
+including the magnetic moment.
+
+00:58:15.560 --> 00:58:21.210 align:middle line:90%
+
+
+00:58:21.210 --> 00:58:24.370 align:middle line:84%
+Is this clear what
+we want to do?
+
+00:58:24.370 --> 00:58:28.310 align:middle line:84%
+So now let's choose the
+basis for the gamma matrices.
+
+00:58:28.310 --> 00:58:32.290 align:middle line:84%
+So for this purpose, we go
+to the nonrelativistic limit,
+
+00:58:32.290 --> 00:58:36.040 align:middle line:84%
+it's convenient to use this
+basis, which actually I
+
+00:58:36.040 --> 00:58:38.260 align:middle line:84%
+wrote down at the
+beginning when we talked
+
+00:58:38.260 --> 00:58:39.880 align:middle line:90%
+about the Dirac equations.
+
+00:58:39.880 --> 00:58:48.190 align:middle line:90%
+
+
+00:58:48.190 --> 00:58:53.300 align:middle line:84%
+Again, 1 is always 2
+by 2 identity matrix.
+
+00:58:53.300 --> 00:58:59.600 align:middle line:84%
+So from here, you find that
+the beta just equals to 1 0
+
+00:58:59.600 --> 00:59:07.150 align:middle line:84%
+0 minus 1 and the alpha just
+becomes 0 sigma sigma 0.
+
+00:59:07.150 --> 00:59:17.890 align:middle line:90%
+
+
+00:59:17.890 --> 00:59:19.480 align:middle line:90%
+So to reduce--
+
+00:59:19.480 --> 00:59:22.240 align:middle line:84%
+Right now we just
+choose then we also
+
+00:59:22.240 --> 00:59:27.140 align:middle line:84%
+need to write psi in terms
+of the two components.
+
+00:59:27.140 --> 00:59:29.260 align:middle line:84%
+So each of phi and the
+chi has two components,
+
+00:59:29.260 --> 00:59:31.030 align:middle line:90%
+altogether four components.
+
+00:59:31.030 --> 00:59:34.120 align:middle line:84%
+So let's write psi in terms of
+two upper components, two lower
+
+00:59:34.120 --> 00:59:37.180 align:middle line:90%
+components.
+
+00:59:37.180 --> 00:59:41.560 align:middle line:84%
+And now let's plug all
+this into that equation.
+
+00:59:41.560 --> 00:59:43.690 align:middle line:90%
+All this into this equation.
+
+00:59:43.690 --> 00:59:51.060 align:middle line:84%
+And then we get partial
+t phi equal to m
+
+00:59:51.060 --> 01:00:02.880 align:middle line:84%
+phi plus sigma dot p plus
+eA chi then plus eA0 psi.
+
+01:00:02.880 --> 01:00:05.660 align:middle line:90%
+
+
+01:00:05.660 --> 01:00:08.390 align:middle line:84%
+And then for the
+equation for chi,
+
+01:00:08.390 --> 01:00:12.290 align:middle line:84%
+you get a similar
+equation, but here it's
+
+01:00:12.290 --> 01:00:23.390 align:middle line:84%
+minus m chi plus sigma dot
+p plus eA phi plus eA0 chi.
+
+01:00:23.390 --> 01:00:27.730 align:middle line:90%
+
+
+01:00:27.730 --> 01:00:29.155 align:middle line:90%
+So you get these two equations.
+
+01:00:29.155 --> 01:00:32.560 align:middle line:90%
+
+
+01:00:32.560 --> 01:00:34.990 align:middle line:84%
+So now so far we
+haven't done anything.
+
+01:00:34.990 --> 01:00:39.460 align:middle line:84%
+We just wrote this equation
+in a different form.
+
+01:00:39.460 --> 01:00:41.505 align:middle line:84%
+So now let's consider the
+nonrelativistic limit.
+
+01:00:41.505 --> 01:00:49.670 align:middle line:90%
+
+
+01:00:49.670 --> 01:00:53.420 align:middle line:84%
+Now consider the
+nonrelativistic limit.
+
+01:00:53.420 --> 01:00:58.870 align:middle line:84%
+So in the nonrelativistic
+limit, this p
+
+01:00:58.870 --> 01:01:02.480 align:middle line:84%
+is essentially the
+spatial momentum
+
+01:01:02.480 --> 01:01:04.520 align:middle line:90%
+if you act on the wave.
+
+01:01:04.520 --> 01:01:06.770 align:middle line:90%
+And so we take it to be mv.
+
+01:01:06.770 --> 01:01:09.610 align:middle line:90%
+
+
+01:01:09.610 --> 01:01:12.085 align:middle line:84%
+And of course, v to be
+much, much smaller than 1.
+
+01:01:12.085 --> 01:01:15.940 align:middle line:90%
+
+
+01:01:15.940 --> 01:01:22.430 align:middle line:84%
+And then this e A0, which
+has a unit of energy,
+
+01:01:22.430 --> 01:01:24.310 align:middle line:84%
+so it should be of
+order mv squared.
+
+01:01:24.310 --> 01:01:28.520 align:middle line:90%
+
+
+01:01:28.520 --> 01:01:31.910 align:middle line:84%
+And this e A, which should
+be the same order as p,
+
+01:01:31.910 --> 01:01:38.030 align:middle line:84%
+and then e A should also
+be of the same order as mv.
+
+01:01:38.030 --> 01:01:41.800 align:middle line:90%
+
+
+01:01:41.800 --> 01:01:44.080 align:middle line:84%
+And now let's look at this
+nonrelativistic limit.
+
+01:01:44.080 --> 01:01:49.520 align:middle line:90%
+
+
+01:01:49.520 --> 01:01:50.930 align:middle line:90%
+So far I have not done anything.
+
+01:01:50.930 --> 01:01:53.660 align:middle line:90%
+I just specified this.
+
+01:01:53.660 --> 01:01:58.080 align:middle line:84%
+And now let's consider
+a transformation.
+
+01:01:58.080 --> 01:02:01.460 align:middle line:84%
+So in the
+nonrelativistic limit we
+
+01:02:01.460 --> 01:02:02.675 align:middle line:90%
+know that your total energy--
+
+01:02:02.675 --> 01:02:26.860 align:middle line:90%
+
+
+01:02:26.860 --> 01:02:29.910 align:middle line:84%
+So remember, a
+typical wave function
+
+01:02:29.910 --> 01:02:33.540 align:middle line:84%
+is always the time
+dependence, so you always
+
+01:02:33.540 --> 01:02:39.420 align:middle line:84%
+have something like iEt, and
+in the nonrelativistic limit,
+
+01:02:39.420 --> 01:02:44.370 align:middle line:84%
+E would be m plus one half
+mv squared, et cetera.
+
+01:02:44.370 --> 01:02:46.590 align:middle line:84%
+So this is much, much
+larger than this term.
+
+01:02:46.590 --> 01:02:53.940 align:middle line:90%
+
+
+01:02:53.940 --> 01:02:57.390 align:middle line:84%
+So we can just isolate
+this bigger piece.
+
+01:02:57.390 --> 01:03:00.000 align:middle line:84%
+So we can try to
+isolate this big piece,
+
+01:03:00.000 --> 01:03:03.970 align:middle line:84%
+so we will make a
+slight transformation.
+
+01:03:03.970 --> 01:03:12.700 align:middle line:84%
+So we write phi equal to
+exponential minus i m t capital
+
+01:03:12.700 --> 01:03:13.730 align:middle line:90%
+phi.
+
+01:03:13.730 --> 01:03:23.480 align:middle line:84%
+And the chi equal to i
+m t x or capital chi.
+
+01:03:23.480 --> 01:03:29.150 align:middle line:84%
+So now this will only
+contain this low energy part,
+
+01:03:29.150 --> 01:03:31.250 align:middle line:84%
+so those field will only
+contain the low energy
+
+01:03:31.250 --> 01:03:35.600 align:middle line:84%
+part that already isolated
+the big things in here.
+
+01:03:35.600 --> 01:03:38.330 align:middle line:84%
+So the time dependence here will
+only include the low energy.
+
+01:03:38.330 --> 01:03:41.130 align:middle line:90%
+
+
+01:03:41.130 --> 01:03:46.570 align:middle line:84%
+So we assume that as a t
+phi would be mv squared,
+
+01:03:46.570 --> 01:04:04.560 align:middle line:84%
+so phi similarly this X.
+Similarly this X. So this is
+
+01:04:04.560 --> 01:04:07.110 align:middle line:84%
+the fast oscillator
+part in time,
+
+01:04:07.110 --> 01:04:09.720 align:middle line:90%
+this is the slow part in time.
+
+01:04:09.720 --> 01:04:15.770 align:middle line:84%
+So now we plug this in
+to these two equations.
+
+01:04:15.770 --> 01:04:19.860 align:middle line:90%
+Plugged into those equations.
+
+01:04:19.860 --> 01:04:24.750 align:middle line:90%
+Then we find i partial t.
+
+01:04:24.750 --> 01:04:29.080 align:middle line:90%
+
+
+01:04:29.080 --> 01:04:34.510 align:middle line:84%
+i partial t phi
+equal to sigma dot
+
+01:04:34.510 --> 01:04:49.390 align:middle line:84%
+pi x plus eA0 phi and i
+partial tx equal to 2 minus mx.
+
+01:04:49.390 --> 01:04:53.040 align:middle line:90%
+
+
+01:04:53.040 --> 01:04:55.980 align:middle line:84%
+Let me just call it
+x for simplicity.
+
+01:04:55.980 --> 01:05:05.280 align:middle line:90%
+
+
+01:05:05.280 --> 01:05:07.890 align:middle line:84%
+So I also have
+introduced the notation
+
+01:05:07.890 --> 01:05:13.680 align:middle line:84%
+that the pi is
+equal to p plus eA.
+
+01:05:13.680 --> 01:05:24.040 align:middle line:90%
+
+
+01:05:24.040 --> 01:05:26.650 align:middle line:84%
+So now you see the difference
+between these two equations.
+
+01:05:26.650 --> 01:05:29.540 align:middle line:90%
+
+
+01:05:29.540 --> 01:05:35.260 align:middle line:84%
+So the mass terms here
+have opposite sign.
+
+01:05:35.260 --> 01:05:39.990 align:middle line:84%
+When I isolate that
+piece, and then
+
+01:05:39.990 --> 01:05:43.770 align:middle line:84%
+the mass term for this equation
+canceled, but in this equation
+
+01:05:43.770 --> 01:05:45.930 align:middle line:84%
+they add together,
+this minus 2m.
+
+01:05:45.930 --> 01:05:48.660 align:middle line:90%
+
+
+01:05:48.660 --> 01:05:51.850 align:middle line:90%
+We get this minus 2m.
+
+01:05:51.850 --> 01:05:53.320 align:middle line:84%
+So now let's look
+at the magnitude
+
+01:05:53.320 --> 01:05:55.070 align:middle line:90%
+of each term in this equation.
+
+01:05:55.070 --> 01:06:04.350 align:middle line:84%
+So this is like mv squared
+X. So this is like m times X.
+
+01:06:04.350 --> 01:06:08.700 align:middle line:90%
+So this is just something phi.
+
+01:06:08.700 --> 01:06:10.230 align:middle line:84%
+We don't know the
+relative magnitude
+
+01:06:10.230 --> 01:06:12.520 align:middle line:84%
+between X and the phi,
+and so this is also
+
+01:06:12.520 --> 01:06:17.760 align:middle line:84%
+mv squared X. We said eA0
+should be of order mv squared.
+
+01:06:17.760 --> 01:06:20.400 align:middle line:90%
+
+
+01:06:20.400 --> 01:06:25.020 align:middle line:84%
+So these three terms,
+they're all related to X,
+
+01:06:25.020 --> 01:06:29.780 align:middle line:84%
+and this term dominates
+over these two.
+
+01:06:29.780 --> 01:06:32.540 align:middle line:84%
+So you can forget
+about these two terms
+
+01:06:32.540 --> 01:06:33.800 align:middle line:90%
+in the nonrelativistic limit.
+
+01:06:33.800 --> 01:06:39.840 align:middle line:90%
+
+
+01:06:39.840 --> 01:06:46.560 align:middle line:84%
+So from here, if I call this
+equation 1 and this equation 2,
+
+01:06:46.560 --> 01:06:53.550 align:middle line:84%
+and from 2 we get in the
+nonrelativistic limit,
+
+01:06:53.550 --> 01:07:02.190 align:middle line:84%
+we just get 2mX plus sigma
+pi acting on phi equal to 0.
+
+01:07:02.190 --> 01:07:09.530 align:middle line:90%
+
+
+01:07:09.530 --> 01:07:17.510 align:middle line:84%
+So now we find that X, we can
+now solve X in terms of phi--
+
+01:07:17.510 --> 01:07:21.890 align:middle line:90%
+1 over 2m sigma dot pi phi.
+
+01:07:21.890 --> 01:07:32.970 align:middle line:90%
+
+
+01:07:32.970 --> 01:07:37.540 align:middle line:84%
+So now we can plug this
+back into this equation.
+
+01:07:37.540 --> 01:07:40.800 align:middle line:90%
+So this is equation 3.
+
+01:07:40.800 --> 01:07:47.430 align:middle line:84%
+If we plug 3 into
+1 again, then we
+
+01:07:47.430 --> 01:07:52.410 align:middle line:84%
+get Schrodinger
+equation for phi.
+
+01:07:52.410 --> 01:07:54.660 align:middle line:84%
+So X is no longer
+independent field,
+
+01:07:54.660 --> 01:07:58.040 align:middle line:84%
+it's just expressed
+in terms of phi.
+
+01:07:58.040 --> 01:07:59.665 align:middle line:84%
+So now we get the
+equation for phi.
+
+01:07:59.665 --> 01:08:17.470 align:middle line:90%
+
+
+01:08:17.470 --> 01:08:19.270 align:middle line:84%
+So now you see
+each term, they are
+
+01:08:19.270 --> 01:08:20.990 align:middle line:90%
+of the same order of magnitude.
+
+01:08:20.990 --> 01:08:26.160 align:middle line:84%
+So this is mv squared
+and this is mv.
+
+01:08:26.160 --> 01:08:28.170 align:middle line:90%
+Upstairs pi of order mv.
+
+01:08:28.170 --> 01:08:30.689 align:middle line:84%
+So this is m squared v
+squared divided by m,
+
+01:08:30.689 --> 01:08:34.479 align:middle line:84%
+so this again is mv squared
+and eA0 is mv squared.
+
+01:08:34.479 --> 01:08:37.229 align:middle line:84%
+So now everything
+is nonrelativistic
+
+01:08:37.229 --> 01:08:39.803 align:middle line:90%
+and of the same order.
+
+01:08:39.803 --> 01:08:41.720 align:middle line:84%
+So now let's look at the
+meaning of this term.
+
+01:08:41.720 --> 01:08:48.058 align:middle line:90%
+
+
+01:08:48.058 --> 01:08:49.850 align:middle line:84%
+Now let's look at the
+meaning of that term.
+
+01:08:49.850 --> 01:09:08.670 align:middle line:90%
+
+
+01:09:08.670 --> 01:09:10.718 align:middle line:84%
+So that term you can
+write explicitly.
+
+01:09:10.718 --> 01:09:19.290 align:middle line:90%
+
+
+01:09:19.290 --> 01:09:23.370 align:middle line:84%
+Sigma i pi i, sigma j pi j,
+but remember pi i and pi j,
+
+01:09:23.370 --> 01:09:28.710 align:middle line:84%
+they are operators, so you need
+to keep the ordering there.
+
+01:09:28.710 --> 01:09:32.069 align:middle line:90%
+
+
+01:09:32.069 --> 01:09:34.380 align:middle line:84%
+So we can just write
+down, so we just
+
+01:09:34.380 --> 01:09:43.660 align:middle line:84%
+have sigma i sigma j just gives
+me delta ij plus i epsilon ijk
+
+01:09:43.660 --> 01:09:46.899 align:middle line:90%
+sigma k and then pi i pi j.
+
+01:09:46.899 --> 01:09:51.410 align:middle line:90%
+
+
+01:09:51.410 --> 01:09:58.300 align:middle line:84%
+And so the first term
+gives me the pi squared,
+
+01:09:58.300 --> 01:10:04.840 align:middle line:84%
+and the second term I can just,
+using the antisymmetric in ij,
+
+01:10:04.840 --> 01:10:11.720 align:middle line:84%
+I can write it as epsilon ijk
+sigma k and the pi i and the pi
+
+01:10:11.720 --> 01:10:12.220 align:middle line:90%
+j.
+
+01:10:12.220 --> 01:10:15.150 align:middle line:90%
+
+
+01:10:15.150 --> 01:10:17.430 align:middle line:84%
+So I just write the
+commutator in terms of them.
+
+01:10:17.430 --> 01:10:20.840 align:middle line:90%
+
+
+01:10:20.840 --> 01:10:28.750 align:middle line:84%
+So now it's easy to
+calculate pi i pi j.
+
+01:10:28.750 --> 01:10:41.235 align:middle line:84%
+So this is just minus partial
+i plus eAi minus partial j --
+
+01:10:41.235 --> 01:10:42.810 align:middle line:90%
+minus i partial j --
+
+01:10:42.810 --> 01:10:45.952 align:middle line:90%
+plus eAj.
+
+01:10:45.952 --> 01:10:47.410 align:middle line:84%
+So if you calculate
+the commutator,
+
+01:10:47.410 --> 01:10:49.000 align:middle line:90%
+you just get minus e Fij.
+
+01:10:49.000 --> 01:10:56.470 align:middle line:90%
+
+
+01:10:56.470 --> 01:11:01.330 align:middle line:84%
+And now if you plug this Fij
+into here, so epsilon ijk
+
+01:11:01.330 --> 01:11:02.980 align:middle line:90%
+times Fij, what do you get?
+
+01:11:02.980 --> 01:11:08.050 align:middle line:90%
+
+
+01:11:08.050 --> 01:11:10.600 align:middle line:84%
+Do you remember when
+epsilon ijk multiplied
+
+01:11:10.600 --> 01:11:11.920 align:middle line:90%
+by Fij, what do you get?
+
+01:11:11.920 --> 01:11:15.020 align:middle line:90%
+
+
+01:11:15.020 --> 01:11:17.000 align:middle line:90%
+You get B.
+
+01:11:17.000 --> 01:11:20.330 align:middle line:84%
+So now this equation, when
+you plug this in here,
+
+01:11:20.330 --> 01:11:26.770 align:middle line:84%
+and then this just
+becomes pi squared plus--
+
+01:11:26.770 --> 01:11:27.670 align:middle line:90%
+just make sure.
+
+01:11:27.670 --> 01:11:34.490 align:middle line:90%
+
+
+01:11:34.490 --> 01:11:49.310 align:middle line:84%
+e sigma dot B. Because
+Fij multiplied by the Fijk
+
+01:11:49.310 --> 01:11:53.944 align:middle line:84%
+just gets Bk and Bk sigma
+k, just sigma dot B.
+
+01:11:53.944 --> 01:11:57.353 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+01:11:57.353 --> 01:11:58.630 align:middle line:90%
+
+
+01:11:58.630 --> 01:12:02.420 align:middle line:84%
+HONG LIU: Yeah, it's one half
+epsilon ijk times Fij give you.
+
+01:12:02.420 --> 01:12:06.520 align:middle line:90%
+
+
+01:12:06.520 --> 01:12:11.370 align:middle line:84%
+So if you use one
+half epsilon ijk Fij.
+
+01:12:11.370 --> 01:12:18.600 align:middle line:90%
+
+
+01:12:18.600 --> 01:12:19.890 align:middle line:90%
+OK, good.
+
+01:12:19.890 --> 01:12:22.770 align:middle line:90%
+We are there.
+
+01:12:22.770 --> 01:12:26.340 align:middle line:90%
+So now we are done, essentially.
+
+01:12:26.340 --> 01:12:29.160 align:middle line:84%
+So now the Schrodinger
+equation, now we
+
+01:12:29.160 --> 01:12:33.360 align:middle line:84%
+get the partial t
+phi equal to H phi.
+
+01:12:33.360 --> 01:12:37.730 align:middle line:90%
+Now H is equal to p squared.
+
+01:12:37.730 --> 01:12:40.940 align:middle line:90%
+So now you have pi squared.
+
+01:12:40.940 --> 01:12:43.370 align:middle line:84%
+So pi squared, if I
+write it explicitly,
+
+01:12:43.370 --> 01:12:49.400 align:middle line:84%
+is p plus eA squared
+divided by 2m, then
+
+01:12:49.400 --> 01:12:56.360 align:middle line:84%
+plus e divided by 2m sigma
+dot B, come from this term.
+
+01:12:56.360 --> 01:12:59.520 align:middle line:90%
+
+
+01:12:59.520 --> 01:13:02.310 align:middle line:90%
+And then the last term is eA0.
+
+01:13:02.310 --> 01:13:06.110 align:middle line:90%
+
+
+01:13:06.110 --> 01:13:12.340 align:middle line:84%
+So now if you recognize
+this part of the Hamiltonian
+
+01:13:12.340 --> 01:13:17.050 align:middle line:84%
+is precisely what you get when
+you couple Schrodinger equation
+
+01:13:17.050 --> 01:13:20.170 align:middle line:90%
+to your electromagnetic fields.
+
+01:13:20.170 --> 01:13:24.020 align:middle line:84%
+You just add the p plus eA
+for the vector potential
+
+01:13:24.020 --> 01:13:26.740 align:middle line:90%
+and here you get eA0.
+
+01:13:26.740 --> 01:13:28.820 align:middle line:84%
+But now here you get
+the additional term,
+
+01:13:28.820 --> 01:13:31.980 align:middle line:84%
+so this is called
+the Pauli term.
+
+01:13:31.980 --> 01:13:34.990 align:middle line:84%
+When the particle has
+spin, has magnetic moment,
+
+01:13:34.990 --> 01:13:36.460 align:middle line:84%
+then you have an
+additional term.
+
+01:13:36.460 --> 01:13:38.350 align:middle line:90%
+So this term can be interpreted.
+
+01:13:38.350 --> 01:13:42.865 align:middle line:84%
+So remember, when a particle
+has a magnetic moment.
+
+01:13:42.865 --> 01:13:54.640 align:middle line:90%
+
+
+01:13:54.640 --> 01:13:59.790 align:middle line:84%
+So when a particle
+has a magnetic moment,
+
+01:13:59.790 --> 01:14:05.640 align:middle line:84%
+then you have a piece
+corresponding to mu dot B.
+
+01:14:05.640 --> 01:14:07.980 align:middle line:84%
+If you compare this
+with that term,
+
+01:14:07.980 --> 01:14:09.930 align:middle line:90%
+then we conclude that the mu--
+
+01:14:09.930 --> 01:14:12.360 align:middle line:84%
+So in this case,
+compare that term.
+
+01:14:12.360 --> 01:14:22.380 align:middle line:84%
+That term will be equal
+to e 2m sigma dot B.
+
+01:14:22.380 --> 01:14:27.390 align:middle line:84%
+So now we conclude, from here
+you can read what's the mu.
+
+01:14:27.390 --> 01:14:35.050 align:middle line:84%
+mu just minus e divided
+by 2m times 2 times sigma
+
+01:14:35.050 --> 01:14:36.730 align:middle line:90%
+divided by 2.
+
+01:14:36.730 --> 01:14:41.770 align:middle line:84%
+So if you compare with
+this, you find that the g
+
+01:14:41.770 --> 01:14:44.916 align:middle line:90%
+is exactly equal to 2.
+
+01:14:44.916 --> 01:14:49.010 align:middle line:90%
+You find g exactly equal to 2.
+
+01:14:49.010 --> 01:14:52.100 align:middle line:84%
+And so this way, you see
+actually the Dirac equation
+
+01:14:52.100 --> 01:14:57.140 align:middle line:84%
+contains the information the
+electron has magnetic moment.
+
+01:14:57.140 --> 01:14:58.940 align:middle line:90%
+It has a magnetic moment.
+
+01:14:58.940 --> 01:15:00.020 align:middle line:90%
+Yes.
+
+01:15:00.020 --> 01:15:00.468 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+would we expect
+
+01:15:00.468 --> 01:15:01.926 align:middle line:84%
+g equal to 2 for
+all fermions then?
+
+01:15:01.926 --> 01:15:07.860 align:middle line:90%
+
+
+01:15:07.860 --> 01:15:10.200 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+01:15:10.200 --> 01:15:13.080 align:middle line:84%
+AUDIENCE: Even if we look at
+these perturbative calculations
+
+01:15:13.080 --> 01:15:15.247 align:middle line:84%
+like the 1 plus 0.001, etc.,
+that should apply also?
+
+01:15:15.247 --> 01:15:19.650 align:middle line:90%
+
+
+01:15:19.650 --> 01:15:21.535 align:middle line:90%
+HONG LIU: No, no, no.
+
+01:15:21.535 --> 01:15:23.160 align:middle line:84%
+Because the correction
+can be different
+
+01:15:23.160 --> 01:15:26.060 align:middle line:84%
+for different formulas
+because different formulas,
+
+01:15:26.060 --> 01:15:28.080 align:middle line:84%
+they have different
+interactions.
+
+01:15:28.080 --> 01:15:31.440 align:middle line:84%
+And so that will change
+this vertex differently.
+
+01:15:31.440 --> 01:15:34.310 align:middle line:84%
+For example, muons and
+electrons will be different.
+
+01:15:34.310 --> 01:15:38.030 align:middle line:90%
+
+
+01:15:38.030 --> 01:15:38.540 align:middle line:90%
+Yes.
+
+01:15:38.540 --> 01:15:39.606 align:middle line:90%
+AUDIENCE: [INAUDIBLE].
+
+01:15:39.606 --> 01:15:49.700 align:middle line:90%
+
+
+01:15:49.700 --> 01:15:52.640 align:middle line:84%
+HONG LIU: Well, in the high
+speed you can no longer--
+
+01:15:52.640 --> 01:15:58.290 align:middle line:84%
+So when you have high speeds or
+this effect, they mix together.
+
+01:15:58.290 --> 01:16:01.180 align:middle line:84%
+So relativistically,
+you can no longer
+
+01:16:01.180 --> 01:16:03.610 align:middle line:84%
+isolate the contribution
+from the angular momentum
+
+01:16:03.610 --> 01:16:05.153 align:middle line:84%
+from your orbital
+angular momentum,
+
+01:16:05.153 --> 01:16:06.070 align:middle line:90%
+spin angular momentum.
+
+01:16:06.070 --> 01:16:07.320 align:middle line:90%
+They all come together.
+
+01:16:07.320 --> 01:16:09.070 align:middle line:84%
+So it's only in the
+long relativistic case
+
+01:16:09.070 --> 01:16:11.410 align:middle line:90%
+you can isolate like this.
+
+01:16:11.410 --> 01:16:13.605 align:middle line:84%
+So normally when we talk
+about magnetic moments,
+
+01:16:13.605 --> 01:16:14.980 align:middle line:84%
+we always think
+it about in terms
+
+01:16:14.980 --> 01:16:16.510 align:middle line:90%
+of nonrelativistic situation.
+
+01:16:16.510 --> 01:16:20.350 align:middle line:90%
+
+
+01:16:20.350 --> 01:16:24.610 align:middle line:90%
+So now just some final words.
+
+01:16:24.610 --> 01:16:27.320 align:middle line:90%
+Just erased that number.
+
+01:16:27.320 --> 01:16:31.250 align:middle line:84%
+So Schwinger then
+did this calculation.
+
+01:16:31.250 --> 01:16:38.410 align:middle line:84%
+So including this diagram,
+Schwinger did this calculation,
+
+01:16:38.410 --> 01:16:42.850 align:middle line:84%
+and then he found that
+there's a small correction.
+
+01:16:42.850 --> 01:16:45.370 align:middle line:84%
+So normally, its called
+-- say if I call it --
+
+01:16:45.370 --> 01:16:51.890 align:middle line:84%
+1 plus F. And so this
+is the correction.
+
+01:16:51.890 --> 01:16:56.570 align:middle line:84%
+And then the correction, which
+Schwinger first calculated,
+
+01:16:56.570 --> 01:17:00.800 align:middle line:84%
+is given by alpha
+just divided by 2pi.
+
+01:17:00.800 --> 01:17:03.740 align:middle line:84%
+The reason it's alpha is
+because here there's a e here,
+
+01:17:03.740 --> 01:17:07.700 align:middle line:84%
+here there's an e, so
+e squared is alpha.
+
+01:17:07.700 --> 01:17:09.980 align:middle line:84%
+So all this
+complicated calculation
+
+01:17:09.980 --> 01:17:13.703 align:middle line:84%
+you do, essentially you
+find this 1 over 2pi.
+
+01:17:13.703 --> 01:17:15.620 align:middle line:84%
+Because this correction
+has to be proportional
+
+01:17:15.620 --> 01:17:20.450 align:middle line:84%
+to alpha, and this number you
+do a very hard calculation,
+
+01:17:20.450 --> 01:17:22.850 align:middle line:90%
+you find it's 1 over 2pi.
+
+01:17:22.850 --> 01:17:26.270 align:middle line:84%
+And then this actually agreed
+with experiment very well.
+
+01:17:26.270 --> 01:17:31.310 align:middle line:84%
+So this is first calculated
+by Schwinger in 1948.
+
+01:17:31.310 --> 01:17:36.200 align:middle line:84%
+So this was really a
+theoretical triumph at that time
+
+01:17:36.200 --> 01:17:40.910 align:middle line:84%
+and agreed very well
+with experiments.
+
+01:17:40.910 --> 01:17:45.710 align:middle line:84%
+So then people then
+calculate to higher orders.
+
+01:17:45.710 --> 01:17:50.950 align:middle line:84%
+So the next order must be
+proportional to alpha squared,
+
+01:17:50.950 --> 01:17:54.932 align:middle line:84%
+so we can parameterize by
+alpha divided by 2pi squared,
+
+01:17:54.932 --> 01:17:56.140 align:middle line:90%
+and then with some number a2.
+
+01:17:56.140 --> 01:17:59.340 align:middle line:90%
+
+
+01:17:59.340 --> 01:18:01.840 align:middle line:84%
+You do an even more complicated
+calculation, much, much more
+
+01:18:01.840 --> 01:18:04.420 align:middle line:84%
+complicated calculation, you
+find that this a2, again, it's
+
+01:18:04.420 --> 01:18:05.910 align:middle line:90%
+a single number.
+
+01:18:05.910 --> 01:18:08.700 align:middle line:84%
+And this contains
+seven diagrams.
+
+01:18:08.700 --> 01:18:12.210 align:middle line:84%
+So this is one diagram, but
+when you go to the next order,
+
+01:18:12.210 --> 01:18:14.810 align:middle line:84%
+actually involving
+seven diagrams.
+
+01:18:14.810 --> 01:18:18.290 align:middle line:90%
+And that was calculated in 1957.
+
+01:18:18.290 --> 01:18:23.780 align:middle line:84%
+Again, it was a very important
+thing to do at that time,
+
+01:18:23.780 --> 01:18:26.420 align:middle line:84%
+because just to
+check whether QED,
+
+01:18:26.420 --> 01:18:30.530 align:middle line:84%
+because the experimental
+accuracy was at the level
+
+01:18:30.530 --> 01:18:32.315 align:middle line:84%
+actually you can
+compare this number.
+
+01:18:32.315 --> 01:18:37.160 align:middle line:90%
+
+
+01:18:37.160 --> 01:18:39.920 align:middle line:84%
+Actually, also there's
+some kind of story
+
+01:18:39.920 --> 01:18:42.830 align:middle line:84%
+behind this number,
+which at the beginning
+
+01:18:42.830 --> 01:18:45.500 align:middle line:84%
+they calculated
+wrong, et cetera.
+
+01:18:45.500 --> 01:18:48.224 align:middle line:84%
+So now you can also
+calculate the next one, a3.
+
+01:18:48.224 --> 01:18:50.990 align:middle line:90%
+
+
+01:18:50.990 --> 01:18:53.720 align:middle line:84%
+You can parameterize
+again by cube.
+
+01:18:53.720 --> 01:18:57.395 align:middle line:84%
+And now this now
+includes 72 diagrams.
+
+01:18:57.395 --> 01:19:00.780 align:middle line:90%
+
+
+01:19:00.780 --> 01:19:03.700 align:middle line:90%
+And it took two physicists--
+
+01:19:03.700 --> 01:19:05.730 align:middle line:90%
+I won't write down their names--
+
+01:19:05.730 --> 01:19:09.370 align:middle line:84%
+it took them 25 years
+to calculate it.
+
+01:19:09.370 --> 01:19:10.530 align:middle line:90%
+So actually they used it.
+
+01:19:10.530 --> 01:19:14.320 align:middle line:90%
+
+
+01:19:14.320 --> 01:19:18.600 align:middle line:84%
+So in 1996 they finally
+calculated this.
+
+01:19:18.600 --> 01:19:26.090 align:middle line:84%
+But now if you want to say,
+oh, let's try to calculate a4,
+
+01:19:26.090 --> 01:19:29.290 align:middle line:84%
+this includes 891
+diagrams just in QED.
+
+01:19:29.290 --> 01:19:32.350 align:middle line:90%
+
+
+01:19:32.350 --> 01:19:35.180 align:middle line:84%
+And actually, this is also
+calculated using computer.
+
+01:19:35.180 --> 01:19:39.170 align:middle line:90%
+
+
+01:19:39.170 --> 01:19:40.920 align:middle line:84%
+And also, you can
+calculate this for muon.
+
+01:19:40.920 --> 01:19:45.540 align:middle line:90%
+
+
+01:19:45.540 --> 01:19:47.220 align:middle line:84%
+At a certain level,
+you also need
+
+01:19:47.220 --> 01:19:49.810 align:middle line:84%
+to include the contribution
+from other interactions,
+
+01:19:49.810 --> 01:19:53.800 align:middle line:84%
+not just QED, weak
+interactions, et cetera.
+
+01:19:53.800 --> 01:19:59.160 align:middle line:84%
+Anyway, so the reason you want
+to calculate such a number
+
+01:19:59.160 --> 01:20:03.420 align:middle line:84%
+to very high accuracy
+is because this F
+
+01:20:03.420 --> 01:20:08.585 align:middle line:84%
+can be measured to very, very
+high accuracy experimentally.
+
+01:20:08.585 --> 01:20:09.960 align:middle line:84%
+So actually,
+experimentally, this
+
+01:20:09.960 --> 01:20:15.010 align:middle line:84%
+is one of the most accurately
+measured number in physics.
+
+01:20:15.010 --> 01:20:18.755 align:middle line:84%
+They can measure this F
+to order of 10 to the -12.
+
+01:20:18.755 --> 01:20:29.790 align:middle line:90%
+
+
+01:20:29.790 --> 01:20:32.550 align:middle line:84%
+I think at the
+theoretical level,
+
+01:20:32.550 --> 01:20:34.950 align:middle line:84%
+you actually cannot calculate
+to this level accuracy,
+
+01:20:34.950 --> 01:20:42.790 align:middle line:84%
+but still you can compare to
+very, very good agreement.
+
+01:20:42.790 --> 01:20:48.975 align:middle line:84%
+So QED actually describes
+nature very, very well.
+
+01:20:48.975 --> 01:20:52.020 align:middle line:90%
+
+
+01:20:52.020 --> 01:20:55.785 align:middle line:90%
+So I think that's all.
+
+01:20:55.785 --> 01:21:01.170 align:middle line:90%
+
+
+01:21:01.170 --> 01:21:04.020 align:middle line:84%
+I'm honored and very happy
+to have this opportunity
+
+01:21:04.020 --> 01:21:09.270 align:middle line:84%
+to take you to this first part
+of the journey to quantum field
+
+01:21:09.270 --> 01:21:14.580 align:middle line:84%
+theory, and I want
+to thank you all
+
+01:21:14.580 --> 01:21:20.430 align:middle line:84%
+for making this
+journey very enjoyable
+
+01:21:20.430 --> 01:21:24.900 align:middle line:84%
+and rewarding for myself, and I
+hope you have learned something
+
+01:21:24.900 --> 01:21:31.770 align:middle line:84%
+from this class, and whatever
+your career path takes you,
+
+01:21:31.770 --> 01:21:36.140 align:middle line:84%
+I hope you will later
+find this course useful.
+
+01:21:36.140 --> 01:21:37.270 align:middle line:90%
+Thank you.
+
+01:21:37.270 --> 01:21:40.320 align:middle line:90%
+[APPLAUSE]
+
+01:21:40.320 --> 01:21:45.000 align:middle line:90%

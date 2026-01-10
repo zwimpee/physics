@@ -1,0 +1,4470 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.916 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.916 --> 00:00:04.311 align:middle line:90%
+[RUSTLING]
+
+00:00:04.311 --> 00:00:06.227 align:middle line:90%
+[CLICKING]
+
+00:00:06.227 --> 00:00:10.370 align:middle line:90%
+
+
+00:00:10.370 --> 00:00:12.710 align:middle line:84%
+HONG LIU: So last
+time, we started
+
+00:00:12.710 --> 00:00:18.060 align:middle line:84%
+talking about the quantization
+of the Dirac theory.
+
+00:00:18.060 --> 00:00:21.770 align:middle line:84%
+And so, if we start with
+the Lagrangian density
+
+00:00:21.770 --> 00:00:31.880 align:middle line:84%
+of the Dirac theory, then we
+can isolate the time dependent--
+
+00:00:31.880 --> 00:00:35.000 align:middle line:84%
+the part with only
+time directive
+
+00:00:35.000 --> 00:00:36.770 align:middle line:90%
+and has the following form.
+
+00:00:36.770 --> 00:00:47.790 align:middle line:90%
+
+
+00:00:47.790 --> 00:00:55.680 align:middle line:84%
+And then we interpret this as
+the canonical momentum for psi.
+
+00:00:55.680 --> 00:00:58.350 align:middle line:90%
+
+
+00:00:58.350 --> 00:01:01.980 align:middle line:90%
+And then we have pi psi.
+
+00:01:01.980 --> 00:01:03.900 align:middle line:84%
+And then this one
+we just interpret
+
+00:01:03.900 --> 00:01:07.740 align:middle line:84%
+as the Hamiltonian,
+Hamiltonian density.
+
+00:01:07.740 --> 00:01:10.520 align:middle line:90%
+
+
+00:01:10.520 --> 00:01:16.583 align:middle line:84%
+And then we can just proceed
+to quantize the theory.
+
+00:01:16.583 --> 00:01:18.500 align:middle line:84%
+When you write down the
+canonical quantization
+
+00:01:18.500 --> 00:01:21.920 align:middle line:84%
+condition, and
+then we expand psi
+
+00:01:21.920 --> 00:01:26.130 align:middle line:84%
+in terms of complete sets
+of solutions, et cetera.
+
+00:01:26.130 --> 00:01:30.910 align:middle line:84%
+And then we recognize if we
+do it in the standard way,
+
+00:01:30.910 --> 00:01:33.580 align:middle line:84%
+say to impose the
+commutator relation,
+
+00:01:33.580 --> 00:01:35.740 align:middle line:84%
+and then the
+Hamiltonian actually
+
+00:01:35.740 --> 00:01:37.370 align:middle line:90%
+is unbounded from below.
+
+00:01:37.370 --> 00:01:43.670 align:middle line:84%
+So, actually, the total
+energy can be as negative as--
+
+00:01:43.670 --> 00:01:48.340 align:middle line:90%
+yeah, can be x active--
+
+00:01:48.340 --> 00:01:51.190 align:middle line:84%
+yeah, it can be
+arbitrarily negative.
+
+00:01:51.190 --> 00:01:55.040 align:middle line:84%
+And so, that theory
+does not make sense.
+
+00:01:55.040 --> 00:01:59.440 align:middle line:84%
+And, also, if we use the
+standard way to quantize it,
+
+00:01:59.440 --> 00:02:02.080 align:middle line:84%
+we would get a
+theory which, when
+
+00:02:02.080 --> 00:02:05.170 align:middle line:84%
+you exchange two particles,
+which they commute,
+
+00:02:05.170 --> 00:02:06.700 align:middle line:90%
+which are symmetric.
+
+00:02:06.700 --> 00:02:11.410 align:middle line:84%
+And so, that looks like both
+a bosonic theory rather than
+
+00:02:11.410 --> 00:02:13.270 align:middle line:90%
+a fermionic theory.
+
+00:02:13.270 --> 00:02:16.120 align:middle line:90%
+And then, there's a simple fix.
+
+00:02:16.120 --> 00:02:18.700 align:middle line:84%
+So the fix is that
+instead of imposing
+
+00:02:18.700 --> 00:02:21.280 align:middle line:90%
+the standard quantization--
+
+00:02:21.280 --> 00:02:26.650 align:middle line:84%
+standard commutation relation,
+we impose the following one.
+
+00:02:26.650 --> 00:02:32.070 align:middle line:84%
+So we replace everywhere the
+commutator by anticommutator.
+
+00:02:32.070 --> 00:02:35.880 align:middle line:90%
+
+
+00:02:35.880 --> 00:02:41.880 align:middle line:84%
+So what we do, say, for
+the commutation relation,
+
+00:02:41.880 --> 00:02:51.780 align:middle line:84%
+we consider psi alpha px
+and then pi beta px prime.
+
+00:02:51.780 --> 00:02:54.360 align:middle line:90%
+
+
+00:02:54.360 --> 00:03:03.750 align:middle line:84%
+So the anticommutator is
+equal to i delta alpha beta
+
+00:03:03.750 --> 00:03:04.740 align:middle line:90%
+and the 3.
+
+00:03:04.740 --> 00:03:08.490 align:middle line:90%
+
+
+00:03:08.490 --> 00:03:10.810 align:middle line:90%
+We impose this condition.
+
+00:03:10.810 --> 00:03:15.870 align:middle line:84%
+So which is the same if we plug
+in this pi just given by i psi
+
+00:03:15.870 --> 00:03:23.940 align:middle line:84%
+dagger, and then that just
+gives you psi alpha px times psi
+
+00:03:23.940 --> 00:03:37.136 align:middle line:84%
+beta dagger px prime, gives
+you delta alpha beta delta 3
+
+00:03:37.136 --> 00:03:38.460 align:middle line:90%
+x minus x prime.
+
+00:03:38.460 --> 00:03:46.320 align:middle line:90%
+
+
+00:03:46.320 --> 00:03:53.530 align:middle line:84%
+So this equation-- so
+one thing to notice--
+
+00:03:53.530 --> 00:03:58.540 align:middle line:84%
+so the commutator--
+the anticommutator
+
+00:03:58.540 --> 00:04:04.300 align:middle line:84%
+is symmetric between
+these two because the now
+
+00:04:04.300 --> 00:04:06.100 align:middle line:90%
+is the plus rather than minus.
+
+00:04:06.100 --> 00:04:09.660 align:middle line:90%
+
+
+00:04:09.660 --> 00:04:16.829 align:middle line:84%
+And so, note, so this
+commutation relation
+
+00:04:16.829 --> 00:04:18.959 align:middle line:90%
+is self-consistent.
+
+00:04:18.959 --> 00:04:35.650 align:middle line:84%
+So if we call this equation one,
+so if one is self-consistent at
+
+00:04:35.650 --> 00:04:39.070 align:middle line:90%
+x equal to x prime.
+
+00:04:39.070 --> 00:04:41.500 align:middle line:84%
+So if you take these two
+at the same point-- sorry,
+
+00:04:41.500 --> 00:04:43.580 align:middle line:90%
+so this should be prime.
+
+00:04:43.580 --> 00:04:48.970 align:middle line:84%
+So if you take these two
+at the same point, so
+
+00:04:48.970 --> 00:04:53.980 align:middle line:84%
+the left-hand side, you
+have psi alpha and psi beta.
+
+00:04:53.980 --> 00:04:56.830 align:middle line:90%
+So you just have psi dagger.
+
+00:04:56.830 --> 00:05:00.340 align:middle line:84%
+So the left-hand side is a
+positive definite quantity.
+
+00:05:00.340 --> 00:05:02.200 align:middle line:90%
+You have psi dagger.
+
+00:05:02.200 --> 00:05:05.770 align:middle line:84%
+And the right-hand side is also
+a positive definite quantity.
+
+00:05:05.770 --> 00:05:09.790 align:middle line:84%
+And you have this delta
+function evaluated at 0
+
+00:05:09.790 --> 00:05:15.280 align:middle line:90%
+even though it's a divergent.
+
+00:05:15.280 --> 00:05:22.240 align:middle line:84%
+And so, both sides
+are positive definite.
+
+00:05:22.240 --> 00:05:36.290 align:middle line:90%
+
+
+00:05:36.290 --> 00:05:40.760 align:middle line:84%
+So the fact that this
+is self-consistent,
+
+00:05:40.760 --> 00:05:46.180 align:middle line:84%
+if you trace it back,
+has to do with the psi--
+
+00:05:46.180 --> 00:05:50.200 align:middle line:84%
+this pi is actually
+equal to i psi beta.
+
+00:05:50.200 --> 00:05:52.990 align:middle line:84%
+So if it's equal
+to minus i psi--
+
+00:05:52.990 --> 00:05:55.690 align:middle line:84%
+so if pi is equal
+to i psi dagger.
+
+00:05:55.690 --> 00:05:59.510 align:middle line:84%
+So if it is equal to minus i
+psi dagger, and then, of course,
+
+00:05:59.510 --> 00:06:03.168 align:middle line:84%
+you will have a contradiction
+because the left-hand side will
+
+00:06:03.168 --> 00:06:04.585 align:middle line:84%
+be positive or the
+right side sign
+
+00:06:04.585 --> 00:06:07.180 align:middle line:84%
+will be negative because
+you will change the sign.
+
+00:06:07.180 --> 00:06:10.270 align:middle line:84%
+And that sign then
+trace back to this sign.
+
+00:06:10.270 --> 00:06:15.040 align:middle line:84%
+So that's the reason actually
+we want to have this sign here.
+
+00:06:15.040 --> 00:06:17.080 align:middle line:84%
+So the sign here
+is for a reason.
+
+00:06:17.080 --> 00:06:19.990 align:middle line:84%
+Even though, classically,
+when you write it down,
+
+00:06:19.990 --> 00:06:22.609 align:middle line:90%
+it doesn't matter what's the--
+
+00:06:22.609 --> 00:06:26.980 align:middle line:84%
+yeah-- it was not
+important what the sign is.
+
+00:06:26.980 --> 00:06:31.480 align:middle line:84%
+But quantum mechanically
+it's actually important.
+
+00:06:31.480 --> 00:06:34.610 align:middle line:90%
+So this comes from--
+
+00:06:34.610 --> 00:06:41.690 align:middle line:84%
+so the-- yeah, so the
+sign in L important.
+
+00:06:41.690 --> 00:06:55.300 align:middle line:90%
+
+
+00:06:55.300 --> 00:06:55.800 align:middle line:90%
+Good.
+
+00:06:55.800 --> 00:06:56.900 align:middle line:90%
+Any questions on this?
+
+00:06:56.900 --> 00:06:57.650 align:middle line:90%
+Yes.
+
+00:06:57.650 --> 00:06:58.560 align:middle line:84%
+AUDIENCE: Is that
+the [INAUDIBLE]
+
+00:06:58.560 --> 00:07:00.935 align:middle line:84%
+when you replace the commutator
+with the anti commutator?
+
+00:07:00.935 --> 00:07:03.532 align:middle line:84%
+Is that the generic
+feature when we describe
+
+00:07:03.532 --> 00:07:05.630 align:middle line:90%
+things in harmonic series?
+
+00:07:05.630 --> 00:07:06.767 align:middle line:90%
+HONG LIU: Yeah.
+
+00:07:06.767 --> 00:07:07.850 align:middle line:90%
+I'm going to mention that.
+
+00:07:07.850 --> 00:07:08.270 align:middle line:90%
+Yeah.
+
+00:07:08.270 --> 00:07:09.380 align:middle line:90%
+I'm going to mention that.
+
+00:07:09.380 --> 00:07:10.190 align:middle line:90%
+Yes.
+
+00:07:10.190 --> 00:07:12.946 align:middle line:84%
+AUDIENCE: So in
+quantum mechanics,
+
+00:07:12.946 --> 00:07:14.700 align:middle line:84%
+the fundamental
+commutation relation
+
+00:07:14.700 --> 00:07:17.310 align:middle line:84%
+tells you that x
+and p don't commute.
+
+00:07:17.310 --> 00:07:20.195 align:middle line:84%
+But in the classical limit,
+h bar goes to 0, they do.
+
+00:07:20.195 --> 00:07:20.820 align:middle line:90%
+HONG LIU: Yeah.
+
+00:07:20.820 --> 00:07:24.000 align:middle line:84%
+AUDIENCE: And that's a very
+physically intuitive idea.
+
+00:07:24.000 --> 00:07:24.770 align:middle line:90%
+HONG LIU: Right.
+
+00:07:24.770 --> 00:07:27.707 align:middle line:84%
+AUDIENCE: But then,
+here, h bar goes to 0
+
+00:07:27.707 --> 00:07:29.790 align:middle line:84%
+just tells you something
+about the anticommutator.
+
+00:07:29.790 --> 00:07:32.220 align:middle line:84%
+So how do we determine
+the classical?
+
+00:07:32.220 --> 00:07:33.240 align:middle line:90%
+HONG LIU: Yeah.
+
+00:07:33.240 --> 00:07:36.420 align:middle line:84%
+So the classical limit,
+yeah, we will actually--
+
+00:07:36.420 --> 00:07:38.880 align:middle line:84%
+this is a very good question
+we will discuss later.
+
+00:07:38.880 --> 00:07:41.940 align:middle line:84%
+The classical limit,
+they become anticommute.
+
+00:07:41.940 --> 00:07:44.250 align:middle line:84%
+Yeah, in the classical
+limit, essentially they
+
+00:07:44.250 --> 00:07:48.870 align:middle line:90%
+become a anticommute variables.
+
+00:07:48.870 --> 00:07:51.120 align:middle line:90%
+Yeah.
+
+00:07:51.120 --> 00:07:55.230 align:middle line:84%
+And this is crucial when we
+later describe path integral.
+
+00:07:55.230 --> 00:07:58.730 align:middle line:84%
+We will discuss this
+in detail later.
+
+00:07:58.730 --> 00:07:59.745 align:middle line:90%
+Other questions?
+
+00:07:59.745 --> 00:08:00.245 align:middle line:90%
+Yes.
+
+00:08:00.245 --> 00:08:02.330 align:middle line:84%
+AUDIENCE: So can
+you say anything
+
+00:08:02.330 --> 00:08:04.810 align:middle line:84%
+about the commutation
+relation between them,
+
+00:08:04.810 --> 00:08:06.988 align:middle line:90%
+or can you not impose it?
+
+00:08:06.988 --> 00:08:07.780 align:middle line:90%
+HONG LIU: Oh, yeah.
+
+00:08:07.780 --> 00:08:09.905 align:middle line:84%
+You can talk about the
+commutation relation between
+
+00:08:09.905 --> 00:08:13.810 align:middle line:84%
+them, just you
+cannot impose them.
+
+00:08:13.810 --> 00:08:16.786 align:middle line:84%
+AUDIENCE: But does it-- do you
+get any physical meaning from
+
+00:08:16.786 --> 00:08:20.175 align:middle line:84%
+the commutation relation
+between two objects, or--
+
+00:08:20.175 --> 00:08:20.800 align:middle line:90%
+HONG LIU: Yeah.
+
+00:08:20.800 --> 00:08:23.320 align:middle line:90%
+
+
+00:08:23.320 --> 00:08:25.330 align:middle line:90%
+These are two operators.
+
+00:08:25.330 --> 00:08:28.965 align:middle line:84%
+You can always consider
+whatever quantities about them.
+
+00:08:28.965 --> 00:08:30.340 align:middle line:84%
+AUDIENCE: There
+isn't a general--
+
+00:08:30.340 --> 00:08:33.100 align:middle line:84%
+HONG LIU: Yeah, but
+there's no general rule.
+
+00:08:33.100 --> 00:08:34.120 align:middle line:90%
+Yeah.
+
+00:08:34.120 --> 00:08:38.110 align:middle line:84%
+So the general rule, we
+impose for the anticommutator.
+
+00:08:38.110 --> 00:08:42.220 align:middle line:90%
+
+
+00:08:42.220 --> 00:08:48.430 align:middle line:84%
+And so, and in the
+second step, we just
+
+00:08:48.430 --> 00:08:56.220 align:middle line:84%
+expand the psi in terms
+of complete sets of modes.
+
+00:08:56.220 --> 00:09:01.580 align:middle line:84%
+And so, in the second
+step, as we do before,
+
+00:09:01.580 --> 00:09:05.735 align:middle line:84%
+we expand the psi x in terms
+of complete set of modes.
+
+00:09:05.735 --> 00:09:09.120 align:middle line:90%
+
+
+00:09:09.120 --> 00:09:23.020 align:middle line:84%
+So we have already worked
+out last time, times--
+
+00:09:23.020 --> 00:09:30.350 align:middle line:90%
+so we have ak, s for the u s.
+
+00:09:30.350 --> 00:09:33.770 align:middle line:90%
+Then we have expansion ikx.
+
+00:09:33.770 --> 00:09:37.890 align:middle line:84%
+And then, similarly, with the
+complex scalar convention--
+
+00:09:37.890 --> 00:09:39.890 align:middle line:90%
+so now let me call this c.
+
+00:09:39.890 --> 00:09:43.220 align:middle line:84%
+Just last time I used
+b, but it's often
+
+00:09:43.220 --> 00:09:46.070 align:middle line:90%
+conventional to use c.
+
+00:09:46.070 --> 00:09:48.020 align:middle line:90%
+And I put the dagger here.
+
+00:09:48.020 --> 00:09:49.260 align:middle line:90%
+It doesn't matter.
+
+00:09:49.260 --> 00:09:51.440 align:middle line:84%
+It's not so important
+whether you put dagger here.
+
+00:09:51.440 --> 00:09:53.390 align:middle line:90%
+So but it's a convention.
+
+00:09:53.390 --> 00:09:57.200 align:middle line:90%
+
+
+00:09:57.200 --> 00:10:02.750 align:middle line:84%
+So this is our complete
+sets of solutions.
+
+00:10:02.750 --> 00:10:06.500 align:middle line:84%
+And then we expand psi in
+terms of arbitrary coefficients
+
+00:10:06.500 --> 00:10:08.630 align:middle line:90%
+in terms of them.
+
+00:10:08.630 --> 00:10:12.310 align:middle line:84%
+And since psi is
+generally complex,
+
+00:10:12.310 --> 00:10:14.920 align:middle line:84%
+so these two don't
+have to be the same.
+
+00:10:14.920 --> 00:10:17.890 align:middle line:84%
+So these two, yeah, this
+is a complex scalar case.
+
+00:10:17.890 --> 00:10:21.430 align:middle line:90%
+They don't have to be the same.
+
+00:10:21.430 --> 00:10:24.900 align:middle line:84%
+And so, quantum
+mechanically, then a and c,
+
+00:10:24.900 --> 00:10:26.910 align:middle line:90%
+they are operators.
+
+00:10:26.910 --> 00:10:30.550 align:middle line:90%
+A and c, they are operators.
+
+00:10:30.550 --> 00:10:34.470 align:middle line:84%
+So if I call this
+equation two, and then
+
+00:10:34.470 --> 00:10:40.120 align:middle line:84%
+if we plug two into one, then
+we can get to the commutators.
+
+00:10:40.120 --> 00:10:43.640 align:middle line:90%
+
+
+00:10:43.640 --> 00:10:47.690 align:middle line:84%
+We can get the anticommutators
+between a and c.
+
+00:10:47.690 --> 00:10:59.316 align:middle line:84%
+And so, so we find
+that, for example, ak r,
+
+00:10:59.316 --> 00:11:21.180 align:middle line:84%
+ak prime s dagger equal to
+ckr and ck prime s dagger,
+
+00:11:21.180 --> 00:11:28.850 align:middle line:84%
+now it's equal to
+2 pi cube delta 3
+
+00:11:28.850 --> 00:11:34.830 align:middle line:90%
+k minus k prime delta rs.
+
+00:11:34.830 --> 00:11:51.220 align:middle line:84%
+And with all other
+anticommutator,
+
+00:11:51.220 --> 00:11:54.100 align:middle line:84%
+so emphasize
+anticommutators zero.
+
+00:11:54.100 --> 00:12:01.180 align:middle line:90%
+
+
+00:12:01.180 --> 00:12:04.050 align:middle line:84%
+And, yeah, so the story
+is similar as before,
+
+00:12:04.050 --> 00:12:08.240 align:middle line:84%
+except you just everywhere
+replace the commutator
+
+00:12:08.240 --> 00:12:11.830 align:middle line:90%
+by anticommutator.
+
+00:12:11.830 --> 00:12:14.410 align:middle line:84%
+And then, the vacuum, we
+can still define the vacuum.
+
+00:12:14.410 --> 00:12:20.070 align:middle line:90%
+
+
+00:12:20.070 --> 00:12:21.660 align:middle line:90%
+You can still divide--
+
+00:12:21.660 --> 00:12:24.570 align:middle line:84%
+later, we will see
+that this is justified.
+
+00:12:24.570 --> 00:12:28.350 align:middle line:84%
+So we can still define
+the vacuum as annihilated
+
+00:12:28.350 --> 00:12:40.850 align:middle line:90%
+by ak and ck for any k and s.
+
+00:12:40.850 --> 00:12:48.490 align:middle line:90%
+
+
+00:12:48.490 --> 00:12:49.600 align:middle line:90%
+So we define the vacuum.
+
+00:12:49.600 --> 00:12:53.070 align:middle line:84%
+The reason this is the
+vacuum is because, now,
+
+00:12:53.070 --> 00:12:59.240 align:middle line:84%
+if you find the
+Hamiltonian, so you
+
+00:12:59.240 --> 00:13:05.868 align:middle line:84%
+can plug this in into your
+expression for the Hamiltonian.
+
+00:13:05.868 --> 00:13:07.910 align:middle line:84%
+Because they just expressed
+in terms of psi, then
+
+00:13:07.910 --> 00:13:11.330 align:middle line:84%
+you can just work it out,
+just straightforward as we
+
+00:13:11.330 --> 00:13:13.970 align:middle line:84%
+did previously for
+the scalar field.
+
+00:13:13.970 --> 00:13:18.695 align:middle line:84%
+Just now the algebra is
+slightly more complicated
+
+00:13:18.695 --> 00:13:19.445 align:middle line:90%
+because you have--
+
+00:13:19.445 --> 00:13:23.130 align:middle line:90%
+
+
+00:13:23.130 --> 00:13:24.380 align:middle line:90%
+yeah.
+
+00:13:24.380 --> 00:13:28.030 align:middle line:90%
+So now you get omega k.
+
+00:13:28.030 --> 00:13:32.410 align:middle line:90%
+And then you have s 1, 2.
+
+00:13:32.410 --> 00:13:51.690 align:middle line:84%
+And then you have aks dagger
+aks plus cks dagger cks,
+
+00:13:51.690 --> 00:13:54.270 align:middle line:90%
+then plus some constant.
+
+00:13:54.270 --> 00:13:57.690 align:middle line:84%
+Just as in the scalar
+case, we always
+
+00:13:57.690 --> 00:14:00.870 align:middle line:90%
+have some zero point energy.
+
+00:14:00.870 --> 00:14:03.700 align:middle line:84%
+We always have some
+zero point energy.
+
+00:14:03.700 --> 00:14:09.540 align:middle line:84%
+And so now you see,
+if you define--
+
+00:14:09.540 --> 00:14:12.300 align:middle line:84%
+so now you see the Hamiltonian
+is positive definite.
+
+00:14:12.300 --> 00:14:14.900 align:middle line:90%
+
+
+00:14:14.900 --> 00:14:17.420 align:middle line:84%
+The Hamiltonian is
+positive definite.
+
+00:14:17.420 --> 00:14:19.550 align:middle line:84%
+And because we have
+a plus sign here
+
+00:14:19.550 --> 00:14:23.970 align:middle line:84%
+rather than the minus sign if
+we do the commutation relation.
+
+00:14:23.970 --> 00:14:27.120 align:middle line:84%
+And then, since this is
+positive definite, and then
+
+00:14:27.120 --> 00:14:30.420 align:middle line:84%
+justify defining
+this 0 as the vacuum.
+
+00:14:30.420 --> 00:14:33.160 align:middle line:84%
+Because this state, indeed,
+has the lowest energy
+
+00:14:33.160 --> 00:14:34.580 align:middle line:90%
+given by this E0.
+
+00:14:34.580 --> 00:14:37.230 align:middle line:90%
+And, yeah, E0 as in the bottom--
+
+00:14:37.230 --> 00:14:41.340 align:middle line:84%
+in the previous scalar
+case-- would be divergent.
+
+00:14:41.340 --> 00:14:42.300 align:middle line:90%
+It would be divergent.
+
+00:14:42.300 --> 00:14:49.410 align:middle line:90%
+
+
+00:14:49.410 --> 00:14:50.550 align:middle line:90%
+Any questions on this?
+
+00:14:50.550 --> 00:14:55.150 align:middle line:90%
+
+
+00:14:55.150 --> 00:14:55.650 align:middle line:90%
+Yes.
+
+00:14:55.650 --> 00:14:57.608 align:middle line:84%
+AUDIENCE: On that line,
+what is the coefficient
+
+00:14:57.608 --> 00:14:58.561 align:middle line:90%
+of the exponential?
+
+00:14:58.561 --> 00:14:59.807 align:middle line:90%
+It's minus i k x?
+
+00:14:59.807 --> 00:15:00.640 align:middle line:90%
+HONG LIU: Oh, right.
+
+00:15:00.640 --> 00:15:00.970 align:middle line:90%
+Sorry.
+
+00:15:00.970 --> 00:15:01.593 align:middle line:90%
+Yeah.
+
+00:15:01.593 --> 00:15:02.093 align:middle line:90%
+I did.
+
+00:15:02.093 --> 00:15:05.550 align:middle line:90%
+
+
+00:15:05.550 --> 00:15:07.020 align:middle line:90%
+Good.
+
+00:15:07.020 --> 00:15:07.860 align:middle line:90%
+Thank you.
+
+00:15:07.860 --> 00:15:10.740 align:middle line:90%
+
+
+00:15:10.740 --> 00:15:11.980 align:middle line:90%
+Good.
+
+00:15:11.980 --> 00:15:14.320 align:middle line:84%
+So let me make some
+comments on this E0.
+
+00:15:14.320 --> 00:15:18.030 align:middle line:90%
+
+
+00:15:18.030 --> 00:15:23.970 align:middle line:90%
+So, again, the quantization--
+
+00:15:23.970 --> 00:15:27.640 align:middle line:90%
+
+
+00:15:27.640 --> 00:15:36.190 align:middle line:84%
+yeah, again, the quantized
+field, as in the scalar case,
+
+00:15:36.190 --> 00:15:50.180 align:middle line:84%
+essentially consists
+of an infinite number
+
+00:15:50.180 --> 00:15:52.920 align:middle line:90%
+of harmonic oscillators.
+
+00:15:52.920 --> 00:15:59.300 align:middle line:84%
+So now I need to put the
+harmonic oscillator by codes.
+
+00:15:59.300 --> 00:16:01.340 align:middle line:84%
+Because now these
+harmonic oscillators,
+
+00:16:01.340 --> 00:16:04.760 align:middle line:84%
+they defined in terms of the
+anticommutators rather than
+
+00:16:04.760 --> 00:16:05.500 align:middle line:90%
+commutators.
+
+00:16:05.500 --> 00:16:12.800 align:middle line:90%
+
+
+00:16:12.800 --> 00:16:17.570 align:middle line:90%
+And so, very important feature.
+
+00:16:17.570 --> 00:16:19.550 align:middle line:84%
+And, normally, we
+call them fermionic
+
+00:16:19.550 --> 00:16:23.130 align:middle line:84%
+for reasons will
+be clear very soon.
+
+00:16:23.130 --> 00:16:26.210 align:middle line:90%
+So this is the first note--
+
+00:16:26.210 --> 00:16:29.570 align:middle line:84%
+for a reason will be
+very soon and the--
+
+00:16:29.570 --> 00:16:33.590 align:middle line:84%
+why we call them
+fermionic oscillator.
+
+00:16:33.590 --> 00:16:40.480 align:middle line:84%
+And so, we have for each
+k and the value of the s,
+
+00:16:40.480 --> 00:16:43.090 align:middle line:90%
+and you have an oscillator.
+
+00:16:43.090 --> 00:16:45.640 align:middle line:84%
+And then you have
+oscillator generated by a
+
+00:16:45.640 --> 00:16:48.055 align:middle line:84%
+and also have oscillator
+generated by c.
+
+00:16:48.055 --> 00:16:50.970 align:middle line:90%
+
+
+00:16:50.970 --> 00:16:56.700 align:middle line:90%
+So each fermionic oscillator--
+
+00:16:56.700 --> 00:17:04.030 align:middle line:90%
+
+
+00:17:04.030 --> 00:17:06.480 align:middle line:84%
+so this is like the
+harmonic oscillator.
+
+00:17:06.480 --> 00:17:20.510 align:middle line:84%
+They contribute to E0, to
+this ground state energy.
+
+00:17:20.510 --> 00:17:24.430 align:middle line:84%
+So, remember, previously, for
+the both-- for the scalar case,
+
+00:17:24.430 --> 00:17:28.700 align:middle line:84%
+each oscillator
+contributes 1/2 omega k.
+
+00:17:28.700 --> 00:17:29.450 align:middle line:90%
+Remember.
+
+00:17:29.450 --> 00:17:34.070 align:middle line:84%
+So now, in this
+case, they contribute
+
+00:17:34.070 --> 00:17:35.900 align:middle line:90%
+by minus 1/2 omega k.
+
+00:17:35.900 --> 00:17:39.450 align:middle line:90%
+
+
+00:17:39.450 --> 00:17:43.120 align:middle line:84%
+It's actually opposite sign
+for the standard harmonic
+
+00:17:43.120 --> 00:17:43.620 align:middle line:90%
+oscillator.
+
+00:17:43.620 --> 00:17:46.440 align:middle line:84%
+In the standard harmonic
+oscillator, it's 1/2 omega,
+
+00:17:46.440 --> 00:17:49.380 align:middle line:90%
+and here it's minus 1/2 omega.
+
+00:17:49.380 --> 00:17:53.500 align:middle line:90%
+
+
+00:17:53.500 --> 00:17:56.860 align:middle line:84%
+So let me just also
+saying why we call it a--
+
+00:17:56.860 --> 00:18:00.090 align:middle line:90%
+
+
+00:18:00.090 --> 00:18:02.970 align:middle line:84%
+so a feature of this
+fermionic harmonic oscillator
+
+00:18:02.970 --> 00:18:09.365 align:middle line:84%
+is that, say, you can act,
+you can create a state--
+
+00:18:09.365 --> 00:18:16.440 align:middle line:90%
+
+
+00:18:16.440 --> 00:18:16.940 align:middle line:90%
+yeah.
+
+00:18:16.940 --> 00:18:19.220 align:middle line:84%
+So let me just make
+some general remarks.
+
+00:18:19.220 --> 00:18:23.330 align:middle line:84%
+Say if you have a harmonic
+oscillator satisfy--
+
+00:18:23.330 --> 00:18:30.540 align:middle line:84%
+yeah-- satisfy this kind
+of commutation relation.
+
+00:18:30.540 --> 00:18:33.420 align:middle line:84%
+Let's just look at
+one set of them.
+
+00:18:33.420 --> 00:18:37.710 align:middle line:90%
+
+
+00:18:37.710 --> 00:18:42.600 align:middle line:84%
+So one side of them, just take
+any side with any choice of k
+
+00:18:42.600 --> 00:18:46.270 align:middle line:84%
+and s, and then they
+satisfy that relation.
+
+00:18:46.270 --> 00:18:55.530 align:middle line:84%
+So this defines fermionic
+harmonic oscillator.
+
+00:18:55.530 --> 00:18:59.470 align:middle line:90%
+
+
+00:18:59.470 --> 00:19:06.640 align:middle line:84%
+And so, interesting
+feature of this oscillator
+
+00:19:06.640 --> 00:19:09.590 align:middle line:84%
+is that you can only
+excite them once.
+
+00:19:09.590 --> 00:19:15.380 align:middle line:84%
+Because if you have a
+dagger acting on 0, now
+
+00:19:15.380 --> 00:19:22.730 align:middle line:84%
+if you have a dagger square
+acting on 0, then this is 0.
+
+00:19:22.730 --> 00:19:25.220 align:middle line:84%
+So the only state you have--
+you only have two states.
+
+00:19:25.220 --> 00:19:29.430 align:middle line:84%
+One is 0 and the
+one is a dagger 0.
+
+00:19:29.430 --> 00:19:34.590 align:middle line:84%
+It's because the anticommutator
+of a dagger itself is 0.
+
+00:19:34.590 --> 00:19:37.350 align:middle line:84%
+So this just tells you that a
+dagger squared is equal to 0.
+
+00:19:37.350 --> 00:19:40.500 align:middle line:84%
+And, also, a squared
+is equal to 0.
+
+00:19:40.500 --> 00:19:43.410 align:middle line:90%
+And so, you act twice.
+
+00:19:43.410 --> 00:19:46.470 align:middle line:84%
+And this is precisely
+the Pauli principle,
+
+00:19:46.470 --> 00:19:49.290 align:middle line:84%
+and the two particle
+on the same state,
+
+00:19:49.290 --> 00:19:52.620 align:middle line:90%
+and you get identically 0.
+
+00:19:52.620 --> 00:19:59.320 align:middle line:84%
+So if you act any of k here, a,
+k, and s, if they are the same,
+
+00:19:59.320 --> 00:20:02.590 align:middle line:84%
+if you act them
+twice, you get 0.
+
+00:20:02.590 --> 00:20:05.110 align:middle line:84%
+So if you have two
+particles in the same state,
+
+00:20:05.110 --> 00:20:07.450 align:middle line:84%
+when k and s is
+the same, then it
+
+00:20:07.450 --> 00:20:10.010 align:middle line:84%
+means that all their quantum
+numbers are the same.
+
+00:20:10.010 --> 00:20:13.290 align:middle line:84%
+And so, this is the
+Pauli principle.
+
+00:20:13.290 --> 00:20:24.270 align:middle line:90%
+
+
+00:20:24.270 --> 00:20:26.340 align:middle line:90%
+So this is the Pauli principle.
+
+00:20:26.340 --> 00:20:29.535 align:middle line:84%
+So no two particle can
+be in the same states.
+
+00:20:29.535 --> 00:20:39.090 align:middle line:90%
+
+
+00:20:39.090 --> 00:20:59.080 align:middle line:84%
+So here, then we conclude that
+a dagger, aks and cks dagger,
+
+00:20:59.080 --> 00:21:02.380 align:middle line:90%
+they create fermions.
+
+00:21:02.380 --> 00:21:06.430 align:middle line:90%
+
+
+00:21:06.430 --> 00:21:09.010 align:middle line:84%
+They create particles which
+obey the Pauli principle.
+
+00:21:09.010 --> 00:21:19.295 align:middle line:90%
+
+
+00:21:19.295 --> 00:21:19.795 align:middle line:90%
+Good?
+
+00:21:19.795 --> 00:21:31.450 align:middle line:90%
+
+
+00:21:31.450 --> 00:21:32.385 align:middle line:90%
+Any questions on this?
+
+00:21:32.385 --> 00:21:35.400 align:middle line:90%
+
+
+00:21:35.400 --> 00:21:36.490 align:middle line:90%
+Good.
+
+00:21:36.490 --> 00:21:39.730 align:middle line:90%
+So now we can define--
+
+00:21:39.730 --> 00:21:43.300 align:middle line:84%
+as before, we can define
+single particle states.
+
+00:21:43.300 --> 00:21:55.945 align:middle line:84%
+So the single particle states,
+say, you just act them once.
+
+00:21:55.945 --> 00:22:00.750 align:middle line:90%
+
+
+00:22:00.750 --> 00:22:03.380 align:middle line:90%
+So, again, we define them by--
+
+00:22:03.380 --> 00:22:06.980 align:middle line:84%
+with this normalization
+as in the scalar case.
+
+00:22:06.980 --> 00:22:13.055 align:middle line:90%
+And then a s aks dagger on 0.
+
+00:22:13.055 --> 00:22:15.730 align:middle line:90%
+
+
+00:22:15.730 --> 00:22:23.220 align:middle line:84%
+And then we define ks bar
+to be the one created by c.
+
+00:22:23.220 --> 00:22:35.740 align:middle line:90%
+
+
+00:22:35.740 --> 00:22:38.660 align:middle line:84%
+So as before, in
+the scalar case,
+
+00:22:38.660 --> 00:22:42.250 align:middle line:84%
+we can interpret this
+k as the momentum.
+
+00:22:42.250 --> 00:22:45.550 align:middle line:84%
+You can check explicitly,
+as we will describe,
+
+00:22:45.550 --> 00:22:50.080 align:middle line:84%
+that the k give you the momentum
+of the-- yeah, goes back
+
+00:22:50.080 --> 00:22:51.910 align:middle line:90%
+into the momentum eigenvalue.
+
+00:22:51.910 --> 00:22:54.010 align:middle line:84%
+And then, the s
+can be interpreted
+
+00:22:54.010 --> 00:22:57.460 align:middle line:90%
+as some kind of polarization.
+
+00:22:57.460 --> 00:23:01.100 align:middle line:90%
+So yeah.
+
+00:23:01.100 --> 00:23:06.830 align:middle line:84%
+And yeah, so this
+we call particle.
+
+00:23:06.830 --> 00:23:08.930 align:middle line:90%
+So we'll call this particle.
+
+00:23:08.930 --> 00:23:10.970 align:middle line:84%
+And we will call
+this antiparticle.
+
+00:23:10.970 --> 00:23:18.440 align:middle line:90%
+
+
+00:23:18.440 --> 00:23:30.060 align:middle line:84%
+And so, each particle
+has two polarizations.
+
+00:23:30.060 --> 00:23:35.040 align:middle line:90%
+
+
+00:23:35.040 --> 00:23:36.510 align:middle line:90%
+Since s equal to 1, 2.
+
+00:23:36.510 --> 00:23:39.170 align:middle line:90%
+
+
+00:23:39.170 --> 00:23:42.860 align:middle line:84%
+And they are all satisfied,
+and the k square, of course,
+
+00:23:42.860 --> 00:23:45.020 align:middle line:90%
+all satisfied minus m squared.
+
+00:23:45.020 --> 00:23:52.570 align:middle line:90%
+
+
+00:23:52.570 --> 00:23:53.070 align:middle line:90%
+good?
+
+00:23:53.070 --> 00:23:53.987 align:middle line:90%
+Any questions on this?
+
+00:23:53.987 --> 00:24:01.980 align:middle line:90%
+
+
+00:24:01.980 --> 00:24:03.801 align:middle line:84%
+AUDIENCE: Is s and
+s bar different?
+
+00:24:03.801 --> 00:24:04.384 align:middle line:90%
+HONG LIU: Hmm?
+
+00:24:04.384 --> 00:24:06.672 align:middle line:84%
+AUDIENCE: Is s and
+s bar different?
+
+00:24:06.672 --> 00:24:08.130 align:middle line:84%
+HONG LIU: Is s and
+s bar different?
+
+00:24:08.130 --> 00:24:12.510 align:middle line:84%
+Yeah, because one is created
+by a, and one is created by c.
+
+00:24:12.510 --> 00:24:14.580 align:middle line:84%
+So we just use a bar
+to distinguish them.
+
+00:24:14.580 --> 00:24:17.420 align:middle line:90%
+
+
+00:24:17.420 --> 00:24:21.950 align:middle line:84%
+Yeah, this one corresponding
+to a polarization
+
+00:24:21.950 --> 00:24:22.970 align:middle line:90%
+of this particle.
+
+00:24:22.970 --> 00:24:25.130 align:middle line:84%
+And one bar corresponding
+to the polarization
+
+00:24:25.130 --> 00:24:26.210 align:middle line:90%
+of the antiparticle.
+
+00:24:26.210 --> 00:24:29.400 align:middle line:90%
+
+
+00:24:29.400 --> 00:24:29.900 align:middle line:90%
+Good?
+
+00:24:29.900 --> 00:24:37.460 align:middle line:90%
+
+
+00:24:37.460 --> 00:24:45.420 align:middle line:84%
+Yeah, so you can also
+find the Noether charge.
+
+00:24:45.420 --> 00:24:58.450 align:middle line:84%
+Say you can find the Noether
+charge for translation.
+
+00:24:58.450 --> 00:25:00.390 align:middle line:84%
+So we already talked
+about momentum--
+
+00:25:00.390 --> 00:25:02.220 align:middle line:90%
+Hamiltonian.
+
+00:25:02.220 --> 00:25:07.180 align:middle line:84%
+You can also find the Noether
+charge for spatial translation.
+
+00:25:07.180 --> 00:25:13.200 align:middle line:84%
+And then you just find the
+P, capital P, is equal to--
+
+00:25:13.200 --> 00:25:17.500 align:middle line:84%
+yeah, so this is, yeah, you
+can just similarly work it out.
+
+00:25:17.500 --> 00:25:20.040 align:middle line:84%
+So, actually, in your
+pset, you will work out
+
+00:25:20.040 --> 00:25:24.210 align:middle line:90%
+the stress tensor.
+
+00:25:24.210 --> 00:25:27.000 align:middle line:84%
+So you find that
+the loss of charge
+
+00:25:27.000 --> 00:25:29.220 align:middle line:84%
+for the spatial translation
+is given by this.
+
+00:25:29.220 --> 00:25:33.225 align:middle line:84%
+And then, if you plug it
+in, and then you get--
+
+00:25:33.225 --> 00:25:43.400 align:middle line:90%
+
+
+00:25:43.400 --> 00:25:46.100 align:middle line:84%
+and then, again, you
+have this a dagger.
+
+00:25:46.100 --> 00:25:48.170 align:middle line:84%
+Yeah, to save the
+effort, I just say
+
+00:25:48.170 --> 00:25:51.260 align:middle line:84%
+you have a dagger,
+a and c, dagger c.
+
+00:25:51.260 --> 00:25:55.070 align:middle line:84%
+So you can see,
+immediately, these two will
+
+00:25:55.070 --> 00:25:59.120 align:middle line:84%
+be a eigenstate,
+say, of the momentum
+
+00:25:59.120 --> 00:26:03.620 align:middle line:90%
+operator with eigenvalue k.
+
+00:26:03.620 --> 00:26:04.550 align:middle line:90%
+With eigenvalue k.
+
+00:26:04.550 --> 00:26:09.380 align:middle line:84%
+So that justifies that
+these are momentum--
+
+00:26:09.380 --> 00:26:11.840 align:middle line:84%
+these are the
+momentum eigenstates.
+
+00:26:11.840 --> 00:26:18.050 align:middle line:90%
+
+
+00:26:18.050 --> 00:26:30.370 align:middle line:84%
+So we can also find we can
+also define normalization.
+
+00:26:30.370 --> 00:26:33.230 align:middle line:84%
+We define the normalization,
+yeah, for those--
+
+00:26:33.230 --> 00:26:37.320 align:middle line:84%
+you can check the
+normalization for those state.
+
+00:26:37.320 --> 00:26:38.510 align:middle line:90%
+So these are the plane wave.
+
+00:26:38.510 --> 00:26:42.680 align:middle line:90%
+
+
+00:26:42.680 --> 00:26:47.540 align:middle line:84%
+So you can check just by
+using commutation relation.
+
+00:26:47.540 --> 00:26:51.900 align:middle line:90%
+And this is given by omega k.
+
+00:26:51.900 --> 00:26:54.270 align:middle line:90%
+That's 2 pi cubed.
+
+00:26:54.270 --> 00:27:00.540 align:middle line:90%
+
+
+00:27:00.540 --> 00:27:15.280 align:middle line:84%
+And, similarly, for
+the antiparticle,
+
+00:27:15.280 --> 00:27:17.330 align:middle line:90%
+you have the same thing.
+
+00:27:17.330 --> 00:27:18.990 align:middle line:90%
+Same thing.
+
+00:27:18.990 --> 00:27:21.140 align:middle line:84%
+But if you take the overlap
+between the particle
+
+00:27:21.140 --> 00:27:22.640 align:middle line:84%
+and the antiparticle,
+you always get
+
+00:27:22.640 --> 00:27:28.750 align:middle line:84%
+the 0, because the commutator
+between a and c is always 0.
+
+00:27:28.750 --> 00:27:37.130 align:middle line:90%
+
+
+00:27:37.130 --> 00:27:41.840 align:middle line:90%
+Take k, r, and the k prime.
+
+00:27:41.840 --> 00:27:43.145 align:middle line:90%
+S bar is always 0.
+
+00:27:43.145 --> 00:27:45.698 align:middle line:90%
+
+
+00:27:45.698 --> 00:27:47.430 align:middle line:90%
+They are always orthogonal.
+
+00:27:47.430 --> 00:27:57.720 align:middle line:90%
+
+
+00:27:57.720 --> 00:28:00.510 align:middle line:84%
+So let us make some
+further notes here.
+
+00:28:00.510 --> 00:28:07.870 align:middle line:90%
+
+
+00:28:07.870 --> 00:28:18.970 align:middle line:84%
+So since we have two components,
+since each particle a fermion.
+
+00:28:18.970 --> 00:28:22.870 align:middle line:84%
+So we already said there
+should be a fermion.
+
+00:28:22.870 --> 00:28:24.580 align:middle line:90%
+And it has two components.
+
+00:28:24.580 --> 00:28:31.420 align:middle line:90%
+
+
+00:28:31.420 --> 00:28:34.360 align:middle line:84%
+So, again, we guessed they
+must be spin 1/2 particle.
+
+00:28:34.360 --> 00:28:39.640 align:middle line:90%
+
+
+00:28:39.640 --> 00:28:41.620 align:middle line:84%
+We guess they must
+be spin 1/2 particle.
+
+00:28:41.620 --> 00:28:45.310 align:middle line:90%
+
+
+00:28:45.310 --> 00:28:52.070 align:middle line:84%
+And so, you can
+check explicitly.
+
+00:28:52.070 --> 00:28:55.330 align:middle line:84%
+Yeah, so you can guess that
+this would be spin 1/2 particle.
+
+00:28:55.330 --> 00:28:56.630 align:middle line:90%
+But you can check explicitly.
+
+00:28:56.630 --> 00:29:02.590 align:middle line:90%
+
+
+00:29:02.590 --> 00:29:06.770 align:middle line:90%
+Indeed, the eigenvalues are--
+
+00:29:06.770 --> 00:29:14.260 align:middle line:84%
+so you can construct
+angular momentum operator
+
+00:29:14.260 --> 00:29:17.420 align:middle line:84%
+because this series,
+Lorentz invariance,
+
+00:29:17.420 --> 00:29:20.620 align:middle line:84%
+so you can construct the
+Noether charge associated
+
+00:29:20.620 --> 00:29:23.000 align:middle line:90%
+with the Lorentz transformation.
+
+00:29:23.000 --> 00:29:27.260 align:middle line:84%
+And then you can construct
+the angular momentum operator.
+
+00:29:27.260 --> 00:29:30.080 align:middle line:90%
+And then you check.
+
+00:29:30.080 --> 00:29:40.490 align:middle line:84%
+And then, indeed, so you find
+that indeed the ks and k bar--
+
+00:29:40.490 --> 00:29:52.340 align:middle line:84%
+ks bar has eigenvalue
+of spin half particles.
+
+00:29:52.340 --> 00:30:00.430 align:middle line:90%
+
+
+00:30:00.430 --> 00:30:02.470 align:middle line:84%
+So this is you can
+check explicitly.
+
+00:30:02.470 --> 00:30:07.660 align:middle line:90%
+
+
+00:30:07.660 --> 00:30:08.160 align:middle line:90%
+Good.
+
+00:30:08.160 --> 00:30:10.530 align:middle line:90%
+Any questions on this?
+
+00:30:10.530 --> 00:30:11.810 align:middle line:90%
+And this will be in your pset.
+
+00:30:11.810 --> 00:30:14.360 align:middle line:90%
+
+
+00:30:14.360 --> 00:30:16.600 align:middle line:90%
+This is in your pset.
+
+00:30:16.600 --> 00:30:23.850 align:middle line:84%
+And this is a little bit
+non-trivial calculation.
+
+00:30:23.850 --> 00:30:25.860 align:middle line:90%
+But it's an instructive one.
+
+00:30:25.860 --> 00:30:28.560 align:middle line:90%
+So when you see from your hand--
+
+00:30:28.560 --> 00:30:32.520 align:middle line:84%
+you see it with your own eye
+and from your own calculation,
+
+00:30:32.520 --> 00:30:37.030 align:middle line:84%
+that this is spin
+1/2 is satisfying.
+
+00:30:37.030 --> 00:30:41.200 align:middle line:90%
+
+
+00:30:41.200 --> 00:30:41.700 align:middle line:90%
+Good.
+
+00:30:41.700 --> 00:30:42.830 align:middle line:90%
+Any questions on this?
+
+00:30:42.830 --> 00:30:46.350 align:middle line:90%
+
+
+00:30:46.350 --> 00:30:49.565 align:middle line:84%
+So, more generally,
+so we will not
+
+00:30:49.565 --> 00:30:53.570 align:middle line:84%
+be able to-- we will not
+certainly prove here.
+
+00:30:53.570 --> 00:30:57.290 align:middle line:84%
+So, more generally,
+you can prove
+
+00:30:57.290 --> 00:31:01.130 align:middle line:84%
+there exist a so-called
+spin statistical theorem.
+
+00:31:01.130 --> 00:31:13.870 align:middle line:90%
+
+
+00:31:13.870 --> 00:31:16.315 align:middle line:90%
+So a half integer spin field--
+
+00:31:16.315 --> 00:31:24.950 align:middle line:90%
+
+
+00:31:24.950 --> 00:31:25.450 align:middle line:90%
+yeah.
+
+00:31:25.450 --> 00:31:34.960 align:middle line:84%
+So half integer
+spin fields can only
+
+00:31:34.960 --> 00:31:47.950 align:middle line:84%
+be quantized using
+anticommutation relations--
+
+00:31:47.950 --> 00:31:49.270 align:middle line:90%
+anticommutators.
+
+00:31:49.270 --> 00:31:53.710 align:middle line:90%
+
+
+00:31:53.710 --> 00:31:59.170 align:middle line:84%
+Not only spin half, say
+3/2, 5/2, et cetera.
+
+00:31:59.170 --> 00:32:03.580 align:middle line:84%
+So Dirac field is
+the simplest of them.
+
+00:32:03.580 --> 00:32:10.570 align:middle line:84%
+And in the anticommutation
+relation, and so obey
+
+00:32:10.570 --> 00:32:15.460 align:middle line:84%
+this so-called the
+Fermi-Dirac statistics.
+
+00:32:15.460 --> 00:32:19.360 align:middle line:84%
+So they obey the
+Pauli principle.
+
+00:32:19.360 --> 00:32:22.240 align:middle line:84%
+Yes, in statistical
+physics, which
+
+00:32:22.240 --> 00:32:24.070 align:middle line:84%
+when you exchange
+the wave function,
+
+00:32:24.070 --> 00:32:27.200 align:middle line:84%
+you get the minus sign,
+it's called the Fermi-Dirac
+
+00:32:27.200 --> 00:32:29.090 align:middle line:90%
+statistics.
+
+00:32:29.090 --> 00:32:33.200 align:middle line:84%
+And in contrast, if you have
+integer spin, say like a scalar
+
+00:32:33.200 --> 00:32:37.760 align:middle line:84%
+or like a photon, they
+have integer spin,
+
+00:32:37.760 --> 00:32:39.410 align:middle line:90%
+a photon have spin one.
+
+00:32:39.410 --> 00:32:42.890 align:middle line:84%
+And then you can quantize
+them using commutators.
+
+00:32:42.890 --> 00:32:55.670 align:middle line:90%
+
+
+00:32:55.670 --> 00:33:10.040 align:middle line:84%
+So for integer spin,
+and then quantized--
+
+00:33:10.040 --> 00:33:13.980 align:middle line:84%
+can be consistently
+quantized using commutators.
+
+00:33:13.980 --> 00:33:19.640 align:middle line:90%
+
+
+00:33:19.640 --> 00:33:23.000 align:middle line:84%
+So, in this case, you get
+the Bose-Einstein statistics.
+
+00:33:23.000 --> 00:33:29.900 align:middle line:90%
+
+
+00:33:29.900 --> 00:33:32.500 align:middle line:84%
+Means when you exchange the
+wave function of the particles,
+
+00:33:32.500 --> 00:33:34.417 align:middle line:90%
+the wave function remains--
+
+00:33:34.417 --> 00:33:36.500 align:middle line:84%
+when you exchange the
+particles, the wave function
+
+00:33:36.500 --> 00:33:37.910 align:middle line:90%
+remains symmetric.
+
+00:33:37.910 --> 00:33:43.040 align:middle line:90%
+
+
+00:33:43.040 --> 00:33:45.230 align:middle line:90%
+And so, this is very general.
+
+00:33:45.230 --> 00:33:46.190 align:middle line:90%
+This is very general.
+
+00:33:46.190 --> 00:33:51.560 align:middle line:90%
+
+
+00:33:51.560 --> 00:33:52.060 align:middle line:90%
+Good.
+
+00:33:52.060 --> 00:33:53.200 align:middle line:90%
+Any questions on this?
+
+00:33:53.200 --> 00:33:53.850 align:middle line:90%
+Yes.
+
+00:33:53.850 --> 00:33:55.600 align:middle line:84%
+AUDIENCE: So are there
+other relationships
+
+00:33:55.600 --> 00:33:58.227 align:middle line:90%
+we use to quantize a field here?
+
+00:33:58.227 --> 00:34:00.590 align:middle line:90%
+
+
+00:34:00.590 --> 00:34:03.540 align:middle line:84%
+HONG LIU: Yeah, that's
+a very good question.
+
+00:34:03.540 --> 00:34:08.070 align:middle line:84%
+So in 2 plus 1 dimension, very
+special, 2 plus 1 dimension,
+
+00:34:08.070 --> 00:34:13.010 align:middle line:84%
+so there are more general
+statistics than Bose-Einstein--
+
+00:34:13.010 --> 00:34:14.690 align:middle line:90%
+than bosons and fermions.
+
+00:34:14.690 --> 00:34:18.080 align:middle line:84%
+There are things in between
+called anyons, yeah.
+
+00:34:18.080 --> 00:34:20.060 align:middle line:84%
+And they play a
+very important role
+
+00:34:20.060 --> 00:34:23.500 align:middle line:84%
+in condensed matter
+physics, yeah.
+
+00:34:23.500 --> 00:34:26.360 align:middle line:84%
+The anyon, actually, was
+proposed by our colleague,
+
+00:34:26.360 --> 00:34:28.929 align:middle line:90%
+Frank Wilcock, in early '80s.
+
+00:34:28.929 --> 00:34:33.580 align:middle line:84%
+And, yeah, at the beginning,
+it sounded like a fantasy.
+
+00:34:33.580 --> 00:34:36.988 align:middle line:84%
+But then later actually find
+many important applications
+
+00:34:36.988 --> 00:34:38.155 align:middle line:90%
+in condensed matter physics.
+
+00:34:38.155 --> 00:34:41.800 align:middle line:90%
+
+
+00:34:41.800 --> 00:34:42.927 align:middle line:90%
+Yes.
+
+00:34:42.927 --> 00:34:44.469 align:middle line:84%
+AUDIENCE: What rule
+we've seen so far
+
+00:34:44.469 --> 00:34:46.511 align:middle line:84%
+tells us that we should
+interpret the a and the c
+
+00:34:46.511 --> 00:34:49.100 align:middle line:84%
+operators as particles
+and antiparticles?
+
+00:34:49.100 --> 00:34:53.000 align:middle line:84%
+HONG LIU: Yeah, it's
+just convention.
+
+00:34:53.000 --> 00:34:55.730 align:middle line:90%
+It doesn't matter.
+
+00:34:55.730 --> 00:34:59.720 align:middle line:84%
+You can-- as far as
+they're anti each other.
+
+00:34:59.720 --> 00:35:01.850 align:middle line:84%
+AUDIENCE: I guess, what
+indicates they are--
+
+00:35:01.850 --> 00:35:03.500 align:middle line:90%
+HONG LIU: Good.
+
+00:35:03.500 --> 00:35:06.643 align:middle line:84%
+That's what we are
+going to talk about.
+
+00:35:06.643 --> 00:35:07.310 align:middle line:90%
+Other questions?
+
+00:35:07.310 --> 00:35:07.880 align:middle line:90%
+Yes.
+
+00:35:07.880 --> 00:35:09.530 align:middle line:84%
+AUDIENCE: So the
+spin 1/2 here comes
+
+00:35:09.530 --> 00:35:12.290 align:middle line:84%
+from the possible
+value of s, which
+
+00:35:12.290 --> 00:35:16.590 align:middle line:84%
+comes from solving the
+classical Dirac equation?
+
+00:35:16.590 --> 00:35:21.840 align:middle line:84%
+HONG LIU: Yeah, so spin
+1/2, you can guess it
+
+00:35:21.840 --> 00:35:23.990 align:middle line:90%
+from the two components.
+
+00:35:23.990 --> 00:35:27.980 align:middle line:84%
+But for this one, you can
+just work out the eigenvalues.
+
+00:35:27.980 --> 00:35:29.330 align:middle line:90%
+You will see, it's 1/2.
+
+00:35:29.330 --> 00:35:30.410 align:middle line:90%
+Yeah.
+
+00:35:30.410 --> 00:35:32.887 align:middle line:84%
+AUDIENCE: So when we
+generalize it to more--
+
+00:35:32.887 --> 00:35:34.220 align:middle line:90%
+like more half spin [INAUDIBLE].
+
+00:35:34.220 --> 00:35:36.540 align:middle line:90%
+HONG LIU: Yeah.
+
+00:35:36.540 --> 00:35:37.957 align:middle line:84%
+AUDIENCE: We have
+more components?
+
+00:35:37.957 --> 00:35:40.123 align:middle line:84%
+HONG LIU: Yeah, you will
+have more components, yeah.
+
+00:35:40.123 --> 00:35:41.350 align:middle line:90%
+AUDIENCE: And we will be--
+
+00:35:41.350 --> 00:35:44.910 align:middle line:84%
+HONG LIU: Yeah, you will
+have more components, yeah.
+
+00:35:44.910 --> 00:35:48.220 align:middle line:90%
+Other questions?
+
+00:35:48.220 --> 00:35:48.880 align:middle line:90%
+Yes.
+
+00:35:48.880 --> 00:35:51.380 align:middle line:84%
+AUDIENCE: You say
+that the energy
+
+00:35:51.380 --> 00:35:53.775 align:middle line:84%
+is positive, positive definite
+just because you got rid
+
+00:35:53.775 --> 00:35:54.650 align:middle line:90%
+of the negative sign.
+
+00:35:54.650 --> 00:35:57.470 align:middle line:84%
+But how do you know that
+these new operators, like c
+
+00:35:57.470 --> 00:36:00.030 align:middle line:84%
+is going to behave
+like you want it to?
+
+00:36:00.030 --> 00:36:02.970 align:middle line:84%
+I guess, because we
+don't know the spectrum.
+
+00:36:02.970 --> 00:36:04.726 align:middle line:90%
+HONG LIU: What do you mean?
+
+00:36:04.726 --> 00:36:06.990 align:middle line:84%
+AUDIENCE: The eigenvalues
+of c [INAUDIBLE]..
+
+00:36:06.990 --> 00:36:08.670 align:middle line:84%
+HONG LIU: No, we know
+everything about--
+
+00:36:08.670 --> 00:36:11.130 align:middle line:84%
+we know everything
+about them once I
+
+00:36:11.130 --> 00:36:15.580 align:middle line:84%
+specifier the anticommutator,
+everything is fixed.
+
+00:36:15.580 --> 00:36:18.130 align:middle line:84%
+Then everything is fixed,
+the spectrum is fixed.
+
+00:36:18.130 --> 00:36:21.220 align:middle line:84%
+The energy spectrum
+just follow from here.
+
+00:36:21.220 --> 00:36:25.050 align:middle line:84%
+So each a or c just can
+create the one particle.
+
+00:36:25.050 --> 00:36:26.160 align:middle line:90%
+Yeah.
+
+00:36:26.160 --> 00:36:28.770 align:middle line:84%
+So the spectrum is completely
+fixed, the energy is fixed.
+
+00:36:28.770 --> 00:36:31.780 align:middle line:84%
+Yeah, we know
+everything about them.
+
+00:36:31.780 --> 00:36:32.790 align:middle line:90%
+Yes.
+
+00:36:32.790 --> 00:36:34.832 align:middle line:84%
+AUDIENCE: Can you have a
+theory that is spin half
+
+00:36:34.832 --> 00:36:37.020 align:middle line:90%
+particles but no antiparticles?
+
+00:36:37.020 --> 00:36:39.790 align:middle line:84%
+HONG LIU: Oh, yeah, that's
+a very good question.
+
+00:36:39.790 --> 00:36:44.550 align:middle line:84%
+And so, that's the Holy
+Grail of neutrino physics
+
+00:36:44.550 --> 00:36:51.280 align:middle line:84%
+and also in condensed matter
+physics or quantum computation.
+
+00:36:51.280 --> 00:36:53.940 align:middle line:84%
+So people have been looking for
+these Majorana fermions, which
+
+00:36:53.940 --> 00:36:55.290 align:middle line:90%
+we will talk about later.
+
+00:36:55.290 --> 00:36:59.070 align:middle line:84%
+And people have been looking for
+these Majorana fermions, which
+
+00:36:59.070 --> 00:37:00.330 align:middle line:90%
+is like a real scalar.
+
+00:37:00.330 --> 00:37:02.970 align:middle line:84%
+It's the counterpart
+of the real scalar.
+
+00:37:02.970 --> 00:37:04.647 align:middle line:90%
+Here it's more like a complex--
+
+00:37:04.647 --> 00:37:05.355 align:middle line:90%
+the counterparts.
+
+00:37:05.355 --> 00:37:07.590 align:middle line:84%
+Yeah, here is more
+like a complex scalar.
+
+00:37:07.590 --> 00:37:09.785 align:middle line:84%
+But you can actually--
+we will talk about it.
+
+00:37:09.785 --> 00:37:11.160 align:middle line:84%
+We'll be able to
+define something
+
+00:37:11.160 --> 00:37:15.420 align:middle line:84%
+like a real fermion and
+then its own antiparticle.
+
+00:37:15.420 --> 00:37:16.660 align:middle line:90%
+Yeah.
+
+00:37:16.660 --> 00:37:17.320 align:middle line:90%
+Yes.
+
+00:37:17.320 --> 00:37:18.903 align:middle line:84%
+AUDIENCE: Can you
+write down something
+
+00:37:18.903 --> 00:37:21.910 align:middle line:84%
+that looks analogous to
+the Dirac equation for spin
+
+00:37:21.910 --> 00:37:22.757 align:middle line:90%
+3/2 or 5/2?
+
+00:37:22.757 --> 00:37:24.340 align:middle line:84%
+HONG LIU: Yeah, you
+can write it down.
+
+00:37:24.340 --> 00:37:25.178 align:middle line:90%
+Yeah.
+
+00:37:25.178 --> 00:37:26.497 align:middle line:90%
+AUDIENCE: You can find those?
+
+00:37:26.497 --> 00:37:28.330 align:middle line:84%
+HONG LIU: Yeah, I think
+you can write down--
+
+00:37:28.330 --> 00:37:32.930 align:middle line:84%
+I think people are by now have
+written down equations for any,
+
+00:37:32.930 --> 00:37:33.430 align:middle line:90%
+yeah.
+
+00:37:33.430 --> 00:37:35.847 align:middle line:84%
+Yeah, in principle, you can
+write it down for any of them.
+
+00:37:35.847 --> 00:37:38.810 align:middle line:90%
+
+
+00:37:38.810 --> 00:37:41.480 align:middle line:84%
+Yeah, in the end, it boils
+down to group theory.
+
+00:37:41.480 --> 00:37:42.380 align:middle line:90%
+Yeah.
+
+00:37:42.380 --> 00:37:43.528 align:middle line:90%
+Yes.
+
+00:37:43.528 --> 00:37:45.320 align:middle line:84%
+AUDIENCE: I don't know
+if this makes sense.
+
+00:37:45.320 --> 00:37:48.310 align:middle line:84%
+But the particles that are
+excited, the excitations
+
+00:37:48.310 --> 00:37:52.660 align:middle line:84%
+of this field, will they still
+obey the uncertainty relation
+
+00:37:52.660 --> 00:37:56.352 align:middle line:84%
+given that we've gotten
+rid of position momentum
+
+00:37:56.352 --> 00:37:58.760 align:middle line:90%
+and commutation relations?
+
+00:37:58.760 --> 00:38:06.350 align:middle line:84%
+HONG LIU: So even
+in the boson case,
+
+00:38:06.350 --> 00:38:09.020 align:middle line:84%
+our commutation
+relation is not related
+
+00:38:09.020 --> 00:38:11.930 align:middle line:90%
+to position and momentum.
+
+00:38:11.930 --> 00:38:15.986 align:middle line:84%
+There is the field
+with its conjugate.
+
+00:38:15.986 --> 00:38:18.500 align:middle line:84%
+There's no position
+operator anymore.
+
+00:38:18.500 --> 00:38:21.918 align:middle line:84%
+AUDIENCE: How do you get a
+single particle wave function
+
+00:38:21.918 --> 00:38:26.400 align:middle line:84%
+from a [INAUDIBLE] a single
+particle wave equation?
+
+00:38:26.400 --> 00:38:28.770 align:middle line:84%
+HONG LIU: Yeah, in the
+non-relativistic limit, yeah,
+
+00:38:28.770 --> 00:38:30.860 align:middle line:84%
+you have to take the
+non-relativistic limit.
+
+00:38:30.860 --> 00:38:31.360 align:middle line:90%
+Yeah.
+
+00:38:31.360 --> 00:38:36.760 align:middle line:90%
+
+
+00:38:36.760 --> 00:38:37.260 align:middle line:90%
+Good.
+
+00:38:37.260 --> 00:38:38.280 align:middle line:90%
+Other questions?
+
+00:38:38.280 --> 00:38:39.420 align:middle line:90%
+Yes.
+
+00:38:39.420 --> 00:38:41.400 align:middle line:84%
+AUDIENCE: In step
+two, how do we know
+
+00:38:41.400 --> 00:38:43.380 align:middle line:84%
+that all the solutions
+that we listed out
+
+00:38:43.380 --> 00:38:45.930 align:middle line:84%
+form a complete set
+of all the solutions?
+
+00:38:45.930 --> 00:38:48.740 align:middle line:84%
+HONG LIU: Yeah, because we
+have solved the Dirac equation.
+
+00:38:48.740 --> 00:38:51.290 align:middle line:84%
+Dirac equation is
+a linear equation.
+
+00:38:51.290 --> 00:38:54.000 align:middle line:84%
+And, yeah, you
+solved it, then you
+
+00:38:54.000 --> 00:38:57.420 align:middle line:84%
+know you have found
+all the solutions.
+
+00:38:57.420 --> 00:38:59.930 align:middle line:84%
+Yeah, because we do
+a Fourier transform,
+
+00:38:59.930 --> 00:39:01.940 align:middle line:84%
+convert it into an
+algebraic equation.
+
+00:39:01.940 --> 00:39:05.640 align:middle line:84%
+The algebraic equation we know
+when we find all the solutions.
+
+00:39:05.640 --> 00:39:08.300 align:middle line:84%
+Yeah, so those things we can
+know for full confidence.
+
+00:39:08.300 --> 00:39:11.970 align:middle line:90%
+
+
+00:39:11.970 --> 00:39:13.410 align:middle line:90%
+Good.
+
+00:39:13.410 --> 00:39:18.960 align:middle line:84%
+So now let's explain in
+what sense we call one of--
+
+00:39:18.960 --> 00:39:21.180 align:middle line:84%
+called the particle
+and antiparticle,
+
+00:39:21.180 --> 00:39:23.160 align:middle line:84%
+in what sense they
+are anti each other.
+
+00:39:23.160 --> 00:39:26.880 align:middle line:84%
+So this is very similar
+to in the boson case
+
+00:39:26.880 --> 00:39:29.010 align:middle line:90%
+when you have a complex scalar.
+
+00:39:29.010 --> 00:39:32.880 align:middle line:84%
+And, remember, in the
+complex scalar case,
+
+00:39:32.880 --> 00:39:34.450 align:middle line:84%
+the reason we call
+one particle to be
+
+00:39:34.450 --> 00:39:36.525 align:middle line:84%
+a particle, the other
+to be antiparticle,
+
+00:39:36.525 --> 00:39:42.010 align:middle line:84%
+is they have the same mass, the
+same spin, spin 0 in that case,
+
+00:39:42.010 --> 00:39:44.190 align:middle line:90%
+but opposite charge.
+
+00:39:44.190 --> 00:39:46.440 align:middle line:84%
+So here we can also
+define a charge for them.
+
+00:39:46.440 --> 00:39:49.590 align:middle line:90%
+
+
+00:39:49.590 --> 00:39:50.790 align:middle line:90%
+Now let's talk about charge.
+
+00:39:50.790 --> 00:39:56.580 align:middle line:90%
+
+
+00:39:56.580 --> 00:40:07.030 align:middle line:84%
+So remember, in your
+pset, when we first talk
+
+00:40:07.030 --> 00:40:10.720 align:middle line:84%
+about Dirac equation,
+in your pset you derived
+
+00:40:10.720 --> 00:40:15.180 align:middle line:84%
+that if you treat the Dirac
+equation as a wave equation,
+
+00:40:15.180 --> 00:40:18.180 align:middle line:84%
+then you can derive a
+probability current.
+
+00:40:18.180 --> 00:40:20.430 align:middle line:84%
+And then, the zeroth
+component of that current
+
+00:40:20.430 --> 00:40:22.860 align:middle line:90%
+is actually positive definite.
+
+00:40:22.860 --> 00:40:23.550 align:middle line:90%
+Remember?
+
+00:40:23.550 --> 00:40:33.420 align:middle line:84%
+So there, when we treat
+the Dirac equation
+
+00:40:33.420 --> 00:40:34.290 align:middle line:90%
+as a wave equation.
+
+00:40:34.290 --> 00:40:39.150 align:middle line:90%
+
+
+00:40:39.150 --> 00:40:40.335 align:middle line:90%
+And then we find--
+
+00:40:40.335 --> 00:40:43.630 align:middle line:90%
+
+
+00:40:43.630 --> 00:40:45.760 align:middle line:84%
+from what we did with
+Schrodinger equation,
+
+00:40:45.760 --> 00:40:54.240 align:middle line:84%
+similarly from what we did
+with the Schrodinger equation,
+
+00:40:54.240 --> 00:41:00.660 align:middle line:84%
+and we can derive a
+equation like partial mu,
+
+00:41:00.660 --> 00:41:01.785 align:middle line:90%
+j mu equal to 0.
+
+00:41:01.785 --> 00:41:04.770 align:middle line:90%
+
+
+00:41:04.770 --> 00:41:06.120 align:middle line:90%
+And the j mu--
+
+00:41:06.120 --> 00:41:08.680 align:middle line:90%
+
+
+00:41:08.680 --> 00:41:10.030 align:middle line:90%
+yeah, so up to a sign.
+
+00:41:10.030 --> 00:41:13.240 align:middle line:84%
+So let me just choose
+a minus sign here.
+
+00:41:13.240 --> 00:41:15.670 align:middle line:90%
+So j mu is given by this.
+
+00:41:15.670 --> 00:41:17.770 align:middle line:90%
+Using our current notation.
+
+00:41:17.770 --> 00:41:20.020 align:middle line:84%
+Of course, at the time,
+we don't know those.
+
+00:41:20.020 --> 00:41:22.810 align:middle line:90%
+Yeah, do we know the bar?
+
+00:41:22.810 --> 00:41:23.320 align:middle line:90%
+I forgot.
+
+00:41:23.320 --> 00:41:25.930 align:middle line:90%
+Anyway, so you have this j.
+
+00:41:25.930 --> 00:41:27.010 align:middle line:90%
+You can derive this j.
+
+00:41:27.010 --> 00:41:29.140 align:middle line:84%
+And the zeroth
+component of the j, you
+
+00:41:29.140 --> 00:41:34.090 align:middle line:84%
+just psi dagger psi,
+which is manifestly
+
+00:41:34.090 --> 00:41:35.875 align:middle line:84%
+positive as a
+classical function.
+
+00:41:35.875 --> 00:41:38.620 align:middle line:90%
+
+
+00:41:38.620 --> 00:41:42.730 align:middle line:84%
+And so, I mentioned that this
+was the Dirac's main motivation
+
+00:41:42.730 --> 00:41:45.340 align:middle line:84%
+for writing down
+Dirac equation is
+
+00:41:45.340 --> 00:41:48.310 align:middle line:84%
+to look for probability
+current, which
+
+00:41:48.310 --> 00:41:52.240 align:middle line:90%
+is the positive probability.
+
+00:41:52.240 --> 00:41:55.660 align:middle line:84%
+And so, this is positive
+definite classically.
+
+00:41:55.660 --> 00:41:59.410 align:middle line:84%
+Yeah, when you treat
+it as a wave equation.
+
+00:41:59.410 --> 00:42:01.210 align:middle line:90%
+So now we are--
+
+00:42:01.210 --> 00:42:05.290 align:middle line:84%
+but now we don't think Dirac
+equation as a wave equation,
+
+00:42:05.290 --> 00:42:07.940 align:middle line:90%
+we treat it as a field theory.
+
+00:42:07.940 --> 00:42:13.330 align:middle line:84%
+So as a field theory,
+and then Dirac equation--
+
+00:42:13.330 --> 00:42:16.105 align:middle line:90%
+so we have the action.
+
+00:42:16.105 --> 00:42:24.930 align:middle line:90%
+
+
+00:42:24.930 --> 00:42:26.790 align:middle line:84%
+So this action has
+obvious symmetry
+
+00:42:26.790 --> 00:42:28.800 align:middle line:84%
+similar to the
+complex boson case.
+
+00:42:28.800 --> 00:42:37.650 align:middle line:84%
+So this, you can rotate psi by
+a phase, by a constant phase.
+
+00:42:37.650 --> 00:42:42.870 align:middle line:84%
+Then psi bar goes
+to minus alpha psi.
+
+00:42:42.870 --> 00:42:46.260 align:middle line:84%
+And so, obviously, this
+is the invariant if alpha
+
+00:42:46.260 --> 00:42:48.480 align:middle line:90%
+is a constant.
+
+00:42:48.480 --> 00:42:50.065 align:middle line:90%
+And so, this is a u1 symmetry.
+
+00:42:50.065 --> 00:42:54.740 align:middle line:90%
+
+
+00:42:54.740 --> 00:43:00.020 align:middle line:84%
+So when you have a symmetry
+by rotation by a face,
+
+00:43:00.020 --> 00:43:02.220 align:middle line:90%
+and it's a U1 symmetry.
+
+00:43:02.220 --> 00:43:04.970 align:middle line:84%
+And so, from the
+Noether theorem,
+
+00:43:04.970 --> 00:43:09.200 align:middle line:84%
+then there must be a conserved
+current corresponding
+
+00:43:09.200 --> 00:43:10.520 align:middle line:90%
+to this phase rotation.
+
+00:43:10.520 --> 00:43:16.550 align:middle line:90%
+
+
+00:43:16.550 --> 00:43:20.970 align:middle line:84%
+So without doing
+any calculation,
+
+00:43:20.970 --> 00:43:28.440 align:middle line:84%
+you should already be able to
+guess that this is the current.
+
+00:43:28.440 --> 00:43:30.390 align:middle line:84%
+So this now becomes
+the Noether current.
+
+00:43:30.390 --> 00:43:33.070 align:middle line:90%
+
+
+00:43:33.070 --> 00:43:38.850 align:middle line:84%
+So it's actually this, if you
+find the Noether current, you
+
+00:43:38.850 --> 00:43:41.578 align:middle line:90%
+just find this one.
+
+00:43:41.578 --> 00:43:42.370 align:middle line:90%
+Just find this one.
+
+00:43:42.370 --> 00:43:48.700 align:middle line:90%
+
+
+00:43:48.700 --> 00:43:56.220 align:middle line:84%
+So, now, instead,
+we interpret J0--
+
+00:43:56.220 --> 00:44:00.540 align:middle line:84%
+rather than interpret this as
+a probability current and this
+
+00:44:00.540 --> 00:44:03.580 align:middle line:84%
+as a probability density, if
+you treat it as a wave equation.
+
+00:44:03.580 --> 00:44:06.750 align:middle line:84%
+And here we just interpret
+it as the conserved current
+
+00:44:06.750 --> 00:44:08.430 align:middle line:90%
+for this U1 symmetry.
+
+00:44:08.430 --> 00:44:09.930 align:middle line:84%
+And you have some
+conserved current.
+
+00:44:09.930 --> 00:44:14.370 align:middle line:84%
+And then, this is corresponding
+to the zeroth component
+
+00:44:14.370 --> 00:44:16.230 align:middle line:90%
+of this conserved current.
+
+00:44:16.230 --> 00:44:17.790 align:middle line:90%
+And so, this is--
+
+00:44:17.790 --> 00:44:23.580 align:middle line:84%
+we interpreted as some
+kind of charge density
+
+00:44:23.580 --> 00:44:27.030 align:middle line:90%
+as we did for the scalar case.
+
+00:44:27.030 --> 00:44:29.055 align:middle line:84%
+Now this is just
+interpreted as the--
+
+00:44:29.055 --> 00:44:32.720 align:middle line:90%
+
+
+00:44:32.720 --> 00:44:38.660 align:middle line:84%
+so now, now you can
+just work it out,
+
+00:44:38.660 --> 00:44:46.100 align:middle line:90%
+what's this, and then the Q.
+
+00:44:46.100 --> 00:44:56.510 align:middle line:90%
+
+
+00:44:56.510 --> 00:44:59.240 align:middle line:90%
+So the Q defined this way.
+
+00:44:59.240 --> 00:45:02.660 align:middle line:84%
+So Q is the total
+conserved charge,
+
+00:45:02.660 --> 00:45:06.110 align:middle line:84%
+which is you integrate
+j0 over all space.
+
+00:45:06.110 --> 00:45:11.940 align:middle line:90%
+And then just equal to that.
+
+00:45:11.940 --> 00:45:17.480 align:middle line:90%
+
+
+00:45:17.480 --> 00:45:20.660 align:middle line:84%
+So, naively, this is a
+positive definite quantity.
+
+00:45:20.660 --> 00:45:24.130 align:middle line:90%
+
+
+00:45:24.130 --> 00:45:37.520 align:middle line:84%
+But, actually, now
+if you plug in the --
+
+00:45:37.520 --> 00:45:43.320 align:middle line:84%
+the expression for psi, then
+what you find is the following.
+
+00:45:43.320 --> 00:45:45.485 align:middle line:84%
+You find the Q have
+the following form.
+
+00:45:45.485 --> 00:46:14.380 align:middle line:90%
+
+
+00:46:14.380 --> 00:46:24.940 align:middle line:84%
+Now minus cks
+dagger, cks, and then
+
+00:46:24.940 --> 00:46:26.125 align:middle line:90%
+plus the infinite constant.
+
+00:46:26.125 --> 00:46:31.110 align:middle line:90%
+
+
+00:46:31.110 --> 00:46:32.270 align:middle line:90%
+Plus the infinite constant.
+
+00:46:32.270 --> 00:46:38.100 align:middle line:90%
+
+
+00:46:38.100 --> 00:46:43.760 align:middle line:84%
+So, yeah, so we will define
+the Q, the quantum operator Q,
+
+00:46:43.760 --> 00:46:47.600 align:middle line:84%
+by forgetting about
+this infinite constant.
+
+00:46:47.600 --> 00:46:50.400 align:middle line:90%
+
+
+00:46:50.400 --> 00:46:52.805 align:middle line:84%
+So now you see something
+very interesting happens.
+
+00:46:52.805 --> 00:46:57.940 align:middle line:90%
+
+
+00:46:57.940 --> 00:47:04.000 align:middle line:84%
+So, yeah, so if we set
+this constant, yeah,
+
+00:47:04.000 --> 00:47:05.550 align:middle line:90%
+they call this--
+
+00:47:05.550 --> 00:47:07.860 align:middle line:90%
+let me just call this Q0.
+
+00:47:07.860 --> 00:47:13.950 align:middle line:84%
+And the Q0 is
+infinite, just as you
+
+00:47:13.950 --> 00:47:18.450 align:middle line:84%
+have a constant energy for
+the-- just have E0, which
+
+00:47:18.450 --> 00:47:21.690 align:middle line:84%
+is infinite, and here
+is also infinite.
+
+00:47:21.690 --> 00:47:27.660 align:middle line:84%
+But we will define
+the quantum version.
+
+00:47:27.660 --> 00:47:32.940 align:middle line:84%
+But we can just define the
+Q just to include this part.
+
+00:47:32.940 --> 00:47:35.350 align:middle line:90%
+And then, by definition--
+
+00:47:35.350 --> 00:47:37.500 align:middle line:84%
+so if I define the
+Q just by that part,
+
+00:47:37.500 --> 00:47:40.770 align:middle line:84%
+the Q acting on the
+vacuum just give you 0
+
+00:47:40.770 --> 00:47:42.780 align:middle line:84%
+because I have c and
+a on the other side.
+
+00:47:42.780 --> 00:47:44.835 align:middle line:84%
+So it means that the
+vacuum have 0 charge.
+
+00:47:44.835 --> 00:47:49.090 align:middle line:90%
+
+
+00:47:49.090 --> 00:47:49.590 align:middle line:90%
+Good.
+
+00:47:49.590 --> 00:47:53.405 align:middle line:84%
+But now you see something
+interesting happens.
+
+00:47:53.405 --> 00:47:55.280 align:middle line:84%
+So do you observe
+something interesting here?
+
+00:47:55.280 --> 00:47:59.450 align:middle line:90%
+
+
+00:47:59.450 --> 00:48:01.376 align:middle line:90%
+Yes.
+
+00:48:01.376 --> 00:48:03.188 align:middle line:84%
+AUDIENCE: It should
+be [? posted ?] then
+
+00:48:03.188 --> 00:48:05.820 align:middle line:90%
+and shown like this.
+
+00:48:05.820 --> 00:48:09.460 align:middle line:84%
+But here, if we
+define [INAUDIBLE]..
+
+00:48:09.460 --> 00:48:10.630 align:middle line:90%
+HONG LIU: That's right.
+
+00:48:10.630 --> 00:48:12.190 align:middle line:90%
+Good.
+
+00:48:12.190 --> 00:48:16.420 align:middle line:84%
+So naively, this
+quantity is infinitely--
+
+00:48:16.420 --> 00:48:20.730 align:middle line:84%
+naively, this quantity
+is positive definite.
+
+00:48:20.730 --> 00:48:25.050 align:middle line:90%
+But if we define it in the way--
+
+00:48:25.050 --> 00:48:29.800 align:middle line:84%
+but this quantity by
+itself is divergent.
+
+00:48:29.800 --> 00:48:32.620 align:middle line:84%
+When we say something
+is positive definite,
+
+00:48:32.620 --> 00:48:35.980 align:middle line:84%
+if it's divergent, then it
+does not mean very much.
+
+00:48:35.980 --> 00:48:38.200 align:middle line:84%
+So now, when we want
+to make it finite,
+
+00:48:38.200 --> 00:48:41.320 align:middle line:84%
+the way we make it
+finite is we define this,
+
+00:48:41.320 --> 00:48:44.080 align:middle line:84%
+so that when you act on
+the vacuum, so that it's 0,
+
+00:48:44.080 --> 00:48:47.050 align:middle line:90%
+so that the vacuum has 0 charge.
+
+00:48:47.050 --> 00:48:50.700 align:middle line:84%
+So when we throw away
+this infinite constant,
+
+00:48:50.700 --> 00:48:54.700 align:middle line:84%
+and then, actually, this can
+be either positive or negative.
+
+00:48:54.700 --> 00:48:57.020 align:middle line:84%
+This can be either
+positive or negative.
+
+00:48:57.020 --> 00:49:02.050 align:middle line:84%
+And, yeah, so this is the
+magic by throwing away
+
+00:49:02.050 --> 00:49:05.260 align:middle line:84%
+some constants, throwing
+away infinite constants.
+
+00:49:05.260 --> 00:49:07.230 align:middle line:84%
+And you can make a
+positive quantity
+
+00:49:07.230 --> 00:49:11.270 align:middle line:90%
+into an arbitrary sign.
+
+00:49:11.270 --> 00:49:13.980 align:middle line:90%
+But this is a good thing.
+
+00:49:13.980 --> 00:49:18.010 align:middle line:90%
+So now, if you look at--
+
+00:49:18.010 --> 00:49:24.190 align:middle line:84%
+when you act on the
+a and c, because
+
+00:49:24.190 --> 00:49:30.790 align:middle line:84%
+of this sign difference,
+when you find that when
+
+00:49:30.790 --> 00:49:39.190 align:middle line:84%
+you act on ks, then
+you get eigenvalue 1.
+
+00:49:39.190 --> 00:49:45.670 align:middle line:84%
+When you act on ks bar,
+you get eigenvalue minus 1.
+
+00:49:45.670 --> 00:49:51.070 align:middle line:90%
+
+
+00:49:51.070 --> 00:49:52.900 align:middle line:90%
+So this has charge 1.
+
+00:49:52.900 --> 00:49:56.350 align:middle line:90%
+So this has charge minus 1.
+
+00:49:56.350 --> 00:49:59.272 align:middle line:84%
+So you see that this particle
+and antiparticle, everything
+
+00:49:59.272 --> 00:49:59.980 align:middle line:90%
+else is the same.
+
+00:49:59.980 --> 00:50:01.540 align:middle line:90%
+They have the same mass.
+
+00:50:01.540 --> 00:50:03.880 align:middle line:84%
+They have the same
+spin, spin half,
+
+00:50:03.880 --> 00:50:07.910 align:middle line:84%
+but they only differ
+charge by opposite charge.
+
+00:50:07.910 --> 00:50:11.110 align:middle line:84%
+So that's why we call
+one of them is particle
+
+00:50:11.110 --> 00:50:14.250 align:middle line:90%
+and one of them antiparticle.
+
+00:50:14.250 --> 00:50:14.750 align:middle line:90%
+Yes.
+
+00:50:14.750 --> 00:50:16.250 align:middle line:84%
+AUDIENCE: Can we
+interpret this just
+
+00:50:16.250 --> 00:50:17.775 align:middle line:90%
+like the probability charge?
+
+00:50:17.775 --> 00:50:18.650 align:middle line:90%
+HONG LIU: No, no, no.
+
+00:50:18.650 --> 00:50:20.990 align:middle line:84%
+This is not probability,
+this is just charge.
+
+00:50:20.990 --> 00:50:23.450 align:middle line:84%
+There's no probability
+interpretation anymore.
+
+00:50:23.450 --> 00:50:27.980 align:middle line:84%
+Probability is only when you
+treat it as a wave function--
+
+00:50:27.980 --> 00:50:29.662 align:middle line:90%
+a wave equation.
+
+00:50:29.662 --> 00:50:31.370 align:middle line:84%
+But we don't treat it
+as a wave equation.
+
+00:50:31.370 --> 00:50:33.000 align:middle line:90%
+We treat it as a field theory.
+
+00:50:33.000 --> 00:50:38.210 align:middle line:84%
+So in the field theory, and
+this is just some charge
+
+00:50:38.210 --> 00:50:39.600 align:middle line:90%
+particles can carry.
+
+00:50:39.600 --> 00:50:42.440 align:middle line:84%
+Yeah, you have nothing
+to do with probability.
+
+00:50:42.440 --> 00:50:48.700 align:middle line:90%
+
+
+00:50:48.700 --> 00:50:49.390 align:middle line:90%
+Yes.
+
+00:50:49.390 --> 00:50:51.580 align:middle line:84%
+AUDIENCE: Is the fact
+that Q not is positive
+
+00:50:51.580 --> 00:50:53.955 align:middle line:84%
+break any symmetry between
+particle and antiparticle?
+
+00:50:53.955 --> 00:50:56.070 align:middle line:90%
+
+
+00:50:56.070 --> 00:50:57.585 align:middle line:90%
+HONG LIU: What do you mean by--
+
+00:50:57.585 --> 00:51:00.630 align:middle line:84%
+AUDIENCE: So just
+right there, Q not
+
+00:51:00.630 --> 00:51:02.255 align:middle line:84%
+goes to just a
+positive infinity.
+
+00:51:02.255 --> 00:51:02.880 align:middle line:90%
+HONG LIU: Yeah.
+
+00:51:02.880 --> 00:51:03.922 align:middle line:90%
+AUDIENCE: Does it break--
+
+00:51:03.922 --> 00:51:07.050 align:middle line:84%
+I don't know-- particles and
+antiparticles are not the same?
+
+00:51:07.050 --> 00:51:10.440 align:middle line:84%
+HONG LIU: Yeah, you
+always have to--
+
+00:51:10.440 --> 00:51:12.990 align:middle line:84%
+because you have to
+choose a reference.
+
+00:51:12.990 --> 00:51:15.240 align:middle line:84%
+Because the particle
+and antiparticle,
+
+00:51:15.240 --> 00:51:17.760 align:middle line:84%
+they create something
+out of the vacuum.
+
+00:51:17.760 --> 00:51:22.710 align:middle line:84%
+Still, even if you
+keep this Q0, so that
+
+00:51:22.710 --> 00:51:25.980 align:middle line:84%
+means that your vacuum
+has a charge, which is Q0.
+
+00:51:25.980 --> 00:51:30.120 align:middle line:84%
+And, again, then the particle
+will increase the charge by 1
+
+00:51:30.120 --> 00:51:33.000 align:middle line:84%
+and the antiparticle will
+decrease the charge by 1.
+
+00:51:33.000 --> 00:51:34.970 align:middle line:90%
+So this aspect is the same.
+
+00:51:34.970 --> 00:51:35.910 align:middle line:90%
+Yeah.
+
+00:51:35.910 --> 00:51:38.168 align:middle line:84%
+So when you act
+this on the vacuum,
+
+00:51:38.168 --> 00:51:39.210 align:middle line:90%
+you just increase charge.
+
+00:51:39.210 --> 00:51:40.680 align:middle line:84%
+Yeah, just here,
+for convenience,
+
+00:51:40.680 --> 00:51:44.685 align:middle line:84%
+we choose the vacuum
+to have 0 charge.
+
+00:51:44.685 --> 00:51:47.570 align:middle line:90%
+
+
+00:51:47.570 --> 00:51:49.130 align:middle line:90%
+Good.
+
+00:51:49.130 --> 00:51:52.215 align:middle line:90%
+Any other questions?
+
+00:51:52.215 --> 00:51:52.715 align:middle line:90%
+Yes.
+
+00:51:52.715 --> 00:51:54.923 align:middle line:84%
+AUDIENCE: Does charge have
+a physical interpretation,
+
+00:51:54.923 --> 00:51:58.940 align:middle line:84%
+or how do I interpret the
+charge in this instance?
+
+00:51:58.940 --> 00:52:03.120 align:middle line:84%
+HONG LIU: Yeah, so 1 is the
+electron, 1 is the positron.
+
+00:52:03.120 --> 00:52:07.300 align:middle line:84%
+Yeah, so these are the
+electric charge we observe.
+
+00:52:07.300 --> 00:52:07.800 align:middle line:90%
+Yeah.
+
+00:52:07.800 --> 00:52:10.230 align:middle line:84%
+So this is the
+electron-- so when
+
+00:52:10.230 --> 00:52:12.240 align:middle line:84%
+you apply this theory
+to the electron,
+
+00:52:12.240 --> 00:52:15.405 align:middle line:84%
+then this is just the
+charge of the electron.
+
+00:52:15.405 --> 00:52:24.040 align:middle line:90%
+
+
+00:52:24.040 --> 00:52:27.610 align:middle line:84%
+So, yeah, so this
+actually my next remark.
+
+00:52:27.610 --> 00:52:32.880 align:middle line:90%
+So applied to electron.
+
+00:52:32.880 --> 00:52:36.740 align:middle line:90%
+
+
+00:52:36.740 --> 00:52:49.490 align:middle line:84%
+So Q can be interpreted up
+to a sign as the charge--
+
+00:52:49.490 --> 00:52:50.660 align:middle line:90%
+as the electric charge.
+
+00:52:50.660 --> 00:52:53.210 align:middle line:90%
+
+
+00:52:53.210 --> 00:52:55.468 align:middle line:90%
+Yeah, up to assign and a unit.
+
+00:52:55.468 --> 00:52:57.260 align:middle line:84%
+So this is essentially
+the electric charge.
+
+00:52:57.260 --> 00:52:59.930 align:middle line:90%
+
+
+00:52:59.930 --> 00:53:03.480 align:middle line:84%
+So we will see later,
+this is the charge,
+
+00:53:03.480 --> 00:53:06.370 align:middle line:84%
+which couples to the
+electromagnetism.
+
+00:53:06.370 --> 00:53:06.870 align:middle line:90%
+Yes.
+
+00:53:06.870 --> 00:53:08.453 align:middle line:84%
+AUDIENCE: So I'm a
+little bit confused
+
+00:53:08.453 --> 00:53:10.156 align:middle line:84%
+how you can define
+the notion of charge
+
+00:53:10.156 --> 00:53:13.003 align:middle line:84%
+without even defining the
+notion of force or force
+
+00:53:13.003 --> 00:53:14.170 align:middle line:90%
+carrier, anything like that.
+
+00:53:14.170 --> 00:53:17.200 align:middle line:84%
+HONG LIU: Yeah, the
+concept of charge
+
+00:53:17.200 --> 00:53:19.720 align:middle line:90%
+is independent of the force.
+
+00:53:19.720 --> 00:53:20.220 align:middle line:90%
+Yeah.
+
+00:53:20.220 --> 00:53:21.912 align:middle line:84%
+Even though sometimes
+the force, you're
+
+00:53:21.912 --> 00:53:23.370 align:middle line:84%
+used to this concept
+with a charge.
+
+00:53:23.370 --> 00:53:26.650 align:middle line:84%
+But charge by itself is
+an independent concept.
+
+00:53:26.650 --> 00:53:31.980 align:middle line:84%
+Yeah, when we talk about
+the Maxwell theory and then
+
+00:53:31.980 --> 00:53:35.310 align:middle line:84%
+couple this thing to the
+Maxwell theory and then
+
+00:53:35.310 --> 00:53:37.800 align:middle line:90%
+will become clearer.
+
+00:53:37.800 --> 00:53:41.220 align:middle line:84%
+Yeah, but the bottom line
+is that the charge by--
+
+00:53:41.220 --> 00:53:45.930 align:middle line:84%
+yeah, you can define
+independent of the force.
+
+00:53:45.930 --> 00:53:48.520 align:middle line:90%
+It's just some quantum number.
+
+00:53:48.520 --> 00:53:49.318 align:middle line:90%
+Yes.
+
+00:53:49.318 --> 00:53:50.860 align:middle line:84%
+AUDIENCE: Yeah, so
+how do you get out
+
+00:53:50.860 --> 00:53:53.210 align:middle line:90%
+a value for what that term is?
+
+00:53:53.210 --> 00:53:55.163 align:middle line:84%
+Right now, it's just
+one or minus one.
+
+00:53:55.163 --> 00:53:55.830 align:middle line:90%
+HONG LIU: Right.
+
+00:53:55.830 --> 00:53:59.880 align:middle line:84%
+Yeah, so indeed, so
+here, there's a unit.
+
+00:53:59.880 --> 00:54:05.220 align:middle line:84%
+Because you can multiply
+that j by arbitrary constant.
+
+00:54:05.220 --> 00:54:08.760 align:middle line:84%
+And then, that defines
+your unit for your charge.
+
+00:54:08.760 --> 00:54:12.270 align:middle line:84%
+And so, in principle,
+yeah, so that unit
+
+00:54:12.270 --> 00:54:13.980 align:middle line:84%
+have to be determined
+by experiments.
+
+00:54:13.980 --> 00:54:23.350 align:middle line:90%
+
+
+00:54:23.350 --> 00:54:23.850 align:middle line:90%
+Good?
+
+00:54:23.850 --> 00:54:26.530 align:middle line:90%
+
+
+00:54:26.530 --> 00:54:29.110 align:middle line:90%
+So the Dirac equation--
+
+00:54:29.110 --> 00:54:32.900 align:middle line:90%
+
+
+00:54:32.900 --> 00:54:45.520 align:middle line:84%
+so it's very important, is
+that Dirac theory predict
+
+00:54:45.520 --> 00:54:49.110 align:middle line:84%
+if you say, this is
+the theory of electron,
+
+00:54:49.110 --> 00:54:53.370 align:middle line:84%
+so predict that electron
+has an antiparticle.
+
+00:54:53.370 --> 00:55:03.150 align:middle line:90%
+
+
+00:55:03.150 --> 00:55:03.900 align:middle line:90%
+We call it e-plus.
+
+00:55:03.900 --> 00:55:06.870 align:middle line:90%
+
+
+00:55:06.870 --> 00:55:11.660 align:middle line:84%
+So the e-plus have the same mass
+spin but just opposite charge
+
+00:55:11.660 --> 00:55:12.410 align:middle line:90%
+from the electron.
+
+00:55:12.410 --> 00:55:16.180 align:middle line:90%
+
+
+00:55:16.180 --> 00:55:21.780 align:middle line:84%
+And, of course, when Dirac
+wrote down this theory,
+
+00:55:21.780 --> 00:55:23.630 align:middle line:90%
+there was no e-plus yet.
+
+00:55:23.630 --> 00:55:26.940 align:middle line:90%
+People only know electron.
+
+00:55:26.940 --> 00:55:30.450 align:middle line:84%
+Even though Dirac had all the
+wrong motivation to write down
+
+00:55:30.450 --> 00:55:34.800 align:middle line:84%
+this theory, try to treat it
+as a wave equation et cetera,
+
+00:55:34.800 --> 00:55:41.620 align:middle line:84%
+but he correctly predicted
+somehow electron has--
+
+00:55:41.620 --> 00:55:44.980 align:middle line:84%
+this theory predict another
+positive charged particle.
+
+00:55:44.980 --> 00:55:47.890 align:middle line:90%
+
+
+00:55:47.890 --> 00:55:51.340 align:middle line:90%
+And so, that was in 1930--
+
+00:55:51.340 --> 00:55:53.140 align:middle line:90%
+that was in 19--
+
+00:55:53.140 --> 00:55:56.993 align:middle line:84%
+I think-- when he did
+that there was a--
+
+00:55:56.993 --> 00:55:57.910 align:middle line:90%
+first wrote this down.
+
+00:55:57.910 --> 00:56:00.940 align:middle line:90%
+Maybe it was 1929 or 1930.
+
+00:56:00.940 --> 00:56:06.290 align:middle line:84%
+So, at that time, you
+predict a new particle, that
+
+00:56:06.290 --> 00:56:08.690 align:middle line:90%
+was considered to be crazy.
+
+00:56:08.690 --> 00:56:12.620 align:middle line:84%
+And 20 years later, people try
+to predict one particle a day.
+
+00:56:12.620 --> 00:56:13.400 align:middle line:90%
+[LAUGHTER]
+
+00:56:13.400 --> 00:56:14.780 align:middle line:90%
+It become a fashion.
+
+00:56:14.780 --> 00:56:22.010 align:middle line:84%
+But in 1929, 1930, to predict
+existence of new particles,
+
+00:56:22.010 --> 00:56:23.810 align:middle line:90%
+people just absolutely crazy.
+
+00:56:23.810 --> 00:56:29.680 align:middle line:90%
+
+
+00:56:29.680 --> 00:56:32.830 align:middle line:84%
+So, yeah, I will not explain
+how he predicts this particle.
+
+00:56:32.830 --> 00:56:37.060 align:middle line:84%
+Anyway, he tried to
+understand this wave equations
+
+00:56:37.060 --> 00:56:41.480 align:middle line:84%
+and then predict there
+must be some antiparticle.
+
+00:56:41.480 --> 00:56:45.770 align:middle line:84%
+But at the beginning, he
+was a little bit afraid.
+
+00:56:45.770 --> 00:56:50.150 align:middle line:84%
+He was worried people
+will just call him crazy.
+
+00:56:50.150 --> 00:56:52.430 align:middle line:84%
+So he said, this particle,
+maybe it's a proton.
+
+00:56:52.430 --> 00:56:54.440 align:middle line:90%
+[LAUGHTER]
+
+00:56:54.440 --> 00:56:58.010 align:middle line:84%
+Say, oh, because people
+knew proton at the time.
+
+00:56:58.010 --> 00:57:00.650 align:middle line:84%
+He said, maybe this
+particle is proton.
+
+00:57:00.650 --> 00:57:02.840 align:middle line:84%
+But, of course, he
+should know immediately
+
+00:57:02.840 --> 00:57:05.440 align:middle line:84%
+himself that the
+proton does not have
+
+00:57:05.440 --> 00:57:06.690 align:middle line:90%
+the same mass as the electron.
+
+00:57:06.690 --> 00:57:07.400 align:middle line:90%
+[LAUGHTER]
+
+00:57:07.400 --> 00:57:09.650 align:middle line:90%
+So this cannot be proton.
+
+00:57:09.650 --> 00:57:13.490 align:middle line:84%
+So and then he quickly
+gave up that idea.
+
+00:57:13.490 --> 00:57:16.610 align:middle line:84%
+And he said, oh, maybe
+this is a new particle.
+
+00:57:16.610 --> 00:57:18.440 align:middle line:90%
+Maybe this is a new particle.
+
+00:57:18.440 --> 00:57:21.410 align:middle line:90%
+And so, yeah.
+
+00:57:21.410 --> 00:57:26.700 align:middle line:84%
+But, luckily, so in 1931
+he changed his mind.
+
+00:57:26.700 --> 00:57:28.670 align:middle line:90%
+He said, this is a new particle.
+
+00:57:28.670 --> 00:57:33.440 align:middle line:84%
+So luckily, just in
+1932, and Anderson
+
+00:57:33.440 --> 00:57:35.740 align:middle line:90%
+discovered it in cosmic string--
+
+00:57:35.740 --> 00:57:37.730 align:middle line:90%
+oh, no, no, in cosmic rays.
+
+00:57:37.730 --> 00:57:40.790 align:middle line:84%
+And then they found
+this new particle
+
+00:57:40.790 --> 00:57:43.520 align:middle line:84%
+which have exactly the
+same mass as the electron
+
+00:57:43.520 --> 00:57:46.860 align:middle line:84%
+but opposite charge
+in cosmic ray.
+
+00:57:46.860 --> 00:57:49.720 align:middle line:90%
+So that became very happy story.
+
+00:57:49.720 --> 00:57:53.208 align:middle line:90%
+It became very happy story.
+
+00:57:53.208 --> 00:57:54.250 align:middle line:90%
+So any questions on this?
+
+00:57:54.250 --> 00:57:54.750 align:middle line:90%
+Yes.
+
+00:57:54.750 --> 00:57:56.816 align:middle line:84%
+AUDIENCE: So wouldn't
+any [INAUDIBLE]??
+
+00:57:56.816 --> 00:58:04.440 align:middle line:90%
+
+
+00:58:04.440 --> 00:58:09.880 align:middle line:84%
+HONG LIU: Yeah, so indeed,
+when he first wrote it down,
+
+00:58:09.880 --> 00:58:13.540 align:middle line:90%
+he treated as a wave equation.
+
+00:58:13.540 --> 00:58:16.410 align:middle line:84%
+So wave equation-- wave
+function is complex.
+
+00:58:16.410 --> 00:58:19.020 align:middle line:84%
+So he likely just
+treat it as a complex.
+
+00:58:19.020 --> 00:58:22.110 align:middle line:84%
+He didn't even try to
+make it to be real.
+
+00:58:22.110 --> 00:58:24.960 align:middle line:84%
+Yeah, it is very natural
+for it to be complex.
+
+00:58:24.960 --> 00:58:27.090 align:middle line:90%
+Yeah, and then, yeah.
+
+00:58:27.090 --> 00:58:32.870 align:middle line:90%
+
+
+00:58:32.870 --> 00:58:36.710 align:middle line:84%
+It turns out, if you want
+to write the real equation,
+
+00:58:36.710 --> 00:58:39.330 align:middle line:84%
+it requires a little
+bit more effort,
+
+00:58:39.330 --> 00:58:41.630 align:middle line:84%
+which we will describe, I
+think, maybe next lecture.
+
+00:58:41.630 --> 00:58:45.530 align:middle line:84%
+Yeah, and you can get to
+the real version of this.
+
+00:58:45.530 --> 00:58:48.410 align:middle line:90%
+
+
+00:58:48.410 --> 00:58:49.080 align:middle line:90%
+Other questions?
+
+00:58:49.080 --> 00:58:50.890 align:middle line:84%
+But that takes a
+little bit more effort.
+
+00:58:50.890 --> 00:58:51.390 align:middle line:90%
+Yeah.
+
+00:58:51.390 --> 00:58:57.090 align:middle line:84%
+And that will wait until
+Majorana, who discovered it.
+
+00:58:57.090 --> 00:58:58.350 align:middle line:90%
+Yes.
+
+00:58:58.350 --> 00:59:00.120 align:middle line:84%
+AUDIENCE: So is
+this whole framework
+
+00:59:00.120 --> 00:59:04.770 align:middle line:84%
+specific to charging
+spin one half particle?
+
+00:59:04.770 --> 00:59:06.440 align:middle line:84%
+Because it's saying
+it has to be charged
+
+00:59:06.440 --> 00:59:07.990 align:middle line:90%
+and it has to be spin 1/2 right?
+
+00:59:07.990 --> 00:59:09.970 align:middle line:90%
+HONG LIU: Yeah, exactly.
+
+00:59:09.970 --> 00:59:10.570 align:middle line:90%
+Yeah.
+
+00:59:10.570 --> 00:59:11.945 align:middle line:84%
+AUDIENCE: Is there
+a version that
+
+00:59:11.945 --> 00:59:14.770 align:middle line:84%
+could accommodate a
+chargeless than 1/2,
+
+00:59:14.770 --> 00:59:17.040 align:middle line:84%
+or is that just a
+different formalism?
+
+00:59:17.040 --> 00:59:17.790 align:middle line:90%
+HONG LIU: Yeah.
+
+00:59:17.790 --> 00:59:20.820 align:middle line:84%
+Chargeless spin 1/2, that is the
+Majorana fermion, which we will
+
+00:59:20.820 --> 00:59:23.050 align:middle line:90%
+talk about maybe next lecture.
+
+00:59:23.050 --> 00:59:23.592 align:middle line:90%
+Yeah.
+
+00:59:23.592 --> 00:59:24.550 align:middle line:90%
+AUDIENCE: But I guess--
+
+00:59:24.550 --> 00:59:25.383 align:middle line:90%
+[INTERPOSING VOICES]
+
+00:59:25.383 --> 00:59:27.390 align:middle line:84%
+--build out of this
+framework, or is it--
+
+00:59:27.390 --> 00:59:29.473 align:middle line:84%
+HONG LIU: Yeah, it's built
+from this breakthrough,
+
+00:59:29.473 --> 00:59:31.938 align:middle line:84%
+but with a little
+bit more elaboration.
+
+00:59:31.938 --> 00:59:38.360 align:middle line:90%
+
+
+00:59:38.360 --> 00:59:40.780 align:middle line:90%
+Other questions?
+
+00:59:40.780 --> 00:59:42.100 align:middle line:90%
+Good?
+
+00:59:42.100 --> 00:59:46.960 align:middle line:84%
+So now lets-- so after talk
+about this quantization,
+
+00:59:46.960 --> 00:59:49.900 align:middle line:84%
+now we can talk about
+correlation functions
+
+00:59:49.900 --> 00:59:52.405 align:middle line:90%
+of these Dirac fields.
+
+00:59:52.405 --> 01:00:34.690 align:middle line:90%
+
+
+01:00:34.690 --> 01:00:37.690 align:middle line:84%
+So let's first look at the,
+say, the Wightman function,
+
+01:00:37.690 --> 01:00:40.285 align:middle line:84%
+which you just don't
+do any time ordering.
+
+01:00:40.285 --> 01:00:43.930 align:middle line:90%
+
+
+01:00:43.930 --> 01:00:45.760 align:middle line:90%
+So let's look at this object.
+
+01:00:45.760 --> 01:00:51.160 align:middle line:84%
+I call d plus alpha beta,
+which is defined, again,
+
+01:00:51.160 --> 01:00:52.780 align:middle line:84%
+due to the time
+translation symmetry,
+
+01:00:52.780 --> 01:00:54.190 align:middle line:90%
+we only depend on the--
+
+01:00:54.190 --> 01:01:03.060 align:middle line:90%
+
+
+01:01:03.060 --> 01:01:03.560 align:middle line:90%
+OK.
+
+01:01:03.560 --> 01:01:04.643 align:middle line:90%
+Let's look at this object.
+
+01:01:04.643 --> 01:01:08.630 align:middle line:90%
+
+
+01:01:08.630 --> 01:01:10.480 align:middle line:84%
+Yeah, you can also
+exchange them.
+
+01:01:10.480 --> 01:01:13.580 align:middle line:84%
+That's called d minus,
+so it doesn't matter.
+
+01:01:13.580 --> 01:01:17.150 align:middle line:84%
+And so, yeah, so let's
+look at this object.
+
+01:01:17.150 --> 01:01:20.870 align:middle line:84%
+So this is a 2-point correlation
+function between these two
+
+01:01:20.870 --> 01:01:22.830 align:middle line:90%
+fermionic fields.
+
+01:01:22.830 --> 01:01:29.150 align:middle line:84%
+And then, you can just plug in
+the expansion for each of them.
+
+01:01:29.150 --> 01:01:34.010 align:middle line:84%
+Then you just work it out as
+we did before for the boson.
+
+01:01:34.010 --> 01:01:36.530 align:middle line:84%
+And so, let me just
+outline one step--
+
+01:01:36.530 --> 01:01:38.670 align:middle line:90%
+one intermediate step.
+
+01:01:38.670 --> 01:01:44.600 align:middle line:84%
+So when you plug them in, then
+you find something like this.
+
+01:01:44.600 --> 01:01:49.980 align:middle line:84%
+And then you find this
+sum over s equal to 1, 2,
+
+01:01:49.980 --> 01:01:54.265 align:middle line:84%
+and then you find u
+s alpha, and the u
+
+01:01:54.265 --> 01:02:02.540 align:middle line:84%
+s beta bar, and
+exponential i k x minus y.
+
+01:02:02.540 --> 01:02:06.490 align:middle line:84%
+So now, do you
+recognize this object?
+
+01:02:06.490 --> 01:02:18.610 align:middle line:90%
+
+
+01:02:18.610 --> 01:02:21.970 align:middle line:90%
+Anybody recognize it?
+
+01:02:21.970 --> 01:02:25.330 align:middle line:84%
+So this is the object we
+discussed last lecture.
+
+01:02:25.330 --> 01:02:26.935 align:middle line:90%
+But even though, yeah, but--
+
+01:02:26.935 --> 01:02:30.160 align:middle line:90%
+
+
+01:02:30.160 --> 01:02:34.630 align:middle line:84%
+so this is the projector to
+the positive-- to the space
+
+01:02:34.630 --> 01:02:36.880 align:middle line:84%
+of the positive
+energy solutions.
+
+01:02:36.880 --> 01:02:40.750 align:middle line:84%
+So this is the projector to
+the space of the U solutions.
+
+01:02:40.750 --> 01:02:42.410 align:middle line:90%
+So it appears here.
+
+01:02:42.410 --> 01:02:49.030 align:middle line:84%
+So and I mentioned
+that this actually--
+
+01:02:49.030 --> 01:02:51.550 align:middle line:90%
+you can work it out.
+
+01:02:51.550 --> 01:02:53.050 align:middle line:90%
+So this is given by this form.
+
+01:02:53.050 --> 01:02:56.840 align:middle line:90%
+
+
+01:02:56.840 --> 01:03:04.600 align:middle line:84%
+And then, yeah, so try to check
+in your notes of last week--
+
+01:03:04.600 --> 01:03:06.260 align:middle line:90%
+on Monday.
+
+01:03:06.260 --> 01:03:13.250 align:middle line:84%
+Yeah, so now, if you plug
+this in, and then you get d3x,
+
+01:03:13.250 --> 01:03:24.960 align:middle line:90%
+d3k, i, ik slash plus m.
+
+01:03:24.960 --> 01:03:28.050 align:middle line:84%
+So this is a matrix, and you
+take alpha beta component.
+
+01:03:28.050 --> 01:03:30.660 align:middle line:90%
+
+
+01:03:30.660 --> 01:03:34.500 align:middle line:84%
+And then exponential
+ik x minus y.
+
+01:03:34.500 --> 01:03:44.079 align:middle line:90%
+
+
+01:03:44.079 --> 01:03:54.660 align:middle line:84%
+So now, so remember, in Fourier
+transform, any factor k,
+
+01:03:54.660 --> 01:03:56.910 align:middle line:84%
+in the integrand,
+you can take it out
+
+01:03:56.910 --> 01:03:58.810 align:middle line:84%
+in terms of a
+differential operator.
+
+01:03:58.810 --> 01:04:01.440 align:middle line:84%
+So we can actually
+rewrite this as i,
+
+01:04:01.440 --> 01:04:07.945 align:middle line:84%
+take this i out, and replace
+this by partial slash,
+
+01:04:07.945 --> 01:04:18.460 align:middle line:84%
+but with derivative on x
+plus m alpha beta d3k 2 pi.
+
+01:04:18.460 --> 01:04:27.790 align:middle line:90%
+
+
+01:04:27.790 --> 01:04:30.190 align:middle line:84%
+So you can just take this
+outside of this Fourier
+
+01:04:30.190 --> 01:04:33.137 align:middle line:84%
+transform and then
+replace k slash
+
+01:04:33.137 --> 01:04:36.123 align:middle line:90%
+by partial derivative on x.
+
+01:04:36.123 --> 01:04:37.540 align:middle line:84%
+When you take the
+derivative on x,
+
+01:04:37.540 --> 01:04:39.610 align:middle line:90%
+you bring down a factor of k.
+
+01:04:39.610 --> 01:04:40.990 align:middle line:90%
+Yeah, bring down a factor of ik.
+
+01:04:40.990 --> 01:04:45.490 align:middle line:84%
+So ik can be replaced
+by partial x.
+
+01:04:45.490 --> 01:04:48.190 align:middle line:84%
+But now, if you
+recognize this guy--
+
+01:04:48.190 --> 01:04:51.580 align:middle line:90%
+so do you recognize this guy?
+
+01:04:51.580 --> 01:04:53.300 align:middle line:90%
+Yes?
+
+01:04:53.300 --> 01:04:54.170 align:middle line:90%
+What is this?
+
+01:04:54.170 --> 01:04:59.600 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+do a function?
+
+01:04:59.600 --> 01:05:00.600 align:middle line:90%
+HONG LIU: Yeah, exactly.
+
+01:05:00.600 --> 01:05:05.760 align:middle line:84%
+This is the Wightman
+function for a scalar field.
+
+01:05:05.760 --> 01:05:12.200 align:middle line:84%
+So now we can just write
+it as i partial x slash
+
+01:05:12.200 --> 01:05:17.750 align:middle line:84%
+plus m alpha beta
+and D plus x minus y.
+
+01:05:17.750 --> 01:05:19.145 align:middle line:90%
+And so, this is the--
+
+01:05:19.145 --> 01:05:22.580 align:middle line:90%
+
+
+01:05:22.580 --> 01:05:31.095 align:middle line:84%
+so D plus x minus y, say,
+is the 0 by x by dagger
+
+01:05:31.095 --> 01:05:38.030 align:middle line:84%
+y of a scalar field,
+say, of a complex scalar.
+
+01:05:38.030 --> 01:05:43.780 align:middle line:90%
+
+
+01:05:43.780 --> 01:05:47.920 align:middle line:84%
+So we see that,
+actually, there's
+
+01:05:47.920 --> 01:05:55.990 align:middle line:84%
+a very nice relation between
+the complex scalar Wightman
+
+01:05:55.990 --> 01:06:01.460 align:middle line:90%
+function and the fermionic ones.
+
+01:06:01.460 --> 01:06:04.410 align:middle line:84%
+There's a very nice
+relation between them.
+
+01:06:04.410 --> 01:06:06.245 align:middle line:84%
+So they just differ
+by this factor.
+
+01:06:06.245 --> 01:06:09.880 align:middle line:90%
+
+
+01:06:09.880 --> 01:06:13.650 align:middle line:84%
+So, similarly, you can
+work out other kind
+
+01:06:13.650 --> 01:06:16.330 align:middle line:90%
+of correlation function.
+
+01:06:16.330 --> 01:06:20.560 align:middle line:84%
+So let me just write down
+the result for the others.
+
+01:06:20.560 --> 01:06:27.600 align:middle line:84%
+So you can also define D
+minus alpha beta x minus y
+
+01:06:27.600 --> 01:06:31.047 align:middle line:84%
+to be-- so you just exchange
+the order between them.
+
+01:06:31.047 --> 01:06:32.505 align:middle line:84%
+So, in general,
+they don't commute.
+
+01:06:32.505 --> 01:06:35.520 align:middle line:90%
+
+
+01:06:35.520 --> 01:06:44.100 align:middle line:90%
+So beta y psi alpha x 0.
+
+01:06:44.100 --> 01:06:45.600 align:middle line:90%
+And then, you find--
+
+01:06:45.600 --> 01:06:49.320 align:middle line:84%
+in this case, you find
+that given by minus i
+
+01:06:49.320 --> 01:06:54.810 align:middle line:84%
+partial x slash
+plus m alpha beta.
+
+01:06:54.810 --> 01:06:57.240 align:middle line:90%
+And the D minus--
+
+01:06:57.240 --> 01:06:58.290 align:middle line:90%
+x minus y.
+
+01:06:58.290 --> 01:07:01.470 align:middle line:84%
+The D minus, again, is defined
+as for the scalar field,
+
+01:07:01.470 --> 01:07:02.250 align:middle line:90%
+you put--
+
+01:07:02.250 --> 01:07:04.980 align:middle line:90%
+you exchange these two.
+
+01:07:04.980 --> 01:07:17.180 align:middle line:84%
+And for the retarded, you can
+define the Dr alpha plus beta
+
+01:07:17.180 --> 01:07:19.320 align:middle line:90%
+to be theta.
+
+01:07:19.320 --> 01:07:22.760 align:middle line:90%
+So x minus 0 minus y 0.
+
+01:07:22.760 --> 01:07:27.170 align:middle line:84%
+And now you define retarded
+using the anticommutator rather
+
+01:07:27.170 --> 01:07:30.390 align:middle line:84%
+than the commutator
+we used before.
+
+01:07:30.390 --> 01:07:34.970 align:middle line:84%
+So for when we define
+a retarded for scalar,
+
+01:07:34.970 --> 01:07:36.680 align:middle line:90%
+we use the commutator.
+
+01:07:36.680 --> 01:07:38.630 align:middle line:90%
+But now you use anticommutator.
+
+01:07:38.630 --> 01:07:43.850 align:middle line:90%
+
+
+01:07:43.850 --> 01:07:47.360 align:middle line:84%
+And then, now you find that
+this is given by, again,
+
+01:07:47.360 --> 01:07:57.560 align:middle line:84%
+i partial x plus m, the
+corresponding retarded scalar
+
+01:07:57.560 --> 01:07:58.295 align:middle line:90%
+2-point function.
+
+01:07:58.295 --> 01:08:02.090 align:middle line:90%
+
+
+01:08:02.090 --> 01:08:07.640 align:middle line:84%
+So, finally, we can also
+define the time-ordered.
+
+01:08:07.640 --> 01:08:23.520 align:middle line:90%
+
+
+01:08:23.520 --> 01:08:25.229 align:middle line:84%
+So, finally, we can
+also define the time
+
+01:08:25.229 --> 01:08:26.271 align:middle line:90%
+ordered Feynman function.
+
+01:08:26.271 --> 01:08:34.000 align:middle line:90%
+
+
+01:08:34.000 --> 01:08:37.485 align:middle line:90%
+So define to be DF alpha beta.
+
+01:08:37.485 --> 01:08:40.029 align:middle line:90%
+
+
+01:08:40.029 --> 01:08:44.260 align:middle line:84%
+So this is defined
+to be time-ordered,
+
+01:08:44.260 --> 01:08:52.120 align:middle line:90%
+psi alpha x, psi beta bar y 0.
+
+01:08:52.120 --> 01:08:57.460 align:middle line:84%
+So now, this time-ordering
+is defined as following.
+
+01:08:57.460 --> 01:08:59.819 align:middle line:84%
+So, again, everything
+for fermionic
+
+01:08:59.819 --> 01:09:05.370 align:middle line:84%
+fields you replace
+commutator by anticommutator.
+
+01:09:05.370 --> 01:09:09.450 align:middle line:84%
+You replace commutation
+by anticommute.
+
+01:09:09.450 --> 01:09:15.350 align:middle line:84%
+So remember, previously,
+when you change the order,
+
+01:09:15.350 --> 01:09:20.529 align:middle line:84%
+so if the x0 is greater
+than y0, and then you
+
+01:09:20.529 --> 01:09:22.370 align:middle line:90%
+just maintain this order.
+
+01:09:22.370 --> 01:09:29.904 align:middle line:84%
+So you just have 0 psi
+alpha x psi bar beta y0.
+
+01:09:29.904 --> 01:09:32.910 align:middle line:90%
+
+
+01:09:32.910 --> 01:09:38.050 align:middle line:84%
+But now when y0 become
+greater than x0,
+
+01:09:38.050 --> 01:09:40.104 align:middle line:84%
+you exchange the
+order between them.
+
+01:09:40.104 --> 01:09:47.870 align:middle line:90%
+
+
+01:09:47.870 --> 01:09:51.399 align:middle line:84%
+And now you add the extra
+minus sign for fermion.
+
+01:09:51.399 --> 01:09:54.250 align:middle line:84%
+So for boson, you
+would just have this.
+
+01:09:54.250 --> 01:09:58.780 align:middle line:84%
+But now with fermion, you
+add an additional minus sign.
+
+01:09:58.780 --> 01:10:08.490 align:middle line:84%
+Then you can show that this
+is the same as, again, just
+
+01:10:08.490 --> 01:10:11.700 align:middle line:84%
+plus m alpha beta,
+the scalar Gf.
+
+01:10:11.700 --> 01:10:27.480 align:middle line:90%
+
+
+01:10:27.480 --> 01:10:31.080 align:middle line:90%
+So now we can go to--
+
+01:10:31.080 --> 01:10:32.880 align:middle line:84%
+so if you want to
+do Feynman diagrams,
+
+01:10:32.880 --> 01:10:37.170 align:middle line:84%
+exactly as we discussed
+before, we often
+
+01:10:37.170 --> 01:10:40.000 align:middle line:84%
+need the momentum
+space expression.
+
+01:10:40.000 --> 01:10:48.420 align:middle line:84%
+So if we go to momentum
+space, essentially just
+
+01:10:48.420 --> 01:10:52.200 align:middle line:84%
+do a Fourier transform
+of x minus y.
+
+01:10:52.200 --> 01:10:55.380 align:middle line:84%
+So this is a function
+of x minus y.
+
+01:10:55.380 --> 01:10:58.870 align:middle line:84%
+Do a Fourier
+transform, x minus y.
+
+01:10:58.870 --> 01:11:03.730 align:middle line:90%
+And then you will get dfk.
+
+01:11:03.730 --> 01:11:06.850 align:middle line:84%
+So now I will suppress
+this alpha beta indices.
+
+01:11:06.850 --> 01:11:09.550 align:middle line:84%
+And now you treat
+this as a matrix--
+
+01:11:09.550 --> 01:11:12.650 align:middle line:84%
+treat this as a matrix
+in the spinor space.
+
+01:11:12.650 --> 01:11:17.650 align:middle line:84%
+And so, you can just
+Fourier transform this guy.
+
+01:11:17.650 --> 01:11:18.770 align:middle line:90%
+So this is easy.
+
+01:11:18.770 --> 01:11:21.040 align:middle line:84%
+We know how to do this
+Fourier transform.
+
+01:11:21.040 --> 01:11:23.940 align:middle line:84%
+And this just gives
+us some factor of k.
+
+01:11:23.940 --> 01:11:32.070 align:middle line:84%
+So essentially, you just
+get i, ik slash plus m.
+
+01:11:32.070 --> 01:11:36.960 align:middle line:84%
+So i partial x slash
+just become ik slash.
+
+01:11:36.960 --> 01:11:45.060 align:middle line:84%
+And then, we just plug in
+the expression for scalar
+
+01:11:45.060 --> 01:11:46.755 align:middle line:90%
+propagator, just given by this.
+
+01:11:46.755 --> 01:11:53.840 align:middle line:90%
+
+
+01:11:53.840 --> 01:11:56.750 align:middle line:90%
+So this is a c number.
+
+01:11:56.750 --> 01:11:59.400 align:middle line:90%
+This is a matrix.
+
+01:11:59.400 --> 01:12:01.210 align:middle line:90%
+This is a matrix.
+
+01:12:01.210 --> 01:12:05.340 align:middle line:84%
+And now, if you remember,
+again, this formula,
+
+01:12:05.340 --> 01:12:09.780 align:middle line:84%
+that i k that we discussed
+last time, ik slash
+
+01:12:09.780 --> 01:12:21.154 align:middle line:84%
+m, ik slash minus m,
+equal to minus k squared,
+
+01:12:21.154 --> 01:12:25.280 align:middle line:84%
+slash minus m squared
+equal to, say, minus
+
+01:12:25.280 --> 01:12:29.010 align:middle line:90%
+k squared minus m square.
+
+01:12:29.010 --> 01:12:31.770 align:middle line:84%
+And so, essentially,
+you see that the k
+
+01:12:31.770 --> 01:12:35.200 align:middle line:84%
+squared plus m
+square is essentially
+
+01:12:35.200 --> 01:12:36.800 align:middle line:90%
+the product of these two.
+
+01:12:36.800 --> 01:12:39.040 align:middle line:90%
+So this is two matrix product.
+
+01:12:39.040 --> 01:12:43.210 align:middle line:84%
+And the right-hand side
+is the identity matrix.
+
+01:12:43.210 --> 01:12:45.622 align:middle line:84%
+It is this number times
+the identity matrix.
+
+01:12:45.622 --> 01:12:47.080 align:middle line:84%
+And so, this
+becomes-- essentially,
+
+01:12:47.080 --> 01:12:49.330 align:middle line:84%
+you should view this as
+times identity matrix.
+
+01:12:49.330 --> 01:12:53.280 align:middle line:90%
+
+
+01:12:53.280 --> 01:12:55.680 align:middle line:84%
+And you see that,
+essentially, these two
+
+01:12:55.680 --> 01:12:59.640 align:middle line:84%
+up to a constant, these two are
+inverse matrix of each other.
+
+01:12:59.640 --> 01:13:01.620 align:middle line:84%
+So we can actually
+rewrite this as just
+
+01:13:01.620 --> 01:13:10.590 align:middle line:84%
+inverse of this matrix minus
+ik slash plus m minus epsilon.
+
+01:13:10.590 --> 01:13:20.770 align:middle line:90%
+
+
+01:13:20.770 --> 01:13:25.580 align:middle line:84%
+So this ik slash minus m is
+the inverse matrix of this.
+
+01:13:25.580 --> 01:13:30.710 align:middle line:84%
+And so, yeah, use this
+equation, you find them.
+
+01:13:30.710 --> 01:13:34.040 align:middle line:90%
+
+
+01:13:34.040 --> 01:13:34.540 align:middle line:90%
+Good?
+
+01:13:34.540 --> 01:13:38.420 align:middle line:90%
+
+
+01:13:38.420 --> 01:13:44.990 align:middle line:84%
+So now we conclude with
+the momentum space,
+
+01:13:44.990 --> 01:13:48.230 align:middle line:90%
+a key expression.
+
+01:13:48.230 --> 01:13:49.640 align:middle line:90%
+Is that, this one.
+
+01:13:49.640 --> 01:13:56.240 align:middle line:84%
+So let me just write this
+in very prominent position.
+
+01:13:56.240 --> 01:13:57.950 align:middle line:84%
+So this will be
+used over and over.
+
+01:13:57.950 --> 01:14:01.070 align:middle line:90%
+
+
+01:14:01.070 --> 01:14:03.050 align:middle line:90%
+So this is a matrix.
+
+01:14:03.050 --> 01:14:05.090 align:middle line:90%
+And given by that.
+
+01:14:05.090 --> 01:14:10.870 align:middle line:90%
+
+
+01:14:10.870 --> 01:14:13.300 align:middle line:90%
+Any questions?
+
+01:14:13.300 --> 01:14:14.410 align:middle line:90%
+Yes.
+
+01:14:14.410 --> 01:14:16.780 align:middle line:84%
+AUDIENCE: Is it still true
+that the primary function
+
+01:14:16.780 --> 01:14:18.910 align:middle line:84%
+is the Green's function
+of some wave operator
+
+01:14:18.910 --> 01:14:20.114 align:middle line:90%
+for the Dirac equation?
+
+01:14:20.114 --> 01:14:22.680 align:middle line:90%
+
+
+01:14:22.680 --> 01:14:26.490 align:middle line:84%
+HONG LIU: Oh, you mean when
+the Dirac equation acting on it
+
+01:14:26.490 --> 01:14:27.780 align:middle line:90%
+you get some delta function?
+
+01:14:27.780 --> 01:14:28.140 align:middle line:90%
+AUDIENCE: Yeah.
+
+01:14:28.140 --> 01:14:28.410 align:middle line:90%
+HONG LIU: Yeah.
+
+01:14:28.410 --> 01:14:29.243 align:middle line:90%
+AUDIENCE: All right.
+
+01:14:29.243 --> 01:14:33.830 align:middle line:90%
+
+
+01:14:33.830 --> 01:14:35.365 align:middle line:90%
+HONG LIU: Other questions?
+
+01:14:35.365 --> 01:14:37.240 align:middle line:84%
+AUDIENCE: That's not
+the same epsilon, right?
+
+01:14:37.240 --> 01:14:37.823 align:middle line:90%
+HONG LIU: Hmm?
+
+01:14:37.823 --> 01:14:40.870 align:middle line:84%
+AUDIENCE: The epsilon is
+really different physically?
+
+01:14:40.870 --> 01:14:43.030 align:middle line:84%
+HONG LIU: No, the
+epsilon is the same.
+
+01:14:43.030 --> 01:14:44.120 align:middle line:90%
+It's similar.
+
+01:14:44.120 --> 01:14:47.870 align:middle line:84%
+It's just it's the
+m minus i epsilon.
+
+01:14:47.870 --> 01:14:48.890 align:middle line:90%
+Yeah.
+
+01:14:48.890 --> 01:14:51.140 align:middle line:84%
+Yeah, it is always,
+whether it's m
+
+01:14:51.140 --> 01:14:55.370 align:middle line:84%
+squared minus epsilon or m
+minus epsilon, it's the same.
+
+01:14:55.370 --> 01:14:57.490 align:middle line:90%
+Yeah.
+
+01:14:57.490 --> 01:14:59.020 align:middle line:90%
+Just become-- yeah.
+
+01:14:59.020 --> 01:15:01.250 align:middle line:84%
+Here, you only have
+one factor of m.
+
+01:15:01.250 --> 01:15:06.380 align:middle line:90%
+
+
+01:15:06.380 --> 01:15:08.720 align:middle line:90%
+Good?
+
+01:15:08.720 --> 01:15:14.810 align:middle line:84%
+So let's conclude our
+discussion over the quantization
+
+01:15:14.810 --> 01:15:22.670 align:middle line:90%
+of the Dirac theory.
+
+01:15:22.670 --> 01:15:26.980 align:middle line:84%
+And now we go to the next
+topic, which you have already
+
+01:15:26.980 --> 01:15:29.530 align:middle line:90%
+asked several times.
+
+01:15:29.530 --> 01:15:34.690 align:middle line:84%
+But we only have a couple
+of minutes to motivate it
+
+01:15:34.690 --> 01:15:35.620 align:middle line:90%
+and to discuss it.
+
+01:15:35.620 --> 01:15:42.820 align:middle line:90%
+
+
+01:15:42.820 --> 01:15:49.435 align:middle line:90%
+So the goal is chiral fermions.
+
+01:15:49.435 --> 01:15:53.320 align:middle line:90%
+
+
+01:15:53.320 --> 01:15:54.728 align:middle line:90%
+And [INAUDIBLE].
+
+01:15:54.728 --> 01:16:10.550 align:middle line:90%
+
+
+01:16:10.550 --> 01:16:13.280 align:middle line:84%
+So, yes, we will
+not not have time
+
+01:16:13.280 --> 01:16:15.140 align:middle line:90%
+to really start discussing.
+
+01:16:15.140 --> 01:16:19.510 align:middle line:84%
+And let me just
+say a few remarks.
+
+01:16:19.510 --> 01:16:25.060 align:middle line:84%
+So we derived before
+that the Dirac spinor--
+
+01:16:25.060 --> 01:16:27.070 align:middle line:84%
+so, so far, what we
+discussed normally
+
+01:16:27.070 --> 01:16:28.630 align:middle line:90%
+is called Dirac spinor.
+
+01:16:28.630 --> 01:16:33.760 align:middle line:84%
+So they transform under Lorentz
+transformation in the way
+
+01:16:33.760 --> 01:16:40.600 align:middle line:84%
+so that the Dirac
+equation is covariant.
+
+01:16:40.600 --> 01:16:43.130 align:middle line:90%
+So it's a natural question--
+
+01:16:43.130 --> 01:16:45.890 align:middle line:84%
+and the Dirac spinor
+have eight components.
+
+01:16:45.890 --> 01:16:48.070 align:middle line:90%
+So I have eight real component.
+
+01:16:48.070 --> 01:16:49.840 align:middle line:90%
+You have four complex component.
+
+01:16:49.840 --> 01:16:54.100 align:middle line:84%
+So altogether, there
+are eight variables.
+
+01:16:54.100 --> 01:17:01.300 align:middle line:84%
+So it's natural to ask whether
+you can reduce the Dirac spinor
+
+01:17:01.300 --> 01:17:04.330 align:middle line:90%
+into a smaller set.
+
+01:17:04.330 --> 01:17:07.630 align:middle line:84%
+So you have-- instead you have
+eight independent variables
+
+01:17:07.630 --> 01:17:09.910 align:middle line:90%
+into a smaller set.
+
+01:17:09.910 --> 01:17:16.340 align:middle line:84%
+That still can give rise
+to a Dirac equation,
+
+01:17:16.340 --> 01:17:24.670 align:middle line:84%
+which transform covariantly
+under Lorentz transformation.
+
+01:17:24.670 --> 01:17:27.250 align:middle line:90%
+And so, the answer is, yes.
+
+01:17:27.250 --> 01:17:29.600 align:middle line:84%
+So there are two
+ways of doing it.
+
+01:17:29.600 --> 01:17:32.410 align:middle line:84%
+And one is called
+the chiral fermions.
+
+01:17:32.410 --> 01:17:34.900 align:middle line:84%
+And the other is called
+the Majorana fermions.
+
+01:17:34.900 --> 01:17:44.050 align:middle line:84%
+And the chiral fermions is
+to have two component complex
+
+01:17:44.050 --> 01:17:44.960 align:middle line:90%
+vector.
+
+01:17:44.960 --> 01:17:48.160 align:middle line:84%
+So altogether you have
+four real components.
+
+01:17:48.160 --> 01:17:50.860 align:middle line:84%
+Or you have so-called
+Majorana fermions, which
+
+01:17:50.860 --> 01:17:55.670 align:middle line:90%
+you have four real components.
+
+01:17:55.670 --> 01:18:00.670 align:middle line:84%
+So we will discuss
+that next time.
+
+01:18:00.670 --> 01:18:02.880 align:middle line:90%
+good, that's all for today.
+
+01:18:02.880 --> 01:18:06.000 align:middle line:90%

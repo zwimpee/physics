@@ -1,0 +1,3857 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.920 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.920 --> 00:00:03.360 align:middle line:90%
+[RUSTLING]
+
+00:00:03.360 --> 00:00:06.720 align:middle line:90%
+[CLICKING]
+
+00:00:06.720 --> 00:00:10.560 align:middle line:90%
+
+
+00:00:10.560 --> 00:00:15.600 align:middle line:84%
+PROFESSOR: Yeah, so I'm Hong,
+so you can just call me Hong.
+
+00:00:15.600 --> 00:00:18.150 align:middle line:90%
+I'm a theoretical physicist.
+
+00:00:18.150 --> 00:00:23.680 align:middle line:84%
+I work on high energy theory,
+including string theory,
+
+00:00:23.680 --> 00:00:29.040 align:middle line:84%
+quantum gravity, non equilibrium
+statistical physics, et cetera,
+
+00:00:29.040 --> 00:00:32.080 align:middle line:90%
+and many different topics.
+
+00:00:32.080 --> 00:00:37.200 align:middle line:84%
+So now let me say a few words
+regarding the QFT, the quantum
+
+00:00:37.200 --> 00:00:40.780 align:middle line:90%
+field theory itself.
+
+00:00:40.780 --> 00:00:45.030 align:middle line:84%
+So the goal of this
+quantum field theory class
+
+00:00:45.030 --> 00:00:50.520 align:middle line:84%
+is to develop concepts,
+formalism, and techniques
+
+00:00:50.520 --> 00:00:53.630 align:middle line:90%
+for quantum dynamics of fields.
+
+00:00:53.630 --> 00:00:57.800 align:middle line:84%
+Say, I'm sure all of you have
+studied Maxwell's equations,
+
+00:00:57.800 --> 00:00:58.400 align:middle line:90%
+OK?
+
+00:00:58.400 --> 00:01:03.800 align:middle line:84%
+So Maxwell's equations describe
+fully classical dynamics
+
+00:01:03.800 --> 00:01:07.180 align:middle line:90%
+of electric and magnetic fields.
+
+00:01:07.180 --> 00:01:10.010 align:middle line:84%
+But we live in
+the quantum world,
+
+00:01:10.010 --> 00:01:15.880 align:middle line:84%
+and so we should also treat
+electric and magnetic fields
+
+00:01:15.880 --> 00:01:20.500 align:middle line:90%
+using quantum language, OK?
+
+00:01:20.500 --> 00:01:24.810 align:middle line:84%
+And then you find that
+once you do that, and then
+
+00:01:24.810 --> 00:01:29.250 align:middle line:84%
+the concept of photon, once
+you treat the electric field
+
+00:01:29.250 --> 00:01:32.260 align:middle line:84%
+and the magnetic field
+quantum mechanically,
+
+00:01:32.260 --> 00:01:35.130 align:middle line:84%
+and then you get the
+concept of the photon.
+
+00:01:35.130 --> 00:01:38.730 align:middle line:84%
+And the photon now is
+the fundamental particle,
+
+00:01:38.730 --> 00:01:42.180 align:middle line:84%
+which mediates electromagnetic
+interactions, OK?
+
+00:01:42.180 --> 00:01:46.230 align:middle line:84%
+So you actually get a completely
+different physical picture
+
+00:01:46.230 --> 00:01:48.030 align:middle line:90%
+from what you get classically.
+
+00:01:48.030 --> 00:01:52.830 align:middle line:84%
+And yeah, so one
+goal of the class
+
+00:01:52.830 --> 00:01:56.100 align:middle line:84%
+is for you to appreciate,
+say, to understand the quantum
+
+00:01:56.100 --> 00:01:59.150 align:middle line:90%
+electrodynamics, OK?
+
+00:01:59.150 --> 00:02:01.680 align:middle line:84%
+And that's actually where
+we will end this class,
+
+00:02:01.680 --> 00:02:07.080 align:middle line:84%
+is we will discuss the
+quantum electrodynamics.
+
+00:02:07.080 --> 00:02:10.250 align:middle line:84%
+And the quantum
+field theory is also
+
+00:02:10.250 --> 00:02:14.780 align:middle line:84%
+very important for other
+interactions in nature.
+
+00:02:14.780 --> 00:02:17.930 align:middle line:84%
+So among the four fundamental
+interactions in nature,
+
+00:02:17.930 --> 00:02:20.540 align:middle line:84%
+three of them are
+described by quantum field
+
+00:02:20.540 --> 00:02:22.640 align:middle line:90%
+theory completely, OK?
+
+00:02:22.640 --> 00:02:24.620 align:middle line:84%
+And you can also use
+quantum field theory
+
+00:02:24.620 --> 00:02:28.160 align:middle line:84%
+to describe gravity, to
+describe quantum gravity.
+
+00:02:28.160 --> 00:02:30.230 align:middle line:84%
+But at the moment,
+quantum field theory
+
+00:02:30.230 --> 00:02:34.070 align:middle line:84%
+does not offer a complete
+description of quantum gravity.
+
+00:02:34.070 --> 00:02:36.860 align:middle line:84%
+But still, you can use the
+quantum field theory techniques
+
+00:02:36.860 --> 00:02:40.820 align:middle line:84%
+for understanding certain
+questions of quantum gravity.
+
+00:02:40.820 --> 00:02:44.930 align:middle line:84%
+And also, quantum field
+theory over the years,
+
+00:02:44.930 --> 00:02:48.110 align:middle line:84%
+even though it's initially
+developed for particle physics,
+
+00:02:48.110 --> 00:02:51.380 align:middle line:84%
+but over the years
+has been also found
+
+00:02:51.380 --> 00:02:54.620 align:middle line:84%
+many applications in many,
+many other branches of physics,
+
+00:02:54.620 --> 00:02:57.900 align:middle line:84%
+in condensed matter,
+statistical physics, et cetera.
+
+00:02:57.900 --> 00:03:01.940 align:middle line:84%
+And it's fair to say,
+nowadays, quantum field theory
+
+00:03:01.940 --> 00:03:08.600 align:middle line:84%
+has become a universal language,
+OK, for theoretical physics,
+
+00:03:08.600 --> 00:03:11.520 align:middle line:84%
+essentially many in
+all different fields.
+
+00:03:11.520 --> 00:03:13.520 align:middle line:84%
+And so if you are
+serious, certainly you
+
+00:03:13.520 --> 00:03:15.890 align:middle line:90%
+need to master this language.
+
+00:03:15.890 --> 00:03:18.740 align:middle line:84%
+And even if you are
+only interested, say,
+
+00:03:18.740 --> 00:03:23.480 align:middle line:84%
+in atomic physics or
+statistical physics,
+
+00:03:23.480 --> 00:03:26.310 align:middle line:84%
+the field theory concept
+will be very important.
+
+00:03:26.310 --> 00:03:31.190 align:middle line:84%
+And for experimentalists to know
+basic concept of quantum field
+
+00:03:31.190 --> 00:03:34.070 align:middle line:84%
+theory and to have some
+basic understanding of it
+
+00:03:34.070 --> 00:03:37.880 align:middle line:84%
+should also go a long way to
+help you to appreciate, say,
+
+00:03:37.880 --> 00:03:42.350 align:middle line:84%
+the most recent theoretical
+developments and also for help
+
+00:03:42.350 --> 00:03:47.260 align:middle line:84%
+you to communicate with
+theorists, and yeah.
+
+00:03:47.260 --> 00:03:54.040 align:middle line:84%
+And so this class is the first
+of a three-semester sequence.
+
+00:03:54.040 --> 00:03:57.900 align:middle line:84%
+And so this semester
+will mostly develop
+
+00:03:57.900 --> 00:04:02.040 align:middle line:84%
+the fundamental concepts,
+and the quantum field theory
+
+00:04:02.040 --> 00:04:07.340 align:middle line:84%
+2 and 3 will be more about
+technical development.
+
+00:04:07.340 --> 00:04:09.860 align:middle line:84%
+And say, if your
+experimentalist,
+
+00:04:09.860 --> 00:04:13.760 align:middle line:84%
+and then you can view this
+quantum field theory 1
+
+00:04:13.760 --> 00:04:18.709 align:middle line:84%
+as a stand alone class, which
+is just enough for you to get
+
+00:04:18.709 --> 00:04:24.650 align:middle line:84%
+the basic idea of quantum theory
+of fields, which you don't--
+
+00:04:24.650 --> 00:04:26.640 align:middle line:90%
+yeah, you may not--
+
+00:04:26.640 --> 00:04:31.520 align:middle line:84%
+it depends on your need and
+whether you have 2 or 3 or not.
+
+00:04:31.520 --> 00:04:34.220 align:middle line:90%
+Yeah, may depend on your needs.
+
+00:04:34.220 --> 00:04:36.890 align:middle line:84%
+OK, so under the
+main topics, I plan
+
+00:04:36.890 --> 00:04:38.993 align:middle line:84%
+to cover are listed
+in the outline,
+
+00:04:38.993 --> 00:04:40.910 align:middle line:84%
+this document of the
+outline, which is already
+
+00:04:40.910 --> 00:04:42.640 align:middle line:90%
+on the website.
+
+00:04:42.640 --> 00:04:48.120 align:middle line:84%
+And so I should emphasize
+that outline is rough,
+
+00:04:48.120 --> 00:04:51.730 align:middle line:84%
+is only a rough
+roadmap and may change.
+
+00:04:51.730 --> 00:04:52.980 align:middle line:90%
+It depends on the pace.
+
+00:04:52.980 --> 00:04:55.120 align:middle line:84%
+I may change things
+along the way.
+
+00:04:55.120 --> 00:04:58.680 align:middle line:84%
+And sometimes I
+change my mind, say,
+
+00:04:58.680 --> 00:05:02.130 align:middle line:84%
+half through the
+course, somehow I feel--
+
+00:05:02.130 --> 00:05:04.260 align:middle line:90%
+yeah, anyway.
+
+00:05:04.260 --> 00:05:07.720 align:middle line:90%
+So don't treat it too literally.
+
+00:05:07.720 --> 00:05:13.470 align:middle line:84%
+Any questions about this subject
+of quantum field theory so far?
+
+00:05:13.470 --> 00:05:17.010 align:middle line:90%
+
+
+00:05:17.010 --> 00:05:18.700 align:middle line:90%
+OK, good.
+
+00:05:18.700 --> 00:05:22.150 align:middle line:84%
+And also, let me say a few
+words that the quantum field
+
+00:05:22.150 --> 00:05:29.450 align:middle line:84%
+theory has a reputation of being
+a very difficult subject, OK?
+
+00:05:29.450 --> 00:05:32.650 align:middle line:84%
+Actually, indeed, myself
+have suffered a lot
+
+00:05:32.650 --> 00:05:36.650 align:middle line:90%
+when I learned it myself, OK?
+
+00:05:36.650 --> 00:05:42.530 align:middle line:84%
+But with 20/20
+hindsight and also
+
+00:05:42.530 --> 00:05:44.900 align:middle line:84%
+from interacting with
+large number of students
+
+00:05:44.900 --> 00:05:49.820 align:middle line:84%
+through teaching various level
+of quantum field theory classes
+
+00:05:49.820 --> 00:05:53.780 align:middle line:84%
+in many years, I
+can assure you now
+
+00:05:53.780 --> 00:05:56.840 align:middle line:84%
+that actually quantum
+field theory is actually
+
+00:05:56.840 --> 00:05:58.985 align:middle line:90%
+not difficult at all, OK--
+
+00:05:58.985 --> 00:06:00.350 align:middle line:90%
+[LAUGHTER]
+
+00:06:00.350 --> 00:06:03.120 align:middle line:84%
+--if you learned
+it the right way.
+
+00:06:03.120 --> 00:06:05.360 align:middle line:84%
+And of course, the learning
+thing-- yeah, of course,
+
+00:06:05.360 --> 00:06:08.400 align:middle line:84%
+anything is not difficult if
+you learned it in the right way.
+
+00:06:08.400 --> 00:06:15.320 align:middle line:84%
+And so in a sense this is empty
+words, but keep it in mind.
+
+00:06:15.320 --> 00:06:21.680 align:middle line:84%
+Whenever you think it's too
+hard and there might be--
+
+00:06:21.680 --> 00:06:23.480 align:middle line:90%
+the reason might not be--
+
+00:06:23.480 --> 00:06:27.230 align:middle line:84%
+the reason might be you have
+to change your perspective, OK?
+
+00:06:27.230 --> 00:06:30.300 align:middle line:84%
+You have to change
+your perspective.
+
+00:06:30.300 --> 00:06:33.650 align:middle line:84%
+And so quantum field
+theory, one thing people
+
+00:06:33.650 --> 00:06:36.830 align:middle line:84%
+complain about is that
+quantum field theory often
+
+00:06:36.830 --> 00:06:40.110 align:middle line:84%
+involve a lot of
+calculations, and that's true.
+
+00:06:40.110 --> 00:06:41.540 align:middle line:90%
+That's just a fact of life.
+
+00:06:41.540 --> 00:06:42.950 align:middle line:90%
+You cannot avoid it.
+
+00:06:42.950 --> 00:06:47.540 align:middle line:84%
+But that's not what it
+makes it difficult, OK?
+
+00:06:47.540 --> 00:06:49.880 align:middle line:84%
+Complicated calculations,
+you can just
+
+00:06:49.880 --> 00:06:53.452 align:middle line:84%
+go through them from one line to
+the next line to the next line.
+
+00:06:53.452 --> 00:06:55.160 align:middle line:84%
+If you're careful
+enough, patient enough,
+
+00:06:55.160 --> 00:06:56.390 align:middle line:90%
+you can go through.
+
+00:06:56.390 --> 00:07:00.170 align:middle line:84%
+So the difficulty, I think for
+most people, of quantum field
+
+00:07:00.170 --> 00:07:04.450 align:middle line:84%
+theory, it's more at
+a conceptual level.
+
+00:07:04.450 --> 00:07:09.310 align:middle line:84%
+It's because this subject is
+not a very intuitive subject.
+
+00:07:09.310 --> 00:07:14.700 align:middle line:84%
+It's not something you can just
+understand just by thinking,
+
+00:07:14.700 --> 00:07:16.050 align:middle line:90%
+OK?
+
+00:07:16.050 --> 00:07:18.540 align:middle line:84%
+So that's why I emphasized
+earlier the exercise
+
+00:07:18.540 --> 00:07:21.160 align:middle line:84%
+and really working through
+it is very important.
+
+00:07:21.160 --> 00:07:22.900 align:middle line:84%
+It's a little bit like
+quantum mechanics.
+
+00:07:22.900 --> 00:07:25.590 align:middle line:84%
+In quantum mechanics
+your intuition
+
+00:07:25.590 --> 00:07:28.860 align:middle line:90%
+was developed through examples.
+
+00:07:28.860 --> 00:07:30.690 align:middle line:84%
+By working through
+many examples,
+
+00:07:30.690 --> 00:07:33.670 align:middle line:84%
+you slowly develop intuition
+about the quantum mechanics.
+
+00:07:33.670 --> 00:07:36.840 align:middle line:84%
+And if you learn all
+the lessons, and then
+
+00:07:36.840 --> 00:07:39.690 align:middle line:84%
+you get good feeling
+about quantum mechanics.
+
+00:07:39.690 --> 00:07:42.270 align:middle line:84%
+And quantum field theory
+is the same thing.
+
+00:07:42.270 --> 00:07:44.430 align:middle line:90%
+It said, you have to--
+
+00:07:44.430 --> 00:07:47.250 align:middle line:84%
+some kind of intuition
+has to be developed, OK?
+
+00:07:47.250 --> 00:07:50.730 align:middle line:84%
+It's not something
+you can easily--
+
+00:07:50.730 --> 00:07:55.530 align:middle line:84%
+just like mechanics, which
+you can in some other subject,
+
+00:07:55.530 --> 00:07:57.420 align:middle line:84%
+maybe if you have
+very good intuition,
+
+00:07:57.420 --> 00:08:00.360 align:middle line:90%
+you can just imagine it, OK?
+
+00:08:00.360 --> 00:08:04.870 align:middle line:90%
+
+
+00:08:04.870 --> 00:08:13.650 align:middle line:84%
+Yeah, so to help you develop
+good intuition about quantum
+
+00:08:13.650 --> 00:08:18.960 align:middle line:84%
+field theory, I can offer you
+three pieces of advice, OK?
+
+00:08:18.960 --> 00:08:22.980 align:middle line:84%
+So first, yeah, so the
+first piece of advice
+
+00:08:22.980 --> 00:08:26.130 align:middle line:84%
+is that the quantum field
+theory is essentially
+
+00:08:26.130 --> 00:08:30.630 align:middle line:84%
+quantum mechanics but dealing
+with infinite number of degrees
+
+00:08:30.630 --> 00:08:31.650 align:middle line:90%
+of freedom, OK?
+
+00:08:31.650 --> 00:08:34.679 align:middle line:84%
+So in your quantum
+mechanics class,
+
+00:08:34.679 --> 00:08:37.919 align:middle line:84%
+you always treat with finite
+number of degrees of freedom.
+
+00:08:37.919 --> 00:08:41.350 align:middle line:84%
+But quantum field theory, the
+difference for quantum field
+
+00:08:41.350 --> 00:08:43.100 align:middle line:84%
+theory is now you treat
+an infinite number
+
+00:08:43.100 --> 00:08:44.378 align:middle line:90%
+of degrees of freedom.
+
+00:08:44.378 --> 00:08:46.670 align:middle line:84%
+It turns out that this treating
+infinite number degrees
+
+00:08:46.670 --> 00:08:49.100 align:middle line:90%
+freedom makes a difference.
+
+00:08:49.100 --> 00:08:53.380 align:middle line:84%
+So more is different
+and actually, sometimes
+
+00:08:53.380 --> 00:08:56.270 align:middle line:90%
+make conceptual differences.
+
+00:08:56.270 --> 00:09:04.210 align:middle line:84%
+And so that's why
+sometimes the quantum field
+
+00:09:04.210 --> 00:09:07.220 align:middle line:90%
+theory is unintuitive, OK?
+
+00:09:07.220 --> 00:09:12.560 align:middle line:84%
+But that said, I
+found, for many people,
+
+00:09:12.560 --> 00:09:16.120 align:middle line:84%
+including myself when I learned
+it, for many difficulties you
+
+00:09:16.120 --> 00:09:18.670 align:middle line:84%
+encounter in learning
+quantum field theory,
+
+00:09:18.670 --> 00:09:22.570 align:middle line:84%
+it's not due to the difficulty
+in quantum field theory itself.
+
+00:09:22.570 --> 00:09:25.270 align:middle line:84%
+It's actually due to
+your gap in understanding
+
+00:09:25.270 --> 00:09:27.300 align:middle line:90%
+of quantum mechanics.
+
+00:09:27.300 --> 00:09:29.780 align:middle line:84%
+So whenever you
+encounter something
+
+00:09:29.780 --> 00:09:32.330 align:middle line:84%
+you don't quite understand
+in quantum field theory,
+
+00:09:32.330 --> 00:09:35.120 align:middle line:84%
+try to step it
+back, to say, can I
+
+00:09:35.120 --> 00:09:38.990 align:middle line:84%
+formulate this difficulty in
+terms of quantum mechanics
+
+00:09:38.990 --> 00:09:41.540 align:middle line:84%
+with only a finite number
+of degrees of freedom?
+
+00:09:41.540 --> 00:09:44.390 align:middle line:84%
+And often, you find actually
+your difficulty can already
+
+00:09:44.390 --> 00:09:46.670 align:middle line:84%
+be formulated in
+quantum mechanics.
+
+00:09:46.670 --> 00:09:48.320 align:middle line:84%
+And then that way
+then you should
+
+00:09:48.320 --> 00:09:50.390 align:middle line:84%
+be able to just
+settle it yourself,
+
+00:09:50.390 --> 00:09:52.610 align:middle line:84%
+OK, because we are
+supposed already
+
+00:09:52.610 --> 00:09:54.830 align:middle line:84%
+to be a master of
+quantum mechanics, OK?
+
+00:09:54.830 --> 00:09:59.600 align:middle line:84%
+And certainly, when I
+learned quantum field theory
+
+00:09:59.600 --> 00:10:03.480 align:middle line:84%
+I was stuck at a certain
+point for a long time.
+
+00:10:03.480 --> 00:10:05.990 align:middle line:84%
+And then later I realized, just
+because I didn't understand
+
+00:10:05.990 --> 00:10:08.300 align:middle line:84%
+certain Heisenberg picture
+of quantum mechanics
+
+00:10:08.300 --> 00:10:10.760 align:middle line:90%
+very well, OK?
+
+00:10:10.760 --> 00:10:13.490 align:middle line:84%
+Somehow I realized when I
+understood the Heisenberg
+
+00:10:13.490 --> 00:10:14.990 align:middle line:84%
+picture of quantum
+mechanics well,
+
+00:10:14.990 --> 00:10:16.760 align:middle line:84%
+and those difficulties
+just went away.
+
+00:10:16.760 --> 00:10:21.000 align:middle line:84%
+And have nothing to do with
+quantum field theory itself.
+
+00:10:21.000 --> 00:10:23.060 align:middle line:84%
+So that's why, in
+your first Pset
+
+00:10:23.060 --> 00:10:25.100 align:middle line:84%
+you will get familiar
+with Heisenberg
+
+00:10:25.100 --> 00:10:28.740 align:middle line:84%
+picture of quantum
+mechanics, OK?
+
+00:10:28.740 --> 00:10:31.960 align:middle line:84%
+That came from my
+own experience.
+
+00:10:31.960 --> 00:10:37.000 align:middle line:84%
+And also, the second point is
+that quantum field theory deals
+
+00:10:37.000 --> 00:10:38.710 align:middle line:90%
+with formalisms.
+
+00:10:38.710 --> 00:10:43.480 align:middle line:84%
+And sometimes the subject
+seems very formal, OK?
+
+00:10:43.480 --> 00:10:45.910 align:middle line:84%
+You have a lot of
+formalisms, OK?
+
+00:10:45.910 --> 00:10:49.780 align:middle line:84%
+But just keep in mind,
+any formalism in physics,
+
+00:10:49.780 --> 00:10:54.130 align:middle line:84%
+no matter how abstract
+it is, it was always
+
+00:10:54.130 --> 00:10:58.500 align:middle line:84%
+designed to solve some
+concrete physical problems
+
+00:10:58.500 --> 00:11:01.830 align:middle line:84%
+and physical questions, very
+concrete physical questions.
+
+00:11:01.830 --> 00:11:06.120 align:middle line:84%
+And if you understand what kind
+of concrete physical questions
+
+00:11:06.120 --> 00:11:09.570 align:middle line:84%
+quantum field theory
+was designed to solve,
+
+00:11:09.570 --> 00:11:11.880 align:middle line:84%
+then that can give you
+a very good perspective
+
+00:11:11.880 --> 00:11:13.950 align:middle line:84%
+on those formalism
+and why people
+
+00:11:13.950 --> 00:11:17.160 align:middle line:84%
+do this why people do that,
+why people do this trick, why
+
+00:11:17.160 --> 00:11:21.180 align:middle line:84%
+people do that trick because
+they were invented to solve
+
+00:11:21.180 --> 00:11:23.160 align:middle line:90%
+certain concrete problems, OK?
+
+00:11:23.160 --> 00:11:25.740 align:middle line:84%
+And once you understand
+the questions,
+
+00:11:25.740 --> 00:11:27.660 align:middle line:84%
+understand the problems,
+then the formalism
+
+00:11:27.660 --> 00:11:31.080 align:middle line:84%
+becomes much easier
+to understand.
+
+00:11:31.080 --> 00:11:34.980 align:middle line:84%
+And the third thing
+we already said
+
+00:11:34.980 --> 00:11:38.790 align:middle line:84%
+is that in quantum field
+theory, as in quantum mechanics,
+
+00:11:38.790 --> 00:11:43.140 align:middle line:84%
+intuition was built
+through experiences, OK,
+
+00:11:43.140 --> 00:11:45.540 align:middle line:90%
+through examples.
+
+00:11:45.540 --> 00:11:47.610 align:middle line:84%
+So when you do
+your Pset, when you
+
+00:11:47.610 --> 00:11:50.980 align:middle line:84%
+look at the examples
+in the class,
+
+00:11:50.980 --> 00:11:53.700 align:middle line:84%
+you should always ask
+yourself afterwards,
+
+00:11:53.700 --> 00:11:57.030 align:middle line:84%
+say, after you have
+done your Pset problems,
+
+00:11:57.030 --> 00:11:59.100 align:middle line:84%
+always look back
+at that problem.
+
+00:11:59.100 --> 00:12:01.950 align:middle line:84%
+Say, what did I learn
+from this problem, OK?
+
+00:12:01.950 --> 00:12:04.300 align:middle line:90%
+And just think through it again.
+
+00:12:04.300 --> 00:12:07.350 align:middle line:84%
+Think through what you learned
+from that problem again.
+
+00:12:07.350 --> 00:12:10.290 align:middle line:84%
+And that is a very
+good way to help
+
+00:12:10.290 --> 00:12:14.190 align:middle line:84%
+you to learn from
+your experiences
+
+00:12:14.190 --> 00:12:17.780 align:middle line:84%
+and to help you
+develop intuitions, OK?
+
+00:12:17.780 --> 00:12:21.290 align:middle line:84%
+And so yeah, so also
+a very important thing
+
+00:12:21.290 --> 00:12:25.410 align:middle line:84%
+you should keep in mind is
+that in the graduate course
+
+00:12:25.410 --> 00:12:28.350 align:middle line:84%
+like this most of
+the things should
+
+00:12:28.350 --> 00:12:30.300 align:middle line:90%
+be learned outside the class.
+
+00:12:30.300 --> 00:12:34.230 align:middle line:84%
+So inside the class the
+purpose is to give you a guide,
+
+00:12:34.230 --> 00:12:37.080 align:middle line:84%
+OK, is to emphasize
+the conceptual picture
+
+00:12:37.080 --> 00:12:39.820 align:middle line:84%
+and the physical
+intuition, et cetera.
+
+00:12:39.820 --> 00:12:42.810 align:middle line:84%
+And so sometimes I will
+leave some details for you
+
+00:12:42.810 --> 00:12:44.550 align:middle line:90%
+to finish in the Pset.
+
+00:12:44.550 --> 00:12:48.030 align:middle line:84%
+And sometimes the Pset
+will involve problems
+
+00:12:48.030 --> 00:12:52.020 align:middle line:84%
+which I did not, say,
+fully discuss in lecture,
+
+00:12:52.020 --> 00:12:54.780 align:middle line:84%
+but I want you to
+work out yourself, OK?
+
+00:12:54.780 --> 00:12:58.800 align:middle line:84%
+And so P set is important
+part of the learning,
+
+00:12:58.800 --> 00:13:02.190 align:middle line:84%
+even new things, OK, not
+just to practice something,
+
+00:13:02.190 --> 00:13:08.085 align:middle line:84%
+but it's also a very important
+part for learning new things.
+
+00:13:08.085 --> 00:13:11.430 align:middle line:90%
+
+
+00:13:11.430 --> 00:13:12.850 align:middle line:90%
+Right.
+
+00:13:12.850 --> 00:13:13.630 align:middle line:90%
+Good?
+
+00:13:13.630 --> 00:13:20.830 align:middle line:84%
+Also, finally, I would
+like to make an apology.
+
+00:13:20.830 --> 00:13:25.780 align:middle line:84%
+So you will soon find that
+notations rotations are
+
+00:13:25.780 --> 00:13:29.560 align:middle line:84%
+used in the lecture are
+different from the notations
+
+00:13:29.560 --> 00:13:33.430 align:middle line:84%
+in the recommended
+reading books, OK?
+
+00:13:33.430 --> 00:13:36.640 align:middle line:84%
+So I recommended reading
+Peskin and Weinberg.
+
+00:13:36.640 --> 00:13:39.550 align:middle line:84%
+And you will find that
+my notations are actually
+
+00:13:39.550 --> 00:13:40.660 align:middle line:90%
+different from them.
+
+00:13:40.660 --> 00:13:44.740 align:middle line:84%
+Also, the order of presentations
+are also different from them,
+
+00:13:44.740 --> 00:13:45.580 align:middle line:90%
+OK?
+
+00:13:45.580 --> 00:13:50.140 align:middle line:84%
+I know this is very
+annoying, but there's just
+
+00:13:50.140 --> 00:13:53.710 align:middle line:90%
+no perfect textbooks.
+
+00:13:53.710 --> 00:13:57.850 align:middle line:84%
+And there's no perfect set
+of notations everybody use.
+
+00:13:57.850 --> 00:14:01.510 align:middle line:84%
+And we all use the
+notations which we find
+
+00:14:01.510 --> 00:14:03.820 align:middle line:90%
+the most convenient to use, OK?
+
+00:14:03.820 --> 00:14:08.260 align:middle line:84%
+And so even though I
+realize this problem,
+
+00:14:08.260 --> 00:14:10.450 align:middle line:84%
+but I don't have a
+good resolution, OK?
+
+00:14:10.450 --> 00:14:13.870 align:middle line:84%
+So just keep in mind, the
+notations in my lecture
+
+00:14:13.870 --> 00:14:18.310 align:middle line:84%
+can be different from the
+notations in those textbooks,
+
+00:14:18.310 --> 00:14:19.490 align:middle line:90%
+OK?
+
+00:14:19.490 --> 00:14:20.030 align:middle line:90%
+Good?
+
+00:14:20.030 --> 00:14:23.290 align:middle line:84%
+So do you have any
+other questions?
+
+00:14:23.290 --> 00:14:29.490 align:middle line:90%
+
+
+00:14:29.490 --> 00:14:33.040 align:middle line:84%
+Good, OK, so if you don't
+have any other questions,
+
+00:14:33.040 --> 00:14:33.900 align:middle line:90%
+so let's start.
+
+00:14:33.900 --> 00:14:45.820 align:middle line:90%
+
+
+00:14:45.820 --> 00:14:58.550 align:middle line:84%
+So the Chapter 1 will be about
+why we consider quantum field
+
+00:14:58.550 --> 00:14:59.165 align:middle line:90%
+theory, OK?
+
+00:14:59.165 --> 00:15:02.960 align:middle line:90%
+
+
+00:15:02.960 --> 00:15:08.720 align:middle line:84%
+So first, we talk a little
+bit about the classical field
+
+00:15:08.720 --> 00:15:15.950 align:middle line:84%
+theories to set the stage or
+quantum field theories, OK?
+
+00:15:15.950 --> 00:15:20.050 align:middle line:90%
+
+
+00:15:20.050 --> 00:15:24.220 align:middle line:84%
+And the first important
+concept is called
+
+00:15:24.220 --> 00:15:25.720 align:middle line:90%
+the principle of locality.
+
+00:15:25.720 --> 00:15:30.180 align:middle line:90%
+
+
+00:15:30.180 --> 00:15:35.990 align:middle line:84%
+So if you remember from your
+high school days Newtonian
+
+00:15:35.990 --> 00:15:47.240 align:middle line:84%
+mechanics, so in
+Newtonian mechanics
+
+00:15:47.240 --> 00:15:57.450 align:middle line:84%
+you have action
+at a distance, OK?
+
+00:15:57.450 --> 00:16:00.750 align:middle line:84%
+For example, if you look
+at gravity and the gravity
+
+00:16:00.750 --> 00:16:03.690 align:middle line:84%
+is exerted by the
+sun on the Earth,
+
+00:16:03.690 --> 00:16:09.780 align:middle line:84%
+but they are very far
+away, OK, and yeah.
+
+00:16:09.780 --> 00:16:13.080 align:middle line:84%
+And the same thing with
+the Coulomb interactions
+
+00:16:13.080 --> 00:16:14.640 align:middle line:90%
+between the charged particles.
+
+00:16:14.640 --> 00:16:18.250 align:middle line:90%
+
+
+00:16:18.250 --> 00:16:22.460 align:middle line:84%
+But then in the
+19th century, they
+
+00:16:22.460 --> 00:16:25.400 align:middle line:84%
+came from this
+principle locality.
+
+00:16:25.400 --> 00:16:38.510 align:middle line:84%
+And that's formulated by
+Faraday around 1830, OK?
+
+00:16:38.510 --> 00:16:47.940 align:middle line:84%
+So the principle of
+locality said all points--
+
+00:16:47.940 --> 00:16:52.380 align:middle line:84%
+you actually don't have
+action at a distance.
+
+00:16:52.380 --> 00:17:03.240 align:middle line:84%
+He said all points
+in space participate
+
+00:17:03.240 --> 00:17:14.240 align:middle line:90%
+in the physical process, OK?
+
+00:17:14.240 --> 00:17:19.069 align:middle line:84%
+And the effect, so if
+you have interactions,
+
+00:17:19.069 --> 00:17:30.205 align:middle line:84%
+OK, so effect propagates from
+points to a neighboring point,
+
+00:17:30.205 --> 00:17:30.705 align:middle line:90%
+OK?
+
+00:17:30.705 --> 00:17:45.850 align:middle line:90%
+
+
+00:17:45.850 --> 00:17:52.560 align:middle line:84%
+OK, so in this
+principle locality
+
+00:17:52.560 --> 00:17:55.000 align:middle line:84%
+you don't have
+action at a distance.
+
+00:17:55.000 --> 00:17:58.470 align:middle line:84%
+So action at a distance
+is always conveyed--
+
+00:17:58.470 --> 00:18:02.310 align:middle line:84%
+the action is always conveyed
+from one point to another point
+
+00:18:02.310 --> 00:18:07.160 align:middle line:84%
+through the propagating
+in the space, OK?
+
+00:18:07.160 --> 00:18:14.900 align:middle line:84%
+And the fields, the
+concept of fields
+
+00:18:14.900 --> 00:18:35.480 align:middle line:84%
+is the mathematical
+device or vehicle
+
+00:18:35.480 --> 00:18:43.805 align:middle line:84%
+that the principle of
+locality is at work, OK?
+
+00:18:43.805 --> 00:18:47.060 align:middle line:90%
+
+
+00:18:47.060 --> 00:18:50.150 align:middle line:84%
+So this is
+essentially the device
+
+00:18:50.150 --> 00:18:55.700 align:middle line:84%
+we need to use to realize
+this principle of locality.
+
+00:18:55.700 --> 00:19:02.690 align:middle line:84%
+And so the main
+idea of the field
+
+00:19:02.690 --> 00:19:16.990 align:middle line:84%
+is that we associate each
+point with each point in space
+
+00:19:16.990 --> 00:19:30.670 align:middle line:84%
+a dynamical variable, OK,
+or dynamical variables, OK?
+
+00:19:30.670 --> 00:19:43.310 align:middle line:84%
+So for example, so for example,
+so if you have electric field--
+
+00:19:43.310 --> 00:19:49.820 align:middle line:90%
+
+
+00:19:49.820 --> 00:19:57.960 align:middle line:84%
+so the electric field is
+defined for all space, OK?
+
+00:19:57.960 --> 00:20:02.760 align:middle line:84%
+So at each point x, we can
+introduce an electric field,
+
+00:20:02.760 --> 00:20:04.170 align:middle line:90%
+OK?
+
+00:20:04.170 --> 00:20:12.730 align:middle line:84%
+And then this electric field can
+also depend on time, and yeah.
+
+00:20:12.730 --> 00:20:16.990 align:middle line:84%
+So of course, normally
+we write it this way.
+
+00:20:16.990 --> 00:20:20.200 align:middle line:90%
+E of x, t.
+
+00:20:20.200 --> 00:20:23.690 align:middle line:84%
+And the reason I
+write it this way
+
+00:20:23.690 --> 00:20:27.230 align:middle line:84%
+is to emphasize that
+in the definition
+
+00:20:27.230 --> 00:20:31.300 align:middle line:84%
+of the electric field, the
+space and time actually
+
+00:20:31.300 --> 00:20:33.700 align:middle line:90%
+play a very different role.
+
+00:20:33.700 --> 00:20:38.020 align:middle line:84%
+The space plays the
+role of a label.
+
+00:20:38.020 --> 00:20:41.170 align:middle line:84%
+So at each point we
+have electric field, OK?
+
+00:20:41.170 --> 00:20:43.730 align:middle line:84%
+At each point x, we
+have electric field.
+
+00:20:43.730 --> 00:20:46.480 align:middle line:84%
+And so x here is
+just a label, OK?
+
+00:20:46.480 --> 00:20:53.140 align:middle line:84%
+And the t is used to describe
+the evolution, the change
+
+00:20:53.140 --> 00:20:54.470 align:middle line:90%
+of the electric field.
+
+00:20:54.470 --> 00:20:58.270 align:middle line:84%
+So the x and t plays
+a very different role.
+
+00:20:58.270 --> 00:21:00.475 align:middle line:84%
+And similarly, you can do
+it for magnetic fields.
+
+00:21:00.475 --> 00:21:05.000 align:middle line:90%
+
+
+00:21:05.000 --> 00:21:12.310 align:middle line:90%
+It's the same thing, OK?
+
+00:21:12.310 --> 00:21:16.680 align:middle line:84%
+And here you should always
+view x as labels, OK?
+
+00:21:16.680 --> 00:21:20.550 align:middle line:84%
+So the spatial point, which
+we denote as vector x,
+
+00:21:20.550 --> 00:21:22.020 align:middle line:90%
+is the labels.
+
+00:21:22.020 --> 00:21:29.940 align:middle line:90%
+
+
+00:21:29.940 --> 00:21:35.880 align:middle line:84%
+And we know that the evolution
+of electric and magnetic fields
+
+00:21:35.880 --> 00:21:37.980 align:middle line:84%
+are described by
+Maxwell's equations.
+
+00:21:37.980 --> 00:21:42.530 align:middle line:90%
+
+
+00:21:42.530 --> 00:21:45.750 align:middle line:84%
+So let me just write
+them down to remind you.
+
+00:21:45.750 --> 00:21:57.170 align:middle line:84%
+So if you have dot v 0
+dot E equal to 4 pi rho.
+
+00:21:57.170 --> 00:22:08.400 align:middle line:90%
+
+
+00:22:08.400 --> 00:22:10.440 align:middle line:84%
+So this so-called
+the differential form
+
+00:22:10.440 --> 00:22:12.060 align:middle line:90%
+of the Maxwell equations.
+
+00:22:12.060 --> 00:22:16.410 align:middle line:90%
+
+
+00:22:16.410 --> 00:22:21.710 align:middle line:84%
+So the reason I'm taking
+trouble to write them down
+
+00:22:21.710 --> 00:22:24.840 align:middle line:84%
+is to emphasize the
+following point.
+
+00:22:24.840 --> 00:22:32.300 align:middle line:84%
+So this set of equations
+exemplifies perfectly
+
+00:22:32.300 --> 00:22:35.710 align:middle line:90%
+the principle of locality.
+
+00:22:35.710 --> 00:22:40.450 align:middle line:84%
+It's because you see
+those equations only
+
+00:22:40.450 --> 00:22:44.590 align:middle line:84%
+involve the value of electric
+fields and the magnetic field
+
+00:22:44.590 --> 00:22:47.430 align:middle line:90%
+at a single point, OK?
+
+00:22:47.430 --> 00:22:51.600 align:middle line:84%
+So if here is at x point,
+so here is also at x point.
+
+00:22:51.600 --> 00:22:57.300 align:middle line:84%
+You never say x here and
+here is some other point y.
+
+00:22:57.300 --> 00:23:00.880 align:middle line:84%
+And so this is
+reflected the principle
+
+00:23:00.880 --> 00:23:04.110 align:middle line:90%
+of locality that everything--
+
+00:23:04.110 --> 00:23:08.160 align:middle line:84%
+so the effect is propagate
+from point to point, OK?
+
+00:23:08.160 --> 00:23:13.050 align:middle line:84%
+You just have the derivative
+of the same point, OK?
+
+00:23:13.050 --> 00:23:16.020 align:middle line:84%
+You don't involve
+separated points, OK?
+
+00:23:16.020 --> 00:23:19.230 align:middle line:90%
+
+
+00:23:19.230 --> 00:23:22.300 align:middle line:90%
+So these are local equations.
+
+00:23:22.300 --> 00:23:24.750 align:middle line:84%
+So these are what we
+call the local equations.
+
+00:23:24.750 --> 00:23:29.110 align:middle line:90%
+
+
+00:23:29.110 --> 00:23:43.210 align:middle line:84%
+And they contain only E
+and B at the same point
+
+00:23:43.210 --> 00:23:45.850 align:middle line:84%
+and also the charge
+density and current density
+
+00:23:45.850 --> 00:23:50.557 align:middle line:84%
+at the same point, with
+finite number of derivatives.
+
+00:23:50.557 --> 00:24:00.100 align:middle line:90%
+
+
+00:24:00.100 --> 00:24:06.300 align:middle line:84%
+So the derivatives are the ones
+to help you to propagate, OK,
+
+00:24:06.300 --> 00:24:11.220 align:middle line:84%
+because it relates the point
+to the neighboring point, OK?
+
+00:24:11.220 --> 00:24:14.280 align:middle line:90%
+And so that's how it propagates.
+
+00:24:14.280 --> 00:24:15.930 align:middle line:84%
+It's through the
+derivatives, OK?
+
+00:24:15.930 --> 00:24:17.735 align:middle line:90%
+So the derivatives are key, OK?
+
+00:24:17.735 --> 00:24:18.735 align:middle line:90%
+The derivatives are key.
+
+00:24:18.735 --> 00:24:21.330 align:middle line:90%
+
+
+00:24:21.330 --> 00:24:25.930 align:middle line:84%
+And another example with
+examples of locality,
+
+00:24:25.930 --> 00:24:31.390 align:middle line:84%
+which I will not go into here,
+which some of you may know,
+
+00:24:31.390 --> 00:24:35.170 align:middle line:84%
+is the Einstein gravity, so
+Einstein's general relativity.
+
+00:24:35.170 --> 00:24:41.810 align:middle line:90%
+
+
+00:24:41.810 --> 00:24:45.280 align:middle line:84%
+So in Einstein gravity
+the dynamical variables
+
+00:24:45.280 --> 00:24:48.200 align:middle line:90%
+are so-called spacetime metric.
+
+00:24:48.200 --> 00:24:54.320 align:middle line:84%
+So they are object with two
+indices, two spacetime indices,
+
+00:24:54.320 --> 00:24:54.870 align:middle line:90%
+OK?
+
+00:24:54.870 --> 00:24:56.850 align:middle line:84%
+And then the Einstein
+equations are
+
+00:24:56.850 --> 00:24:58.700 align:middle line:84%
+equations for this
+kind of object.
+
+00:24:58.700 --> 00:25:01.040 align:middle line:84%
+And again, the equations
+are local equations
+
+00:25:01.040 --> 00:25:02.870 align:middle line:84%
+in the sense that
+they only depend
+
+00:25:02.870 --> 00:25:07.820 align:middle line:84%
+on the G evaluated at the same
+point with a finite number
+
+00:25:07.820 --> 00:25:09.440 align:middle line:90%
+of derivatives, OK?
+
+00:25:09.440 --> 00:25:12.740 align:middle line:84%
+So in Einstein's
+gravity you no longer
+
+00:25:12.740 --> 00:25:14.720 align:middle line:90%
+have action at a distance, OK?
+
+00:25:14.720 --> 00:25:20.330 align:middle line:84%
+So the effect of the gravity
+is propagated through the space
+
+00:25:20.330 --> 00:25:22.340 align:middle line:90%
+time, through space time.
+
+00:25:22.340 --> 00:25:25.740 align:middle line:90%
+
+
+00:25:25.740 --> 00:25:32.077 align:middle line:84%
+So in fact, so here we say
+these two examples exemplifies
+
+00:25:32.077 --> 00:25:33.160 align:middle line:90%
+the principle of locality.
+
+00:25:33.160 --> 00:25:35.590 align:middle line:84%
+In fact, the
+principle of locality
+
+00:25:35.590 --> 00:25:39.670 align:middle line:84%
+plays a very important role
+in formulating those equations
+
+00:25:39.670 --> 00:25:42.580 align:middle line:84%
+because, as we
+will very soon see,
+
+00:25:42.580 --> 00:25:44.500 align:middle line:84%
+when you have
+principle of locality,
+
+00:25:44.500 --> 00:25:49.280 align:middle line:84%
+you can significantly constrain
+the theory you can write down.
+
+00:25:49.280 --> 00:25:51.910 align:middle line:84%
+So that's a very, very
+powerful principle.
+
+00:25:51.910 --> 00:25:52.930 align:middle line:90%
+Yes.
+
+00:25:52.930 --> 00:25:54.430 align:middle line:84%
+AUDIENCE: Are there
+popular examples
+
+00:25:54.430 --> 00:25:57.070 align:middle line:84%
+you think we might have
+seen of nonlocal equations?
+
+00:25:57.070 --> 00:26:00.850 align:middle line:84%
+PROFESSOR: Yeah, you can
+have nonlocal equations,
+
+00:26:00.850 --> 00:26:03.070 align:middle line:84%
+but it's believed that
+the fundamental equations
+
+00:26:03.070 --> 00:26:07.310 align:middle line:84%
+in nature, they are
+all local, yeah.
+
+00:26:07.310 --> 00:26:11.780 align:middle line:84%
+Yeah, and so far,
+the equations govern
+
+00:26:11.780 --> 00:26:13.130 align:middle line:90%
+all fundamental interactions.
+
+00:26:13.130 --> 00:26:15.465 align:middle line:84%
+All four different interactions
+in nature, the equations
+
+00:26:15.465 --> 00:26:15.965 align:middle line:90%
+are local.
+
+00:26:15.965 --> 00:26:18.653 align:middle line:90%
+
+
+00:26:18.653 --> 00:26:19.320 align:middle line:90%
+Other questions?
+
+00:26:19.320 --> 00:26:19.575 align:middle line:90%
+Yes.
+
+00:26:19.575 --> 00:26:21.600 align:middle line:84%
+AUDIENCE: When you wrote down
+the Einstein's gravity thing,
+
+00:26:21.600 --> 00:26:23.990 align:middle line:84%
+why did you pick out a
+particular time component t?
+
+00:26:23.990 --> 00:26:24.740 align:middle line:90%
+PROFESSOR: Sorry?
+
+00:26:24.740 --> 00:26:26.448 align:middle line:84%
+AUDIENCE: When you
+wrote down the G mu nu
+
+00:26:26.448 --> 00:26:28.280 align:middle line:84%
+as a function of x
+and t, why did you
+
+00:26:28.280 --> 00:26:32.330 align:middle line:84%
+pick at a particular
+time component?
+
+00:26:32.330 --> 00:26:33.330 align:middle line:90%
+PROFESSOR: Say it again.
+
+00:26:33.330 --> 00:26:35.220 align:middle line:84%
+I don't quite understand
+the question, yeah.
+
+00:26:35.220 --> 00:26:36.360 align:middle line:90%
+AUDIENCE: Sure.
+
+00:26:36.360 --> 00:26:38.977 align:middle line:84%
+You kind of treated the
+x and t asymmetrically
+
+00:26:38.977 --> 00:26:41.310 align:middle line:84%
+when you write down the
+equation for Einstein's gravity.
+
+00:26:41.310 --> 00:26:41.670 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:26:41.670 --> 00:26:42.450 align:middle line:84%
+AUDIENCE: Is there
+a particular reason
+
+00:26:42.450 --> 00:26:43.670 align:middle line:90%
+why you wrote it in that way?
+
+00:26:43.670 --> 00:26:46.550 align:middle line:84%
+PROFESSOR: Oh, no,
+no, no, here, I
+
+00:26:46.550 --> 00:26:50.030 align:middle line:84%
+just want to emphasize
+again that, of course,
+
+00:26:50.030 --> 00:26:54.950 align:middle line:84%
+in Einstein's theory these
+two are treated the same way.
+
+00:26:54.950 --> 00:26:57.565 align:middle line:84%
+But if you think in
+terms of the fields,
+
+00:26:57.565 --> 00:26:58.940 align:middle line:84%
+they actually have
+very different
+
+00:26:58.940 --> 00:27:00.870 align:middle line:90%
+physical interpretation.
+
+00:27:00.870 --> 00:27:03.990 align:middle line:90%
+So that's why I write this way.
+
+00:27:03.990 --> 00:27:08.160 align:middle line:84%
+Yeah, it's the same way I write
+it like here, yeah, yeah, yeah,
+
+00:27:08.160 --> 00:27:10.140 align:middle line:84%
+same reason, just here
+to emphasize for this--
+
+00:27:10.140 --> 00:27:12.720 align:middle line:90%
+
+
+00:27:12.720 --> 00:27:16.760 align:middle line:84%
+to emphasize the different
+role played by x and t.
+
+00:27:16.760 --> 00:27:20.370 align:middle line:84%
+Yeah, but I think you're
+asking a very good question.
+
+00:27:20.370 --> 00:27:25.160 align:middle line:84%
+So I'm going to mention later
+in the relativistic series
+
+00:27:25.160 --> 00:27:28.670 align:middle line:84%
+then, of course, then
+these two become the same,
+
+00:27:28.670 --> 00:27:32.040 align:middle line:90%
+play the very equal role.
+
+00:27:32.040 --> 00:27:33.440 align:middle line:90%
+Does that answer your question?
+
+00:27:33.440 --> 00:27:34.065 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:27:34.065 --> 00:27:35.620 align:middle line:90%
+PROFESSOR: OK, good.
+
+00:27:35.620 --> 00:27:43.570 align:middle line:84%
+Good, also yeah, so let me
+also very quickly mention
+
+00:27:43.570 --> 00:27:45.145 align:middle line:90%
+the different types of fields.
+
+00:27:45.145 --> 00:27:49.290 align:middle line:90%
+
+
+00:27:49.290 --> 00:27:54.600 align:middle line:84%
+OK, so you can have what's
+called a scalar field, scalar.
+
+00:27:54.600 --> 00:28:01.600 align:middle line:84%
+So these are quantities,
+which at a given point
+
+00:28:01.600 --> 00:28:06.230 align:middle line:84%
+there's only one value, OK, say,
+for example, the temperature.
+
+00:28:06.230 --> 00:28:15.680 align:middle line:84%
+So it's just a single
+quantity defined at the point,
+
+00:28:15.680 --> 00:28:18.780 align:middle line:84%
+for example, the temperature,
+OK, and et cetera,
+
+00:28:18.780 --> 00:28:20.440 align:middle line:90%
+and maybe other quantities.
+
+00:28:20.440 --> 00:28:24.400 align:middle line:84%
+And then you also
+have a vector field.
+
+00:28:24.400 --> 00:28:27.010 align:middle line:84%
+And E and B, they're
+examples of a vector field
+
+00:28:27.010 --> 00:28:33.560 align:middle line:84%
+because at each point
+you have a vector, OK?
+
+00:28:33.560 --> 00:28:37.220 align:middle line:84%
+So here I'm using the
+three-dimensional notations.
+
+00:28:37.220 --> 00:28:39.440 align:middle line:84%
+But in the relativistic
+series, You.
+
+00:28:39.440 --> 00:28:42.760 align:middle line:84%
+Can also use the four
+vector notations.
+
+00:28:42.760 --> 00:28:45.880 align:middle line:84%
+Say, for example,
+the vector potential
+
+00:28:45.880 --> 00:28:47.590 align:middle line:90%
+will have the following form.
+
+00:28:47.590 --> 00:28:51.340 align:middle line:84%
+Say, A mu will be a four-vector,
+and then the space time I
+
+00:28:51.340 --> 00:28:54.070 align:middle line:84%
+combine them together
+into a four vector, OK?
+
+00:28:54.070 --> 00:28:58.990 align:middle line:84%
+And so at each point, and then
+you have a four vector, OK?
+
+00:28:58.990 --> 00:29:02.060 align:middle line:90%
+And so yeah.
+
+00:29:02.060 --> 00:29:04.070 align:middle line:90%
+And also you have tensor field.
+
+00:29:04.070 --> 00:29:07.880 align:middle line:84%
+So this metric is an
+example of a tensor field.
+
+00:29:07.880 --> 00:29:11.870 align:middle line:84%
+Here you have two components
+you have two indices, OK?
+
+00:29:11.870 --> 00:29:15.740 align:middle line:84%
+So you have many, many different
+components depending on the--
+
+00:29:15.740 --> 00:29:18.560 align:middle line:84%
+so again, this is a
+relativistic notation.
+
+00:29:18.560 --> 00:29:20.750 align:middle line:84%
+I can write it as a
+relativistic notation, OK?
+
+00:29:20.750 --> 00:29:25.080 align:middle line:84%
+So at each point, and
+now you have some object
+
+00:29:25.080 --> 00:29:27.380 align:middle line:90%
+with two indices, OK?
+
+00:29:27.380 --> 00:29:29.030 align:middle line:90%
+And you can also have--
+
+00:29:29.030 --> 00:29:35.680 align:middle line:84%
+later we will see you also have
+something called spinor fields,
+
+00:29:35.680 --> 00:29:36.370 align:middle line:90%
+alpha.
+
+00:29:36.370 --> 00:29:38.650 align:middle line:84%
+And this alpha is some
+other indices, which we
+
+00:29:38.650 --> 00:29:40.060 align:middle line:90%
+we'll define later, OK?
+
+00:29:40.060 --> 00:29:42.980 align:middle line:90%
+
+
+00:29:42.980 --> 00:29:45.920 align:middle line:84%
+OK, so you can also have
+so-called spinor and alpha,
+
+00:29:45.920 --> 00:29:49.040 align:middle line:90%
+some other indices, OK?
+
+00:29:49.040 --> 00:29:59.880 align:middle line:84%
+And as our convention, is that
+mu is always from 0 to 3, OK?
+
+00:29:59.880 --> 00:30:01.410 align:middle line:84%
+Then when I sometimes
+I just write
+
+00:30:01.410 --> 00:30:07.590 align:middle line:84%
+x, when I write x just means
+a four vector, means x mu.
+
+00:30:07.590 --> 00:30:09.450 align:middle line:90%
+You could do Ct and x.
+
+00:30:09.450 --> 00:30:15.360 align:middle line:84%
+So x vector always denotes
+a spatial vector, OK?
+
+00:30:15.360 --> 00:30:23.690 align:middle line:84%
+And yeah, and then this
+is the same as Ct xi, OK?
+
+00:30:23.690 --> 00:30:28.730 align:middle line:84%
+So the spatial index is
+always denoted by i, and yeah.
+
+00:30:28.730 --> 00:30:35.480 align:middle line:84%
+And so partial mu will be the
+same as 1 over C partial t,
+
+00:30:35.480 --> 00:30:39.140 align:middle line:84%
+and then the derivative,
+the gradient,
+
+00:30:39.140 --> 00:30:41.360 align:middle line:90%
+on spatial directions.
+
+00:30:41.360 --> 00:30:43.730 align:middle line:84%
+And say, if you
+have a four-vector,
+
+00:30:43.730 --> 00:30:48.830 align:middle line:84%
+then again, we have the
+convention that a 0.
+
+00:30:48.830 --> 00:30:54.450 align:middle line:84%
+Then the A vector, it's
+the same also as A0 and Ai.
+
+00:30:54.450 --> 00:30:58.790 align:middle line:84%
+I use the i to denote
+the spatial components.
+
+00:30:58.790 --> 00:31:02.070 align:middle line:84%
+And this is the last time I
+will write speed of light.
+
+00:31:02.070 --> 00:31:04.010 align:middle line:84%
+So the c I will
+always take to be 1,
+
+00:31:04.010 --> 00:31:09.640 align:middle line:84%
+and h bar will taken
+to be 1, OK, just
+
+00:31:09.640 --> 00:31:14.130 align:middle line:90%
+for notational convenience.
+
+00:31:14.130 --> 00:31:15.570 align:middle line:90%
+You have questions?
+
+00:31:15.570 --> 00:31:20.470 align:middle line:90%
+
+
+00:31:20.470 --> 00:31:26.100 align:middle line:84%
+OK, so now, so with
+this preparation then
+
+00:31:26.100 --> 00:31:37.050 align:middle line:84%
+we can talk about action
+principle for classical fields,
+
+00:31:37.050 --> 00:31:38.310 align:middle line:90%
+OK?
+
+00:31:38.310 --> 00:31:49.900 align:middle line:84%
+So first, recall in your
+classical mechanics,
+
+00:31:49.900 --> 00:31:53.500 align:middle line:84%
+so we introduce
+the action, which
+
+00:31:53.500 --> 00:31:56.540 align:middle line:84%
+is the integral of
+your Lagrangian.
+
+00:31:56.540 --> 00:32:01.160 align:middle line:84%
+And Lagrangian is a function
+of x, this is your variable,
+
+00:32:01.160 --> 00:32:04.550 align:middle line:90%
+and x dot and the time, OK?
+
+00:32:04.550 --> 00:32:07.430 align:middle line:84%
+And so this is a
+one-dimensional-- yeah,
+
+00:32:07.430 --> 00:32:11.300 align:middle line:84%
+this is the 8.01
+one-dimensional particle motion.
+
+00:32:11.300 --> 00:32:14.160 align:middle line:84%
+And you can also introduce
+momentum, canonical momentum,
+
+00:32:14.160 --> 00:32:18.920 align:middle line:84%
+which is defined by
+partial L, partial x dot.
+
+00:32:18.920 --> 00:32:21.620 align:middle line:84%
+And then you can also
+define a Hamiltonian.
+
+00:32:21.620 --> 00:32:23.840 align:middle line:84%
+And Hamiltonian is
+related to the Lagrangian
+
+00:32:23.840 --> 00:32:29.990 align:middle line:84%
+by p x-dot minus L, from
+a Legendre transform.
+
+00:32:29.990 --> 00:32:41.660 align:middle line:84%
+And the equation of motion is
+obtained by extremize S, OK?
+
+00:32:41.660 --> 00:32:46.820 align:middle line:84%
+So S is considered to be a
+functional of your trajectory.
+
+00:32:46.820 --> 00:32:50.630 align:middle line:84%
+So whatever trajectory you
+have, and you extremize this S,
+
+00:32:50.630 --> 00:32:52.640 align:middle line:84%
+and then you get the
+equation of motion, OK?
+
+00:32:52.640 --> 00:32:55.310 align:middle line:90%
+
+
+00:32:55.310 --> 00:33:01.310 align:middle line:84%
+So now we can generalize
+to field theory, OK?
+
+00:33:01.310 --> 00:33:05.930 align:middle line:84%
+So now, from
+principle of locality,
+
+00:33:05.930 --> 00:33:15.560 align:middle line:84%
+so for field theory from
+principle locality, so
+
+00:33:15.560 --> 00:33:20.750 align:middle line:84%
+the form of the Lagrangian, so
+the form of the Lagrangian L--
+
+00:33:20.750 --> 00:33:23.530 align:middle line:90%
+
+
+00:33:23.530 --> 00:33:25.180 align:middle line:84%
+so again, we here,
+for field theory,
+
+00:33:25.180 --> 00:33:28.330 align:middle line:84%
+we can again define S as a
+time integral of a Lagrangian.
+
+00:33:28.330 --> 00:33:31.940 align:middle line:90%
+
+
+00:33:31.940 --> 00:33:35.380 align:middle line:84%
+And the form of L is
+significantly constrained, OK?
+
+00:33:35.380 --> 00:33:48.490 align:middle line:90%
+
+
+00:33:48.490 --> 00:34:03.110 align:middle line:84%
+To have the following form,
+so you must have the form L,
+
+00:34:03.110 --> 00:34:05.700 align:middle line:84%
+you could choose a
+spatial integral.
+
+00:34:05.700 --> 00:34:08.840 align:middle line:84%
+So this is an integration over
+all spatial directions, OK,
+
+00:34:08.840 --> 00:34:14.239 align:middle line:90%
+so this d^3 x and some thing.
+
+00:34:14.239 --> 00:34:17.510 align:middle line:84%
+So let me first write
+down the notation,
+
+00:34:17.510 --> 00:34:19.205 align:middle line:84%
+and then I will
+explain the notation.
+
+00:34:19.205 --> 00:34:24.340 align:middle line:90%
+
+
+00:34:24.340 --> 00:34:32.699 align:middle line:84%
+OK, yeah, maybe just
+write partial i, OK?
+
+00:34:32.699 --> 00:34:36.699 align:middle line:84%
+So let me just explain
+notation a little bit.
+
+00:34:36.699 --> 00:34:42.810 align:middle line:84%
+Well, first, so here I
+use a shorthand notation
+
+00:34:42.810 --> 00:34:44.940 align:middle line:90%
+to denote the fields.
+
+00:34:44.940 --> 00:34:49.860 align:middle line:84%
+So phi a so will be a
+function of spatial direction
+
+00:34:49.860 --> 00:35:05.400 align:middle line:84%
+and time is general field, and
+a label different fields, OK?
+
+00:35:05.400 --> 00:35:12.420 align:middle line:84%
+So this index, a, labels
+different fields, OK?
+
+00:35:12.420 --> 00:35:16.420 align:middle line:84%
+So for example, a can label
+different scalar fields.
+
+00:35:16.420 --> 00:35:19.290 align:middle line:84%
+If you have multiple scalar
+fields, they can label them.
+
+00:35:19.290 --> 00:35:23.100 align:middle line:84%
+And a can also refers to
+indices, space time indices,
+
+00:35:23.100 --> 00:35:27.180 align:middle line:84%
+like A mu, and also,
+yeah, et cetera, OK?
+
+00:35:27.180 --> 00:35:31.440 align:middle line:84%
+So a just label whatever
+fields you have, OK?
+
+00:35:31.440 --> 00:35:37.500 align:middle line:90%
+
+
+00:35:37.500 --> 00:35:45.010 align:middle line:84%
+And then the second
+point, you said this L,
+
+00:35:45.010 --> 00:35:51.990 align:middle line:90%
+this script L is a function--
+
+00:35:51.990 --> 00:36:11.000 align:middle line:84%
+I emphasize here-- is a function
+of phi a and its derivatives,
+
+00:36:11.000 --> 00:36:12.530 align:middle line:90%
+OK, and its derivatives.
+
+00:36:12.530 --> 00:36:15.440 align:middle line:90%
+
+
+00:36:15.440 --> 00:36:17.410 align:middle line:90%
+So in other words, the L--
+
+00:36:17.410 --> 00:36:20.230 align:middle line:90%
+so this is a key point, OK?
+
+00:36:20.230 --> 00:36:35.550 align:middle line:84%
+So that this L only
+depends on the value
+
+00:36:35.550 --> 00:36:56.430 align:middle line:84%
+of phi a and its derivatives
+at a single point, OK, say x.
+
+00:36:56.430 --> 00:36:58.545 align:middle line:84%
+And then you integrate
+over all x, OK?
+
+00:36:58.545 --> 00:37:02.020 align:middle line:90%
+
+
+00:37:02.020 --> 00:37:04.765 align:middle line:84%
+So L is called the
+Lagrangian density.
+
+00:37:04.765 --> 00:37:08.580 align:middle line:90%
+
+
+00:37:08.580 --> 00:37:10.510 align:middle line:84%
+AUDIENCE: So these
+are all still local?
+
+00:37:10.510 --> 00:37:13.210 align:middle line:90%
+
+
+00:37:13.210 --> 00:37:13.930 align:middle line:90%
+PROFESSOR: Sorry?
+
+00:37:13.930 --> 00:37:16.230 align:middle line:84%
+AUDIENCE: These are
+all still local?
+
+00:37:16.230 --> 00:37:17.098 align:middle line:90%
+PROFESSOR: Sorry?
+
+00:37:17.098 --> 00:37:17.640 align:middle line:90%
+Say it again.
+
+00:37:17.640 --> 00:37:18.557 align:middle line:90%
+AUDIENCE: Still local?
+
+00:37:18.557 --> 00:37:20.125 align:middle line:84%
+PROFESSOR: Yeah,
+yeah, yeah, yeah.
+
+00:37:20.125 --> 00:37:20.625 align:middle line:90%
+Yes.
+
+00:37:20.625 --> 00:37:23.150 align:middle line:84%
+AUDIENCE: Can you even
+higher order derivatives?
+
+00:37:23.150 --> 00:37:24.330 align:middle line:84%
+PROFESSOR: Yeah, yeah,
+we'll mention that.
+
+00:37:24.330 --> 00:37:25.372 align:middle line:90%
+Yeah, we'll mention that.
+
+00:37:25.372 --> 00:37:29.340 align:middle line:90%
+
+
+00:37:29.340 --> 00:37:35.520 align:middle line:84%
+So here I just explained
+the notation, OK?
+
+00:37:35.520 --> 00:37:39.240 align:middle line:84%
+So now let me just
+make some remarks
+
+00:37:39.240 --> 00:37:45.990 align:middle line:84%
+on why the Lagrangian
+must have this form.
+
+00:37:45.990 --> 00:37:48.610 align:middle line:90%
+
+
+00:37:48.610 --> 00:37:59.940 align:middle line:84%
+So first, the
+principle of locality
+
+00:37:59.940 --> 00:38:04.140 align:middle line:84%
+implies here must only
+involve a single integral, OK,
+
+00:38:04.140 --> 00:38:14.990 align:middle line:84%
+because the locality does not
+allow something like this,
+
+00:38:14.990 --> 00:38:30.960 align:middle line:84%
+say, for example, does not allow
+a term like this, OK, does not
+
+00:38:30.960 --> 00:38:36.100 align:middle line:84%
+allow a term like this,
+which involving the phi
+
+00:38:36.100 --> 00:38:39.410 align:middle line:90%
+at a different point, OK?
+
+00:38:39.410 --> 00:38:40.250 align:middle line:90%
+Why?
+
+00:38:40.250 --> 00:38:45.260 align:middle line:84%
+It's because if you have terms
+like this in your Lagrangian,
+
+00:38:45.260 --> 00:38:52.730 align:middle line:84%
+OK, so later you will--
+oh, sorry, L, not L script.
+
+00:38:52.730 --> 00:38:55.820 align:middle line:84%
+So if you Lagrangian
+have this kind of terms,
+
+00:38:55.820 --> 00:39:00.550 align:middle line:84%
+and then, so as we will describe
+the equation of motion later,
+
+00:39:00.550 --> 00:39:02.770 align:middle line:84%
+you will see from the
+equation of motion,
+
+00:39:02.770 --> 00:39:06.230 align:middle line:84%
+then your equation of motion
+will not be local, OK?
+
+00:39:06.230 --> 00:39:09.200 align:middle line:84%
+So equation of notion
+will involve the behavior
+
+00:39:09.200 --> 00:39:14.570 align:middle line:84%
+of your field at one point
+and then influenced by point
+
+00:39:14.570 --> 00:39:17.120 align:middle line:90%
+at some point far away, OK?
+
+00:39:17.120 --> 00:39:20.180 align:middle line:84%
+And then you will
+not have local.
+
+00:39:20.180 --> 00:39:23.180 align:middle line:84%
+So the locality
+significantly constraint
+
+00:39:23.180 --> 00:39:26.258 align:middle line:84%
+because if you
+give away locality,
+
+00:39:26.258 --> 00:39:27.800 align:middle line:84%
+and then in principle
+your Lagrangian
+
+00:39:27.800 --> 00:39:30.060 align:middle line:90%
+can be arbitrarily complicated.
+
+00:39:30.060 --> 00:39:33.180 align:middle line:84%
+You can have many
+integrals as you want, OK?
+
+00:39:33.180 --> 00:39:35.390 align:middle line:84%
+But because of
+locality, you're only
+
+00:39:35.390 --> 00:39:37.460 align:middle line:84%
+allowed to have such
+simple integral, one
+
+00:39:37.460 --> 00:39:40.250 align:middle line:90%
+integral of a function, OK?
+
+00:39:40.250 --> 00:39:43.760 align:middle line:90%
+So this is the key.
+
+00:39:43.760 --> 00:39:46.610 align:middle line:84%
+OK, so does not allow,
+so here is a key point.
+
+00:39:46.610 --> 00:39:49.290 align:middle line:90%
+
+
+00:39:49.290 --> 00:40:03.720 align:middle line:84%
+So the second point is that
+we only allow first derivative
+
+00:40:03.720 --> 00:40:07.170 align:middle line:90%
+in time, OK?
+
+00:40:07.170 --> 00:40:08.880 align:middle line:84%
+We only allow first
+derivative in time.
+
+00:40:08.880 --> 00:40:11.620 align:middle line:84%
+We don't allow the second
+derivative in time.
+
+00:40:11.620 --> 00:40:15.180 align:middle line:84%
+So the reason is
+that, again, as you
+
+00:40:15.180 --> 00:40:18.570 align:middle line:84%
+will see equation of
+motion, if you involve
+
+00:40:18.570 --> 00:40:22.620 align:middle line:84%
+the second derivative
+in time in your action
+
+00:40:22.620 --> 00:40:25.020 align:middle line:84%
+or in your Lagrangian,
+and then when
+
+00:40:25.020 --> 00:40:26.760 align:middle line:84%
+you get the equation
+of motion, you
+
+00:40:26.760 --> 00:40:30.270 align:middle line:84%
+will get equation of
+motions involving more
+
+00:40:30.270 --> 00:40:33.070 align:middle line:90%
+than two derivatives in time.
+
+00:40:33.070 --> 00:40:35.090 align:middle line:90%
+So this will lead to--
+
+00:40:35.090 --> 00:40:37.490 align:middle line:84%
+so this implies the
+equation of motion
+
+00:40:37.490 --> 00:40:49.600 align:middle line:84%
+only contain two derivatives,
+two time derivatives, OK?
+
+00:40:49.600 --> 00:40:54.770 align:middle line:84%
+So these constraints come
+from our experiences.
+
+00:40:54.770 --> 00:40:56.380 align:middle line:84%
+It's the same
+reason here we only
+
+00:40:56.380 --> 00:41:00.550 align:middle line:84%
+include the first
+derivative in time, OK?
+
+00:41:00.550 --> 00:41:04.870 align:middle line:84%
+It's because in real life all
+the experiment is determined
+
+00:41:04.870 --> 00:41:06.532 align:middle line:90%
+by the initial condition.
+
+00:41:06.532 --> 00:41:07.990 align:middle line:84%
+The initial condition
+you only need
+
+00:41:07.990 --> 00:41:10.150 align:middle line:84%
+to specify the location
+and the velocity, OK?
+
+00:41:10.150 --> 00:41:11.980 align:middle line:90%
+You don't need to specify more.
+
+00:41:11.980 --> 00:41:14.470 align:middle line:84%
+If the equation of motion
+involving more than two
+
+00:41:14.470 --> 00:41:17.770 align:middle line:84%
+derivatives, then you
+need to specify more
+
+00:41:17.770 --> 00:41:19.640 align:middle line:90%
+general initial conditions.
+
+00:41:19.640 --> 00:41:22.720 align:middle line:84%
+And so yeah, so here
+it's the same thing.
+
+00:41:22.720 --> 00:41:24.970 align:middle line:84%
+We only allow the first
+derivative in time.
+
+00:41:24.970 --> 00:41:30.340 align:middle line:84%
+But you can, in principle, allow
+arbitrary number of derivative
+
+00:41:30.340 --> 00:41:34.460 align:middle line:90%
+in spatial direction, OK?
+
+00:41:34.460 --> 00:41:39.180 align:middle line:84%
+But for simplicity, for the most
+of the time, as we will see,
+
+00:41:39.180 --> 00:41:42.660 align:middle line:84%
+we will restrict to
+quantum field theory
+
+00:41:42.660 --> 00:41:44.740 align:middle line:90%
+in special relativity, OK?
+
+00:41:44.740 --> 00:41:47.460 align:middle line:84%
+Means that there will be
+a relativistic invariant,
+
+00:41:47.460 --> 00:41:48.930 align:middle line:90%
+will be Lorentz invariant.
+
+00:41:48.930 --> 00:41:52.590 align:middle line:84%
+And in Lorentz invariant
+theory, space and time,
+
+00:41:52.590 --> 00:41:55.180 align:middle line:84%
+they can transform to each
+other, play equal role.
+
+00:41:55.180 --> 00:41:57.570 align:middle line:84%
+So if you only have
+single derivative in time,
+
+00:41:57.570 --> 00:42:00.760 align:middle line:84%
+you only have single time
+in spatial derivatives.
+
+00:42:00.760 --> 00:42:04.500 align:middle line:84%
+So the example we
+will see they will all
+
+00:42:04.500 --> 00:42:07.500 align:middle line:84%
+have only single derivative
+in spatial directions, OK?
+
+00:42:07.500 --> 00:42:10.020 align:middle line:84%
+But certainly
+nonrelativistic systems
+
+00:42:10.020 --> 00:42:15.140 align:middle line:84%
+you can have a higher number
+of spatial derivatives, OK?
+
+00:42:15.140 --> 00:42:15.640 align:middle line:90%
+Good?
+
+00:42:15.640 --> 00:42:17.010 align:middle line:90%
+Any questions on this?
+
+00:42:17.010 --> 00:42:25.550 align:middle line:90%
+
+
+00:42:25.550 --> 00:42:26.320 align:middle line:90%
+OK, good.
+
+00:42:26.320 --> 00:42:29.640 align:middle line:90%
+
+
+00:42:29.640 --> 00:42:32.990 align:middle line:84%
+So now, as in
+classical mechanics,
+
+00:42:32.990 --> 00:42:35.960 align:middle line:84%
+and now we can introduce
+the canonical momentum,
+
+00:42:35.960 --> 00:42:37.610 align:middle line:90%
+Hamiltonian, et cetera, OK?
+
+00:42:37.610 --> 00:42:40.550 align:middle line:90%
+
+
+00:42:40.550 --> 00:42:43.430 align:middle line:84%
+So here we can introduce
+so-called the canonical
+
+00:42:43.430 --> 00:42:44.210 align:middle line:90%
+momentum density.
+
+00:42:44.210 --> 00:42:52.010 align:middle line:90%
+
+
+00:42:52.010 --> 00:42:53.915 align:middle line:84%
+The reason we call it
+density will be clear.
+
+00:42:53.915 --> 00:42:56.930 align:middle line:90%
+
+
+00:42:56.930 --> 00:43:00.800 align:middle line:90%
+So remember, for this phi--
+
+00:43:00.800 --> 00:43:04.520 align:middle line:90%
+so x is just a label, OK?
+
+00:43:04.520 --> 00:43:07.150 align:middle line:84%
+So you can just
+view this theory,
+
+00:43:07.150 --> 00:43:11.080 align:middle line:84%
+essentially it has an infinite
+number of these such kind of.
+
+00:43:11.080 --> 00:43:13.030 align:middle line:84%
+Yeah, it's an unfortunate
+notation here,
+
+00:43:13.030 --> 00:43:15.370 align:middle line:84%
+we use x as a
+dynamical variable, OK?
+
+00:43:15.370 --> 00:43:17.650 align:middle line:84%
+But here the x is
+only a label, OK?
+
+00:43:17.650 --> 00:43:19.183 align:middle line:90%
+Here x is a label.
+
+00:43:19.183 --> 00:43:21.850 align:middle line:84%
+So here you can just imagine you
+have infinite number of degrees
+
+00:43:21.850 --> 00:43:22.350 align:middle line:90%
+of freedom.
+
+00:43:22.350 --> 00:43:26.920 align:middle line:84%
+Just each one is
+labeled by x, OK?
+
+00:43:26.920 --> 00:43:29.330 align:middle line:84%
+So now just imagine here
+you have many, many x.
+
+00:43:29.330 --> 00:43:32.590 align:middle line:84%
+Just you have some
+labels for it.
+
+00:43:32.590 --> 00:43:38.160 align:middle line:84%
+And so for each such one we
+can introduce its momentum, OK?
+
+00:43:38.160 --> 00:43:47.200 align:middle line:84%
+So each phi a we can introduce
+its canonical momentum, OK,
+
+00:43:47.200 --> 00:43:50.370 align:middle line:90%
+phi_a dot, derivative, OK?
+
+00:43:50.370 --> 00:43:53.910 align:middle line:90%
+Yeah, yeah, let me just--
+
+00:43:53.910 --> 00:43:58.020 align:middle line:84%
+so defined as the derivative
+of the Lagrangian density
+
+00:43:58.020 --> 00:44:01.590 align:middle line:84%
+divided by time
+derivative of phi_a, OK?
+
+00:44:01.590 --> 00:44:05.620 align:middle line:84%
+So this is just the direct
+generalization of here.
+
+00:44:05.620 --> 00:44:08.790 align:middle line:84%
+So remember, so this is
+evaluated at each point,
+
+00:44:08.790 --> 00:44:10.380 align:middle line:90%
+OK, in spatial direction.
+
+00:44:10.380 --> 00:44:13.230 align:middle line:90%
+
+
+00:44:13.230 --> 00:44:17.803 align:middle line:84%
+So this thing will also
+depend on x and t, OK?
+
+00:44:17.803 --> 00:44:19.845 align:middle line:84%
+AUDIENCE: Sorry, what
+symbol is that you're using
+
+00:44:19.845 --> 00:44:21.350 align:middle line:90%
+to represent the momentum?
+
+00:44:21.350 --> 00:44:24.980 align:middle line:84%
+PROFESSOR: Oh, this is just
+the capital Pi, capital Pi.
+
+00:44:24.980 --> 00:44:28.100 align:middle line:90%
+
+
+00:44:28.100 --> 00:44:35.630 align:middle line:84%
+OK, and this phi a dot just the
+time derivative of phi a, OK?
+
+00:44:35.630 --> 00:44:37.440 align:middle line:84%
+And remember, x
+are the labels, OK?
+
+00:44:37.440 --> 00:44:39.520 align:middle line:90%
+So x does not do anything here.
+
+00:44:39.520 --> 00:44:43.050 align:middle line:84%
+So the reason we call this the
+Lagrangian density is because--
+
+00:44:43.050 --> 00:44:45.540 align:middle line:84%
+call it the momentum density
+is because L is a Lagrangian
+
+00:44:45.540 --> 00:44:49.800 align:middle line:90%
+density, OK, and yeah.
+
+00:44:49.800 --> 00:44:52.590 align:middle line:84%
+And then we can also define
+the Hamiltonian density
+
+00:44:52.590 --> 00:44:58.855 align:middle line:84%
+the same way, associated
+with each degree of freedom.
+
+00:44:58.855 --> 00:45:02.800 align:middle line:90%
+
+
+00:45:02.800 --> 00:45:11.810 align:middle line:84%
+So we have to find the script
+H, which is defined by phi_a dot
+
+00:45:11.810 --> 00:45:12.980 align:middle line:90%
+Pi_a .
+
+00:45:12.980 --> 00:45:16.010 align:middle line:84%
+Again, this is all defined
+on the same spatial point--
+
+00:45:16.010 --> 00:45:20.200 align:middle line:84%
+minus L. So this is
+Langrangian density.
+
+00:45:20.200 --> 00:45:28.460 align:middle line:84%
+And then the Hamiltonian you
+just integrate over all space,
+
+00:45:28.460 --> 00:45:35.385 align:middle line:84%
+essentially sum over all
+the degrees of freedom, OK?
+
+00:45:35.385 --> 00:45:39.600 align:middle line:90%
+
+
+00:45:39.600 --> 00:45:41.530 align:middle line:90%
+Just leave them at that.
+
+00:45:41.530 --> 00:45:42.745 align:middle line:90%
+Yes?
+
+00:45:42.745 --> 00:45:44.620 align:middle line:84%
+AUDIENCE: Is it, so are
+we implicitly summing
+
+00:45:44.620 --> 00:45:46.630 align:middle line:84%
+over the little a's
+for the Hamiltonian?
+
+00:45:46.630 --> 00:45:47.830 align:middle line:90%
+PROFESSOR: Yeah, exactly.
+
+00:45:47.830 --> 00:45:49.970 align:middle line:84%
+Yeah, yeah, it's
+just like you sum--
+
+00:45:49.970 --> 00:45:52.240 align:middle line:90%
+so if you treat the--
+
+00:45:52.240 --> 00:45:57.160 align:middle line:84%
+yeah, yeah, yeah, yeah,
+so the a is summed.
+
+00:45:57.160 --> 00:45:58.360 align:middle line:90%
+So I will always--
+
+00:45:58.360 --> 00:46:01.280 align:middle line:84%
+yeah, I forgot to mention--
+good, this is a great question.
+
+00:46:01.280 --> 00:46:05.890 align:middle line:84%
+So I always assume this
+Einstein convention in the sense
+
+00:46:05.890 --> 00:46:10.270 align:middle line:84%
+that all the repeated indices
+are assumed to be summed.
+
+00:46:10.270 --> 00:46:14.110 align:middle line:84%
+So no matter how many components
+are there, you just sum over a.
+
+00:46:14.110 --> 00:46:17.630 align:middle line:90%
+So a is summed here.
+
+00:46:17.630 --> 00:46:25.740 align:middle line:90%
+
+
+00:46:25.740 --> 00:46:28.430 align:middle line:90%
+Good?
+
+00:46:28.430 --> 00:46:29.360 align:middle line:90%
+Other questions?
+
+00:46:29.360 --> 00:46:33.745 align:middle line:90%
+
+
+00:46:33.745 --> 00:46:34.245 align:middle line:90%
+Good?
+
+00:46:34.245 --> 00:46:40.890 align:middle line:90%
+
+
+00:46:40.890 --> 00:46:43.035 align:middle line:84%
+So now we can talk about
+equation of motion.
+
+00:46:43.035 --> 00:46:53.970 align:middle line:90%
+
+
+00:46:53.970 --> 00:46:58.510 align:middle line:84%
+So it's the same thing
+as classical mechanics.
+
+00:46:58.510 --> 00:47:02.220 align:middle line:90%
+
+
+00:47:02.220 --> 00:47:05.070 align:middle line:84%
+So classical field theory is
+just like classical mechanics.
+
+00:47:05.070 --> 00:47:08.140 align:middle line:84%
+You generalize to infinite
+number of degrees of freedom.
+
+00:47:08.140 --> 00:47:10.840 align:middle line:84%
+So now with each
+point in space you
+
+00:47:10.840 --> 00:47:12.465 align:middle line:84%
+associate with some
+degrees of freedom.
+
+00:47:12.465 --> 00:47:20.230 align:middle line:90%
+
+
+00:47:20.230 --> 00:47:22.390 align:middle line:84%
+OK, so now let's look at
+the equation of motion.
+
+00:47:22.390 --> 00:47:26.840 align:middle line:90%
+
+
+00:47:26.840 --> 00:47:31.440 align:middle line:84%
+OK, so again, you just do
+the variation of the action,
+
+00:47:31.440 --> 00:47:34.430 align:middle line:84%
+extremize the
+action to be 0, OK?
+
+00:47:34.430 --> 00:47:37.160 align:middle line:84%
+So the action is,
+again, just defined
+
+00:47:37.160 --> 00:47:41.570 align:middle line:84%
+by the dt over the
+Lagrangian, OK?
+
+00:47:41.570 --> 00:47:45.280 align:middle line:90%
+
+
+00:47:45.280 --> 00:47:50.920 align:middle line:84%
+So the S is the
+dt L and then can
+
+00:47:50.920 --> 00:47:58.240 align:middle line:84%
+be written as the four-integral
+dt and dx of the density, OK?
+
+00:47:58.240 --> 00:47:59.560 align:middle line:90%
+So now let me just write--
+
+00:47:59.560 --> 00:48:02.940 align:middle line:90%
+
+
+00:48:02.940 --> 00:48:06.120 align:middle line:84%
+let me now just write it in
+a more relativistic notation,
+
+00:48:06.120 --> 00:48:10.180 align:middle line:84%
+just assuming there's one time
+and one spatial derivatives,
+
+00:48:10.180 --> 00:48:10.680 align:middle line:90%
+OK?
+
+00:48:10.680 --> 00:48:15.660 align:middle line:84%
+So the mu-- now, yeah, I
+combine the space and the time
+
+00:48:15.660 --> 00:48:18.860 align:middle line:90%
+derivative together, OK?
+
+00:48:18.860 --> 00:48:23.000 align:middle line:84%
+And you can straightforwardly
+generalize to, say, involving
+
+00:48:23.000 --> 00:48:26.190 align:middle line:90%
+more spatial derivatives.
+
+00:48:26.190 --> 00:48:27.030 align:middle line:90%
+Good?
+
+00:48:27.030 --> 00:48:33.520 align:middle line:84%
+So here, so let's
+just do the variation.
+
+00:48:33.520 --> 00:48:36.720 align:middle line:84%
+So we want 0 equal
+to delta S. So you
+
+00:48:36.720 --> 00:48:39.480 align:middle line:84%
+want the variation
+of this S to be 0.
+
+00:48:39.480 --> 00:48:46.210 align:middle line:84%
+So now let's just vary
+S. So you have d4 x.
+
+00:48:46.210 --> 00:48:49.980 align:middle line:84%
+Now, just remember this
+Langrangian density is just
+
+00:48:49.980 --> 00:48:52.710 align:middle line:84%
+an ordinary function
+because of the locality
+
+00:48:52.710 --> 00:48:55.830 align:middle line:84%
+just an ordinary function of
+phi_a and its derivatives, OK?
+
+00:48:55.830 --> 00:49:00.180 align:middle line:84%
+And we can just
+do the- variation
+
+00:49:00.180 --> 00:49:01.950 align:middle line:90%
+in a straightforward way.
+
+00:49:01.950 --> 00:49:07.080 align:middle line:84%
+We can just write a partial
+L, partial phi a and delta phi
+
+00:49:07.080 --> 00:49:22.370 align:middle line:84%
+a plus partial L partial mu phi
+a and delta partial mu phi a,
+
+00:49:22.370 --> 00:49:22.870 align:middle line:90%
+OK?
+
+00:49:22.870 --> 00:49:32.220 align:middle line:90%
+
+
+00:49:32.220 --> 00:49:35.850 align:middle line:84%
+And in this case,
+so the delta is
+
+00:49:35.850 --> 00:49:38.070 align:middle line:90%
+a variation and the partial mu.
+
+00:49:38.070 --> 00:49:40.600 align:middle line:84%
+So these two operations are
+independent of each other.
+
+00:49:40.600 --> 00:49:42.080 align:middle line:90%
+So you can exchange them, OK?
+
+00:49:42.080 --> 00:49:43.870 align:middle line:84%
+So you can put
+extra delta inside.
+
+00:49:43.870 --> 00:49:47.775 align:middle line:84%
+So this is the same as
+partial mu delta phi_a, OK?
+
+00:49:47.775 --> 00:49:52.300 align:middle line:90%
+
+
+00:49:52.300 --> 00:49:56.280 align:middle line:84%
+So now you can integrate by
+parts of the second term,
+
+00:49:56.280 --> 00:50:00.000 align:middle line:84%
+OK, because here is a little
+bit awkward because involving
+
+00:50:00.000 --> 00:50:01.630 align:middle line:90%
+the partial mu of delta phi a.
+
+00:50:01.630 --> 00:50:04.190 align:middle line:84%
+So again, here the
+repeated indices,
+
+00:50:04.190 --> 00:50:05.370 align:middle line:90%
+they're all summed, OK?
+
+00:50:05.370 --> 00:50:08.340 align:middle line:90%
+So you should sum them.
+
+00:50:08.340 --> 00:50:10.775 align:middle line:84%
+So now we can do
+integration by parts here.
+
+00:50:10.775 --> 00:50:14.320 align:middle line:90%
+
+
+00:50:14.320 --> 00:50:20.780 align:middle line:84%
+So then you get the d4 x, and
+you get partial L partial phi
+
+00:50:20.780 --> 00:50:31.450 align:middle line:84%
+a minus partial mu partial L
+partial partial mu phi a, OK?
+
+00:50:31.450 --> 00:50:37.970 align:middle line:84%
+And then the whole thing,
+delta phi a and then
+
+00:50:37.970 --> 00:50:38.945 align:middle line:90%
+path boundary terms.
+
+00:50:38.945 --> 00:50:44.250 align:middle line:90%
+
+
+00:50:44.250 --> 00:50:45.830 align:middle line:84%
+So the boundary
+terms come from you
+
+00:50:45.830 --> 00:50:49.840 align:middle line:84%
+do integration by
+parts here, OK?
+
+00:50:49.840 --> 00:50:53.370 align:middle line:84%
+You're doing integration
+by parts here.
+
+00:50:53.370 --> 00:50:56.970 align:middle line:84%
+So the boundary term will be
+proportional to delta phi a,
+
+00:50:56.970 --> 00:50:57.630 align:middle line:90%
+OK?
+
+00:50:57.630 --> 00:50:58.380 align:middle line:90%
+Yes.
+
+00:50:58.380 --> 00:51:00.920 align:middle line:84%
+AUDIENCE: So could
+you define delta?
+
+00:51:00.920 --> 00:51:03.410 align:middle line:84%
+PROFESSOR: Delta's just the
+arbitrary variation, yeah,
+
+00:51:03.410 --> 00:51:04.670 align:middle line:90%
+just arbitrary variation.
+
+00:51:04.670 --> 00:51:08.620 align:middle line:90%
+
+
+00:51:08.620 --> 00:51:09.550 align:middle line:90%
+Other questions?
+
+00:51:09.550 --> 00:51:12.120 align:middle line:90%
+
+
+00:51:12.120 --> 00:51:16.140 align:middle line:84%
+OK, so the boundary--
+so we always
+
+00:51:16.140 --> 00:51:19.800 align:middle line:84%
+assume we have the boundary
+conditions, OK, and
+
+00:51:19.800 --> 00:51:22.020 align:middle line:84%
+so that the boundary
+term vanishes, OK?
+
+00:51:22.020 --> 00:51:25.810 align:middle line:84%
+So here I will not
+go into to detail.
+
+00:51:25.810 --> 00:51:32.030 align:middle line:84%
+So we always choose
+delta phi a so
+
+00:51:32.030 --> 00:51:35.450 align:middle line:84%
+that boundary
+terms vanishes, OK?
+
+00:51:35.450 --> 00:51:45.190 align:middle line:84%
+The term comes from
+integration by parts, OK?
+
+00:51:45.190 --> 00:51:52.655 align:middle line:84%
+And the second, just remember
+repeated indices are summed.
+
+00:51:52.655 --> 00:51:56.875 align:middle line:90%
+
+
+00:51:56.875 --> 00:51:57.375 align:middle line:90%
+OK?
+
+00:51:57.375 --> 00:52:00.030 align:middle line:90%
+
+
+00:52:00.030 --> 00:52:06.520 align:middle line:84%
+And now, then we don't have
+to worry about boundary terms.
+
+00:52:06.520 --> 00:52:07.770 align:middle line:90%
+So the boundary term vanishes.
+
+00:52:07.770 --> 00:52:12.080 align:middle line:84%
+Then now we just have
+this has to be 0.
+
+00:52:12.080 --> 00:52:14.940 align:middle line:84%
+But this has to be
+0 for any variation.
+
+00:52:14.940 --> 00:52:21.520 align:middle line:84%
+So this delta x mu can
+be any function of x, OK?
+
+00:52:21.520 --> 00:52:22.900 align:middle line:90%
+Can be any function of x.
+
+00:52:22.900 --> 00:52:26.050 align:middle line:84%
+The only way this can happen
+is that this prefactor
+
+00:52:26.050 --> 00:52:27.370 align:middle line:90%
+must vanish, OK?
+
+00:52:27.370 --> 00:52:36.830 align:middle line:84%
+So this implies that the delta
+L partial phi a minus partial
+
+00:52:36.830 --> 00:52:46.670 align:middle line:84%
+mu partial L partial partial
+mu phi a, [INAUDIBLE],, OK?
+
+00:52:46.670 --> 00:52:51.260 align:middle line:84%
+So this is the general equation
+of motion for classical field
+
+00:52:51.260 --> 00:52:51.915 align:middle line:90%
+theory, OK?
+
+00:52:51.915 --> 00:53:04.600 align:middle line:90%
+
+
+00:53:04.600 --> 00:53:05.100 align:middle line:90%
+Good?
+
+00:53:05.100 --> 00:53:06.035 align:middle line:90%
+Any questions on this?
+
+00:53:06.035 --> 00:53:12.320 align:middle line:90%
+
+
+00:53:12.320 --> 00:53:18.020 align:middle line:84%
+OK, so from now on, we will
+make two restrictions, OK?
+
+00:53:18.020 --> 00:53:20.700 align:middle line:90%
+
+
+00:53:20.700 --> 00:53:26.910 align:middle line:84%
+Just for simplicity,
+also they're the most--
+
+00:53:26.910 --> 00:53:29.190 align:middle line:84%
+we make two restrictions
+just for simplicity.
+
+00:53:29.190 --> 00:53:31.800 align:middle line:90%
+
+
+00:53:31.800 --> 00:53:36.330 align:middle line:84%
+Yeah, most of our discussion
+can be generalized
+
+00:53:36.330 --> 00:53:38.910 align:middle line:90%
+beyond those situations.
+
+00:53:38.910 --> 00:53:43.650 align:middle line:84%
+Yeah, so the first
+is that we restrict
+
+00:53:43.650 --> 00:53:56.620 align:middle line:84%
+to field theories which are
+translationally invariant, OK?
+
+00:53:56.620 --> 00:53:58.465 align:middle line:84%
+Means that there's
+no special point.
+
+00:53:58.465 --> 00:54:01.440 align:middle line:90%
+
+
+00:54:01.440 --> 00:54:06.370 align:middle line:84%
+Means there's no special
+spacetime point in this theory,
+
+00:54:06.370 --> 00:54:06.870 align:middle line:90%
+OK?
+
+00:54:06.870 --> 00:54:10.013 align:middle line:84%
+If you do experiment
+here in Boston,
+
+00:54:10.013 --> 00:54:12.180 align:middle line:84%
+it's the same as you do
+experiment in Washington DC,
+
+00:54:12.180 --> 00:54:13.380 align:middle line:90%
+et cetera, OK?
+
+00:54:13.380 --> 00:54:16.110 align:middle line:84%
+And if your theory is not
+translation invariant,
+
+00:54:16.110 --> 00:54:18.058 align:middle line:84%
+and then when you do
+experiment in Boston,
+
+00:54:18.058 --> 00:54:20.100 align:middle line:84%
+then it will be different
+from when you do it in,
+
+00:54:20.100 --> 00:54:23.170 align:middle line:90%
+say, in New York.
+
+00:54:23.170 --> 00:54:28.420 align:middle line:84%
+And the second is that we
+assume it's a Lorentz invariant.
+
+00:54:28.420 --> 00:54:30.150 align:middle line:84%
+So in some condensed
+matter applications,
+
+00:54:30.150 --> 00:54:33.780 align:middle line:84%
+which you don't have
+Lorentz symmetry, and then
+
+00:54:33.780 --> 00:54:38.310 align:middle line:90%
+you don't have Lorentz symmetry.
+
+00:54:38.310 --> 00:54:43.770 align:middle line:84%
+But yeah, but similar techniques
+we are going to talk about
+
+00:54:43.770 --> 00:54:47.270 align:middle line:90%
+can be applied.
+
+00:54:47.270 --> 00:54:49.670 align:middle line:84%
+And we will also elaborate
+a little bit more
+
+00:54:49.670 --> 00:54:51.770 align:middle line:90%
+on both of these aspects.
+
+00:54:51.770 --> 00:54:58.920 align:middle line:90%
+
+
+00:54:58.920 --> 00:55:02.610 align:middle line:84%
+OK, so now let me give
+you some simple examples
+
+00:55:02.610 --> 00:55:06.030 align:middle line:84%
+of the classical
+field series, OK,
+
+00:55:06.030 --> 00:55:07.770 align:middle line:84%
+which satisfy these
+two condition.
+
+00:55:07.770 --> 00:55:47.490 align:middle line:90%
+
+
+00:55:47.490 --> 00:55:51.690 align:middle line:84%
+Examples, so the first
+one is the Maxwell theory.
+
+00:55:51.690 --> 00:55:55.590 align:middle line:90%
+
+
+00:55:55.590 --> 00:56:06.160 align:middle line:84%
+So for Maxwell's theory,
+the dynamical variable,
+
+00:56:06.160 --> 00:56:11.450 align:middle line:84%
+this 4-vector
+potential A mu, OK?
+
+00:56:11.450 --> 00:56:14.180 align:middle line:84%
+So now I'm using the
+four-vector notation.
+
+00:56:14.180 --> 00:56:18.720 align:middle line:84%
+So I will often suppress
+the indices on x.
+
+00:56:18.720 --> 00:56:22.580 align:middle line:84%
+That means this
+is a 4-vector, OK?
+
+00:56:22.580 --> 00:56:26.030 align:middle line:84%
+And then from the A mu we can
+define the field strengths.
+
+00:56:26.030 --> 00:56:35.650 align:middle line:90%
+
+
+00:56:35.650 --> 00:56:37.810 align:middle line:84%
+And the E and B
+then can be obtained
+
+00:56:37.810 --> 00:56:42.940 align:middle line:84%
+from this F mu nu OK, can
+be obtained from F mu nu
+
+00:56:42.940 --> 00:56:50.080 align:middle line:84%
+And then the action for the E
+& M then can be obtained by--
+
+00:56:50.080 --> 00:56:59.820 align:middle line:90%
+
+
+00:56:59.820 --> 00:57:01.680 align:middle line:90%
+OK, that's this, OK?
+
+00:57:01.680 --> 00:57:11.250 align:middle line:84%
+So this is the action for the
+E & M. without charged matter,
+
+00:57:11.250 --> 00:57:12.030 align:middle line:90%
+OK?
+
+00:57:12.030 --> 00:57:15.570 align:middle line:84%
+So if you do the
+variation here, OK,
+
+00:57:15.570 --> 00:57:18.060 align:middle line:84%
+to get the equation of motion,
+then you get the Maxwell
+
+00:57:18.060 --> 00:57:21.210 align:middle line:90%
+equations without sources, OK?
+
+00:57:21.210 --> 00:57:23.700 align:middle line:84%
+You get the vacuum
+Maxwell equations.
+
+00:57:23.700 --> 00:57:25.320 align:middle line:84%
+You get the vacuum
+Maxwell equations.
+
+00:57:25.320 --> 00:57:28.170 align:middle line:90%
+
+
+00:57:28.170 --> 00:57:31.140 align:middle line:84%
+And so you see that
+this action have
+
+00:57:31.140 --> 00:57:34.110 align:middle line:84%
+the form we mentioned
+here is corresponding
+
+00:57:34.110 --> 00:57:38.700 align:middle line:84%
+to a local theory, OK, a single
+integral of space time, OK?
+
+00:57:38.700 --> 00:57:42.370 align:middle line:90%
+
+
+00:57:42.370 --> 00:57:49.000 align:middle line:84%
+And the second example
+is Einstein gravity
+
+00:57:49.000 --> 00:57:53.540 align:middle line:84%
+is another classical
+field theory, OK?
+
+00:57:53.540 --> 00:57:55.650 align:middle line:84%
+So let me just write
+down the action.
+
+00:57:55.650 --> 00:57:58.880 align:middle line:90%
+So this is written as G Newton.
+
+00:57:58.880 --> 00:58:04.720 align:middle line:90%
+
+
+00:58:04.720 --> 00:58:06.250 align:middle line:90%
+So G is the metric.
+
+00:58:06.250 --> 00:58:10.560 align:middle line:84%
+Yeah, anyway, if you don't
+know the Einstein theories, OK?
+
+00:58:10.560 --> 00:58:12.760 align:middle line:90%
+OK, so R is a Ricci scalar.
+
+00:58:12.760 --> 00:58:15.730 align:middle line:84%
+And if you don't know
+the Einstein series, OK.
+
+00:58:15.730 --> 00:58:17.230 align:middle line:84%
+I'm just write it
+down just to show
+
+00:58:17.230 --> 00:58:19.600 align:middle line:84%
+that this is a local
+theory involving
+
+00:58:19.600 --> 00:58:25.880 align:middle line:84%
+only a single spacetime
+integral of some quantities.
+
+00:58:25.880 --> 00:58:30.230 align:middle line:84%
+And the simplest
+quantum field theories
+
+00:58:30.230 --> 00:58:40.500 align:middle line:84%
+are called the scalar
+field theories because--
+
+00:58:40.500 --> 00:58:42.570 align:middle line:90%
+I think I erased it--
+
+00:58:42.570 --> 00:58:45.780 align:middle line:84%
+because this involving
+the vector field, OK?
+
+00:58:45.780 --> 00:58:48.960 align:middle line:84%
+So this is a vector field
+because at each spacetime point
+
+00:58:48.960 --> 00:58:49.980 align:middle line:90%
+there's a vector.
+
+00:58:49.980 --> 00:58:54.900 align:middle line:84%
+Here, the Einstein gravity, the
+dynamical variable is a tensor.
+
+00:58:54.900 --> 00:58:56.920 align:middle line:84%
+So it's even something
+more complicated.
+
+00:58:56.920 --> 00:58:58.650 align:middle line:84%
+So the simplest
+case is a scalar,
+
+00:58:58.650 --> 00:59:01.920 align:middle line:84%
+which at each spacetime point,
+you just have a single value
+
+00:59:01.920 --> 00:59:04.320 align:middle line:90%
+quantity, OK?
+
+00:59:04.320 --> 00:59:07.110 align:middle line:84%
+And so let's just consider
+the simplest case.
+
+00:59:07.110 --> 00:59:23.030 align:middle line:84%
+Just consider a real value
+scalar field phi, OK?
+
+00:59:23.030 --> 00:59:26.340 align:middle line:84%
+So this is just
+take a real value.
+
+00:59:26.340 --> 00:59:29.060 align:middle line:84%
+You can also consider
+the complex value, OK?
+
+00:59:29.060 --> 00:59:30.870 align:middle line:84%
+But the simplest is
+just a real value.
+
+00:59:30.870 --> 00:59:33.650 align:middle line:84%
+So at each spacetime point
+you have a single value, OK?
+
+00:59:33.650 --> 00:59:37.500 align:middle line:84%
+And so that's the
+dynamical variable.
+
+00:59:37.500 --> 00:59:42.800 align:middle line:84%
+And so in real life there are
+many examples of scalar fields.
+
+00:59:42.800 --> 00:59:46.740 align:middle line:84%
+So for example, the Higgs,
+OK, the Higgs field,
+
+00:59:46.740 --> 00:59:49.970 align:middle line:84%
+which is a celebrated
+Higgs field, which
+
+00:59:49.970 --> 00:59:58.040 align:middle line:84%
+was discovered a number of years
+ago, is a real scalar field.
+
+00:59:58.040 --> 01:00:01.880 align:middle line:84%
+And also pions, OK,
+the pion particle
+
+01:00:01.880 --> 01:00:06.310 align:middle line:84%
+can be considered as
+excitations of a scalar field.
+
+01:00:06.310 --> 01:00:15.530 align:middle line:84%
+Anyway, so simplest family
+of a scalar field action
+
+01:00:15.530 --> 01:00:29.300 align:middle line:90%
+is the volume form, OK?
+
+01:00:29.300 --> 01:00:34.820 align:middle line:90%
+
+
+01:00:34.820 --> 01:00:39.060 align:middle line:84%
+So here I just write
+this action down.
+
+01:00:39.060 --> 01:00:42.050 align:middle line:84%
+But essentially, you can argue
+this is the most general action
+
+01:00:42.050 --> 01:00:48.340 align:middle line:84%
+you can write down, which
+are compatible with locality,
+
+01:00:48.340 --> 01:00:54.770 align:middle line:84%
+OK, with locality and
+with translation symmetry
+
+01:00:54.770 --> 01:00:56.330 align:middle line:90%
+and the Lorentz symmetry, OK?
+
+01:00:56.330 --> 01:00:59.960 align:middle line:84%
+So here you see the Lorentz
+indices are contracted.
+
+01:00:59.960 --> 01:01:02.600 align:middle line:84%
+The Lorentz indices in the
+derivative are contracted.
+
+01:01:02.600 --> 01:01:06.660 align:middle line:84%
+So that guarantees the
+series Lorentz invariant.
+
+01:01:06.660 --> 01:01:09.600 align:middle line:90%
+And V just some function of phi.
+
+01:01:09.600 --> 01:01:14.100 align:middle line:84%
+V here is just some
+function of phi.
+
+01:01:14.100 --> 01:01:19.140 align:middle line:84%
+So this is essentially
+the simplest theory
+
+01:01:19.140 --> 01:01:22.560 align:middle line:84%
+you can write down
+based on localities, OK?
+
+01:01:22.560 --> 01:01:26.120 align:middle line:84%
+So say we can take V
+phi, in general, we
+
+01:01:26.120 --> 01:01:28.560 align:middle line:84%
+can take it to be polynomial,
+yeah, just some function
+
+01:01:28.560 --> 01:01:33.965 align:middle line:90%
+of phi, OK?
+
+01:01:33.965 --> 01:01:39.830 align:middle line:90%
+
+
+01:01:39.830 --> 01:01:45.920 align:middle line:84%
+So when you have a
+translation symmetry,
+
+01:01:45.920 --> 01:01:48.740 align:middle line:84%
+means that in this theory
+if you do experiment
+
+01:01:48.740 --> 01:01:52.430 align:middle line:90%
+it's the same everywhere.
+
+01:01:52.430 --> 01:01:58.880 align:middle line:84%
+That implies that V phi-- so
+here there's no parameter here.
+
+01:01:58.880 --> 01:02:05.260 align:middle line:90%
+V(phi) then must-- yeah, sorry.
+
+01:02:05.260 --> 01:02:17.820 align:middle line:84%
+All parameters in V(phi)
+must be constant, OK?
+
+01:02:17.820 --> 01:02:22.425 align:middle line:84%
+They cannot depend on space
+time, OK, must be constant.
+
+01:02:22.425 --> 01:02:25.197 align:middle line:90%
+
+
+01:02:25.197 --> 01:02:27.280 align:middle line:84%
+So if you have some
+parameters depend on the space
+
+01:02:27.280 --> 01:02:31.690 align:middle line:84%
+time, then of course,
+different space time point
+
+01:02:31.690 --> 01:02:33.250 align:middle line:90%
+will behave differently.
+
+01:02:33.250 --> 01:02:37.660 align:middle line:84%
+And they will not be
+translation invariant, OK?
+
+01:02:37.660 --> 01:02:40.888 align:middle line:84%
+So let's try to
+work out this theory
+
+01:02:40.888 --> 01:02:42.055 align:middle line:90%
+a little bit in more detail.
+
+01:02:42.055 --> 01:02:50.670 align:middle line:90%
+
+
+01:02:50.670 --> 01:02:52.760 align:middle line:84%
+So let's find this
+Lagrangian density--
+
+01:02:52.760 --> 01:03:01.620 align:middle line:84%
+let's try to find its
+momentum and the Hamiltonian.
+
+01:03:01.620 --> 01:03:04.670 align:middle line:90%
+
+
+01:03:04.670 --> 01:03:07.400 align:middle line:90%
+So it's momentum density.
+
+01:03:07.400 --> 01:03:11.090 align:middle line:84%
+Here there's only a single
+field, so there's no index.
+
+01:03:11.090 --> 01:03:15.750 align:middle line:84%
+So pi x would be take
+derivative of this.
+
+01:03:15.750 --> 01:03:21.170 align:middle line:84%
+So this is L. So this thing
+inside the bracket is L,
+
+01:03:21.170 --> 01:03:28.690 align:middle line:84%
+this partial L partial phi dot,
+OK, time derivative of phi.
+
+01:03:28.690 --> 01:03:32.830 align:middle line:84%
+And so if you look at here,
+here the time derivative
+
+01:03:32.830 --> 01:03:36.100 align:middle line:84%
+is just phi dot squared,
+OK, using this four vector
+
+01:03:36.100 --> 01:03:37.250 align:middle line:90%
+notation.
+
+01:03:37.250 --> 01:03:42.130 align:middle line:84%
+And if you expand it, and then
+the momentum density just phi
+
+01:03:42.130 --> 01:03:52.400 align:middle line:84%
+dot x, OK, because just
+because partial mu phi
+
+01:03:52.400 --> 01:03:59.570 align:middle line:84%
+partial mu phi is equal to
+minus phi dot squared plus, OK?
+
+01:03:59.570 --> 01:04:02.610 align:middle line:90%
+
+
+01:04:02.610 --> 01:04:05.550 align:middle line:84%
+And then you can find
+the Hamiltonian density.
+
+01:04:05.550 --> 01:04:10.870 align:middle line:90%
+
+
+01:04:10.870 --> 01:04:17.080 align:middle line:84%
+Pi phi dot minus L, and then
+you find that this is given by--
+
+01:04:17.080 --> 01:04:28.410 align:middle line:84%
+we express in terms
+of momentum, OK?
+
+01:04:28.410 --> 01:04:39.800 align:middle line:84%
+And the equation of
+motion, if you apply here,
+
+01:04:39.800 --> 01:04:44.120 align:middle line:84%
+then you find given by partial
+square equal to partial V
+
+01:04:44.120 --> 01:04:48.140 align:middle line:90%
+partial phi equal to 0, OK?
+
+01:04:48.140 --> 01:04:50.670 align:middle line:84%
+And again, here I'm using
+a shorthand notation.
+
+01:04:50.670 --> 01:04:56.090 align:middle line:84%
+Partial square is defined to
+be partial mu partial mu, OK?
+
+01:04:56.090 --> 01:05:01.830 align:middle line:84%
+So this is the same as minus
+partial t squared plus v
+
+01:05:01.830 --> 01:05:03.240 align:middle line:90%
+squared, OK?
+
+01:05:03.240 --> 01:05:08.510 align:middle line:90%
+
+
+01:05:08.510 --> 01:05:25.160 align:middle line:84%
+So here let me also give you
+some simple examples of the v.
+
+01:05:25.160 --> 01:05:26.390 align:middle line:90%
+In the simplest case--
+
+01:05:26.390 --> 01:05:34.120 align:middle line:90%
+
+
+01:05:34.120 --> 01:05:42.673 align:middle line:84%
+so in the simplest case, is
+you take v just, of course,
+
+01:05:42.673 --> 01:05:43.590 align:middle line:90%
+it will be a constant.
+
+01:05:43.590 --> 01:05:47.300 align:middle line:84%
+But a constant does not
+do anything because the--
+
+01:05:47.300 --> 01:05:49.520 align:middle line:84%
+yeah, so the
+simplest case is just
+
+01:05:49.520 --> 01:05:50.855 align:middle line:90%
+v phi equal to linear term.
+
+01:05:50.855 --> 01:05:54.710 align:middle line:90%
+
+
+01:05:54.710 --> 01:05:56.450 align:middle line:84%
+And from time
+translation symmetry,
+
+01:05:56.450 --> 01:05:58.400 align:middle line:90%
+this f has to be a constant, OK?
+
+01:05:58.400 --> 01:06:01.100 align:middle line:84%
+It cannot be depend
+on space time.
+
+01:06:01.100 --> 01:06:03.680 align:middle line:84%
+If this depend on space
+time, and then you
+
+01:06:03.680 --> 01:06:10.490 align:middle line:84%
+will violate the space
+translation symmetry, OK?
+
+01:06:10.490 --> 01:06:14.990 align:middle line:84%
+So when you have these, then
+your equation of motion,
+
+01:06:14.990 --> 01:06:21.600 align:middle line:84%
+given by partial squared equal
+to f, OK? f is a constant.
+
+01:06:21.600 --> 01:06:23.690 align:middle line:90%
+So in this case--
+
+01:06:23.690 --> 01:06:26.210 align:middle line:84%
+so essentially you have
+some kind of thing, which--
+
+01:06:26.210 --> 01:06:29.770 align:middle line:84%
+some kind of a constant,
+which is source for this phi.
+
+01:06:29.770 --> 01:06:32.390 align:middle line:84%
+So in this case, we say the
+system have external force.
+
+01:06:32.390 --> 01:06:38.720 align:middle line:90%
+
+
+01:06:38.720 --> 01:06:47.220 align:middle line:84%
+OK, we call this f external
+force because if f is nonzero,
+
+01:06:47.220 --> 01:06:49.430 align:middle line:90%
+then phi cannot be 0, OK?
+
+01:06:49.430 --> 01:06:50.930 align:middle line:90%
+Phi has to be nonzero.
+
+01:06:50.930 --> 01:06:54.770 align:middle line:84%
+And so in a sense, the phi
+will be always be excited.
+
+01:06:54.770 --> 01:06:57.320 align:middle line:90%
+It will always be generate--
+
+01:06:57.320 --> 01:07:00.800 align:middle line:84%
+nonzero phi will always be
+generated if s is nonzero, OK?
+
+01:07:00.800 --> 01:07:04.310 align:middle line:84%
+So here we call it
+the external force.
+
+01:07:04.310 --> 01:07:09.540 align:middle line:84%
+And so normally we
+like to consider phi--
+
+01:07:09.540 --> 01:07:13.123 align:middle line:84%
+normally we will
+consider-- normally
+
+01:07:13.123 --> 01:07:14.540 align:middle line:84%
+we are interested
+in the situation
+
+01:07:14.540 --> 01:07:15.832 align:middle line:90%
+there is no external force, OK?
+
+01:07:15.832 --> 01:07:18.960 align:middle line:90%
+The system develop on its own.
+
+01:07:18.960 --> 01:07:22.700 align:middle line:84%
+So in that case, so if we
+forget about the external force,
+
+01:07:22.700 --> 01:07:30.330 align:middle line:84%
+then the simplest situation will
+be phi equal to quadratic, OK?
+
+01:07:30.330 --> 01:07:33.420 align:middle line:84%
+It's some polynomial,
+phi squared, OK?
+
+01:07:33.420 --> 01:07:36.990 align:middle line:84%
+So that's the next
+simplest function of phi.
+
+01:07:36.990 --> 01:07:40.650 align:middle line:84%
+And m squared has to be
+a constant, OK, again,
+
+01:07:40.650 --> 01:07:43.940 align:middle line:90%
+from the translation symmetry.
+
+01:07:43.940 --> 01:07:48.490 align:middle line:84%
+So in this case, then you
+have the equation of motion,
+
+01:07:48.490 --> 01:07:52.270 align:middle line:84%
+partial square phi equal
+to m square phi squared,
+
+01:07:52.270 --> 01:07:53.800 align:middle line:90%
+m square phi equal to 0.
+
+01:07:53.800 --> 01:07:58.980 align:middle line:90%
+
+
+01:07:58.980 --> 01:08:02.377 align:middle line:84%
+So this is a very
+famous equation.
+
+01:08:02.377 --> 01:08:04.210 align:middle line:84%
+So this is called the
+Klein-Gordon equation.
+
+01:08:04.210 --> 01:08:10.550 align:middle line:90%
+
+
+01:08:10.550 --> 01:08:15.160 align:middle line:84%
+And the next time you
+will see very quickly why
+
+01:08:15.160 --> 01:08:17.350 align:middle line:90%
+this is a famous equation, OK?
+
+01:08:17.350 --> 01:08:23.680 align:middle line:84%
+And yeah, yeah, so this would
+correspond to the simplest
+
+01:08:23.680 --> 01:08:26.529 align:middle line:90%
+field theory we can consider.
+
+01:08:26.529 --> 01:08:29.080 align:middle line:84%
+And then you can consider more
+complicated field theories
+
+01:08:29.080 --> 01:08:33.970 align:middle line:84%
+with V(phi) to be some higher
+polynomial or more complicated
+
+01:08:33.970 --> 01:08:36.520 align:middle line:90%
+functions.
+
+01:08:36.520 --> 01:08:40.120 align:middle line:84%
+But keep in mind that
+this square is special.
+
+01:08:40.120 --> 01:08:43.430 align:middle line:84%
+Because it's square, this
+is a linear equation.
+
+01:08:43.430 --> 01:08:46.340 align:middle line:84%
+But whenever you have
+something which is not
+
+01:08:46.340 --> 01:08:50.479 align:middle line:84%
+linear or quadratic, and you
+will get a nonlinear equation.
+
+01:08:50.479 --> 01:08:52.670 align:middle line:84%
+And then the story
+becomes complicated, OK?
+
+01:08:52.670 --> 01:08:54.800 align:middle line:84%
+Nonlinear equations
+are always complicated.
+
+01:08:54.800 --> 01:08:58.399 align:middle line:84%
+And anyway, so this
+would be the simplest
+
+01:08:58.399 --> 01:09:01.160 align:middle line:90%
+theory we will consider, OK?
+
+01:09:01.160 --> 01:09:03.820 align:middle line:90%
+OK, so let's stop here.
+
+01:09:03.820 --> 01:09:09.000 align:middle line:90%

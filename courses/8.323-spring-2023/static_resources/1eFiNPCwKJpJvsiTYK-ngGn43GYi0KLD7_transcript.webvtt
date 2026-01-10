@@ -1,0 +1,5030 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.390 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.390 --> 00:00:03.346 align:middle line:90%
+[RUSTLING]
+
+00:00:03.346 --> 00:00:05.258 align:middle line:90%
+[CLICKING]
+
+00:00:05.258 --> 00:00:10.038 align:middle line:90%
+
+
+00:00:10.038 --> 00:00:11.160 align:middle line:90%
+[SIDE CONVERSATIONS]
+
+00:00:11.160 --> 00:00:12.345 align:middle line:90%
+PROFESSOR: OK, let us start.
+
+00:00:12.345 --> 00:00:15.510 align:middle line:90%
+
+
+00:00:15.510 --> 00:00:24.090 align:middle line:84%
+So, last time, we discussed how
+to calculate such a correlation
+
+00:00:24.090 --> 00:00:47.990 align:middle line:84%
+function, say Gn, in a
+single particle theory,
+
+00:00:47.990 --> 00:00:50.540 align:middle line:90%
+so using path integral.
+
+00:00:50.540 --> 00:00:57.110 align:middle line:84%
+So the goal is to calculate
+this time-ordered product
+
+00:00:57.110 --> 00:00:59.360 align:middle line:84%
+correlation function, the
+vacuum correlation function,
+
+00:00:59.360 --> 00:01:03.110 align:middle line:84%
+of this time-ordered
+product in this theory.
+
+00:01:03.110 --> 00:01:08.510 align:middle line:84%
+So, last time, we described how
+to do this using path integral.
+
+00:01:08.510 --> 00:01:12.570 align:middle line:84%
+And we derive the
+beautiful formula.
+
+00:01:12.570 --> 00:01:15.620 align:middle line:84%
+So the formula is
+given by the following.
+
+00:01:15.620 --> 00:01:26.760 align:middle line:84%
+It's a Gn is given by the ratio
+of two path integrals DX(t).
+
+00:01:26.760 --> 00:01:29.370 align:middle line:90%
+
+
+00:01:29.370 --> 00:01:31.425 align:middle line:84%
+So if we call this
+thing to be x.
+
+00:01:31.425 --> 00:01:34.220 align:middle line:90%
+
+
+00:01:34.220 --> 00:01:39.747 align:middle line:84%
+So the x and the
+exponential i S xt.
+
+00:01:39.747 --> 00:01:43.950 align:middle line:90%
+
+
+00:01:43.950 --> 00:01:49.050 align:middle line:84%
+And then, the DX(t), just
+the pure path integral.
+
+00:01:49.050 --> 00:01:52.920 align:middle line:90%
+
+
+00:01:52.920 --> 00:01:56.860 align:middle line:84%
+So, here, I didn't write to the
+upper limit and lower limit.
+
+00:01:56.860 --> 00:01:58.980 align:middle line:84%
+So it should be understood
+that the boundary
+
+00:01:58.980 --> 00:02:03.210 align:middle line:84%
+condition for both path
+integral is that the x--
+
+00:02:03.210 --> 00:02:05.850 align:middle line:84%
+So it should be from
+minus infinity--
+
+00:02:05.850 --> 00:02:08.039 align:middle line:84%
+the time range should
+be from minus infinity
+
+00:02:08.039 --> 00:02:09.350 align:middle line:90%
+to plus infinity.
+
+00:02:09.350 --> 00:02:14.700 align:middle line:84%
+And then we can choose the
+value of x at both ends just
+
+00:02:14.700 --> 00:02:17.220 align:middle line:90%
+to be zero.
+
+00:02:17.220 --> 00:02:21.390 align:middle line:84%
+And, yeah, and the
+slight subtlety
+
+00:02:21.390 --> 00:02:25.020 align:middle line:84%
+is that, when you
+evaluate S, so there
+
+00:02:25.020 --> 00:02:29.760 align:middle line:84%
+should be the epsilon
+parameter because we--
+
+00:02:29.760 --> 00:02:32.040 align:middle line:84%
+in deriving the path
+integral we have,
+
+00:02:32.040 --> 00:02:37.170 align:middle line:84%
+say we need to give the
+Hamiltonian a slightly
+
+00:02:37.170 --> 00:02:38.970 align:middle line:90%
+say epsilon part.
+
+00:02:38.970 --> 00:02:41.320 align:middle line:84%
+So that will also
+affect your action.
+
+00:02:41.320 --> 00:02:45.180 align:middle line:84%
+So your action will also have
+a small epsilon dependence.
+
+00:02:45.180 --> 00:02:49.080 align:middle line:84%
+And so, at the end
+of the day, after you
+
+00:02:49.080 --> 00:02:51.030 align:middle line:84%
+have done this
+calculation, and then
+
+00:02:51.030 --> 00:02:53.280 align:middle line:90%
+you said epsilon goes to 0.
+
+00:02:53.280 --> 00:03:00.000 align:middle line:84%
+So the epsilon goes to
+0 at the end of here.
+
+00:03:00.000 --> 00:03:01.680 align:middle line:84%
+So when we write
+the epsilon, it's
+
+00:03:01.680 --> 00:03:05.970 align:middle line:84%
+always should be assumed that
+this is a positive number.
+
+00:03:05.970 --> 00:03:08.850 align:middle line:84%
+This is infinitesimal
+positive number.
+
+00:03:08.850 --> 00:03:12.080 align:middle line:90%
+
+
+00:03:12.080 --> 00:03:12.630 align:middle line:90%
+Good.
+
+00:03:12.630 --> 00:03:13.595 align:middle line:90%
+Any questions on this?
+
+00:03:13.595 --> 00:03:26.150 align:middle line:90%
+
+
+00:03:26.150 --> 00:03:29.360 align:middle line:84%
+So, now, in principle,
+with this formula,
+
+00:03:29.360 --> 00:03:33.500 align:middle line:84%
+then we can now
+calculate this quantity.
+
+00:03:33.500 --> 00:03:36.090 align:middle line:90%
+We can calculate this quantity.
+
+00:03:36.090 --> 00:03:39.740 align:middle line:84%
+And we can calculate
+this n-point function.
+
+00:03:39.740 --> 00:03:43.700 align:middle line:84%
+So, but, in practice, it's
+actually more convenient,
+
+00:03:43.700 --> 00:03:46.190 align:middle line:84%
+rather than to calculate
+the Gn, because we often
+
+00:03:46.190 --> 00:03:49.580 align:middle line:84%
+need to know the
+such correlation
+
+00:03:49.580 --> 00:03:51.650 align:middle line:90%
+function for different n.
+
+00:03:51.650 --> 00:03:53.338 align:middle line:84%
+We often need to
+know such correlation
+
+00:03:53.338 --> 00:03:54.380 align:middle line:90%
+function for different n.
+
+00:03:54.380 --> 00:03:58.730 align:middle line:84%
+So not only say sometimes we
+are interested in n equal to 2,
+
+00:03:58.730 --> 00:04:02.720 align:middle line:84%
+sometimes interested in n
+equal to 3, 4, et cetera.
+
+00:04:02.720 --> 00:04:07.580 align:middle line:84%
+And then, there is
+a nice trick to--
+
+00:04:07.580 --> 00:04:10.700 align:middle line:84%
+you can try to
+calculate, then say,
+
+00:04:10.700 --> 00:04:15.770 align:middle line:84%
+in general, is to use this
+technique called generating
+
+00:04:15.770 --> 00:04:23.710 align:middle line:84%
+functional, which
+we started talking
+
+00:04:23.710 --> 00:04:28.240 align:middle line:84%
+about at the end
+of last lecture.
+
+00:04:28.240 --> 00:04:31.830 align:middle line:84%
+And so, the basic idea of
+the generating functional
+
+00:04:31.830 --> 00:04:34.890 align:middle line:84%
+can be easily understood
+by consider just
+
+00:04:34.890 --> 00:04:37.800 align:middle line:90%
+this one-dimensional example.
+
+00:04:37.800 --> 00:04:45.830 align:middle line:84%
+Say, if you are interested in
+doing an integral like this,
+
+00:04:45.830 --> 00:04:48.090 align:middle line:90%
+xn.
+
+00:04:48.090 --> 00:04:50.010 align:middle line:84%
+And, if you are interested
+in this integral
+
+00:04:50.010 --> 00:04:52.840 align:middle line:84%
+for different
+value of integer n,
+
+00:04:52.840 --> 00:05:00.970 align:middle line:84%
+then it's more convenient to
+consider such an integral, Za
+
+00:05:00.970 --> 00:05:02.225 align:middle line:90%
+given by--
+
+00:05:02.225 --> 00:05:08.640 align:middle line:90%
+
+
+00:05:08.640 --> 00:05:11.220 align:middle line:84%
+So the reason I put
+the i here is just,
+
+00:05:11.220 --> 00:05:14.130 align:middle line:84%
+yeah, I didn't specify
+the range of x.
+
+00:05:14.130 --> 00:05:17.430 align:middle line:84%
+And if x is from minus
+infinity to plus infinity,
+
+00:05:17.430 --> 00:05:18.900 align:middle line:90%
+it's not easy to-- yeah.
+
+00:05:18.900 --> 00:05:24.457 align:middle line:84%
+Yeah, put i here, just so that
+this integral can be defined.
+
+00:05:24.457 --> 00:05:26.790 align:middle line:84%
+Depending on circumstances,
+you don't have to put the i.
+
+00:05:26.790 --> 00:05:31.020 align:middle line:84%
+Say if x is from 0
+to infinity, then
+
+00:05:31.020 --> 00:05:34.170 align:middle line:84%
+I can just put, say, minus
+lambda a, with lambda
+
+00:05:34.170 --> 00:05:36.790 align:middle line:90%
+to be a positive number.
+
+00:05:36.790 --> 00:05:37.860 align:middle line:90%
+And then, that's fine.
+
+00:05:37.860 --> 00:05:41.520 align:middle line:90%
+
+
+00:05:41.520 --> 00:05:47.370 align:middle line:84%
+So the benefit of considering
+this integral is that-- oh, no,
+
+00:05:47.370 --> 00:05:50.670 align:middle line:84%
+no, no, not the--
+sorry, I should--
+
+00:05:50.670 --> 00:05:52.570 align:middle line:90%
+x, yeah, xa.
+
+00:05:52.570 --> 00:05:55.580 align:middle line:90%
+
+
+00:05:55.580 --> 00:05:56.210 align:middle line:90%
+Yeah.
+
+00:05:56.210 --> 00:05:58.753 align:middle line:84%
+So the benefit of
+doing this integral
+
+00:05:58.753 --> 00:06:00.170 align:middle line:84%
+is that if you
+notice, say, if you
+
+00:06:00.170 --> 00:06:02.435 align:middle line:84%
+take a derivative
+with respect to a,
+
+00:06:02.435 --> 00:06:05.060 align:middle line:84%
+and then, that will
+bring down a factor of x.
+
+00:06:05.060 --> 00:06:12.305 align:middle line:84%
+So it's a-- so if you
+take a derivative with a,
+
+00:06:12.305 --> 00:06:14.630 align:middle line:84%
+you bring down a
+factor of x, and you
+
+00:06:14.630 --> 00:06:17.290 align:middle line:84%
+take the derivative
+twice with a,
+
+00:06:17.290 --> 00:06:19.830 align:middle line:84%
+then you bring down
+a factor of x square.
+
+00:06:19.830 --> 00:06:22.610 align:middle line:84%
+And if you do it n times,
+and then you bring down
+
+00:06:22.610 --> 00:06:25.910 align:middle line:90%
+a factor of x to the power n.
+
+00:06:25.910 --> 00:06:29.720 align:middle line:84%
+So, essentially,
+this Zn then can
+
+00:06:29.720 --> 00:06:37.500 align:middle line:84%
+be written as partial n Za,
+then partial a, you derivative n
+
+00:06:37.500 --> 00:06:38.280 align:middle line:90%
+times.
+
+00:06:38.280 --> 00:06:42.150 align:middle line:84%
+And then you set a equal to 0
+because, in the end, we want--
+
+00:06:42.150 --> 00:06:45.600 align:middle line:84%
+in this integral, there's
+no exponential piece.
+
+00:06:45.600 --> 00:06:47.070 align:middle line:84%
+And you set that
+equal to 0, then
+
+00:06:47.070 --> 00:06:48.612 align:middle line:84%
+you get rid of the
+exponential piece.
+
+00:06:48.612 --> 00:06:50.250 align:middle line:90%
+Then you have factor of xn.
+
+00:06:50.250 --> 00:06:51.690 align:middle line:90%
+So there's still-- yeah.
+
+00:06:51.690 --> 00:06:56.520 align:middle line:90%
+So I still need to put i n here.
+
+00:06:56.520 --> 00:07:00.390 align:middle line:84%
+So if you know how to
+compute the Za, and then
+
+00:07:00.390 --> 00:07:04.050 align:middle line:84%
+you only need to take
+derivatives to do Zn.
+
+00:07:04.050 --> 00:07:09.840 align:middle line:84%
+So taking derivatives is much
+easier than doing integrals.
+
+00:07:09.840 --> 00:07:12.840 align:middle line:84%
+So, in other words,
+we can also write it,
+
+00:07:12.840 --> 00:07:17.570 align:middle line:84%
+expand Za in terms
+of power series in a.
+
+00:07:17.570 --> 00:07:24.270 align:middle line:84%
+And then, the Zn would
+be the coefficient.
+
+00:07:24.270 --> 00:07:27.940 align:middle line:90%
+
+
+00:07:27.940 --> 00:07:32.350 align:middle line:84%
+So Zn would be the coefficient
+for a to the power n.
+
+00:07:32.350 --> 00:07:37.500 align:middle line:90%
+
+
+00:07:37.500 --> 00:07:38.780 align:middle line:90%
+Yeah.
+
+00:07:38.780 --> 00:07:39.470 align:middle line:90%
+Good?
+
+00:07:39.470 --> 00:07:43.145 align:middle line:84%
+Yeah, so we call this Za
+the generating function.
+
+00:07:43.145 --> 00:07:51.030 align:middle line:90%
+
+
+00:07:51.030 --> 00:07:52.700 align:middle line:84%
+So now we can use
+the similar idea
+
+00:07:52.700 --> 00:07:55.870 align:middle line:90%
+to generalize to this case.
+
+00:07:55.870 --> 00:07:58.180 align:middle line:84%
+And, now, here, this
+is-- here it's just
+
+00:07:58.180 --> 00:07:59.920 align:middle line:90%
+one-dimensional integral.
+
+00:07:59.920 --> 00:08:01.820 align:middle line:84%
+Here we have a
+functional integral.
+
+00:08:01.820 --> 00:08:03.860 align:middle line:90%
+So now this is the function.
+
+00:08:03.860 --> 00:08:06.640 align:middle line:84%
+So, essentially, you just
+generalize this generating
+
+00:08:06.640 --> 00:08:09.970 align:middle line:84%
+function into a
+generating functional.
+
+00:08:09.970 --> 00:08:13.700 align:middle line:84%
+And so, we can consider
+the following object.
+
+00:08:13.700 --> 00:08:16.510 align:middle line:84%
+So in order to
+compute this, then
+
+00:08:16.510 --> 00:08:25.330 align:middle line:84%
+we can consider
+the analog of this
+
+00:08:25.330 --> 00:08:31.330 align:middle line:84%
+a is we consider object called
+J. J now will depend on t.
+
+00:08:31.330 --> 00:08:32.830 align:middle line:90%
+Yeah, J is a function.
+
+00:08:32.830 --> 00:08:39.250 align:middle line:84%
+J is a function because
+x now becomes a function.
+
+00:08:39.250 --> 00:08:44.480 align:middle line:84%
+And so, introduce a
+path integral like this.
+
+00:08:44.480 --> 00:08:46.480 align:middle line:90%
+So, from now on, I will not--
+
+00:08:46.480 --> 00:08:49.660 align:middle line:84%
+when I don't write the
+range, then it's always--
+
+00:08:49.660 --> 00:08:51.490 align:middle line:84%
+you should always
+keep this in mind--
+
+00:08:51.490 --> 00:08:53.800 align:middle line:84%
+the range will always
+from minus infinity
+
+00:08:53.800 --> 00:08:56.890 align:middle line:84%
+to plus infinity with the
+boundary value to be 0.
+
+00:08:56.890 --> 00:09:00.200 align:middle line:90%
+
+
+00:09:00.200 --> 00:09:07.370 align:middle line:84%
+And then, we can just
+say, I have standard xt.
+
+00:09:07.370 --> 00:09:11.820 align:middle line:84%
+Then I can add the
+analog of this.
+
+00:09:11.820 --> 00:09:16.880 align:middle line:84%
+So, remember, again, you
+think t is just an index.
+
+00:09:16.880 --> 00:09:21.230 align:middle line:84%
+And then you just, essentially,
+imagine if you have multiple x.
+
+00:09:21.230 --> 00:09:23.660 align:middle line:90%
+And then you just sum over them.
+
+00:09:23.660 --> 00:09:26.240 align:middle line:84%
+So sum over them, in this
+case, just corresponding
+
+00:09:26.240 --> 00:09:27.720 align:middle line:90%
+to an integral.
+
+00:09:27.720 --> 00:09:31.130 align:middle line:84%
+And so, we just have
+a piece like this.
+
+00:09:31.130 --> 00:09:33.760 align:middle line:90%
+
+
+00:09:33.760 --> 00:09:35.410 align:middle line:84%
+So this would be
+the generalization
+
+00:09:35.410 --> 00:09:36.800 align:middle line:90%
+of that equation.
+
+00:09:36.800 --> 00:09:42.190 align:middle line:84%
+And so, integration over t
+just can be imagined as a sum.
+
+00:09:42.190 --> 00:09:45.280 align:middle line:84%
+Imagine if you have
+multiple x and multiple a,
+
+00:09:45.280 --> 00:09:47.260 align:middle line:84%
+and then you need
+to sum over them.
+
+00:09:47.260 --> 00:09:50.770 align:middle line:84%
+And then, yeah, so this is
+just a generalization of that.
+
+00:09:50.770 --> 00:09:52.285 align:middle line:84%
+Do you have any
+questions on this?
+
+00:09:52.285 --> 00:09:57.010 align:middle line:90%
+
+
+00:09:57.010 --> 00:10:03.350 align:middle line:84%
+So now, similarly, now if we
+take a functional derivative
+
+00:10:03.350 --> 00:10:09.740 align:middle line:84%
+with respect to Jt, then we
+can bring down a factor of xt.
+
+00:10:09.740 --> 00:10:12.950 align:middle line:84%
+So, more explicitly, so
+let me just remind you,
+
+00:10:12.950 --> 00:10:16.730 align:middle line:84%
+that the rule of doing
+functional derivative.
+
+00:10:16.730 --> 00:10:25.310 align:middle line:84%
+So if you have a function,
+delta Jt prime, with respect
+
+00:10:25.310 --> 00:10:27.920 align:middle line:84%
+to the derivative
+of Jt, and then
+
+00:10:27.920 --> 00:10:30.410 align:middle line:84%
+that just gives you
+a delta function.
+
+00:10:30.410 --> 00:10:31.910 align:middle line:84%
+That just give you
+a delta function.
+
+00:10:31.910 --> 00:10:34.830 align:middle line:90%
+
+
+00:10:34.830 --> 00:10:37.050 align:middle line:84%
+So now let's look
+at-- with this rule,
+
+00:10:37.050 --> 00:10:42.930 align:middle line:84%
+then let's just look at the
+delta, delta Jt on the ZJ.
+
+00:10:42.930 --> 00:10:49.290 align:middle line:90%
+
+
+00:10:49.290 --> 00:10:51.180 align:middle line:90%
+So and then, yeah.
+
+00:10:51.180 --> 00:10:53.250 align:middle line:84%
+So, now, since this
+is Jt, let's just,
+
+00:10:53.250 --> 00:10:55.950 align:middle line:84%
+for convenience, let's just
+put this to be t prime.
+
+00:10:55.950 --> 00:10:58.510 align:middle line:90%
+
+
+00:10:58.510 --> 00:11:00.242 align:middle line:90%
+Let's put it to t prime.
+
+00:11:00.242 --> 00:11:02.200 align:middle line:84%
+And then, when you take
+derivative with respect
+
+00:11:02.200 --> 00:11:07.085 align:middle line:84%
+to Jt, and then you directly
+take derivative with this guy.
+
+00:11:07.085 --> 00:11:08.710 align:middle line:84%
+And then, when you
+take the derivative,
+
+00:11:08.710 --> 00:11:10.960 align:middle line:84%
+the delta function will
+get rid of this integral.
+
+00:11:10.960 --> 00:11:13.060 align:middle line:90%
+And then you just have xt.
+
+00:11:13.060 --> 00:11:21.520 align:middle line:84%
+And then you will just get
+i DX(t) exponential i S.
+
+00:11:21.520 --> 00:11:25.400 align:middle line:84%
+And, yeah, sorry,
+you will get DX(t).
+
+00:11:25.400 --> 00:11:27.790 align:middle line:84%
+And then you have
+a factor of xt.
+
+00:11:27.790 --> 00:11:29.920 align:middle line:90%
+So let me just write Dx--
+
+00:11:29.920 --> 00:11:32.860 align:middle line:90%
+again, to save, you just add Dx.
+
+00:11:32.860 --> 00:11:37.900 align:middle line:84%
+And you have xt from
+taking derivative of Jt.
+
+00:11:37.900 --> 00:11:43.150 align:middle line:84%
+And then exponential
+i S plus i Jx.
+
+00:11:43.150 --> 00:11:48.370 align:middle line:90%
+So let me just save some effort.
+
+00:11:48.370 --> 00:11:53.170 align:middle line:84%
+Yeah, you should keep in mind
+that this Dt is, actually, I'm
+
+00:11:53.170 --> 00:11:54.910 align:middle line:84%
+just using a
+simplified notation.
+
+00:11:54.910 --> 00:11:58.130 align:middle line:90%
+
+
+00:11:58.130 --> 00:11:58.630 align:middle line:90%
+Good.
+
+00:11:58.630 --> 00:11:59.547 align:middle line:90%
+Any questions on this?
+
+00:11:59.547 --> 00:12:04.060 align:middle line:90%
+
+
+00:12:04.060 --> 00:12:14.480 align:middle line:84%
+So, now, if I also introduce
+Z0, defined to be ZJ equal to 0.
+
+00:12:14.480 --> 00:12:17.520 align:middle line:84%
+So this is just the
+original integral.
+
+00:12:17.520 --> 00:12:20.930 align:middle line:84%
+So Z0 is essentially
+the downstairs.
+
+00:12:20.930 --> 00:12:31.730 align:middle line:84%
+So Z0 is just the Dx exponential
+i S. So when J equal to 0,
+
+00:12:31.730 --> 00:12:32.960 align:middle line:90%
+and then we just have this.
+
+00:12:32.960 --> 00:12:35.600 align:middle line:84%
+So, essentially, this
+is the downstairs here.
+
+00:12:35.600 --> 00:12:38.870 align:middle line:84%
+So we also-- let's also
+introduce this definition.
+
+00:12:38.870 --> 00:12:41.510 align:middle line:90%
+
+
+00:12:41.510 --> 00:12:44.450 align:middle line:90%
+And then we then find--
+
+00:12:44.450 --> 00:12:47.150 align:middle line:84%
+so, by comparing
+the two, then we
+
+00:12:47.150 --> 00:12:53.120 align:middle line:84%
+immediately conclude that the
+one point function of x hat t0
+
+00:12:53.120 --> 00:12:57.950 align:middle line:84%
+is just given by 1 over
+i, because this i there,
+
+00:12:57.950 --> 00:13:02.290 align:middle line:90%
+and 1 over Z0, then delta J--
+
+00:13:02.290 --> 00:13:07.630 align:middle line:90%
+delta ZJ, delta Jt.
+
+00:13:07.630 --> 00:13:11.820 align:middle line:90%
+And then you set Jt equal to 0.
+
+00:13:11.820 --> 00:13:15.020 align:middle line:84%
+So, similarly, here, if you
+set a equal to 0, so you take
+
+00:13:15.020 --> 00:13:20.000 align:middle line:84%
+derivative, and then you
+bring down a factor of xt.
+
+00:13:20.000 --> 00:13:22.010 align:middle line:90%
+And then you set J equal to 0.
+
+00:13:22.010 --> 00:13:24.740 align:middle line:84%
+And then you just have that
+integral with xt there.
+
+00:13:24.740 --> 00:13:28.500 align:middle line:84%
+And then you get this
+one point function.
+
+00:13:28.500 --> 00:13:32.440 align:middle line:84%
+So, now, you can just
+immediately generalize.
+
+00:13:32.440 --> 00:13:40.750 align:middle line:84%
+So this n-point function, Gn
+then can be written as, you
+
+00:13:40.750 --> 00:13:41.800 align:middle line:90%
+just take one--
+
+00:13:41.800 --> 00:13:43.850 align:middle line:90%
+now you have take n derivatives.
+
+00:13:43.850 --> 00:13:47.710 align:middle line:84%
+Now you have a factor of
+1 over i to the power n.
+
+00:13:47.710 --> 00:13:50.500 align:middle line:84%
+Again, you divide it by
+Z0 because you always
+
+00:13:50.500 --> 00:13:53.710 align:middle line:90%
+need to divide by this piece.
+
+00:13:53.710 --> 00:14:00.700 align:middle line:84%
+And then you just take
+Z derivative n times.
+
+00:14:00.700 --> 00:14:05.400 align:middle line:90%
+So you take Jt1, Jtn.
+
+00:14:05.400 --> 00:14:08.820 align:middle line:84%
+So this time variable should
+match with the time variable
+
+00:14:08.820 --> 00:14:11.700 align:middle line:90%
+in the original definition.
+
+00:14:11.700 --> 00:14:14.920 align:middle line:84%
+And then, after you
+take the derivative,
+
+00:14:14.920 --> 00:14:18.280 align:middle line:90%
+you set J equal to 0.
+
+00:14:18.280 --> 00:14:25.540 align:middle line:84%
+So, and then, this gives
+you the n-point function.
+
+00:14:25.540 --> 00:14:28.790 align:middle line:84%
+If you know how to compute
+this ZJ, and, again,
+
+00:14:28.790 --> 00:14:30.550 align:middle line:90%
+you only need to do derivatives.
+
+00:14:30.550 --> 00:14:32.080 align:middle line:90%
+And then it's much simpler.
+
+00:14:32.080 --> 00:14:34.570 align:middle line:84%
+Then you only need to do
+the path integral once,
+
+00:14:34.570 --> 00:14:38.460 align:middle line:84%
+and then you just
+doing the derivatives.
+
+00:14:38.460 --> 00:14:39.435 align:middle line:90%
+Any questions on this?
+
+00:14:39.435 --> 00:14:53.960 align:middle line:90%
+
+
+00:14:53.960 --> 00:14:57.690 align:middle line:84%
+So, now, if you keep
+in mind of this,
+
+00:14:57.690 --> 00:15:03.110 align:middle line:84%
+we can also rewrite this
+expression as the following.
+
+00:15:03.110 --> 00:15:05.240 align:middle line:90%
+We can also rewrite--
+
+00:15:05.240 --> 00:15:13.580 align:middle line:84%
+alternatively, we can also write
+ZJ divided by Z0 as following 0
+
+00:15:13.580 --> 00:15:25.560 align:middle line:84%
+and the time ordered
+exponential i, dt, Jt, xt, 0.
+
+00:15:25.560 --> 00:15:28.320 align:middle line:90%
+
+
+00:15:28.320 --> 00:15:33.180 align:middle line:84%
+So, as I mentioned before, that
+in that formula, in principle,
+
+00:15:33.180 --> 00:15:36.090 align:middle line:90%
+x can be anything.
+
+00:15:36.090 --> 00:15:38.290 align:middle line:90%
+x can be anything.
+
+00:15:38.290 --> 00:15:41.940 align:middle line:84%
+So, now, in this
+path integral, you
+
+00:15:41.940 --> 00:15:45.042 align:middle line:84%
+can just imagine you
+separate this term--
+
+00:15:45.042 --> 00:15:46.500 align:middle line:84%
+the sum of the two
+exponential, you
+
+00:15:46.500 --> 00:15:48.214 align:middle line:90%
+can just write it as a product.
+
+00:15:48.214 --> 00:15:49.672 align:middle line:84%
+And then you have
+the exponential i
+
+00:15:49.672 --> 00:15:52.410 align:middle line:84%
+S, and the exponential
+i, this piece.
+
+00:15:52.410 --> 00:15:55.380 align:middle line:84%
+And then we treat
+that piece to be x.
+
+00:15:55.380 --> 00:15:59.250 align:middle line:84%
+And then, that gives
+you this formula.
+
+00:15:59.250 --> 00:16:02.400 align:middle line:84%
+If you treat that piece to be
+x, it give you this formula.
+
+00:16:02.400 --> 00:16:04.200 align:middle line:84%
+Then you ask, what
+is the meaning
+
+00:16:04.200 --> 00:16:07.760 align:middle line:84%
+when we have a time ordering
+of this exponential?
+
+00:16:07.760 --> 00:16:10.330 align:middle line:84%
+So the meaning is
+that, imagine you
+
+00:16:10.330 --> 00:16:13.570 align:middle line:90%
+expand this in power series.
+
+00:16:13.570 --> 00:16:19.780 align:middle line:84%
+Imagine expand in
+power series of x.
+
+00:16:19.780 --> 00:16:25.210 align:middle line:84%
+And then you just order each
+term in the power series.
+
+00:16:25.210 --> 00:16:27.790 align:middle line:84%
+You can pick, because now
+each term is a polynomial,
+
+00:16:27.790 --> 00:16:29.950 align:middle line:90%
+you can time-order them.
+
+00:16:29.950 --> 00:16:30.970 align:middle line:90%
+You can time-order them.
+
+00:16:30.970 --> 00:16:33.550 align:middle line:90%
+
+
+00:16:33.550 --> 00:16:35.320 align:middle line:90%
+So, now, this object--
+
+00:16:35.320 --> 00:16:37.460 align:middle line:90%
+so I can also write this object.
+
+00:16:37.460 --> 00:16:40.780 align:middle line:84%
+So when you expand this
+object, and then you--
+
+00:16:40.780 --> 00:16:42.700 align:middle line:90%
+the first time is just 1.
+
+00:16:42.700 --> 00:16:49.027 align:middle line:84%
+And then, the next
+term just Dt, Jt, then
+
+00:16:49.027 --> 00:16:49.985 align:middle line:90%
+the one-point function.
+
+00:16:49.985 --> 00:16:54.570 align:middle line:90%
+
+
+00:16:54.570 --> 00:17:03.270 align:middle line:84%
+And then, under the n'th
+term, yeah, et cetera.
+
+00:17:03.270 --> 00:17:05.099 align:middle line:84%
+So you can, when
+you expand it, you
+
+00:17:05.099 --> 00:17:09.329 align:middle line:84%
+can just write from n equal
+to infinity, 0 to infinity,
+
+00:17:09.329 --> 00:17:13.589 align:middle line:90%
+i to the power n, n factorial.
+
+00:17:13.589 --> 00:17:18.589 align:middle line:84%
+Now you have n
+integrals, t1, tn.
+
+00:17:18.589 --> 00:17:30.015 align:middle line:84%
+Then you have times, you have
+Gn, t1, tn, and the Jt1, Jtn.
+
+00:17:30.015 --> 00:17:32.860 align:middle line:90%
+
+
+00:17:32.860 --> 00:17:34.150 align:middle line:90%
+So this is the typical--
+
+00:17:34.150 --> 00:17:36.140 align:middle line:90%
+the n'th term is like that.
+
+00:17:36.140 --> 00:17:39.730 align:middle line:84%
+So when you expand
+this to n'th power, you
+
+00:17:39.730 --> 00:17:41.530 align:middle line:90%
+group all the x together.
+
+00:17:41.530 --> 00:17:43.990 align:middle line:90%
+Because J just C number--
+
+00:17:43.990 --> 00:17:46.150 align:middle line:84%
+integration and the
+J are C numbers.
+
+00:17:46.150 --> 00:17:47.470 align:middle line:90%
+You can take them out.
+
+00:17:47.470 --> 00:17:52.480 align:middle line:84%
+And then this part is just
+the x between the zeros
+
+00:17:52.480 --> 00:17:58.250 align:middle line:84%
+and then you have
+this factor of J. Yes.
+
+00:17:58.250 --> 00:18:00.200 align:middle line:84%
+AUDIENCE: Where did the
+n factorial come from?
+
+00:18:00.200 --> 00:18:02.030 align:middle line:84%
+PROFESSOR: Oh, just when
+you expand the exponential,
+
+00:18:02.030 --> 00:18:03.080 align:middle line:90%
+there's always n factorial.
+
+00:18:03.080 --> 00:18:04.205 align:middle line:90%
+AUDIENCE: Oh, right, sorry.
+
+00:18:04.205 --> 00:18:05.560 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:18:05.560 --> 00:18:06.060 align:middle line:90%
+Good.
+
+00:18:06.060 --> 00:18:06.977 align:middle line:90%
+Any questions on this?
+
+00:18:06.977 --> 00:18:14.920 align:middle line:90%
+
+
+00:18:14.920 --> 00:18:15.830 align:middle line:90%
+Yes.
+
+00:18:15.830 --> 00:18:17.830 align:middle line:84%
+AUDIENCE: When you separate
+out the exponentials
+
+00:18:17.830 --> 00:18:21.150 align:middle line:84%
+into the e to the i S
+and then the i integral.
+
+00:18:21.150 --> 00:18:22.010 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:18:22.010 --> 00:18:25.191 align:middle line:84%
+AUDIENCE: Is that S, and the
+other term, like operator.
+
+00:18:25.191 --> 00:18:26.941 align:middle line:84%
+So you'd have to have
+another contribution
+
+00:18:26.941 --> 00:18:29.600 align:middle line:90%
+from the commutators?
+
+00:18:29.600 --> 00:18:31.200 align:middle line:90%
+PROFESSOR: Sorry, say it again?
+
+00:18:31.200 --> 00:18:35.150 align:middle line:84%
+AUDIENCE: So, S, in that case,
+it functions of an an operator.
+
+00:18:35.150 --> 00:18:37.794 align:middle line:84%
+And then the other one
+is also like an operator.
+
+00:18:37.794 --> 00:18:40.433 align:middle line:84%
+So wouldn't that
+introduce commentators?
+
+00:18:40.433 --> 00:18:41.350 align:middle line:90%
+PROFESSOR: No, no, no.
+
+00:18:41.350 --> 00:18:42.970 align:middle line:84%
+Because, in the path
+integral, they're
+
+00:18:42.970 --> 00:18:44.067 align:middle line:90%
+just ordinary functions.
+
+00:18:44.067 --> 00:18:44.567 align:middle line:90%
+Right?
+
+00:18:44.567 --> 00:18:44.905 align:middle line:90%
+AUDIENCE: Oh.
+
+00:18:44.905 --> 00:18:46.280 align:middle line:84%
+PROFESSOR: In the
+path integrals,
+
+00:18:46.280 --> 00:18:47.450 align:middle line:90%
+they're ordinary functions.
+
+00:18:47.450 --> 00:18:48.880 align:middle line:84%
+So, in the path
+integral, they're
+
+00:18:48.880 --> 00:18:50.770 align:middle line:90%
+always just ordinary functions.
+
+00:18:50.770 --> 00:18:53.890 align:middle line:84%
+But then, when we rewrite
+them in terms of the operator
+
+00:18:53.890 --> 00:18:57.580 align:middle line:90%
+form and then so--
+
+00:18:57.580 --> 00:19:00.340 align:middle line:84%
+the left-hand side,
+So the x, they're
+
+00:19:00.340 --> 00:19:01.880 align:middle line:90%
+just ordinary functions.
+
+00:19:01.880 --> 00:19:04.090 align:middle line:84%
+But in the right-hand
+side, I'm now writing it
+
+00:19:04.090 --> 00:19:05.650 align:middle line:90%
+in terms of the operator form.
+
+00:19:05.650 --> 00:19:09.480 align:middle line:84%
+And now, indeed, now
+the ordinary matters,
+
+00:19:09.480 --> 00:19:10.890 align:middle line:90%
+Now the ordering matters.
+
+00:19:10.890 --> 00:19:11.700 align:middle line:90%
+Yeah.
+
+00:19:11.700 --> 00:19:15.240 align:middle line:84%
+So I'm just using this form--
+yeah, so, in this formula,
+
+00:19:15.240 --> 00:19:18.000 align:middle line:84%
+the right-hand side is just
+the ordinary functions.
+
+00:19:18.000 --> 00:19:20.610 align:middle line:84%
+But the left-hand side
+involving some operator
+
+00:19:20.610 --> 00:19:22.245 align:middle line:84%
+sandwiched between
+the ground state.
+
+00:19:22.245 --> 00:19:22.745 align:middle line:90%
+Yeah.
+
+00:19:22.745 --> 00:19:27.120 align:middle line:90%
+
+
+00:19:27.120 --> 00:19:30.430 align:middle line:90%
+Other questions?
+
+00:19:30.430 --> 00:19:31.150 align:middle line:90%
+Yes.
+
+00:19:31.150 --> 00:19:33.430 align:middle line:84%
+AUDIENCE: So in that
+formula in the middle,
+
+00:19:33.430 --> 00:19:36.753 align:middle line:84%
+where Gn is expressed as the
+function derivative of Z--
+
+00:19:36.753 --> 00:19:37.420 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:19:37.420 --> 00:19:39.400 align:middle line:84%
+AUDIENCE: Does it matter what
+order I take the derivatives?
+
+00:19:39.400 --> 00:19:41.050 align:middle line:84%
+PROFESSOR: No, that
+doesn't matter.
+
+00:19:41.050 --> 00:19:45.130 align:middle line:84%
+Because, again, J is
+ordinary functions.
+
+00:19:45.130 --> 00:19:45.640 align:middle line:90%
+Yes.
+
+00:19:45.640 --> 00:19:47.515 align:middle line:84%
+Yeah, because this is
+just the path integral.
+
+00:19:47.515 --> 00:19:50.680 align:middle line:90%
+
+
+00:19:50.680 --> 00:19:52.390 align:middle line:90%
+J is just ordinary functions.
+
+00:19:52.390 --> 00:19:53.860 align:middle line:84%
+This is just some
+functionals of J.
+
+00:19:53.860 --> 00:19:55.720 align:middle line:84%
+You can just take
+arbitrary derivatives.
+
+00:19:55.720 --> 00:20:01.246 align:middle line:84%
+Also, you notice, on
+the left-hand side,
+
+00:20:01.246 --> 00:20:06.830 align:middle line:84%
+so Gn is a function
+of t1 and tn.
+
+00:20:06.830 --> 00:20:09.200 align:middle line:84%
+So Gn, as a function
+of t1 and tn
+
+00:20:09.200 --> 00:20:12.500 align:middle line:84%
+is actually
+completely symmetric.
+
+00:20:12.500 --> 00:20:14.030 align:middle line:84%
+Because, under
+this time ordering,
+
+00:20:14.030 --> 00:20:16.322 align:middle line:84%
+it doesn't matter
+how you order them.
+
+00:20:16.322 --> 00:20:18.530 align:middle line:84%
+Because they're just ordered
+by time ordering anyway.
+
+00:20:18.530 --> 00:20:23.270 align:middle line:84%
+So it doesn't matter how
+I write the ordering here.
+
+00:20:23.270 --> 00:20:26.870 align:middle line:84%
+So Gn is a symmetric
+function of t1 and tn.
+
+00:20:26.870 --> 00:20:29.490 align:middle line:90%
+So you can see it here.
+
+00:20:29.490 --> 00:20:33.320 align:middle line:84%
+So, here, because all the
+derivative commute, and then
+
+00:20:33.320 --> 00:20:35.636 align:middle line:84%
+this is a symmetric
+function of t1 and tn.
+
+00:20:35.636 --> 00:20:36.136 align:middle line:90%
+Yeah.
+
+00:20:36.136 --> 00:20:41.570 align:middle line:90%
+
+
+00:20:41.570 --> 00:20:44.890 align:middle line:90%
+Other questions?
+
+00:20:44.890 --> 00:20:45.400 align:middle line:90%
+Good?
+
+00:20:45.400 --> 00:20:47.980 align:middle line:90%
+OK.
+
+00:20:47.980 --> 00:20:51.790 align:middle line:84%
+So, in the future, we often
+just computing this object.
+
+00:20:51.790 --> 00:20:54.620 align:middle line:84%
+We just often
+computing this object.
+
+00:20:54.620 --> 00:20:57.920 align:middle line:90%
+And then, that will tell us--
+
+00:20:57.920 --> 00:21:00.110 align:middle line:84%
+then that will give us
+the generating functional
+
+00:21:00.110 --> 00:21:01.610 align:middle line:90%
+of the correlation functions.
+
+00:21:01.610 --> 00:21:04.580 align:middle line:84%
+Then we can just obtain
+correlation functions
+
+00:21:04.580 --> 00:21:05.930 align:middle line:90%
+by taking derivatives.
+
+00:21:05.930 --> 00:21:08.930 align:middle line:90%
+
+
+00:21:08.930 --> 00:21:12.380 align:middle line:84%
+So now let's look at
+the explicit example
+
+00:21:12.380 --> 00:21:16.990 align:middle line:90%
+to illustrate how this works.
+
+00:21:16.990 --> 00:21:25.130 align:middle line:84%
+So let's just consider simple
+example, a harmonic oscillator.
+
+00:21:25.130 --> 00:21:28.640 align:middle line:84%
+So, almost always, a harmonic
+oscillator is a good example.
+
+00:21:28.640 --> 00:21:31.660 align:middle line:90%
+
+
+00:21:31.660 --> 00:21:32.230 align:middle line:90%
+Good?
+
+00:21:32.230 --> 00:21:37.900 align:middle line:84%
+So, in this case, so, again,
+we look at this object.
+
+00:21:37.900 --> 00:21:43.620 align:middle line:90%
+But now S is--
+
+00:21:43.620 --> 00:21:47.470 align:middle line:84%
+so we always now take from
+minus infinity to plus infinity.
+
+00:21:47.470 --> 00:21:49.050 align:middle line:90%
+We have dt.
+
+00:21:49.050 --> 00:21:50.610 align:middle line:90%
+Then you have 1/2.
+
+00:21:50.610 --> 00:21:52.860 align:middle line:84%
+So let's take this
+to be my Lagrangian.
+
+00:21:52.860 --> 00:21:56.880 align:middle line:90%
+
+
+00:21:56.880 --> 00:21:59.910 align:middle line:90%
+So let me call this omega 0.
+
+00:21:59.910 --> 00:22:04.870 align:middle line:84%
+So this is considered the
+essential harmonic oscillator.
+
+00:22:04.870 --> 00:22:06.660 align:middle line:90%
+So I take the m equal to 1.
+
+00:22:06.660 --> 00:22:10.300 align:middle line:90%
+
+
+00:22:10.300 --> 00:22:13.340 align:middle line:90%
+And I consider this Jt.
+
+00:22:13.340 --> 00:22:14.740 align:middle line:90%
+Yeah.
+
+00:22:14.740 --> 00:22:18.730 align:middle line:84%
+We are interested in
+computing this object.
+
+00:22:18.730 --> 00:22:28.230 align:middle line:84%
+So, also, I should
+mention, in practice,
+
+00:22:28.230 --> 00:22:31.590 align:middle line:90%
+so you always interested in xt.
+
+00:22:31.590 --> 00:22:34.380 align:middle line:84%
+Say, when you calculate
+n-point functions,
+
+00:22:34.380 --> 00:22:38.200 align:middle line:90%
+even though the value of t--
+
+00:22:38.200 --> 00:22:41.710 align:middle line:84%
+say, suppose you want
+to calculate the Gn.
+
+00:22:41.710 --> 00:22:45.190 align:middle line:90%
+So Gn, you have n values of t.
+
+00:22:45.190 --> 00:22:49.480 align:middle line:84%
+And so, outside
+that n values of t,
+
+00:22:49.480 --> 00:22:51.530 align:middle line:90%
+you can just take the J to be--
+
+00:22:51.530 --> 00:22:52.030 align:middle line:90%
+yeah.
+
+00:22:52.030 --> 00:22:57.130 align:middle line:84%
+So we can always take J to go
+to 0 at the plus minus infinity.
+
+00:22:57.130 --> 00:23:00.880 align:middle line:84%
+Yeah, so that helps your
+integral to converge.
+
+00:23:00.880 --> 00:23:02.425 align:middle line:84%
+Yeah, this is just
+a side remark.
+
+00:23:02.425 --> 00:23:06.220 align:middle line:90%
+
+
+00:23:06.220 --> 00:23:07.210 align:middle line:90%
+Good?
+
+00:23:07.210 --> 00:23:12.230 align:middle line:84%
+So, now, first, to compute
+this object or this object,
+
+00:23:12.230 --> 00:23:16.990 align:middle line:84%
+we need to first understand
+what is this S epsilon.
+
+00:23:16.990 --> 00:23:19.900 align:middle line:84%
+We need to understand
+what is this s epsilon.
+
+00:23:19.900 --> 00:23:25.240 align:middle line:84%
+So, remember, so, for
+the harmonic oscillator,
+
+00:23:25.240 --> 00:23:31.510 align:middle line:84%
+the Hamiltonian is p squared
+divided by 2m plus 1/2 omega 0
+
+00:23:31.510 --> 00:23:32.770 align:middle line:90%
+squared x squared.
+
+00:23:32.770 --> 00:23:36.010 align:middle line:90%
+
+
+00:23:36.010 --> 00:23:40.510 align:middle line:84%
+And so, here is the Lagrangian,
+and this is the Hamiltonian.
+
+00:23:40.510 --> 00:23:42.910 align:middle line:84%
+They are related by
+the Legendre transform.
+
+00:23:42.910 --> 00:23:46.410 align:middle line:90%
+
+
+00:23:46.410 --> 00:23:51.690 align:middle line:84%
+So now, in order to do this
+H, go to H minus i epsilon.
+
+00:23:51.690 --> 00:23:58.230 align:middle line:84%
+And then, now this become
+p squared divided by 2m 1
+
+00:23:58.230 --> 00:24:02.940 align:middle line:84%
+minus i epsilon, then
+plus 1/2 omega 0 squared,
+
+00:24:02.940 --> 00:24:06.030 align:middle line:90%
+x squared, 1 minus i epsilon.
+
+00:24:06.030 --> 00:24:10.050 align:middle line:84%
+So you multiply the both
+term by 1 minus i epsilon.
+
+00:24:10.050 --> 00:24:15.600 align:middle line:84%
+And then, to obtain what is
+the corresponding S for this,
+
+00:24:15.600 --> 00:24:17.820 align:middle line:84%
+you just do a lot of
+Legendre transform back
+
+00:24:17.820 --> 00:24:20.480 align:middle line:90%
+into a Lagrangian.
+
+00:24:20.480 --> 00:24:25.040 align:middle line:84%
+So then you find
+that the L epsilon,
+
+00:24:25.040 --> 00:24:28.340 align:middle line:84%
+which you do corresponding
+to the Legendre
+
+00:24:28.340 --> 00:24:30.620 align:middle line:90%
+transform of this--
+
+00:24:30.620 --> 00:24:34.080 align:middle line:84%
+yeah, so this is a trivial
+exercise, which we can do.
+
+00:24:34.080 --> 00:24:38.060 align:middle line:84%
+Then you find that this
+give, gets 1/2 x squared 1
+
+00:24:38.060 --> 00:24:41.040 align:middle line:90%
+plus i epsilon.
+
+00:24:41.040 --> 00:24:45.300 align:middle line:84%
+And then, yeah, so, this part,
+essentially, does not change,
+
+00:24:45.300 --> 00:24:49.530 align:middle line:84%
+1/2 omega 0 squared x
+squared 1 minus i epsilon.
+
+00:24:49.530 --> 00:24:52.020 align:middle line:90%
+So that's what you get.
+
+00:24:52.020 --> 00:24:54.060 align:middle line:84%
+Essentially, when
+you invert it, when
+
+00:24:54.060 --> 00:24:58.410 align:middle line:84%
+you do the Legendre transform
+to go to p, to x, somehow
+
+00:24:58.410 --> 00:25:00.420 align:middle line:84%
+this becomes from
+1 minus i epsilon
+
+00:25:00.420 --> 00:25:01.455 align:middle line:90%
+become 1 plus i epsilon.
+
+00:25:01.455 --> 00:25:03.600 align:middle line:84%
+Yeah, you can easily
+check yourself
+
+00:25:03.600 --> 00:25:07.150 align:middle line:90%
+because you did do an inversion.
+
+00:25:07.150 --> 00:25:13.995 align:middle line:84%
+And so, now let's write this
+into a more convenient form.
+
+00:25:13.995 --> 00:25:18.570 align:middle line:90%
+
+
+00:25:18.570 --> 00:25:21.600 align:middle line:84%
+So to write it in a more
+convenient form, we always--
+
+00:25:21.600 --> 00:25:28.170 align:middle line:84%
+remember, we always treated
+the x as a two x's sandwiched
+
+00:25:28.170 --> 00:25:29.820 align:middle line:90%
+by some differential operator.
+
+00:25:29.820 --> 00:25:32.620 align:middle line:84%
+So we can do
+integration by parts.
+
+00:25:32.620 --> 00:25:34.590 align:middle line:84%
+So we can do integration
+by part to write it
+
+00:25:34.590 --> 00:25:42.450 align:middle line:84%
+as minus 1/2 x partial t
+squared plus omega 0 squared.
+
+00:25:42.450 --> 00:25:48.180 align:middle line:84%
+Then minus i epsilon omega
+squared plus i epsilon
+
+00:25:48.180 --> 00:25:51.290 align:middle line:90%
+partial t square x.
+
+00:25:51.290 --> 00:25:53.461 align:middle line:90%
+And then plus total derivative.
+
+00:25:53.461 --> 00:26:03.460 align:middle line:90%
+
+
+00:26:03.460 --> 00:26:05.470 align:middle line:84%
+So the total derivative
+always vanished
+
+00:26:05.470 --> 00:26:09.190 align:middle line:90%
+because we always-- yeah.
+
+00:26:09.190 --> 00:26:11.090 align:middle line:84%
+Just, we always impose
+boundary conditions.
+
+00:26:11.090 --> 00:26:15.190 align:middle line:84%
+So that at t equal to plus
+minus infinity, they go to 0.
+
+00:26:15.190 --> 00:26:17.980 align:middle line:90%
+
+
+00:26:17.980 --> 00:26:20.410 align:middle line:84%
+And so, now let's
+look at this object.
+
+00:26:20.410 --> 00:26:24.920 align:middle line:90%
+
+
+00:26:24.920 --> 00:26:29.870 align:middle line:84%
+So let's look at this object,
+the epsilon dependence.
+
+00:26:29.870 --> 00:26:33.110 align:middle line:84%
+So omega squared is
+just a positive number.
+
+00:26:33.110 --> 00:26:36.500 align:middle line:84%
+Multiply epsilon, it's
+still a positive number.
+
+00:26:36.500 --> 00:26:37.730 align:middle line:90%
+And epsilon infinitesimal.
+
+00:26:37.730 --> 00:26:41.730 align:middle line:84%
+So we can just still
+call it i epsilon.
+
+00:26:41.730 --> 00:26:45.750 align:middle line:84%
+So, now, the partial t
+square acting on epsilon.
+
+00:26:45.750 --> 00:26:50.280 align:middle line:84%
+So partial t square is a
+negative definite operator.
+
+00:26:50.280 --> 00:26:53.420 align:middle line:90%
+
+
+00:26:53.420 --> 00:26:56.870 align:middle line:84%
+Because, remember, whenever
+you do a Fourier transform
+
+00:26:56.870 --> 00:26:58.850 align:middle line:90%
+on x, so partial t--
+
+00:26:58.850 --> 00:27:01.118 align:middle line:84%
+a single factor
+gives you i omega.
+
+00:27:01.118 --> 00:27:02.660 align:middle line:84%
+Then, if you have
+a partial t square,
+
+00:27:02.660 --> 00:27:05.330 align:middle line:84%
+then give you minus
+omega squared.
+
+00:27:05.330 --> 00:27:11.810 align:middle line:84%
+So partial t square is a
+negative definite operator.
+
+00:27:11.810 --> 00:27:14.360 align:middle line:84%
+So that means that this
+is also a negative number
+
+00:27:14.360 --> 00:27:16.340 align:middle line:90%
+times i epsilon.
+
+00:27:16.340 --> 00:27:19.040 align:middle line:84%
+And then, that means we can
+just write the whole thing just
+
+00:27:19.040 --> 00:27:24.950 align:middle line:84%
+as 1/2 x partial t square
+plus omega 0 square
+
+00:27:24.950 --> 00:27:28.910 align:middle line:90%
+then minus i epsilon x.
+
+00:27:28.910 --> 00:27:35.000 align:middle line:90%
+
+
+00:27:35.000 --> 00:27:35.500 align:middle line:90%
+Good?
+
+00:27:35.500 --> 00:27:38.130 align:middle line:90%
+Is this clear?
+
+00:27:38.130 --> 00:27:42.130 align:middle line:84%
+Yeah, because just
+anything, any positives
+
+00:27:42.130 --> 00:27:47.105 align:middle line:84%
+in multiplying epsilon
+still give you epsilon.
+
+00:27:47.105 --> 00:27:48.480 align:middle line:84%
+Because it's just
+a small number.
+
+00:27:48.480 --> 00:27:49.230 align:middle line:90%
+It doesn't matter.
+
+00:27:49.230 --> 00:27:55.100 align:middle line:90%
+
+
+00:27:55.100 --> 00:27:57.740 align:middle line:84%
+So now we can write
+this S xt, now
+
+00:27:57.740 --> 00:28:04.970 align:middle line:84%
+we can write the
+S epsilon xt then
+
+00:28:04.970 --> 00:28:09.420 align:middle line:84%
+in the following form
+in the minus 1/2.
+
+00:28:09.420 --> 00:28:13.320 align:middle line:84%
+Let me write as dt, dt
+prime as we wrote before.
+
+00:28:13.320 --> 00:28:21.330 align:middle line:84%
+Then xt Kt, t
+prime and xt prime.
+
+00:28:21.330 --> 00:28:34.300 align:middle line:84%
+And then, Kt, t prime is just
+given by delta t minus t prime,
+
+00:28:34.300 --> 00:28:41.350 align:middle line:84%
+say partial t prime squared
+minus omega 0 squared
+
+00:28:41.350 --> 00:28:48.290 align:middle line:90%
+minus epsilon, or plus, yeah.
+
+00:28:48.290 --> 00:28:53.870 align:middle line:84%
+So, again, we just
+introduce a lot of t prime.
+
+00:28:53.870 --> 00:28:57.360 align:middle line:84%
+And then I introduce
+a delta function.
+
+00:28:57.360 --> 00:29:00.120 align:middle line:90%
+And now we have a matrix form.
+
+00:29:00.120 --> 00:29:02.510 align:middle line:84%
+Now, again, this action
+has a matrix structure.
+
+00:29:02.510 --> 00:29:12.712 align:middle line:90%
+
+
+00:29:12.712 --> 00:29:16.350 align:middle line:84%
+So now, this S
+depend on epsilon.
+
+00:29:16.350 --> 00:29:17.490 align:middle line:90%
+Now S depend on epsilon.
+
+00:29:17.490 --> 00:29:21.770 align:middle line:90%
+
+
+00:29:21.770 --> 00:29:22.270 align:middle line:90%
+Good?
+
+00:29:22.270 --> 00:29:24.850 align:middle line:90%
+
+
+00:29:24.850 --> 00:29:25.350 align:middle line:90%
+OK?
+
+00:29:25.350 --> 00:29:26.280 align:middle line:90%
+Good?
+
+00:29:26.280 --> 00:29:29.370 align:middle line:84%
+So now we can evaluate--
+now we can now ready
+
+00:29:29.370 --> 00:29:33.300 align:middle line:90%
+to evaluate this path integral.
+
+00:29:33.300 --> 00:29:36.777 align:middle line:84%
+Now we are ready to
+evaluate the path integral.
+
+00:29:36.777 --> 00:29:37.860 align:middle line:90%
+So let's first look at Z0.
+
+00:29:37.860 --> 00:29:41.475 align:middle line:90%
+
+
+00:29:41.475 --> 00:29:42.600 align:middle line:90%
+And let's first look at Z0.
+
+00:29:42.600 --> 00:29:49.660 align:middle line:84%
+Z0 is just the Gaussian
+integral we already said before.
+
+00:29:49.660 --> 00:29:57.070 align:middle line:84%
+So the Z0 is the
+Gaussian integral.
+
+00:29:57.070 --> 00:29:59.670 align:middle line:90%
+So I will be schematic.
+
+00:29:59.670 --> 00:30:05.630 align:middle line:90%
+
+
+00:30:05.630 --> 00:30:09.575 align:middle line:90%
+Yeah, this x dot K dot x.
+
+00:30:09.575 --> 00:30:13.961 align:middle line:90%
+
+
+00:30:13.961 --> 00:30:20.400 align:middle line:84%
+So this is a shorthand notation
+to denote this two integral.
+
+00:30:20.400 --> 00:30:23.750 align:middle line:90%
+I think it's positive i.
+
+00:30:23.750 --> 00:30:24.250 align:middle line:90%
+Oh, yeah.
+
+00:30:24.250 --> 00:30:25.150 align:middle line:90%
+Yeah, minus sign.
+
+00:30:25.150 --> 00:30:26.410 align:middle line:90%
+I have a minus sign here.
+
+00:30:26.410 --> 00:30:27.210 align:middle line:90%
+So it's minus i.
+
+00:30:27.210 --> 00:30:28.350 align:middle line:90%
+Yeah.
+
+00:30:28.350 --> 00:30:29.280 align:middle line:90%
+Good?
+
+00:30:29.280 --> 00:30:32.010 align:middle line:84%
+So, and this, as we said
+before, this is just
+
+00:30:32.010 --> 00:30:35.250 align:middle line:84%
+given by some constant
+and determinant
+
+00:30:35.250 --> 00:30:40.133 align:middle line:84%
+K. This is just some
+constant determinant K. Yes?
+
+00:30:40.133 --> 00:30:40.800 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:30:40.800 --> 00:30:42.240 align:middle line:90%
+[INAUDIBLE]
+
+00:30:42.240 --> 00:30:42.840 align:middle line:90%
+PROFESSOR: OK.
+
+00:30:42.840 --> 00:30:45.552 align:middle line:84%
+AUDIENCE: Why did you have
+to go to the Hamiltonian
+
+00:30:45.552 --> 00:30:49.300 align:middle line:90%
+to put that 1 minus i epsilon?
+
+00:30:49.300 --> 00:30:50.110 align:middle line:90%
+PROFESSOR: Right.
+
+00:30:50.110 --> 00:30:53.140 align:middle line:84%
+It's because that's
+our previous rule.
+
+00:30:53.140 --> 00:30:57.220 align:middle line:84%
+Because we say, in
+order to derive this,
+
+00:30:57.220 --> 00:31:00.495 align:middle line:84%
+we use the cheek to
+take the H, go to--
+
+00:31:00.495 --> 00:31:01.910 align:middle line:90%
+yeah, H 1 minus epsilon.
+
+00:31:01.910 --> 00:31:02.410 align:middle line:90%
+Yeah.
+
+00:31:02.410 --> 00:31:05.770 align:middle line:84%
+So we want to know how this
+translate into the behavior
+
+00:31:05.770 --> 00:31:06.430 align:middle line:90%
+in the action.
+
+00:31:06.430 --> 00:31:09.140 align:middle line:90%
+
+
+00:31:09.140 --> 00:31:10.100 align:middle line:90%
+Other questions?
+
+00:31:10.100 --> 00:31:15.730 align:middle line:90%
+
+
+00:31:15.730 --> 00:31:17.510 align:middle line:90%
+Good?
+
+00:31:17.510 --> 00:31:23.030 align:middle line:84%
+So this is just the same
+as we discussed before just
+
+00:31:23.030 --> 00:31:25.850 align:middle line:84%
+given by some constant
+and determinant K.
+
+00:31:25.850 --> 00:31:29.150 align:middle line:84%
+As we said before, that the
+C is typically divergent.
+
+00:31:29.150 --> 00:31:31.580 align:middle line:84%
+Determinant the K, so
+typically divergent.
+
+00:31:31.580 --> 00:31:33.740 align:middle line:84%
+But we will see,
+it doesn't matter.
+
+00:31:33.740 --> 00:31:37.160 align:middle line:84%
+So now we will see, it doesn't--
+so, previously, we said,
+
+00:31:37.160 --> 00:31:38.810 align:middle line:90%
+this will not matter.
+
+00:31:38.810 --> 00:31:42.270 align:middle line:84%
+But now we will
+see it explicitly.
+
+00:31:42.270 --> 00:31:43.460 align:middle line:90%
+So now let's look at the ZJ.
+
+00:31:43.460 --> 00:31:46.190 align:middle line:90%
+
+
+00:31:46.190 --> 00:32:01.750 align:middle line:84%
+So ZJ is the same
+integral, x dot K dot x.
+
+00:32:01.750 --> 00:32:05.110 align:middle line:84%
+But, now, with this
+additional term.
+
+00:32:05.110 --> 00:32:08.130 align:middle line:84%
+So let me just write,
+again, in the simplified
+
+00:32:08.130 --> 00:32:11.100 align:middle line:90%
+notation, as J dot x.
+
+00:32:11.100 --> 00:32:16.490 align:middle line:84%
+So you view the integration as
+a huge sum of vector-- yeah,
+
+00:32:16.490 --> 00:32:17.115 align:middle line:90%
+vector product.
+
+00:32:17.115 --> 00:32:21.420 align:middle line:90%
+
+
+00:32:21.420 --> 00:32:23.430 align:middle line:84%
+So if this is a finite
+dimensional integral,
+
+00:32:23.430 --> 00:32:26.700 align:middle line:90%
+you say, I know how to do this.
+
+00:32:26.700 --> 00:32:32.160 align:middle line:84%
+We know how to do this
+because this is just
+
+00:32:32.160 --> 00:32:37.050 align:middle line:84%
+the Gaussian with
+a linear piece.
+
+00:32:37.050 --> 00:32:41.650 align:middle line:84%
+So we can just write
+down the answer.
+
+00:32:41.650 --> 00:32:46.650 align:middle line:84%
+So let's just-- yeah,
+the rule is that you just
+
+00:32:46.650 --> 00:32:49.440 align:middle line:84%
+treat it as a finite
+dimensional integral
+
+00:32:49.440 --> 00:32:51.840 align:middle line:84%
+and write the answer for the
+finite dimensional integral.
+
+00:32:51.840 --> 00:32:55.530 align:middle line:84%
+And then you
+translate the language
+
+00:32:55.530 --> 00:32:58.050 align:middle line:84%
+in terms of this
+functional case.
+
+00:32:58.050 --> 00:33:00.400 align:middle line:90%
+So we can write it--
+
+00:33:00.400 --> 00:33:04.617 align:middle line:84%
+so, again, this would be C
+divided by delta K. Yeah.
+
+00:33:04.617 --> 00:33:05.700 align:middle line:90%
+So let me just remind you.
+
+00:33:05.700 --> 00:33:08.880 align:middle line:84%
+Maybe just let me just
+do a little bit slower.
+
+00:33:08.880 --> 00:33:12.180 align:middle line:84%
+So let me just remind
+you the standard story
+
+00:33:12.180 --> 00:33:14.040 align:middle line:90%
+for such a Gaussian integral.
+
+00:33:14.040 --> 00:33:21.805 align:middle line:84%
+So if you have dx1, dxn,
+exponential minus 1/2 xi,
+
+00:33:21.805 --> 00:33:27.450 align:middle line:90%
+Aij, xj plus Ji, xi.
+
+00:33:27.450 --> 00:33:31.730 align:middle line:84%
+So if you have an
+integral like this,
+
+00:33:31.730 --> 00:33:33.290 align:middle line:84%
+we know how to
+compute this integral.
+
+00:33:33.290 --> 00:33:34.610 align:middle line:90%
+We can just compute--
+
+00:33:34.610 --> 00:33:39.560 align:middle line:84%
+include the xi into here
+by completing the square.
+
+00:33:39.560 --> 00:33:42.615 align:middle line:84%
+And then, what you
+get is the following.
+
+00:33:42.615 --> 00:33:44.240 align:middle line:84%
+After you complete
+the square, you just
+
+00:33:44.240 --> 00:33:47.400 align:middle line:84%
+get the original
+Gaussian integral.
+
+00:33:47.400 --> 00:33:53.765 align:middle line:84%
+And so, what you get is
+you get the 2 pi D over 2,
+
+00:33:53.765 --> 00:33:56.760 align:middle line:90%
+or your previous case, delta a.
+
+00:33:56.760 --> 00:33:59.810 align:middle line:84%
+And then, the results you get
+from the complete integral
+
+00:33:59.810 --> 00:34:05.788 align:middle line:90%
+is Ji A minus 1 Ij, Jj.
+
+00:34:05.788 --> 00:34:08.330 align:middle line:84%
+So when you complete the square,
+you get the additional term.
+
+00:34:08.330 --> 00:34:09.267 align:middle line:90%
+That's what you get.
+
+00:34:09.267 --> 00:34:11.434 align:middle line:84%
+And this is coming from
+doing the Gaussian integral.
+
+00:34:11.434 --> 00:34:14.135 align:middle line:90%
+
+
+00:34:14.135 --> 00:34:16.260 align:middle line:84%
+So now we just have an
+infinite dimensional version
+
+00:34:16.260 --> 00:34:18.100 align:middle line:90%
+of this integral.
+
+00:34:18.100 --> 00:34:22.500 align:middle line:84%
+And we can just write down
+the result immediately.
+
+00:34:22.500 --> 00:34:24.929 align:middle line:84%
+We can just write down
+the result immediately.
+
+00:34:24.929 --> 00:34:29.350 align:middle line:90%
+So we just copy that thing.
+
+00:34:29.350 --> 00:34:33.960 align:middle line:84%
+So we have C. So this C will be
+the exact the same as that C,
+
+00:34:33.960 --> 00:34:38.370 align:middle line:84%
+because this just comes from
+doing a Gaussian integral as
+
+00:34:38.370 --> 00:34:41.540 align:middle line:90%
+if J is not there.
+
+00:34:41.540 --> 00:34:46.120 align:middle line:84%
+So we have the same C.
+We have the same delta k.
+
+00:34:46.120 --> 00:34:50.530 align:middle line:84%
+Then, according to the
+rule there, up to the i,
+
+00:34:50.530 --> 00:34:54.850 align:middle line:84%
+which is you have to put
+in, then we get 1/2 i.
+
+00:34:54.850 --> 00:34:59.320 align:middle line:84%
+Then you have-- then we
+should have J k minus 1
+
+00:34:59.320 --> 00:35:03.220 align:middle line:90%
+J. So this is essentially that.
+
+00:35:03.220 --> 00:35:08.060 align:middle line:84%
+You take the inverse of
+A. So here we get that.
+
+00:35:08.060 --> 00:35:12.490 align:middle line:84%
+And this, if we translate back
+into this kind of function
+
+00:35:12.490 --> 00:35:21.040 align:middle line:84%
+language, so this just gives
+you C delta K exponential i
+
+00:35:21.040 --> 00:35:22.540 align:middle line:90%
+divided by 2.
+
+00:35:22.540 --> 00:35:25.570 align:middle line:90%
+Then you have dt, dt prime.
+
+00:35:25.570 --> 00:35:32.370 align:middle line:84%
+Then you have Jt, K minus
+1, t, again, t prime.
+
+00:35:32.370 --> 00:35:34.710 align:middle line:84%
+So K minus 1 should be
+understood as the inverse
+
+00:35:34.710 --> 00:35:37.770 align:middle line:90%
+of this K and Jt prime.
+
+00:35:37.770 --> 00:35:48.900 align:middle line:90%
+
+
+00:35:48.900 --> 00:35:53.630 align:middle line:84%
+So the K minus 1 is
+defined as follows.
+
+00:35:53.630 --> 00:35:56.290 align:middle line:90%
+So the K is--
+
+00:35:56.290 --> 00:35:58.750 align:middle line:84%
+so you just, again, is the
+function generalization
+
+00:35:58.750 --> 00:36:01.420 align:middle line:90%
+of the matrix case.
+
+00:36:01.420 --> 00:36:06.190 align:middle line:84%
+So you just have t
+prime, K, t, t prime,
+
+00:36:06.190 --> 00:36:10.330 align:middle line:84%
+and K minus 1, t
+prime, t double prime
+
+00:36:10.330 --> 00:36:14.230 align:middle line:84%
+should be equal to delta
+t minus t double prime.
+
+00:36:14.230 --> 00:36:17.860 align:middle line:84%
+So that's how you
+define the K, K minus 1.
+
+00:36:17.860 --> 00:36:19.720 align:middle line:84%
+And this is like
+a matrix product.
+
+00:36:19.720 --> 00:36:23.020 align:middle line:90%
+Just now you treat the t prime--
+
+00:36:23.020 --> 00:36:26.920 align:middle line:84%
+yeah, t prime, you sum
+over that, and then, yeah.
+
+00:36:26.920 --> 00:36:33.400 align:middle line:84%
+So this is just like you
+have kmn, k minus n, and k
+
+00:36:33.400 --> 00:36:35.500 align:middle line:90%
+equal to delta mk.
+
+00:36:35.500 --> 00:36:38.230 align:middle line:84%
+You just translate the
+n into the integral.
+
+00:36:38.230 --> 00:36:41.230 align:middle line:90%
+And the t is corresponding to m.
+
+00:36:41.230 --> 00:36:43.720 align:middle line:84%
+And the t double prime
+corresponding to K.
+
+00:36:43.720 --> 00:36:45.640 align:middle line:84%
+And the delta function
+corresponding to that.
+
+00:36:45.640 --> 00:36:48.210 align:middle line:90%
+
+
+00:36:48.210 --> 00:36:50.700 align:middle line:84%
+So that's how we
+define the K minus 1.
+
+00:36:50.700 --> 00:36:59.120 align:middle line:84%
+And so, this is
+the result for ZJ.
+
+00:36:59.120 --> 00:37:04.680 align:middle line:90%
+
+
+00:37:04.680 --> 00:37:07.950 align:middle line:84%
+So, now, the physical
+object is this object
+
+00:37:07.950 --> 00:37:10.650 align:middle line:90%
+is the DJ divided by Z0.
+
+00:37:10.650 --> 00:37:12.460 align:middle line:84%
+Because you get the
+expectation value,
+
+00:37:12.460 --> 00:37:15.780 align:middle line:90%
+we always need to divide by Z0.
+
+00:37:15.780 --> 00:37:21.000 align:middle line:84%
+So now, if we take the ratio,
+so now I can erase this.
+
+00:37:21.000 --> 00:37:29.780 align:middle line:84%
+So if we take the
+ratio, ZJ divided by Z0,
+
+00:37:29.780 --> 00:37:32.660 align:middle line:84%
+we find all these
+factor canceled.
+
+00:37:32.660 --> 00:37:36.060 align:middle line:84%
+So this factor cancels
+with that factor.
+
+00:37:36.060 --> 00:37:38.010 align:middle line:90%
+So it doesn't matter.
+
+00:37:38.010 --> 00:37:39.620 align:middle line:90%
+So we just get exponential.
+
+00:37:39.620 --> 00:37:46.105 align:middle line:84%
+So, let me, again, using this
+shorthand notation, i over 2,
+
+00:37:46.105 --> 00:37:55.070 align:middle line:84%
+J K minus 1 J. So this
+is the physical quantity.
+
+00:37:55.070 --> 00:37:58.590 align:middle line:90%
+
+
+00:37:58.590 --> 00:38:02.010 align:middle line:84%
+And when we expand
+this in powers of J,
+
+00:38:02.010 --> 00:38:04.920 align:middle line:84%
+then we get the correlation--
+then the coefficient of J
+
+00:38:04.920 --> 00:38:06.480 align:middle line:90%
+give you correlation functions.
+
+00:38:06.480 --> 00:38:08.010 align:middle line:90%
+Or we can just take derivatives.
+
+00:38:08.010 --> 00:38:08.910 align:middle line:90%
+Yes.
+
+00:38:08.910 --> 00:38:12.688 align:middle line:84%
+AUDIENCE: Yeah, so last time
+I thought you said the C
+
+00:38:12.688 --> 00:38:15.080 align:middle line:84%
+and the determinant
+of K can be infinite.
+
+00:38:15.080 --> 00:38:18.654 align:middle line:84%
+So is it OK to divide infinity
+by infinity and just say it's 1
+
+00:38:18.654 --> 00:38:20.100 align:middle line:90%
+in this case?
+
+00:38:20.100 --> 00:38:23.280 align:middle line:84%
+PROFESSOR: No, it's not one,
+because they are actually--
+
+00:38:23.280 --> 00:38:27.300 align:middle line:84%
+yeah, as you do
+in your Pset, say,
+
+00:38:27.300 --> 00:38:34.410 align:middle line:84%
+if you have a free particle,
+that ratio is actually--
+
+00:38:34.410 --> 00:38:36.270 align:middle line:84%
+you can calculate to
+be a finite number.
+
+00:38:36.270 --> 00:38:37.170 align:middle line:90%
+AUDIENCE: Oh.
+
+00:38:37.170 --> 00:38:39.240 align:middle line:84%
+PROFESSOR: Even though
+their ratio is actually,
+
+00:38:39.240 --> 00:38:40.770 align:middle line:90%
+both are infinite.
+
+00:38:40.770 --> 00:38:44.750 align:middle line:84%
+But the ratio is
+actually a finite number.
+
+00:38:44.750 --> 00:38:45.250 align:middle line:90%
+Yeah.
+
+00:38:45.250 --> 00:38:47.380 align:middle line:84%
+Yeah, same thing with
+the harmonic oscillator.
+
+00:38:47.380 --> 00:38:48.198 align:middle line:90%
+Yeah.
+
+00:38:48.198 --> 00:38:49.990 align:middle line:84%
+Yeah, but the key thing
+is that we actually
+
+00:38:49.990 --> 00:38:51.350 align:middle line:90%
+don't need to worry about them.
+
+00:38:51.350 --> 00:38:52.910 align:middle line:90%
+They just cancel.
+
+00:38:52.910 --> 00:38:53.410 align:middle line:90%
+Yeah.
+
+00:38:53.410 --> 00:38:57.830 align:middle line:90%
+
+
+00:38:57.830 --> 00:38:58.790 align:middle line:90%
+Other questions?
+
+00:38:58.790 --> 00:39:04.390 align:middle line:90%
+
+
+00:39:04.390 --> 00:39:11.200 align:middle line:84%
+So now, this is our final result
+for the harmonic oscillator.
+
+00:39:11.200 --> 00:39:17.630 align:middle line:84%
+And except we still
+have to invert this K.
+
+00:39:17.630 --> 00:39:25.430 align:middle line:84%
+We still have to invert
+this K. But, in fact--
+
+00:39:25.430 --> 00:39:30.120 align:middle line:90%
+
+
+00:39:30.120 --> 00:39:35.040 align:middle line:84%
+but, before we do that, first
+we can see what is this--
+
+00:39:35.040 --> 00:39:37.110 align:middle line:84%
+whether there's any
+physical interpretation
+
+00:39:37.110 --> 00:39:38.400 align:middle line:90%
+for this K minus 1.
+
+00:39:38.400 --> 00:39:41.220 align:middle line:90%
+
+
+00:39:41.220 --> 00:39:44.980 align:middle line:84%
+So let's just consider
+the following situation.
+
+00:39:44.980 --> 00:39:47.950 align:middle line:84%
+So let's consider a
+two-point function.
+
+00:39:47.950 --> 00:39:50.490 align:middle line:84%
+So, first, from here,
+you can immediately see,
+
+00:39:50.490 --> 00:39:55.780 align:middle line:84%
+the one-point function is
+given by what, the vacuum
+
+00:39:55.780 --> 00:39:59.690 align:middle line:90%
+one-point function of x?
+
+00:39:59.690 --> 00:40:04.940 align:middle line:84%
+So can you see what is the
+vacuum one-point function for x
+
+00:40:04.940 --> 00:40:08.460 align:middle line:90%
+without doing calculation?
+
+00:40:08.460 --> 00:40:09.820 align:middle line:90%
+AUDIENCE: 0?
+
+00:40:09.820 --> 00:40:12.010 align:middle line:90%
+PROFESSOR: Yes, 0.
+
+00:40:12.010 --> 00:40:14.260 align:middle line:84%
+So the reason it's 0,
+it says because if you
+
+00:40:14.260 --> 00:40:17.590 align:middle line:84%
+get one-point function, you
+take one derivative with J.
+
+00:40:17.590 --> 00:40:20.230 align:middle line:84%
+So when you take one derivative
+is J, because of here,
+
+00:40:20.230 --> 00:40:21.880 align:middle line:90%
+it's J square.
+
+00:40:21.880 --> 00:40:24.460 align:middle line:84%
+You will bring
+down a factor of J.
+
+00:40:24.460 --> 00:40:30.100 align:middle line:84%
+Then, when you set the J equal
+to 0, and then that will be 0.
+
+00:40:30.100 --> 00:40:32.410 align:middle line:84%
+So the one-point function
+automatically is 0.
+
+00:40:32.410 --> 00:40:34.600 align:middle line:84%
+And that's consistent
+with our expectation.
+
+00:40:34.600 --> 00:40:36.970 align:middle line:84%
+In the harmonic oscillator,
+the one-point function of x
+
+00:40:36.970 --> 00:40:41.980 align:middle line:84%
+is always 0 because x
+involve a or a dagger.
+
+00:40:41.980 --> 00:40:45.400 align:middle line:84%
+When you sandwiched between
+two zeros, it's just 0.
+
+00:40:45.400 --> 00:40:47.800 align:middle line:84%
+But now, so notice,
+the non-vanishing one
+
+00:40:47.800 --> 00:40:49.190 align:middle line:90%
+is the two-point function.
+
+00:40:49.190 --> 00:40:51.650 align:middle line:84%
+So now let's consider
+the two-point function.
+
+00:40:51.650 --> 00:40:54.100 align:middle line:84%
+So two-point function
+by definition
+
+00:40:54.100 --> 00:40:59.030 align:middle line:84%
+should be the Feynman
+function because this
+
+00:40:59.030 --> 00:41:02.120 align:middle line:90%
+is a time-ordered product.
+
+00:41:02.120 --> 00:41:04.770 align:middle line:84%
+So the two-point
+function, by definition,
+
+00:41:04.770 --> 00:41:05.970 align:middle line:90%
+is the Feynman function.
+
+00:41:05.970 --> 00:41:06.820 align:middle line:90%
+It's the G2.
+
+00:41:06.820 --> 00:41:09.710 align:middle line:90%
+
+
+00:41:09.710 --> 00:41:13.880 align:middle line:84%
+And so, this is given
+by just this expand--
+
+00:41:13.880 --> 00:41:19.550 align:middle line:90%
+yeah, just 1 over Z0 i square.
+
+00:41:19.550 --> 00:41:23.930 align:middle line:90%
+You take ZJ, two derivatives.
+
+00:41:23.930 --> 00:41:26.600 align:middle line:90%
+
+
+00:41:26.600 --> 00:41:32.165 align:middle line:84%
+delta Jt, delta Jt prime, and
+then you take J equal to 0.
+
+00:41:32.165 --> 00:41:40.430 align:middle line:90%
+
+
+00:41:40.430 --> 00:41:41.675 align:middle line:90%
+So the-- yeah.
+
+00:41:41.675 --> 00:41:44.300 align:middle line:84%
+So the two-point function is a
+Feynman propagator [INAUDIBLE]..
+
+00:41:44.300 --> 00:41:45.360 align:middle line:90%
+
+
+00:41:45.360 --> 00:41:47.570 align:middle line:84%
+So, here, we can just see
+what we get from here.
+
+00:41:47.570 --> 00:41:50.200 align:middle line:90%
+
+
+00:41:50.200 --> 00:41:54.940 align:middle line:84%
+So when you take two
+derivatives on this,
+
+00:41:54.940 --> 00:41:57.380 align:middle line:84%
+you take two
+derivative on J again.
+
+00:41:57.380 --> 00:41:59.590 align:middle line:84%
+So the first derivative
+on J you bring down
+
+00:41:59.590 --> 00:42:03.720 align:middle line:84%
+a factor of K times J. And
+your second derivative,
+
+00:42:03.720 --> 00:42:05.020 align:middle line:90%
+we can do two things.
+
+00:42:05.020 --> 00:42:06.900 align:middle line:84%
+You can act on the
+exponential again.
+
+00:42:06.900 --> 00:42:09.900 align:middle line:84%
+And then you can act-- or
+you can act on the J factor
+
+00:42:09.900 --> 00:42:11.400 align:middle line:84%
+which you bring
+down the first time.
+
+00:42:11.400 --> 00:42:13.970 align:middle line:90%
+
+
+00:42:13.970 --> 00:42:15.470 align:middle line:84%
+But you have to
+act on the factor
+
+00:42:15.470 --> 00:42:18.770 align:middle line:84%
+of J you bring the first time,
+because you have any free J
+
+00:42:18.770 --> 00:42:19.670 align:middle line:90%
+left.
+
+00:42:19.670 --> 00:42:23.240 align:middle line:84%
+And when you set J equal to
+0, there will be equal to 0.
+
+00:42:23.240 --> 00:42:24.800 align:middle line:84%
+So the both
+derivative should act
+
+00:42:24.800 --> 00:42:27.980 align:middle line:90%
+on this J, which come together.
+
+00:42:27.980 --> 00:42:34.770 align:middle line:84%
+So, here, then you get minus i,
+essentially, K minus 1 t and t
+
+00:42:34.770 --> 00:42:35.850 align:middle line:90%
+prime.
+
+00:42:35.850 --> 00:42:42.780 align:middle line:84%
+Just take these two derivatives,
+then you get K minus 1.
+
+00:42:42.780 --> 00:42:50.480 align:middle line:84%
+So now, we learned something
+nice is that this K minus 1,
+
+00:42:50.480 --> 00:42:53.090 align:middle line:84%
+it's actually the
+Feynman propagator.
+
+00:42:53.090 --> 00:42:55.790 align:middle line:84%
+We discussed before, the Feynman
+function, we discussed before.
+
+00:42:55.790 --> 00:42:59.090 align:middle line:90%
+
+
+00:42:59.090 --> 00:43:02.000 align:middle line:84%
+Yeah, the harmonic oscillator
+version of the Feynman
+
+00:43:02.000 --> 00:43:03.170 align:middle line:90%
+function.
+
+00:43:03.170 --> 00:43:06.240 align:middle line:84%
+So, previously, we defined
+for the field theory.
+
+00:43:06.240 --> 00:43:08.540 align:middle line:84%
+So this is the harmonic
+oscillator version
+
+00:43:08.540 --> 00:43:09.665 align:middle line:90%
+of the Feynman function.
+
+00:43:09.665 --> 00:43:15.350 align:middle line:90%
+
+
+00:43:15.350 --> 00:43:23.590 align:middle line:84%
+So we find that K minus 1 t,
+t prime is just equal to--
+
+00:43:23.590 --> 00:43:26.560 align:middle line:90%
+actually, i GF t, t prime.
+
+00:43:26.560 --> 00:43:29.290 align:middle line:90%
+
+
+00:43:29.290 --> 00:43:31.040 align:middle line:84%
+So you find that this
+is just given by GF.
+
+00:43:31.040 --> 00:43:38.620 align:middle line:90%
+
+
+00:43:38.620 --> 00:43:48.130 align:middle line:84%
+So, and then, we learned
+that the ZJ divided by Z0
+
+00:43:48.130 --> 00:44:10.100 align:middle line:84%
+is just equal to exponential
+now minus 1/2 J GF J.
+
+00:44:10.100 --> 00:44:11.480 align:middle line:90%
+So now, it's just GF.
+
+00:44:11.480 --> 00:44:13.850 align:middle line:84%
+It's just everything
+determined by this GF.
+
+00:44:13.850 --> 00:44:16.980 align:middle line:90%
+
+
+00:44:16.980 --> 00:44:21.000 align:middle line:84%
+So now we have a
+consistency check.
+
+00:44:21.000 --> 00:44:25.370 align:middle line:84%
+Now we have a consistency
+check because, previously, we
+
+00:44:25.370 --> 00:44:29.300 align:middle line:84%
+have discussed that
+the GF should satisfy
+
+00:44:29.300 --> 00:44:32.120 align:middle line:90%
+certain differential equation.
+
+00:44:32.120 --> 00:44:36.470 align:middle line:84%
+And here we have a
+differential equation for K.
+
+00:44:36.470 --> 00:44:40.010 align:middle line:84%
+So K minus 1 also satisfy
+a differential equation.
+
+00:44:40.010 --> 00:44:44.120 align:middle line:90%
+It just satisfy this equation.
+
+00:44:44.120 --> 00:44:50.780 align:middle line:84%
+And so, now, if you plug
+in there and into here,
+
+00:44:50.780 --> 00:44:55.920 align:middle line:84%
+OK if by definition,
+so from this equation.
+
+00:44:55.920 --> 00:45:03.770 align:middle line:84%
+So let me call this
+equation star, star, star,
+
+00:45:03.770 --> 00:45:05.000 align:middle line:90%
+and this equation star.
+
+00:45:05.000 --> 00:45:09.160 align:middle line:90%
+
+
+00:45:09.160 --> 00:45:19.080 align:middle line:84%
+So from equation
+star and star, star,
+
+00:45:19.080 --> 00:45:24.840 align:middle line:84%
+and we find that K
+minus 1 should satisfy
+
+00:45:24.840 --> 00:45:34.390 align:middle line:84%
+the following equation
+of the partial t squared
+
+00:45:34.390 --> 00:45:41.770 align:middle line:84%
+minus omega 0 squared plus
+omega 0 minus i epsilon GF.
+
+00:45:41.770 --> 00:45:42.940 align:middle line:90%
+Yeah.
+
+00:45:42.940 --> 00:45:53.070 align:middle line:84%
+K minus 1 should be equal to
+the delta t minus t prime.
+
+00:45:53.070 --> 00:45:55.080 align:middle line:84%
+So let me just make sure
+I get the sign correct.
+
+00:45:55.080 --> 00:45:58.810 align:middle line:90%
+
+
+00:45:58.810 --> 00:46:00.500 align:middle line:90%
+Yeah.
+
+00:46:00.500 --> 00:46:02.630 align:middle line:90%
+So, yeah.
+
+00:46:02.630 --> 00:46:06.430 align:middle line:90%
+Yeah, I think this is right.
+
+00:46:06.430 --> 00:46:10.390 align:middle line:84%
+And now, if you plug
+in this expression,
+
+00:46:10.390 --> 00:46:13.060 align:middle line:84%
+and then you find that this
+equation is actually exactly
+
+00:46:13.060 --> 00:46:16.180 align:middle line:84%
+our definition of the
+Feynman propagator before.
+
+00:46:16.180 --> 00:46:18.250 align:middle line:84%
+Here we don't have
+spatial derivatives.
+
+00:46:18.250 --> 00:46:22.690 align:middle line:84%
+But if you look at it, in
+particular this i epsilon is
+
+00:46:22.690 --> 00:46:24.430 align:middle line:84%
+precisely the i
+epsilon previously we
+
+00:46:24.430 --> 00:46:27.580 align:middle line:84%
+need to use to define
+the Feynman propagator.
+
+00:46:27.580 --> 00:46:30.790 align:middle line:84%
+And now we find that the
+epsilon prescription, which
+
+00:46:30.790 --> 00:46:35.440 align:middle line:84%
+we previously used as a trick
+to define the Feynman propagator
+
+00:46:35.440 --> 00:46:38.860 align:middle line:84%
+is actually recovered
+by this procedure--
+
+00:46:38.860 --> 00:46:42.603 align:middle line:84%
+recovered by that procedure
+of H goes to, yeah, 1
+
+00:46:42.603 --> 00:46:43.270 align:middle line:90%
+minus i epsilon.
+
+00:46:43.270 --> 00:46:46.290 align:middle line:90%
+
+
+00:46:46.290 --> 00:46:47.940 align:middle line:90%
+Just everything is consistent.
+
+00:46:47.940 --> 00:46:50.700 align:middle line:84%
+Just now you precisely
+recover that procedure.
+
+00:46:50.700 --> 00:46:53.780 align:middle line:90%
+
+
+00:46:53.780 --> 00:46:55.100 align:middle line:90%
+Any questions on this?
+
+00:46:55.100 --> 00:47:06.190 align:middle line:90%
+
+
+00:47:06.190 --> 00:47:07.120 align:middle line:90%
+Yes.
+
+00:47:07.120 --> 00:47:09.287 align:middle line:84%
+AUDIENCE: So I guess in
+that expression right there.
+
+00:47:09.287 --> 00:47:10.420 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:47:10.420 --> 00:47:12.670 align:middle line:84%
+AUDIENCE: If J is a function,
+if you just integrate it
+
+00:47:12.670 --> 00:47:14.560 align:middle line:90%
+over t and t prime?
+
+00:47:14.560 --> 00:47:16.510 align:middle line:84%
+Exponential negative
+1/2 J dot GF dot J?
+
+00:47:16.510 --> 00:47:18.255 align:middle line:84%
+PROFESSOR: Oh, you
+mean this expansion?
+
+00:47:18.255 --> 00:47:18.880 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:47:18.880 --> 00:47:19.840 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:47:19.840 --> 00:47:23.422 align:middle line:84%
+So if I write it explicitly,
+you just have, yeah.
+
+00:47:23.422 --> 00:47:24.880 align:middle line:84%
+Let me write it
+explicit since this
+
+00:47:24.880 --> 00:47:26.380 align:middle line:90%
+is a very important equation.
+
+00:47:26.380 --> 00:47:35.620 align:middle line:84%
+Yeah, so this is just dt, dt
+prime, Jt, GF, t, t prime,
+
+00:47:35.620 --> 00:47:37.510 align:middle line:90%
+and Jt prime.
+
+00:47:37.510 --> 00:47:39.470 align:middle line:90%
+Yeah.
+
+00:47:39.470 --> 00:47:39.970 align:middle line:90%
+Good.
+
+00:47:39.970 --> 00:47:45.540 align:middle line:90%
+
+
+00:47:45.540 --> 00:47:48.270 align:middle line:90%
+So this is all consistent.
+
+00:47:48.270 --> 00:47:53.700 align:middle line:84%
+So this i epsilon prescription,
+which we did here,
+
+00:47:53.700 --> 00:47:56.130 align:middle line:84%
+automatically recovers
+the i epsilon prescription
+
+00:47:56.130 --> 00:47:59.950 align:middle line:84%
+in the definition of the Feynman
+function we defined before.
+
+00:47:59.950 --> 00:48:04.100 align:middle line:90%
+So it's very nice.
+
+00:48:04.100 --> 00:48:08.960 align:middle line:84%
+And, in particular, so
+in momentum space, if you
+
+00:48:08.960 --> 00:48:11.780 align:middle line:84%
+find the momentum
+space, GF omega,
+
+00:48:11.780 --> 00:48:14.480 align:middle line:84%
+if you go to the momentum
+space, and then you
+
+00:48:14.480 --> 00:48:18.395 align:middle line:84%
+find just equal to i
+omega squared minus omega
+
+00:48:18.395 --> 00:48:21.320 align:middle line:90%
+0 squared plus i epsilon.
+
+00:48:21.320 --> 00:48:23.660 align:middle line:84%
+So you see this is
+actually the previous.
+
+00:48:23.660 --> 00:48:27.050 align:middle line:84%
+So if you compare with
+our previous expression
+
+00:48:27.050 --> 00:48:31.580 align:middle line:84%
+for the Feynman function,
+when you set k square to 0
+
+00:48:31.580 --> 00:48:35.120 align:middle line:84%
+and replace the omega
+0 square by m square,
+
+00:48:35.120 --> 00:48:37.940 align:middle line:84%
+then that's exactly the
+one we derived before.
+
+00:48:37.940 --> 00:48:46.395 align:middle line:90%
+
+
+00:48:46.395 --> 00:48:46.895 align:middle line:90%
+Good.
+
+00:48:46.895 --> 00:48:50.040 align:middle line:90%
+
+
+00:48:50.040 --> 00:48:54.670 align:middle line:84%
+So now we can try to find
+the n-point functions.
+
+00:48:54.670 --> 00:48:57.000 align:middle line:84%
+So now we can work out
+the all n-point functions.
+
+00:48:57.000 --> 00:49:04.030 align:middle line:90%
+
+
+00:49:04.030 --> 00:49:08.980 align:middle line:84%
+So now you can
+immediately conclude
+
+00:49:08.980 --> 00:49:17.650 align:middle line:84%
+from the way we do the
+one-point function that all
+
+00:49:17.650 --> 00:49:26.830 align:middle line:84%
+n-point functions, so general
+n for general odd n Gn
+
+00:49:26.830 --> 00:49:30.200 align:middle line:90%
+is always 0.
+
+00:49:30.200 --> 00:49:32.770 align:middle line:90%
+Gn is always 0.
+
+00:49:32.770 --> 00:49:34.510 align:middle line:90%
+So the reason is the following.
+
+00:49:34.510 --> 00:49:37.150 align:middle line:90%
+
+
+00:49:37.150 --> 00:49:44.490 align:middle line:84%
+When we carry out this procedure
+to take the derivatives,
+
+00:49:44.490 --> 00:49:48.175 align:middle line:84%
+so because the J is always
+paired in this exponential.
+
+00:49:48.175 --> 00:49:49.800 align:middle line:84%
+So when you take one
+derivative, you're
+
+00:49:49.800 --> 00:49:53.490 align:middle line:84%
+bringing down another J.
+So because, in the end,
+
+00:49:53.490 --> 00:49:54.500 align:middle line:90%
+we set J equal to 0.
+
+00:49:54.500 --> 00:49:58.940 align:middle line:84%
+So you have to get rid of all
+these J which you bring down
+
+00:49:58.940 --> 00:50:00.800 align:middle line:90%
+from the exponential.
+
+00:50:00.800 --> 00:50:04.710 align:middle line:84%
+And then that means,
+n has to be even.
+
+00:50:04.710 --> 00:50:07.660 align:middle line:84%
+So if n is odd, then
+there's always one J left.
+
+00:50:07.660 --> 00:50:11.420 align:middle line:84%
+And when you set J equal
+to 0, and then will be 0.
+
+00:50:11.420 --> 00:50:13.910 align:middle line:84%
+So this is also consistent
+with your experience
+
+00:50:13.910 --> 00:50:16.940 align:middle line:84%
+from harmonic oscillator
+because, in the harmonic
+
+00:50:16.940 --> 00:50:19.880 align:middle line:84%
+oscillator, if you have
+all the number of x, then
+
+00:50:19.880 --> 00:50:22.970 align:middle line:84%
+you have all the number
+of a and a dagger.
+
+00:50:22.970 --> 00:50:25.970 align:middle line:84%
+If you have all the number
+of a and a dagger together,
+
+00:50:25.970 --> 00:50:28.370 align:middle line:84%
+there's no way when they're
+sandwiched between 0
+
+00:50:28.370 --> 00:50:32.750 align:middle line:84%
+and they can annihilate each
+other, and you will-- yeah.
+
+00:50:32.750 --> 00:50:35.390 align:middle line:90%
+So you will always get 0.
+
+00:50:35.390 --> 00:50:39.080 align:middle line:90%
+And so, here, we get it.
+
+00:50:39.080 --> 00:50:39.830 align:middle line:90%
+Yeah.
+
+00:50:39.830 --> 00:50:47.105 align:middle line:84%
+So now, for the even n,
+there's also a simple answer.
+
+00:50:47.105 --> 00:50:50.180 align:middle line:90%
+
+
+00:50:50.180 --> 00:50:53.980 align:middle line:90%
+If I have an n-point function--
+
+00:50:53.980 --> 00:51:00.190 align:middle line:84%
+so let me just write down
+Gn, say equal to 0 to t,
+
+00:51:00.190 --> 00:51:06.850 align:middle line:90%
+say x hat t1, tn.
+
+00:51:06.850 --> 00:51:14.850 align:middle line:84%
+So for even n, then
+you see that, again,
+
+00:51:14.850 --> 00:51:17.160 align:middle line:84%
+because in order for
+this not to be 0,
+
+00:51:17.160 --> 00:51:20.730 align:middle line:90%
+then all the x has to be paired.
+
+00:51:20.730 --> 00:51:22.770 align:middle line:90%
+Then all the x has to be paired.
+
+00:51:22.770 --> 00:51:25.020 align:middle line:90%
+So, in this case, we just sum--
+
+00:51:25.020 --> 00:51:27.810 align:middle line:90%
+
+
+00:51:27.810 --> 00:51:36.380 align:middle line:84%
+so, in this case, the answer
+is just sum over all possible
+
+00:51:36.380 --> 00:51:46.760 align:middle line:90%
+contractions between x ti's.
+
+00:51:46.760 --> 00:51:53.960 align:middle line:84%
+So by contraction we
+mean, so if I have xti,
+
+00:51:53.960 --> 00:51:58.980 align:middle line:84%
+xtj, we say there's a
+contraction between them.
+
+00:51:58.980 --> 00:52:04.940 align:middle line:84%
+And so, that's just
+defined to be GF xi xj.
+
+00:52:04.940 --> 00:52:07.980 align:middle line:90%
+
+
+00:52:07.980 --> 00:52:09.060 align:middle line:90%
+Oh, no. ti, tj.
+
+00:52:09.060 --> 00:52:13.410 align:middle line:90%
+
+
+00:52:13.410 --> 00:52:16.570 align:middle line:90%
+So you just pair all of them.
+
+00:52:16.570 --> 00:52:18.160 align:middle line:90%
+So each pair is a contraction.
+
+00:52:18.160 --> 00:52:21.700 align:middle line:84%
+You just sum over all possible
+contractions, pair of them,
+
+00:52:21.700 --> 00:52:25.930 align:middle line:84%
+and each pairing gives
+you a Feynman function.
+
+00:52:25.930 --> 00:52:28.310 align:middle line:84%
+So each pairing gives
+you a Feynman function.
+
+00:52:28.310 --> 00:52:34.600 align:middle line:84%
+And so, this is actually, in
+the early days of quantum field
+
+00:52:34.600 --> 00:52:41.180 align:middle line:84%
+theory when you don't have
+a path integral, to show
+
+00:52:41.180 --> 00:52:42.470 align:middle line:90%
+this is actually non-trivial.
+
+00:52:42.470 --> 00:52:46.850 align:middle line:84%
+Because imagine if you do
+this time ordered product.
+
+00:52:46.850 --> 00:52:49.053 align:middle line:90%
+There are many, many pieces.
+
+00:52:49.053 --> 00:52:50.720 align:middle line:84%
+Because if you have
+an n-point function,
+
+00:52:50.720 --> 00:52:52.803 align:middle line:84%
+then you have to write
+down all possible orderings
+
+00:52:52.803 --> 00:52:54.380 align:middle line:90%
+between them.
+
+00:52:54.380 --> 00:52:56.840 align:middle line:84%
+But, in the end, it's
+a very simple result.
+
+00:52:56.840 --> 00:52:58.910 align:middle line:84%
+You just sum of all
+possible contractions.
+
+00:52:58.910 --> 00:53:03.260 align:middle line:84%
+And each pair is
+the time ordered.
+
+00:53:03.260 --> 00:53:06.740 align:middle line:84%
+And so, these the early
+days without path integral
+
+00:53:06.740 --> 00:53:09.690 align:middle line:84%
+is actually a highly
+non-trivial result.
+
+00:53:09.690 --> 00:53:12.600 align:middle line:84%
+And so, this was
+first proved by Wick.
+
+00:53:12.600 --> 00:53:15.800 align:middle line:84%
+So this is called
+the Wick theorem.
+
+00:53:15.800 --> 00:53:18.410 align:middle line:84%
+But now, we see, it's actually,
+if you know the path integral,
+
+00:53:18.410 --> 00:53:21.030 align:middle line:84%
+then it's a trivial
+consequence of that.
+
+00:53:21.030 --> 00:53:23.480 align:middle line:84%
+The path integral is
+actually quadratic in J.
+
+00:53:23.480 --> 00:53:25.220 align:middle line:90%
+It's quadratic in J.
+
+00:53:25.220 --> 00:53:26.960 align:middle line:84%
+So, yeah, so give
+you an example.
+
+00:53:26.960 --> 00:53:30.180 align:middle line:90%
+
+
+00:53:30.180 --> 00:53:32.000 align:middle line:84%
+So let's look at
+four-point functions.
+
+00:53:32.000 --> 00:54:03.830 align:middle line:90%
+
+
+00:54:03.830 --> 00:54:05.620 align:middle line:84%
+So if you look at
+four-point functions.
+
+00:54:05.620 --> 00:54:13.273 align:middle line:90%
+
+
+00:54:13.273 --> 00:54:15.190 align:middle line:84%
+So I don't even have to
+write that thing down.
+
+00:54:15.190 --> 00:54:19.120 align:middle line:84%
+Let's just draw four dots
+below to the four points.
+
+00:54:19.120 --> 00:54:22.180 align:middle line:90%
+
+
+00:54:22.180 --> 00:54:25.240 align:middle line:84%
+And then, I just sum over
+all pairing between them.
+
+00:54:25.240 --> 00:54:28.870 align:middle line:84%
+And each pairing will give
+me a Feynman propagator.
+
+00:54:28.870 --> 00:54:34.990 align:middle line:84%
+So 1, I compare 1
+and a 2 or 3 and 4.
+
+00:54:34.990 --> 00:54:42.250 align:middle line:84%
+And I can also pair
+1 and 3 and 2 and 4.
+
+00:54:42.250 --> 00:54:50.400 align:middle line:84%
+And I can also pair 1
+with 4 and the 2 with 3.
+
+00:54:50.400 --> 00:54:56.935 align:middle line:90%
+
+
+00:54:56.935 --> 00:55:00.500 align:middle line:90%
+Oh, 2-- 2 is here.
+
+00:55:00.500 --> 00:55:01.420 align:middle line:90%
+So 2 with 3.
+
+00:55:01.420 --> 00:55:04.270 align:middle line:90%
+I can also do that pairing.
+
+00:55:04.270 --> 00:55:08.200 align:middle line:84%
+And so, if I write it in
+terms of the expressions,
+
+00:55:08.200 --> 00:55:22.720 align:middle line:84%
+then I have GF t1, t2-- let
+me just, t1, t2, GF, t3, t4
+
+00:55:22.720 --> 00:55:34.040 align:middle line:90%
+plus GF, t1, t3, GF, t2, t4.
+
+00:55:34.040 --> 00:55:44.480 align:middle line:84%
+Then plus the GF, t1, t4
+plus times GF, t2, t3.
+
+00:55:44.480 --> 00:55:48.340 align:middle line:90%
+
+
+00:55:48.340 --> 00:55:52.480 align:middle line:84%
+So you just sum over
+all such pairings.
+
+00:55:52.480 --> 00:55:56.320 align:middle line:90%
+And each pairing gives you a GF.
+
+00:55:56.320 --> 00:55:57.123 align:middle line:90%
+Yes.
+
+00:55:57.123 --> 00:55:57.790 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:55:57.790 --> 00:55:59.540 align:middle line:84%
+I thought because of
+the time of ordering,
+
+00:55:59.540 --> 00:56:03.180 align:middle line:90%
+you can't choose your pairing.
+
+00:56:03.180 --> 00:56:04.893 align:middle line:90%
+There's only one way to pair.
+
+00:56:04.893 --> 00:56:06.060 align:middle line:90%
+PROFESSOR: What do you mean?
+
+00:56:06.060 --> 00:56:09.435 align:middle line:84%
+AUDIENCE: Why is it ok to do
+different pairings even though
+
+00:56:09.435 --> 00:56:12.055 align:middle line:90%
+it's-- things are time ordered?
+
+00:56:12.055 --> 00:56:14.980 align:middle line:84%
+PROFESSOR: Oh, what do you
+mean, you cannot do the pairing?
+
+00:56:14.980 --> 00:56:16.483 align:middle line:84%
+AUDIENCE: The x's
+are time ordered.
+
+00:56:16.483 --> 00:56:17.150 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:56:17.150 --> 00:56:17.820 align:middle line:90%
+AUDIENCE: The x's.
+
+00:56:17.820 --> 00:56:18.487 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:56:18.487 --> 00:56:21.720 align:middle line:84%
+AUDIENCE: So wouldn't you have
+to pair them in that order?
+
+00:56:21.720 --> 00:56:22.860 align:middle line:90%
+PROFESSOR: No.
+
+00:56:22.860 --> 00:56:23.690 align:middle line:90%
+So that's the key.
+
+00:56:23.690 --> 00:56:26.850 align:middle line:84%
+You just, somehow, this is the
+consequence of the theorem.
+
+00:56:26.850 --> 00:56:29.257 align:middle line:84%
+If you want to just
+write down the orderings,
+
+00:56:29.257 --> 00:56:30.840 align:middle line:84%
+then it's actually
+rather complicated.
+
+00:56:30.840 --> 00:56:32.640 align:middle line:90%
+Yeah.
+
+00:56:32.640 --> 00:56:35.940 align:middle line:84%
+But, somehow, the magic is that
+once you, say, write everything
+
+00:56:35.940 --> 00:56:39.780 align:middle line:84%
+explicitly, you do
+all the everything,
+
+00:56:39.780 --> 00:56:42.180 align:middle line:84%
+in the end you can group
+everything just in terms
+
+00:56:42.180 --> 00:56:44.048 align:middle line:84%
+of product of the
+Feynman functions.
+
+00:56:44.048 --> 00:56:44.548 align:middle line:90%
+Yeah.
+
+00:56:44.548 --> 00:56:47.150 align:middle line:90%
+
+
+00:56:47.150 --> 00:56:48.570 align:middle line:90%
+Yes.
+
+00:56:48.570 --> 00:56:50.400 align:middle line:84%
+AUDIENCE: So for the
+harmonic oscillator,
+
+00:56:50.400 --> 00:56:54.500 align:middle line:84%
+we know that at a given point in
+time, the position is Gaussian.
+
+00:56:54.500 --> 00:56:58.750 align:middle line:84%
+And so, that would mean that
+the n-point function for all
+
+00:56:58.750 --> 00:57:00.670 align:middle line:84%
+the t's equal to
+each other should
+
+00:57:00.670 --> 00:57:04.720 align:middle line:84%
+be non-zero only for
+n equal to 1 or 2
+
+00:57:04.720 --> 00:57:06.110 align:middle line:90%
+but not for n greater, right?
+
+00:57:06.110 --> 00:57:08.380 align:middle line:84%
+Because only the first
+two moments of a Gaussian
+
+00:57:08.380 --> 00:57:10.220 align:middle line:90%
+are non-zero.
+
+00:57:10.220 --> 00:57:13.700 align:middle line:84%
+That seems inconsistent with
+the prescription over here.
+
+00:57:13.700 --> 00:57:14.780 align:middle line:90%
+PROFESSOR: Sorry.
+
+00:57:14.780 --> 00:57:17.000 align:middle line:90%
+Why are you saying that?
+
+00:57:17.000 --> 00:57:18.770 align:middle line:90%
+AUDIENCE: At a given time, the--
+
+00:57:18.770 --> 00:57:21.140 align:middle line:84%
+PROFESSOR: No, but all
+these time are different.
+
+00:57:21.140 --> 00:57:24.180 align:middle line:84%
+AUDIENCE: Right, but if I were
+to take the times to be equal.
+
+00:57:24.180 --> 00:57:25.160 align:middle line:90%
+PROFESSOR: OK, yeah.
+
+00:57:25.160 --> 00:57:29.320 align:middle line:84%
+AUDIENCE: Then so, for example,
+the variance of the particle
+
+00:57:29.320 --> 00:57:32.898 align:middle line:84%
+position would be your two-point
+function evaluated at t and--
+
+00:57:32.898 --> 00:57:33.565 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:57:33.565 --> 00:57:34.440 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:57:34.440 --> 00:57:36.813 align:middle line:84%
+PROFESSOR: Yeah, this is
+just the x to the power n.
+
+00:57:36.813 --> 00:57:37.480 align:middle line:90%
+AUDIENCE: Right.
+
+00:57:37.480 --> 00:57:39.790 align:middle line:84%
+PROFESSOR: Yeah,
+the x to the power n
+
+00:57:39.790 --> 00:57:42.850 align:middle line:90%
+is non-zero for even power.
+
+00:57:42.850 --> 00:57:44.470 align:middle line:84%
+AUDIENCE: Yes,
+but then, so then,
+
+00:57:44.470 --> 00:57:47.163 align:middle line:84%
+in this formula,
+that'd be GF t comma t.
+
+00:57:47.163 --> 00:57:47.830 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:57:47.830 --> 00:57:48.880 align:middle line:90%
+AUDIENCE: Which is non-zero.
+
+00:57:48.880 --> 00:57:49.547 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:57:49.547 --> 00:57:50.623 align:middle line:90%
+AUDIENCE: But--
+
+00:57:50.623 --> 00:57:52.290 align:middle line:84%
+PROFESSOR: Yeah, but
+the GF is non-zero.
+
+00:57:52.290 --> 00:57:55.380 align:middle line:90%
+
+
+00:57:55.380 --> 00:57:57.130 align:middle line:84%
+AUDIENCE: Right, but
+then, what I'm saying
+
+00:57:57.130 --> 00:57:58.750 align:middle line:84%
+is, the four-point
+function then would also
+
+00:57:58.750 --> 00:57:59.930 align:middle line:90%
+give you something non-zero.
+
+00:57:59.930 --> 00:58:01.975 align:middle line:90%
+PROFESSOR: Yeah, it is non-zero.
+
+00:58:01.975 --> 00:58:03.100 align:middle line:90%
+Yeah, it's very consistent.
+
+00:58:03.100 --> 00:58:05.308 align:middle line:84%
+AUDIENCE: But the fourth
+moment of the Gaussian is 0.
+
+00:58:05.308 --> 00:58:06.360 align:middle line:90%
+PROFESSOR: No.
+
+00:58:06.360 --> 00:58:10.220 align:middle line:84%
+The fourth moment of Gaussian
+certainly is non-zero.
+
+00:58:10.220 --> 00:58:14.000 align:middle line:84%
+Yeah, x4, yeah,
+Gaussian you have x4.
+
+00:58:14.000 --> 00:58:16.088 align:middle line:90%
+That's certainly non-zero.
+
+00:58:16.088 --> 00:58:19.469 align:middle line:84%
+AUDIENCE: But the means is 0,
+so all cumulants higher than 2
+
+00:58:19.469 --> 00:58:21.550 align:middle line:90%
+are zero for a Gaussian?
+
+00:58:21.550 --> 00:58:22.780 align:middle line:90%
+PROFESSOR: No, no, no.
+
+00:58:22.780 --> 00:58:25.480 align:middle line:84%
+For the Gaussian, it
+is all how equivalent
+
+00:58:25.480 --> 00:58:28.413 align:middle line:84%
+can be expressed in
+terms of the sigma
+
+00:58:28.413 --> 00:58:29.705 align:middle line:90%
+and in terms of the two points.
+
+00:58:29.705 --> 00:58:33.610 align:middle line:84%
+Yeah, here is just exactly
+what you show here.
+
+00:58:33.610 --> 00:58:34.450 align:middle line:90%
+Yeah.
+
+00:58:34.450 --> 00:58:36.310 align:middle line:84%
+Just everything can
+be expressed in terms
+
+00:58:36.310 --> 00:58:38.900 align:middle line:90%
+of the two-point moment.
+
+00:58:38.900 --> 00:58:39.400 align:middle line:90%
+Yeah.
+
+00:58:39.400 --> 00:58:44.540 align:middle line:84%
+So if you set all the t to be
+0, so this is GF is the same.
+
+00:58:44.540 --> 00:58:45.310 align:middle line:90%
+So this is GF.
+
+00:58:45.310 --> 00:58:47.510 align:middle line:84%
+Essentially, the only
+difference between them.
+
+00:58:47.510 --> 00:58:48.207 align:middle line:90%
+So this is GF.
+
+00:58:48.207 --> 00:58:50.290 align:middle line:84%
+Yeah, essentially you just
+add them together just,
+
+00:58:50.290 --> 00:58:51.790 align:middle line:90%
+read GF squared.
+
+00:58:51.790 --> 00:58:52.630 align:middle line:90%
+And, yeah.
+
+00:58:52.630 --> 00:58:54.850 align:middle line:84%
+Yeah, just do this
+exercise yourself,
+
+00:58:54.850 --> 00:58:56.350 align:middle line:90%
+and you will see it's the same.
+
+00:58:56.350 --> 00:58:59.180 align:middle line:90%
+Yeah.
+
+00:58:59.180 --> 00:58:59.680 align:middle line:90%
+Good.
+
+00:58:59.680 --> 00:59:03.240 align:middle line:90%
+
+
+00:59:03.240 --> 00:59:10.480 align:middle line:84%
+So now, with this preparation
+in quantum mechanics,
+
+00:59:10.480 --> 00:59:13.890 align:middle line:84%
+now we can immediately
+just move in field theory.
+
+00:59:13.890 --> 00:59:16.680 align:middle line:84%
+So now we can immediately
+move to field theory.
+
+00:59:16.680 --> 00:59:30.938 align:middle line:84%
+So now you can say time ordered
+functions in field theory.
+
+00:59:30.938 --> 00:59:37.030 align:middle line:90%
+
+
+00:59:37.030 --> 00:59:39.780 align:middle line:84%
+So, before we do that,
+any other questions?
+
+00:59:39.780 --> 00:59:46.660 align:middle line:90%
+
+
+00:59:46.660 --> 00:59:48.580 align:middle line:90%
+Good.
+
+00:59:48.580 --> 00:59:53.890 align:middle line:84%
+So, again, to go
+to field theory,
+
+00:59:53.890 --> 00:59:59.760 align:middle line:84%
+now the only thing we need
+is just copy notations.
+
+00:59:59.760 --> 01:00:01.630 align:middle line:84%
+You just need to
+change the notations.
+
+01:00:01.630 --> 01:00:05.650 align:middle line:90%
+Just remember how you--
+
+01:00:05.650 --> 01:00:10.360 align:middle line:84%
+yeah, just replace the
+appropriate dynamic variable
+
+01:00:10.360 --> 01:00:13.570 align:middle line:84%
+in quantum mechanics by the
+appropriate dynamic variables
+
+01:00:13.570 --> 01:00:14.530 align:middle line:90%
+in field theory.
+
+01:00:14.530 --> 01:00:17.620 align:middle line:90%
+And then that's it.
+
+01:00:17.620 --> 01:00:19.880 align:middle line:90%
+So let's write down.
+
+01:00:19.880 --> 01:00:21.970 align:middle line:84%
+So now we have, consider,
+in field theory,
+
+01:00:21.970 --> 01:00:24.400 align:middle line:84%
+suppose we consider
+this n-point function.
+
+01:00:24.400 --> 01:00:30.610 align:middle line:84%
+And now, xn-- now xn denote
+the space time point now.
+
+01:00:30.610 --> 01:00:33.250 align:middle line:90%
+So let me call the--
+
+01:00:33.250 --> 01:00:35.650 align:middle line:84%
+previously we call the
+vacuum for the field theory
+
+01:00:35.650 --> 01:00:38.030 align:middle line:84%
+to be omega in the
+interacting theory.
+
+01:00:38.030 --> 01:00:43.570 align:middle line:84%
+So now you can see that this
+quantity, phi x1 and the phi
+
+01:00:43.570 --> 01:00:47.600 align:middle line:84%
+xn, let's look at this endpoint
+function between the vacuum.
+
+01:00:47.600 --> 01:00:51.710 align:middle line:90%
+
+
+01:00:51.710 --> 01:00:59.350 align:middle line:84%
+So now, again, if we
+call this thing to be X,
+
+01:00:59.350 --> 01:01:01.240 align:middle line:84%
+So now we can
+immediately write down
+
+01:01:01.240 --> 01:01:05.020 align:middle line:84%
+the answer in field
+theory, just the D phi.
+
+01:01:05.020 --> 01:01:07.600 align:middle line:84%
+Now you just replace
+the DX by D phi.
+
+01:01:07.600 --> 01:01:10.780 align:middle line:84%
+Then you'll, again, you
+just have this X, capital X.
+
+01:01:10.780 --> 01:01:17.140 align:middle line:84%
+And then you have now i S
+phi then divided by D phi
+
+01:01:17.140 --> 01:01:19.800 align:middle line:90%
+without i S phi.
+
+01:01:19.800 --> 01:01:25.010 align:middle line:90%
+
+
+01:01:25.010 --> 01:01:28.670 align:middle line:84%
+And another boundary
+condition is
+
+01:01:28.670 --> 01:01:33.530 align:middle line:84%
+that the phi, when you
+do this integral, again,
+
+01:01:33.530 --> 01:01:36.930 align:middle line:84%
+t goes to infinity to
+minus infinity to infinity.
+
+01:01:36.930 --> 01:01:44.280 align:middle line:84%
+And now tx will-- should go to 0
+for both t plus minus infinity.
+
+01:01:44.280 --> 01:01:48.570 align:middle line:84%
+So that's the analog of a
+previous simple x equal to 0.
+
+01:01:48.570 --> 01:01:53.970 align:middle line:84%
+And because it's here, remember,
+the x here is just the labels.
+
+01:01:53.970 --> 01:01:56.580 align:middle line:84%
+And so, for each
+variable we require,
+
+01:01:56.580 --> 01:02:00.390 align:middle line:84%
+it's go to 0 at t
+plus minus infinity.
+
+01:02:00.390 --> 01:02:02.220 align:middle line:90%
+You could do 0.
+
+01:02:02.220 --> 01:02:04.140 align:middle line:84%
+And also, normally,
+in field theory,
+
+01:02:04.140 --> 01:02:08.670 align:middle line:84%
+we assume, yeah, in
+order for the integral
+
+01:02:08.670 --> 01:02:11.080 align:middle line:84%
+to have well-defined
+behavior, et cetera.
+
+01:02:11.080 --> 01:02:17.970 align:middle line:84%
+We often just assume also go
+to 0 in the spatial infinity.
+
+01:02:17.970 --> 01:02:21.540 align:middle line:84%
+Yeah, this is just
+often for convenience.
+
+01:02:21.540 --> 01:02:25.890 align:middle line:84%
+And physically, this also
+means that infinitely far away,
+
+01:02:25.890 --> 01:02:29.970 align:middle line:84%
+and we assume that the
+field are not excited.
+
+01:02:29.970 --> 01:02:34.200 align:middle line:84%
+Yeah, we are interested only in
+the, yeah, physical excitations
+
+01:02:34.200 --> 01:02:35.040 align:middle line:90%
+in finite region.
+
+01:02:35.040 --> 01:02:38.280 align:middle line:84%
+Anyway, so this is
+the condition we
+
+01:02:38.280 --> 01:02:41.015 align:middle line:84%
+impose when doing the path
+integral in the field theory
+
+01:02:41.015 --> 01:02:41.515 align:middle line:90%
+case.
+
+01:02:41.515 --> 01:02:45.270 align:middle line:90%
+
+
+01:02:45.270 --> 01:02:49.700 align:middle line:84%
+So now, again, you can introduce
+a generating functional.
+
+01:02:49.700 --> 01:02:52.580 align:middle line:84%
+You can just, again,
+just copy notation,
+
+01:02:52.580 --> 01:02:54.890 align:middle line:90%
+copy the previous formula.
+
+01:02:54.890 --> 01:02:57.290 align:middle line:90%
+And by changing notation.
+
+01:02:57.290 --> 01:03:23.600 align:middle line:90%
+
+
+01:03:23.600 --> 01:03:28.300 align:middle line:84%
+So now the generating
+functional ZJ
+
+01:03:28.300 --> 01:03:36.550 align:middle line:84%
+is defined to be D phi
+exponential i S phi.
+
+01:03:36.550 --> 01:03:39.340 align:middle line:90%
+And then, now you just add--
+
+01:03:39.340 --> 01:03:44.560 align:middle line:84%
+now you integrate over all
+space time points and phi x.
+
+01:03:44.560 --> 01:03:48.040 align:middle line:84%
+Again, we introduce a J.
+But now you integrate over
+
+01:03:48.040 --> 01:03:49.090 align:middle line:90%
+all space time points.
+
+01:03:49.090 --> 01:03:52.380 align:middle line:90%
+
+
+01:03:52.380 --> 01:04:01.980 align:middle line:84%
+And then, similarly,
+the ZJ divided by Z0,
+
+01:04:01.980 --> 01:04:03.720 align:middle line:90%
+so this we call--
+
+01:04:03.720 --> 01:04:09.780 align:middle line:84%
+yeah, the Z0, again, is just
+the integral without x, any x.
+
+01:04:09.780 --> 01:04:18.550 align:middle line:84%
+So divided by Z0 is
+equal to now the omega
+
+01:04:18.550 --> 01:04:24.310 align:middle line:84%
+and time-ordered product
+of the exponential i.
+
+01:04:24.310 --> 01:04:39.420 align:middle line:90%
+
+
+01:04:39.420 --> 01:04:40.870 align:middle line:90%
+So, again, just given by that.
+
+01:04:40.870 --> 01:04:43.290 align:middle line:84%
+And, again, this
+time-ordered product,
+
+01:04:43.290 --> 01:04:46.560 align:middle line:84%
+time-ordered exponential
+should be understood,
+
+01:04:46.560 --> 01:04:49.620 align:middle line:84%
+as you expanded this
+in power series,
+
+01:04:49.620 --> 01:04:51.340 align:middle line:84%
+when you expand it
+in power series,
+
+01:04:51.340 --> 01:04:53.010 align:middle line:90%
+then you have powers of phi.
+
+01:04:53.010 --> 01:04:56.640 align:middle line:84%
+Then you just order those phis
+in terms of time ordering.
+
+01:04:56.640 --> 01:04:59.730 align:middle line:84%
+And then, again, the
+integration and J
+
+01:04:59.730 --> 01:05:02.280 align:middle line:84%
+can be pulled outside
+this expectation value.
+
+01:05:02.280 --> 01:05:07.380 align:middle line:90%
+
+
+01:05:07.380 --> 01:05:08.550 align:middle line:90%
+Good?
+
+01:05:08.550 --> 01:05:15.270 align:middle line:84%
+And the Z0 is just the
+same as ZJ equal to 0,
+
+01:05:15.270 --> 01:05:26.670 align:middle line:90%
+so without any J.
+
+01:05:26.670 --> 01:05:29.070 align:middle line:84%
+So this is, again, just
+immediately give you
+
+01:05:29.070 --> 01:05:32.190 align:middle line:84%
+a general prescription
+for calculating
+
+01:05:32.190 --> 01:05:36.660 align:middle line:84%
+n-point function in any
+theory, in any scalar theory.
+
+01:05:36.660 --> 01:05:39.180 align:middle line:84%
+So, here, I don't
+even have to specify
+
+01:05:39.180 --> 01:05:42.930 align:middle line:90%
+the precise form of the action.
+
+01:05:42.930 --> 01:05:45.330 align:middle line:90%
+It just carry through.
+
+01:05:45.330 --> 01:05:47.800 align:middle line:84%
+This also applies to
+interacting theory.
+
+01:05:47.800 --> 01:05:50.680 align:middle line:84%
+So this formula also applies
+to interacting theory.
+
+01:05:50.680 --> 01:05:56.920 align:middle line:90%
+And, yeah, it's very general.
+
+01:05:56.920 --> 01:06:01.830 align:middle line:84%
+So this is the power, say, of
+this path integral formalism.
+
+01:06:01.830 --> 01:06:04.440 align:middle line:84%
+So once you understand in
+the quantum mechanics case,
+
+01:06:04.440 --> 01:06:07.530 align:middle line:84%
+go to quantum field
+theory is automatic.
+
+01:06:07.530 --> 01:06:12.410 align:middle line:90%
+
+
+01:06:12.410 --> 01:06:12.980 align:middle line:90%
+Good.
+
+01:06:12.980 --> 01:06:15.230 align:middle line:84%
+So now let's look
+at how to treat--
+
+01:06:15.230 --> 01:06:17.270 align:middle line:90%
+how to do this thing--
+
+01:06:17.270 --> 01:06:21.000 align:middle line:84%
+calculate this thing
+in field theory.
+
+01:06:21.000 --> 01:06:23.550 align:middle line:84%
+So, first, let's just look
+at the free field theory.
+
+01:06:23.550 --> 01:06:26.520 align:middle line:90%
+
+
+01:06:26.520 --> 01:06:29.792 align:middle line:84%
+And then, before we look
+at the interacting case,
+
+01:06:29.792 --> 01:06:31.500 align:middle line:84%
+let's just look at
+the free field theory.
+
+01:06:31.500 --> 01:06:34.850 align:middle line:90%
+
+
+01:06:34.850 --> 01:06:38.870 align:middle line:84%
+So free field theory is
+almost identical, again,
+
+01:06:38.870 --> 01:06:42.230 align:middle line:84%
+almost identical to the
+harmonic oscillator case
+
+01:06:42.230 --> 01:06:44.310 align:middle line:84%
+because harmonic
+oscillator is also--
+
+01:06:44.310 --> 01:06:45.810 align:middle line:84%
+because the free
+theory will be also
+
+01:06:45.810 --> 01:06:47.810 align:middle line:90%
+a quadratic Gaussian integral.
+
+01:06:47.810 --> 01:06:50.390 align:middle line:84%
+So everything will be very
+similar to the harmonic
+
+01:06:50.390 --> 01:06:51.450 align:middle line:90%
+oscillator case.
+
+01:06:51.450 --> 01:06:55.220 align:middle line:84%
+We just need to, again,
+replace some notations.
+
+01:06:55.220 --> 01:06:57.950 align:middle line:84%
+So now, let's consider
+the free field case.
+
+01:06:57.950 --> 01:07:05.030 align:middle line:84%
+Consider this minus 1/2
+partial mu phi, partial mu phi,
+
+01:07:05.030 --> 01:07:10.280 align:middle line:84%
+minus 1/2 m square phi square
+without any nonlinear--
+
+01:07:10.280 --> 01:07:14.830 align:middle line:84%
+without any cubic or
+higher power term.
+
+01:07:14.830 --> 01:07:18.840 align:middle line:84%
+And, again, the S
+can be written--
+
+01:07:18.840 --> 01:07:20.380 align:middle line:90%
+so S, in this case--
+
+01:07:20.380 --> 01:07:22.650 align:middle line:84%
+So, here, 0 means
+the free theory
+
+01:07:22.650 --> 01:07:27.030 align:middle line:84%
+because later we will
+do interacting theory.
+
+01:07:27.030 --> 01:07:30.990 align:middle line:84%
+So s, in this case, again,
+you can write it as--
+
+01:07:30.990 --> 01:07:34.230 align:middle line:90%
+you can integration by part.
+
+01:07:34.230 --> 01:07:44.245 align:middle line:84%
+You can write it as d4x,
+d4x prime, then phi x, Kx,
+
+01:07:44.245 --> 01:07:46.995 align:middle line:90%
+x prime, and then phi x prime.
+
+01:07:46.995 --> 01:07:52.490 align:middle line:90%
+
+
+01:07:52.490 --> 01:08:03.260 align:middle line:84%
+And now, the K is
+given by d squared
+
+01:08:03.260 --> 01:08:06.080 align:middle line:90%
+plus m squared minus epsilon.
+
+01:08:06.080 --> 01:08:08.540 align:middle line:84%
+Again, this epsilon
+comes from that thing.
+
+01:08:08.540 --> 01:08:11.990 align:middle line:84%
+You just, if you work
+through, you just, yeah,
+
+01:08:11.990 --> 01:08:13.670 align:middle line:90%
+it just minus epsilon.
+
+01:08:13.670 --> 01:08:17.720 align:middle line:90%
+And then delta 4x minus x prime.
+
+01:08:17.720 --> 01:08:22.149 align:middle line:90%
+
+
+01:08:22.149 --> 01:08:23.500 align:middle line:90%
+And, yeah.
+
+01:08:23.500 --> 01:08:26.180 align:middle line:90%
+
+
+01:08:26.180 --> 01:08:26.680 align:middle line:90%
+Good.
+
+01:08:26.680 --> 01:08:29.260 align:middle line:90%
+So, again, we can just--
+
+01:08:29.260 --> 01:08:35.590 align:middle line:84%
+shorthand notation, so this has
+a minus 1/2 phi dot K dot phi.
+
+01:08:35.590 --> 01:08:37.990 align:middle line:84%
+Just now, the only difference
+is that you change it
+
+01:08:37.990 --> 01:08:41.649 align:middle line:84%
+from integration of dt,
+integration of the full space
+
+01:08:41.649 --> 01:08:43.060 align:middle line:90%
+time.
+
+01:08:43.060 --> 01:08:46.240 align:middle line:84%
+Yeah, everything
+else is the same.
+
+01:08:46.240 --> 01:08:46.740 align:middle line:90%
+And.
+
+01:08:46.740 --> 01:08:47.729 align:middle line:90%
+Now, this is ZJ.
+
+01:08:47.729 --> 01:08:52.990 align:middle line:90%
+
+
+01:08:52.990 --> 01:09:02.930 align:middle line:84%
+ZJ just given by D phi
+exponential, again,
+
+01:09:02.930 --> 01:09:04.449 align:middle line:84%
+just given by a
+Gaussian integral.
+
+01:09:04.449 --> 01:09:09.620 align:middle line:90%
+
+
+01:09:09.620 --> 01:09:16.890 align:middle line:84%
+So let me see whether I can
+squeeze in a Gaussian integral,
+
+01:09:16.890 --> 01:09:22.830 align:middle line:84%
+phi dot K dot phi,
+then plus i J dot phi.
+
+01:09:22.830 --> 01:09:28.090 align:middle line:84%
+So we can, again, write this
+in the simplified notation
+
+01:09:28.090 --> 01:09:29.325 align:middle line:90%
+as i J dot phi.
+
+01:09:29.325 --> 01:09:32.149 align:middle line:90%
+
+
+01:09:32.149 --> 01:09:34.640 align:middle line:90%
+So, again, you just--
+
+01:09:34.640 --> 01:09:36.200 align:middle line:90%
+and then you find this--
+
+01:09:36.200 --> 01:09:41.540 align:middle line:84%
+you get some other C. Again,
+you get determinant K.
+
+01:09:41.540 --> 01:09:49.670 align:middle line:84%
+And then you get
+exponential i over 2 J K1 J.
+
+01:09:49.670 --> 01:09:52.290 align:middle line:84%
+So everything is
+exactly the same.
+
+01:09:52.290 --> 01:09:56.390 align:middle line:84%
+And then, this is the
+same as Z0, this part.
+
+01:09:56.390 --> 01:09:59.588 align:middle line:90%
+And then, again, they cancel.
+
+01:09:59.588 --> 01:10:00.380 align:middle line:90%
+Again, they cancel.
+
+01:10:00.380 --> 01:10:05.410 align:middle line:90%
+
+
+01:10:05.410 --> 01:10:06.925 align:middle line:90%
+So, again, we find--
+
+01:10:06.925 --> 01:10:23.030 align:middle line:90%
+
+
+01:10:23.030 --> 01:10:27.182 align:middle line:84%
+so, in this case, again,
+we find that K minus 1 x,
+
+01:10:27.182 --> 01:10:33.230 align:middle line:84%
+x prime equal to
+i GF x, x prime.
+
+01:10:33.230 --> 01:10:39.560 align:middle line:84%
+So this i epsilon prescription,
+so it's precisely, yeah,
+
+01:10:39.560 --> 01:10:43.790 align:middle line:84%
+if you check the definition, so
+this i epsilon prescription m
+
+01:10:43.790 --> 01:10:45.650 align:middle line:84%
+square goes to m
+squared minus epsilon,
+
+01:10:45.650 --> 01:10:48.470 align:middle line:84%
+is also the precisely
+what we did before
+
+01:10:48.470 --> 01:10:51.470 align:middle line:90%
+for the Feynman function.
+
+01:10:51.470 --> 01:10:56.630 align:middle line:90%
+
+
+01:10:56.630 --> 01:11:05.140 align:middle line:84%
+So, now, the final answer,
+the ZJ divide by Z0,
+
+01:11:05.140 --> 01:11:08.260 align:middle line:84%
+yeah, I almost don't
+want to copy it.
+
+01:11:08.260 --> 01:11:11.240 align:middle line:84%
+It's just exactly
+the same as this.
+
+01:11:11.240 --> 01:11:17.410 align:middle line:84%
+You just replace the dt
+integral by d4x x integral.
+
+01:11:17.410 --> 01:11:20.140 align:middle line:90%
+And the d4x integral.
+
+01:11:20.140 --> 01:11:23.320 align:middle line:90%
+So, yeah, let me just write it.
+
+01:11:23.320 --> 01:11:26.870 align:middle line:90%
+
+
+01:11:26.870 --> 01:11:43.735 align:middle line:84%
+Exponential minus 1/2, then J
+GF J. Any questions on this?
+
+01:11:43.735 --> 01:11:51.320 align:middle line:90%
+
+
+01:11:51.320 --> 01:11:55.180 align:middle line:84%
+And, again, if you
+calculate n-point function,
+
+01:11:55.180 --> 01:11:59.780 align:middle line:84%
+then you just get the
+identical structure as here.
+
+01:11:59.780 --> 01:12:02.930 align:middle line:84%
+Just the identical
+structure here.
+
+01:12:02.930 --> 01:12:08.740 align:middle line:84%
+The only difference is that you
+replace GF, t1, t2 by x1, x2,
+
+01:12:08.740 --> 01:12:09.940 align:middle line:90%
+x3, x4, et cetera.
+
+01:12:09.940 --> 01:12:12.430 align:middle line:90%
+Everything is just identical.
+
+01:12:12.430 --> 01:12:15.490 align:middle line:84%
+So, to save time, I will
+not copy them again.
+
+01:12:15.490 --> 01:12:16.565 align:middle line:90%
+So, do you have-- yeah.
+
+01:12:16.565 --> 01:12:18.190 align:middle line:84%
+AUDIENCE: So in this
+particular theory,
+
+01:12:18.190 --> 01:12:20.800 align:middle line:84%
+do we have the condition
+that phi goes to 0
+
+01:12:20.800 --> 01:12:23.302 align:middle line:90%
+when t goes to infinity?
+
+01:12:23.302 --> 01:12:24.010 align:middle line:90%
+PROFESSOR: Sorry?
+
+01:12:24.010 --> 01:12:25.677 align:middle line:84%
+AUDIENCE: In this
+particular theory, Do.
+
+01:12:25.677 --> 01:12:30.020 align:middle line:84%
+We have the condition
+that phi goes to 0?
+
+01:12:30.020 --> 01:12:33.890 align:middle line:84%
+PROFESSOR: Yeah,
+so that ensures,
+
+01:12:33.890 --> 01:12:36.470 align:middle line:84%
+when you do integration
+by parts, everything is 0.
+
+01:12:36.470 --> 01:12:38.810 align:middle line:84%
+AUDIENCE: We have
+the solution for phi?
+
+01:12:38.810 --> 01:12:40.070 align:middle line:90%
+PROFESSOR: Sorry?
+
+01:12:40.070 --> 01:12:41.810 align:middle line:84%
+AUDIENCE: We know
+the solution for phi
+
+01:12:41.810 --> 01:12:45.320 align:middle line:84%
+in terms of x and t right,
+and it's like a plane wave?
+
+01:12:45.320 --> 01:12:48.305 align:middle line:90%
+
+
+01:12:48.305 --> 01:12:50.180 align:middle line:84%
+PROFESSOR: No, this is
+the boundary condition
+
+01:12:50.180 --> 01:12:51.930 align:middle line:90%
+in your path integral.
+
+01:12:51.930 --> 01:12:53.430 align:middle line:84%
+Yeah, this is the
+boundary condition
+
+01:12:53.430 --> 01:12:55.140 align:middle line:90%
+in your path integral.
+
+01:12:55.140 --> 01:12:56.470 align:middle line:90%
+We're not talking about this.
+
+01:12:56.470 --> 01:13:00.480 align:middle line:84%
+Yeah, so this is--
+yeah, phi just the--
+
+01:13:00.480 --> 01:13:04.470 align:middle line:84%
+yeah, here, I didn't write down
+any explicit solution for phi.
+
+01:13:04.470 --> 01:13:05.320 align:middle line:90%
+Sorry.
+
+01:13:05.320 --> 01:13:08.802 align:middle line:84%
+What plane wave we
+are talking about?
+
+01:13:08.802 --> 01:13:11.260 align:middle line:84%
+AUDIENCE: Oh, I was thinking
+about the solution for all phi
+
+01:13:11.260 --> 01:13:14.480 align:middle line:84%
+field theory that we
+did a few lectures ago.
+
+01:13:14.480 --> 01:13:15.530 align:middle line:90%
+PROFESSOR: Right.
+
+01:13:15.530 --> 01:13:17.157 align:middle line:90%
+AUDIENCE: So that [INAUDIBLE]?
+
+01:13:17.157 --> 01:13:17.990 align:middle line:90%
+PROFESSOR: Yeah, no.
+
+01:13:17.990 --> 01:13:20.420 align:middle line:90%
+No, that will also go to 0.
+
+01:13:20.420 --> 01:13:21.350 align:middle line:90%
+Yeah, no, no, no.
+
+01:13:21.350 --> 01:13:23.060 align:middle line:90%
+That's an operator equation.
+
+01:13:23.060 --> 01:13:24.050 align:middle line:90%
+That's an operator.
+
+01:13:24.050 --> 01:13:26.880 align:middle line:84%
+Here, it's just the field
+in your path integral.
+
+01:13:26.880 --> 01:13:30.510 align:middle line:84%
+So, here, you just
+integrate over all possible.
+
+01:13:30.510 --> 01:13:35.000 align:middle line:84%
+There, when we write that,
+that's an operator equation
+
+01:13:35.000 --> 01:13:36.690 align:middle line:90%
+with a and a dagger there.
+
+01:13:36.690 --> 01:13:40.230 align:middle line:84%
+So here is just the ordinary
+function of space time,
+
+01:13:40.230 --> 01:13:45.066 align:middle line:84%
+which we impose the boundary
+condition in the path integral.
+
+01:13:45.066 --> 01:13:45.566 align:middle line:90%
+Yeah.
+
+01:13:45.566 --> 01:13:52.380 align:middle line:90%
+
+
+01:13:52.380 --> 01:13:58.130 align:middle line:84%
+And, similarly, in here, there's
+Wick theorem, just everything
+
+01:13:58.130 --> 01:13:59.390 align:middle line:90%
+just goes through.
+
+01:13:59.390 --> 01:14:00.620 align:middle line:90%
+Everything just goes through.
+
+01:14:00.620 --> 01:14:03.330 align:middle line:90%
+
+
+01:14:03.330 --> 01:14:03.830 align:middle line:90%
+Good.
+
+01:14:03.830 --> 01:14:06.570 align:middle line:90%
+
+
+01:14:06.570 --> 01:14:07.820 align:middle line:90%
+Any other questions?
+
+01:14:07.820 --> 01:14:12.160 align:middle line:90%
+
+
+01:14:12.160 --> 01:14:15.310 align:middle line:84%
+So, for the last
+few minutes, then we
+
+01:14:15.310 --> 01:14:19.510 align:middle line:84%
+can venture a little bit
+into the interacting case.
+
+01:14:19.510 --> 01:14:22.360 align:middle line:90%
+Was there any question?
+
+01:14:22.360 --> 01:14:26.290 align:middle line:84%
+So now we can venture
+into interactions.
+
+01:14:26.290 --> 01:14:29.180 align:middle line:84%
+So now we have our
+master formula.
+
+01:14:29.180 --> 01:14:31.820 align:middle line:84%
+And now we can treat what
+happens in the interaction
+
+01:14:31.820 --> 01:14:32.320 align:middle line:90%
+case.
+
+01:14:32.320 --> 01:14:36.440 align:middle line:90%
+
+
+01:14:36.440 --> 01:14:38.090 align:middle line:84%
+So now we can go to
+interacting theory.
+
+01:14:38.090 --> 01:14:45.200 align:middle line:90%
+
+
+01:14:45.200 --> 01:14:48.500 align:middle line:84%
+So in the interacting
+theory, let's just
+
+01:14:48.500 --> 01:14:54.140 align:middle line:84%
+consider, say, the case
+which L equal to L0,
+
+01:14:54.140 --> 01:14:57.560 align:middle line:90%
+then you pass some polynomial.
+
+01:14:57.560 --> 01:14:59.780 align:middle line:84%
+For example, the
+simplest case is
+
+01:14:59.780 --> 01:15:04.730 align:middle line:84%
+just lambda we discussed
+before to the phi 4.
+
+01:15:04.730 --> 01:15:08.780 align:middle line:90%
+So plus some higher power term.
+
+01:15:08.780 --> 01:15:11.150 align:middle line:84%
+So, for simplicity,
+I will just--
+
+01:15:11.150 --> 01:15:14.310 align:middle line:84%
+but what we will do, we will
+not depend on details form.
+
+01:15:14.310 --> 01:15:15.980 align:middle line:90%
+Let me just write LI.
+
+01:15:15.980 --> 01:15:19.340 align:middle line:84%
+Imagine you have some
+interacting terms.
+
+01:15:19.340 --> 01:15:22.450 align:middle line:84%
+So, in this particular case,
+the LI is equal to that.
+
+01:15:22.450 --> 01:15:24.200 align:middle line:84%
+But we can consider
+the more general case.
+
+01:15:24.200 --> 01:15:29.240 align:middle line:84%
+Just you have some extra,
+yeah, something depend on phi.
+
+01:15:29.240 --> 01:15:35.140 align:middle line:90%
+
+
+01:15:35.140 --> 01:15:39.400 align:middle line:84%
+And, similarly, your
+Hamiltonian will also
+
+01:15:39.400 --> 01:15:43.360 align:middle line:84%
+be the free theory Hamiltonian
+plus a interacting one.
+
+01:15:43.360 --> 01:15:46.990 align:middle line:90%
+
+
+01:15:46.990 --> 01:15:50.110 align:middle line:84%
+And the interacting one--
+so let's, for simplicity,
+
+01:15:50.110 --> 01:15:52.900 align:middle line:84%
+then this LI, as in this
+case, only depend on phi,
+
+01:15:52.900 --> 01:15:57.580 align:middle line:84%
+does not depend on the, say,
+the time derivative of phi.
+
+01:15:57.580 --> 01:16:00.440 align:middle line:84%
+So if it does not depend on
+the time derivative of phi,
+
+01:16:00.440 --> 01:16:09.820 align:middle line:84%
+and then, essentially, LI, HI is
+essentially just minus d3x LI.
+
+01:16:09.820 --> 01:16:12.310 align:middle line:84%
+When you do the
+Legendre transform
+
+01:16:12.310 --> 01:16:16.780 align:middle line:84%
+to go from, say, L to H,
+don't change this term
+
+01:16:16.780 --> 01:16:20.420 align:middle line:84%
+if it does not contain
+time derivative.
+
+01:16:20.420 --> 01:16:21.760 align:middle line:90%
+So, yeah.
+
+01:16:21.760 --> 01:16:23.770 align:middle line:84%
+So, and then, there's
+a very simple relation
+
+01:16:23.770 --> 01:16:26.530 align:middle line:84%
+between this interacting
+term in the Lagrangian
+
+01:16:26.530 --> 01:16:29.960 align:middle line:90%
+and also in the Hamiltonian.
+
+01:16:29.960 --> 01:16:32.420 align:middle line:84%
+And this is a free
+theory Hamiltonian.
+
+01:16:32.420 --> 01:16:36.800 align:middle line:84%
+And now we will write
+our total action
+
+01:16:36.800 --> 01:16:42.185 align:middle line:84%
+in terms of the free theory
+part and the interacting part.
+
+01:16:42.185 --> 01:16:46.880 align:middle line:90%
+
+
+01:16:46.880 --> 01:16:55.610 align:middle line:84%
+And the interacting part
+is just given by d4 x LI.
+
+01:16:55.610 --> 01:16:59.720 align:middle line:84%
+It's also the same
+as minus dt HI.
+
+01:16:59.720 --> 01:17:11.110 align:middle line:90%
+
+
+01:17:11.110 --> 01:17:11.920 align:middle line:90%
+Good?
+
+01:17:11.920 --> 01:17:14.680 align:middle line:90%
+So just to set it up.
+
+01:17:14.680 --> 01:17:16.390 align:middle line:90%
+And now we want to calculate.
+
+01:17:16.390 --> 01:17:20.250 align:middle line:84%
+Again, we want to calculate
+this n-point function.
+
+01:17:20.250 --> 01:17:23.100 align:middle line:90%
+Which did I erase it?
+
+01:17:23.100 --> 01:17:26.483 align:middle line:84%
+Again, we want to calculate
+this n-point function.
+
+01:17:26.483 --> 01:17:28.275 align:middle line:84%
+So this is the object
+we are interested in.
+
+01:17:28.275 --> 01:17:32.270 align:middle line:90%
+
+
+01:17:32.270 --> 01:17:37.070 align:middle line:84%
+And, again, we can just
+consider generating functional.
+
+01:17:37.070 --> 01:17:40.340 align:middle line:84%
+And we can consider
+generating functional.
+
+01:17:40.340 --> 01:17:45.650 align:middle line:90%
+
+
+01:17:45.650 --> 01:17:46.820 align:middle line:90%
+Yeah.
+
+01:17:46.820 --> 01:17:50.400 align:middle line:84%
+Before, actually, we do
+that, let's just consider--
+
+01:17:50.400 --> 01:17:52.400 align:middle line:84%
+yeah, let's just consider
+this n-point function.
+
+01:17:52.400 --> 01:17:56.290 align:middle line:90%
+
+
+01:17:56.290 --> 01:17:59.120 align:middle line:84%
+Yeah, we actually
+have one minute.
+
+01:17:59.120 --> 01:18:02.000 align:middle line:90%
+We cannot do really much.
+
+01:18:02.000 --> 01:18:05.360 align:middle line:84%
+Let me just tell
+you the basic idea.
+
+01:18:05.360 --> 01:18:08.875 align:middle line:84%
+And then we will
+elaborate next time.
+
+01:18:08.875 --> 01:18:11.770 align:middle line:90%
+
+
+01:18:11.770 --> 01:18:15.790 align:middle line:84%
+So, now, let's imagine we
+want to compute this object.
+
+01:18:15.790 --> 01:18:22.150 align:middle line:84%
+Again, we just use
+that formula, this Gn
+
+01:18:22.150 --> 01:18:26.650 align:middle line:84%
+is equal to D phi
+X exponential i
+
+01:18:26.650 --> 01:18:36.250 align:middle line:84%
+S divided by D phi exponential
+i S. So now, what I will do
+
+01:18:36.250 --> 01:18:37.060 align:middle line:90%
+is, I will--
+
+01:18:37.060 --> 01:18:43.100 align:middle line:84%
+now, my S-- so the
+idea is the following.
+
+01:18:43.100 --> 01:18:47.040 align:middle line:84%
+Now, this part,
+integrals are not doable.
+
+01:18:47.040 --> 01:18:50.040 align:middle line:84%
+Because once you have
+these non-polynomial terms,
+
+01:18:50.040 --> 01:18:56.240 align:middle line:84%
+or non-quadratic terms, we don't
+know how to do the integral.
+
+01:18:56.240 --> 01:18:57.990 align:middle line:84%
+We don't know how to
+do this integral even
+
+01:18:57.990 --> 01:19:03.550 align:middle line:90%
+for one-dimensional integral.
+
+01:19:03.550 --> 01:19:06.100 align:middle line:84%
+So not to mention
+the path integral.
+
+01:19:06.100 --> 01:19:08.160 align:middle line:84%
+We also don't know how
+to do such integral
+
+01:19:08.160 --> 01:19:10.570 align:middle line:90%
+for a harmonic oscillator.
+
+01:19:10.570 --> 01:19:12.200 align:middle line:90%
+But, yeah, same thing.
+
+01:19:12.200 --> 01:19:14.350 align:middle line:84%
+We don't know how to
+do it for field theory.
+
+01:19:14.350 --> 01:19:16.822 align:middle line:84%
+So, as we said
+before, even though we
+
+01:19:16.822 --> 01:19:18.280 align:middle line:84%
+don't know how to
+do this integral,
+
+01:19:18.280 --> 01:19:20.640 align:middle line:84%
+we can treat this
+perturbatively.
+
+01:19:20.640 --> 01:19:22.980 align:middle line:90%
+So we treat this as a main term.
+
+01:19:22.980 --> 01:19:24.510 align:middle line:84%
+And then we treat
+the lambda small,
+
+01:19:24.510 --> 01:19:27.630 align:middle line:84%
+then we try to expand the
+power series of lambda.
+
+01:19:27.630 --> 01:19:32.420 align:middle line:84%
+And now we can write the path
+integral as the following.
+
+01:19:32.420 --> 01:19:40.600 align:middle line:84%
+D phi x, then we
+add S 0, then i SI,
+
+01:19:40.600 --> 01:19:47.980 align:middle line:84%
+and then divided by D phi,
+exponential i S0 plus i SI.
+
+01:19:47.980 --> 01:19:49.510 align:middle line:84%
+And, now, what we
+are going to do
+
+01:19:49.510 --> 01:19:51.865 align:middle line:84%
+is, we just expand this
+term in power series.
+
+01:19:51.865 --> 01:19:54.410 align:middle line:90%
+
+
+01:19:54.410 --> 01:19:57.930 align:middle line:84%
+When we expanded
+this in power series,
+
+01:19:57.930 --> 01:20:00.330 align:middle line:84%
+and then, essentially,
+we are reducing it
+
+01:20:00.330 --> 01:20:03.640 align:middle line:84%
+to the path integral
+of the free theory.
+
+01:20:03.640 --> 01:20:06.310 align:middle line:84%
+So, essentially, the
+upstairs and downstairs
+
+01:20:06.310 --> 01:20:10.420 align:middle line:84%
+can be imagined as we are
+doing the free theory-- now
+
+01:20:10.420 --> 01:20:11.695 align:middle line:90%
+this is a free theory vacuum.
+
+01:20:11.695 --> 01:20:18.820 align:middle line:90%
+
+
+01:20:18.820 --> 01:20:22.450 align:middle line:84%
+We can just view this as an
+integrand of exponential i0.
+
+01:20:22.450 --> 01:20:25.360 align:middle line:90%
+So the upstairs just become--
+
+01:20:25.360 --> 01:20:29.460 align:middle line:90%
+so this just become the--
+
+01:20:29.460 --> 01:20:38.280 align:middle line:84%
+yeah, t x exponential i
+SI, now in the free theory.
+
+01:20:38.280 --> 01:20:42.075 align:middle line:84%
+And then, downstairs also
+become 0 t exponential i
+
+01:20:42.075 --> 01:20:44.100 align:middle line:90%
+SI in the free theory.
+
+01:20:44.100 --> 01:20:47.220 align:middle line:90%
+
+
+01:20:47.220 --> 01:20:50.010 align:middle line:84%
+And now we can just
+evaluate, in the free theory,
+
+01:20:50.010 --> 01:20:52.560 align:middle line:84%
+such kind of
+correlation functions.
+
+01:20:52.560 --> 01:20:55.860 align:middle line:84%
+And we evaluate
+them by expanding
+
+01:20:55.860 --> 01:20:59.850 align:middle line:90%
+the SI in power series.
+
+01:20:59.850 --> 01:21:04.080 align:middle line:84%
+And then just-- so
+everything becomes
+
+01:21:04.080 --> 01:21:07.650 align:middle line:84%
+just doing some Taylor
+series expansion
+
+01:21:07.650 --> 01:21:13.410 align:middle line:84%
+in the inside of the integral
+and then become very simple.
+
+01:21:13.410 --> 01:21:15.600 align:middle line:90%
+You don't need any fancy stuff.
+
+01:21:15.600 --> 01:21:18.930 align:middle line:84%
+First year your
+calculus you can do.
+
+01:21:18.930 --> 01:21:21.780 align:middle line:90%
+First year calculus you can do.
+
+01:21:21.780 --> 01:21:23.850 align:middle line:84%
+So when you expand
+that stuff, still you
+
+01:21:23.850 --> 01:21:26.080 align:middle line:90%
+get something very complicated.
+
+01:21:26.080 --> 01:21:28.380 align:middle line:84%
+And then you can use
+diagrammatic rules
+
+01:21:28.380 --> 01:21:29.370 align:middle line:90%
+to simplify them.
+
+01:21:29.370 --> 01:21:31.320 align:middle line:84%
+And that's called
+the Feynman diagrams.
+
+01:21:31.320 --> 01:21:33.090 align:middle line:84%
+And now we can--
+yeah, next time we
+
+01:21:33.090 --> 01:21:37.050 align:middle line:84%
+will talk about Feynman
+diagrams to simplify such kind
+
+01:21:37.050 --> 01:21:39.620 align:middle line:90%
+of expansion in power series.
+
+01:21:39.620 --> 01:21:44.000 align:middle line:90%

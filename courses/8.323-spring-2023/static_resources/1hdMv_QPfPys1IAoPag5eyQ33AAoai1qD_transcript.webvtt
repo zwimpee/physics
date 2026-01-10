@@ -1,0 +1,4308 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.960 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.960 --> 00:00:04.410 align:middle line:90%
+[RUSTLING]
+
+00:00:04.410 --> 00:00:08.330 align:middle line:90%
+[CLICKING]
+
+00:00:08.330 --> 00:00:11.000 align:middle line:90%
+
+
+00:00:11.000 --> 00:00:15.630 align:middle line:84%
+PROFESSOR: So I hope you all
+have had a great spring break.
+
+00:00:15.630 --> 00:00:21.190 align:middle line:84%
+So before the break, we
+talked about Dirac equation.
+
+00:00:21.190 --> 00:00:23.490 align:middle line:90%
+So we introduced the equation.
+
+00:00:23.490 --> 00:00:30.150 align:middle line:84%
+We showed that it is
+Lorentz covariant.
+
+00:00:30.150 --> 00:00:34.260 align:middle line:84%
+And then we started talking
+about the classical solutions
+
+00:00:34.260 --> 00:00:40.260 align:middle line:84%
+of the Dirac equation,
+because the finding
+
+00:00:40.260 --> 00:00:44.520 align:middle line:84%
+the complete set of
+solutions for Dirac equation
+
+00:00:44.520 --> 00:00:50.190 align:middle line:84%
+is the necessary step
+for quantizing it.
+
+00:00:50.190 --> 00:01:04.239 align:middle line:84%
+So let us consider the classical
+solutions of Dirac equations.
+
+00:01:04.239 --> 00:01:09.070 align:middle line:90%
+
+
+00:01:09.070 --> 00:01:12.010 align:middle line:84%
+And recall the Dirac equation
+is given by the following.
+
+00:01:12.010 --> 00:01:17.220 align:middle line:90%
+
+
+00:01:17.220 --> 00:01:19.270 align:middle line:90%
+So this gamma matrices--
+
+00:01:19.270 --> 00:01:23.130 align:middle line:84%
+so these gamma matrices
+are 4x4 matrices,
+
+00:01:23.130 --> 00:01:27.820 align:middle line:84%
+and psi is a four
+complex vector.
+
+00:01:27.820 --> 00:01:30.840 align:middle line:84%
+And we already just
+from setting up
+
+00:01:30.840 --> 00:01:34.110 align:middle line:84%
+the Dirac equation and the
+properties of the gamma
+
+00:01:34.110 --> 00:01:40.960 align:middle line:84%
+matrices that this
+should have solutions
+
+00:01:40.960 --> 00:01:47.500 align:middle line:84%
+proportional to plane
+wave with k square equal
+
+00:01:47.500 --> 00:01:50.170 align:middle line:90%
+to minus m square.
+
+00:01:50.170 --> 00:01:58.600 align:middle line:84%
+So our goal is to
+find the pre-factors.
+
+00:01:58.600 --> 00:02:02.180 align:middle line:84%
+So here, we separate into
+two kinds of solutions.
+
+00:02:02.180 --> 00:02:04.060 align:middle line:90%
+So this just reminds you--
+
+00:02:04.060 --> 00:02:07.850 align:middle line:84%
+we discussed that at the
+end of last lecture--
+
+00:02:07.850 --> 00:02:11.560 align:middle line:84%
+we call uk corresponding
+to the positive.
+
+00:02:11.560 --> 00:02:21.930 align:middle line:84%
+So we always take k to have
+positive time component.
+
+00:02:21.930 --> 00:02:25.770 align:middle line:84%
+And so this is the
+positive energy solution.
+
+00:02:25.770 --> 00:02:29.710 align:middle line:84%
+Then we have also so-called
+negative energy solution.
+
+00:02:29.710 --> 00:02:31.440 align:middle line:90%
+So these are just names.
+
+00:02:31.440 --> 00:02:34.890 align:middle line:84%
+Does not really means that
+they have positive energy
+
+00:02:34.890 --> 00:02:36.610 align:middle line:90%
+or negative energy.
+
+00:02:36.610 --> 00:02:40.800 align:middle line:84%
+It just means that
+the sign here.
+
+00:02:40.800 --> 00:02:46.630 align:middle line:84%
+So now, if you plug this
+into the Dirac equation,
+
+00:02:46.630 --> 00:02:49.740 align:middle line:84%
+and then you get the
+algebraic equation for u.
+
+00:02:49.740 --> 00:02:52.020 align:middle line:84%
+You get the algebraic
+equation for u,
+
+00:02:52.020 --> 00:03:03.332 align:middle line:84%
+and then you find i k slash
+m u equal to 0, and the i k
+
+00:03:03.332 --> 00:03:08.160 align:middle line:90%
+slash plus m v equal to 0.
+
+00:03:08.160 --> 00:03:12.150 align:middle line:84%
+So u and v satisfy
+those equations.
+
+00:03:12.150 --> 00:03:21.120 align:middle line:84%
+And so I suppose you're already
+familiar with the rotation--
+
+00:03:21.120 --> 00:03:22.150 align:middle line:90%
+so this k slash.
+
+00:03:22.150 --> 00:03:27.890 align:middle line:90%
+
+
+00:03:27.890 --> 00:03:29.600 align:middle line:84%
+So those equations,
+in principle,
+
+00:03:29.600 --> 00:03:31.010 align:middle line:90%
+you can just solve them.
+
+00:03:31.010 --> 00:03:33.230 align:middle line:84%
+So these are just
+linear equations.
+
+00:03:33.230 --> 00:03:39.500 align:middle line:84%
+And yeah, in principle,
+you can just solve them.
+
+00:03:39.500 --> 00:03:44.660 align:middle line:84%
+But still there are tricks
+how we solve them so
+
+00:03:44.660 --> 00:03:47.510 align:middle line:90%
+that it's mostly transparent.
+
+00:03:47.510 --> 00:03:50.225 align:middle line:84%
+So there are two methods
+of finding the u and k.
+
+00:03:50.225 --> 00:03:52.990 align:middle line:90%
+
+
+00:03:52.990 --> 00:03:55.810 align:middle line:84%
+So one method is we first
+go to the rest frame--
+
+00:03:55.810 --> 00:04:00.850 align:middle line:90%
+
+
+00:04:00.850 --> 00:04:08.990 align:middle line:84%
+say we take k mu, say, to
+have 0 spatial momentum.
+
+00:04:08.990 --> 00:04:15.080 align:middle line:84%
+And then the k mu will
+be just equal to m 0.
+
+00:04:15.080 --> 00:04:18.709 align:middle line:84%
+So in this case, those equations
+become particularly simple.
+
+00:04:18.709 --> 00:04:21.769 align:middle line:84%
+And also before we
+solve them, actually we
+
+00:04:21.769 --> 00:04:26.660 align:middle line:84%
+should also specify the gamma
+matrices we need to use.
+
+00:04:26.660 --> 00:04:34.640 align:middle line:84%
+So the gamma matrices we will
+use is given by the following.
+
+00:04:34.640 --> 00:04:36.395 align:middle line:84%
+Again, each are
+the 2 by 2 block.
+
+00:04:36.395 --> 00:04:51.220 align:middle line:90%
+
+
+00:04:51.220 --> 00:04:54.980 align:middle line:84%
+So this is the gamma
+matrices we are going to use.
+
+00:04:54.980 --> 00:04:57.580 align:middle line:84%
+And as we discussed
+before, there
+
+00:04:57.580 --> 00:05:01.390 align:middle line:84%
+are many, many different
+choices of gamma matrices.
+
+00:05:01.390 --> 00:05:08.300 align:middle line:84%
+And some of them are
+convenient for certain purpose.
+
+00:05:08.300 --> 00:05:10.310 align:middle line:84%
+And as we will see,
+this one actually
+
+00:05:10.310 --> 00:05:14.120 align:middle line:84%
+makes the non-relativistic
+limit more manifest.
+
+00:05:14.120 --> 00:05:20.710 align:middle line:84%
+So it's conveniently reduced
+to non-relativistic limit.
+
+00:05:20.710 --> 00:05:25.030 align:middle line:84%
+And so in the rest frame,
+those equations simplify--
+
+00:05:25.030 --> 00:05:29.620 align:middle line:84%
+essentially, u just becomes
+the eigenvalue equations
+
+00:05:29.620 --> 00:05:31.450 align:middle line:90%
+for gamma 0.
+
+00:05:31.450 --> 00:05:37.240 align:middle line:84%
+So you find-- say,
+this equation for u--
+
+00:05:37.240 --> 00:05:40.400 align:middle line:90%
+
+
+00:05:40.400 --> 00:05:46.510 align:middle line:84%
+so let's denote to the
+rest frame by 0, and then--
+
+00:05:46.510 --> 00:05:53.290 align:middle line:84%
+so the equation for u just
+becomes this in the rest frame,
+
+00:05:53.290 --> 00:05:59.490 align:middle line:90%
+and the v given by this.
+
+00:05:59.490 --> 00:06:05.080 align:middle line:84%
+So essentially, this is just
+corresponding-- essentially,
+
+00:06:05.080 --> 00:06:06.610 align:middle line:90%
+you see the u and v--
+
+00:06:06.610 --> 00:06:11.710 align:middle line:84%
+u0 and v0 just corresponding
+to eigenvalues of gamma 0,
+
+00:06:11.710 --> 00:06:14.650 align:middle line:84%
+because this is gamma 0
+times u gives you a constant.
+
+00:06:14.650 --> 00:06:17.525 align:middle line:84%
+It can be-- move that constant
+to the right-hand side-- it
+
+00:06:17.525 --> 00:06:19.150 align:middle line:84%
+just looks like an
+eigenvalue equation.
+
+00:06:19.150 --> 00:06:21.980 align:middle line:90%
+
+
+00:06:21.980 --> 00:06:24.350 align:middle line:90%
+And so you can just easily--
+
+00:06:24.350 --> 00:06:27.830 align:middle line:84%
+you can plug this in and easily
+solve them, which we already
+
+00:06:27.830 --> 00:06:30.920 align:middle line:90%
+discussed last time.
+
+00:06:30.920 --> 00:06:33.050 align:middle line:84%
+So for example,
+you find that there
+
+00:06:33.050 --> 00:06:34.800 align:middle line:90%
+are two independent equations.
+
+00:06:34.800 --> 00:06:37.610 align:middle line:90%
+So this is a 4x4 matrix.
+
+00:06:37.610 --> 00:06:40.160 align:middle line:90%
+So gamma 0 is a 4x4 matrix.
+
+00:06:40.160 --> 00:06:45.530 align:middle line:84%
+And actually have two
+eigenvalues, say--
+
+00:06:45.530 --> 00:06:53.150 align:middle line:84%
+so each u and v have two
+independent solutions.
+
+00:06:53.150 --> 00:06:55.280 align:middle line:90%
+So you find that the--
+
+00:06:55.280 --> 00:07:03.820 align:middle line:84%
+say, for example, one solution
+is just given by 1, 0, 0, 0.
+
+00:07:03.820 --> 00:07:04.320 align:middle line:90%
+u2.
+
+00:07:04.320 --> 00:07:08.000 align:middle line:90%
+
+
+00:07:08.000 --> 00:07:12.600 align:middle line:84%
+So this-- we all just discussed
+at the end of last lecture
+
+00:07:12.600 --> 00:07:13.100 align:middle line:90%
+here--
+
+00:07:13.100 --> 00:07:15.425 align:middle line:90%
+I'm just trying to remind you.
+
+00:07:15.425 --> 00:07:25.480 align:middle line:90%
+
+
+00:07:25.480 --> 00:07:27.910 align:middle line:84%
+So in this rest
+frame, the solutions
+
+00:07:27.910 --> 00:07:30.010 align:middle line:90%
+are particularly simple.
+
+00:07:30.010 --> 00:07:33.370 align:middle line:84%
+And so essentially, you have
+two independent solutions.
+
+00:07:33.370 --> 00:07:36.035 align:middle line:84%
+And then you take and
+take actually arbitrary
+
+00:07:36.035 --> 00:07:37.660 align:middle line:84%
+linear superposition
+of them because we
+
+00:07:37.660 --> 00:07:39.400 align:middle line:90%
+are solving linear equations--
+
+00:07:39.400 --> 00:07:41.620 align:middle line:84%
+similarly for v.
+And you can take
+
+00:07:41.620 --> 00:07:44.080 align:middle line:84%
+the arbitrary linear
+superposition of these
+
+00:07:44.080 --> 00:07:47.145 align:middle line:90%
+and then you will solve them.
+
+00:07:47.145 --> 00:07:50.450 align:middle line:90%
+
+
+00:07:50.450 --> 00:07:58.330 align:middle line:84%
+And then for general
+uk and vk, you
+
+00:07:58.330 --> 00:08:01.520 align:middle line:84%
+can just perform a
+Lorentz transformation.
+
+00:08:01.520 --> 00:08:03.610 align:middle line:84%
+So you can perform
+Lorentz transformation.
+
+00:08:03.610 --> 00:08:20.020 align:middle line:84%
+Say, the uk is obtained by
+S lambda uk 0 u0 and vk is
+
+00:08:20.020 --> 00:08:22.650 align:middle line:90%
+given by S lambda v0.
+
+00:08:22.650 --> 00:08:26.150 align:middle line:90%
+
+
+00:08:26.150 --> 00:08:29.330 align:middle line:84%
+So the lambda-- so remember,
+our notation, S lambda,
+
+00:08:29.330 --> 00:08:32.284 align:middle line:84%
+is a Lorentz transformation
+on the spinors.
+
+00:08:32.284 --> 00:08:34.159 align:middle line:84%
+So the Lorentz transformation
+on the spinors.
+
+00:08:34.159 --> 00:08:35.690 align:middle line:84%
+And the lambda is
+just determined
+
+00:08:35.690 --> 00:08:46.790 align:middle line:84%
+by the Lorentz transformation
+to take this k0 to k.
+
+00:08:46.790 --> 00:08:51.060 align:middle line:84%
+So for arbitrary--
+so we take k0,
+
+00:08:51.060 --> 00:08:53.700 align:middle line:84%
+so we make the Lorentz
+transformation to k,
+
+00:08:53.700 --> 00:08:56.940 align:middle line:90%
+and then the corresponding uk.
+
+00:08:56.940 --> 00:08:59.670 align:middle line:90%
+Then, it's getting by that.
+
+00:08:59.670 --> 00:09:04.340 align:middle line:90%
+
+
+00:09:04.340 --> 00:09:09.130 align:middle line:84%
+But in practice, if I give
+you an arbitrary, say--
+
+00:09:09.130 --> 00:09:14.590 align:middle line:84%
+yeah, give you arbitrary k, and
+you first work out the lambda,
+
+00:09:14.590 --> 00:09:17.380 align:middle line:84%
+then you have to work
+out this S lambda.
+
+00:09:17.380 --> 00:09:23.200 align:middle line:84%
+So working s lambda is possible,
+but again, takes some effort.
+
+00:09:23.200 --> 00:09:26.080 align:middle line:84%
+But there's still
+a lot of shortcut.
+
+00:09:26.080 --> 00:09:27.590 align:middle line:84%
+We can actually
+find the solution.
+
+00:09:27.590 --> 00:09:30.535 align:middle line:84%
+So this is one way to do it,
+and there's alternative way.
+
+00:09:30.535 --> 00:09:39.987 align:middle line:90%
+
+
+00:09:39.987 --> 00:09:41.820 align:middle line:84%
+So before I talk about
+this alternative way,
+
+00:09:41.820 --> 00:09:43.050 align:middle line:90%
+do you have any questions?
+
+00:09:43.050 --> 00:09:46.020 align:middle line:84%
+So this is more or
+less where we stopped--
+
+00:09:46.020 --> 00:09:48.285 align:middle line:84%
+so at the end of--
+before the break.
+
+00:09:48.285 --> 00:09:53.070 align:middle line:90%
+
+
+00:09:53.070 --> 00:09:56.240 align:middle line:90%
+Any questions?
+
+00:09:56.240 --> 00:09:57.980 align:middle line:90%
+OK, good.
+
+00:09:57.980 --> 00:10:02.635 align:middle line:84%
+So alternatively, we can
+actually find a simpler way.
+
+00:10:02.635 --> 00:10:06.540 align:middle line:90%
+
+
+00:10:06.540 --> 00:10:12.160 align:middle line:84%
+So the simpler way is by
+observing an identity--
+
+00:10:12.160 --> 00:10:14.800 align:middle line:90%
+
+
+00:10:14.800 --> 00:10:17.950 align:middle line:84%
+you say, if you look
+at the k slash square--
+
+00:10:17.950 --> 00:10:22.240 align:middle line:84%
+so you have done something
+similar in your pset--
+
+00:10:22.240 --> 00:10:24.940 align:middle line:84%
+if you look at the
+k slash square--
+
+00:10:24.940 --> 00:10:32.110 align:middle line:84%
+so this quantity, by definition,
+is k mu gamma mu k nu gamma
+
+00:10:32.110 --> 00:10:36.780 align:middle line:84%
+nu And then you use the
+properties of gamma mu
+
+00:10:36.780 --> 00:10:42.000 align:middle line:84%
+and gamma nu, and then you
+can easily convince yourself
+
+00:10:42.000 --> 00:10:45.800 align:middle line:84%
+this is just giving
+you the k squared.
+
+00:10:45.800 --> 00:10:47.570 align:middle line:84%
+This just gives
+you the k square.
+
+00:10:47.570 --> 00:10:52.380 align:middle line:84%
+And then-- because we are
+looking at on-shell solution,
+
+00:10:52.380 --> 00:10:54.650 align:middle line:84%
+so this is just equal
+to minus m squared.
+
+00:10:54.650 --> 00:10:59.470 align:middle line:90%
+
+
+00:10:59.470 --> 00:11:07.250 align:middle line:84%
+Then, this means that if
+I have ik slash plus m--
+
+00:11:07.250 --> 00:11:09.980 align:middle line:90%
+
+
+00:11:09.980 --> 00:11:13.740 align:middle line:84%
+which-- so up here in
+the equation for u and v
+
+00:11:13.740 --> 00:11:16.940 align:middle line:90%
+are plus or minus m.
+
+00:11:16.940 --> 00:11:21.050 align:middle line:84%
+And then if I multiply
+by i k slash minus m--
+
+00:11:21.050 --> 00:11:24.160 align:middle line:90%
+
+
+00:11:24.160 --> 00:11:29.560 align:middle line:84%
+and then essentially I have
+minus k slash square minus m
+
+00:11:29.560 --> 00:11:35.630 align:middle line:84%
+square, and this is
+actually equal to 0
+
+00:11:35.630 --> 00:11:36.785 align:middle line:90%
+because of this equation.
+
+00:11:36.785 --> 00:11:44.520 align:middle line:90%
+
+
+00:11:44.520 --> 00:11:46.320 align:middle line:84%
+So now we can
+immediately observe--
+
+00:11:46.320 --> 00:11:48.860 align:middle line:90%
+
+
+00:11:48.860 --> 00:11:54.720 align:middle line:84%
+so now, we can immediately
+observe if I take a solution--
+
+00:11:54.720 --> 00:11:58.200 align:middle line:90%
+
+
+00:11:58.200 --> 00:12:04.630 align:middle line:84%
+if I just-- to
+solve that equation,
+
+00:12:04.630 --> 00:12:15.640 align:middle line:84%
+you can just write u as say
+some normalization constant--
+
+00:12:15.640 --> 00:12:18.504 align:middle line:84%
+N will be a normalization
+constant-- and i k
+
+00:12:18.504 --> 00:12:20.080 align:middle line:90%
+slash plus m.
+
+00:12:20.080 --> 00:12:23.230 align:middle line:90%
+
+
+00:12:23.230 --> 00:12:29.500 align:middle line:84%
+And then they're acting on
+some arbitrary u tilde--
+
+00:12:29.500 --> 00:12:30.850 align:middle line:90%
+some arbitrary spinor.
+
+00:12:30.850 --> 00:12:32.710 align:middle line:90%
+And then this equation--
+
+00:12:32.710 --> 00:12:34.840 align:middle line:84%
+that equation
+automatically satisfies.
+
+00:12:34.840 --> 00:12:37.380 align:middle line:90%
+
+
+00:12:37.380 --> 00:12:44.370 align:middle line:84%
+And similarly, v, if I take
+some normalization constant,
+
+00:12:44.370 --> 00:12:49.500 align:middle line:84%
+and I take minus
+i k slash plus m--
+
+00:12:49.500 --> 00:12:52.590 align:middle line:90%
+say some v tilde--
+
+00:12:52.590 --> 00:12:55.740 align:middle line:84%
+so that equation, again,
+automatically-- the v equation
+
+00:12:55.740 --> 00:13:00.010 align:middle line:84%
+automatically satisfied
+because of this identity.
+
+00:13:00.010 --> 00:13:02.440 align:middle line:84%
+And now, we know
+that there's only two
+
+00:13:02.440 --> 00:13:04.120 align:middle line:90%
+independent equations--
+
+00:13:04.120 --> 00:13:11.210 align:middle line:84%
+two independent solutions
+for both u and v,
+
+00:13:11.210 --> 00:13:15.420 align:middle line:90%
+so we can choose a basis for u.
+
+00:13:15.420 --> 00:13:19.035 align:middle line:84%
+And just by taking
+this to be, say, us 0--
+
+00:13:19.035 --> 00:13:25.730 align:middle line:90%
+
+
+00:13:25.730 --> 00:13:28.340 align:middle line:90%
+and then this would be a basis--
+
+00:13:28.340 --> 00:13:30.400 align:middle line:90%
+a complete basis of solutions.
+
+00:13:30.400 --> 00:13:34.000 align:middle line:90%
+So s would go 1 to 2.
+
+00:13:34.000 --> 00:13:35.890 align:middle line:84%
+So because we have--
+and for each of them,
+
+00:13:35.890 --> 00:13:37.720 align:middle line:84%
+we have two
+independent solutions.
+
+00:13:37.720 --> 00:13:40.910 align:middle line:90%
+
+
+00:13:40.910 --> 00:13:43.850 align:middle line:84%
+And so the reason we
+can choose us here--
+
+00:13:43.850 --> 00:13:47.270 align:middle line:84%
+you can also check that
+when you take the m--
+
+00:13:47.270 --> 00:13:49.580 align:middle line:90%
+when you take the to be--
+
+00:13:49.580 --> 00:13:54.050 align:middle line:84%
+yeah, so when you
+take k to be k0--
+
+00:13:54.050 --> 00:13:57.350 align:middle line:84%
+so you can easily check
+yourself that this equation--
+
+00:13:57.350 --> 00:14:02.800 align:middle line:84%
+this essentially just
+reduced to a us 0.
+
+00:14:02.800 --> 00:14:04.480 align:middle line:90%
+Yeah, this is consistent--
+
+00:14:04.480 --> 00:14:07.150 align:middle line:90%
+just say when you take that--
+
+00:14:07.150 --> 00:14:08.590 align:middle line:90%
+you just reduce to this basis.
+
+00:14:08.590 --> 00:14:11.830 align:middle line:90%
+
+
+00:14:11.830 --> 00:14:13.780 align:middle line:84%
+So n is a
+normalization constant.
+
+00:14:13.780 --> 00:14:26.270 align:middle line:90%
+
+
+00:14:26.270 --> 00:14:33.820 align:middle line:84%
+And so the us vs then
+provides a basis--
+
+00:14:33.820 --> 00:14:35.740 align:middle line:84%
+then this is a
+basis of solutions.
+
+00:14:35.740 --> 00:14:45.220 align:middle line:90%
+
+
+00:14:45.220 --> 00:14:47.710 align:middle line:84%
+And we can be sure these
+are the complete basis
+
+00:14:47.710 --> 00:14:50.890 align:middle line:90%
+because that's the only--
+
+00:14:50.890 --> 00:14:56.110 align:middle line:84%
+yeah, essentially, we already
+know the solution at the rest
+
+00:14:56.110 --> 00:14:59.710 align:middle line:84%
+frame, and we just
+have the right number
+
+00:14:59.710 --> 00:15:02.080 align:middle line:90%
+of the independent solutions.
+
+00:15:02.080 --> 00:15:03.087 align:middle line:90%
+Yes?
+
+00:15:03.087 --> 00:15:05.170 align:middle line:84%
+STUDENT: How do we know
+the normalization constant
+
+00:15:05.170 --> 00:15:07.090 align:middle line:90%
+is the same for uv?
+
+00:15:07.090 --> 00:15:11.800 align:middle line:84%
+PROFESSOR: Oh, yeah,
+here, we don't know.
+
+00:15:11.800 --> 00:15:14.390 align:middle line:84%
+But you can guess why
+it should be the same.
+
+00:15:14.390 --> 00:15:18.820 align:middle line:84%
+It's just essentially--
+so this u-- yeah,
+
+00:15:18.820 --> 00:15:21.040 align:middle line:84%
+because the equation
+looks pretty symmetric
+
+00:15:21.040 --> 00:15:24.160 align:middle line:84%
+and the normalization constant
+don't depend on the sign of m,
+
+00:15:24.160 --> 00:15:25.060 align:middle line:90%
+essentially.
+
+00:15:25.060 --> 00:15:28.340 align:middle line:90%
+
+
+00:15:28.340 --> 00:15:31.910 align:middle line:84%
+Yeah, in principle, I
+should write in 1 and 2.
+
+00:15:31.910 --> 00:15:37.460 align:middle line:84%
+Yeah, just-- but in the
+end, they are the same.
+
+00:15:37.460 --> 00:15:38.040 align:middle line:90%
+Good.
+
+00:15:38.040 --> 00:15:39.920 align:middle line:90%
+Any other questions?
+
+00:15:39.920 --> 00:15:44.070 align:middle line:90%
+
+
+00:15:44.070 --> 00:15:47.220 align:middle line:90%
+So you can also--
+
+00:15:47.220 --> 00:15:51.150 align:middle line:84%
+yeah, if you take the conjugate,
+then you can get the--
+
+00:15:51.150 --> 00:15:57.000 align:middle line:84%
+what's the u dagger or the
+u bar or v dagger v bar.
+
+00:15:57.000 --> 00:16:00.790 align:middle line:84%
+So for example, you
+just take the conjugate,
+
+00:16:00.790 --> 00:16:03.460 align:middle line:90%
+then you find the us bar.
+
+00:16:03.460 --> 00:16:07.380 align:middle line:84%
+So I hope you still remember
+the notation-- the us bar--
+
+00:16:07.380 --> 00:16:12.390 align:middle line:84%
+which is the us dagger times
+gamma 0 and the us bar--
+
+00:16:12.390 --> 00:16:16.590 align:middle line:84%
+so this is for the conjugate
+solution-- will be an--
+
+00:16:16.590 --> 00:16:17.370 align:middle line:90%
+the same n.
+
+00:16:17.370 --> 00:16:18.900 align:middle line:90%
+We can take n to be real--
+
+00:16:18.900 --> 00:16:25.830 align:middle line:84%
+say, us bar 0, then
+i k slash plus m.
+
+00:16:25.830 --> 00:16:29.310 align:middle line:84%
+So you just use the
+properties of the--
+
+00:16:29.310 --> 00:16:43.250 align:middle line:90%
+
+
+00:16:43.250 --> 00:16:44.510 align:middle line:90%
+so you can also find this.
+
+00:16:44.510 --> 00:16:47.530 align:middle line:90%
+
+
+00:16:47.530 --> 00:16:50.820 align:middle line:84%
+So now you can easily
+check yourself again using
+
+00:16:50.820 --> 00:16:53.540 align:middle line:90%
+this equation--
+
+00:16:53.540 --> 00:16:57.440 align:middle line:84%
+you can check that the
+u bar and the v bar
+
+00:16:57.440 --> 00:16:59.900 align:middle line:84%
+are actually-- u
+and v are orthogonal
+
+00:16:59.900 --> 00:17:01.260 align:middle line:90%
+in the following sense.
+
+00:17:01.260 --> 00:17:09.140 align:middle line:84%
+And ur bar vs is
+equal to v bar r us
+
+00:17:09.140 --> 00:17:15.680 align:middle line:84%
+is equal to 0 for arbitrary
+r, s equal to 1 and 2.
+
+00:17:15.680 --> 00:17:17.540 align:middle line:90%
+So u and v are orthogonal.
+
+00:17:17.540 --> 00:17:24.630 align:middle line:90%
+
+
+00:17:24.630 --> 00:17:27.200 align:middle line:90%
+And we can also --
+
+00:17:27.200 --> 00:17:32.180 align:middle line:84%
+and then we need to fix the
+normalization of u and v.
+
+00:17:32.180 --> 00:17:36.690 align:middle line:84%
+So it's convenient to fix
+the normalization as follows.
+
+00:17:36.690 --> 00:17:39.320 align:middle line:84%
+So we will use the
+following convention--
+
+00:17:39.320 --> 00:17:44.240 align:middle line:90%
+say us bar k--
+
+00:17:44.240 --> 00:17:56.510 align:middle line:84%
+say, ur k u bar and us k
+equal to i 2 m delta rs.
+
+00:17:56.510 --> 00:18:05.965 align:middle line:84%
+And similarly, vr bar
+k and vs k - i 2m.
+
+00:18:05.965 --> 00:18:17.790 align:middle line:90%
+
+
+00:18:17.790 --> 00:18:21.150 align:middle line:84%
+So these 2m just
+for convenience.
+
+00:18:21.150 --> 00:18:24.600 align:middle line:84%
+So it just convention
+for convenience.
+
+00:18:24.600 --> 00:18:32.900 align:middle line:84%
+And so you can check
+yourself that actually--
+
+00:18:32.900 --> 00:18:37.676 align:middle line:90%
+yeah, so different u--
+
+00:18:37.676 --> 00:18:39.540 align:middle line:84%
+different value of
+r and s, they're
+
+00:18:39.540 --> 00:18:40.790 align:middle line:90%
+also orthogonal to each other.
+
+00:18:40.790 --> 00:18:45.020 align:middle line:84%
+You can already see
+already in the rest frame.
+
+00:18:45.020 --> 00:18:47.960 align:middle line:84%
+You can just easily check
+using those expressions,
+
+00:18:47.960 --> 00:18:51.305 align:middle line:84%
+but you can also check
+again using this identity
+
+00:18:51.305 --> 00:18:53.510 align:middle line:84%
+that the different
+value of r and s,
+
+00:18:53.510 --> 00:18:55.110 align:middle line:84%
+they are orthogonal
+to each other.
+
+00:18:55.110 --> 00:18:57.410 align:middle line:84%
+And when they are
+the same, and then we
+
+00:18:57.410 --> 00:19:02.620 align:middle line:84%
+normalize the
+constant to be 2 m.
+
+00:19:02.620 --> 00:19:07.300 align:middle line:84%
+And from here, you
+can deduce that N
+
+00:19:07.300 --> 00:19:13.850 align:middle line:84%
+is equal to 1 over square
+root E plus M. So from now on,
+
+00:19:13.850 --> 00:19:17.230 align:middle line:84%
+I will also use
+this notation for E.
+
+00:19:17.230 --> 00:19:22.630 align:middle line:84%
+So the E-- the
+energy is omega k.
+
+00:19:22.630 --> 00:19:25.135 align:middle line:84%
+So now, I will also
+use this notation.
+
+00:19:25.135 --> 00:19:37.970 align:middle line:90%
+
+
+00:19:37.970 --> 00:19:38.540 align:middle line:90%
+Good.
+
+00:19:38.540 --> 00:19:42.010 align:middle line:84%
+So this gives you
+a complete basis
+
+00:19:42.010 --> 00:19:46.240 align:middle line:84%
+of solutions to the
+Dirac equations.
+
+00:19:46.240 --> 00:19:48.430 align:middle line:84%
+So now, let me just
+write them down
+
+00:19:48.430 --> 00:19:51.460 align:middle line:84%
+to give you a
+little bit intuition
+
+00:19:51.460 --> 00:19:53.420 align:middle line:90%
+about the explicit expression.
+
+00:19:53.420 --> 00:19:59.320 align:middle line:84%
+So with those gamma matrices,
+we can just plug in here.
+
+00:19:59.320 --> 00:20:02.200 align:middle line:90%
+And we know what the us 0 vs 0.
+
+00:20:02.200 --> 00:20:06.280 align:middle line:84%
+We know n, so in principle, we
+can write them down explicitly.
+
+00:20:06.280 --> 00:20:10.270 align:middle line:84%
+So you find that in that
+basis, then the us k
+
+00:20:10.270 --> 00:20:14.110 align:middle line:90%
+is given by the following--
+
+00:20:14.110 --> 00:20:22.730 align:middle line:84%
+given by the square
+root E plus M xi s,
+
+00:20:22.730 --> 00:20:33.770 align:middle line:84%
+and the sigma dot k divided
+by square root E plus M xi s.
+
+00:20:33.770 --> 00:20:37.090 align:middle line:90%
+
+
+00:20:37.090 --> 00:20:49.750 align:middle line:84%
+And the vs k is
+given by sigma dot
+
+00:20:49.750 --> 00:21:05.500 align:middle line:84%
+k divided by square root E plus
+M also xi s, and E plus M xi s.
+
+00:21:05.500 --> 00:21:08.210 align:middle line:90%
+And xi s is a 2.
+
+00:21:08.210 --> 00:21:13.400 align:middle line:90%
+So s from 1 to 2, and xi 1--
+
+00:21:13.400 --> 00:21:16.860 align:middle line:84%
+so psi s are two
+component vectors.
+
+00:21:16.860 --> 00:21:21.560 align:middle line:84%
+One is given by 1, 0, and
+the other is given by 0, 1.
+
+00:21:21.560 --> 00:21:28.200 align:middle line:90%
+
+
+00:21:28.200 --> 00:21:31.250 align:middle line:90%
+So that you get--
+
+00:21:31.250 --> 00:21:37.510 align:middle line:84%
+so you can see in
+the rest frame,
+
+00:21:37.510 --> 00:21:39.940 align:middle line:84%
+k equal to 0--
+essentially, for u,
+
+00:21:39.940 --> 00:21:45.440 align:middle line:84%
+you're just left with the
+upper half because this is 0.
+
+00:21:45.440 --> 00:21:49.310 align:middle line:84%
+And then we have the
+1, 0 and the 0, 1.
+
+00:21:49.310 --> 00:21:51.140 align:middle line:90%
+And then when k equal to 0--
+
+00:21:51.140 --> 00:21:53.630 align:middle line:84%
+and for v, just left
+with a lower half.
+
+00:21:53.630 --> 00:21:57.200 align:middle line:84%
+And again, we have
+the 1, 0 and the 0, 1.
+
+00:21:57.200 --> 00:22:00.470 align:middle line:84%
+So this is consistent
+with the rest frame result
+
+00:22:00.470 --> 00:22:03.690 align:middle line:90%
+we obtained earlier.
+
+00:22:03.690 --> 00:22:04.190 align:middle line:90%
+Good.
+
+00:22:04.190 --> 00:22:05.110 align:middle line:90%
+Any questions on this?
+
+00:22:05.110 --> 00:22:05.710 align:middle line:90%
+Yes?
+
+00:22:05.710 --> 00:22:07.460 align:middle line:84%
+STUDENT: What are the
+sig -- what's sigma?
+
+00:22:07.460 --> 00:22:09.890 align:middle line:84%
+PROFESSOR: Oh, sigma
+just the sigma matrix.
+
+00:22:09.890 --> 00:22:12.790 align:middle line:84%
+So this sigma just
+Pauli matrices.
+
+00:22:12.790 --> 00:22:15.100 align:middle line:90%
+Sigma 1, sigma 2, sigma 3--
+
+00:22:15.100 --> 00:22:15.970 align:middle line:90%
+Pauli matrices.
+
+00:22:15.970 --> 00:22:22.974 align:middle line:90%
+
+
+00:22:22.974 --> 00:22:23.474 align:middle line:90%
+Good?
+
+00:22:23.474 --> 00:22:27.910 align:middle line:90%
+
+
+00:22:27.910 --> 00:22:30.580 align:middle line:90%
+So let me just mention a few--
+
+00:22:30.580 --> 00:22:33.820 align:middle line:84%
+make a few remarks
+on the solutions.
+
+00:22:33.820 --> 00:22:43.870 align:middle line:84%
+And to be familiar with the
+properties of the solutions
+
+00:22:43.870 --> 00:22:46.690 align:middle line:84%
+actually will be very
+useful when later you
+
+00:22:46.690 --> 00:22:51.280 align:middle line:84%
+do Feynman diagram calculations,
+because the different--
+
+00:22:51.280 --> 00:22:56.020 align:middle line:84%
+when you involve, say,
+electron fermions-- and now,
+
+00:22:56.020 --> 00:22:57.670 align:middle line:90%
+it's no longer plane wave.
+
+00:22:57.670 --> 00:23:02.240 align:middle line:84%
+So this u and v will enter your
+Feynman diagram calculations.
+
+00:23:02.240 --> 00:23:04.420 align:middle line:84%
+And if you are familiar
+with their properties--
+
+00:23:04.420 --> 00:23:08.830 align:middle line:84%
+and will help you to
+do such calculations.
+
+00:23:08.830 --> 00:23:12.700 align:middle line:84%
+So let me just first
+mention some properties.
+
+00:23:12.700 --> 00:23:17.120 align:middle line:90%
+
+
+00:23:17.120 --> 00:23:19.860 align:middle line:90%
+Make some remarks.
+
+00:23:19.860 --> 00:23:23.375 align:middle line:84%
+So first is that if we consider
+the non-relativistic limit--
+
+00:23:23.375 --> 00:23:27.310 align:middle line:90%
+
+
+00:23:27.310 --> 00:23:30.250 align:middle line:84%
+the non-relativistic limit-- so
+that's corresponding to-- you
+
+00:23:30.250 --> 00:23:37.180 align:middle line:84%
+take the magnitude of k
+divided by m goes to 0.
+
+00:23:37.180 --> 00:23:40.720 align:middle line:84%
+And then in this limit, E would
+be approximately equal to m.
+
+00:23:40.720 --> 00:23:46.050 align:middle line:90%
+
+
+00:23:46.050 --> 00:23:47.760 align:middle line:84%
+And then you find
+the leading order
+
+00:23:47.760 --> 00:23:52.590 align:middle line:84%
+when you expand, say, in-- yeah,
+so you can expand this in 1
+
+00:23:52.590 --> 00:23:59.540 align:middle line:84%
+over M. So the
+leading order, you
+
+00:23:59.540 --> 00:24:05.160 align:middle line:84%
+find that the us k-- so you
+can just easily do these two.
+
+00:24:05.160 --> 00:24:08.670 align:middle line:84%
+And yeah, so this
+term, certainly, you
+
+00:24:08.670 --> 00:24:10.410 align:middle line:90%
+can just ignore because E--
+
+00:24:10.410 --> 00:24:12.450 align:middle line:90%
+so this is M--
+
+00:24:12.450 --> 00:24:15.000 align:middle line:84%
+so this is k divided
+by square root of M,
+
+00:24:15.000 --> 00:24:17.380 align:middle line:84%
+so this is higher
+order than this one.
+
+00:24:17.380 --> 00:24:19.110 align:middle line:84%
+And here, it's the
+square root of M.
+
+00:24:19.110 --> 00:24:28.250 align:middle line:84%
+So to leading order, you
+have square root 2m xi s 0.
+
+00:24:28.250 --> 00:24:37.030 align:middle line:84%
+Similarly, vs k equal to
+square root of 2m leading order
+
+00:24:37.030 --> 00:24:38.770 align:middle line:90%
+0 xi s.
+
+00:24:38.770 --> 00:24:45.490 align:middle line:90%
+
+
+00:24:45.490 --> 00:24:53.540 align:middle line:84%
+So essentially, what you see
+in the non-relativistic limit--
+
+00:24:53.540 --> 00:24:57.150 align:middle line:84%
+for example, if we look at this
+positive energy solutions--
+
+00:24:57.150 --> 00:25:01.470 align:middle line:84%
+so this just reduced
+to arbitrary--
+
+00:25:01.470 --> 00:25:06.660 align:middle line:84%
+so us k-- yeah, now you can
+do linear superposition--
+
+00:25:06.660 --> 00:25:22.520 align:middle line:84%
+just uk just reduce to arbitrary
+two component complex vector.
+
+00:25:22.520 --> 00:25:30.580 align:middle line:90%
+
+
+00:25:30.580 --> 00:25:32.590 align:middle line:90%
+Yeah, so you just--
+
+00:25:32.590 --> 00:25:34.450 align:middle line:90%
+so this is just some constant.
+
+00:25:34.450 --> 00:25:36.820 align:middle line:84%
+And as a basis, you
+just have this basis,
+
+00:25:36.820 --> 00:25:39.820 align:middle line:84%
+and then you can just
+now do arbitrary-- yeah,
+
+00:25:39.820 --> 00:25:42.920 align:middle line:84%
+just become the
+arbitrary complex vector.
+
+00:25:42.920 --> 00:25:49.900 align:middle line:84%
+So the should remind you how we
+describe a spin-half particle
+
+00:25:49.900 --> 00:25:51.670 align:middle line:90%
+in non-relativistic limit.
+
+00:25:51.670 --> 00:25:55.510 align:middle line:84%
+In the non-relativistic
+limit, the way
+
+00:25:55.510 --> 00:25:58.720 align:middle line:84%
+we describe the
+spin-half particle--
+
+00:25:58.720 --> 00:26:02.920 align:middle line:84%
+and it's precisely a
+two-component vector.
+
+00:26:02.920 --> 00:26:18.310 align:middle line:84%
+So so this is exactly
+as the description
+
+00:26:18.310 --> 00:26:23.705 align:middle line:90%
+of a spin-half particle.
+
+00:26:23.705 --> 00:26:26.450 align:middle line:90%
+
+
+00:26:26.450 --> 00:26:29.480 align:middle line:90%
+Yeah, the wave function--
+
+00:26:29.480 --> 00:26:30.950 align:middle line:84%
+yeah, here, you
+should understand
+
+00:26:30.950 --> 00:26:33.290 align:middle line:84%
+this-- the wave
+function description
+
+00:26:33.290 --> 00:26:37.610 align:middle line:84%
+of the spin-half particle
+in non-relativistic quantum
+
+00:26:37.610 --> 00:26:38.240 align:middle line:90%
+mechanics.
+
+00:26:38.240 --> 00:26:42.840 align:middle line:90%
+
+
+00:26:42.840 --> 00:26:44.670 align:middle line:84%
+And as I will not
+go through here,
+
+00:26:44.670 --> 00:26:51.360 align:middle line:84%
+but you can show in the
+non-relativistic limit,
+
+00:26:51.360 --> 00:26:54.815 align:middle line:84%
+this solution
+actually decouples.
+
+00:26:54.815 --> 00:26:56.690 align:middle line:84%
+In the end, when you
+solve the equation, only
+
+00:26:56.690 --> 00:26:58.640 align:middle line:90%
+one half of the equation--
+
+00:26:58.640 --> 00:27:01.400 align:middle line:84%
+one half of the
+solution remains.
+
+00:27:01.400 --> 00:27:04.474 align:middle line:84%
+And actually, this
+is no longer--
+
+00:27:04.474 --> 00:27:08.130 align:middle line:84%
+it just gets the
+positive energy solution.
+
+00:27:08.130 --> 00:27:11.900 align:middle line:84%
+So in that limit,
+you essentially only
+
+00:27:11.900 --> 00:27:13.460 align:middle line:90%
+reduce to two components.
+
+00:27:13.460 --> 00:27:20.960 align:middle line:90%
+
+
+00:27:20.960 --> 00:27:22.700 align:middle line:90%
+So this is the first remark.
+
+00:27:22.700 --> 00:27:27.640 align:middle line:84%
+So this is the first indication
+we see that this should likely
+
+00:27:27.640 --> 00:27:30.580 align:middle line:90%
+describe a spin-half particle.
+
+00:27:30.580 --> 00:27:35.275 align:middle line:84%
+The Dirac theory likely
+describes a spin-half particle.
+
+00:27:35.275 --> 00:27:38.820 align:middle line:90%
+
+
+00:27:38.820 --> 00:27:44.880 align:middle line:84%
+So the second limit
+we can consider
+
+00:27:44.880 --> 00:27:47.685 align:middle line:84%
+is considered the ultra
+relativistic limit.
+
+00:27:47.685 --> 00:27:59.070 align:middle line:90%
+
+
+00:27:59.070 --> 00:28:04.020 align:middle line:84%
+So this is a limit which
+E is much greater than--
+
+00:28:04.020 --> 00:28:08.130 align:middle line:84%
+energy is much greater
+than M. And E then
+
+00:28:08.130 --> 00:28:13.665 align:middle line:84%
+will be approximate, say, to
+k-- to the magnitude of k.
+
+00:28:13.665 --> 00:28:16.310 align:middle line:90%
+
+
+00:28:16.310 --> 00:28:19.010 align:middle line:84%
+And now let's also
+define the direction of k
+
+00:28:19.010 --> 00:28:26.150 align:middle line:84%
+by just k divided
+by its magnitude.
+
+00:28:26.150 --> 00:28:30.590 align:middle line:84%
+So we also introduced the
+k hat is the unit vector
+
+00:28:30.590 --> 00:28:32.000 align:middle line:90%
+along the direction of the k.
+
+00:28:32.000 --> 00:28:37.390 align:middle line:84%
+So in this case, you can
+do a small m expansion--
+
+00:28:37.390 --> 00:28:41.890 align:middle line:84%
+just do a small expansion--
+this expression for u and v.
+
+00:28:41.890 --> 00:28:46.510 align:middle line:84%
+And then you find
+the leading order--
+
+00:28:46.510 --> 00:28:52.500 align:middle line:90%
+us k given by square root of E.
+
+00:28:52.500 --> 00:29:02.590 align:middle line:84%
+And then you have xi s, and
+then you have sigma k hat xi s.
+
+00:29:02.590 --> 00:29:04.850 align:middle line:90%
+This is for the us.
+
+00:29:04.850 --> 00:29:06.470 align:middle line:90%
+And for the vs, you find--
+
+00:29:06.470 --> 00:29:24.090 align:middle line:90%
+
+
+00:29:24.090 --> 00:29:27.790 align:middle line:84%
+so that's the-- so you find
+that solution simplify,
+
+00:29:27.790 --> 00:29:30.480 align:middle line:84%
+and so that's the
+result you get.
+
+00:29:30.480 --> 00:29:36.330 align:middle line:90%
+
+
+00:29:36.330 --> 00:29:43.020 align:middle line:84%
+So it's not manifest
+from this expression,
+
+00:29:43.020 --> 00:29:49.960 align:middle line:84%
+but actually, there's something
+very special in this simplified
+
+00:29:49.960 --> 00:29:52.580 align:middle line:84%
+expression in the ultra
+relativistic limit.
+
+00:29:52.580 --> 00:29:55.970 align:middle line:90%
+So if you look at--
+
+00:29:55.970 --> 00:29:59.120 align:middle line:90%
+so the expression for u and v--
+
+00:29:59.120 --> 00:30:03.140 align:middle line:84%
+these are linearly independent,
+in the sense that no matter how
+
+00:30:03.140 --> 00:30:05.240 align:middle line:84%
+you do linear
+superposition of u,
+
+00:30:05.240 --> 00:30:07.310 align:middle line:90%
+you will not be able to get v.
+
+00:30:07.310 --> 00:30:09.950 align:middle line:84%
+And also how you do
+linear superposition of v,
+
+00:30:09.950 --> 00:30:13.010 align:middle line:90%
+you won't get u.
+
+00:30:13.010 --> 00:30:16.310 align:middle line:84%
+But in this limit, even
+though it's not clear--
+
+00:30:16.310 --> 00:30:19.110 align:middle line:84%
+not manifest in this
+form, but in fact,
+
+00:30:19.110 --> 00:30:23.480 align:middle line:84%
+these two are linearly
+related to each other.
+
+00:30:23.480 --> 00:30:27.390 align:middle line:90%
+So this can be seen as follows.
+
+00:30:27.390 --> 00:30:46.660 align:middle line:84%
+So if you use the identity
+that's sigma dot k square--
+
+00:30:46.660 --> 00:30:51.610 align:middle line:84%
+so this is the analog of
+this equation for the sigma
+
+00:30:51.610 --> 00:30:52.600 align:middle line:90%
+matrices--
+
+00:30:52.600 --> 00:30:54.460 align:middle line:90%
+for the Pauli matrices.
+
+00:30:54.460 --> 00:30:56.350 align:middle line:84%
+And this, you can
+easily-- again,
+
+00:30:56.350 --> 00:30:58.000 align:middle line:84%
+using the property
+of Pauli matrices,
+
+00:30:58.000 --> 00:31:00.880 align:middle line:84%
+you can convince yourself
+that this is just
+
+00:31:00.880 --> 00:31:02.410 align:middle line:90%
+giving you k hat squared.
+
+00:31:02.410 --> 00:31:05.440 align:middle line:90%
+
+
+00:31:05.440 --> 00:31:07.060 align:middle line:90%
+And this is actually--
+
+00:31:07.060 --> 00:31:10.540 align:middle line:84%
+because this is unit
+vector, this is just 1.
+
+00:31:10.540 --> 00:31:16.440 align:middle line:84%
+So now, if you use this
+property, this is equal to 1.
+
+00:31:16.440 --> 00:31:18.480 align:middle line:90%
+And then we find--
+
+00:31:18.480 --> 00:31:25.800 align:middle line:84%
+and then let eta s
+equal to sigma k--
+
+00:31:25.800 --> 00:31:30.600 align:middle line:90%
+sigma dot k hat xi s.
+
+00:31:30.600 --> 00:31:35.250 align:middle line:84%
+And then you find that
+the vs k can be written
+
+00:31:35.250 --> 00:31:37.110 align:middle line:90%
+in the exact form as us k.
+
+00:31:37.110 --> 00:31:39.630 align:middle line:90%
+You just replace eta s by--
+
+00:31:39.630 --> 00:31:41.010 align:middle line:90%
+xi s by eta s.
+
+00:31:41.010 --> 00:31:45.600 align:middle line:84%
+And then you can have it
+in the following form--
+
+00:31:45.600 --> 00:31:56.840 align:middle line:84%
+square root E eta s
+sigma dot k eta s.
+
+00:31:56.840 --> 00:31:59.270 align:middle line:84%
+So obviously, this
+is equivalent to that
+
+00:31:59.270 --> 00:32:03.050 align:middle line:84%
+once you plug in the eta
+s equal to sigma k psi s,
+
+00:32:03.050 --> 00:32:05.660 align:middle line:84%
+because this just
+gives you that.
+
+00:32:05.660 --> 00:32:08.720 align:middle line:84%
+And when you plug in to here,
+you get the sigma k square,
+
+00:32:08.720 --> 00:32:11.390 align:middle line:84%
+and you get 1, and again,
+you reduce to that.
+
+00:32:11.390 --> 00:32:14.380 align:middle line:90%
+
+
+00:32:14.380 --> 00:32:23.530 align:middle line:84%
+But now, this have exactly
+the same form as this one,
+
+00:32:23.530 --> 00:32:29.980 align:middle line:84%
+except now eta s is a linear
+superposition of the xi s.
+
+00:32:29.980 --> 00:32:36.480 align:middle line:84%
+Then that means that the vs is a
+linear superposition of the us.
+
+00:32:36.480 --> 00:32:43.870 align:middle line:84%
+So this means that the vs is
+a linear superposition of vs.
+
+00:32:43.870 --> 00:32:59.980 align:middle line:84%
+So vs now is a linear
+superposition of vs-- of us.
+
+00:32:59.980 --> 00:33:02.200 align:middle line:84%
+So they are no
+longer independent,
+
+00:33:02.200 --> 00:33:10.690 align:middle line:84%
+so they are not
+linear independent.
+
+00:33:10.690 --> 00:33:20.050 align:middle line:90%
+
+
+00:33:20.050 --> 00:33:24.700 align:middle line:84%
+So actually, if you
+remember one of the ways
+
+00:33:24.700 --> 00:33:27.970 align:middle line:84%
+we have discussed before,
+this may not appear a surprise
+
+00:33:27.970 --> 00:33:31.150 align:middle line:84%
+to you, because
+previously, we already
+
+00:33:31.150 --> 00:33:36.400 align:middle line:84%
+discussed when we derive
+the Dirac equation.
+
+00:33:36.400 --> 00:33:39.900 align:middle line:84%
+So Dirac equation--
+in order to satisfy
+
+00:33:39.900 --> 00:33:43.590 align:middle line:84%
+all the properties
+for non-zero M,
+
+00:33:43.590 --> 00:33:47.940 align:middle line:84%
+we need four
+dimensional matrices.
+
+00:33:47.940 --> 00:33:50.970 align:middle line:84%
+So that means psi
+is a four vector.
+
+00:33:50.970 --> 00:33:55.490 align:middle line:84%
+But we also mentioned that
+if you in the massless case
+
+00:33:55.490 --> 00:33:57.670 align:middle line:90%
+set m equal to 0--
+
+00:33:57.670 --> 00:33:59.350 align:middle line:84%
+in the massless
+case, actually, you
+
+00:33:59.350 --> 00:34:03.470 align:middle line:84%
+can use two components--
+just use gamma matrices.
+
+00:34:03.470 --> 00:34:06.520 align:middle line:84%
+So that means that if you solve
+a massless Dirac equation,
+
+00:34:06.520 --> 00:34:10.150 align:middle line:84%
+you only need-- you only have
+two independent solutions.
+
+00:34:10.150 --> 00:34:12.790 align:middle line:84%
+And this ultrarelativistic
+limit is precisely
+
+00:34:12.790 --> 00:34:14.980 align:middle line:84%
+like the massless limit
+because the mass--
+
+00:34:14.980 --> 00:34:16.960 align:middle line:84%
+the energy is much
+greater than the mass,
+
+00:34:16.960 --> 00:34:20.800 align:middle line:84%
+and then you can neglect
+the effect of mass.
+
+00:34:20.800 --> 00:34:22.360 align:middle line:90%
+So this is consistent--
+
+00:34:22.360 --> 00:34:26.489 align:middle line:90%
+
+
+00:34:26.489 --> 00:34:43.080 align:middle line:84%
+with that the massless Dirac
+equation consistent with that--
+
+00:34:43.080 --> 00:34:55.750 align:middle line:84%
+only requires two components
+rather than four components.
+
+00:34:55.750 --> 00:34:59.510 align:middle line:90%
+
+
+00:34:59.510 --> 00:35:00.603 align:middle line:90%
+Yes?
+
+00:35:00.603 --> 00:35:02.395 align:middle line:84%
+STUDENT: So in the
+ultrarelativistic limit,
+
+00:35:02.395 --> 00:35:07.488 align:middle line:84%
+theyre linearly related, but
+that relationship v bar times u
+
+00:35:07.488 --> 00:35:10.300 align:middle line:90%
+equals 0 still holds, right?
+
+00:35:10.300 --> 00:35:13.983 align:middle line:84%
+PROFESSOR: Yeah, that you have
+to be a little bit careful.
+
+00:35:13.983 --> 00:35:15.400 align:middle line:84%
+STUDENT: Does that
+mean that's not
+
+00:35:15.400 --> 00:35:17.775 align:middle line:84%
+to be thought of as an inner
+product on the spinor space?
+
+00:35:17.775 --> 00:35:21.380 align:middle line:84%
+PROFESSOR: Yeah, so that's
+a very good question.
+
+00:35:21.380 --> 00:35:23.890 align:middle line:84%
+So you have to be
+careful a little bit--
+
+00:35:23.890 --> 00:35:27.585 align:middle line:84%
+and when you take the limit
+in deriving that relation.
+
+00:35:27.585 --> 00:35:29.825 align:middle line:90%
+
+
+00:35:29.825 --> 00:35:31.450 align:middle line:84%
+Yeah, just you have
+to be a little more
+
+00:35:31.450 --> 00:35:33.920 align:middle line:90%
+careful in understanding.
+
+00:35:33.920 --> 00:35:35.890 align:middle line:90%
+Yeah, I forgot the exact--
+
+00:35:35.890 --> 00:35:37.598 align:middle line:84%
+what's exactly happened
+to that equation,
+
+00:35:37.598 --> 00:35:39.223 align:middle line:84%
+but I remember there's
+some subtleties.
+
+00:35:39.223 --> 00:35:40.150 align:middle line:90%
+Yeah, you have to be.
+
+00:35:40.150 --> 00:35:44.200 align:middle line:90%
+
+
+00:35:44.200 --> 00:35:44.700 align:middle line:90%
+Good.
+
+00:35:44.700 --> 00:35:45.540 align:middle line:90%
+Other questions?
+
+00:35:45.540 --> 00:35:51.650 align:middle line:90%
+
+
+00:35:51.650 --> 00:35:55.520 align:middle line:84%
+So also there are some
+other useful relations
+
+00:35:55.520 --> 00:35:58.170 align:middle line:90%
+which will be useful later.
+
+00:35:58.170 --> 00:36:00.890 align:middle line:90%
+So one of them--
+
+00:36:00.890 --> 00:36:03.320 align:middle line:84%
+so let me also list
+some useful relations.
+
+00:36:03.320 --> 00:36:17.200 align:middle line:90%
+
+
+00:36:17.200 --> 00:36:24.010 align:middle line:84%
+So why is that if you
+look at ur dagger and us--
+
+00:36:24.010 --> 00:36:29.110 align:middle line:90%
+so this is k us k--
+
+00:36:29.110 --> 00:36:33.580 align:middle line:84%
+again, this is orthogonal
+between r and s.
+
+00:36:33.580 --> 00:36:38.710 align:middle line:84%
+And then it's
+given by 2e dot rs.
+
+00:36:38.710 --> 00:36:41.300 align:middle line:90%
+So here it's bar.
+
+00:36:41.300 --> 00:36:43.870 align:middle line:90%
+So the difference here is bar.
+
+00:36:43.870 --> 00:36:48.130 align:middle line:84%
+And so when you have a bar,
+you have additional gamma 0.
+
+00:36:48.130 --> 00:36:52.150 align:middle line:84%
+And then here is 2m, and
+then here it becomes 2E.
+
+00:36:52.150 --> 00:36:54.580 align:middle line:84%
+And here, you have additional
+i because you have a gamma
+
+00:36:54.580 --> 00:36:59.110 align:middle line:84%
+0 because gamma 0-- remember,
+gamma 0 square 2 minus 1.
+
+00:36:59.110 --> 00:37:01.750 align:middle line:84%
+So gamma 0 has
+actually eigenvalue
+
+00:37:01.750 --> 00:37:05.110 align:middle line:84%
+to be pure imaginary, so that's
+why there's a difference in i
+
+00:37:05.110 --> 00:37:07.610 align:middle line:90%
+here.
+
+00:37:07.610 --> 00:37:19.110 align:middle line:84%
+And similarly, the vr dagger k
+and vs k equal to 2E delta is.
+
+00:37:19.110 --> 00:37:23.400 align:middle line:90%
+
+
+00:37:23.400 --> 00:37:25.920 align:middle line:90%
+So those expressions to--
+
+00:37:25.920 --> 00:37:31.840 align:middle line:90%
+
+
+00:37:31.840 --> 00:37:38.720 align:middle line:84%
+yeah, will be very useful
+later when you actually
+
+00:37:38.720 --> 00:37:40.030 align:middle line:90%
+do calculations.
+
+00:37:40.030 --> 00:37:59.320 align:middle line:90%
+
+
+00:37:59.320 --> 00:38:00.940 align:middle line:84%
+Yeah, I forgot to
+mention-- yeah,
+
+00:38:00.940 --> 00:38:04.360 align:middle line:84%
+the reason is that-- the
+reason that limit is subtle
+
+00:38:04.360 --> 00:38:07.780 align:middle line:84%
+when you do that is because you
+remember the normalization we
+
+00:38:07.780 --> 00:38:12.400 align:middle line:84%
+do here is m, and so you have to
+change your normalization when
+
+00:38:12.400 --> 00:38:15.250 align:middle line:90%
+you go to the massless case.
+
+00:38:15.250 --> 00:38:17.710 align:middle line:84%
+Yeah, so there's various
+things you have to be careful.
+
+00:38:17.710 --> 00:38:22.180 align:middle line:90%
+
+
+00:38:22.180 --> 00:38:25.320 align:middle line:84%
+So you have that,
+and then you also
+
+00:38:25.320 --> 00:38:34.030 align:middle line:84%
+have the relation
+that the ur dagger k--
+
+00:38:34.030 --> 00:38:37.570 align:middle line:84%
+so because everything is
+on-shell so in principle,
+
+00:38:37.570 --> 00:38:38.650 align:middle line:90%
+I can only--
+
+00:38:38.650 --> 00:38:41.640 align:middle line:84%
+I only need to specify
+the spatial momentum.
+
+00:38:41.640 --> 00:38:45.880 align:middle line:84%
+So for convenience, let me just
+specifier the spatial momentum,
+
+00:38:45.880 --> 00:38:48.890 align:middle line:90%
+which is easier in notation.
+
+00:38:48.890 --> 00:38:57.180 align:middle line:84%
+So now it turns
+out ur and the vs--
+
+00:38:57.180 --> 00:38:58.860 align:middle line:90%
+so now it's a dagger.
+
+00:38:58.860 --> 00:39:01.740 align:middle line:84%
+When you have bar,
+they're orthogonal.
+
+00:39:01.740 --> 00:39:04.360 align:middle line:90%
+We have the expression there.
+
+00:39:04.360 --> 00:39:07.500 align:middle line:84%
+But then you have
+dagger, it turns out
+
+00:39:07.500 --> 00:39:10.440 align:middle line:90%
+it's orthogonal to minus k.
+
+00:39:10.440 --> 00:39:14.130 align:middle line:84%
+You have to reverse
+your spatial momentum,
+
+00:39:14.130 --> 00:39:24.210 align:middle line:84%
+and this is equal to
+vr k and us minus k.
+
+00:39:24.210 --> 00:39:28.700 align:middle line:84%
+So this is equal to 0, but this
+is actually not equal to 0.
+
+00:39:28.700 --> 00:39:32.170 align:middle line:90%
+
+
+00:39:32.170 --> 00:39:42.570 align:middle line:84%
+ur dagger k us vs k is
+actually not equal to 0.
+
+00:39:42.570 --> 00:39:44.460 align:middle line:90%
+So they're not orthogonal.
+
+00:39:44.460 --> 00:39:46.470 align:middle line:84%
+Only the bar relation
+is orthogonal,
+
+00:39:46.470 --> 00:39:49.320 align:middle line:84%
+and then this relation
+is orthogonal.
+
+00:39:49.320 --> 00:39:51.910 align:middle line:90%
+
+
+00:39:51.910 --> 00:39:56.410 align:middle line:84%
+And similarly with
+the conjugate of this.
+
+00:39:56.410 --> 00:39:59.380 align:middle line:84%
+So those relations
+you can just check
+
+00:39:59.380 --> 00:40:04.930 align:middle line:84%
+them using explicit form
+of those expressions.
+
+00:40:04.930 --> 00:40:07.090 align:middle line:84%
+And we have this
+correction here.
+
+00:40:07.090 --> 00:40:10.030 align:middle line:84%
+You can just check those
+expression is true.
+
+00:40:10.030 --> 00:40:13.870 align:middle line:90%
+And so I will not go into that.
+
+00:40:13.870 --> 00:40:18.080 align:middle line:84%
+But actually, more remarkably,
+those expressions--
+
+00:40:18.080 --> 00:40:21.370 align:middle line:84%
+so when we derive
+this expression,
+
+00:40:21.370 --> 00:40:25.300 align:middle line:84%
+we actually use the explicit
+form of the gamma matrices.
+
+00:40:25.300 --> 00:40:27.380 align:middle line:90%
+It depends on the explicit form.
+
+00:40:27.380 --> 00:40:29.400 align:middle line:84%
+So those expressions
+depend on explicit form
+
+00:40:29.400 --> 00:40:30.800 align:middle line:90%
+of these gamma matrices.
+
+00:40:30.800 --> 00:40:33.590 align:middle line:84%
+So if you have a different
+set of gamma matrices,
+
+00:40:33.590 --> 00:40:35.470 align:middle line:90%
+then you get different forms.
+
+00:40:35.470 --> 00:40:39.080 align:middle line:84%
+But of course, physically,
+they're all equivalent.
+
+00:40:39.080 --> 00:40:41.140 align:middle line:84%
+But it turns out that
+those relations--
+
+00:40:41.140 --> 00:40:44.100 align:middle line:90%
+
+
+00:40:44.100 --> 00:40:47.280 align:middle line:84%
+so those relations actually
+are independent of the choice
+
+00:40:47.280 --> 00:40:50.210 align:middle line:90%
+of gamma matrices.
+
+00:40:50.210 --> 00:40:58.230 align:middle line:90%
+So let me just label them by--
+
+00:40:58.230 --> 00:41:02.220 align:middle line:84%
+let me call it star,
+and here by star star.
+
+00:41:02.220 --> 00:41:06.150 align:middle line:90%
+
+
+00:41:06.150 --> 00:41:27.810 align:middle line:84%
+So star and star are actually
+independent of choice
+
+00:41:27.810 --> 00:41:31.235 align:middle line:84%
+of representations
+of gamma matrices.
+
+00:41:31.235 --> 00:41:34.790 align:middle line:90%
+
+
+00:41:34.790 --> 00:41:40.290 align:middle line:84%
+So they're actually universal
+for any choice of matrices.
+
+00:41:40.290 --> 00:41:44.240 align:middle line:84%
+So this is very useful because
+when you do calculations,
+
+00:41:44.240 --> 00:41:48.770 align:middle line:84%
+then you don't have to worry
+about which choice of gamma
+
+00:41:48.770 --> 00:41:53.572 align:middle line:84%
+matrices you make, and
+those expressions are true.
+
+00:41:53.572 --> 00:41:57.620 align:middle line:90%
+
+
+00:41:57.620 --> 00:42:06.320 align:middle line:84%
+So you can actually
+derive those expressions
+
+00:42:06.320 --> 00:42:10.310 align:middle line:84%
+without using gamma
+matrices-- just abstractly
+
+00:42:10.310 --> 00:42:15.650 align:middle line:84%
+only using the properties
+of the Dirac equation itself
+
+00:42:15.650 --> 00:42:18.620 align:middle line:84%
+and the general properties
+of gamma matrices
+
+00:42:18.620 --> 00:42:23.120 align:middle line:84%
+without using explicit
+representations.
+
+00:42:23.120 --> 00:42:23.980 align:middle line:90%
+Yes?
+
+00:42:23.980 --> 00:42:25.730 align:middle line:84%
+STUDENT: So is the
+other normalization one
+
+00:42:25.730 --> 00:42:28.885 align:middle line:90%
+dependent on representation?
+
+00:42:28.885 --> 00:42:29.760 align:middle line:90%
+PROFESSOR: Which one?
+
+00:42:29.760 --> 00:42:31.880 align:middle line:90%
+STUDENT: The one with ur bar v.
+
+00:42:31.880 --> 00:42:34.580 align:middle line:84%
+PROFESSOR: No, that also does
+not depend on representation.
+
+00:42:34.580 --> 00:42:36.020 align:middle line:90%
+Yeah, that also does not--
+
+00:42:36.020 --> 00:42:39.890 align:middle line:84%
+or this normalization does not
+depend on the representation.
+
+00:42:39.890 --> 00:42:42.710 align:middle line:90%
+But this expression somehow is--
+
+00:42:42.710 --> 00:42:44.280 align:middle line:84%
+yeah, that's just
+our definition.
+
+00:42:44.280 --> 00:42:46.990 align:middle line:90%
+We just define them this way.
+
+00:42:46.990 --> 00:42:48.320 align:middle line:90%
+We define them in this way.
+
+00:42:48.320 --> 00:42:51.610 align:middle line:84%
+So this just follows from
+those general expressions
+
+00:42:51.610 --> 00:42:53.740 align:middle line:90%
+just from this equation.
+
+00:42:53.740 --> 00:42:58.330 align:middle line:84%
+But this equation is less
+obvious because without gamma
+
+00:42:58.330 --> 00:43:01.690 align:middle line:84%
+0, then it's less
+directly related
+
+00:43:01.690 --> 00:43:04.370 align:middle line:90%
+to the Dirac equation itself.
+
+00:43:04.370 --> 00:43:07.330 align:middle line:84%
+But it turns out this
+expression also independent
+
+00:43:07.330 --> 00:43:09.220 align:middle line:90%
+of the choice of gamma matrices.
+
+00:43:09.220 --> 00:43:14.160 align:middle line:90%
+
+
+00:43:14.160 --> 00:43:15.230 align:middle line:90%
+Any other questions?
+
+00:43:15.230 --> 00:43:17.770 align:middle line:90%
+
+
+00:43:17.770 --> 00:43:21.220 align:middle line:84%
+I can give you a
+derivation of this
+
+00:43:21.220 --> 00:43:24.310 align:middle line:90%
+without using gamma matrices.
+
+00:43:24.310 --> 00:43:27.460 align:middle line:84%
+but that take a few minutes,
+So I will skip that.
+
+00:43:27.460 --> 00:43:29.140 align:middle line:90%
+You can read it in Peskin.
+
+00:43:29.140 --> 00:43:32.905 align:middle line:84%
+So Peskin has a
+derivation of this.
+
+00:43:32.905 --> 00:43:35.680 align:middle line:90%
+
+
+00:43:35.680 --> 00:43:36.180 align:middle line:90%
+Good?
+
+00:43:36.180 --> 00:43:41.290 align:middle line:90%
+
+
+00:43:41.290 --> 00:43:44.470 align:middle line:84%
+But you should remember this
+yourself-- just remember it.
+
+00:43:44.470 --> 00:43:49.680 align:middle line:90%
+
+
+00:43:49.680 --> 00:43:53.610 align:middle line:84%
+So the first remark is
+that often we actually need
+
+00:43:53.610 --> 00:43:57.740 align:middle line:90%
+to use the projection--
+
+00:43:57.740 --> 00:44:01.820 align:middle line:84%
+so you can also
+construct projections--
+
+00:44:01.820 --> 00:44:13.415 align:middle line:84%
+projectors to the positive and
+the negative solution space--
+
+00:44:13.415 --> 00:44:19.900 align:middle line:90%
+
+
+00:44:19.900 --> 00:44:20.400 align:middle line:90%
+spaces.
+
+00:44:20.400 --> 00:44:23.960 align:middle line:90%
+
+
+00:44:23.960 --> 00:44:54.020 align:middle line:84%
+So consider-- so the projector
+to the space spanned by us
+
+00:44:54.020 --> 00:44:55.920 align:middle line:90%
+can be defined as the follows.
+
+00:44:55.920 --> 00:44:59.720 align:middle line:90%
+So let me call it p plus.
+
+00:44:59.720 --> 00:45:03.020 align:middle line:84%
+So this is just
+from 2i m, so that's
+
+00:45:03.020 --> 00:45:06.040 align:middle line:90%
+coming from the normalization.
+
+00:45:06.040 --> 00:45:16.507 align:middle line:84%
+Then, just sum s equal to
+1 and 2 us k and us bar k.
+
+00:45:16.507 --> 00:45:19.860 align:middle line:90%
+
+
+00:45:19.860 --> 00:45:23.160 align:middle line:84%
+So you can easily
+check yourself because
+
+00:45:23.160 --> 00:45:26.050 align:middle line:90%
+of orthogonal relations--
+
+00:45:26.050 --> 00:45:29.740 align:middle line:84%
+or because u and
+v are orthogonal.
+
+00:45:29.740 --> 00:45:33.280 align:middle line:84%
+When you act this on
+the general solution,
+
+00:45:33.280 --> 00:45:36.460 align:middle line:84%
+we'll just project into
+solutions proportional
+
+00:45:36.460 --> 00:45:39.220 align:middle line:84%
+that only involve linear
+superpositions of u.
+
+00:45:39.220 --> 00:45:41.870 align:middle line:90%
+
+
+00:45:41.870 --> 00:45:50.710 align:middle line:84%
+So now, you can check
+yourself explicitly with this.
+
+00:45:50.710 --> 00:45:52.480 align:middle line:90%
+So just use various--
+
+00:45:52.480 --> 00:45:53.785 align:middle line:90%
+use property of this u.
+
+00:45:53.785 --> 00:45:55.810 align:middle line:84%
+You can check yourself
+explicitly with your--
+
+00:45:55.810 --> 00:45:57.160 align:middle line:90%
+I will not do there.
+
+00:45:57.160 --> 00:46:04.170 align:middle line:84%
+And you can check that
+this is indeed a projector.
+
+00:46:04.170 --> 00:46:07.140 align:middle line:84%
+If you look at the p squared,
+it gives back to itself.
+
+00:46:07.140 --> 00:46:12.570 align:middle line:90%
+
+
+00:46:12.570 --> 00:46:16.020 align:middle line:84%
+And with a little
+bit more effort,
+
+00:46:16.020 --> 00:46:21.270 align:middle line:84%
+you can further show
+that the p plus can be
+
+00:46:21.270 --> 00:46:23.910 align:middle line:90%
+written in the following form.
+
+00:46:23.910 --> 00:46:27.330 align:middle line:90%
+ik slash plus m divided by 2m.
+
+00:46:27.330 --> 00:46:31.940 align:middle line:90%
+
+
+00:46:31.940 --> 00:46:33.900 align:middle line:84%
+So this requires a
+little bit more effort
+
+00:46:33.900 --> 00:46:38.570 align:middle line:84%
+so I will leave as an
+exercise for yourself,
+
+00:46:38.570 --> 00:46:42.810 align:middle line:90%
+or you can get it from the book.
+
+00:46:42.810 --> 00:46:48.250 align:middle line:90%
+
+
+00:46:48.250 --> 00:46:52.070 align:middle line:84%
+And similarly, you can
+define the projector
+
+00:46:52.070 --> 00:46:57.710 align:middle line:84%
+to the space of v.
+So the p minus--
+
+00:46:57.710 --> 00:47:02.930 align:middle line:84%
+you can also define p
+minus to be minus 2 im
+
+00:47:02.930 --> 00:47:05.460 align:middle line:90%
+because of the minus sign here.
+
+00:47:05.460 --> 00:47:15.030 align:middle line:84%
+So 1 over minus 2 im
+some s vs k vs bar k.
+
+00:47:15.030 --> 00:47:19.110 align:middle line:84%
+And you can show that
+this also have a--
+
+00:47:19.110 --> 00:47:21.120 align:middle line:84%
+can be written as
+something like this--
+
+00:47:21.120 --> 00:47:27.490 align:middle line:84%
+minus ik slash plus
+m divided by 2m.
+
+00:47:27.490 --> 00:47:31.580 align:middle line:84%
+So again, this I will leave
+as an exercise to yourself.
+
+00:47:31.580 --> 00:47:37.340 align:middle line:84%
+So this is the projector
+to the space of v's.
+
+00:47:37.340 --> 00:47:54.010 align:middle line:84%
+And then from these
+two expression,
+
+00:47:54.010 --> 00:47:59.140 align:middle line:84%
+p plus p minus-- you easily
+see that p plus plus p minus
+
+00:47:59.140 --> 00:47:59.785 align:middle line:90%
+equal to 1.
+
+00:47:59.785 --> 00:48:03.430 align:middle line:90%
+
+
+00:48:03.430 --> 00:48:06.490 align:middle line:84%
+And you see the
+expression I just erased--
+
+00:48:06.490 --> 00:48:11.320 align:middle line:84%
+so from the-- taking the
+product and the p plus p
+
+00:48:11.320 --> 00:48:15.520 align:middle line:84%
+minus is equal to p
+minus p plus equal to 0.
+
+00:48:15.520 --> 00:48:18.430 align:middle line:84%
+So indeed, they are just
+projectors-- orthogonal
+
+00:48:18.430 --> 00:48:20.455 align:middle line:90%
+projectors into different space.
+
+00:48:20.455 --> 00:48:23.970 align:middle line:90%
+
+
+00:48:23.970 --> 00:48:28.020 align:middle line:84%
+So this concludes our discussion
+of the classical solutions
+
+00:48:28.020 --> 00:48:31.330 align:middle line:84%
+of Dirac equations
+and their properties.
+
+00:48:31.330 --> 00:48:35.410 align:middle line:90%
+So do you have other questions?
+
+00:48:35.410 --> 00:48:36.070 align:middle line:90%
+Yes?
+
+00:48:36.070 --> 00:48:38.153 align:middle line:84%
+STUDENT: So we've seen
+hints that this corresponds
+
+00:48:38.153 --> 00:48:41.440 align:middle line:84%
+to spin 1/2, but wouldn't
+it make more sense
+
+00:48:41.440 --> 00:48:43.990 align:middle line:84%
+to just define the
+angular momentum operator
+
+00:48:43.990 --> 00:48:46.550 align:middle line:84%
+and see whether it has
+eigenvalues or not?
+
+00:48:46.550 --> 00:48:49.780 align:middle line:84%
+PROFESSOR: Yeah, that you would
+need to quantize the theory,
+
+00:48:49.780 --> 00:48:52.840 align:middle line:84%
+but we haven't
+quantized the theory.
+
+00:48:52.840 --> 00:48:55.190 align:middle line:84%
+Yeah, that would
+be our next step.
+
+00:48:55.190 --> 00:48:58.940 align:middle line:84%
+So once we have found the full
+set of classical solutions
+
+00:48:58.940 --> 00:49:00.590 align:middle line:90%
+and now we can quantize it.
+
+00:49:00.590 --> 00:49:04.538 align:middle line:84%
+And once quantize it, then
+we can actually really find
+
+00:49:04.538 --> 00:49:05.455 align:middle line:90%
+this angular momentum.
+
+00:49:05.455 --> 00:49:08.080 align:middle line:90%
+
+
+00:49:08.080 --> 00:49:09.190 align:middle line:90%
+Other questions?
+
+00:49:09.190 --> 00:49:10.930 align:middle line:84%
+And indeed, actually,
+I think that would
+
+00:49:10.930 --> 00:49:16.450 align:middle line:84%
+be one of your pset
+problems to show yourself
+
+00:49:16.450 --> 00:49:17.590 align:middle line:90%
+that this is spin-half.
+
+00:49:17.590 --> 00:49:20.410 align:middle line:90%
+
+
+00:49:20.410 --> 00:49:23.080 align:middle line:90%
+Yeah, but yeah.
+
+00:49:23.080 --> 00:49:23.950 align:middle line:90%
+Other questions?
+
+00:49:23.950 --> 00:49:27.190 align:middle line:90%
+
+
+00:49:27.190 --> 00:49:27.900 align:middle line:90%
+OK, good.
+
+00:49:27.900 --> 00:49:31.160 align:middle line:90%
+
+
+00:49:31.160 --> 00:49:33.800 align:middle line:84%
+So now we conclude
+the discussion.
+
+00:49:33.800 --> 00:49:35.225 align:middle line:90%
+Now we can quantize the theory.
+
+00:49:35.225 --> 00:49:44.680 align:middle line:90%
+
+
+00:49:44.680 --> 00:49:46.885 align:middle line:84%
+Now we can go to
+the quantum system.
+
+00:49:46.885 --> 00:49:58.730 align:middle line:90%
+
+
+00:49:58.730 --> 00:50:06.270 align:middle line:84%
+So the-- remember, the
+action for the Dirac
+
+00:50:06.270 --> 00:50:18.710 align:middle line:84%
+is d4x psi bar gamma mu partial
+mu psi partial mu minus m psi.
+
+00:50:18.710 --> 00:50:25.160 align:middle line:84%
+So this is the action which
+gives us the Dirac equation.
+
+00:50:25.160 --> 00:50:28.810 align:middle line:90%
+
+
+00:50:28.810 --> 00:50:31.570 align:middle line:84%
+So in order to quantize
+this, we first--
+
+00:50:31.570 --> 00:50:36.450 align:middle line:84%
+remember our procedure
+to quantize a theory.
+
+00:50:36.450 --> 00:50:41.540 align:middle line:84%
+So we need to first find
+the canonical momentum,
+
+00:50:41.540 --> 00:50:45.710 align:middle line:84%
+and we also need to impose the
+canonical commutation relation,
+
+00:50:45.710 --> 00:50:50.000 align:middle line:84%
+and then we expand
+the operators in terms
+
+00:50:50.000 --> 00:50:53.807 align:middle line:84%
+of complete sets of
+classical solutions,
+
+00:50:53.807 --> 00:50:56.390 align:middle line:84%
+and then that's corresponding
+to the solutions to the operator
+
+00:50:56.390 --> 00:50:58.490 align:middle line:90%
+equations.
+
+00:50:58.490 --> 00:51:02.630 align:middle line:84%
+So let's try to find out what's
+the canonical momentum for psi.
+
+00:51:02.630 --> 00:51:05.780 align:middle line:90%
+
+
+00:51:05.780 --> 00:51:08.490 align:middle line:84%
+So as in the
+complex scalar case,
+
+00:51:08.490 --> 00:51:11.570 align:middle line:84%
+we can treat the
+psi and psi dagger
+
+00:51:11.570 --> 00:51:15.410 align:middle line:84%
+as independent variables
+because of the--
+
+00:51:15.410 --> 00:51:16.610 align:middle line:90%
+yeah.
+
+00:51:16.610 --> 00:51:19.970 align:middle line:84%
+So then the canonical
+momentum for psi--
+
+00:51:19.970 --> 00:51:22.500 align:middle line:90%
+if you look at this expression.
+
+00:51:22.500 --> 00:51:26.720 align:middle line:84%
+So you look at
+the partial 0 psi.
+
+00:51:26.720 --> 00:51:31.370 align:middle line:84%
+Then you find-- so the
+Lagrangian density--
+
+00:51:31.370 --> 00:51:34.290 align:middle line:84%
+if you look at that,
+if I write it bit--
+
+00:51:34.290 --> 00:51:37.760 align:middle line:90%
+I have the form psi dagger.
+
+00:51:37.760 --> 00:51:47.790 align:middle line:84%
+So this psi dagger gamma 0, and
+then gamma 0 psi 0 psi, then
+
+00:51:47.790 --> 00:51:49.290 align:middle line:90%
+plus the rest of the terms.
+
+00:51:49.290 --> 00:51:51.360 align:middle line:84%
+So in order to find
+the canonical momentum,
+
+00:51:51.360 --> 00:51:56.200 align:middle line:84%
+we are only interested in the
+part of the Lagrangian density
+
+00:51:56.200 --> 00:51:58.800 align:middle line:84%
+which are related to the
+derivative of psi-- or the time
+
+00:51:58.800 --> 00:52:00.000 align:middle line:90%
+derivative.
+
+00:52:00.000 --> 00:52:02.550 align:middle line:84%
+And so that's the
+only term involving
+
+00:52:02.550 --> 00:52:06.750 align:middle line:84%
+time derivative of either
+psi or psi bar or psi dagger.
+
+00:52:06.750 --> 00:52:09.330 align:middle line:90%
+
+
+00:52:09.330 --> 00:52:12.750 align:middle line:84%
+So this gamma 0 squared
+equal to minus 1--
+
+00:52:12.750 --> 00:52:19.400 align:middle line:84%
+so this is just i psi
+dagger partial 0 psi.
+
+00:52:19.400 --> 00:52:23.300 align:middle line:84%
+So now, we can
+immediately find out
+
+00:52:23.300 --> 00:52:31.650 align:middle line:84%
+that the conjugate momentum for
+psi is given by i psi dagger,
+
+00:52:31.650 --> 00:52:34.695 align:middle line:84%
+because you take a
+derivative on psi 0--
+
+00:52:34.695 --> 00:52:37.290 align:middle line:84%
+partial 0 psi, you
+just get i psi dagger.
+
+00:52:37.290 --> 00:52:43.680 align:middle line:84%
+But the conjugate
+momentum for psi dagger
+
+00:52:43.680 --> 00:52:44.775 align:middle line:90%
+is actually equal to what?
+
+00:52:44.775 --> 00:52:47.710 align:middle line:90%
+
+
+00:52:47.710 --> 00:52:51.406 align:middle line:90%
+So what is this?
+
+00:52:51.406 --> 00:52:52.804 align:middle line:90%
+STUDENT: 0.
+
+00:52:52.804 --> 00:52:55.850 align:middle line:84%
+PROFESSOR: Thi is equal to
+0 because there is no time
+
+00:52:55.850 --> 00:53:00.190 align:middle line:90%
+derivative on psi dagger.
+
+00:53:00.190 --> 00:53:01.650 align:middle line:90%
+So this tells you--
+
+00:53:01.650 --> 00:53:05.440 align:middle line:90%
+
+
+00:53:05.440 --> 00:53:09.350 align:middle line:84%
+so this-- so the
+fact that this--
+
+00:53:09.350 --> 00:53:15.080 align:middle line:84%
+equal to 0 tells you
+actually the Dirac system--
+
+00:53:15.080 --> 00:53:17.900 align:middle line:84%
+the action-- this Dirac
+system is actually
+
+00:53:17.900 --> 00:53:18.845 align:middle line:90%
+a constrained system.
+
+00:53:18.845 --> 00:53:23.310 align:middle line:90%
+
+
+00:53:23.310 --> 00:53:26.780 align:middle line:84%
+So this is considered to be
+a constraint, because you
+
+00:53:26.780 --> 00:53:29.320 align:middle line:90%
+can no longer normally--
+
+00:53:29.320 --> 00:53:36.790 align:middle line:84%
+so remember, when we
+say from the Lagrangian,
+
+00:53:36.790 --> 00:53:39.670 align:middle line:84%
+you find the canonical
+momentum, and then
+
+00:53:39.670 --> 00:53:42.160 align:middle line:84%
+you invert the
+canonical momentum
+
+00:53:42.160 --> 00:53:43.480 align:middle line:90%
+to find the Hamiltonian.
+
+00:53:43.480 --> 00:53:46.310 align:middle line:90%
+
+
+00:53:46.310 --> 00:53:50.300 align:middle line:84%
+But when you have this equal
+to 0, you cannot invert it.
+
+00:53:50.300 --> 00:53:54.530 align:middle line:84%
+You cannot express your, say,
+psi or psi dagger in terms
+
+00:53:54.530 --> 00:53:56.330 align:middle line:90%
+of pi or pi dagger.
+
+00:53:56.330 --> 00:53:58.980 align:middle line:90%
+And so this is a constrained.
+
+00:53:58.980 --> 00:54:03.695 align:middle line:84%
+So that means you actually
+have a constrained system.
+
+00:54:03.695 --> 00:54:07.510 align:middle line:84%
+It means you have a
+constrained system.
+
+00:54:07.510 --> 00:54:11.380 align:middle line:84%
+And frankly, constrained
+systems are very annoying.
+
+00:54:11.380 --> 00:54:15.830 align:middle line:90%
+
+
+00:54:15.830 --> 00:54:19.740 align:middle line:90%
+So they have involved lots of--
+
+00:54:19.740 --> 00:54:21.420 align:middle line:84%
+you have a lot of
+formalism in order
+
+00:54:21.420 --> 00:54:23.400 align:middle line:84%
+to, say, treat
+constrained system--
+
+00:54:23.400 --> 00:54:25.860 align:middle line:90%
+to quantize them, et cetera.
+
+00:54:25.860 --> 00:54:27.900 align:middle line:84%
+But fortunately, in
+this case, there's
+
+00:54:27.900 --> 00:54:31.710 align:middle line:84%
+actually a simple
+trick to go around it.
+
+00:54:31.710 --> 00:54:37.200 align:middle line:84%
+And so now, I will not use
+this full-fledged constrained
+
+00:54:37.200 --> 00:54:38.460 align:middle line:90%
+quantization to do the job.
+
+00:54:38.460 --> 00:54:40.470 align:middle line:84%
+I will just use a
+simple trick which
+
+00:54:40.470 --> 00:54:42.150 align:middle line:90%
+will reach the same answer.
+
+00:54:42.150 --> 00:54:42.812 align:middle line:90%
+Yes?
+
+00:54:42.812 --> 00:54:44.520 align:middle line:84%
+STUDENT: Is it like
+the canonical momenta
+
+00:54:44.520 --> 00:54:46.614 align:middle line:84%
+not well-defined,
+because I could integrate
+
+00:54:46.614 --> 00:54:50.091 align:middle line:84%
+by parts to move around
+the time derivative
+
+00:54:50.091 --> 00:54:52.760 align:middle line:84%
+because I can move the
+time derivative from psi
+
+00:54:52.760 --> 00:54:54.080 align:middle line:90%
+to psi dagger, right?
+
+00:54:54.080 --> 00:54:55.740 align:middle line:84%
+PROFESSOR: Yeah, so
+there's ambiguity.
+
+00:54:55.740 --> 00:54:58.040 align:middle line:84%
+So that's part of the
+reflection that this
+
+00:54:58.040 --> 00:55:00.360 align:middle line:90%
+is a constrained system.
+
+00:55:00.360 --> 00:55:05.120 align:middle line:84%
+So this is actually typical to
+have these kind of constraints.
+
+00:55:05.120 --> 00:55:07.920 align:middle line:84%
+It's typical whenever you
+have a first-order system.
+
+00:55:07.920 --> 00:55:11.000 align:middle line:84%
+So here, it's different from
+the Klein-Gordon action is
+
+00:55:11.000 --> 00:55:15.860 align:middle line:84%
+because here, we only involving
+the first derivative--
+
+00:55:15.860 --> 00:55:18.350 align:middle line:84%
+one derivative rather
+than two derivatives.
+
+00:55:18.350 --> 00:55:22.950 align:middle line:84%
+And so this is not
+our standard system.
+
+00:55:22.950 --> 00:55:29.620 align:middle line:84%
+So the way to go around
+this is the following.
+
+00:55:29.620 --> 00:55:33.230 align:middle line:84%
+The way to go around
+it is the following.
+
+00:55:33.230 --> 00:55:38.500 align:middle line:84%
+It's now-- so this equation--
+if we look at this equation--
+
+00:55:38.500 --> 00:55:42.490 align:middle line:90%
+
+
+00:55:42.490 --> 00:55:44.850 align:middle line:84%
+so this equation tells you
+that the canonical momentum
+
+00:55:44.850 --> 00:55:50.220 align:middle line:84%
+conjugate to psi is
+actually psi dagger.
+
+00:55:50.220 --> 00:55:53.670 align:middle line:84%
+So also here it's
+a little bit funny,
+
+00:55:53.670 --> 00:55:57.240 align:middle line:84%
+because you remember
+in the standard story,
+
+00:55:57.240 --> 00:56:01.630 align:middle line:84%
+the canonical momentum is
+related to the time derivative.
+
+00:56:01.630 --> 00:56:03.130 align:middle line:84%
+And here, there's
+no time derivative
+
+00:56:03.130 --> 00:56:05.650 align:middle line:90%
+here-- just psi dagger itself.
+
+00:56:05.650 --> 00:56:08.350 align:middle line:84%
+And this is another
+indication that this
+
+00:56:08.350 --> 00:56:11.440 align:middle line:90%
+is a constraint rather than--
+
+00:56:11.440 --> 00:56:12.130 align:middle line:90%
+yeah.
+
+00:56:12.130 --> 00:56:20.030 align:middle line:84%
+So anyway, here, it tells you
+that the dagger is, in fact,
+
+00:56:20.030 --> 00:56:22.790 align:middle line:90%
+the canonical moment of psi.
+
+00:56:22.790 --> 00:56:24.670 align:middle line:90%
+And now, we can just--
+
+00:56:24.670 --> 00:56:26.530 align:middle line:84%
+now in this
+equation, we can just
+
+00:56:26.530 --> 00:56:30.310 align:middle line:84%
+try to interpret the psi
+dagger as the momentum
+
+00:56:30.310 --> 00:56:33.040 align:middle line:84%
+rather than as the
+configuration variable.
+
+00:56:33.040 --> 00:56:35.620 align:middle line:84%
+So now, let's rewrite
+the Lagrangian.
+
+00:56:35.620 --> 00:56:38.620 align:middle line:84%
+So the Lagrangian has
+the following form--
+
+00:56:38.620 --> 00:56:45.910 align:middle line:84%
+minus i psi bar gamma mu
+partial mu minus m psi.
+
+00:56:45.910 --> 00:56:48.170 align:middle line:84%
+So this is the
+Lagrangian density.
+
+00:56:48.170 --> 00:56:51.260 align:middle line:84%
+So we'll rewrite it
+as the following.
+
+00:56:51.260 --> 00:56:54.800 align:middle line:84%
+So let's first separate
+the time derivative.
+
+00:56:54.800 --> 00:56:56.440 align:middle line:90%
+So this is psi dagger.
+
+00:56:56.440 --> 00:57:01.420 align:middle line:84%
+So just this term involving
+the time derivative.
+
+00:57:01.420 --> 00:57:06.570 align:middle line:84%
+And then the rest, I have
+psi bar gamma i partial
+
+00:57:06.570 --> 00:57:08.160 align:middle line:90%
+i minus m psi.
+
+00:57:08.160 --> 00:57:12.570 align:middle line:84%
+But here, they are no longer
+involving the time derivative.
+
+00:57:12.570 --> 00:57:17.540 align:middle line:84%
+And now, we just interpret
+this as the canonical momentum
+
+00:57:17.540 --> 00:57:18.180 align:middle line:90%
+for psi.
+
+00:57:18.180 --> 00:57:24.660 align:middle line:90%
+
+
+00:57:24.660 --> 00:57:27.240 align:middle line:84%
+And then this is just
+something involving
+
+00:57:27.240 --> 00:57:30.450 align:middle line:90%
+spatial derivative of psi.
+
+00:57:30.450 --> 00:57:32.940 align:middle line:84%
+And I just interpret this
+as the Hamiltonian for psi.
+
+00:57:32.940 --> 00:57:45.440 align:middle line:90%
+
+
+00:57:45.440 --> 00:57:47.120 align:middle line:84%
+So this expression
+just involving
+
+00:57:47.120 --> 00:57:49.190 align:middle line:90%
+psi dagger and the psi--
+
+00:57:49.190 --> 00:57:50.990 align:middle line:84%
+involving some
+spatial derivative.
+
+00:57:50.990 --> 00:57:55.160 align:middle line:84%
+And so this is essentially
+just some functions of psi--
+
+00:57:55.160 --> 00:57:59.720 align:middle line:84%
+pi psi and psi and maybe with
+some spatial derivatives.
+
+00:57:59.720 --> 00:58:04.330 align:middle line:84%
+So now, you see that
+this Lagrangian density--
+
+00:58:04.330 --> 00:58:07.210 align:middle line:84%
+actually, if I
+interpret the diagram
+
+00:58:07.210 --> 00:58:08.770 align:middle line:84%
+as the canonical
+momentum, then it
+
+00:58:08.770 --> 00:58:11.170 align:middle line:84%
+has the form of this
+canonical transformation
+
+00:58:11.170 --> 00:58:14.080 align:middle line:84%
+to go from the Lagrangian
+density to Hamiltonian.
+
+00:58:14.080 --> 00:58:16.510 align:middle line:84%
+And then I can just interpret
+this as the Hamiltonian.
+
+00:58:16.510 --> 00:58:21.180 align:middle line:90%
+
+
+00:58:21.180 --> 00:58:24.856 align:middle line:84%
+So now, I can just interpret
+this as my Hamiltonian.
+
+00:58:24.856 --> 00:58:28.800 align:middle line:90%
+
+
+00:58:28.800 --> 00:58:32.635 align:middle line:90%
+So we just treat--
+
+00:58:32.635 --> 00:59:03.010 align:middle line:90%
+
+
+00:59:03.010 --> 00:59:08.900 align:middle line:90%
+so now, we just--
+
+00:59:08.900 --> 00:59:14.540 align:middle line:84%
+so this is-- so
+psi dagger and psi.
+
+00:59:14.540 --> 00:59:18.230 align:middle line:84%
+And now, this is the
+full phase space.
+
+00:59:18.230 --> 00:59:21.210 align:middle line:84%
+So this is the momentum
+and this is the coordinate,
+
+00:59:21.210 --> 00:59:26.318 align:middle line:84%
+so this is the full space,
+rather than previously, we
+
+00:59:26.318 --> 00:59:28.235 align:middle line:84%
+would interpret them as
+a configuration space.
+
+00:59:28.235 --> 00:59:31.970 align:middle line:90%
+
+
+00:59:31.970 --> 00:59:37.690 align:middle line:84%
+And then the
+Hamiltonian just equal
+
+00:59:37.690 --> 00:59:45.290 align:middle line:84%
+to i psi bar gamma i
+partial i minus m psi.
+
+00:59:45.290 --> 00:59:50.290 align:middle line:90%
+
+
+00:59:50.290 --> 00:59:52.000 align:middle line:84%
+So this is the
+Hamiltonian density.
+
+00:59:52.000 --> 01:00:01.350 align:middle line:90%
+
+
+01:00:01.350 --> 01:00:04.770 align:middle line:84%
+So we now then have--
+now, this just goes back
+
+01:00:04.770 --> 01:00:06.000 align:middle line:90%
+to the standard formalism.
+
+01:00:06.000 --> 01:00:08.660 align:middle line:90%
+
+
+01:00:08.660 --> 01:00:10.340 align:middle line:90%
+Any questions on this?
+
+01:00:10.340 --> 01:00:11.000 align:middle line:90%
+Yes?
+
+01:00:11.000 --> 01:00:13.248 align:middle line:84%
+STUDENT: So can we still
+interpret psi dagger
+
+01:00:13.248 --> 01:00:16.570 align:middle line:90%
+as a different field than psi?
+
+01:00:16.570 --> 01:00:19.216 align:middle line:84%
+PROFESSOR: it's
+canonical momentum.
+
+01:00:19.216 --> 01:00:21.482 align:middle line:84%
+STUDENT: So it's no longer
+two different fields?
+
+01:00:21.482 --> 01:00:23.690 align:middle line:84%
+PROFESSOR: Yeah, it's no
+longer two different fields.
+
+01:00:23.690 --> 01:00:26.230 align:middle line:84%
+For example, if there are
+two different fields, then
+
+01:00:26.230 --> 01:00:29.110 align:middle line:84%
+psi and psi dagger,
+they should commute.
+
+01:00:29.110 --> 01:00:31.300 align:middle line:84%
+But now, since they
+become canonical momentum,
+
+01:00:31.300 --> 01:00:34.010 align:middle line:90%
+they no longer commute.
+
+01:00:34.010 --> 01:00:35.020 align:middle line:90%
+yes?
+
+01:00:35.020 --> 01:00:37.930 align:middle line:84%
+STUDENT: If you take psi bar
+and then you bring the, you pull
+
+01:00:37.930 --> 01:00:42.760 align:middle line:84%
+out the gamma 0, isn't this
+just like the right-hand side
+
+01:00:42.760 --> 01:00:46.090 align:middle line:84%
+of the-- like our earlier
+version of the Dirac equation--
+
+01:00:46.090 --> 01:00:50.944 align:middle line:84%
+the one where you
+like [INAUDIBLE]??
+
+01:00:50.944 --> 01:00:52.563 align:middle line:84%
+Like, the one with
+the alpha and beta,
+
+01:00:52.563 --> 01:00:54.730 align:middle line:84%
+like the other Dirac equation
+we wrote down earlier?
+
+01:00:54.730 --> 01:00:56.650 align:middle line:90%
+PROFESSOR: Yeah, that's right.
+
+01:00:56.650 --> 01:00:59.800 align:middle line:84%
+Yeah, it's very-- essentially
+just that Hamiltonian.
+
+01:00:59.800 --> 01:01:01.090 align:middle line:90%
+Yeah, that's right.
+
+01:01:01.090 --> 01:01:02.710 align:middle line:90%
+Yes?
+
+01:01:02.710 --> 01:01:05.300 align:middle line:84%
+STUDENT: Is there not
+a problem with this
+
+01:01:05.300 --> 01:01:07.725 align:middle line:90%
+treating the time differently?
+
+01:01:07.725 --> 01:01:10.620 align:middle line:84%
+Is it no longer
+Lorentz invariant?
+
+01:01:10.620 --> 01:01:12.060 align:middle line:90%
+PROFESSOR: Yeah, so when you--
+
+01:01:12.060 --> 01:01:17.790 align:middle line:84%
+yeah, when we do the client
+encoding equation in the scalar
+
+01:01:17.790 --> 01:01:20.250 align:middle line:84%
+theory, when you
+quantize, you always
+
+01:01:20.250 --> 01:01:22.230 align:middle line:90%
+have to treat time differently.
+
+01:01:22.230 --> 01:01:28.590 align:middle line:84%
+And then the Lorentz
+symmetry come out
+
+01:01:28.590 --> 01:01:31.830 align:middle line:90%
+in the property of the state.
+
+01:01:31.830 --> 01:01:34.020 align:middle line:90%
+Yeah, but you always--
+
+01:01:34.020 --> 01:01:39.520 align:middle line:84%
+when you quantize, you always
+have to treat time separately.
+
+01:01:39.520 --> 01:01:40.210 align:middle line:90%
+Yes?
+
+01:01:40.210 --> 01:01:40.791 align:middle line:84%
+STUDENT: So now we have
+the momentum operator,
+
+01:01:40.791 --> 01:01:42.374 align:middle line:84%
+its just the complex
+conjugate of phi?
+
+01:01:42.374 --> 01:01:47.070 align:middle line:90%
+
+
+01:01:47.070 --> 01:01:48.434 align:middle line:90%
+PROFESSOR: Yeah, exactly.
+
+01:01:48.434 --> 01:01:52.174 align:middle line:84%
+STUDENT: So this like, its
+still like constrained.
+
+01:01:52.174 --> 01:01:54.665 align:middle line:90%
+PROFESSOR: Yeah, it's a--
+
+01:01:54.665 --> 01:02:03.240 align:middle line:90%
+
+
+01:02:03.240 --> 01:02:04.650 align:middle line:90%
+yeah, this is just--
+
+01:02:04.650 --> 01:02:06.970 align:middle line:84%
+yeah, so that's why we call
+this a constrained system.
+
+01:02:06.970 --> 01:02:09.430 align:middle line:84%
+But now, I'm just
+giving you a shortcut
+
+01:02:09.430 --> 01:02:13.620 align:middle line:84%
+so that we have to don't
+have to go through this--
+
+01:02:13.620 --> 01:02:18.638 align:middle line:84%
+yeah, the intricacy of
+constrained quantization.
+
+01:02:18.638 --> 01:02:21.740 align:middle line:90%
+
+
+01:02:21.740 --> 01:02:24.980 align:middle line:84%
+So now, the canonical
+quantization becomes easy.
+
+01:02:24.980 --> 01:02:28.920 align:middle line:90%
+So now, this is my momentum.
+
+01:02:28.920 --> 01:02:33.670 align:middle line:84%
+So now, we just have the
+canonical quantization.
+
+01:02:33.670 --> 01:02:42.640 align:middle line:90%
+
+
+01:02:42.640 --> 01:02:46.360 align:middle line:84%
+I think today, we may
+have unfortunate timing.
+
+01:02:46.360 --> 01:02:47.980 align:middle line:90%
+So now, become psi--
+
+01:02:47.980 --> 01:02:49.300 align:middle line:90%
+is coordinate.
+
+01:02:49.300 --> 01:02:52.540 align:middle line:90%
+
+
+01:02:52.540 --> 01:02:54.700 align:middle line:90%
+And now, we have psi dagger.
+
+01:02:54.700 --> 01:03:00.670 align:middle line:84%
+We have pi psi, which
+is the momentum.
+
+01:03:00.670 --> 01:03:09.340 align:middle line:84%
+So this, by definition, should
+give you the delta function, so
+
+01:03:09.340 --> 01:03:11.180 align:middle line:90%
+equal time correlation function.
+
+01:03:11.180 --> 01:03:12.820 align:middle line:90%
+So here, we should--
+
+01:03:12.820 --> 01:03:15.380 align:middle line:84%
+because remember,
+this is a four vector,
+
+01:03:15.380 --> 01:03:17.660 align:middle line:84%
+so this also have
+four components.
+
+01:03:17.660 --> 01:03:22.930 align:middle line:84%
+So let me just now
+suppress this subscript psi
+
+01:03:22.930 --> 01:03:26.440 align:middle line:84%
+because there's only
+one variable here now.
+
+01:03:26.440 --> 01:03:28.430 align:middle line:84%
+So here, there's
+also coefficient--
+
+01:03:28.430 --> 01:03:30.850 align:middle line:84%
+so this is also
+four vector beta,
+
+01:03:30.850 --> 01:03:33.520 align:middle line:84%
+and then here should
+be delta alpha beta.
+
+01:03:33.520 --> 01:03:35.290 align:middle line:84%
+So alpha beta are
+spinor indices.
+
+01:03:35.290 --> 01:03:43.060 align:middle line:90%
+
+
+01:03:43.060 --> 01:03:44.340 align:middle line:90%
+So if you impose--
+
+01:03:44.340 --> 01:03:51.190 align:middle line:84%
+and this is equivalent
+just to psi alpha t,
+
+01:03:51.190 --> 01:04:06.830 align:middle line:84%
+x psi dagger beta t, x prime
+equal to i delta alpha beta
+
+01:04:06.830 --> 01:04:08.020 align:middle line:90%
+x x minus prime.
+
+01:04:08.020 --> 01:04:15.480 align:middle line:90%
+
+
+01:04:15.480 --> 01:04:22.560 align:middle line:84%
+And so we can now
+expand psi x in terms
+
+01:04:22.560 --> 01:04:24.910 align:middle line:90%
+of complete set of solutions.
+
+01:04:24.910 --> 01:04:29.380 align:middle line:84%
+So this is the first
+step of the quantization.
+
+01:04:29.380 --> 01:04:32.940 align:middle line:84%
+So first is-- this is
+the commutation relation.
+
+01:04:32.940 --> 01:04:34.950 align:middle line:84%
+So the second
+step-- remember, we
+
+01:04:34.950 --> 01:04:39.270 align:middle line:84%
+can expand the psi in
+terms of complete basis
+
+01:04:39.270 --> 01:04:41.460 align:middle line:90%
+of classical solutions.
+
+01:04:41.460 --> 01:04:45.540 align:middle line:90%
+So psi x just equal to--
+
+01:04:45.540 --> 01:04:48.465 align:middle line:84%
+again, we integrate over
+all spatial momentum.
+
+01:04:48.465 --> 01:04:51.430 align:middle line:90%
+
+
+01:04:51.430 --> 01:04:55.870 align:middle line:84%
+Again, we use this
+factor for convenience
+
+01:04:55.870 --> 01:04:57.820 align:middle line:90%
+as in the scalar case.
+
+01:04:57.820 --> 01:05:01.800 align:middle line:84%
+And now, we just need to sum
+over all possible solutions.
+
+01:05:01.800 --> 01:05:09.960 align:middle line:84%
+So here, we have a sum
+over s equal to 1 and 2.
+
+01:05:09.960 --> 01:05:21.170 align:middle line:84%
+So we have-- then we have
+ak s us exponential ik x.
+
+01:05:21.170 --> 01:05:25.115 align:middle line:90%
+And then plus bk--
+
+01:05:25.115 --> 01:05:25.615 align:middle line:90%
+sorry.
+
+01:05:25.615 --> 01:05:28.140 align:middle line:90%
+
+
+01:05:28.140 --> 01:05:29.850 align:middle line:90%
+k should be here-- sorry.
+
+01:05:29.850 --> 01:05:38.840 align:middle line:84%
+bk s and vs
+exponential minus ik x.
+
+01:05:38.840 --> 01:05:43.940 align:middle line:90%
+
+
+01:05:43.940 --> 01:05:46.890 align:middle line:90%
+So these are the complete--
+
+01:05:46.890 --> 01:05:50.040 align:middle line:84%
+because complete set of
+solution are u and v.
+
+01:05:50.040 --> 01:05:52.935 align:middle line:84%
+And we call the
+coefficients of a and b,
+
+01:05:52.935 --> 01:05:56.430 align:middle line:84%
+so let me call it b dagger as we
+did for the complex scalar case
+
+01:05:56.430 --> 01:05:59.040 align:middle line:90%
+before.
+
+01:05:59.040 --> 01:06:02.430 align:middle line:84%
+So we-- so the coefficient,
+we call them a and b.
+
+01:06:02.430 --> 01:06:05.250 align:middle line:90%
+Actually, it doesn't matter.
+
+01:06:05.250 --> 01:06:06.930 align:middle line:90%
+We call it b.
+
+01:06:06.930 --> 01:06:08.880 align:middle line:90%
+Actually, let me just call it b.
+
+01:06:08.880 --> 01:06:12.180 align:middle line:84%
+Yeah, so you can just--
+you have u and v,
+
+01:06:12.180 --> 01:06:14.630 align:middle line:84%
+and then the coefficient
+will be a and b.
+
+01:06:14.630 --> 01:06:19.575 align:middle line:90%
+
+
+01:06:19.575 --> 01:06:30.650 align:middle line:84%
+And so now, you
+can just plug this.
+
+01:06:30.650 --> 01:06:36.160 align:middle line:84%
+So if this equation is 1
+and this equation is 2,
+
+01:06:36.160 --> 01:06:38.770 align:middle line:84%
+and you take the complex
+conjugate, psi dagger,
+
+01:06:38.770 --> 01:06:41.350 align:middle line:84%
+you can plug it in here to
+find what's the commutation
+
+01:06:41.350 --> 01:06:42.748 align:middle line:90%
+relation between a and b.
+
+01:06:42.748 --> 01:06:46.960 align:middle line:90%
+
+
+01:06:46.960 --> 01:06:51.895 align:middle line:90%
+So you find that the--
+
+01:06:51.895 --> 01:06:54.980 align:middle line:90%
+
+
+01:06:54.980 --> 01:07:03.030 align:middle line:90%
+yeah, so plug 2 into 1.
+
+01:07:03.030 --> 01:07:19.750 align:middle line:84%
+So you find the commutation
+relation ak s ak prime p, then
+
+01:07:19.750 --> 01:07:29.630 align:middle line:90%
+equal to bk s and bk prime t.
+
+01:07:29.630 --> 01:07:39.350 align:middle line:84%
+Then, equal to 2 pi cubed delta
+st, delta 3 k minus k prime.
+
+01:07:39.350 --> 01:07:45.250 align:middle line:90%
+
+
+01:07:45.250 --> 01:07:49.990 align:middle line:84%
+So now-- and you can
+also define the vacuum.
+
+01:07:49.990 --> 01:08:15.770 align:middle line:90%
+
+
+01:08:15.770 --> 01:08:19.340 align:middle line:84%
+And all other
+commutators are 0--
+
+01:08:19.340 --> 01:08:20.494 align:middle line:90%
+with all others 0.
+
+01:08:20.494 --> 01:08:26.840 align:middle line:90%
+
+
+01:08:26.840 --> 01:08:31.310 align:middle line:84%
+And you can also
+define the vacuum,
+
+01:08:31.310 --> 01:08:40.569 align:middle line:84%
+as we did for the scalar case,
+to be annihilated by ak and bk.
+
+01:08:40.569 --> 01:08:51.620 align:middle line:90%
+
+
+01:08:51.620 --> 01:08:56.240 align:middle line:84%
+And now, you can, in principle,
+build your Hilbert space.
+
+01:08:56.240 --> 01:08:56.960 align:middle line:90%
+Yes?
+
+01:08:56.960 --> 01:08:58.943 align:middle line:84%
+STUDENT: For equation
+one up there,
+
+01:08:58.943 --> 01:09:04.620 align:middle line:84%
+are you supposed to not have
+factor pi just because momentum
+
+01:09:04.620 --> 01:09:07.080 align:middle line:90%
+is i psi dagger?
+
+01:09:07.080 --> 01:09:07.878 align:middle line:90%
+PROFESSOR: Yeah.
+
+01:09:07.878 --> 01:09:08.670 align:middle line:90%
+STUDENT: And then--
+
+01:09:08.670 --> 01:09:09.545 align:middle line:90%
+PROFESSOR: Oh, right.
+
+01:09:09.545 --> 01:09:12.220 align:middle line:84%
+Sorry, there's no--
+yeah, thank you.
+
+01:09:12.220 --> 01:09:13.109 align:middle line:90%
+There's no i here.
+
+01:09:13.109 --> 01:09:15.399 align:middle line:84%
+Yeah, because the
+momentum is i psi dagger.
+
+01:09:15.399 --> 01:09:22.859 align:middle line:84%
+Yeah, there's no i anymore--
+just the delta alpha beta.
+
+01:09:22.859 --> 01:09:28.130 align:middle line:84%
+So all look pretty
+straightforward,
+
+01:09:28.130 --> 01:09:31.269 align:middle line:90%
+but you actually have problems.
+
+01:09:31.269 --> 01:09:34.660 align:middle line:90%
+
+
+01:09:34.660 --> 01:09:37.160 align:middle line:90%
+You actually have problems.
+
+01:09:37.160 --> 01:09:49.170 align:middle line:84%
+So the first problem some
+of you may be already asking
+
+01:09:49.170 --> 01:09:55.300 align:middle line:84%
+in your head, is
+that, are we supposed
+
+01:09:55.300 --> 01:09:58.820 align:middle line:90%
+to describe spin-half particles?
+
+01:09:58.820 --> 01:10:03.400 align:middle line:84%
+But if we are suppose to
+describe spin-half particles,
+
+01:10:03.400 --> 01:10:05.200 align:middle line:90%
+then why do we find the bosons?
+
+01:10:05.200 --> 01:10:09.030 align:middle line:84%
+So these are commutation
+relations for bosons.
+
+01:10:09.030 --> 01:10:11.760 align:middle line:90%
+It's because they commute.
+
+01:10:11.760 --> 01:10:16.960 align:middle line:84%
+So different k-- sorry, I
+think I'm missing dagger.
+
+01:10:16.960 --> 01:10:17.460 align:middle line:90%
+Sorry.
+
+01:10:17.460 --> 01:10:20.550 align:middle line:90%
+
+
+01:10:20.550 --> 01:10:25.310 align:middle line:84%
+So different ak, they
+commute with each other.
+
+01:10:25.310 --> 01:10:27.140 align:middle line:84%
+As we discussed in
+the scalar case,
+
+01:10:27.140 --> 01:10:32.660 align:middle line:84%
+when the a mu all commute with
+each other, this is boson.
+
+01:10:32.660 --> 01:10:34.190 align:middle line:84%
+It means the
+particle you created,
+
+01:10:34.190 --> 01:10:38.750 align:middle line:84%
+you can exchange
+them and don't--
+
+01:10:38.750 --> 01:10:41.000 align:middle line:84%
+yeah, you can arbitrarily
+exchange them.
+
+01:10:41.000 --> 01:10:42.800 align:middle line:90%
+It's symmetric.
+
+01:10:42.800 --> 01:10:48.542 align:middle line:84%
+But fermions, they are
+supposed to be Pauli principle.
+
+01:10:48.542 --> 01:10:50.000 align:middle line:84%
+So you're supposed
+to get the minus
+
+01:10:50.000 --> 01:10:52.160 align:middle line:90%
+sign when you exchange them.
+
+01:10:52.160 --> 01:10:55.870 align:middle line:84%
+So this cannot-- this
+doesn't look to be right.
+
+01:10:55.870 --> 01:10:59.260 align:middle line:84%
+So this is-- the
+first thing it seems
+
+01:10:59.260 --> 01:11:05.720 align:middle line:84%
+to be we were finding
+bosons rather than fermions.
+
+01:11:05.720 --> 01:11:08.750 align:middle line:84%
+And the second is that now if
+you find that the Hamiltonian--
+
+01:11:08.750 --> 01:11:12.430 align:middle line:90%
+
+
+01:11:12.430 --> 01:11:14.620 align:middle line:84%
+so now, if you try to
+find the Hamiltonian--
+
+01:11:14.620 --> 01:11:18.360 align:middle line:90%
+
+
+01:11:18.360 --> 01:11:25.020 align:middle line:84%
+so H is just the integration
+of this Hamiltonian density.
+
+01:11:25.020 --> 01:11:32.390 align:middle line:90%
+
+
+01:11:32.390 --> 01:11:34.580 align:middle line:90%
+And you can just plug it in--
+
+01:11:34.580 --> 01:11:38.210 align:middle line:84%
+plug that expression for
+Hamiltonian density in.
+
+01:11:38.210 --> 01:11:40.370 align:middle line:90%
+Where is my Hamiltonian density?
+
+01:11:40.370 --> 01:11:46.930 align:middle line:84%
+Yeah, plug that in, and
+then you will find the--
+
+01:11:46.930 --> 01:11:49.970 align:middle line:90%
+
+
+01:11:49.970 --> 01:11:56.300 align:middle line:84%
+yeah so you find just
+this just given by i d3
+
+01:11:56.300 --> 01:12:02.420 align:middle line:84%
+x psi bar gamma i
+partial i minus m psi.
+
+01:12:02.420 --> 01:12:11.790 align:middle line:90%
+
+
+01:12:11.790 --> 01:12:15.990 align:middle line:84%
+So now, if you plug them in, you
+just plug them in-- plug this
+
+01:12:15.990 --> 01:12:17.430 align:middle line:90%
+mode expansion in--
+
+01:12:17.430 --> 01:12:19.410 align:middle line:90%
+and then you find actually--
+
+01:12:19.410 --> 01:12:22.990 align:middle line:90%
+
+
+01:12:22.990 --> 01:12:24.880 align:middle line:84%
+then you find the
+following expression--
+
+01:12:24.880 --> 01:12:34.580 align:middle line:90%
+
+
+01:12:34.580 --> 01:12:37.190 align:middle line:90%
+omega k.
+
+01:12:37.190 --> 01:12:41.940 align:middle line:90%
+And you sum over s from 1 to 2.
+
+01:12:41.940 --> 01:12:47.220 align:middle line:84%
+And then you find
+it's given by ak
+
+01:12:47.220 --> 01:13:05.160 align:middle line:84%
+s dagger ak s minus
+bk s dagger bk
+
+01:13:05.160 --> 01:13:11.290 align:middle line:84%
+s, and then up to some
+infinite constants.
+
+01:13:11.290 --> 01:13:15.450 align:middle line:84%
+So now, you see something
+problematic here.
+
+01:13:15.450 --> 01:13:17.250 align:middle line:90%
+So what's problematic you see?
+
+01:13:17.250 --> 01:13:22.000 align:middle line:90%
+
+
+01:13:22.000 --> 01:13:22.500 align:middle line:90%
+Yes?
+
+01:13:22.500 --> 01:13:24.780 align:middle line:84%
+STUDENT: The energy can
+be arbitrarily small.
+
+01:13:24.780 --> 01:13:27.840 align:middle line:84%
+PROFESSOR: Yeah, energy
+is not positive definite
+
+01:13:27.840 --> 01:13:29.070 align:middle line:90%
+because of this minus sign.
+
+01:13:29.070 --> 01:13:35.600 align:middle line:90%
+
+
+01:13:35.600 --> 01:13:40.550 align:middle line:84%
+So this minus sign tells
+you that if you excite
+
+01:13:40.550 --> 01:13:45.140 align:middle line:84%
+a lot of these b particles,
+you can make the energy
+
+01:13:45.140 --> 01:13:48.200 align:middle line:84%
+as negative as you want,
+and then the theory
+
+01:13:48.200 --> 01:13:49.850 align:middle line:90%
+don't make sense.
+
+01:13:49.850 --> 01:13:54.510 align:middle line:84%
+And then this is a theory with
+energy unbounded from below.
+
+01:13:54.510 --> 01:13:57.990 align:middle line:84%
+It's a theory with energy
+unbounded from below.
+
+01:13:57.990 --> 01:14:02.105 align:middle line:84%
+So that means this
+vacuum is unstable.
+
+01:14:02.105 --> 01:14:16.970 align:middle line:90%
+
+
+01:14:16.970 --> 01:14:19.760 align:middle line:84%
+So there must be something
+wrong with this procedure.
+
+01:14:19.760 --> 01:14:24.080 align:middle line:90%
+
+
+01:14:24.080 --> 01:14:28.170 align:middle line:84%
+So it turns out that there's a
+very quick fix to this problem,
+
+01:14:28.170 --> 01:14:34.160 align:middle line:84%
+and this quick fix was
+invented by Jordan.
+
+01:14:34.160 --> 01:14:38.660 align:middle line:84%
+So he recognized
+that if you don't
+
+01:14:38.660 --> 01:14:41.240 align:middle line:84%
+do the standard
+commutation relation--
+
+01:14:41.240 --> 01:14:43.910 align:middle line:90%
+
+
+01:14:43.910 --> 01:14:48.910 align:middle line:84%
+if you do instead
+of commutator--
+
+01:14:48.910 --> 01:14:52.060 align:middle line:84%
+here, you change it
+to anti-commutator.
+
+01:14:52.060 --> 01:14:59.800 align:middle line:90%
+
+
+01:14:59.800 --> 01:15:02.350 align:middle line:84%
+Remember, this bracket--
+this curly bracket
+
+01:15:02.350 --> 01:15:04.270 align:middle line:90%
+means anticommutator.
+
+01:15:04.270 --> 01:15:05.980 align:middle line:84%
+And that means that
+here, you change it
+
+01:15:05.980 --> 01:15:15.790 align:middle line:84%
+to anticommutator, and then
+still with the same thing--
+
+01:15:15.790 --> 01:15:30.490 align:middle line:90%
+
+
+01:15:30.490 --> 01:15:35.040 align:middle line:84%
+and now this becomes
+anti-commutator.
+
+01:15:35.040 --> 01:15:48.050 align:middle line:90%
+
+
+01:15:48.050 --> 01:15:49.100 align:middle line:90%
+So let me see.
+
+01:15:49.100 --> 01:15:54.380 align:middle line:90%
+
+
+01:15:54.380 --> 01:15:56.520 align:middle line:84%
+I just want to make
+sure I get the--
+
+01:15:56.520 --> 01:15:58.925 align:middle line:90%
+
+
+01:15:58.925 --> 01:16:00.550 align:middle line:84%
+yeah, if we change
+anti-commutator also
+
+01:16:00.550 --> 01:16:04.540 align:middle line:84%
+from the convention, you
+change this to dagger.
+
+01:16:04.540 --> 01:16:07.390 align:middle line:84%
+Now you change this to dagger
+as we did for the complex scalar
+
+01:16:07.390 --> 01:16:08.080 align:middle line:90%
+case.
+
+01:16:08.080 --> 01:16:10.400 align:middle line:90%
+And then you just get this.
+
+01:16:10.400 --> 01:16:13.180 align:middle line:84%
+And now, if you do that, and
+then this becomes plus sign.
+
+01:16:13.180 --> 01:16:18.980 align:middle line:90%
+
+
+01:16:18.980 --> 01:16:22.550 align:middle line:84%
+And now, not only this
+becomes plus sign--
+
+01:16:22.550 --> 01:16:30.740 align:middle line:84%
+and also all different ak
+for different s and t--
+
+01:16:30.740 --> 01:16:32.630 align:middle line:84%
+they anti-commute
+with each other.
+
+01:16:32.630 --> 01:16:42.840 align:middle line:90%
+
+
+01:16:42.840 --> 01:16:45.590 align:middle line:90%
+They anticommute each other.
+
+01:16:45.590 --> 01:16:51.070 align:middle line:84%
+So anticommute each other means
+that if you create a particle--
+
+01:16:51.070 --> 01:16:53.720 align:middle line:90%
+for example, ak dagger--
+
+01:16:53.720 --> 01:16:58.400 align:middle line:84%
+and you create another
+particle, ak prime dagger on 0,
+
+01:16:58.400 --> 01:17:00.635 align:middle line:90%
+and now these two anticommute.
+
+01:17:00.635 --> 01:17:04.300 align:middle line:84%
+It means when you exchange
+all, you get the minus sign.
+
+01:17:04.300 --> 01:17:06.820 align:middle line:84%
+That precisely gives
+you the minus sign
+
+01:17:06.820 --> 01:17:08.530 align:middle line:90%
+in the Pauli principle--
+
+01:17:08.530 --> 01:17:14.230 align:middle line:90%
+in the statistics for fermions.
+
+01:17:14.230 --> 01:17:19.360 align:middle line:84%
+And so changing this thing
+to the anti-commutator--
+
+01:17:19.360 --> 01:17:22.660 align:middle line:90%
+and so solves all your problem.
+
+01:17:22.660 --> 01:17:25.420 align:middle line:84%
+And your energy now
+is bounded from below,
+
+01:17:25.420 --> 01:17:28.150 align:middle line:84%
+and then you actually
+now actually describe
+
+01:17:28.150 --> 01:17:32.290 align:middle line:84%
+some particles which
+obey the Pauli principle.
+
+01:17:32.290 --> 01:17:38.500 align:middle line:90%
+
+
+01:17:38.500 --> 01:17:48.130 align:middle line:84%
+So yeah, I think we still
+have 1 minute left, but we--
+
+01:17:48.130 --> 01:17:52.540 align:middle line:84%
+but it's a good time to stop,
+because otherwise, other things
+
+01:17:52.540 --> 01:17:53.900 align:middle line:90%
+will take more time.
+
+01:17:53.900 --> 01:17:57.220 align:middle line:84%
+So let me just make
+a couple remark
+
+01:17:57.220 --> 01:18:02.470 align:middle line:84%
+why the commutator-- why
+here, you need to do something
+
+01:18:02.470 --> 01:18:03.580 align:middle line:90%
+unconventional.
+
+01:18:03.580 --> 01:18:10.990 align:middle line:90%
+
+
+01:18:10.990 --> 01:18:12.910 align:middle line:84%
+So if you look at this
+Hamiltonian density--
+
+01:18:12.910 --> 01:18:19.290 align:middle line:90%
+
+
+01:18:19.290 --> 01:18:25.240 align:middle line:84%
+so even without doing
+this calculation,
+
+01:18:25.240 --> 01:18:30.790 align:middle line:84%
+you can already conclude from
+here that this H cannot be
+
+01:18:30.790 --> 01:18:32.920 align:middle line:84%
+bounded from below for
+the following reason.
+
+01:18:32.920 --> 01:18:36.320 align:middle line:90%
+
+
+01:18:36.320 --> 01:18:38.890 align:middle line:90%
+So from the Dirac equation--
+
+01:18:38.890 --> 01:18:40.120 align:middle line:90%
+let me just erase here.
+
+01:18:40.120 --> 01:18:43.390 align:middle line:90%
+
+
+01:18:43.390 --> 01:18:47.230 align:middle line:84%
+So from the Dirac
+equation, you have
+
+01:18:47.230 --> 01:18:53.620 align:middle line:84%
+gamma mu partial mu
+minus m psi equal to 0.
+
+01:18:53.620 --> 01:18:59.230 align:middle line:84%
+So that means that the gamma
+i partial i minus m psi
+
+01:18:59.230 --> 01:19:02.710 align:middle line:84%
+is equal to minus
+gamma 0 partial 0 psi.
+
+01:19:02.710 --> 01:19:05.380 align:middle line:90%
+
+
+01:19:05.380 --> 01:19:13.360 align:middle line:84%
+So now, if you plug
+this equation into here,
+
+01:19:13.360 --> 01:19:15.980 align:middle line:90%
+and then what you get--
+
+01:19:15.980 --> 01:19:21.670 align:middle line:84%
+you should find that
+H is equal to i d3
+
+01:19:21.670 --> 01:19:26.020 align:middle line:90%
+x psi dagger partial 0 psi.
+
+01:19:26.020 --> 01:19:29.340 align:middle line:90%
+
+
+01:19:29.340 --> 01:19:33.240 align:middle line:90%
+So because the psi--
+
+01:19:33.240 --> 01:19:35.010 align:middle line:84%
+now this becomes a
+operate equation,
+
+01:19:35.010 --> 01:19:36.960 align:middle line:90%
+and psi satisfies this equation.
+
+01:19:36.960 --> 01:19:41.200 align:middle line:84%
+And now, you find H
+becomes this form, which
+
+01:19:41.200 --> 01:19:44.770 align:middle line:84%
+is psi dagger times the
+time derivative of psi.
+
+01:19:44.770 --> 01:19:47.110 align:middle line:84%
+And time derivative
+of psi-- remember,
+
+01:19:47.110 --> 01:19:51.340 align:middle line:84%
+psi expanded both in terms
+of the positive energy
+
+01:19:51.340 --> 01:19:55.390 align:middle line:84%
+solutions and the
+negative energy solutions.
+
+01:19:55.390 --> 01:19:57.750 align:middle line:84%
+So depends on which
+omega you have.
+
+01:19:57.750 --> 01:20:01.200 align:middle line:84%
+You can have either positive
+omega negative omega,
+
+01:20:01.200 --> 01:20:03.750 align:middle line:84%
+because this is the first
+derivative-- a first time
+
+01:20:03.750 --> 01:20:04.920 align:middle line:90%
+derivative of psi.
+
+01:20:04.920 --> 01:20:09.270 align:middle line:84%
+And so this cannot be
+a positive definite.
+
+01:20:09.270 --> 01:20:11.610 align:middle line:84%
+So this quantity cannot
+be positive definite.
+
+01:20:11.610 --> 01:20:18.960 align:middle line:84%
+Anyway-- so you have to
+do something more radical.
+
+01:20:18.960 --> 01:20:21.750 align:middle line:84%
+If these are
+conventional functions,
+
+01:20:21.750 --> 01:20:24.720 align:middle line:84%
+and then this won't
+be positive definite.
+
+01:20:24.720 --> 01:20:27.810 align:middle line:84%
+But now, what we did is that
+we make these into functions
+
+01:20:27.810 --> 01:20:29.700 align:middle line:90%
+which anticommute.
+
+01:20:29.700 --> 01:20:31.590 align:middle line:84%
+When they anticommute,
+turns out this
+
+01:20:31.590 --> 01:20:35.080 align:middle line:84%
+to be a positive
+definite quantity.
+
+01:20:35.080 --> 01:20:37.840 align:middle line:84%
+As the ordinary function, this
+cannot be positive definite.
+
+01:20:37.840 --> 01:20:41.800 align:middle line:84%
+But if they anticommute, then
+become a positive definite.
+
+01:20:41.800 --> 01:20:43.980 align:middle line:90%
+So let's stop here.
+
+01:20:43.980 --> 01:20:47.000 align:middle line:90%

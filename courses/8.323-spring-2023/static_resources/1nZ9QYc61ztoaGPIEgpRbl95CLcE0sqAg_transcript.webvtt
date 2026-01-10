@@ -1,0 +1,3990 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.976 align:middle line:90%
+
+
+00:00:00.976 --> 00:00:02.440 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.440 --> 00:00:03.904 align:middle line:90%
+[RUSTLING]
+
+00:00:03.904 --> 00:00:10.560 align:middle line:90%
+[CLICKING]
+
+00:00:10.560 --> 00:00:12.770 align:middle line:90%
+HONG LIU: OK, so let us start.
+
+00:00:12.770 --> 00:00:15.420 align:middle line:90%
+
+
+00:00:15.420 --> 00:00:19.110 align:middle line:84%
+So last time, at the
+end of the lecture,
+
+00:00:19.110 --> 00:00:27.680 align:middle line:84%
+we discussed relativistic
+generalization
+
+00:00:27.680 --> 00:00:28.685 align:middle line:90%
+of the cross section.
+
+00:00:28.685 --> 00:00:32.340 align:middle line:90%
+
+
+00:00:32.340 --> 00:00:37.580 align:middle line:84%
+So we want to derive a
+relativistic generalization
+
+00:00:37.580 --> 00:00:41.030 align:middle line:84%
+of the cross section
+from some initial state
+
+00:00:41.030 --> 00:00:42.590 align:middle line:90%
+to some final state.
+
+00:00:42.590 --> 00:00:47.330 align:middle line:84%
+So initial state is denoted by
+alpha, the final state denoted
+
+00:00:47.330 --> 00:00:49.260 align:middle line:90%
+by beta.
+
+00:00:49.260 --> 00:00:54.410 align:middle line:84%
+So we will, for most
+physical process, we
+
+00:00:54.410 --> 00:00:56.960 align:middle line:84%
+will consider the two
+particles scattering.
+
+00:00:56.960 --> 00:00:59.300 align:middle line:90%
+So this is just two particles.
+
+00:00:59.300 --> 00:01:01.680 align:middle line:90%
+And they scatter.
+
+00:01:01.680 --> 00:01:06.410 align:middle line:84%
+So this is our initial state,
+always only have two particles.
+
+00:01:06.410 --> 00:01:10.690 align:middle line:84%
+But the final state can have
+arbitrary number of particles.
+
+00:01:10.690 --> 00:01:15.180 align:middle line:84%
+You can have an arbitrary
+number of particles.
+
+00:01:15.180 --> 00:01:24.240 align:middle line:84%
+And then we define, so we
+require that d sigma alpha beta
+
+00:01:24.240 --> 00:01:25.770 align:middle line:90%
+to be Lorentz invariant.
+
+00:01:25.770 --> 00:01:31.586 align:middle line:90%
+
+
+00:01:31.586 --> 00:01:36.050 align:middle line:84%
+But because the
+probability for--
+
+00:01:36.050 --> 00:01:38.630 align:middle line:84%
+that should not depend
+on say, your frame.
+
+00:01:38.630 --> 00:01:46.010 align:middle line:84%
+We also want to define to
+be symmetric in 1 to 2.
+
+00:01:46.010 --> 00:01:52.030 align:middle line:90%
+
+
+00:01:52.030 --> 00:01:59.560 align:middle line:84%
+So to make a connection with
+the nonrelativistic story,
+
+00:01:59.560 --> 00:02:07.290 align:middle line:84%
+we can consider the
+rest frame, say--
+
+00:02:07.290 --> 00:02:09.970 align:middle line:84%
+say as a starting
+point, we can consider
+
+00:02:09.970 --> 00:02:13.250 align:middle line:90%
+the rest frame of particle 2.
+
+00:02:13.250 --> 00:02:16.120 align:middle line:84%
+You can always go to the
+rest frame of particle 2.
+
+00:02:16.120 --> 00:02:22.480 align:middle line:84%
+And then in that frame, then
+we can define this quantity
+
+00:02:22.480 --> 00:02:31.540 align:middle line:84%
+to be the probability per unit
+time from alpha to beta dt,
+
+00:02:31.540 --> 00:02:35.890 align:middle line:84%
+and then divided by the
+incident flux of particle 1.
+
+00:02:35.890 --> 00:02:49.570 align:middle line:90%
+
+
+00:02:49.570 --> 00:02:57.550 align:middle line:84%
+So this is the p alpha
+beta t is the probability--
+
+00:02:57.550 --> 00:02:59.530 align:middle line:90%
+let me just write it.
+
+00:02:59.530 --> 00:03:14.390 align:middle line:84%
+So this is the probability
+per unit time for this process
+
+00:03:14.390 --> 00:03:17.510 align:middle line:90%
+from alpha to beta.
+
+00:03:17.510 --> 00:03:35.780 align:middle line:84%
+And then, the dN1/dt dA
+would be the incident flux
+
+00:03:35.780 --> 00:03:36.740 align:middle line:90%
+of particle 1.
+
+00:03:36.740 --> 00:03:40.850 align:middle line:90%
+
+
+00:03:40.850 --> 00:03:44.770 align:middle line:84%
+So this expression is a
+natural generalization
+
+00:03:44.770 --> 00:03:50.860 align:middle line:84%
+to relativistic context, which
+in the rest frame of particle
+
+00:03:50.860 --> 00:03:54.580 align:middle line:84%
+2, in the rest
+frame of particle 2.
+
+00:03:54.580 --> 00:03:58.360 align:middle line:84%
+And so, our strategy
+is to first work out
+
+00:03:58.360 --> 00:04:02.410 align:middle line:84%
+this quantity in
+the rest frame of 2.
+
+00:04:02.410 --> 00:04:08.230 align:middle line:84%
+And then, we use the Lorentz,
+the requirement of the Lorentz
+
+00:04:08.230 --> 00:04:10.540 align:middle line:84%
+invariant and the
+symmetric in 1 and 2
+
+00:04:10.540 --> 00:04:13.030 align:middle line:84%
+to write it in
+the general frame.
+
+00:04:13.030 --> 00:04:13.990 align:middle line:90%
+So that's our strategy.
+
+00:04:13.990 --> 00:04:17.230 align:middle line:90%
+
+
+00:04:17.230 --> 00:04:23.560 align:middle line:84%
+And so first, let's talk about
+this quantity, this probability
+
+00:04:23.560 --> 00:04:27.230 align:middle line:90%
+from alpha to beta.
+
+00:04:27.230 --> 00:04:30.670 align:middle line:84%
+So we have the probability
+from alpha to beta.
+
+00:04:30.670 --> 00:04:35.770 align:middle line:90%
+
+
+00:04:35.770 --> 00:04:37.960 align:middle line:84%
+So by definition, it's
+defined as the following.
+
+00:04:37.960 --> 00:04:40.480 align:middle line:90%
+
+
+00:04:40.480 --> 00:04:46.160 align:middle line:84%
+So we want to look at the
+transition amplitude, which
+
+00:04:46.160 --> 00:04:51.260 align:middle line:84%
+gives you the beta state at time
+plus infinity and from alpha
+
+00:04:51.260 --> 00:04:53.390 align:middle line:90%
+at time minus infinity.
+
+00:04:53.390 --> 00:04:54.860 align:middle line:90%
+So this is the amplitude.
+
+00:04:54.860 --> 00:04:58.320 align:middle line:90%
+And then we take the square.
+
+00:04:58.320 --> 00:05:03.520 align:middle line:84%
+And then we divide by the
+normalization over the beta
+
+00:05:03.520 --> 00:05:08.490 align:middle line:90%
+itself under the alpha itself.
+
+00:05:08.490 --> 00:05:12.260 align:middle line:90%
+
+
+00:05:12.260 --> 00:05:16.580 align:middle line:84%
+We divided by the normalization
+of the beta and alpha,
+
+00:05:16.580 --> 00:05:17.870 align:middle line:90%
+the state themselves.
+
+00:05:17.870 --> 00:05:23.870 align:middle line:84%
+So that is the whole thing,
+really defined the probability.
+
+00:05:23.870 --> 00:05:29.400 align:middle line:84%
+So the upstairs, we
+already defined before.
+
+00:05:29.400 --> 00:05:35.600 align:middle line:84%
+So previously, we
+defined the beta plus,
+
+00:05:35.600 --> 00:05:37.800 align:middle line:90%
+infinity alpha minus infinity.
+
+00:05:37.800 --> 00:05:44.150 align:middle line:84%
+So this is by our previous
+definition is given by 2 pi
+
+00:05:44.150 --> 00:05:50.530 align:middle line:84%
+to the power 4 delta,
+p alpha p beta.
+
+00:05:50.530 --> 00:05:52.840 align:middle line:84%
+So the p alpha p beta
+is the total momentum
+
+00:05:52.840 --> 00:05:54.740 align:middle line:90%
+of the initial and final state.
+
+00:05:54.740 --> 00:06:01.730 align:middle line:90%
+And times M alpha beta.
+
+00:06:01.730 --> 00:06:03.770 align:middle line:84%
+M alpha beta is defined
+to be the scattering
+
+00:06:03.770 --> 00:06:12.130 align:middle line:84%
+amplitude from alpha to beta,
+So this was essentially,
+
+00:06:12.130 --> 00:06:15.515 align:middle line:84%
+our definition of the
+scattering amplitude.
+
+00:06:15.515 --> 00:06:16.015 align:middle line:90%
+Yes?
+
+00:06:16.015 --> 00:06:18.910 align:middle line:84%
+AUDIENCE: T minus-- so the
+plus infinity, minus infinity,
+
+00:06:18.910 --> 00:06:21.610 align:middle line:84%
+is that in space
+time or just time?
+
+00:06:21.610 --> 00:06:22.690 align:middle line:90%
+HONG LIU: Time, yeah.
+
+00:06:22.690 --> 00:06:27.280 align:middle line:84%
+it means that the T
+equal to minus infinity.
+
+00:06:27.280 --> 00:06:30.040 align:middle line:90%
+So this is the Heisenberg state.
+
+00:06:30.040 --> 00:06:32.200 align:middle line:84%
+So this is the
+Heisenberg picture.
+
+00:06:32.200 --> 00:06:35.890 align:middle line:84%
+So this means that at t
+equal to minus infinity,
+
+00:06:35.890 --> 00:06:39.490 align:middle line:84%
+we have a free particle
+state described by alpha.
+
+00:06:39.490 --> 00:06:42.010 align:middle line:84%
+And the t equal
+to plus infinity,
+
+00:06:42.010 --> 00:06:47.790 align:middle line:84%
+we have free particle
+state, given by beta.
+
+00:06:47.790 --> 00:06:48.810 align:middle line:90%
+Other questions?
+
+00:06:48.810 --> 00:06:51.860 align:middle line:90%
+
+
+00:06:51.860 --> 00:06:53.240 align:middle line:90%
+So now, let's take the square.
+
+00:06:53.240 --> 00:06:56.200 align:middle line:90%
+
+
+00:06:56.200 --> 00:06:59.080 align:middle line:90%
+Now, let's take the square.
+
+00:06:59.080 --> 00:07:06.950 align:middle line:84%
+So remember, so the reason
+we need to put in downstairs,
+
+00:07:06.950 --> 00:07:09.350 align:middle line:84%
+you say, why do we need
+to put the downstairs?
+
+00:07:09.350 --> 00:07:14.090 align:middle line:84%
+Because are they supposed
+to be normalized?
+
+00:07:14.090 --> 00:07:17.450 align:middle line:84%
+But in practice when
+we do the calculation,
+
+00:07:17.450 --> 00:07:21.080 align:middle line:84%
+or in practice when we talk
+about the free particles,
+
+00:07:21.080 --> 00:07:23.660 align:middle line:90%
+we use the plane wave basis.
+
+00:07:23.660 --> 00:07:26.990 align:middle line:84%
+But plane wave, remember,
+is not normalizable.
+
+00:07:26.990 --> 00:07:30.620 align:middle line:84%
+It's only normalizable
+as a delta function.
+
+00:07:30.620 --> 00:07:34.400 align:middle line:84%
+So the normalization is
+not equal to 1, exactly.
+
+00:07:34.400 --> 00:07:36.080 align:middle line:90%
+So we have to be careful.
+
+00:07:36.080 --> 00:07:40.370 align:middle line:84%
+So that's why we need
+to include them here.
+
+00:07:40.370 --> 00:07:43.700 align:middle line:90%
+So yeah.
+
+00:07:43.700 --> 00:07:45.200 align:middle line:90%
+Good?
+
+00:07:45.200 --> 00:07:48.890 align:middle line:84%
+So now, let's look at
+this quantity squared.
+
+00:07:48.890 --> 00:07:51.630 align:middle line:90%
+So let's just move it down.
+
+00:07:51.630 --> 00:07:54.480 align:middle line:84%
+So to save time, I
+just want to copy it.
+
+00:07:54.480 --> 00:08:00.470 align:middle line:84%
+So this quantity squared then
+just equal to the right hand
+
+00:08:00.470 --> 00:08:01.550 align:middle line:90%
+side square.
+
+00:08:01.550 --> 00:08:08.020 align:middle line:84%
+So we have 2 pi 4 the
+delta function square.
+
+00:08:08.020 --> 00:08:11.200 align:middle line:84%
+And then we have M
+alpha beta squared.
+
+00:08:11.200 --> 00:08:15.840 align:middle line:90%
+
+
+00:08:15.840 --> 00:08:19.680 align:middle line:84%
+And now, let's look at
+the delta function square.
+
+00:08:19.680 --> 00:08:22.110 align:middle line:84%
+So the delta function
+squared will have two pieces.
+
+00:08:22.110 --> 00:08:25.470 align:middle line:90%
+
+
+00:08:25.470 --> 00:08:26.790 align:middle line:90%
+So the delta function square--
+
+00:08:26.790 --> 00:08:32.500 align:middle line:90%
+
+
+00:08:32.500 --> 00:08:33.669 align:middle line:90%
+let me just save time.
+
+00:08:33.669 --> 00:08:40.120 align:middle line:84%
+So this square, then we can
+take one piece, one copy of it.
+
+00:08:40.120 --> 00:08:45.000 align:middle line:84%
+We just write it as
+p alpha minus p beta.
+
+00:08:45.000 --> 00:08:50.970 align:middle line:84%
+And then the other piece
+will be just delta 4,
+
+00:08:50.970 --> 00:08:54.070 align:middle line:90%
+we can just evaluate at the 0.
+
+00:08:54.070 --> 00:08:57.390 align:middle line:84%
+Because we already
+set the p alpha equal
+
+00:08:57.390 --> 00:09:00.240 align:middle line:84%
+to beta from the
+first delta function.
+
+00:09:00.240 --> 00:09:05.370 align:middle line:84%
+So the second factor can
+be just become delta 0.
+
+00:09:05.370 --> 00:09:07.020 align:middle line:90%
+So now we know how to--
+
+00:09:07.020 --> 00:09:10.670 align:middle line:90%
+so we have seen this before.
+
+00:09:10.670 --> 00:09:12.440 align:middle line:90%
+So what is this object?
+
+00:09:12.440 --> 00:09:15.250 align:middle line:90%
+Do you remember?
+
+00:09:15.250 --> 00:09:15.853 align:middle line:90%
+Yes?
+
+00:09:15.853 --> 00:09:17.020 align:middle line:90%
+AUDIENCE: Space time volume.
+
+00:09:17.020 --> 00:09:20.590 align:middle line:84%
+HONG LIU: Yeah, it's the
+total space time volume.
+
+00:09:20.590 --> 00:09:25.960 align:middle line:84%
+The reason is that
+the 2 pi delta 4 0.
+
+00:09:25.960 --> 00:09:28.990 align:middle line:84%
+So this is the 0
+in momentum space.
+
+00:09:28.990 --> 00:09:35.650 align:middle line:84%
+So this is just equal to d4x
+exponential ikx evaluated
+
+00:09:35.650 --> 00:09:39.910 align:middle line:84%
+at the k equal to 0,
+evaluated at the k equal to 0.
+
+00:09:39.910 --> 00:09:42.250 align:middle line:84%
+Because this is giving
+you 2 two pi delta k.
+
+00:09:42.250 --> 00:09:43.780 align:middle line:90%
+And so you evaluate at k = 0.
+
+00:09:43.780 --> 00:09:45.830 align:middle line:84%
+When you evaluate the
+k = 0, then of course,
+
+00:09:45.830 --> 00:09:48.970 align:middle line:84%
+this is just the
+space time volume.
+
+00:09:48.970 --> 00:09:51.070 align:middle line:84%
+So I take the
+spatial volume to V.
+
+00:09:51.070 --> 00:09:54.505 align:middle line:84%
+And then this T,
+is the time period.
+
+00:09:54.505 --> 00:09:59.050 align:middle line:90%
+
+
+00:09:59.050 --> 00:10:05.770 align:middle line:84%
+So physically, you
+can interpret the T
+
+00:10:05.770 --> 00:10:09.300 align:middle line:84%
+as the duration at
+the time duration
+
+00:10:09.300 --> 00:10:11.040 align:middle line:84%
+we actually doing
+the experiment.
+
+00:10:11.040 --> 00:10:17.100 align:middle line:84%
+Because only that part is
+relevant for our experiment.
+
+00:10:17.100 --> 00:10:19.320 align:middle line:84%
+So this capital T
+can be interpreted --
+
+00:10:19.320 --> 00:10:22.660 align:middle line:90%
+
+
+00:10:22.660 --> 00:10:23.630 align:middle line:90%
+OK, good?
+
+00:10:23.630 --> 00:10:28.330 align:middle line:84%
+And now, we can
+just replace here,
+
+00:10:28.330 --> 00:10:37.410 align:middle line:84%
+so now we can just replace
+here by V times T. We can just
+
+00:10:37.410 --> 00:10:48.860 align:middle line:84%
+replace here, V times T. So now
+let's look at the downstairs.
+
+00:10:48.860 --> 00:10:50.870 align:middle line:90%
+Now, let's look at downstairs.
+
+00:10:50.870 --> 00:10:55.970 align:middle line:84%
+The downstairs, so the alpha
+and the beta will be just say--
+
+00:10:55.970 --> 00:11:01.870 align:middle line:84%
+yeah, so the typical
+alpha, so the alpha state
+
+00:11:01.870 --> 00:11:08.333 align:middle line:84%
+would be say, if your initial
+momentum is P1 and P2,
+
+00:11:08.333 --> 00:11:09.250 align:middle line:90%
+it would be like this.
+
+00:11:09.250 --> 00:11:13.660 align:middle line:84%
+For scalar particle, it just
+will be specified by P1 and P2.
+
+00:11:13.660 --> 00:11:15.610 align:middle line:84%
+And if you have
+polarizations, then there
+
+00:11:15.610 --> 00:11:17.710 align:middle line:90%
+will be polarizations.
+
+00:11:17.710 --> 00:11:20.270 align:middle line:84%
+Here, I'll just
+give you an example.
+
+00:11:20.270 --> 00:11:22.420 align:middle line:84%
+So now, if you look
+at the normalization
+
+00:11:22.420 --> 00:11:27.940 align:middle line:84%
+of this kind of states, remember
+the P1 and P2 are defined.
+
+00:11:27.940 --> 00:11:29.740 align:middle line:84%
+So remember, if you
+have a single particle
+
+00:11:29.740 --> 00:11:34.210 align:middle line:90%
+state of momentum p.
+
+00:11:34.210 --> 00:11:47.800 align:middle line:84%
+So that is normalized to be 2
+pi cubed 2p0 delta 3 p minus
+
+00:11:47.800 --> 00:11:50.925 align:middle line:84%
+p-prime, because
+they're always on-shell.
+
+00:11:50.925 --> 00:11:52.550 align:middle line:84%
+Initial and final
+state, they on-shell.
+
+00:11:52.550 --> 00:11:56.780 align:middle line:90%
+So p0 are functions of p.
+
+00:11:56.780 --> 00:12:01.050 align:middle line:90%
+So that's how we normalize them.
+
+00:12:01.050 --> 00:12:04.460 align:middle line:84%
+So p is normalized
+by square root
+
+00:12:04.460 --> 00:12:11.570 align:middle line:84%
+omega k omega p,
+say ap acting on 0.
+
+00:12:11.570 --> 00:12:14.060 align:middle line:84%
+And for example, for
+scalar particle, and then
+
+00:12:14.060 --> 00:12:15.965 align:middle line:84%
+you look at the
+normalization just like this.
+
+00:12:15.965 --> 00:12:19.470 align:middle line:90%
+
+
+00:12:19.470 --> 00:12:26.550 align:middle line:84%
+So now if you look
+at the p with itself,
+
+00:12:26.550 --> 00:12:29.430 align:middle line:84%
+then you have p
+equal to p-prime.
+
+00:12:29.430 --> 00:12:31.830 align:middle line:84%
+And then you have
+essentially, you just
+
+00:12:31.830 --> 00:12:38.320 align:middle line:84%
+have 2p0 times V. The V
+is the spatial volume.
+
+00:12:38.320 --> 00:12:41.680 align:middle line:84%
+Because here you just have
+2 pi cubed the delta 0.
+
+00:12:41.680 --> 00:12:45.520 align:middle line:84%
+And delta 0 is in
+the spatial momentum.
+
+00:12:45.520 --> 00:12:48.580 align:middle line:84%
+And spatial momentum
+for the same reason,
+
+00:12:48.580 --> 00:12:50.290 align:middle line:84%
+just gave you the
+spatial volume.
+
+00:12:50.290 --> 00:12:54.300 align:middle line:90%
+
+
+00:12:54.300 --> 00:13:01.570 align:middle line:84%
+And so now, we can just apply
+these two to alpha and beta.
+
+00:13:01.570 --> 00:13:06.180 align:middle line:84%
+So the alpha, So if I take
+the alpha to have momentum P1,
+
+00:13:06.180 --> 00:13:10.620 align:middle line:84%
+P2, you can see this particle
+of momentum p1 and p2
+
+00:13:10.620 --> 00:13:17.490 align:middle line:84%
+on beta, to consist of
+momentum say, k1 and kn.
+
+00:13:17.490 --> 00:13:23.020 align:middle line:84%
+Suppose there are n particles,
+so n can be arbitrary integers.
+
+00:13:23.020 --> 00:13:29.660 align:middle line:84%
+And then from here, then
+the alpha with itself,
+
+00:13:29.660 --> 00:13:38.420 align:middle line:84%
+would be just 2 E1 times the
+volume and 2 E2 times volume.
+
+00:13:38.420 --> 00:13:41.270 align:middle line:84%
+E1 and E2 are the energy
+over the p1 and p2.
+
+00:13:41.270 --> 00:13:45.490 align:middle line:90%
+
+
+00:13:45.490 --> 00:13:54.650 align:middle line:84%
+So E1 is equal to P
+1,0 and equal to P 2,0.
+
+00:13:54.650 --> 00:14:03.170 align:middle line:84%
+And similarly, the beta would
+be to take the product j from 1
+
+00:14:03.170 --> 00:14:23.810 align:middle line:84%
+to n, 2kj, 0'th
+component times V.
+
+00:14:23.810 --> 00:14:31.670 align:middle line:84%
+And so example,
+just kj0 just equal
+
+00:14:31.670 --> 00:14:36.565 align:middle line:90%
+to kj squared plus mj squared.
+
+00:14:36.565 --> 00:14:39.270 align:middle line:90%
+
+
+00:14:39.270 --> 00:14:41.180 align:middle line:84%
+So here, we allow the
+different particles
+
+00:14:41.180 --> 00:14:50.370 align:middle line:84%
+to have different mass and
+similarly with p 1,0 and p2.
+
+00:14:50.370 --> 00:14:58.050 align:middle line:84%
+OK so now with
+those preparations,
+
+00:14:58.050 --> 00:15:03.210 align:middle line:90%
+now we can write down dpt.
+
+00:15:03.210 --> 00:15:10.740 align:middle line:84%
+So now, the dp alpha to
+beta dt then essentially
+
+00:15:10.740 --> 00:15:15.180 align:middle line:84%
+just equal to p alpha
+beta divided by t,
+
+00:15:15.180 --> 00:15:20.170 align:middle line:84%
+the total duration of
+the physical process.
+
+00:15:20.170 --> 00:15:22.920 align:middle line:84%
+And so, the reason
+they just relate it.
+
+00:15:22.920 --> 00:15:26.190 align:middle line:90%
+You say, how can you do this?
+
+00:15:26.190 --> 00:15:27.510 align:middle line:90%
+This is a differential.
+
+00:15:27.510 --> 00:15:30.860 align:middle line:84%
+And how can you just
+divide it by the t?
+
+00:15:30.860 --> 00:15:33.405 align:middle line:84%
+Do you know a reason why
+we can just divide by this?
+
+00:15:33.405 --> 00:15:43.110 align:middle line:90%
+
+
+00:15:43.110 --> 00:15:44.520 align:middle line:90%
+Yes?
+
+00:15:44.520 --> 00:15:47.280 align:middle line:84%
+AUDIENCE: Well presumably,
+it's the probability was small
+
+00:15:47.280 --> 00:15:48.450 align:middle line:90%
+or something.
+
+00:15:48.450 --> 00:15:51.210 align:middle line:84%
+You would just expect it
+to go up linearly in time.
+
+00:15:51.210 --> 00:15:53.940 align:middle line:90%
+
+
+00:15:53.940 --> 00:16:01.110 align:middle line:84%
+HONG LIU: Just because of--
+yeah, that's a good statement.
+
+00:16:01.110 --> 00:16:05.430 align:middle line:84%
+But the statement,
+I wanted you to say
+
+00:16:05.430 --> 00:16:10.060 align:middle line:84%
+is that because the time
+translation symmetry.
+
+00:16:10.060 --> 00:16:14.040 align:middle line:84%
+And so, you would expect that
+the probability per unit time
+
+00:16:14.040 --> 00:16:15.880 align:middle line:90%
+should be independent of time.
+
+00:16:15.880 --> 00:16:18.990 align:middle line:84%
+And so the probability,
+say for duration of time,
+
+00:16:18.990 --> 00:16:21.060 align:middle line:84%
+and you can just multiply
+by the total time.
+
+00:16:21.060 --> 00:16:24.550 align:middle line:84%
+And indeed, in order to make
+this equation make sense.
+
+00:16:24.550 --> 00:16:26.580 align:middle line:84%
+Of course, the p
+has to be small.
+
+00:16:26.580 --> 00:16:30.240 align:middle line:84%
+Because otherwise, if
+you multiply-- yeah,
+
+00:16:30.240 --> 00:16:31.463 align:middle line:90%
+this thing has to be small.
+
+00:16:31.463 --> 00:16:32.880 align:middle line:84%
+Otherwise, when
+you multiply by T,
+
+00:16:32.880 --> 00:16:39.650 align:middle line:84%
+of course it will be greater
+than 1 But just to divide by T,
+
+00:16:39.650 --> 00:16:41.375 align:middle line:84%
+it's from the time
+translation symmetry.
+
+00:16:41.375 --> 00:16:44.170 align:middle line:90%
+
+
+00:16:44.170 --> 00:16:49.090 align:middle line:84%
+So this is good because we know
+here, from the delta function,
+
+00:16:49.090 --> 00:16:53.380 align:middle line:84%
+there's a factor of T.
+There's a factor of T.
+
+00:16:53.380 --> 00:16:58.360 align:middle line:84%
+So if we combine
+everything together,
+
+00:16:58.360 --> 00:16:59.830 align:middle line:90%
+and then we can just--
+
+00:16:59.830 --> 00:17:08.609 align:middle line:84%
+then the upstairs is given
+by, so we have the 2 pi power
+
+00:17:08.609 --> 00:17:18.760 align:middle line:84%
+of 4 delta 4 p alpha p
+beta, the m alpha to beta
+
+00:17:18.760 --> 00:17:22.540 align:middle line:90%
+squared times VT.
+
+00:17:22.540 --> 00:17:28.089 align:middle line:84%
+And then divided by T,
+and then this T go away,
+
+00:17:28.089 --> 00:17:33.100 align:middle line:90%
+so I can just erase this T.
+
+00:17:33.100 --> 00:17:38.260 align:middle line:84%
+So this is the upstairs, and
+then divided by T, a capital T.
+
+00:17:38.260 --> 00:17:43.360 align:middle line:84%
+And then the downstairs, we
+just copy these two expression.
+
+00:17:43.360 --> 00:17:49.000 align:middle line:84%
+Downstairs, I just copy this
+expression and this expression.
+
+00:17:49.000 --> 00:18:01.030 align:middle line:84%
+So this is 4 E1E2 times V
+square and then k from 1
+
+00:18:01.030 --> 00:18:15.980 align:middle line:90%
+to n 2kj0 times V. Yes?
+
+00:18:15.980 --> 00:18:18.350 align:middle line:84%
+AUDIENCE: So now taking
+T to be the total time
+
+00:18:18.350 --> 00:18:20.090 align:middle line:84%
+of your experiment,
+are you taking
+
+00:18:20.090 --> 00:18:22.700 align:middle line:84%
+V to be the volume
+of your experiment?
+
+00:18:22.700 --> 00:18:24.770 align:middle line:90%
+HONG LIU: Yeah.
+
+00:18:24.770 --> 00:18:26.810 align:middle line:90%
+AUDIENCE: Of your detector?
+
+00:18:26.810 --> 00:18:28.310 align:middle line:84%
+HONG LIU: No, it's
+not the detector.
+
+00:18:28.310 --> 00:18:32.480 align:middle line:84%
+It's just, we are
+computing S matrix.
+
+00:18:32.480 --> 00:18:36.210 align:middle line:84%
+So x matrix, you always assume
+you wait for a long time
+
+00:18:36.210 --> 00:18:37.670 align:middle line:84%
+so that your initial
+state is free,
+
+00:18:37.670 --> 00:18:39.730 align:middle line:90%
+and your final state is free.
+
+00:18:39.730 --> 00:18:43.880 align:middle line:90%
+So of course, it's much not.
+
+00:18:43.880 --> 00:18:47.620 align:middle line:90%
+It's the range of your detector.
+
+00:18:47.620 --> 00:18:49.930 align:middle line:84%
+You have to put the detector
+very far away in order
+
+00:18:49.930 --> 00:18:51.400 align:middle line:90%
+to measure the particle.
+
+00:18:51.400 --> 00:18:55.770 align:middle line:90%
+
+
+00:18:55.770 --> 00:18:57.750 align:middle line:84%
+You can imagine the
+V just essentially
+
+00:18:57.750 --> 00:19:07.610 align:middle line:84%
+is the volume, which the
+experiment is happening.
+
+00:19:07.610 --> 00:19:08.570 align:middle line:90%
+Other questions?
+
+00:19:08.570 --> 00:19:11.490 align:middle line:90%
+
+
+00:19:11.490 --> 00:19:15.270 align:middle line:84%
+So, you see there's all
+this V flying around.
+
+00:19:15.270 --> 00:19:18.300 align:middle line:90%
+So they look very unpleasant.
+
+00:19:18.300 --> 00:19:19.080 align:middle line:90%
+But don't worry.
+
+00:19:19.080 --> 00:19:22.190 align:middle line:84%
+Later, if you are
+doing the right thing,
+
+00:19:22.190 --> 00:19:25.080 align:middle line:84%
+then all these unpleasant
+things will go away.
+
+00:19:25.080 --> 00:19:26.900 align:middle line:90%
+So that's the rule of physics.
+
+00:19:26.900 --> 00:19:28.820 align:middle line:84%
+And in the
+intermediate step, you
+
+00:19:28.820 --> 00:19:30.720 align:middle line:84%
+may see a lot of
+unpleasant things.
+
+00:19:30.720 --> 00:19:33.020 align:middle line:84%
+But if you are doing
+the right thing
+
+00:19:33.020 --> 00:19:36.060 align:middle line:84%
+and then all this unpleasant
+thing will go away, or you say,
+
+00:19:36.060 --> 00:19:37.970 align:middle line:84%
+well, then I must be
+doing the right thing.
+
+00:19:37.970 --> 00:19:41.080 align:middle line:90%
+
+
+00:19:41.080 --> 00:19:43.180 align:middle line:84%
+So here, actually
+this probability
+
+00:19:43.180 --> 00:19:47.250 align:middle line:84%
+is not the probability
+we actually measure.
+
+00:19:47.250 --> 00:19:51.580 align:middle line:84%
+Because here, I assume
+that the final state--
+
+00:19:51.580 --> 00:19:53.425 align:middle line:84%
+here I'll assume
+the final state--
+
+00:19:53.425 --> 00:19:56.710 align:middle line:90%
+
+
+00:19:56.710 --> 00:19:58.990 align:middle line:84%
+yeah, here, I assume
+the final states
+
+00:19:58.990 --> 00:20:03.520 align:middle line:90%
+have precise momentum k1, kn.
+
+00:20:03.520 --> 00:20:05.590 align:middle line:84%
+So in reality, of
+course, we will not
+
+00:20:05.590 --> 00:20:08.950 align:middle line:84%
+be able to make the
+precise measurements.
+
+00:20:08.950 --> 00:20:24.910 align:middle line:84%
+So in real experiment, detectors
+have finite resolutions.
+
+00:20:24.910 --> 00:20:32.720 align:middle line:90%
+
+
+00:20:32.720 --> 00:20:38.680 align:middle line:84%
+So what we measure is actually
+when we say the particle say,
+
+00:20:38.680 --> 00:20:50.060 align:middle line:84%
+have momentum k1, we actually
+means that the particle 1,
+
+00:20:50.060 --> 00:20:58.460 align:middle line:90%
+it's within some dk 1 around k1.
+
+00:20:58.460 --> 00:21:02.660 align:middle line:84%
+So there's always some
+finite neighborhood of k1
+
+00:21:02.660 --> 00:21:08.600 align:middle line:84%
+which are allowed by
+our detector resolution.
+
+00:21:08.600 --> 00:21:12.980 align:middle line:84%
+And similarly, in
+reality, it's particle 2
+
+00:21:12.980 --> 00:21:19.010 align:middle line:90%
+in dk2 around k2, et cetera.
+
+00:21:19.010 --> 00:21:25.610 align:middle line:84%
+So the particle
+n, dkn around kn.
+
+00:21:25.610 --> 00:21:28.820 align:middle line:84%
+So then, we actually
+need to integrate over
+
+00:21:28.820 --> 00:21:34.920 align:middle line:90%
+all these resolutions.
+
+00:21:34.920 --> 00:21:39.090 align:middle line:84%
+So that means that we
+should multiply dP/T.
+
+00:21:39.090 --> 00:21:44.730 align:middle line:84%
+This corresponding to
+sharp final momentum,
+
+00:21:44.730 --> 00:21:48.720 align:middle line:84%
+and we should multiply
+by those uncertainties.
+
+00:21:48.720 --> 00:21:56.880 align:middle line:84%
+So that means that, so if I
+take this equation to be star,
+
+00:21:56.880 --> 00:22:00.570 align:middle line:84%
+this equation to be star,
+so the one actually,
+
+00:22:00.570 --> 00:22:03.330 align:middle line:90%
+is measured by the experiment.
+
+00:22:03.330 --> 00:22:08.400 align:middle line:84%
+When we say P alpha beta dt,
+from the real experiment,
+
+00:22:08.400 --> 00:22:13.400 align:middle line:84%
+it's actually corresponding
+to the star times--
+
+00:22:13.400 --> 00:22:17.620 align:middle line:90%
+
+
+00:22:17.620 --> 00:22:21.760 align:middle line:90%
+those uncertainties around the--
+
+00:22:21.760 --> 00:22:31.830 align:middle line:84%
+so j equal to 1 to
+n d3 kj 2 pi cubed.
+
+00:22:31.830 --> 00:22:34.670 align:middle line:90%
+
+
+00:22:34.670 --> 00:22:40.130 align:middle line:84%
+So we need to multiply
+the number of states
+
+00:22:40.130 --> 00:22:47.450 align:middle line:84%
+within each dk
+momentum space volume,
+
+00:22:47.450 --> 00:22:50.450 align:middle line:84%
+So the number of the state,
+and the number of states
+
+00:22:50.450 --> 00:22:53.045 align:middle line:84%
+is given by this
+times the volume.
+
+00:22:53.045 --> 00:22:56.010 align:middle line:90%
+
+
+00:22:56.010 --> 00:22:59.280 align:middle line:84%
+So do you remember where
+this volume come from?
+
+00:22:59.280 --> 00:23:03.540 align:middle line:90%
+
+
+00:23:03.540 --> 00:23:04.230 align:middle line:90%
+Yes?
+
+00:23:04.230 --> 00:23:05.610 align:middle line:90%
+AUDIENCE: Density of states.
+
+00:23:05.610 --> 00:23:06.510 align:middle line:90%
+HONG LIU: Exactly.
+
+00:23:06.510 --> 00:23:08.350 align:middle line:84%
+So this gives you the
+density of states.
+
+00:23:08.350 --> 00:23:12.630 align:middle line:84%
+It's because the-- so
+if I just remind you--
+
+00:23:12.630 --> 00:23:16.410 align:middle line:84%
+remember if you-- so the
+way to think about it,
+
+00:23:16.410 --> 00:23:24.550 align:middle line:84%
+just imagine you put
+your system in the box,
+
+00:23:24.550 --> 00:23:31.600 align:middle line:84%
+and then your energy level will
+be quantized in terms of 2 pi,
+
+00:23:31.600 --> 00:23:35.860 align:middle line:84%
+say 2 pi cubed
+divided by the volume.
+
+00:23:35.860 --> 00:23:38.710 align:middle line:84%
+So this is the number
+of states in momentum
+
+00:23:38.710 --> 00:23:40.690 align:middle line:90%
+space, the density of states.
+
+00:23:40.690 --> 00:23:42.490 align:middle line:84%
+And then you multiply
+it by the dk.
+
+00:23:42.490 --> 00:23:51.970 align:middle line:90%
+
+
+00:23:51.970 --> 00:23:55.690 align:middle line:84%
+So this is actually the
+quantity we are interested in.
+
+00:23:55.690 --> 00:23:59.220 align:middle line:84%
+This is the quantity
+we're interested in.
+
+00:23:59.220 --> 00:24:00.255 align:middle line:90%
+Any questions on this?
+
+00:24:00.255 --> 00:24:03.810 align:middle line:90%
+
+
+00:24:03.810 --> 00:24:12.350 align:middle line:84%
+So now, let's just plug
+that star into here.
+
+00:24:12.350 --> 00:24:18.010 align:middle line:84%
+So now, the nice thing, now
+we can count the number of Vs.
+
+00:24:18.010 --> 00:24:22.840 align:middle line:84%
+If we are doing the right
+thing, all the V should cancel
+
+00:24:22.840 --> 00:24:29.290 align:middle line:90%
+except yeah, but not quite yet.
+
+00:24:29.290 --> 00:24:33.680 align:middle line:84%
+So upstairs, we have one
+V. Here we have V squared.
+
+00:24:33.680 --> 00:24:37.250 align:middle line:84%
+So let's first cancel
+this V so that we
+
+00:24:37.250 --> 00:24:39.350 align:middle line:90%
+don't have to worry about that.
+
+00:24:39.350 --> 00:24:41.630 align:middle line:90%
+So let's first cancel that V.
+
+00:24:41.630 --> 00:24:46.700 align:middle line:84%
+And now, we have downstairs,
+we have V for each j.
+
+00:24:46.700 --> 00:24:49.760 align:middle line:84%
+And the upstairs, now we
+multiply this by this.
+
+00:24:49.760 --> 00:24:52.640 align:middle line:84%
+And then for each j,
+have one V. So all this V
+
+00:24:52.640 --> 00:24:58.310 align:middle line:84%
+will cancel that V. All
+this V will cancel that V.
+
+00:24:58.310 --> 00:25:05.210 align:middle line:84%
+So we're left with only this
+single V, this single V.
+
+00:25:05.210 --> 00:25:08.130 align:middle line:84%
+So now, we can write
+it as the following.
+
+00:25:08.130 --> 00:25:11.960 align:middle line:84%
+So I can write it this
+as M alpha beta squared.
+
+00:25:11.960 --> 00:25:14.750 align:middle line:90%
+So I just copy this.
+
+00:25:14.750 --> 00:25:17.090 align:middle line:90%
+And then I divide it by--
+
+00:25:17.090 --> 00:25:25.220 align:middle line:84%
+let's keep this-- divided
+by 4 E1E2 times V.
+
+00:25:25.220 --> 00:25:30.440 align:middle line:84%
+And then I group everything
+else into what I call d mu.
+
+00:25:30.440 --> 00:25:32.900 align:middle line:90%
+And d mu is everything else.
+
+00:25:32.900 --> 00:25:36.620 align:middle line:84%
+D mu is defined to be
+this delta function.
+
+00:25:36.620 --> 00:25:48.680 align:middle line:90%
+
+
+00:25:48.680 --> 00:26:01.490 align:middle line:84%
+And then, j from 1 to n,
+d3 kj 2 pi cubed 2kj0.
+
+00:26:01.490 --> 00:26:05.900 align:middle line:84%
+So I just combine
+these two products,
+
+00:26:05.900 --> 00:26:07.040 align:middle line:90%
+combine these two products.
+
+00:26:07.040 --> 00:26:17.140 align:middle line:90%
+
+
+00:26:17.140 --> 00:26:21.400 align:middle line:84%
+So the nice thing,
+the reason I group
+
+00:26:21.400 --> 00:26:28.310 align:middle line:84%
+all this together because now
+d mu now is Lorenz invariant.
+
+00:26:28.310 --> 00:26:30.830 align:middle line:90%
+
+
+00:26:30.830 --> 00:26:35.330 align:middle line:84%
+So this is a Lorentz
+invariant measure.
+
+00:26:35.330 --> 00:26:39.620 align:middle line:84%
+Because you remember,
+this Lorenz invariant.
+
+00:26:39.620 --> 00:26:42.170 align:middle line:84%
+And remember, this
+combination is also
+
+00:26:42.170 --> 00:26:47.420 align:middle line:84%
+Lorentz invariant from your
+first day, essentially in QFT,
+
+00:26:47.420 --> 00:26:50.240 align:middle line:90%
+in your first pset.
+
+00:26:50.240 --> 00:26:52.340 align:middle line:84%
+So now, this nice
+thing is that this now
+
+00:26:52.340 --> 00:26:53.645 align:middle line:90%
+is a Lorentz invariant.
+
+00:26:53.645 --> 00:26:59.870 align:middle line:90%
+
+
+00:26:59.870 --> 00:27:03.460 align:middle line:84%
+So now, we have this
+nice expression.
+
+00:27:03.460 --> 00:27:06.130 align:middle line:90%
+We have this nice expression.
+
+00:27:06.130 --> 00:27:09.960 align:middle line:84%
+We have this, by definition,
+is Lorentz invariant.
+
+00:27:09.960 --> 00:27:18.270 align:middle line:84%
+And then we have this 4 E1E2,
+and times V, 4 E1 times V.
+
+00:27:18.270 --> 00:27:23.120 align:middle line:84%
+And now, we want to write them
+into a Lorentz invariant way.
+
+00:27:23.120 --> 00:27:24.320 align:middle line:90%
+But we haven't done it.
+
+00:27:24.320 --> 00:27:26.780 align:middle line:90%
+This is only upstairs.
+
+00:27:26.780 --> 00:27:28.490 align:middle line:84%
+This by itself, is
+not Lorenz invariant.
+
+00:27:28.490 --> 00:27:31.100 align:middle line:84%
+We have to divide it
+by the downstairs.
+
+00:27:31.100 --> 00:27:35.580 align:middle line:90%
+So the downstairs is the flux.
+
+00:27:35.580 --> 00:27:37.650 align:middle line:90%
+It's the flux.
+
+00:27:37.650 --> 00:27:48.950 align:middle line:84%
+So now, in the rest
+frame of particle 2,
+
+00:27:48.950 --> 00:27:52.085 align:middle line:84%
+so lets calculate the
+flux of the particle.
+
+00:27:52.085 --> 00:27:56.360 align:middle line:90%
+
+
+00:27:56.360 --> 00:27:58.250 align:middle line:90%
+So the flux of the particle--
+
+00:27:58.250 --> 00:28:02.170 align:middle line:90%
+
+
+00:28:02.170 --> 00:28:04.860 align:middle line:84%
+so we need to calculate
+the flux of particle 1.
+
+00:28:04.860 --> 00:28:09.000 align:middle line:90%
+
+
+00:28:09.000 --> 00:28:11.530 align:middle line:84%
+So that's the thing
+we need to divide.
+
+00:28:11.530 --> 00:28:15.900 align:middle line:84%
+So this is the flux
+of the particle 1.
+
+00:28:15.900 --> 00:28:23.370 align:middle line:84%
+So the flux is the number
+of particle per unit time
+
+00:28:23.370 --> 00:28:27.540 align:middle line:84%
+and per area, per
+unit time, per area.
+
+00:28:27.540 --> 00:28:32.040 align:middle line:84%
+So this is the
+same as the number
+
+00:28:32.040 --> 00:28:36.090 align:middle line:84%
+of the particle, number
+density of the particle 1 times
+
+00:28:36.090 --> 00:28:37.770 align:middle line:90%
+the velocity of the particle 1.
+
+00:28:37.770 --> 00:28:43.020 align:middle line:90%
+
+
+00:28:43.020 --> 00:28:45.240 align:middle line:84%
+So remember, the
+flux is essentially
+
+00:28:45.240 --> 00:28:49.150 align:middle line:90%
+the density times the velocity.
+
+00:28:49.150 --> 00:28:53.450 align:middle line:84%
+So this gives you the number
+of particles per volume.
+
+00:28:53.450 --> 00:28:56.440 align:middle line:84%
+And this is giving
+you the distance
+
+00:28:56.440 --> 00:28:58.220 align:middle line:90%
+traveled per unit time.
+
+00:28:58.220 --> 00:29:01.270 align:middle line:84%
+And so together,
+they give you that.
+
+00:29:01.270 --> 00:29:05.530 align:middle line:90%
+
+
+00:29:05.530 --> 00:29:13.780 align:middle line:84%
+So this is the velocity, so this
+is the density of particle 1.
+
+00:29:13.780 --> 00:29:16.690 align:middle line:84%
+So this is all in the
+rest frame of particle 2.
+
+00:29:16.690 --> 00:29:23.630 align:middle line:90%
+
+
+00:29:23.630 --> 00:29:27.510 align:middle line:84%
+So now in this experiment, we
+have two particle scattering.
+
+00:29:27.510 --> 00:29:31.570 align:middle line:84%
+So what do you think
+will be the density of 1.
+
+00:29:31.570 --> 00:29:33.490 align:middle line:90%
+So what do you think is the n1?
+
+00:29:33.490 --> 00:29:40.020 align:middle line:90%
+
+
+00:29:40.020 --> 00:29:40.740 align:middle line:90%
+Yes?
+
+00:29:40.740 --> 00:29:41.820 align:middle line:90%
+AUDIENCE: 1.
+
+00:29:41.820 --> 00:29:42.570 align:middle line:90%
+HONG LIU: Exactly.
+
+00:29:42.570 --> 00:29:43.820 align:middle line:90%
+How many particles do we have?
+
+00:29:43.820 --> 00:29:46.050 align:middle line:90%
+We only have one particle.
+
+00:29:46.050 --> 00:29:52.500 align:middle line:84%
+So this is just given as 1/V.
+So this is just given by 1/V.
+
+00:29:52.500 --> 00:29:56.730 align:middle line:90%
+So now we can find the d sigma.
+
+00:29:56.730 --> 00:30:03.200 align:middle line:84%
+So the d sigma
+alpha 2 beta, then
+
+00:30:03.200 --> 00:30:10.690 align:middle line:84%
+is defined to be
+dp/dt now divided
+
+00:30:10.690 --> 00:30:14.710 align:middle line:90%
+by the flux of 1, particle 1.
+
+00:30:14.710 --> 00:30:17.830 align:middle line:90%
+So now, this is just given by--
+
+00:30:17.830 --> 00:30:19.660 align:middle line:90%
+now the volume cancel.
+
+00:30:19.660 --> 00:30:24.260 align:middle line:90%
+Because n1 is 1 over volume.
+
+00:30:24.260 --> 00:30:26.020 align:middle line:90%
+And then, there's a volume here.
+
+00:30:26.020 --> 00:30:29.110 align:middle line:84%
+And now finally,
+this volume cancel.
+
+00:30:29.110 --> 00:30:32.860 align:middle line:84%
+So now, if we divide that by
+the flux and the volume cancel,
+
+00:30:32.860 --> 00:30:41.590 align:middle line:84%
+and then we get m alpha
+beta squared d mu.
+
+00:30:41.590 --> 00:30:46.570 align:middle line:84%
+And then divide it
+by E1E2, and v1,
+
+00:30:46.570 --> 00:30:50.800 align:middle line:90%
+the velocity of the particle 1.
+
+00:30:50.800 --> 00:30:54.120 align:middle line:90%
+
+
+00:30:54.120 --> 00:30:57.510 align:middle line:84%
+So v1, of course, can
+also be interpreted
+
+00:30:57.510 --> 00:31:01.620 align:middle line:84%
+as a relative velocity
+between 1 and 2.
+
+00:31:01.620 --> 00:31:06.750 align:middle line:84%
+Anyway, so this is the
+expression we find.
+
+00:31:06.750 --> 00:31:09.990 align:middle line:84%
+So this is the expression in
+the rest frame of particle 2.
+
+00:31:09.990 --> 00:31:13.160 align:middle line:90%
+
+
+00:31:13.160 --> 00:31:23.250 align:middle line:84%
+So by definition,
+we want this thing
+
+00:31:23.250 --> 00:31:28.200 align:middle line:84%
+to be Lorentz invariant and
+the symmetric in 1 and 2.
+
+00:31:28.200 --> 00:31:29.130 align:middle line:90%
+Yes?
+
+00:31:29.130 --> 00:31:30.755 align:middle line:84%
+AUDIENCE: I was
+thinking like regarding
+
+00:31:30.755 --> 00:31:33.900 align:middle line:84%
+the cancellation of
+the 1 over V factor,
+
+00:31:33.900 --> 00:31:36.000 align:middle line:84%
+is another way to
+interpret it like, you
+
+00:31:36.000 --> 00:31:37.820 align:middle line:84%
+think of instead
+of a plain wave,
+
+00:31:37.820 --> 00:31:42.053 align:middle line:84%
+like a narrow wave packet
+or something centered at k1.
+
+00:31:42.053 --> 00:31:43.970 align:middle line:84%
+So you would get like a
+V from the wave packet
+
+00:31:43.970 --> 00:31:45.595 align:middle line:84%
+sensitive states and
+that would cancel.
+
+00:31:45.595 --> 00:31:46.460 align:middle line:90%
+Is that valid?
+
+00:31:46.460 --> 00:31:50.170 align:middle line:90%
+
+
+00:31:50.170 --> 00:31:55.070 align:middle line:84%
+HONG LIU: Yeah, I think
+it's the similar idea.
+
+00:31:55.070 --> 00:31:56.780 align:middle line:90%
+Because let me see--
+
+00:31:56.780 --> 00:31:59.840 align:middle line:90%
+
+
+00:31:59.840 --> 00:32:02.750 align:middle line:84%
+yeah, because essentially,
+you get rid of that V.
+
+00:32:02.750 --> 00:32:07.160 align:middle line:84%
+When you consider
+the wave packet,
+
+00:32:07.160 --> 00:32:10.610 align:middle line:84%
+then you get rid of this
+V. And then, you also
+
+00:32:10.610 --> 00:32:13.640 align:middle line:84%
+get rid of this
+V. So you just get
+
+00:32:13.640 --> 00:32:18.860 align:middle line:84%
+rid of the V one upstairs one
+downstairs, yeah, that's right.
+
+00:32:18.860 --> 00:32:21.660 align:middle line:90%
+Good.
+
+00:32:21.660 --> 00:32:24.830 align:middle line:84%
+So now, we want to write this
+in the Lorentz invariant form.
+
+00:32:24.830 --> 00:32:27.990 align:middle line:84%
+So this is emphasized this
+is in the rest frame of 2.
+
+00:32:27.990 --> 00:32:31.650 align:middle line:90%
+
+
+00:32:31.650 --> 00:32:36.420 align:middle line:84%
+So now, I look for
+object, so now, I
+
+00:32:36.420 --> 00:32:47.100 align:middle line:84%
+want to look for object,
+which I will call it sigma.
+
+00:32:47.100 --> 00:32:51.370 align:middle line:90%
+So sigma is Lorentz invariant.
+
+00:32:51.370 --> 00:32:57.970 align:middle line:90%
+
+
+00:32:57.970 --> 00:33:01.300 align:middle line:84%
+And let me write here,
+sigma is Lorentz invariant.
+
+00:33:01.300 --> 00:33:07.790 align:middle line:90%
+
+
+00:33:07.790 --> 00:33:25.840 align:middle line:84%
+And the symmetric in 1 and the
+2 and in the rest frame of 2,
+
+00:33:25.840 --> 00:33:27.940 align:middle line:84%
+then the sigma becomes
+this downstairs,
+
+00:33:27.940 --> 00:33:33.410 align:middle line:90%
+become this E1E2 times V1.
+
+00:33:33.410 --> 00:33:37.310 align:middle line:84%
+So this is not the manifest
+Lorentz invariant object.
+
+00:33:37.310 --> 00:33:40.390 align:middle line:84%
+It's also not
+symmetric in 1 or 2.
+
+00:33:40.390 --> 00:33:42.940 align:middle line:84%
+But that we should be
+able to find the object
+
+00:33:42.940 --> 00:33:46.210 align:middle line:84%
+sigma that by itself,
+is a Lorentz invariant,
+
+00:33:46.210 --> 00:33:49.660 align:middle line:84%
+symmetric in 1 and 2 and
+in the rest frame of 2,
+
+00:33:49.660 --> 00:33:52.690 align:middle line:90%
+reduced to this object.
+
+00:33:52.690 --> 00:33:54.340 align:middle line:84%
+If I can find this
+object, then I'm
+
+00:33:54.340 --> 00:33:57.690 align:middle line:84%
+done in finding
+the cross section.
+
+00:33:57.690 --> 00:33:58.720 align:middle line:90%
+Yes?
+
+00:33:58.720 --> 00:34:02.860 align:middle line:84%
+AUDIENCE: Should there be a
+factor of 4 in the denominator?
+
+00:34:02.860 --> 00:34:04.900 align:middle line:84%
+HONG LIU: There should
+be a factor of 4--
+
+00:34:04.900 --> 00:34:06.350 align:middle line:90%
+yeah, there should be.
+
+00:34:06.350 --> 00:34:08.420 align:middle line:90%
+Thank you.
+
+00:34:08.420 --> 00:34:12.969 align:middle line:90%
+Yeah, yes, some other questions?
+
+00:34:12.969 --> 00:34:13.810 align:middle line:90%
+Good.
+
+00:34:13.810 --> 00:34:18.250 align:middle line:84%
+So I want to look for
+this object sigma.
+
+00:34:18.250 --> 00:34:23.199 align:middle line:84%
+And so you can do a
+little bit trial and error
+
+00:34:23.199 --> 00:34:24.940 align:middle line:90%
+to find such a sigma.
+
+00:34:24.940 --> 00:34:27.370 align:middle line:84%
+So I will just write
+down the answer for you.
+
+00:34:27.370 --> 00:34:34.060 align:middle line:84%
+And to save you the trouble, I
+could have put it in your pset,
+
+00:34:34.060 --> 00:34:36.909 align:middle line:90%
+but I decided not to do it.
+
+00:34:36.909 --> 00:34:39.460 align:middle line:84%
+So turned out the
+sigma is given by--
+
+00:34:39.460 --> 00:34:42.949 align:middle line:84%
+so when you write down the
+answer, it's very simple.
+
+00:34:42.949 --> 00:34:46.130 align:middle line:84%
+You can almost
+guess it in a sense.
+
+00:34:46.130 --> 00:34:54.969 align:middle line:84%
+So P1 dot P2 squared minus
+m1 squared times m2 squared.
+
+00:34:54.969 --> 00:35:01.030 align:middle line:84%
+m1 and m2 are the mass
+of the particle 1 and 2.
+
+00:35:01.030 --> 00:35:05.900 align:middle line:84%
+So this object satisfies
+these three conditions,
+
+00:35:05.900 --> 00:35:08.210 align:middle line:84%
+this object satisfies
+these conditions.
+
+00:35:08.210 --> 00:35:11.000 align:middle line:84%
+Also, I will leave the exercise
+for yourself to check it.
+
+00:35:11.000 --> 00:35:12.450 align:middle line:90%
+It's very easy to check it.
+
+00:35:12.450 --> 00:35:14.750 align:middle line:84%
+So you just go to
+the rest frame of 2.
+
+00:35:14.750 --> 00:35:16.850 align:middle line:84%
+And then you can check
+if it's reduced to that.
+
+00:35:16.850 --> 00:35:20.620 align:middle line:90%
+
+
+00:35:20.620 --> 00:35:25.260 align:middle line:84%
+So now, we almost have our final
+answer for the cross section
+
+00:35:25.260 --> 00:35:31.660 align:middle line:84%
+so the d sigma for
+these 2 to n scattering.
+
+00:35:31.660 --> 00:35:48.560 align:middle line:90%
+
+
+00:35:48.560 --> 00:35:52.200 align:middle line:84%
+So now, we just collect
+our final result.
+
+00:35:52.200 --> 00:35:56.810 align:middle line:84%
+So we have the sigma
+alpha beta now,
+
+00:35:56.810 --> 00:36:04.540 align:middle line:84%
+is equal to m alpha beta
+squared, d mu divided
+
+00:36:04.540 --> 00:36:10.240 align:middle line:90%
+by 4 sigma, just d mu.
+
+00:36:10.240 --> 00:36:13.030 align:middle line:84%
+So this is just
+our final answer.
+
+00:36:13.030 --> 00:36:18.910 align:middle line:84%
+And the sigma is given by that
+guy, a capital sigma just given
+
+00:36:18.910 --> 00:36:19.570 align:middle line:90%
+by that guy.
+
+00:36:19.570 --> 00:36:23.020 align:middle line:90%
+
+
+00:36:23.020 --> 00:36:26.290 align:middle line:84%
+And so, this is manifested
+in Lorenz invariant.
+
+00:36:26.290 --> 00:36:30.400 align:middle line:84%
+And the manifest
+symmetric on the 1 and 2,
+
+00:36:30.400 --> 00:36:32.965 align:middle line:84%
+because sigma is obviously
+symmetric on the 1 and 2.
+
+00:36:32.965 --> 00:36:37.510 align:middle line:90%
+
+
+00:36:37.510 --> 00:36:40.600 align:middle line:84%
+And this is a very
+beautiful formula.
+
+00:36:40.600 --> 00:36:43.720 align:middle line:84%
+Even though we went
+through a lot of trouble,
+
+00:36:43.720 --> 00:36:46.472 align:middle line:90%
+went through a lot of Vs and Ts.
+
+00:36:46.472 --> 00:36:48.430 align:middle line:84%
+But in the end, we get
+a very beautiful answer.
+
+00:36:48.430 --> 00:36:54.290 align:middle line:90%
+
+
+00:36:54.290 --> 00:36:56.540 align:middle line:84%
+So now, let's can see
+some kinematic regimes
+
+00:36:56.540 --> 00:36:57.245 align:middle line:90%
+of this formula.
+
+00:36:57.245 --> 00:37:00.460 align:middle line:90%
+
+
+00:37:00.460 --> 00:37:02.835 align:middle line:84%
+So now, let's talk about some
+kinematics of this formula.
+
+00:37:02.835 --> 00:37:13.780 align:middle line:90%
+
+
+00:37:13.780 --> 00:37:16.430 align:middle line:90%
+So it's convenient.
+
+00:37:16.430 --> 00:37:18.760 align:middle line:84%
+So we have two particles,
+two initial particles.
+
+00:37:18.760 --> 00:37:22.840 align:middle line:84%
+It's convenient to introduce
+the center of mass energy
+
+00:37:22.840 --> 00:37:26.890 align:middle line:90%
+for the full system.
+
+00:37:26.890 --> 00:37:30.100 align:middle line:84%
+So we can define something
+called s, small s.
+
+00:37:30.100 --> 00:37:33.830 align:middle line:84%
+This is not big S. So big
+S is reserved for action.
+
+00:37:33.830 --> 00:37:37.600 align:middle line:84%
+So this is small s
+P1 plus P2 squared.
+
+00:37:37.600 --> 00:37:43.180 align:middle line:90%
+
+
+00:37:43.180 --> 00:37:48.190 align:middle line:84%
+So P1 plus P2 is that
+of the total momentum
+
+00:37:48.190 --> 00:37:49.390 align:middle line:90%
+of the initial state.
+
+00:37:49.390 --> 00:37:52.780 align:middle line:84%
+Of course, it's also the total
+momentum of your final state,
+
+00:37:52.780 --> 00:37:55.450 align:middle line:84%
+just from the
+momentum conservation.
+
+00:37:55.450 --> 00:37:59.500 align:middle line:84%
+And then if I look
+at P1 and P2 squared,
+
+00:37:59.500 --> 00:38:02.380 align:middle line:84%
+and then this is just
+essentially the invariant mass
+
+00:38:02.380 --> 00:38:06.685 align:middle line:90%
+for your full system.
+
+00:38:06.685 --> 00:38:09.280 align:middle line:90%
+
+
+00:38:09.280 --> 00:38:11.050 align:middle line:90%
+So this s is--
+
+00:38:11.050 --> 00:38:16.030 align:middle line:84%
+the square root of s
+is the invariant mass.
+
+00:38:16.030 --> 00:38:26.140 align:middle line:84%
+It's the effective mass
+of the whole system.
+
+00:38:26.140 --> 00:38:29.890 align:middle line:90%
+
+
+00:38:29.890 --> 00:38:32.650 align:middle line:84%
+Of this though, when I
+say the whole system,
+
+00:38:32.650 --> 00:38:37.390 align:middle line:84%
+I just mean, the whole system
+of particle 1, particle 2,
+
+00:38:37.390 --> 00:38:38.500 align:middle line:90%
+and also the final state.
+
+00:38:38.500 --> 00:38:46.660 align:middle line:90%
+
+
+00:38:46.660 --> 00:38:52.060 align:middle line:84%
+So we can also write
+this sigma, turns out
+
+00:38:52.060 --> 00:38:56.760 align:middle line:84%
+we can actually write sigma
+in terms of s, because the--
+
+00:38:56.760 --> 00:39:08.340 align:middle line:90%
+
+
+00:39:08.340 --> 00:39:15.330 align:middle line:84%
+so because P1 dot P2 can
+be written as 1/2 half
+
+00:39:15.330 --> 00:39:23.170 align:middle line:84%
+P1 plus P2 squared minus
+P1 squared minus P2 square.
+
+00:39:23.170 --> 00:39:25.180 align:middle line:90%
+So this is just m squared.
+
+00:39:25.180 --> 00:39:27.220 align:middle line:84%
+So P1 squared is
+minus m1 squared.
+
+00:39:27.220 --> 00:39:29.510 align:middle line:90%
+P2 squared is minus m2 squared.
+
+00:39:29.510 --> 00:39:37.380 align:middle line:84%
+So this is just equal
+to minus 1/2 s--
+
+00:39:37.380 --> 00:39:40.710 align:middle line:90%
+sorry, it should be totaled.
+
+00:39:40.710 --> 00:39:45.460 align:middle line:84%
+S minus m1 squared
+minus m2 square.
+
+00:39:45.460 --> 00:39:50.230 align:middle line:84%
+so P1 and P2 squared is
+just equal to minus s.
+
+00:39:50.230 --> 00:39:54.280 align:middle line:84%
+And then, the sigma
+just then, just
+
+00:39:54.280 --> 00:39:56.620 align:middle line:84%
+can be expressed
+in terms of that.
+
+00:39:56.620 --> 00:40:00.160 align:middle line:84%
+So the sigma-- so let me just
+write down the final expression
+
+00:40:00.160 --> 00:40:05.830 align:middle line:84%
+for the sigma in terms of
+s, just equal to square root
+
+00:40:05.830 --> 00:40:16.690 align:middle line:84%
+s squared 2s m1 squared plus m2
+squared plus m1 squared minus 2
+
+00:40:16.690 --> 00:40:18.005 align:middle line:90%
+squared squared.
+
+00:40:18.005 --> 00:40:20.570 align:middle line:90%
+
+
+00:40:20.570 --> 00:40:23.050 align:middle line:84%
+So this whole kinematic
+factor of sigma
+
+00:40:23.050 --> 00:40:25.045 align:middle line:84%
+can be just expressed
+in terms of s.
+
+00:40:25.045 --> 00:40:36.660 align:middle line:90%
+
+
+00:40:36.660 --> 00:40:37.625 align:middle line:90%
+Any questions on this?
+
+00:40:37.625 --> 00:41:01.470 align:middle line:90%
+
+
+00:41:01.470 --> 00:41:06.180 align:middle line:84%
+So now, another thing
+is that often, we--
+
+00:41:06.180 --> 00:41:10.930 align:middle line:90%
+
+
+00:41:10.930 --> 00:41:15.370 align:middle line:84%
+even though this formula
+can be used in any frame,
+
+00:41:15.370 --> 00:41:19.150 align:middle line:84%
+but sometimes, depending
+on your question,
+
+00:41:19.150 --> 00:41:21.910 align:middle line:84%
+the expression is
+simpler in some frame
+
+00:41:21.910 --> 00:41:24.400 align:middle line:90%
+than some other frame.
+
+00:41:24.400 --> 00:41:26.830 align:middle line:84%
+So one of the very
+frequently used frame
+
+00:41:26.830 --> 00:41:28.720 align:middle line:84%
+is so-called the
+center of mass frame.
+
+00:41:28.720 --> 00:41:33.430 align:middle line:90%
+
+
+00:41:33.430 --> 00:41:35.110 align:middle line:84%
+It's called the
+center of mass frame.
+
+00:41:35.110 --> 00:41:39.330 align:middle line:84%
+So in the center of mass frame,
+so the center of mass frame,
+
+00:41:39.330 --> 00:41:46.810 align:middle line:84%
+essentially, it's in this frame
+that the total center of mass
+
+00:41:46.810 --> 00:41:48.820 align:middle line:90%
+of the system does not move.
+
+00:41:48.820 --> 00:41:52.750 align:middle line:84%
+So it means that the total
+momentum in the center
+
+00:41:52.750 --> 00:41:55.440 align:middle line:90%
+of mass frame, total momentum--
+
+00:41:55.440 --> 00:41:58.410 align:middle line:90%
+
+
+00:41:58.410 --> 00:42:00.680 align:middle line:90%
+let me see.
+
+00:42:00.680 --> 00:42:07.265 align:middle line:84%
+The total momentum equal
+to p1 p2 is taken to be 0.
+
+00:42:07.265 --> 00:42:10.340 align:middle line:90%
+
+
+00:42:10.340 --> 00:42:14.060 align:middle line:84%
+So the full system
+is not moving.
+
+00:42:14.060 --> 00:42:16.090 align:middle line:84%
+And so, that means
+we can take --
+
+00:42:16.090 --> 00:42:21.170 align:middle line:84%
+so means that P1
+equal to minus P2,
+
+00:42:21.170 --> 00:42:26.070 align:middle line:90%
+so equal to, let's call it Pcm.
+
+00:42:26.070 --> 00:42:27.820 align:middle line:84%
+It just means the
+center of mass momentum.
+
+00:42:27.820 --> 00:42:33.100 align:middle line:90%
+
+
+00:42:33.100 --> 00:42:42.610 align:middle line:84%
+And now, you can find the
+Pcm from just solving the--
+
+00:42:42.610 --> 00:42:46.640 align:middle line:84%
+you can also express the
+Pcm in terms of the mass,
+
+00:42:46.640 --> 00:42:53.270 align:middle line:84%
+it's because E1 plus E2
+equal to square root of s.
+
+00:42:53.270 --> 00:42:55.160 align:middle line:90%
+So this is the total.
+
+00:42:55.160 --> 00:43:00.110 align:middle line:84%
+So in the center of mass
+frame, the total momentum is 0.
+
+00:43:00.110 --> 00:43:05.190 align:middle line:90%
+Then that means that E1E2--
+
+00:43:05.190 --> 00:43:08.790 align:middle line:84%
+so here, there's no
+spatial part contribution.
+
+00:43:08.790 --> 00:43:13.020 align:middle line:84%
+And here, you just have E1
+plus E2 squared equal to s.
+
+00:43:13.020 --> 00:43:17.040 align:middle line:84%
+So E1 plus E2 equal
+to square root s.
+
+00:43:17.040 --> 00:43:31.910 align:middle line:84%
+And then you can actually
+solve for p by plus m1 squared
+
+00:43:31.910 --> 00:43:39.440 align:middle line:84%
+plus m2 squared equal
+to square root of s.
+
+00:43:39.440 --> 00:43:43.505 align:middle line:84%
+So you can now, solve the
+center of mass in terms of s.
+
+00:43:43.505 --> 00:43:47.130 align:middle line:90%
+
+
+00:43:47.130 --> 00:43:51.540 align:middle line:84%
+So this is a simple equation,
+which you can solve.
+
+00:43:51.540 --> 00:43:54.720 align:middle line:84%
+So this is a middle
+school equation.
+
+00:43:54.720 --> 00:43:58.020 align:middle line:84%
+But turns out the
+result is very simple.
+
+00:43:58.020 --> 00:44:07.030 align:middle line:84%
+Turns out the Pcm, the magnitude
+when you solve this equation,
+
+00:44:07.030 --> 00:44:14.280 align:middle line:84%
+you find that this is precisely
+equal to this sigma divided
+
+00:44:14.280 --> 00:44:15.540 align:middle line:90%
+by square root s.
+
+00:44:15.540 --> 00:44:23.940 align:middle line:84%
+So this is a very
+beautiful simple formula,
+
+00:44:23.940 --> 00:44:27.060 align:middle line:84%
+given by sigma divided
+by square root of s.
+
+00:44:27.060 --> 00:44:29.820 align:middle line:84%
+Or in other words,
+the sigma can be
+
+00:44:29.820 --> 00:44:33.930 align:middle line:84%
+written in terms of the center
+of mass, momentum and magnitude
+
+00:44:33.930 --> 00:44:40.373 align:middle line:84%
+times the square root
+s, times square root s.
+
+00:44:40.373 --> 00:44:44.080 align:middle line:90%
+
+
+00:44:44.080 --> 00:44:48.150 align:middle line:84%
+So now, we can simplify
+that the expression
+
+00:44:48.150 --> 00:44:49.035 align:middle line:90%
+center of mass frame.
+
+00:44:49.035 --> 00:44:53.910 align:middle line:90%
+
+
+00:44:53.910 --> 00:45:24.870 align:middle line:84%
+So in the center
+of mass frame, now
+
+00:45:24.870 --> 00:45:29.880 align:middle line:84%
+we have in the
+center of mass frame,
+
+00:45:29.880 --> 00:45:33.910 align:middle line:84%
+now we have the
+sigma is equal to--
+
+00:45:33.910 --> 00:45:35.750 align:middle line:90%
+so let me just save.
+
+00:45:35.750 --> 00:45:38.980 align:middle line:84%
+Yeah, just you should assume
+that the subscript alpha
+
+00:45:38.980 --> 00:45:46.990 align:middle line:84%
+to beta, d mu, and then divided
+by 4, center of mass momentum,
+
+00:45:46.990 --> 00:45:49.720 align:middle line:84%
+magnitude of center of
+mass of momentum times
+
+00:45:49.720 --> 00:45:51.910 align:middle line:90%
+square root of s.
+
+00:45:51.910 --> 00:45:54.865 align:middle line:84%
+So we have a very
+simple formula.
+
+00:45:54.865 --> 00:46:15.580 align:middle line:90%
+
+
+00:46:15.580 --> 00:46:19.630 align:middle line:84%
+So the most of the
+time, for most questions
+
+00:46:19.630 --> 00:46:24.037 align:middle line:84%
+we are interested in, as you
+will see in next lecture,
+
+00:46:24.037 --> 00:46:25.870 align:middle line:84%
+so most question we are
+interesting actually
+
+00:46:25.870 --> 00:46:27.640 align:middle line:84%
+corresponding to
+2 to 2 scattering.
+
+00:46:27.640 --> 00:46:31.630 align:middle line:84%
+So now let's specifier
+2 to 2 scatterings.
+
+00:46:31.630 --> 00:46:37.660 align:middle line:84%
+So the final state only also
+only contain two particles.
+
+00:46:37.660 --> 00:46:41.080 align:middle line:84%
+So in this case, we
+can simplify the d mu,
+
+00:46:41.080 --> 00:46:42.745 align:middle line:90%
+further simplify d mu.
+
+00:46:42.745 --> 00:46:46.230 align:middle line:90%
+
+
+00:46:46.230 --> 00:46:47.850 align:middle line:90%
+So let's just write down the--
+
+00:46:47.850 --> 00:46:50.010 align:middle line:84%
+so in the 2 to 2 scattering,
+you essentially you
+
+00:46:50.010 --> 00:46:58.350 align:middle line:84%
+have some particle
+come in, say p1 p2,
+
+00:46:58.350 --> 00:47:01.320 align:middle line:84%
+and then you have two
+final particle k1, k2.
+
+00:47:01.320 --> 00:47:04.350 align:middle line:90%
+
+
+00:47:04.350 --> 00:47:05.520 align:middle line:90%
+And then they're intact.
+
+00:47:05.520 --> 00:47:09.890 align:middle line:90%
+
+
+00:47:09.890 --> 00:47:15.560 align:middle line:84%
+So now let's write down this
+d mu explicitly for this case.
+
+00:47:15.560 --> 00:47:18.310 align:middle line:84%
+Let's write down d mu
+explicitly for this case.
+
+00:47:18.310 --> 00:47:22.570 align:middle line:90%
+So the d mu, just given by--
+
+00:47:22.570 --> 00:47:26.990 align:middle line:90%
+
+
+00:47:26.990 --> 00:47:31.175 align:middle line:90%
+so P1 plus P2 minus k1 minus k2.
+
+00:47:31.175 --> 00:47:34.240 align:middle line:90%
+
+
+00:47:34.240 --> 00:47:50.130 align:middle line:84%
+And then times, d3 k1
+divided by 2 pi cubed 2k 1,0.
+
+00:47:50.130 --> 00:47:58.350 align:middle line:84%
+Let's just call it 2 1 k0
+E1 prime and d3 k2 2 pi
+
+00:47:58.350 --> 00:48:01.830 align:middle line:90%
+cubed, then 2 E2 prime.
+
+00:48:01.830 --> 00:48:05.070 align:middle line:90%
+
+
+00:48:05.070 --> 00:48:07.090 align:middle line:84%
+So the E1 prime
+and E2 prime, they
+
+00:48:07.090 --> 00:48:09.810 align:middle line:90%
+are just energy for k1 and k2.
+
+00:48:09.810 --> 00:48:18.910 align:middle line:84%
+So E1 prime equal to
+k 1,0 E2 prime k2.
+
+00:48:18.910 --> 00:48:24.090 align:middle line:90%
+
+
+00:48:24.090 --> 00:48:36.015 align:middle line:84%
+For example, yeah,
+so I will deload
+
+00:48:36.015 --> 00:48:39.950 align:middle line:84%
+to the mass for the
+two final particles,
+
+00:48:39.950 --> 00:48:43.550 align:middle line:90%
+m1 prime and m2 prime.
+
+00:48:43.550 --> 00:48:46.610 align:middle line:84%
+So m prime 2 prime
+will be the mass
+
+00:48:46.610 --> 00:48:48.110 align:middle line:90%
+of the two final particles.
+
+00:48:48.110 --> 00:48:58.390 align:middle line:90%
+
+
+00:48:58.390 --> 00:49:03.110 align:middle line:84%
+So before simplifying
+this a little bit further,
+
+00:49:03.110 --> 00:49:06.670 align:middle line:84%
+let us first introduce
+some notations.
+
+00:49:06.670 --> 00:49:09.970 align:middle line:84%
+So it's often convenient
+so many of you
+
+00:49:09.970 --> 00:49:13.000 align:middle line:84%
+may have already
+seen this before,
+
+00:49:13.000 --> 00:49:17.680 align:middle line:84%
+often convenient to introduce
+the following quantities--
+
+00:49:17.680 --> 00:49:20.890 align:middle line:90%
+
+
+00:49:20.890 --> 00:49:23.160 align:middle line:84%
+so essentially, they
+characterize all the Lorentz
+
+00:49:23.160 --> 00:49:33.280 align:middle line:84%
+invariant quantities we can
+build up from k P1 P2, k1 k2.
+
+00:49:33.280 --> 00:49:37.030 align:middle line:84%
+So you can have
+so-called t is defined
+
+00:49:37.030 --> 00:49:42.130 align:middle line:84%
+to be minus p1 minus k1
+square, which is also
+
+00:49:42.130 --> 00:49:45.520 align:middle line:84%
+the same from the momentum
+conservation, p2 minus k2
+
+00:49:45.520 --> 00:49:47.900 align:middle line:90%
+square.
+
+00:49:47.900 --> 00:49:58.670 align:middle line:84%
+So u minus p1 minus k2
+square, the same, minus p2
+
+00:49:58.670 --> 00:49:59.750 align:middle line:90%
+minus k1 square.
+
+00:49:59.750 --> 00:50:03.290 align:middle line:90%
+
+
+00:50:03.290 --> 00:50:10.040 align:middle line:84%
+So let me just copy the
+s is p1 plus p2 squared.
+
+00:50:10.040 --> 00:50:18.430 align:middle line:90%
+
+
+00:50:18.430 --> 00:50:21.760 align:middle line:84%
+So these are the quantities,
+which are obviously
+
+00:50:21.760 --> 00:50:23.910 align:middle line:90%
+Lorentz invariant.
+
+00:50:23.910 --> 00:50:25.710 align:middle line:84%
+And they are the
+Lorentz invariant.
+
+00:50:25.710 --> 00:50:27.990 align:middle line:90%
+You can build up--
+
+00:50:27.990 --> 00:50:29.670 align:middle line:84%
+Lorentz invariant
+quantities, you
+
+00:50:29.670 --> 00:50:34.650 align:middle line:84%
+can build up from
+say, p1 p2, k1 and k2.
+
+00:50:34.650 --> 00:50:38.100 align:middle line:84%
+So any Lorentz
+invariant quantities,
+
+00:50:38.100 --> 00:50:42.780 align:middle line:84%
+which you can build from
+those four momentum,
+
+00:50:42.780 --> 00:50:48.210 align:middle line:84%
+can be expressed in terms of
+some combinations of s t u.
+
+00:50:48.210 --> 00:50:51.870 align:middle line:84%
+In fact, s to u themselves, are
+not independent of each other.
+
+00:50:51.870 --> 00:50:55.140 align:middle line:84%
+There's only two independent
+Lorentz invariants.
+
+00:50:55.140 --> 00:50:56.550 align:middle line:84%
+With momentum
+conservation, there
+
+00:50:56.550 --> 00:51:00.840 align:middle line:84%
+are only two independent Lorentz
+invariants you can introduce.
+
+00:51:00.840 --> 00:51:05.307 align:middle line:84%
+So s plus t and plus
+u is actually not
+
+00:51:05.307 --> 00:51:06.390 align:middle line:90%
+independent of each other.
+
+00:51:06.390 --> 00:51:08.010 align:middle line:90%
+You can show.
+
+00:51:08.010 --> 00:51:10.545 align:middle line:84%
+So this again, I give you
+the exercise for yourself.
+
+00:51:10.545 --> 00:51:18.210 align:middle line:90%
+
+
+00:51:18.210 --> 00:51:20.400 align:middle line:90%
+You can show that.
+
+00:51:20.400 --> 00:51:22.920 align:middle line:84%
+So if you know any of the
+two, then you know the s,
+
+00:51:22.920 --> 00:51:24.270 align:middle line:90%
+you know the other one.
+
+00:51:24.270 --> 00:51:32.120 align:middle line:84%
+And anything can be expressed
+in terms of these variables
+
+00:51:32.120 --> 00:51:33.050 align:middle line:90%
+Any questions?
+
+00:51:33.050 --> 00:51:36.790 align:middle line:90%
+
+
+00:51:36.790 --> 00:51:37.978 align:middle line:90%
+Yes?
+
+00:51:37.978 --> 00:51:41.950 align:middle line:84%
+AUDIENCE: Written down,
+definitions are useful,
+
+00:51:41.950 --> 00:51:44.020 align:middle line:90%
+for instance, these.
+
+00:51:44.020 --> 00:51:47.613 align:middle line:84%
+How do they correspond
+to different kinematics?
+
+00:51:47.613 --> 00:51:49.280 align:middle line:84%
+HONG LIU: What do you
+mean, how do they?
+
+00:51:49.280 --> 00:51:50.522 align:middle line:90%
+AUDIENCE: Feynman diagrams.
+
+00:51:50.522 --> 00:51:51.980 align:middle line:84%
+HONG LIU: Oh yeah,
+then you Feynman
+
+00:51:51.980 --> 00:51:56.060 align:middle line:84%
+diagrams can be conveniently
+expressed in terms of them,
+
+00:51:56.060 --> 00:51:58.535 align:middle line:84%
+as we will see in next
+lecture and in homework.
+
+00:51:58.535 --> 00:52:01.810 align:middle line:90%
+
+
+00:52:01.810 --> 00:52:06.260 align:middle line:84%
+So this quantity this
+quantity is Lorentz invariant.
+
+00:52:06.260 --> 00:52:08.740 align:middle line:84%
+So that can be
+conveniently expressed
+
+00:52:08.740 --> 00:52:10.150 align:middle line:90%
+in terms of those quantities.
+
+00:52:10.150 --> 00:52:19.080 align:middle line:90%
+
+
+00:52:19.080 --> 00:52:26.520 align:middle line:84%
+So now, including the d
+mu, so now, let's further
+
+00:52:26.520 --> 00:52:29.700 align:middle line:84%
+simplify d mu in the
+center of mass frame.
+
+00:52:29.700 --> 00:52:33.160 align:middle line:84%
+So this quantity, we can
+try to simplify further.
+
+00:52:33.160 --> 00:53:14.820 align:middle line:84%
+So we can-- so
+now, let's consider
+
+00:53:14.820 --> 00:53:17.820 align:middle line:84%
+to do this in the
+center of mass frame.
+
+00:53:17.820 --> 00:53:21.090 align:middle line:84%
+So in the center of
+mass frame, for 2 to 2
+
+00:53:21.090 --> 00:53:23.760 align:middle line:84%
+scattering is
+particularly simple,
+
+00:53:23.760 --> 00:53:28.380 align:middle line:84%
+because your incoming particle
+have the opposite momentum.
+
+00:53:28.380 --> 00:53:30.750 align:middle line:90%
+So one is Pcm.
+
+00:53:30.750 --> 00:53:39.180 align:middle line:84%
+And the y will be minus Pcm
+and the spatial momentum.
+
+00:53:39.180 --> 00:53:42.360 align:middle line:84%
+And then the final
+particle, they
+
+00:53:42.360 --> 00:53:45.990 align:middle line:84%
+must also have
+opposite momentum.
+
+00:53:45.990 --> 00:53:48.990 align:middle line:84%
+Because the total momentum,
+total spatial momentum
+
+00:53:48.990 --> 00:53:52.170 align:middle line:84%
+in the center of
+mass frame is 0.
+
+00:53:52.170 --> 00:53:57.240 align:middle line:84%
+So let's can call
+this k cm then this
+
+00:53:57.240 --> 00:54:05.960 align:middle line:84%
+must be minus k cm
+OK, must be minus cm.
+
+00:54:05.960 --> 00:54:08.780 align:middle line:84%
+So for simplicity, let's
+just call this k cm just k.
+
+00:54:08.780 --> 00:54:13.100 align:middle line:90%
+
+
+00:54:13.100 --> 00:54:16.820 align:middle line:84%
+So now, we can just -- now
+let's just with this in mind,
+
+00:54:16.820 --> 00:54:20.420 align:middle line:84%
+and let's just
+look at this d mu.
+
+00:54:20.420 --> 00:54:21.920 align:middle line:90%
+Look at this d mu.
+
+00:54:21.920 --> 00:54:26.950 align:middle line:90%
+
+
+00:54:26.950 --> 00:54:30.290 align:middle line:90%
+So there are a few steps.
+
+00:54:30.290 --> 00:54:34.360 align:middle line:84%
+So maybe we don't
+want to go through all
+
+00:54:34.360 --> 00:54:35.965 align:middle line:90%
+the details of these steps.
+
+00:54:35.965 --> 00:54:41.240 align:middle line:90%
+
+
+00:54:41.240 --> 00:54:41.740 align:middle line:90%
+Let me.
+
+00:54:41.740 --> 00:54:48.880 align:middle line:84%
+See I think, yeah, let me
+just outline some here.
+
+00:54:48.880 --> 00:54:53.500 align:middle line:84%
+So we'll try to only go
+through some of the steps,
+
+00:54:53.500 --> 00:54:56.770 align:middle line:90%
+not to doing all the steps.
+
+00:54:56.770 --> 00:55:01.480 align:middle line:84%
+So now in the center
+of mass frame, then
+
+00:55:01.480 --> 00:55:05.720 align:middle line:84%
+you find this d mu
+can be written as--
+
+00:55:05.720 --> 00:55:08.600 align:middle line:90%
+so first, these two pi forth.
+
+00:55:08.600 --> 00:55:11.120 align:middle line:84%
+And then you have two
+factor of 2 pi cubed.
+
+00:55:11.120 --> 00:55:12.980 align:middle line:90%
+And then you cancel.
+
+00:55:12.980 --> 00:55:14.645 align:middle line:90%
+So you have this 2 pi squared.
+
+00:55:14.645 --> 00:55:17.390 align:middle line:90%
+
+
+00:55:17.390 --> 00:55:23.870 align:middle line:84%
+Then you have 4
+E1 prime E2 prime.
+
+00:55:23.870 --> 00:55:25.880 align:middle line:84%
+Then you have one
+set of functions.
+
+00:55:25.880 --> 00:55:32.450 align:middle line:84%
+So you have k1, you
+have E1 prime plus E2
+
+00:55:32.450 --> 00:55:41.000 align:middle line:84%
+prime minus square root
+s times delta 3 k1 plus
+
+00:55:41.000 --> 00:55:48.950 align:middle line:90%
+k2 and the d3 k1 and d3 k2.
+
+00:55:48.950 --> 00:55:53.210 align:middle line:84%
+So as we said, the k3, they
+have to be equal and opposite
+
+00:55:53.210 --> 00:55:53.795 align:middle line:90%
+to each other.
+
+00:55:53.795 --> 00:55:56.340 align:middle line:90%
+
+
+00:55:56.340 --> 00:55:58.880 align:middle line:84%
+And then you can just
+evaluate one delta function.
+
+00:55:58.880 --> 00:56:01.550 align:middle line:84%
+And then the other
+dk will remain.
+
+00:56:01.550 --> 00:56:04.960 align:middle line:90%
+The other dk will remain.
+
+00:56:04.960 --> 00:56:08.590 align:middle line:90%
+So essentially, you just have--
+
+00:56:08.590 --> 00:56:11.220 align:middle line:84%
+essentially, we can
+just forget about this.
+
+00:56:11.220 --> 00:56:17.770 align:middle line:84%
+And then you just have
+dk, just have dk, d3k.
+
+00:56:17.770 --> 00:56:20.800 align:middle line:90%
+
+
+00:56:20.800 --> 00:56:27.480 align:middle line:84%
+And this d3k, you
+can write it as dk,
+
+00:56:27.480 --> 00:56:33.000 align:middle line:84%
+the magnitude of k and k square,
+and then the center of mass --
+
+00:56:33.000 --> 00:56:36.210 align:middle line:84%
+solid angle the angle in
+the center of mass frame.
+
+00:56:36.210 --> 00:56:40.170 align:middle line:84%
+So this k vector can be
+decomposed into the angular
+
+00:56:40.170 --> 00:56:43.290 align:middle line:90%
+directions and the magnitude.
+
+00:56:43.290 --> 00:56:48.370 align:middle line:84%
+And then, now both E1
+and E2 are expressed
+
+00:56:48.370 --> 00:56:53.280 align:middle line:84%
+in terms of k squared
+plus m1 prime squared
+
+00:56:53.280 --> 00:57:00.810 align:middle line:84%
+and the E2 prime is equal to k
+squared plus m2 prime squared.
+
+00:57:00.810 --> 00:57:10.370 align:middle line:90%
+
+
+00:57:10.370 --> 00:57:14.105 align:middle line:84%
+So, now you can further
+evaluate this delta function.
+
+00:57:14.105 --> 00:57:18.470 align:middle line:90%
+
+
+00:57:18.470 --> 00:57:22.190 align:middle line:84%
+Now you can further
+evaluate this function.
+
+00:57:22.190 --> 00:57:24.950 align:middle line:84%
+Because the E1
+prime and E2 prime,
+
+00:57:24.950 --> 00:57:28.450 align:middle line:84%
+they're just the functions
+of magnitude of k squared.
+
+00:57:28.450 --> 00:57:31.180 align:middle line:84%
+So you can evaluate
+this delta function.
+
+00:57:31.180 --> 00:57:36.130 align:middle line:84%
+You have dk over the
+magnitude of k here.
+
+00:57:36.130 --> 00:57:39.700 align:middle line:84%
+So you can do that, so I
+will not go into detail.
+
+00:57:39.700 --> 00:57:42.140 align:middle line:90%
+I will not going to detail.
+
+00:57:42.140 --> 00:57:46.430 align:middle line:84%
+And so, when you do that, when
+you solve that delta function
+
+00:57:46.430 --> 00:57:50.850 align:middle line:84%
+and then you find
+from here, then you
+
+00:57:50.850 --> 00:57:54.850 align:middle line:84%
+find that the final
+answer is given by--
+
+00:57:54.850 --> 00:57:57.800 align:middle line:84%
+you find the final answer
+is given by very simple.
+
+00:57:57.800 --> 00:58:07.730 align:middle line:84%
+You find given by k cm divided
+by 14 pi square square root s
+
+00:58:07.730 --> 00:58:09.715 align:middle line:90%
+d omega center of mass.
+
+00:58:09.715 --> 00:58:13.390 align:middle line:90%
+
+
+00:58:13.390 --> 00:58:18.640 align:middle line:84%
+And this k cm is defined to be
+the solution of this equation.
+
+00:58:18.640 --> 00:58:29.590 align:middle line:84%
+So k cm is the solution
+to E1 prime plus E2
+
+00:58:29.590 --> 00:58:32.680 align:middle line:90%
+prime equal to square root s.
+
+00:58:32.680 --> 00:58:35.755 align:middle line:84%
+So again, this is expressed
+in terms of the s.
+
+00:58:35.755 --> 00:58:43.180 align:middle line:90%
+
+
+00:58:43.180 --> 00:58:46.450 align:middle line:84%
+So through some,
+just technically,
+
+00:58:46.450 --> 00:58:47.905 align:middle line:84%
+just evaluate this
+delta function.
+
+00:58:47.905 --> 00:58:51.370 align:middle line:90%
+
+
+00:58:51.370 --> 00:58:52.000 align:middle line:90%
+Yes?
+
+00:58:52.000 --> 00:58:54.587 align:middle line:84%
+AUDIENCE: So when
+we calculate this,
+
+00:58:54.587 --> 00:58:56.170 align:middle line:84%
+are we integrating
+over all the cases?
+
+00:58:56.170 --> 00:59:00.790 align:middle line:84%
+Is that why we can evaluate
+all these type of functions?
+
+00:59:00.790 --> 00:59:02.440 align:middle line:84%
+HONG LIU: So you
+only evaluate the k
+
+00:59:02.440 --> 00:59:05.615 align:middle line:90%
+around the momentum shell.
+
+00:59:05.615 --> 00:59:07.240 align:middle line:84%
+So you can evaluate
+the delta function,
+
+00:59:07.240 --> 00:59:10.330 align:middle line:84%
+because we always have a finite
+range of k to integrate over.
+
+00:59:10.330 --> 00:59:14.380 align:middle line:84%
+So it doesn't matter how
+wide the range of this.
+
+00:59:14.380 --> 00:59:18.805 align:middle line:84%
+Because the non-zero value of
+the mu is always around that
+
+00:59:18.805 --> 00:59:21.070 align:middle line:84%
+will satisfy the
+momentum conservation.
+
+00:59:21.070 --> 00:59:23.898 align:middle line:90%
+
+
+00:59:23.898 --> 00:59:25.190 align:middle line:90%
+Does this answer your question?
+
+00:59:25.190 --> 00:59:26.800 align:middle line:90%
+AUDIENCE: Thanks.
+
+00:59:26.800 --> 00:59:28.340 align:middle line:90%
+HONG LIU: Yeah, good.
+
+00:59:28.340 --> 00:59:30.170 align:middle line:90%
+Other questions?
+
+00:59:30.170 --> 00:59:31.850 align:middle line:90%
+Here, I didn't write--
+
+00:59:31.850 --> 00:59:36.860 align:middle line:84%
+I think, you may wonder here, I
+didn't write the integral sign.
+
+00:59:36.860 --> 00:59:40.950 align:middle line:84%
+How can I just evaluate
+the delta function?
+
+00:59:40.950 --> 00:59:43.010 align:middle line:84%
+The reason you can
+evaluate delta function
+
+00:59:43.010 --> 00:59:48.350 align:middle line:84%
+is just no matter what is the
+range of dk you integrate over,
+
+00:59:48.350 --> 00:59:52.670 align:middle line:84%
+you will always evaluate
+around those delta functions.
+
+00:59:52.670 --> 00:59:55.660 align:middle line:84%
+And so you can always
+take care of them.
+
+00:59:55.660 --> 00:59:59.310 align:middle line:90%
+
+
+00:59:59.310 --> 01:00:09.270 align:middle line:84%
+So now, if you combine this
+result and this result,
+
+01:00:09.270 --> 01:00:14.030 align:middle line:84%
+and now, you can write a
+simple expression for d sigma
+
+01:00:14.030 --> 01:00:17.810 align:middle line:90%
+in the center of mass frame.
+
+01:00:17.810 --> 01:00:19.550 align:middle line:84%
+So if you combine
+them together, then we
+
+01:00:19.550 --> 01:00:27.080 align:middle line:84%
+find the sigma, the omega
+center of mass frame,
+
+01:00:27.080 --> 01:00:36.605 align:middle line:84%
+is equal to M alpha beta
+squared divided by 16,
+
+01:00:36.605 --> 01:00:45.100 align:middle line:84%
+64 pi square s and
+k cm divided by pcm.
+
+01:00:45.100 --> 01:00:49.240 align:middle line:84%
+And the k cm is the
+solution to this equation.
+
+01:00:49.240 --> 01:00:53.340 align:middle line:84%
+And the pcm is the
+solution to this equation.
+
+01:00:53.340 --> 01:00:57.770 align:middle line:84%
+So the pcm is the
+equation to this equation.
+
+01:00:57.770 --> 01:00:59.780 align:middle line:84%
+So they are given by
+the same equation,
+
+01:00:59.780 --> 01:01:05.420 align:middle line:84%
+just replace the m1 m2
+by m1 prime and m2 prime.
+
+01:01:05.420 --> 01:01:09.800 align:middle line:84%
+So this is the final answer for
+the differential cross section
+
+01:01:09.800 --> 01:01:15.560 align:middle line:84%
+for 2 to 2 scattering in
+the center of mass frame,
+
+01:01:15.560 --> 01:01:19.310 align:middle line:90%
+in the center of mass frame.
+
+01:01:19.310 --> 01:01:21.570 align:middle line:84%
+And so this is the
+expression, which
+
+01:01:21.570 --> 01:01:25.540 align:middle line:90%
+we will use later for certain--
+
+01:01:25.540 --> 01:01:30.290 align:middle line:90%
+
+
+01:01:30.290 --> 01:01:31.460 align:middle line:90%
+do you have any questions?
+
+01:01:31.460 --> 01:01:35.490 align:middle line:90%
+
+
+01:01:35.490 --> 01:01:37.200 align:middle line:90%
+OK, good.
+
+01:01:37.200 --> 01:01:43.660 align:middle line:84%
+So this concludes the
+discussion of the cross section.
+
+01:01:43.660 --> 01:01:45.670 align:middle line:90%
+So it's finally over.
+
+01:01:45.670 --> 01:01:48.340 align:middle line:90%
+It's finally over.
+
+01:01:48.340 --> 01:01:51.190 align:middle line:84%
+But we have to go through
+this, because this
+
+01:01:51.190 --> 01:01:57.450 align:middle line:84%
+is the kind of thing which
+we compare with experiments.
+
+01:01:57.450 --> 01:01:59.580 align:middle line:84%
+And in particular, if you
+calculate the total cross
+
+01:01:59.580 --> 01:02:01.500 align:middle line:84%
+section, and then you
+can just integrate
+
+01:02:01.500 --> 01:02:03.060 align:middle line:90%
+this over all the solid angle.
+
+01:02:03.060 --> 01:02:08.260 align:middle line:90%
+
+
+01:02:08.260 --> 01:02:12.950 align:middle line:84%
+So before now, talking
+about the physical process,
+
+01:02:12.950 --> 01:02:15.560 align:middle line:84%
+there's one more thing
+we need to consider.
+
+01:02:15.560 --> 01:02:22.820 align:middle line:84%
+So here, we consider the initial
+state to be two particles.
+
+01:02:22.820 --> 01:02:25.850 align:middle line:84%
+Because we say we don't
+normally do scattering
+
+01:02:25.850 --> 01:02:29.900 align:middle line:90%
+with more than two particles.
+
+01:02:29.900 --> 01:02:35.825 align:middle line:84%
+But there's another situation,
+which still often could happen.
+
+01:02:35.825 --> 01:02:38.630 align:middle line:90%
+
+
+01:02:38.630 --> 01:02:42.410 align:middle line:84%
+So this is the situation,
+which initial state only
+
+01:02:42.410 --> 01:02:43.175 align:middle line:90%
+have one particle.
+
+01:02:43.175 --> 01:02:45.810 align:middle line:90%
+
+
+01:02:45.810 --> 01:02:49.050 align:middle line:84%
+So when your initial state
+only have one particle,
+
+01:02:49.050 --> 01:02:50.040 align:middle line:90%
+what do you have?
+
+01:02:50.040 --> 01:02:50.753 align:middle line:90%
+AUDIENCE: Decay.
+
+01:02:50.753 --> 01:02:52.920 align:middle line:84%
+HONG LIU: Yeah, then that
+is corresponding to decay.
+
+01:02:52.920 --> 01:02:57.270 align:middle line:84%
+Yeah, so we can still
+have the situation.
+
+01:02:57.270 --> 01:03:00.930 align:middle line:84%
+If you have an unstable
+particle, then we can decay.
+
+01:03:00.930 --> 01:03:06.390 align:middle line:84%
+And then it's very important for
+many, many physical situations,
+
+01:03:06.390 --> 01:03:07.560 align:middle line:90%
+to calculate the decay rate.
+
+01:03:07.560 --> 01:03:13.880 align:middle line:90%
+
+
+01:03:13.880 --> 01:03:18.560 align:middle line:84%
+So now we have p1, say, suppose
+this is the initial momentum.
+
+01:03:18.560 --> 01:03:25.460 align:middle line:84%
+And decay into k1 plus
+kn, say final n particles.
+
+01:03:25.460 --> 01:03:28.250 align:middle line:84%
+So now the initial
+state, only one particle.
+
+01:03:28.250 --> 01:03:31.190 align:middle line:90%
+And the final state is k1 kn.
+
+01:03:31.190 --> 01:03:35.870 align:middle line:84%
+So beta remain the same,
+but alpha only one particle.
+
+01:03:35.870 --> 01:03:42.895 align:middle line:84%
+And the decay rate is
+much simpler to define,
+
+01:03:42.895 --> 01:03:49.770 align:middle line:90%
+it's just the dP alpha beta dt.
+
+01:03:49.770 --> 01:03:53.000 align:middle line:84%
+And we don't need to divide
+it by flux, all those things.
+
+01:03:53.000 --> 01:03:57.290 align:middle line:90%
+
+
+01:03:57.290 --> 01:04:00.690 align:middle line:84%
+So now let me
+explain a little bit.
+
+01:04:00.690 --> 01:04:03.815 align:middle line:84%
+Again, this dP alpha
+beta, we always mean--
+
+01:04:03.815 --> 01:04:09.400 align:middle line:90%
+
+
+01:04:09.400 --> 01:04:15.280 align:middle line:84%
+we mean that the
+probability of P1
+
+01:04:15.280 --> 01:04:21.820 align:middle line:90%
+decaying into n final particles.
+
+01:04:21.820 --> 01:04:28.350 align:middle line:90%
+
+
+01:04:28.350 --> 01:04:44.330 align:middle line:84%
+with again, particle
+1 with range,
+
+01:04:44.330 --> 01:04:58.020 align:middle line:84%
+with the decay 1 around k1 and
+the decay around k2, et cetera,
+
+01:04:58.020 --> 01:05:01.580 align:middle line:90%
+and decay n around kn.
+
+01:05:01.580 --> 01:05:06.050 align:middle line:84%
+So when we write d alpha
+beta, you should imagine this.
+
+01:05:06.050 --> 01:05:07.220 align:middle line:90%
+We already include that.
+
+01:05:07.220 --> 01:05:11.120 align:middle line:90%
+
+
+01:05:11.120 --> 01:05:16.380 align:middle line:84%
+So now, we can just
+repeat what we did before.
+
+01:05:16.380 --> 01:05:26.670 align:middle line:84%
+So then, this dP alpha beta dt,
+dP alpha beta, then just given
+
+01:05:26.670 --> 01:05:34.510 align:middle line:84%
+by this thing squared, beta plus
+infinity square and alpha minus
+
+01:05:34.510 --> 01:05:43.390 align:middle line:84%
+infinity squared, divided
+by beta and alpha.
+
+01:05:43.390 --> 01:05:58.550 align:middle line:84%
+And times j from 1 to n,
+d3 kj 2 pi cubed times V.
+
+01:05:58.550 --> 01:06:00.890 align:middle line:90%
+So now, it's the same thing.
+
+01:06:00.890 --> 01:06:02.870 align:middle line:90%
+Now, it's same thing.
+
+01:06:02.870 --> 01:06:07.100 align:middle line:90%
+So the only thing you need to --
+
+01:06:07.100 --> 01:06:12.440 align:middle line:84%
+and the alpha one,
+everything else is the same.
+
+01:06:12.440 --> 01:06:14.640 align:middle line:90%
+So everything else is the same.
+
+01:06:14.640 --> 01:06:17.400 align:middle line:84%
+So you just repeat
+our previous analysis,
+
+01:06:17.400 --> 01:06:19.530 align:middle line:90%
+which I will not repeat.
+
+01:06:19.530 --> 01:06:22.130 align:middle line:84%
+So the only thing different
+is just now the initial state
+
+01:06:22.130 --> 01:06:25.520 align:middle line:90%
+is just to a single energy.
+
+01:06:25.520 --> 01:06:27.510 align:middle line:84%
+So you just repeat
+the whole thing.
+
+01:06:27.510 --> 01:06:31.100 align:middle line:90%
+And then you find--
+
+01:06:31.100 --> 01:06:35.420 align:middle line:84%
+then you find d Gamma
+alpha beta equal
+
+01:06:35.420 --> 01:06:43.330 align:middle line:90%
+to dP alpha beta divided by t.
+
+01:06:43.330 --> 01:06:45.220 align:middle line:84%
+And then you find that
+this is just given
+
+01:06:45.220 --> 01:06:55.180 align:middle line:90%
+by 2E1 alpha beta square d mu.
+
+01:06:55.180 --> 01:06:58.060 align:middle line:90%
+D mu is defined in the same way.
+
+01:06:58.060 --> 01:06:59.500 align:middle line:90%
+D mu is defined in the same way.
+
+01:06:59.500 --> 01:07:03.130 align:middle line:90%
+
+
+01:07:03.130 --> 01:07:08.110 align:middle line:84%
+So this is the final
+answer for the decay case.
+
+01:07:08.110 --> 01:07:12.600 align:middle line:84%
+And the total decay rate
+would be you integrate just
+
+01:07:12.600 --> 01:07:13.530 align:middle line:90%
+over all momentum.
+
+01:07:13.530 --> 01:07:19.790 align:middle line:90%
+
+
+01:07:19.790 --> 01:07:21.095 align:middle line:90%
+So the total decay rate--
+
+01:07:21.095 --> 01:07:50.940 align:middle line:90%
+
+
+01:07:50.940 --> 01:08:00.350 align:middle line:84%
+so the total decay rate
+is just gamma total rate.
+
+01:08:00.350 --> 01:08:04.760 align:middle line:84%
+Then gamma is summing over
+all possible choices of beta.
+
+01:08:04.760 --> 01:08:06.785 align:middle line:84%
+And then you integrate
+over all momentum.
+
+01:08:06.785 --> 01:08:11.090 align:middle line:90%
+
+
+01:08:11.090 --> 01:08:18.859 align:middle line:84%
+And the lifetime of
+the particle, tau
+
+01:08:18.859 --> 01:08:20.180 align:middle line:90%
+is just equal to 1 over gamma.
+
+01:08:20.180 --> 01:08:26.800 align:middle line:90%
+
+
+01:08:26.800 --> 01:08:32.600 align:middle line:84%
+So one thing, one difference
+with the cross section case--
+
+01:08:32.600 --> 01:08:35.540 align:middle line:84%
+so the cross action
+we mentioned before,
+
+01:08:35.540 --> 01:08:38.850 align:middle line:90%
+say it's Lorentz invariant.
+
+01:08:38.850 --> 01:08:41.130 align:middle line:90%
+But decay rate is not.
+
+01:08:41.130 --> 01:08:45.160 align:middle line:84%
+And decay rate does depend
+on the frame of the particle,
+
+01:08:45.160 --> 01:08:49.450 align:middle line:84%
+does depend on the
+frame of the particle.
+
+01:08:49.450 --> 01:08:54.970 align:middle line:84%
+So decay rate-- so
+this lifetime does
+
+01:08:54.970 --> 01:08:57.910 align:middle line:84%
+depend on the frame
+of the particle
+
+01:08:57.910 --> 01:09:09.569 align:middle line:84%
+and the rest frame
+of the particle,
+
+01:09:09.569 --> 01:09:12.660 align:middle line:84%
+corresponding to
+just E equal to m1,
+
+01:09:12.660 --> 01:09:16.109 align:middle line:84%
+just equal to mass
+of the particle.
+
+01:09:16.109 --> 01:09:23.729 align:middle line:84%
+And so the rest frame
+decay rate is the smallest
+
+01:09:23.729 --> 01:09:28.470 align:middle line:84%
+among all possible decay rate
+because of the time dilation.
+
+01:09:28.470 --> 01:09:33.010 align:middle line:90%
+
+
+01:09:33.010 --> 01:09:37.500 align:middle line:84%
+In all other moving frame,
+because the time dilation,
+
+01:09:37.500 --> 01:09:39.779 align:middle line:90%
+the decay rate become faster.
+
+01:09:39.779 --> 01:09:45.090 align:middle line:84%
+So that's what you meant,
+that the particles are moving
+
+01:09:45.090 --> 01:09:47.910 align:middle line:90%
+and they have a longer lifetime.
+
+01:09:47.910 --> 01:09:50.990 align:middle line:90%
+They have a longer lifetime.
+
+01:09:50.990 --> 01:09:55.390 align:middle line:90%
+So this makes perfect sense.
+
+01:09:55.390 --> 01:09:58.890 align:middle line:90%
+So any questions on this?
+
+01:09:58.890 --> 01:09:59.390 align:middle line:90%
+Yes?
+
+01:09:59.390 --> 01:10:02.040 align:middle line:90%
+
+
+01:10:02.040 --> 01:10:04.160 align:middle line:84%
+AUDIENCE: Do you
+need a finite set?
+
+01:10:04.160 --> 01:10:08.120 align:middle line:84%
+HONG LIU: Yeah, in general,
+in general, for the real--
+
+01:10:08.120 --> 01:10:15.990 align:middle line:84%
+you never know, but beta
+is what we discovered.
+
+01:10:15.990 --> 01:10:18.960 align:middle line:84%
+We observe what are the
+decay final product.
+
+01:10:18.960 --> 01:10:21.550 align:middle line:84%
+But you can also predict,
+from your theory,
+
+01:10:21.550 --> 01:10:23.790 align:middle line:90%
+what are the possible decay?
+
+01:10:23.790 --> 01:10:25.770 align:middle line:84%
+But in real experiment,
+there always
+
+01:10:25.770 --> 01:10:29.160 align:middle line:84%
+may be some particles
+we don't know.
+
+01:10:29.160 --> 01:10:32.790 align:middle line:84%
+There may be some
+hidden interactions.
+
+01:10:32.790 --> 01:10:35.920 align:middle line:90%
+
+
+01:10:35.920 --> 01:10:36.880 align:middle line:90%
+Other questions?
+
+01:10:36.880 --> 01:10:39.420 align:middle line:90%
+
+
+01:10:39.420 --> 01:10:41.870 align:middle line:90%
+OK, good.
+
+01:10:41.870 --> 01:10:45.260 align:middle line:84%
+So that finally concludes this
+discussion of the cross section
+
+01:10:45.260 --> 01:10:47.480 align:middle line:90%
+and the decay rate.
+
+01:10:47.480 --> 01:10:51.330 align:middle line:84%
+And now, we can
+study some process.
+
+01:10:51.330 --> 01:10:53.870 align:middle line:84%
+So we only have 10
+minutes to do it.
+
+01:10:53.870 --> 01:10:58.530 align:middle line:90%
+
+
+01:10:58.530 --> 01:11:05.630 align:middle line:84%
+So we will not really be able to
+do it, just maybe to start it.
+
+01:11:05.630 --> 01:11:18.150 align:middle line:90%
+
+
+01:11:18.150 --> 01:11:22.630 align:middle line:84%
+So in general, we will
+consider 2 to 2 scatterings.
+
+01:11:22.630 --> 01:11:33.550 align:middle line:84%
+OK In general, we consider
+2 to 2 scatterings.
+
+01:11:33.550 --> 01:11:39.220 align:middle line:90%
+And so one remark to make--
+
+01:11:39.220 --> 01:11:41.380 align:middle line:84%
+and in that case, we
+have this formula.
+
+01:11:41.380 --> 01:11:44.920 align:middle line:90%
+We have this very nice formula.
+
+01:11:44.920 --> 01:12:03.220 align:middle line:84%
+So for particles, with spin,
+say whether spin 1/2 or spin 1.
+
+01:12:03.220 --> 01:12:07.480 align:middle line:84%
+Spin 1/2 would be electrons,
+protons, et cetera.
+
+01:12:07.480 --> 01:12:09.700 align:middle line:90%
+And spin 1 would be photon.
+
+01:12:09.700 --> 01:12:15.370 align:middle line:84%
+And the scattering
+amplitude then
+
+01:12:15.370 --> 01:12:30.610 align:middle line:84%
+will depend on the polarization
+of the initial and final
+
+01:12:30.610 --> 01:12:31.420 align:middle line:90%
+particles.
+
+01:12:31.420 --> 01:12:42.960 align:middle line:90%
+
+
+01:12:42.960 --> 01:12:44.880 align:middle line:90%
+So in most experiments --
+
+01:12:44.880 --> 01:12:48.330 align:middle line:90%
+
+
+01:12:48.330 --> 01:12:57.520 align:middle line:84%
+in most experiments,
+so the initial beam,
+
+01:12:57.520 --> 01:13:00.490 align:middle line:84%
+they are unpolarized,
+it's not easy,
+
+01:13:00.490 --> 01:13:02.500 align:middle line:84%
+sometimes to do
+the polarized beam.
+
+01:13:02.500 --> 01:13:10.110 align:middle line:84%
+So initial state, initial
+beams are unpolarized--
+
+01:13:10.110 --> 01:13:14.140 align:middle line:90%
+
+
+01:13:14.140 --> 01:13:16.210 align:middle line:84%
+unpolarized means they're
+just corresponding
+
+01:13:16.210 --> 01:13:19.810 align:middle line:84%
+to a superposition
+of all possible kinds
+
+01:13:19.810 --> 01:13:25.930 align:middle line:84%
+of polarizations,
+incoherent superposition.
+
+01:13:25.930 --> 01:13:39.840 align:middle line:84%
+And then the final state
+and the spin polarization,
+
+01:13:39.840 --> 01:13:50.110 align:middle line:84%
+a final state normally,
+it cannot be detected.
+
+01:13:50.110 --> 01:13:53.500 align:middle line:90%
+
+
+01:13:53.500 --> 01:13:56.650 align:middle line:84%
+It's a difficult
+question to detect
+
+01:13:56.650 --> 01:13:58.650 align:middle line:90%
+the polarization of a particle.
+
+01:13:58.650 --> 01:14:01.450 align:middle line:90%
+
+
+01:14:01.450 --> 01:14:04.030 align:middle line:90%
+And actually, it's not even--
+
+01:14:04.030 --> 01:14:06.550 align:middle line:84%
+say if you say,
+observe a new particle,
+
+01:14:06.550 --> 01:14:10.420 align:middle line:84%
+it's not even easy to tell
+whether this particle is
+
+01:14:10.420 --> 01:14:12.010 align:middle line:90%
+a boson or fermion.
+
+01:14:12.010 --> 01:14:16.600 align:middle line:84%
+So to measure the specific
+polarization is even harder.
+
+01:14:16.600 --> 01:14:21.340 align:middle line:84%
+Anyway, so the
+polarization of final state
+
+01:14:21.340 --> 01:14:24.260 align:middle line:90%
+are normally not detected.
+
+01:14:24.260 --> 01:14:27.620 align:middle line:84%
+So in this case, when we
+compare with experiment,
+
+01:14:27.620 --> 01:14:30.940 align:middle line:84%
+so when we calculate this
+kind of cross section
+
+01:14:30.940 --> 01:14:38.035 align:middle line:84%
+compare with
+experiment, we should--
+
+01:14:38.035 --> 01:14:52.160 align:middle line:90%
+
+
+01:14:52.160 --> 01:15:01.130 align:middle line:84%
+that means that we should
+to compare with experiment.
+
+01:15:01.130 --> 01:15:09.890 align:middle line:84%
+We should sum over,
+should sum over
+
+01:15:09.890 --> 01:15:16.895 align:middle line:90%
+polarizations of final state.
+
+01:15:16.895 --> 01:15:24.720 align:middle line:90%
+
+
+01:15:24.720 --> 01:15:38.535 align:middle line:84%
+and average over polarizations
+of initial state.
+
+01:15:38.535 --> 01:15:43.440 align:middle line:90%
+
+
+01:15:43.440 --> 01:15:46.500 align:middle line:84%
+So for the final state,
+we need to sum over them.
+
+01:15:46.500 --> 01:15:49.880 align:middle line:84%
+Because we need to sum
+over all possibilities.
+
+01:15:49.880 --> 01:15:54.350 align:middle line:84%
+But for the initial state
+all different polarizations
+
+01:15:54.350 --> 01:15:55.070 align:middle line:90%
+contribute.
+
+01:15:55.070 --> 01:15:57.470 align:middle line:90%
+So we need to average over them.
+
+01:15:57.470 --> 01:15:58.730 align:middle line:90%
+We need to average over them.
+
+01:15:58.730 --> 01:16:01.470 align:middle line:90%
+
+
+01:16:01.470 --> 01:16:21.080 align:middle line:84%
+So for example, if we
+consider such a process,
+
+01:16:21.080 --> 01:16:26.500 align:middle line:84%
+it's a very important
+process, say
+
+01:16:26.500 --> 01:16:29.360 align:middle line:84%
+in QED is your
+annhilation of particles.
+
+01:16:29.360 --> 01:16:31.540 align:middle line:84%
+So if you have a particle
+and antiparticle,
+
+01:16:31.540 --> 01:16:33.990 align:middle line:90%
+then they can annihilate.
+
+01:16:33.990 --> 01:16:38.250 align:middle line:84%
+When they annihilate, then
+they annihilate into photon.
+
+01:16:38.250 --> 01:16:41.040 align:middle line:84%
+And then the photon can split
+into some other particle
+
+01:16:41.040 --> 01:16:42.570 align:middle line:90%
+and antiparticle.
+
+01:16:42.570 --> 01:16:45.960 align:middle line:84%
+So this is the process
+of particle a come in.
+
+01:16:45.960 --> 01:16:54.370 align:middle line:90%
+
+
+01:16:54.370 --> 01:16:59.770 align:middle line:84%
+So this is a, a-bar,
+this is b and b-bar.
+
+01:16:59.770 --> 01:17:02.920 align:middle line:84%
+So this is a production,
+the pair creation
+
+01:17:02.920 --> 01:17:07.270 align:middle line:84%
+of b and b-bar from colliding
+and its antiparticle.
+
+01:17:07.270 --> 01:17:11.700 align:middle line:84%
+So in real life, in
+real life, by colliding,
+
+01:17:11.700 --> 01:17:17.010 align:middle line:84%
+say, for example, electron
+plus positron, then
+
+01:17:17.010 --> 01:17:19.120 align:middle line:90%
+you can create many particles.
+
+01:17:19.120 --> 01:17:25.200 align:middle line:84%
+So this is one of the
+most important way
+
+01:17:25.200 --> 01:17:27.450 align:middle line:90%
+to discover new particles.
+
+01:17:27.450 --> 01:17:29.790 align:middle line:84%
+Many new particles are
+discovered this way.
+
+01:17:29.790 --> 01:17:32.370 align:middle line:84%
+You just collide the
+electron and positron.
+
+01:17:32.370 --> 01:17:35.820 align:middle line:84%
+And then you will be able
+to create new particles.
+
+01:17:35.820 --> 01:17:41.190 align:middle line:84%
+For example, you can
+create muon and anti-muon.
+
+01:17:41.190 --> 01:17:49.150 align:middle line:84%
+And then you can create quarks
+and antiquark, et cetera.
+
+01:17:49.150 --> 01:17:57.980 align:middle line:90%
+
+
+01:17:57.980 --> 01:18:01.790 align:middle line:84%
+So in all these cases, both the
+initial and final particles,
+
+01:18:01.790 --> 01:18:03.710 align:middle line:90%
+they are fermions.
+
+01:18:03.710 --> 01:18:05.880 align:middle line:84%
+So you need to specify
+their polarization.
+
+01:18:05.880 --> 01:18:09.290 align:middle line:84%
+So this one --
+supposed we have p1 r1.
+
+01:18:09.290 --> 01:18:11.150 align:middle line:90%
+So here we have p2.
+
+01:18:11.150 --> 01:18:18.240 align:middle line:84%
+So since this is antiparticle,
+let's call it r2-bar.
+
+01:18:18.240 --> 01:18:20.910 align:middle line:90%
+And the b would be called--
+
+01:18:20.910 --> 01:18:23.460 align:middle line:90%
+say this is k1 s1.
+
+01:18:23.460 --> 01:18:25.200 align:middle line:90%
+Say this is k2 s2-bar.
+
+01:18:25.200 --> 01:18:29.940 align:middle line:90%
+
+
+01:18:29.940 --> 01:18:33.130 align:middle line:84%
+And then for the
+unpolarized process,
+
+01:18:33.130 --> 01:18:35.445 align:middle line:84%
+let me just write
+down one last formula.
+
+01:18:35.445 --> 01:18:47.780 align:middle line:90%
+
+
+01:18:47.780 --> 01:18:51.670 align:middle line:84%
+So you need to say, suppose
+the scattering amplitude is
+
+01:18:51.670 --> 01:18:59.190 align:middle line:84%
+M squared, so M.
+And then we need to,
+
+01:18:59.190 --> 01:19:09.300 align:middle line:84%
+for unpolarized
+process, so we need
+
+01:19:09.300 --> 01:19:14.730 align:middle line:84%
+to consider-- we need to average
+initial spin, r1, and average
+
+01:19:14.730 --> 01:19:17.835 align:middle line:90%
+over the final, the r2.
+
+01:19:17.835 --> 01:19:20.730 align:middle line:90%
+
+
+01:19:20.730 --> 01:19:26.730 align:middle line:84%
+And then we need to sum
+over s1 and the sum over s2.
+
+01:19:26.730 --> 01:19:30.420 align:middle line:90%
+And then, I have Musk squared.
+
+01:19:30.420 --> 01:19:33.990 align:middle line:84%
+So essentially, this
+becomes 1 over 4.
+
+01:19:33.990 --> 01:19:37.740 align:middle line:84%
+And you sum over all
+possible spin polarizations
+
+01:19:37.740 --> 01:19:40.050 align:middle line:90%
+of the M squared.
+
+01:19:40.050 --> 01:19:45.330 align:middle line:84%
+So this is the one we can
+say compare with experiments.
+
+01:19:45.330 --> 01:19:50.400 align:middle line:84%
+So next time, we will
+write this down explicitly
+
+01:19:50.400 --> 01:19:51.460 align:middle line:90%
+for this kind of process.
+
+01:19:51.460 --> 01:19:54.000 align:middle line:90%
+
+
+01:19:54.000 --> 01:19:56.940 align:middle line:90%
+Yeah, so let's stop here.
+
+01:19:56.940 --> 01:20:01.000 align:middle line:90%

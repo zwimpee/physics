@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Classical Field Theories and Principle of Locality</title>
+      <link>/resources/ocw_8323_lecture01_2023feb06_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture01_2023feb06_mp4/data.json</guid>
+      <description>&lt;p&gt;Principle of locality, concept of classical fields, different types of fields, action principle, classical equations of motion, examples of classical field theories&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Time-Ordered Correlation Functions in Field Theory</title>
+      <link>/resources/ocw_8323_lecture10_2023mar08_v2_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture10_2023mar08_v2_mp4/data.json</guid>
+      <description>&lt;p&gt;Generating functional for harmonic oscillator and its generalization to field theory, Feynman propagator from path integral, Wick theorem&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Computation of Correlation Functions in Perturbation Theory and Feynman Diagrams</title>
+      <link>/resources/ocw_8323_lecture11_2023mar13_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture11_2023mar13_mp4/data.json</guid>
+      <description>&lt;p&gt;Calculating correlation functions perturbatively in coupling constant using path integrals, diagrammatic representation (Feynman diagrams), calculation of symmetric factors, Feynman rules in coordinate and momentum spaces, examples of calculating correlation functions using Feynman diagrams in both coordinate and momentum spaces&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: More on Perturbation Theory and Feynman Diagrams</title>
+      <link>/resources/ocw_8323_lecture12_2023mar15_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture12_2023mar15_mp4/data.json</guid>
+      <description>&lt;p&gt;Vacuum diagrams, connected diagrams, cancellation of vacuum diagrams, explicit statement of LSZ theorem and intuitions behind it, scattering amplitudes from amputated diagrams with external legs on-shell, examples&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Introducing the Dirac Equation</title>
+      <link>/resources/ocw_8323_lecture13_2023mar20_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture13_2023mar20_mp4/data.json</guid>
+      <description>&lt;p&gt;Review of calculation of scattering amplitudes from Feynman diagrams, derivation of the Dirac equation and its basic properties, gamma matrices and their properties, spinors, Dirac equation for massless spinors, representations of gamma matrices, concept of Lorentz covariance&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Lorentz Covariance of the Dirac Equation</title>
+      <link>/resources/ocw_8323_lecture14_2023mar22_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture14_2023mar22_mp4/data.json</guid>
+      <description>&lt;p&gt;Discussion of how a spinor transforms under Lorentz transformation, Lorentz generators in the spinor representation, properties of Lorentz transformation in the spinor representation, explicit verification of Lorentz covariance of Dirac equation, Dirac action, classical solutions to Dirac equations&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Classical Solutions of Dirac Equations</title>
+      <link>/resources/ocw_8323_lecture15_2023apr03_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture15_2023apr03_mp4/data.json</guid>
+      <description>&lt;p&gt;Explicit construction of the complete set of plane solutions, properties of the solutions, non-relativistic and ultra-relativistic limits of the solutions, some useful spinor relations, quantization of the Dirac theory&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Quantization of the Dirac Theory</title>
+      <link>/resources/ocw_8323_lecture16_2023apr05_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture16_2023apr05_mp4/data.json</guid>
+      <description>&lt;p&gt;Anti-commutation relations, Pauli exclusion principle, mode expansion of a Dirac spinor field, fermionic harmonic oscillator, zero-point energy, single-particle states, charge, Feynman propagator of Dirac fields&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Chiral and Majorana Spinors</title>
+      <link>/resources/ocw_8323_lecture17_2023apr10_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture17_2023apr10_mp4/data.json</guid>
+      <description>&lt;p&gt;Introduce chiral spinors, gamma_5 matrix, chiral projection in an arbitrary basis, Lorentz transformation of chiral spinors, introduce Majorana spinors, Majorana condition in an arbitrary basis, Lorentz transformation of Majorana spinors&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Discrete Symmetries</title>
+      <link>/resources/ocw_8323_lecture18_2023apr12_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture18_2023apr12_mp4/data.json</guid>
+      <description>&lt;p&gt;Definition of discrete symmetries, discrete spacetime symmetries: parity and time-reversal, antilinear and anti-unitary operators, charge conjugation, discrete symmetric transformation of a scalar field, transformation of a Dirac field under parity, time-reversal and charge conjugation, Grassman variables/numbers&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Path Integrals of Fermions</title>
+      <link>/resources/ocw_8323_lecture19_2023apr19_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture19_2023apr19_mp4/data.json</guid>
+      <description>&lt;p&gt;Definition and properties of Grassman variables/numbers: differentiation, integration, Gaussian integrals, path integrals of Dirac fields, perturbation theory involving fermions, Feynman rules in the presence of fermions, Yukawa theory&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Symmetries and Conservation Laws</title>
+      <link>/resources/ocw_8323_lecture02_2023feb08_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture02_2023feb08_mp4/data.json</guid>
+      <description>&lt;p&gt;Definition of symmetries, different types of symmetries, statement of Noether’s theorem that connects continuous global symmetries with conservation laws and its proof, concept of quantum fields&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Maxwell Theory and its Canonical Quantization</title>
+      <link>/resources/ocw_8323_lecture20_2023apr24_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture20_2023apr24_mp4/data.json</guid>
+      <description>&lt;p&gt;Gauge symmetry, classical Maxwell theory in the Coulomb gauge and Lorentz gauge, canonical quantization of the Maxwell theory in the Coulomb gauge, single-particle states and photons&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Quantum Maxwell Theory (continued)</title>
+      <link>/resources/ocw_8323_lecture21_2023apr26_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture21_2023apr26_mp4/data.json</guid>
+      <description>&lt;p&gt;Canonical quantization of the Maxwell theory in the Coulomb gauge, negative norm states, physical Hilbert space, path integral quantization in the Lorentz gauge, Feynman propagator of Maxwell fields in the Lorentz gauge&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Quantum Electrodynamics</title>
+      <link>/resources/ocw_8323_lecture22_2023may01_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture22_2023may01_mp4/data.json</guid>
+      <description>&lt;p&gt;Lagrangian of quantum electrodynamics (QED), scalar QED, Feynman rules of QED, definition of cross section and its relativistic generalization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Cross Section and Decay Rate</title>
+      <link>/resources/ocw_8323_lecture23_2023may03_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture23_2023may03_mp4/data.json</guid>
+      <description>&lt;p&gt;Derivation of relativistic cross section, center of mass frame and relevant kinematics, decay rate&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Elementary Processes in QED (I)</title>
+      <link>/resources/ocw_8323_lecture24_2023may08_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture24_2023may08_mp4/data.json</guid>
+      <description>&lt;p&gt;Unpolarized cross section for electron-positron annihilation to produce muon and anti-muon and to produce hadrons, discovery of charm quark, experimental test of quarks having three colors, crossing symmetry&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Elementary Processes in QED (II)</title>
+      <link>/resources/ocw_8323_lecture25_2023may10_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture25_2023may10_mp4/data.json</guid>
+      <description>&lt;p&gt;Crossing symmetry, Compton scattering, calculation of the cross section for Compton scattering, physical implications: (i) early experimental indication of quantum nature of light; (ii) inverse Compton scattering and Sunyaev-Zeldovich effect&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26: Quantum Fluctuations and Renormalization</title>
+      <link>/resources/ocw_8323_lecture26_2023may12_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture26_2023may12_mp4/data.json</guid>
+      <description>&lt;p&gt;Brief introduction to physical implications of simplest loop diagrams: (i) mass renormalization, vacuum polarization, and charge renormalization; (ii) anomalous magnetic moment, derivation of non-relativistic Pauli equation from Dirac equation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Why Quantum Field Theory</title>
+      <link>/resources/ocw_8323_lecture03_2023feb13_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture03_2023feb13_mp4/data.json</guid>
+      <description>&lt;p&gt;Inadequacy of relativistic quantum mechanics, unification of quantum mechanics with special relativity requires quantum field theory, field theory as a continuum description of discrete systems, review of quantization of harmonic oscillator in the Heisenberg picture&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Canonical Quantization of a Free Scalar Field Theory</title>
+      <link>/resources/ocw_8323_lecture04_2023feb15_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture04_2023feb15_mp4/data.json</guid>
+      <description>&lt;p&gt;Canonical quantization of a free scalar field theory, canonical commutation relations, mode expansion, a free field theory can be viewed as an infinite number of harmonic oscillators, expressing the Hamiltonian and other conserved charges in terms of oscillators, vacuum energy, structure of Hilbert space&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Complex Scalar Field Theory and Anti-Particle</title>
+      <link>/resources/ocw_8323_lecture05_2023feb21_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture05_2023feb21_mp4/data.json</guid>
+      <description>&lt;p&gt;Conserved charges as quantum generators of symmetries, quantization of a complex scalar field theory, charge of a complex field, concept of antiparticle, propagators&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Propagators and Green Functions</title>
+      <link>/resources/ocw_8323_lecture06_2023feb22_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture06_2023feb22_mp4/data.json</guid>
+      <description>&lt;p&gt;No localized states in QFT, definitions of different types of propagators (Green functions) and their properties, explicit evaluations of various Green functions for a free scalar, prescriptions of complex contours for retarded and Feynman propagators&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Interacting Theories and S-Matrix</title>
+      <link>/resources/ocw_8323_lecture07_2023feb27_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture07_2023feb27_mp4/data.json</guid>
+      <description>&lt;p&gt;Introducing interactions, scattering processes as probes of interactions,  concept of S-matrix and its definition, scattering amplitude, properties of S-matrix, LSZ theorem which relates scattering amplitudes to correlation functions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Path Integral Formalism for Non-Relativistic Quantum Mechanics</title>
+      <link>/resources/ocw_8323_lecture08_2023mar03_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture08_2023mar03_mp4/data.json</guid>
+      <description>&lt;p&gt;Outline of strategies for computing correlation functions in perturbation theory, path integral formalism for non-relativistic QM: its derivation and some basic results, Gaussian path integrals&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Path Integral Formalism for QFT; Computation of Time-Ordered Correlation Functions</title>
+      <link>/resources/ocw_8323_lecture09_2023mar06_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_8323_lecture09_2023mar06_mp4/data.json</guid>
+      <description>&lt;p&gt;Generalization of the path integral formalism for a QFT, time-ordered correlation functions from path integrals in a quantum mechanical system, a trick for obtaining vacuum correlation functions, generating functional&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,4774 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.435 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.435 --> 00:00:03.409 align:middle line:90%
+[RUSTLING]
+
+00:00:03.409 --> 00:00:04.383 align:middle line:90%
+
+
+00:00:04.383 --> 00:00:07.792 align:middle line:90%
+[CLICKING]
+
+00:00:07.792 --> 00:00:11.510 align:middle line:90%
+
+
+00:00:11.510 --> 00:00:14.610 align:middle line:84%
+PROFESSOR: So at the
+end of last lecture,
+
+00:00:14.610 --> 00:00:19.450 align:middle line:84%
+we start talking
+about this propagator.
+
+00:00:19.450 --> 00:00:29.260 align:middle line:90%
+
+
+00:00:29.260 --> 00:00:37.030 align:middle line:84%
+So in non-relativistic
+quantum mechanics,
+
+00:00:37.030 --> 00:00:45.420 align:middle line:84%
+in the Heisenberg picture, we
+can introduce this position
+
+00:00:45.420 --> 00:00:52.080 align:middle line:84%
+eigenvector corresponding to
+the eigenvalue of the position
+
+00:00:52.080 --> 00:00:58.050 align:middle line:84%
+operator at time t
+with eigenvalue x.
+
+00:00:58.050 --> 00:01:02.130 align:middle line:84%
+And then from this object, you
+can construct a propagator.
+
+00:01:02.130 --> 00:01:07.680 align:middle line:90%
+
+
+00:01:07.680 --> 00:01:09.360 align:middle line:84%
+So this object is
+powerful if you
+
+00:01:09.360 --> 00:01:12.180 align:middle line:84%
+know how to compute this
+object, because if you
+
+00:01:12.180 --> 00:01:17.310 align:middle line:84%
+load the function at
+t prime, and then by--
+
+00:01:17.310 --> 00:01:21.630 align:middle line:84%
+yeah, by just integrate
+it with this object,
+
+00:01:21.630 --> 00:01:25.170 align:middle line:84%
+and then you can find your
+function at a later time.
+
+00:01:25.170 --> 00:01:29.610 align:middle line:84%
+And so this is a powerful object
+in non-relativistic quantum
+
+00:01:29.610 --> 00:01:31.950 align:middle line:90%
+mechanics.
+
+00:01:31.950 --> 00:01:36.150 align:middle line:84%
+So now, we can ask what
+are the analogous objects--
+
+00:01:36.150 --> 00:01:43.800 align:middle line:84%
+say whether they exist analogous
+object in field theory.
+
+00:01:43.800 --> 00:01:55.710 align:middle line:84%
+But in QFT, there
+is no natural way
+
+00:01:55.710 --> 00:02:15.760 align:middle line:84%
+to define a localized
+state such as--
+
+00:02:15.760 --> 00:02:19.750 align:middle line:84%
+so there's no counterpart
+of this object.
+
+00:02:19.750 --> 00:02:21.910 align:middle line:84%
+So one reason is
+that now there's
+
+00:02:21.910 --> 00:02:23.620 align:middle line:90%
+no position operator anymore.
+
+00:02:23.620 --> 00:02:27.220 align:middle line:84%
+So remember, now, x
+is actually a label--
+
+00:02:27.220 --> 00:02:31.520 align:middle line:90%
+no longer a operator.
+
+00:02:31.520 --> 00:02:34.430 align:middle line:84%
+It's the phi is the
+operator. x is just a label.
+
+00:02:34.430 --> 00:02:37.490 align:middle line:84%
+So there's no-- in
+quantum field theory,
+
+00:02:37.490 --> 00:02:40.840 align:middle line:90%
+there's no position operator.
+
+00:02:40.840 --> 00:02:44.890 align:middle line:90%
+
+
+00:02:44.890 --> 00:02:47.800 align:middle line:84%
+So you cannot-- and
+then you cannot define--
+
+00:02:47.800 --> 00:02:50.920 align:middle line:84%
+yeah, so the position
+operator, then you can--
+
+00:02:50.920 --> 00:02:54.010 align:middle line:84%
+no natural way to
+define the eigenvector
+
+00:02:54.010 --> 00:02:58.310 align:middle line:90%
+associated with localized state.
+
+00:02:58.310 --> 00:03:00.205 align:middle line:84%
+And there's also a
+fundamental barrier--
+
+00:03:00.205 --> 00:03:03.560 align:middle line:90%
+
+
+00:03:03.560 --> 00:03:06.280 align:middle line:84%
+there's a fundamental
+contradiction
+
+00:03:06.280 --> 00:03:08.800 align:middle line:90%
+with Lorentz symmetry.
+
+00:03:08.800 --> 00:03:12.070 align:middle line:84%
+So there's also a
+fundamental barrier--
+
+00:03:12.070 --> 00:03:21.675 align:middle line:84%
+fundamental obstruction
+from Lorentz symmetry.
+
+00:03:21.675 --> 00:03:34.750 align:middle line:90%
+
+
+00:03:34.750 --> 00:03:42.480 align:middle line:90%
+So you can show that localized--
+
+00:03:42.480 --> 00:03:56.900 align:middle line:84%
+you can show a
+localized state in space
+
+00:03:56.900 --> 00:04:00.350 align:middle line:90%
+is not Lorentz covariant.
+
+00:04:00.350 --> 00:04:07.370 align:middle line:90%
+
+
+00:04:07.370 --> 00:04:09.050 align:middle line:90%
+So this does not--
+
+00:04:09.050 --> 00:04:16.100 align:middle line:84%
+so suppose-- yeah, you can do
+this by proof by contradiction.
+
+00:04:16.100 --> 00:04:28.280 align:middle line:84%
+Suppose they exist-- there
+exist states like some states--
+
+00:04:28.280 --> 00:04:34.260 align:middle line:90%
+
+
+00:04:34.260 --> 00:04:36.750 align:middle line:90%
+say, x t.
+
+00:04:36.750 --> 00:04:44.460 align:middle line:84%
+So by definition, a local
+state should satisfy in--
+
+00:04:44.460 --> 00:04:52.025 align:middle line:84%
+if you evaluate them
+at the same time,
+
+00:04:52.025 --> 00:04:56.930 align:middle line:84%
+then that should be
+proportional to delta function
+
+00:04:56.930 --> 00:04:59.480 align:middle line:84%
+because that's by definition
+what it means what
+
+00:04:59.480 --> 00:05:01.190 align:middle line:90%
+we mean by a localized state--
+
+00:05:01.190 --> 00:05:03.760 align:middle line:90%
+localized at the point.
+
+00:05:03.760 --> 00:05:06.020 align:middle line:84%
+And that's the property
+satisfied by this.
+
+00:05:06.020 --> 00:05:08.578 align:middle line:84%
+If you set t prime equal
+to t, and then this
+
+00:05:08.578 --> 00:05:09.620 align:middle line:90%
+will be a delta function.
+
+00:05:09.620 --> 00:05:13.540 align:middle line:90%
+
+
+00:05:13.540 --> 00:05:19.210 align:middle line:84%
+But now, suppose you
+can define such a state,
+
+00:05:19.210 --> 00:05:21.640 align:middle line:84%
+but then this notion cannot
+be covariant defined.
+
+00:05:21.640 --> 00:05:24.970 align:middle line:84%
+It's because this is
+not a covariant object.
+
+00:05:24.970 --> 00:05:27.670 align:middle line:84%
+So the three-dimensional
+spatial delta
+
+00:05:27.670 --> 00:05:30.850 align:middle line:84%
+function that does
+not transform nicely
+
+00:05:30.850 --> 00:05:34.630 align:middle line:90%
+under Lorentz transformation.
+
+00:05:34.630 --> 00:05:39.430 align:middle line:84%
+And so you can show
+that if you act--
+
+00:05:39.430 --> 00:05:48.880 align:middle line:84%
+suppose U lambda is
+the unitary operator
+
+00:05:48.880 --> 00:05:51.530 align:middle line:84%
+generating a Lorentz
+transformation,
+
+00:05:51.530 --> 00:05:54.670 align:middle line:90%
+which we discussed last time.
+
+00:05:54.670 --> 00:05:58.430 align:middle line:90%
+If you have the momentum--
+
+00:05:58.430 --> 00:06:02.780 align:middle line:84%
+if you have the generated
+Lorentz transformation.
+
+00:06:02.780 --> 00:06:10.180 align:middle line:84%
+And then you can show that
+the U lambda acting on x and t
+
+00:06:10.180 --> 00:06:16.890 align:middle line:84%
+is not the same as the
+lambda x and the lambda t.
+
+00:06:16.890 --> 00:06:19.770 align:middle line:84%
+So lambda x and lambda T
+denotes a Lorentz transformation
+
+00:06:19.770 --> 00:06:21.750 align:middle line:90%
+of this vector.
+
+00:06:21.750 --> 00:06:23.670 align:middle line:84%
+Here, I'm using a
+shorthand notation.
+
+00:06:23.670 --> 00:06:27.580 align:middle line:90%
+
+
+00:06:27.580 --> 00:06:30.720 align:middle line:84%
+So lambda-- x means the
+Lorentz transformation acts
+
+00:06:30.720 --> 00:06:33.120 align:middle line:84%
+on x, and here, means the
+Lorentz transformation
+
+00:06:33.120 --> 00:06:36.200 align:middle line:90%
+acts on t.
+
+00:06:36.200 --> 00:06:40.430 align:middle line:84%
+And you actually will do
+this explicitly in your pset.
+
+00:06:40.430 --> 00:06:43.660 align:middle line:90%
+You will check this explicitly.
+
+00:06:43.660 --> 00:06:47.030 align:middle line:90%
+This does not transform.
+
+00:06:47.030 --> 00:06:51.420 align:middle line:84%
+So this cannot be a
+covariant concept.
+
+00:06:51.420 --> 00:06:56.100 align:middle line:84%
+So that means that you can
+most define in some frame,
+
+00:06:56.100 --> 00:06:59.400 align:middle line:84%
+but if you change your
+frame, and then this state
+
+00:06:59.400 --> 00:07:01.350 align:middle line:90%
+is no longer localized.
+
+00:07:01.350 --> 00:07:07.800 align:middle line:84%
+So this concept is
+not the Lorentz--
+
+00:07:07.800 --> 00:07:11.670 align:middle line:84%
+it's not compatible
+with Lorentz symmetry.
+
+00:07:11.670 --> 00:07:21.660 align:middle line:84%
+So the closest analog you
+can define in field theory--
+
+00:07:21.660 --> 00:07:25.010 align:middle line:90%
+
+
+00:07:25.010 --> 00:07:27.500 align:middle line:90%
+closest-- sorry, not closed--
+
+00:07:27.500 --> 00:07:35.230 align:middle line:84%
+closest analog in QFT in
+field theory is this object.
+
+00:07:35.230 --> 00:07:41.090 align:middle line:84%
+So let's define an object
+x could be defined by--
+
+00:07:41.090 --> 00:07:43.970 align:middle line:84%
+so again, whenever I
+write something like x,
+
+00:07:43.970 --> 00:07:47.300 align:middle line:84%
+you should view this as a
+shorthand for the full vector
+
+00:07:47.300 --> 00:07:51.150 align:middle line:90%
+including both space and time.
+
+00:07:51.150 --> 00:07:55.890 align:middle line:84%
+And so this second,
+define an object by this--
+
+00:07:55.890 --> 00:07:59.580 align:middle line:84%
+acting-- let's just consider--
+suppose we have a real scalar
+
+00:07:59.580 --> 00:08:00.750 align:middle line:90%
+field theory.
+
+00:08:00.750 --> 00:08:02.960 align:middle line:84%
+So for example, let's just
+consider real scalar field
+
+00:08:02.960 --> 00:08:03.460 align:middle line:90%
+theory.
+
+00:08:03.460 --> 00:08:05.830 align:middle line:84%
+So we can define an
+object like this.
+
+00:08:05.830 --> 00:08:10.530 align:middle line:84%
+So this is the closest we can
+get into a position eigenstate.
+
+00:08:10.530 --> 00:08:13.410 align:middle line:90%
+
+
+00:08:13.410 --> 00:08:15.520 align:middle line:90%
+And then-- yeah, its conjugate.
+
+00:08:15.520 --> 00:08:19.020 align:middle line:90%
+Then it's given by phi.
+
+00:08:19.020 --> 00:08:20.790 align:middle line:84%
+So phi is a hermitian,
+because it's real,
+
+00:08:20.790 --> 00:08:23.440 align:middle line:90%
+so it's a hermitian operator.
+
+00:08:23.440 --> 00:08:26.790 align:middle line:84%
+So now, you can check
+this object by definition
+
+00:08:26.790 --> 00:08:30.120 align:middle line:84%
+because phi is a scalar
+field will transforms nicely
+
+00:08:30.120 --> 00:08:32.679 align:middle line:90%
+on the Lorentz transformation.
+
+00:08:32.679 --> 00:08:37.309 align:middle line:84%
+And the vacuum is invariant
+under Lorentz transformation.
+
+00:08:37.309 --> 00:08:40.870 align:middle line:84%
+And so this object
+actually transforms nicely.
+
+00:08:40.870 --> 00:08:48.830 align:middle line:84%
+So under Lorentz transformation,
+x actually it goes to lambda x.
+
+00:08:48.830 --> 00:08:53.590 align:middle line:84%
+So this object actually
+transforms nicely.
+
+00:08:53.590 --> 00:08:56.760 align:middle line:90%
+
+
+00:08:56.760 --> 00:08:59.730 align:middle line:84%
+But you can also ask, what is
+the overlap between these two
+
+00:08:59.730 --> 00:09:03.900 align:middle line:84%
+such kind of position eigenstate
+if we call this quoted position
+
+00:09:03.900 --> 00:09:05.520 align:middle line:90%
+eigenstate?
+
+00:09:05.520 --> 00:09:08.910 align:middle line:84%
+So now let's
+consider the overlap
+
+00:09:08.910 --> 00:09:12.210 align:middle line:90%
+between two such states.
+
+00:09:12.210 --> 00:09:14.940 align:middle line:90%
+And then this will be given by--
+
+00:09:14.940 --> 00:09:20.460 align:middle line:84%
+from this definition will
+be given by 0 phi x and phi
+
+00:09:20.460 --> 00:09:24.790 align:middle line:90%
+x prime on there.
+
+00:09:24.790 --> 00:09:29.540 align:middle line:90%
+
+
+00:09:29.540 --> 00:09:35.540 align:middle line:84%
+So it's given by the
+expectation value of x times phi
+
+00:09:35.540 --> 00:09:39.950 align:middle line:84%
+x prime between
+the vacuum states
+
+00:09:39.950 --> 00:09:42.440 align:middle line:90%
+just from the definition.
+
+00:09:42.440 --> 00:09:44.410 align:middle line:84%
+So the reason we say
+this is the closest
+
+00:09:44.410 --> 00:09:48.420 align:middle line:84%
+analog is because even
+though this state is
+
+00:09:48.420 --> 00:09:52.320 align:middle line:84%
+Lorentz covariant, but this
+state is not localized.
+
+00:09:52.320 --> 00:09:55.440 align:middle line:84%
+So if you want a
+state to be localized,
+
+00:09:55.440 --> 00:09:59.550 align:middle line:84%
+this has to be proportional
+to delta function
+
+00:09:59.550 --> 00:10:01.830 align:middle line:84%
+when you take the
+them at the same time.
+
+00:10:01.830 --> 00:10:03.210 align:middle line:90%
+But now you can show--
+
+00:10:03.210 --> 00:10:06.870 align:middle line:84%
+so this is the object we
+can compute explicitly,
+
+00:10:06.870 --> 00:10:10.650 align:middle line:84%
+because we already
+solved the phi completely
+
+00:10:10.650 --> 00:10:12.060 align:middle line:90%
+in terms of a and a dagger.
+
+00:10:12.060 --> 00:10:15.510 align:middle line:84%
+You can just plug-in here to
+compute this object explicitly,
+
+00:10:15.510 --> 00:10:21.210 align:middle line:84%
+and we will do a towards
+the end of today's lecture.
+
+00:10:21.210 --> 00:10:23.470 align:middle line:84%
+Here, let me just
+tell you the results.
+
+00:10:23.470 --> 00:10:26.400 align:middle line:84%
+So you can see that
+this guy actually
+
+00:10:26.400 --> 00:10:32.850 align:middle line:84%
+is non-zero for t
+equal to t prime
+
+00:10:32.850 --> 00:10:37.740 align:middle line:90%
+and x not equal to x prime.
+
+00:10:37.740 --> 00:10:41.160 align:middle line:84%
+So that means this is not--
+this means that this cannot be
+
+00:10:41.160 --> 00:10:42.250 align:middle line:90%
+a delta function.
+
+00:10:42.250 --> 00:10:45.180 align:middle line:84%
+So when you evaluate
+them at the same time,
+
+00:10:45.180 --> 00:10:47.140 align:middle line:84%
+if it's a localized
+state, then it should be
+
+00:10:47.140 --> 00:10:49.240 align:middle line:90%
+proportional to delta function.
+
+00:10:49.240 --> 00:10:51.520 align:middle line:90%
+But this is not the case.
+
+00:10:51.520 --> 00:10:56.410 align:middle line:84%
+So this object is
+not quite localized,
+
+00:10:56.410 --> 00:11:01.000 align:middle line:84%
+but we will see actually in
+some sense, it's localized,
+
+00:11:01.000 --> 00:11:04.570 align:middle line:84%
+and we will see in what
+sense later when we
+
+00:11:04.570 --> 00:11:08.210 align:middle line:90%
+compute this object explicitly.
+
+00:11:08.210 --> 00:11:10.580 align:middle line:84%
+So right now, let's
+just say the conclusion
+
+00:11:10.580 --> 00:11:13.250 align:middle line:90%
+that this is not localized.
+
+00:11:13.250 --> 00:11:14.900 align:middle line:90%
+So this is not--
+
+00:11:14.900 --> 00:11:18.305 align:middle line:84%
+so this means this is
+not a localized state.
+
+00:11:18.305 --> 00:11:37.020 align:middle line:90%
+
+
+00:11:37.020 --> 00:11:38.630 align:middle line:90%
+Good.
+
+00:11:38.630 --> 00:11:44.380 align:middle line:90%
+So heuristically, we can say--
+
+00:11:44.380 --> 00:11:52.915 align:middle line:84%
+yeah, so let me just
+make a side remark here.
+
+00:11:52.915 --> 00:11:58.790 align:middle line:90%
+
+
+00:11:58.790 --> 00:12:03.880 align:middle line:84%
+So if we-- so as we say, this
+is not a position eigenstate.
+
+00:12:03.880 --> 00:12:07.660 align:middle line:84%
+But if we treat it as
+some kind of approximation
+
+00:12:07.660 --> 00:12:10.270 align:middle line:84%
+to the position
+eigenstate, and then we
+
+00:12:10.270 --> 00:12:16.180 align:middle line:84%
+can talk about the wave
+function of a particle.
+
+00:12:16.180 --> 00:12:18.580 align:middle line:90%
+So now let's suppose--
+
+00:12:18.580 --> 00:12:31.860 align:middle line:84%
+so given a single
+particle state, psi--
+
+00:12:31.860 --> 00:12:35.700 align:middle line:84%
+so psi would be say some
+kind of superposition,
+
+00:12:35.700 --> 00:12:37.190 align:middle line:90%
+which we wrote last time--
+
+00:12:37.190 --> 00:12:41.120 align:middle line:84%
+so some arbitrary superposition
+of the single particle state
+
+00:12:41.120 --> 00:12:43.590 align:middle line:90%
+integrate over the momentum.
+
+00:12:43.590 --> 00:12:48.290 align:middle line:84%
+And then we can define
+its wave function.
+
+00:12:48.290 --> 00:12:52.420 align:middle line:90%
+
+
+00:12:52.420 --> 00:12:58.980 align:middle line:84%
+So I put this
+function as a quote
+
+00:12:58.980 --> 00:13:07.180 align:middle line:84%
+as psi x equal to just
+overlap between the psi
+
+00:13:07.180 --> 00:13:11.950 align:middle line:90%
+and this x object.
+
+00:13:11.950 --> 00:13:16.600 align:middle line:84%
+And then this is given by
+just from that definition--
+
+00:13:16.600 --> 00:13:23.590 align:middle line:90%
+just given by 0 phi x psi.
+
+00:13:23.590 --> 00:13:29.990 align:middle line:90%
+So we can define a function--
+
+00:13:29.990 --> 00:13:33.630 align:middle line:84%
+so this is closest analog
+you can define a wave
+
+00:13:33.630 --> 00:13:36.980 align:middle line:84%
+function for particle
+in the field theory
+
+00:13:36.980 --> 00:13:38.360 align:middle line:90%
+is to use this object.
+
+00:13:38.360 --> 00:13:41.110 align:middle line:90%
+
+
+00:13:41.110 --> 00:13:43.150 align:middle line:90%
+And now, you can check--
+
+00:13:43.150 --> 00:13:47.530 align:middle line:84%
+so it's a very simple exercise
+for you to check yourself.
+
+00:13:47.530 --> 00:13:51.370 align:middle line:84%
+So if I just take this to
+be the pure momentum state--
+
+00:13:51.370 --> 00:13:57.850 align:middle line:84%
+say, for example, if I take
+psi to be the pure momentum
+
+00:13:57.850 --> 00:13:59.260 align:middle line:90%
+state of k--
+
+00:13:59.260 --> 00:14:04.810 align:middle line:84%
+remember, this notation k
+is the square root 2 omega
+
+00:14:04.810 --> 00:14:08.950 align:middle line:90%
+k on this state.
+
+00:14:08.950 --> 00:14:11.320 align:middle line:84%
+So this is the pure
+momentum state.
+
+00:14:11.320 --> 00:14:16.540 align:middle line:84%
+And then if you calculate this
+object, and then you get--
+
+00:14:16.540 --> 00:14:23.230 align:middle line:84%
+then k x then just
+becomes 0 phi x k.
+
+00:14:23.230 --> 00:14:24.460 align:middle line:90%
+Now, you can again--
+
+00:14:24.460 --> 00:14:26.980 align:middle line:84%
+you know explicitly
+how phi expressed
+
+00:14:26.980 --> 00:14:29.110 align:middle line:84%
+in terms of a and
+a dagger, and you
+
+00:14:29.110 --> 00:14:32.230 align:middle line:84%
+know how this is
+obtained from the vacuum
+
+00:14:32.230 --> 00:14:33.610 align:middle line:90%
+by acting a dagger on it.
+
+00:14:33.610 --> 00:14:35.680 align:middle line:84%
+You can just
+compute this object.
+
+00:14:35.680 --> 00:14:38.020 align:middle line:90%
+So take a couple of minutes.
+
+00:14:38.020 --> 00:14:42.400 align:middle line:84%
+And you can also just
+essentially guess the answer.
+
+00:14:42.400 --> 00:14:44.065 align:middle line:84%
+So this just gives
+you the plane wave--
+
+00:14:44.065 --> 00:14:47.470 align:middle line:90%
+
+
+00:14:47.470 --> 00:14:49.720 align:middle line:84%
+just gives you an
+initial plane wave.
+
+00:14:49.720 --> 00:14:54.640 align:middle line:84%
+So with your energy
+are given by omega k.
+
+00:14:54.640 --> 00:14:57.080 align:middle line:84%
+So you just get the
+plane wave function.
+
+00:14:57.080 --> 00:14:59.287 align:middle line:84%
+So in this sense, it's
+like a wave function.
+
+00:14:59.287 --> 00:15:01.120 align:middle line:84%
+It makes sense to call
+it the wave function.
+
+00:15:01.120 --> 00:15:06.915 align:middle line:90%
+
+
+00:15:06.915 --> 00:15:08.550 align:middle line:90%
+Yes?
+
+00:15:08.550 --> 00:15:12.090 align:middle line:84%
+STUDENT: So in this state here,
+we call this the wave function.
+
+00:15:12.090 --> 00:15:13.770 align:middle line:84%
+If we take it, and
+you multiply it
+
+00:15:13.770 --> 00:15:16.040 align:middle line:90%
+by its own complex transpose--
+
+00:15:16.040 --> 00:15:18.480 align:middle line:84%
+can we interpret it
+as a probability?
+
+00:15:18.480 --> 00:15:21.420 align:middle line:84%
+PROFESSOR: Yeah, this is the
+comment I'm going to make now.
+
+00:15:21.420 --> 00:15:24.210 align:middle line:90%
+Yeah, this is a good question.
+
+00:15:24.210 --> 00:15:26.610 align:middle line:90%
+So we cannot really--
+
+00:15:26.610 --> 00:15:31.560 align:middle line:90%
+so we cannot-- so in general--
+
+00:15:31.560 --> 00:15:49.850 align:middle line:84%
+so psi x prime, in general,
+cannot be interpreted as giving
+
+00:15:49.850 --> 00:16:05.445 align:middle line:84%
+the probability of
+the particle at x.
+
+00:16:05.445 --> 00:16:12.060 align:middle line:90%
+
+
+00:16:12.060 --> 00:16:15.270 align:middle line:84%
+So the reason we cannot do
+that is because this is not--
+
+00:16:15.270 --> 00:16:18.995 align:middle line:84%
+because x is not the
+genuine position eigenstate.
+
+00:16:18.995 --> 00:16:20.370 align:middle line:84%
+And also in quantum
+field theory,
+
+00:16:20.370 --> 00:16:22.730 align:middle line:90%
+we don't really have this--
+
+00:16:22.730 --> 00:16:26.450 align:middle line:84%
+we don't really have this
+proper sense of talking about--
+
+00:16:26.450 --> 00:16:30.470 align:middle line:84%
+you cannot really-- in general,
+you cannot separate the single
+
+00:16:30.470 --> 00:16:33.230 align:middle line:84%
+particle with multiple
+particle exactly, in general,
+
+00:16:33.230 --> 00:16:34.910 align:middle line:90%
+in quantum field theory.
+
+00:16:34.910 --> 00:16:40.320 align:middle line:84%
+In free theory, you can because
+there is no interaction.
+
+00:16:40.320 --> 00:16:44.390 align:middle line:90%
+But in general, you cannot.
+
+00:16:44.390 --> 00:16:46.280 align:middle line:84%
+So the reason this
+is a side remark
+
+00:16:46.280 --> 00:16:49.160 align:middle line:84%
+is that this is
+often used by people,
+
+00:16:49.160 --> 00:16:53.390 align:middle line:84%
+and they just call
+it a wave function.
+
+00:16:53.390 --> 00:16:54.920 align:middle line:84%
+But you should
+keep in mind what's
+
+00:16:54.920 --> 00:16:58.640 align:middle line:84%
+the content of this
+object, and it's not
+
+00:16:58.640 --> 00:17:02.510 align:middle line:84%
+something you can
+actually rigorously define
+
+00:17:02.510 --> 00:17:06.380 align:middle line:84%
+both mathematically and
+physically as a wave function.
+
+00:17:06.380 --> 00:17:11.290 align:middle line:90%
+
+
+00:17:11.290 --> 00:17:12.405 align:middle line:90%
+Any questions on this?
+
+00:17:12.405 --> 00:17:14.905 align:middle line:90%
+
+
+00:17:14.905 --> 00:17:16.280 align:middle line:84%
+STUDENT: So could
+you explain how
+
+00:17:16.280 --> 00:17:19.430 align:middle line:90%
+you got e to the negative i?
+
+00:17:19.430 --> 00:17:21.819 align:middle line:84%
+PROFESSOR: Oh, you
+just calculate.
+
+00:17:21.819 --> 00:17:24.609 align:middle line:90%
+
+
+00:17:24.609 --> 00:17:28.300 align:middle line:84%
+But it's very easy to see how
+you get that because remember,
+
+00:17:28.300 --> 00:17:30.070 align:middle line:90%
+phi x is--
+
+00:17:30.070 --> 00:17:36.440 align:middle line:84%
+phi x can be expanded in terms
+of a u plus a dagger u star.
+
+00:17:36.440 --> 00:17:39.790 align:middle line:84%
+And the k is obtained
+by a dagger acting on 0.
+
+00:17:39.790 --> 00:17:44.710 align:middle line:84%
+Essentially, just a and a dagger
+part, and give you this object,
+
+00:17:44.710 --> 00:17:48.500 align:middle line:84%
+and a part proportional to
+u, and that's how you get it.
+
+00:17:48.500 --> 00:17:52.570 align:middle line:90%
+
+
+00:17:52.570 --> 00:17:53.070 align:middle line:90%
+Good?
+
+00:17:53.070 --> 00:17:57.780 align:middle line:90%
+
+
+00:17:57.780 --> 00:18:02.310 align:middle line:84%
+So when we compute
+this object explicitly,
+
+00:18:02.310 --> 00:18:05.700 align:middle line:84%
+you will get a
+more precise sense
+
+00:18:05.700 --> 00:18:10.470 align:middle line:84%
+what I mean that this
+is an approximation.
+
+00:18:10.470 --> 00:18:12.340 align:middle line:84%
+You will get a
+more precise sense.
+
+00:18:12.340 --> 00:18:14.610 align:middle line:90%
+And so this--
+
+00:18:14.610 --> 00:18:16.548 align:middle line:84%
+I'll now defer that a
+little bit because I
+
+00:18:16.548 --> 00:18:18.215 align:middle line:84%
+want to talk about
+something else first.
+
+00:18:18.215 --> 00:18:21.690 align:middle line:90%
+
+
+00:18:21.690 --> 00:18:22.190 align:middle line:90%
+Good.
+
+00:18:22.190 --> 00:18:23.030 align:middle line:90%
+Other questions?
+
+00:18:23.030 --> 00:18:27.400 align:middle line:90%
+
+
+00:18:27.400 --> 00:18:32.760 align:middle line:84%
+So here-- so this actually
+is a very important object.
+
+00:18:32.760 --> 00:18:34.680 align:middle line:90%
+Forget about this definition.
+
+00:18:34.680 --> 00:18:38.730 align:middle line:84%
+So this object-- yeah, let me
+just write this object again.
+
+00:18:38.730 --> 00:18:41.570 align:middle line:90%
+So this G plus--
+
+00:18:41.570 --> 00:18:49.010 align:middle line:84%
+so this object 0 phi
+x and phi x prime 0--
+
+00:18:49.010 --> 00:18:58.190 align:middle line:84%
+so we motivated as this
+overlap between these two
+
+00:18:58.190 --> 00:19:00.050 align:middle line:90%
+localized states--
+
+00:19:00.050 --> 00:19:02.697 align:middle line:84%
+these two approximate
+localized states.
+
+00:19:02.697 --> 00:19:04.280 align:middle line:84%
+But in quantum field
+theory, actually,
+
+00:19:04.280 --> 00:19:09.380 align:middle line:84%
+this is a very important object,
+and actually, we normally
+
+00:19:09.380 --> 00:19:13.760 align:middle line:84%
+assign a rotation G
+plus with this object.
+
+00:19:13.760 --> 00:19:16.910 align:middle line:84%
+And so the application
+of this object,
+
+00:19:16.910 --> 00:19:19.430 align:middle line:84%
+we will not talk
+too much about it.
+
+00:19:19.430 --> 00:19:21.860 align:middle line:90%
+But in condensed matter--
+
+00:19:21.860 --> 00:19:24.140 align:middle line:84%
+for example, say
+in phi, describes
+
+00:19:24.140 --> 00:19:26.990 align:middle line:84%
+some approximate-- some
+continuum description of a spin
+
+00:19:26.990 --> 00:19:27.770 align:middle line:90%
+system.
+
+00:19:27.770 --> 00:19:30.500 align:middle line:84%
+And then this would be
+measure the correlation
+
+00:19:30.500 --> 00:19:33.470 align:middle line:84%
+between the spins at
+different locations--
+
+00:19:33.470 --> 00:19:35.450 align:middle line:84%
+at different locations
+and different time.
+
+00:19:35.450 --> 00:19:37.733 align:middle line:84%
+So this is what people call
+the correlation functions.
+
+00:19:37.733 --> 00:19:40.400 align:middle line:84%
+And so in condensed matter, this
+actually plays a very important
+
+00:19:40.400 --> 00:19:43.520 align:middle line:84%
+role, and matches
+the correlation
+
+00:19:43.520 --> 00:19:47.450 align:middle line:84%
+between different
+physical objects.
+
+00:19:47.450 --> 00:19:50.825 align:middle line:90%
+And so here-- so when x--
+
+00:19:50.825 --> 00:19:54.340 align:middle line:90%
+
+
+00:19:54.340 --> 00:19:59.920 align:middle line:84%
+for x and x prime,
+at non-equal time--
+
+00:19:59.920 --> 00:20:05.460 align:middle line:90%
+
+
+00:20:05.460 --> 00:20:11.670 align:middle line:84%
+in general, phi x and phi
+x prime do not commute.
+
+00:20:11.670 --> 00:20:16.270 align:middle line:90%
+
+
+00:20:16.270 --> 00:20:18.460 align:middle line:84%
+Remember our
+commutation relation--
+
+00:20:18.460 --> 00:20:20.800 align:middle line:84%
+canonical commutation
+relation is phi--
+
+00:20:20.800 --> 00:20:23.050 align:middle line:84%
+phi x and phi x
+prime, they commute
+
+00:20:23.050 --> 00:20:25.300 align:middle line:90%
+when they at equal time.
+
+00:20:25.300 --> 00:20:29.620 align:middle line:84%
+When they are not
+equal time, in general,
+
+00:20:29.620 --> 00:20:32.320 align:middle line:90%
+they don't have to commute.
+
+00:20:32.320 --> 00:20:35.740 align:middle line:84%
+So the ordering here
+is actually important.
+
+00:20:35.740 --> 00:20:45.940 align:middle line:84%
+So the ordering of phi in G
+plus is actually important.
+
+00:20:45.940 --> 00:20:52.120 align:middle line:90%
+
+
+00:20:52.120 --> 00:20:56.410 align:middle line:90%
+So if I define some--
+
+00:20:56.410 --> 00:21:00.380 align:middle line:84%
+I can consider a lot of objects
+with a different ordering.
+
+00:21:00.380 --> 00:21:03.550 align:middle line:84%
+Say if I put the
+phi x prime first,
+
+00:21:03.550 --> 00:21:07.720 align:middle line:84%
+I can also consider this object
+for the phi x prime first.
+
+00:21:07.720 --> 00:21:10.720 align:middle line:90%
+
+
+00:21:10.720 --> 00:21:12.460 align:middle line:90%
+So this is normally called--
+
+00:21:12.460 --> 00:21:15.830 align:middle line:84%
+now, this is a different
+function in general
+
+00:21:15.830 --> 00:21:18.860 align:middle line:84%
+because they don't commute
+and we call it G minus.
+
+00:21:18.860 --> 00:21:25.090 align:middle line:90%
+
+
+00:21:25.090 --> 00:21:29.570 align:middle line:84%
+So this is also
+appropriately just x prime x.
+
+00:21:29.570 --> 00:21:34.300 align:middle line:84%
+So this is the x
+prime x and this is
+
+00:21:34.300 --> 00:21:39.950 align:middle line:90%
+using that notation is x prime.
+
+00:21:39.950 --> 00:21:43.865 align:middle line:84%
+And so in general, G plus and
+G minus, they are not the same.
+
+00:21:43.865 --> 00:21:46.520 align:middle line:90%
+
+
+00:21:46.520 --> 00:21:51.940 align:middle line:84%
+So you can also define
+some other functions--
+
+00:21:51.940 --> 00:21:57.520 align:middle line:84%
+say since the phi and phi x
+and phi x prime don't commute,
+
+00:21:57.520 --> 00:21:58.720 align:middle line:90%
+then you say--
+
+00:21:58.720 --> 00:22:01.810 align:middle line:84%
+then we can consider
+more general orderings.
+
+00:22:01.810 --> 00:22:04.840 align:middle line:84%
+We can consider the
+superposition of these two.
+
+00:22:04.840 --> 00:22:13.050 align:middle line:84%
+So you can consider the
+retarded function so-called,
+
+00:22:13.050 --> 00:22:18.120 align:middle line:84%
+which is defined to be the
+theta t minus t prime--
+
+00:22:18.120 --> 00:22:21.110 align:middle line:90%
+
+
+00:22:21.110 --> 00:22:25.610 align:middle line:84%
+the commutator of phi
+x and phi x prime.
+
+00:22:25.610 --> 00:22:28.670 align:middle line:90%
+
+
+00:22:28.670 --> 00:22:33.040 align:middle line:84%
+So this is some other
+object you can define,
+
+00:22:33.040 --> 00:22:36.220 align:middle line:84%
+which is the difference
+between the two,
+
+00:22:36.220 --> 00:22:41.320 align:middle line:84%
+but it only takes value when
+t is greater than t prime.
+
+00:22:41.320 --> 00:22:43.930 align:middle line:84%
+So when t is smaller than
+t prime, then it's 0.
+
+00:22:43.930 --> 00:22:48.680 align:middle line:84%
+So this is another other
+object we often use.
+
+00:22:48.680 --> 00:22:53.660 align:middle line:84%
+And so this often is denoted
+by theta t minus t prime,
+
+00:22:53.660 --> 00:22:57.180 align:middle line:84%
+and call this object-- this
+commutator to be delta t,
+
+00:22:57.180 --> 00:23:00.420 align:middle line:90%
+t prime.
+
+00:23:00.420 --> 00:23:03.600 align:middle line:84%
+So sometimes, people also
+use the following object--
+
+00:23:03.600 --> 00:23:10.440 align:middle line:84%
+the G A equal to minus
+t, t prime minus t.
+
+00:23:10.440 --> 00:23:13.590 align:middle line:84%
+So only it's non-zero
+when t prime is
+
+00:23:13.590 --> 00:23:16.170 align:middle line:90%
+greater than t and the delta.
+
+00:23:16.170 --> 00:23:16.850 align:middle line:90%
+Oh, sorry.
+
+00:23:16.850 --> 00:23:19.310 align:middle line:90%
+Here, it should be x, x prime.
+
+00:23:19.310 --> 00:23:25.440 align:middle line:90%
+
+
+00:23:25.440 --> 00:23:28.590 align:middle line:84%
+And finally, you
+can define an object
+
+00:23:28.590 --> 00:23:31.920 align:middle line:90%
+called G F which is half--
+
+00:23:31.920 --> 00:23:33.390 align:middle line:90%
+so this is called the retarded.
+
+00:23:33.390 --> 00:23:35.670 align:middle line:84%
+This is called
+advanced, which is
+
+00:23:35.670 --> 00:23:38.760 align:middle line:84%
+like half of the retarded
+and half advanced.
+
+00:23:38.760 --> 00:23:44.450 align:middle line:84%
+So when t greater than t
+prime, you take the G plus.
+
+00:23:44.450 --> 00:23:47.690 align:middle line:90%
+And when t is greater than--
+
+00:23:47.690 --> 00:23:50.390 align:middle line:90%
+t prime greater than t--
+
+00:23:50.390 --> 00:23:51.650 align:middle line:90%
+let me do it here--
+
+00:23:51.650 --> 00:23:58.810 align:middle line:90%
+
+
+00:23:58.810 --> 00:24:00.190 align:middle line:90%
+you do G minus.
+
+00:24:00.190 --> 00:24:03.700 align:middle line:90%
+
+
+00:24:03.700 --> 00:24:06.670 align:middle line:84%
+Again, this G F is a
+function of x and x prime.
+
+00:24:06.670 --> 00:24:09.850 align:middle line:90%
+
+
+00:24:09.850 --> 00:24:12.340 align:middle line:84%
+So because they don't commute,
+so these are various objects
+
+00:24:12.340 --> 00:24:14.140 align:middle line:90%
+you can define.
+
+00:24:14.140 --> 00:24:15.940 align:middle line:90%
+So one second.
+
+00:24:15.940 --> 00:24:20.680 align:middle line:84%
+So at the moment, they may seem
+not very intuitive to you--
+
+00:24:20.680 --> 00:24:23.650 align:middle line:84%
+why should we be worried
+about those objects.
+
+00:24:23.650 --> 00:24:27.910 align:middle line:84%
+And later, you will see
+actually some of those objects
+
+00:24:27.910 --> 00:24:33.190 align:middle line:84%
+play a very important role,
+and some of these objects
+
+00:24:33.190 --> 00:24:36.960 align:middle line:90%
+will play a very important role.
+
+00:24:36.960 --> 00:24:39.060 align:middle line:84%
+Yeah, for now, they're
+just some definitions which
+
+00:24:39.060 --> 00:24:40.840 align:middle line:90%
+we will use potentially later.
+
+00:24:40.840 --> 00:24:41.340 align:middle line:90%
+Yes?
+
+00:24:41.340 --> 00:24:47.610 align:middle line:84%
+STUDENT: So considering spins
+on a lattice, would x and x
+
+00:24:47.610 --> 00:24:52.000 align:middle line:84%
+prime be the positions of
+the spins on the lattice?
+
+00:24:52.000 --> 00:24:56.940 align:middle line:84%
+So why would it physically
+differ one I define which--
+
+00:24:56.940 --> 00:25:00.430 align:middle line:84%
+it seems arbitrary
+to switch them right?
+
+00:25:00.430 --> 00:25:03.320 align:middle line:84%
+PROFESSOR: Yeah, if you
+do them at equal time,
+
+00:25:03.320 --> 00:25:05.260 align:middle line:90%
+then it doesn't matter.
+
+00:25:05.260 --> 00:25:07.030 align:middle line:84%
+But remember, x
+and x prime, they
+
+00:25:07.030 --> 00:25:11.230 align:middle line:84%
+don't have the same time, and if
+they're not at the same time--
+
+00:25:11.230 --> 00:25:13.690 align:middle line:84%
+and then actually, sometimes,
+the ordering matters.
+
+00:25:13.690 --> 00:25:16.930 align:middle line:84%
+Yeah, whether you do this
+measurement first, and then
+
+00:25:16.930 --> 00:25:19.150 align:middle line:84%
+you wait a while to
+do that measurement,
+
+00:25:19.150 --> 00:25:22.060 align:middle line:84%
+or you do this measurement
+first and then-- yeah,
+
+00:25:22.060 --> 00:25:25.230 align:middle line:90%
+then that can be different.
+
+00:25:25.230 --> 00:25:26.175 align:middle line:90%
+Yeah?
+
+00:25:26.175 --> 00:25:30.110 align:middle line:84%
+STUDENT: So G minus is
+x' inner product with x?
+
+00:25:30.110 --> 00:25:31.922 align:middle line:90%
+PROFESSOR: Oh, yeah.
+
+00:25:31.922 --> 00:25:34.695 align:middle line:84%
+STUDENT: G plus just uh,
+wouldn't it just be--
+
+00:25:34.695 --> 00:25:36.320 align:middle line:84%
+PROFESSOR: Yeah, just
+they're switched.
+
+00:25:36.320 --> 00:25:40.140 align:middle line:84%
+Yeah, remember this
+order is important.
+
+00:25:40.140 --> 00:25:46.690 align:middle line:84%
+So here, I have x first
+and x prime second.
+
+00:25:46.690 --> 00:25:50.260 align:middle line:90%
+So this order is different--
+
+00:25:50.260 --> 00:25:51.190 align:middle line:90%
+is important.
+
+00:25:51.190 --> 00:25:52.957 align:middle line:84%
+STUDENT: But is G minus then
+just the complex congugate
+
+00:25:52.957 --> 00:25:53.400 align:middle line:90%
+of G plus?
+
+00:25:53.400 --> 00:25:55.692 align:middle line:84%
+PROFESSOR: Yeah, it is the
+complex congugate of G plus.
+
+00:25:55.692 --> 00:25:59.703 align:middle line:90%
+
+
+00:25:59.703 --> 00:26:00.370 align:middle line:90%
+Other questions?
+
+00:26:00.370 --> 00:26:00.940 align:middle line:90%
+Yeah?
+
+00:26:00.940 --> 00:26:03.148 align:middle line:84%
+STUDENT: Yeah, so like the
+retarded and advanced ones
+
+00:26:03.148 --> 00:26:08.440 align:middle line:84%
+aren't like Lorentz covariant
+because of the theta function?
+
+00:26:08.440 --> 00:26:11.980 align:middle line:84%
+PROFESSOR: Yeah, we
+will talk about that.
+
+00:26:11.980 --> 00:26:17.400 align:middle line:90%
+Yeah, they are actually.
+
+00:26:17.400 --> 00:26:18.289 align:middle line:90%
+Yes?
+
+00:26:18.289 --> 00:26:20.247 align:middle line:84%
+STUDENT: Can you go back
+and explain more about
+
+00:26:20.247 --> 00:26:22.970 align:middle line:84%
+why the non-equal time
+non-equal position
+
+00:26:22.970 --> 00:26:25.590 align:middle line:90%
+operators don't commute?
+
+00:26:25.590 --> 00:26:30.070 align:middle line:84%
+PROFESSOR: Yeah, it
+just say our canonical--
+
+00:26:30.070 --> 00:26:32.110 align:middle line:84%
+yeah, our canonical
+commutation relation
+
+00:26:32.110 --> 00:26:36.660 align:middle line:84%
+only requires them to
+commute at the equal time.
+
+00:26:36.660 --> 00:26:39.960 align:middle line:84%
+And when they are not equal
+time, and each of them
+
+00:26:39.960 --> 00:26:42.090 align:middle line:90%
+will evolve.
+
+00:26:42.090 --> 00:26:48.060 align:middle line:84%
+And remember, the
+phi itself is--
+
+00:26:48.060 --> 00:26:50.080 align:middle line:90%
+phi itself depends on time.
+
+00:26:50.080 --> 00:26:53.130 align:middle line:90%
+Yeah, so let me just--
+
+00:26:53.130 --> 00:26:54.472 align:middle line:90%
+if I just write the--
+
+00:26:54.472 --> 00:26:57.360 align:middle line:90%
+
+
+00:26:57.360 --> 00:26:59.160 align:middle line:90%
+yeah, let me just write the--
+
+00:26:59.160 --> 00:27:10.230 align:middle line:84%
+so this is the k, say a k u k
+plus a k dagger u k dagger u k
+
+00:27:10.230 --> 00:27:12.570 align:middle line:90%
+star.
+
+00:27:12.570 --> 00:27:15.270 align:middle line:84%
+So this is my
+expression for phi.
+
+00:27:15.270 --> 00:27:17.900 align:middle line:90%
+
+
+00:27:17.900 --> 00:27:19.970 align:middle line:84%
+So canonical
+commutation relation
+
+00:27:19.970 --> 00:27:24.620 align:middle line:84%
+only requires that they are
+equal when t equal to t prime.
+
+00:27:24.620 --> 00:27:26.600 align:middle line:84%
+But when t is not
+equal to t prime,
+
+00:27:26.600 --> 00:27:28.160 align:middle line:84%
+I just have some
+general expression.
+
+00:27:28.160 --> 00:27:31.980 align:middle line:84%
+I do the commutator-- does
+not guarantee you will get 0.
+
+00:27:31.980 --> 00:27:33.688 align:middle line:90%
+Yeah, you just get--
+
+00:27:33.688 --> 00:27:34.980 align:middle line:90%
+yeah, you have different terms.
+
+00:27:34.980 --> 00:27:38.540 align:middle line:90%
+They may not cancel each other.
+
+00:27:38.540 --> 00:27:42.140 align:middle line:84%
+So at t equal to 0, we guarantee
+that they cancel each other,
+
+00:27:42.140 --> 00:27:44.647 align:middle line:84%
+but when t is not
+equal to 0, then not
+
+00:27:44.647 --> 00:27:45.980 align:middle line:90%
+guaranteed to cancel each other.
+
+00:27:45.980 --> 00:27:49.280 align:middle line:84%
+But we will figure out when
+they cancel, will not cancel.
+
+00:27:49.280 --> 00:27:52.070 align:middle line:84%
+Yeah, we will talk about
+that more explicitly.
+
+00:27:52.070 --> 00:27:53.117 align:middle line:90%
+Yes?
+
+00:27:53.117 --> 00:27:55.367 align:middle line:84%
+STUDENT: Is it correct that
+if the point are spacelike
+
+00:27:55.367 --> 00:27:58.510 align:middle line:84%
+separated then we can
+rotate so that t --
+
+00:27:58.510 --> 00:28:01.155 align:middle line:90%
+to a frame where t --?
+
+00:28:01.155 --> 00:28:02.780 align:middle line:84%
+PROFESSOR: Yeah, we
+will talk about it.
+
+00:28:02.780 --> 00:28:03.280 align:middle line:90%
+Yeah--
+
+00:28:03.280 --> 00:28:04.750 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+00:28:04.750 --> 00:28:08.130 align:middle line:84%
+PROFESSOR: Yeah, we
+will talk about that.
+
+00:28:08.130 --> 00:28:09.900 align:middle line:90%
+Good?
+
+00:28:09.900 --> 00:28:13.770 align:middle line:84%
+So let me just emphasize again,
+this is something in principle
+
+00:28:13.770 --> 00:28:15.180 align:middle line:90%
+you can define.
+
+00:28:15.180 --> 00:28:19.800 align:middle line:84%
+And it's phys-- some of its
+meaning will be clear later.
+
+00:28:19.800 --> 00:28:24.120 align:middle line:84%
+And in the next pset-- not in
+this pset-- in the next p set,
+
+00:28:24.120 --> 00:28:27.480 align:middle line:84%
+you will see an example,
+which this thing actually
+
+00:28:27.480 --> 00:28:28.900 align:middle line:90%
+play a very important role.
+
+00:28:28.900 --> 00:28:32.700 align:middle line:84%
+So this is the analog of the
+retarded function in E and M?
+
+00:28:32.700 --> 00:28:35.370 align:middle line:84%
+Do you still remember
+retarded function E and M?
+
+00:28:35.370 --> 00:28:38.370 align:middle line:84%
+And yeah, so this is quantum
+version of this retarded
+
+00:28:38.370 --> 00:28:43.080 align:middle line:84%
+function in E and M. And
+you will see application
+
+00:28:43.080 --> 00:28:45.810 align:middle line:90%
+of this in the pset four.
+
+00:28:45.810 --> 00:28:48.930 align:middle line:84%
+And later, we will use
+this thing all the time.
+
+00:28:48.930 --> 00:28:51.630 align:middle line:84%
+So this G F, we will
+use it all the time
+
+00:28:51.630 --> 00:28:54.960 align:middle line:84%
+when we consider interactions,
+and so that's why
+
+00:28:54.960 --> 00:28:57.300 align:middle line:90%
+we want to introduce it here.
+
+00:28:57.300 --> 00:29:02.190 align:middle line:84%
+And this G plus G minus are
+called the Wightman functions.
+
+00:29:02.190 --> 00:29:07.558 align:middle line:90%
+
+
+00:29:07.558 --> 00:29:09.350 align:middle line:84%
+So sometimes, called
+the Wightman function.
+
+00:29:09.350 --> 00:29:11.790 align:middle line:84%
+The G F is called
+the Feynman function.
+
+00:29:11.790 --> 00:29:15.210 align:middle line:84%
+So Feynman was the first
+person who introduced it.
+
+00:29:15.210 --> 00:29:20.200 align:middle line:90%
+
+
+00:29:20.200 --> 00:29:25.870 align:middle line:84%
+And yeah, so G plus G minus
+was introduced by other people,
+
+00:29:25.870 --> 00:29:30.510 align:middle line:84%
+but Wightman made many
+important use of it
+
+00:29:30.510 --> 00:29:32.260 align:middle line:84%
+in the early days of
+quantum field theory,
+
+00:29:32.260 --> 00:29:33.802 align:middle line:84%
+so it's called the
+Wightman function.
+
+00:29:33.802 --> 00:29:37.460 align:middle line:90%
+
+
+00:29:37.460 --> 00:29:39.950 align:middle line:84%
+So now, let's just study a
+little bit the properties
+
+00:29:39.950 --> 00:29:41.360 align:middle line:90%
+of those functions.
+
+00:29:41.360 --> 00:29:46.820 align:middle line:84%
+So you can also think these
+are essentially the simplest
+
+00:29:46.820 --> 00:29:49.130 align:middle line:90%
+observables of the system.
+
+00:29:49.130 --> 00:29:51.410 align:middle line:84%
+And in particular, if you
+think of them as correlation
+
+00:29:51.410 --> 00:29:53.660 align:middle line:84%
+functions, and then
+that just tells you
+
+00:29:53.660 --> 00:29:56.270 align:middle line:84%
+the correlation between the
+phi at a different point.
+
+00:29:56.270 --> 00:30:00.770 align:middle line:84%
+So this is in some sense,
+also the simplest observables
+
+00:30:00.770 --> 00:30:03.580 align:middle line:90%
+in your theory.
+
+00:30:03.580 --> 00:30:04.080 align:middle line:90%
+Good?
+
+00:30:04.080 --> 00:30:07.390 align:middle line:90%
+Do you have other questions?
+
+00:30:07.390 --> 00:30:07.960 align:middle line:90%
+Yes?
+
+00:30:07.960 --> 00:30:09.418 align:middle line:84%
+STUDENT: So this
+is the correlation
+
+00:30:09.418 --> 00:30:12.570 align:middle line:90%
+for the vacuum state, right?
+
+00:30:12.570 --> 00:30:15.276 align:middle line:84%
+PROFESSOR: Yeah, this is the
+correlation vacuum state.
+
+00:30:15.276 --> 00:30:19.350 align:middle line:84%
+STUDENT: So you have
+a different state?
+
+00:30:19.350 --> 00:30:21.850 align:middle line:84%
+PROFESSOR: Yeah, if you're not
+in a vacuum state, of course,
+
+00:30:21.850 --> 00:30:23.070 align:middle line:90%
+you get a different function.
+
+00:30:23.070 --> 00:30:27.460 align:middle line:84%
+STUDENT: So is there a way
+to measure for other states?
+
+00:30:27.460 --> 00:30:29.320 align:middle line:84%
+PROFESSOR: Yeah,
+you can compute.
+
+00:30:29.320 --> 00:30:33.220 align:middle line:84%
+So in this theory, we
+can compute in any state.
+
+00:30:33.220 --> 00:30:37.345 align:middle line:84%
+But just we often use -- we
+probe in the vacuum state.
+
+00:30:37.345 --> 00:30:40.970 align:middle line:90%
+
+
+00:30:40.970 --> 00:30:42.550 align:middle line:90%
+Other questions?
+
+00:30:42.550 --> 00:30:44.140 align:middle line:84%
+Yeah, for example,
+in the lab, if you
+
+00:30:44.140 --> 00:30:46.390 align:middle line:84%
+can prepare in
+some whatever state
+
+00:30:46.390 --> 00:30:54.060 align:middle line:84%
+you prepare, you calculate
+this object in that state,
+
+00:30:54.060 --> 00:30:55.800 align:middle line:84%
+but the vacuum is
+the simplest one.
+
+00:30:55.800 --> 00:30:56.620 align:middle line:90%
+It's the simplest.
+
+00:30:56.620 --> 00:30:57.120 align:middle line:90%
+Yes?
+
+00:30:57.120 --> 00:31:00.096 align:middle line:84%
+STUDENT: [INAUDIBLE]
+we can, we can
+
+00:31:00.096 --> 00:31:02.576 align:middle line:84%
+define a useful
+localized state in space
+
+00:31:02.576 --> 00:31:05.056 align:middle line:84%
+and [INAUDIBLE] other
+[? state ?] defined
+
+00:31:05.056 --> 00:31:14.000 align:middle line:84%
+is also [INAUDIBLE],, spacetime
+is useful [INAUDIBLE]??
+
+00:31:14.000 --> 00:31:17.750 align:middle line:84%
+PROFESSOR: No, it's
+not quite in spacetime.
+
+00:31:17.750 --> 00:31:20.230 align:middle line:84%
+We will see in what sense
+it's approximate to the local
+
+00:31:20.230 --> 00:31:20.730 align:middle line:90%
+in space.
+
+00:31:20.730 --> 00:31:27.050 align:middle line:90%
+
+
+00:31:27.050 --> 00:31:27.550 align:middle line:90%
+Good.
+
+00:31:27.550 --> 00:31:31.950 align:middle line:84%
+Now, let's just discuss the
+property of those objects.
+
+00:31:31.950 --> 00:31:49.610 align:middle line:84%
+And so the first
+thing is that the--
+
+00:31:49.610 --> 00:31:52.145 align:middle line:84%
+remember the phi satisfy
+the following equation.
+
+00:31:52.145 --> 00:31:54.950 align:middle line:90%
+
+
+00:31:54.950 --> 00:31:59.310 align:middle line:84%
+So this is the operating
+equation satisfy phi.
+
+00:31:59.310 --> 00:32:06.330 align:middle line:90%
+And so if you act this on the--
+
+00:32:06.330 --> 00:32:07.860 align:middle line:90%
+so suppose this is--
+
+00:32:07.860 --> 00:32:09.870 align:middle line:84%
+so here, you have
+two arg-- here,
+
+00:32:09.870 --> 00:32:12.850 align:middle line:84%
+you have two arguments,
+x and x prime.
+
+00:32:12.850 --> 00:32:14.730 align:middle line:84%
+So here, when we write
+differential operator,
+
+00:32:14.730 --> 00:32:16.080 align:middle line:90%
+we always refer to x.
+
+00:32:16.080 --> 00:32:19.050 align:middle line:90%
+It's always derivative of x.
+
+00:32:19.050 --> 00:32:22.070 align:middle line:84%
+So we must satisfy
+this equation.
+
+00:32:22.070 --> 00:32:25.930 align:middle line:84%
+So if you act this on the
+G plus and the G minus,
+
+00:32:25.930 --> 00:32:27.670 align:middle line:90%
+you immediately get 0.
+
+00:32:27.670 --> 00:32:30.820 align:middle line:84%
+So you find-- because
+of [INAUDIBLE] equation,
+
+00:32:30.820 --> 00:32:35.980 align:middle line:84%
+then G plus/minus are just
+x and x prime immediately
+
+00:32:35.980 --> 00:32:40.030 align:middle line:84%
+gives you 0 just because
+phi satisfies this equation.
+
+00:32:40.030 --> 00:32:43.420 align:middle line:84%
+Oh, sorry, it should be
+a minus sign, I think.
+
+00:32:43.420 --> 00:32:45.250 align:middle line:90%
+And similarly, with this--
+
+00:32:45.250 --> 00:32:48.218 align:middle line:84%
+similarly with delta--
+so the delta is
+
+00:32:48.218 --> 00:32:49.510 align:middle line:90%
+the difference between the two.
+
+00:32:49.510 --> 00:32:50.680 align:middle line:90%
+It's the commutator.
+
+00:32:50.680 --> 00:32:54.595 align:middle line:84%
+So the delta is essentially the
+difference between G plus and G
+
+00:32:54.595 --> 00:32:57.160 align:middle line:84%
+minus, so the same
+thing with delta.
+
+00:32:57.160 --> 00:33:15.730 align:middle line:90%
+
+
+00:33:15.730 --> 00:33:17.590 align:middle line:84%
+So this is-- the
+first property is
+
+00:33:17.590 --> 00:33:21.070 align:middle line:84%
+that they satisfy
+the same equation
+
+00:33:21.070 --> 00:33:24.790 align:middle line:84%
+as the classical
+equations of phi.
+
+00:33:24.790 --> 00:33:26.680 align:middle line:84%
+So the G plus and
+delta, they satisfy.
+
+00:33:26.680 --> 00:33:29.260 align:middle line:90%
+
+
+00:33:29.260 --> 00:33:30.310 align:middle line:90%
+And we will talk--
+
+00:33:30.310 --> 00:34:07.320 align:middle line:84%
+and then you can now also
+look at the G F and the G R.
+
+00:34:07.320 --> 00:34:14.540 align:middle line:84%
+So now, if you act this
+object on G R, G A, or G F,
+
+00:34:14.540 --> 00:34:18.150 align:middle line:84%
+the story is a little bit tricky
+because the partial square
+
+00:34:18.150 --> 00:34:20.040 align:middle line:90%
+containing time derivatives.
+
+00:34:20.040 --> 00:34:22.350 align:middle line:84%
+And when you add the time
+derivatives-- and time
+
+00:34:22.350 --> 00:34:25.415 align:middle line:84%
+derivatives do act on
+those theta functions.
+
+00:34:25.415 --> 00:34:27.540 align:middle line:84%
+And when you add time
+derivative on theta function,
+
+00:34:27.540 --> 00:34:30.250 align:middle line:84%
+you will get some delta
+functions, et cetera.
+
+00:34:30.250 --> 00:34:34.310 align:middle line:84%
+And so the story is a
+little bit more intricate.
+
+00:34:34.310 --> 00:34:38.219 align:middle line:84%
+But if you just
+carry it through--
+
+00:34:38.219 --> 00:34:40.940 align:middle line:84%
+it just carries through--
+then you can show.
+
+00:34:40.940 --> 00:34:43.489 align:middle line:84%
+And so this is a
+simple exercise you
+
+00:34:43.489 --> 00:34:45.020 align:middle line:90%
+should try to show yourself--
+
+00:34:45.020 --> 00:34:46.699 align:middle line:90%
+we'll not do it here--
+
+00:34:46.699 --> 00:34:55.920 align:middle line:84%
+that you find, you
+act this on the G R A,
+
+00:34:55.920 --> 00:34:59.700 align:middle line:84%
+and F. You get actually
+the-- any of them,
+
+00:34:59.700 --> 00:35:01.800 align:middle line:90%
+you get the same equation.
+
+00:35:01.800 --> 00:35:04.710 align:middle line:84%
+You get the right-hand
+side becomes--
+
+00:35:04.710 --> 00:35:08.770 align:middle line:84%
+it's non-zero-- actually
+gives you a delta function.
+
+00:35:08.770 --> 00:35:10.930 align:middle line:84%
+So this is a four-dimensional
+delta function.
+
+00:35:10.930 --> 00:35:13.155 align:middle line:84%
+So in both in spatial
+location and in time.
+
+00:35:13.155 --> 00:35:19.520 align:middle line:90%
+
+
+00:35:19.520 --> 00:35:21.340 align:middle line:84%
+So heuristically,
+you can understand
+
+00:35:21.340 --> 00:35:24.530 align:middle line:84%
+that this delta
+function in time comes
+
+00:35:24.530 --> 00:35:31.670 align:middle line:84%
+from taking derivative
+on theta functions
+
+00:35:31.670 --> 00:35:40.330 align:middle line:84%
+and then the derivative
+in the spatial direction--
+
+00:35:40.330 --> 00:35:43.330 align:middle line:84%
+oh, delta function in
+the spatial direction
+
+00:35:43.330 --> 00:35:46.190 align:middle line:84%
+can come out in
+the following way.
+
+00:35:46.190 --> 00:35:48.590 align:middle line:90%
+So here, you have two--
+
+00:35:48.590 --> 00:35:50.360 align:middle line:84%
+so here, you have
+two time derivatives
+
+00:35:50.360 --> 00:35:51.890 align:middle line:90%
+right in the partial square.
+
+00:35:51.890 --> 00:35:56.000 align:middle line:84%
+So imagine you have one time
+derivative acting on the theta
+
+00:35:56.000 --> 00:35:58.910 align:middle line:84%
+function, and then give you
+a delta function in time.
+
+00:35:58.910 --> 00:36:03.860 align:middle line:84%
+And then if you have one time
+derivative acting on this phi,
+
+00:36:03.860 --> 00:36:06.510 align:middle line:90%
+and then taking it into pi.
+
+00:36:06.510 --> 00:36:09.300 align:middle line:84%
+And then equal time
+commutator then
+
+00:36:09.300 --> 00:36:13.110 align:middle line:84%
+give you a delta function
+in the spatial direction,
+
+00:36:13.110 --> 00:36:16.370 align:middle line:90%
+and so that's how you get that.
+
+00:36:16.370 --> 00:36:19.700 align:middle line:84%
+Yeah, but it's easy
+to check yourself.
+
+00:36:19.700 --> 00:36:21.650 align:middle line:84%
+So this is the first
+property-- is that they
+
+00:36:21.650 --> 00:36:23.370 align:middle line:90%
+satisfy those nice equations.
+
+00:36:23.370 --> 00:36:26.170 align:middle line:90%
+
+
+00:36:26.170 --> 00:36:32.560 align:middle line:84%
+The second property is
+that phi x and phi x prime,
+
+00:36:32.560 --> 00:36:35.110 align:middle line:84%
+even though in general
+they don't commute,
+
+00:36:35.110 --> 00:36:46.110 align:middle line:84%
+but they actually commute
+for space-like separations.
+
+00:36:46.110 --> 00:36:51.420 align:middle line:90%
+
+
+00:36:51.420 --> 00:36:55.190 align:middle line:84%
+So that means that if you
+look at the commutator of phi
+
+00:36:55.190 --> 00:36:59.040 align:middle line:84%
+x and phi x prime,
+this is actually
+
+00:36:59.040 --> 00:37:06.220 align:middle line:84%
+equal to 0 for x minus x prime
+greater than square greater
+
+00:37:06.220 --> 00:37:10.170 align:middle line:84%
+than 0 for space-like
+separations.
+
+00:37:10.170 --> 00:37:14.160 align:middle line:90%
+
+
+00:37:14.160 --> 00:37:17.680 align:middle line:84%
+So this can be checked by
+expression computation.
+
+00:37:17.680 --> 00:37:20.130 align:middle line:84%
+So we know the mode
+expression of phi.
+
+00:37:20.130 --> 00:37:22.370 align:middle line:90%
+You can just do it commutator--
+
+00:37:22.370 --> 00:37:25.140 align:middle line:90%
+yeah, you can just check it.
+
+00:37:25.140 --> 00:37:26.910 align:middle line:90%
+But you can also--
+
+00:37:26.910 --> 00:37:29.640 align:middle line:84%
+but there's also a simple
+argument to make it.
+
+00:37:29.640 --> 00:37:33.200 align:middle line:90%
+
+
+00:37:33.200 --> 00:37:39.590 align:middle line:84%
+So you can do-- you can check
+by expression computation.
+
+00:37:39.590 --> 00:37:46.790 align:middle line:90%
+
+
+00:37:46.790 --> 00:37:48.695 align:middle line:84%
+So here, I give you
+alternative argument.
+
+00:37:48.695 --> 00:37:56.310 align:middle line:90%
+
+
+00:37:56.310 --> 00:37:59.640 align:middle line:84%
+Here, I give you an
+alternative derivation.
+
+00:37:59.640 --> 00:38:05.650 align:middle line:84%
+So yeah, it's very simple,
+but let me just divide it
+
+00:38:05.650 --> 00:38:07.615 align:middle line:90%
+into three small steps.
+
+00:38:07.615 --> 00:38:10.480 align:middle line:90%
+
+
+00:38:10.480 --> 00:38:13.910 align:middle line:90%
+So essentially, by definition--
+
+00:38:13.910 --> 00:38:15.490 align:middle line:84%
+so let's just
+consider-- yeah, we
+
+00:38:15.490 --> 00:38:19.840 align:middle line:84%
+consider the commutator, which
+here we call to be delta.
+
+00:38:19.840 --> 00:38:22.850 align:middle line:90%
+So the delta x plus/minus--
+
+00:38:22.850 --> 00:38:25.570 align:middle line:84%
+oh, x and x prime,
+which is the commutator.
+
+00:38:25.570 --> 00:38:28.210 align:middle line:90%
+
+
+00:38:28.210 --> 00:38:30.010 align:middle line:90%
+Yeah, let me define--
+
+00:38:30.010 --> 00:38:34.090 align:middle line:84%
+yeah, sorry--
+yeah, so delta here
+
+00:38:34.090 --> 00:38:39.550 align:middle line:84%
+is the expectation value of 0,
+so let me call this delta hat.
+
+00:38:39.550 --> 00:38:41.980 align:middle line:84%
+So the delta hat is defined
+to be the commutator.
+
+00:38:41.980 --> 00:38:49.790 align:middle line:90%
+
+
+00:38:49.790 --> 00:38:52.490 align:middle line:84%
+So the first claim is that
+this is actually a C number.
+
+00:38:52.490 --> 00:38:57.520 align:middle line:90%
+
+
+00:38:57.520 --> 00:39:03.070 align:middle line:84%
+So this is C number, and
+the reason is very simple.
+
+00:39:03.070 --> 00:39:06.960 align:middle line:84%
+So just some constant-- even if
+it's non-zero can, at the most,
+
+00:39:06.960 --> 00:39:08.670 align:middle line:90%
+be a constant.
+
+00:39:08.670 --> 00:39:10.650 align:middle line:84%
+Be some-- yeah,
+but C number means
+
+00:39:10.650 --> 00:39:14.490 align:middle line:90%
+that it's not an operator.
+
+00:39:14.490 --> 00:39:16.530 align:middle line:84%
+So the reason this
+is C number is
+
+00:39:16.530 --> 00:39:21.090 align:middle line:84%
+because if you look at the phi,
+it's linear in a and a dagger.
+
+00:39:21.090 --> 00:39:25.410 align:middle line:84%
+If you look at the commutator
+between phi and phi itself,
+
+00:39:25.410 --> 00:39:28.980 align:middle line:84%
+you always just get commuted
+between a and a dagger.
+
+00:39:28.980 --> 00:39:32.490 align:middle line:84%
+a and a dagger just
+give you a constant,
+
+00:39:32.490 --> 00:39:37.280 align:middle line:84%
+and so this just--
+you get some C number.
+
+00:39:37.280 --> 00:39:43.160 align:middle line:84%
+So in fact-- so this delta hat
+is actually the same as delta
+
+00:39:43.160 --> 00:39:44.760 align:middle line:84%
+because the, if
+your C number, you
+
+00:39:44.760 --> 00:39:46.760 align:middle line:84%
+take this expectation
+value doesn't do anything.
+
+00:39:46.760 --> 00:39:49.470 align:middle line:90%
+
+
+00:39:49.470 --> 00:39:56.010 align:middle line:84%
+So the second step is that
+now let's consider the Lorentz
+
+00:39:56.010 --> 00:39:57.810 align:middle line:90%
+transformation--
+
+00:39:57.810 --> 00:40:02.190 align:middle line:84%
+the operator, which generates
+the Lorentz transformation,
+
+00:40:02.190 --> 00:40:04.460 align:middle line:90%
+which is given by--
+
+00:40:04.460 --> 00:40:06.810 align:middle line:84%
+remember, we
+discussed last time.
+
+00:40:06.810 --> 00:40:11.220 align:middle line:90%
+
+
+00:40:11.220 --> 00:40:13.520 align:middle line:90%
+So this is the generator.
+
+00:40:13.520 --> 00:40:16.900 align:middle line:84%
+So this is the unitary--
+so this is operator
+
+00:40:16.900 --> 00:40:19.069 align:middle line:90%
+of Lorentz transformation.
+
+00:40:19.069 --> 00:40:25.670 align:middle line:90%
+
+
+00:40:25.670 --> 00:40:29.770 align:middle line:90%
+Let's look at this object.
+
+00:40:29.770 --> 00:40:31.330 align:middle line:90%
+And then by definition--
+
+00:40:31.330 --> 00:40:34.120 align:middle line:90%
+
+
+00:40:34.120 --> 00:40:40.800 align:middle line:84%
+so this object acting
+on phi x dagger
+
+00:40:40.800 --> 00:40:44.250 align:middle line:90%
+will give you phi prime x.
+
+00:40:44.250 --> 00:40:47.340 align:middle line:84%
+And phi prime x transforms
+phi under the Lorentz
+
+00:40:47.340 --> 00:40:48.840 align:middle line:84%
+transformation, and
+this is the same
+
+00:40:48.840 --> 00:40:52.600 align:middle line:84%
+as you just do an
+inverse Lorentz transform
+
+00:40:52.600 --> 00:40:54.250 align:middle line:90%
+on the coordinates.
+
+00:40:54.250 --> 00:40:57.420 align:middle line:90%
+So this is the--
+
+00:40:57.420 --> 00:40:59.730 align:middle line:90%
+so by the way, just--
+
+00:40:59.730 --> 00:41:03.340 align:middle line:84%
+do you feel comfortable
+about this equation?
+
+00:41:03.340 --> 00:41:06.080 align:middle line:84%
+Do you know where this
+equation comes from?
+
+00:41:06.080 --> 00:41:07.580 align:middle line:84%
+So you're all
+comfortable with this?
+
+00:41:07.580 --> 00:41:08.180 align:middle line:90%
+OK, good.
+
+00:41:08.180 --> 00:41:15.110 align:middle line:90%
+
+
+00:41:15.110 --> 00:41:19.100 align:middle line:84%
+So by definition, U
+acts on phi as this.
+
+00:41:19.100 --> 00:41:21.560 align:middle line:90%
+So now, let's just act both--
+
+00:41:21.560 --> 00:41:25.835 align:middle line:84%
+act U and U lambda dagger on
+both sides of this equation.
+
+00:41:25.835 --> 00:41:32.800 align:middle line:90%
+
+
+00:41:32.800 --> 00:41:35.240 align:middle line:90%
+And then we get--
+
+00:41:35.240 --> 00:41:37.320 align:middle line:90%
+so on the right-hand side--
+
+00:41:37.320 --> 00:41:41.990 align:middle line:84%
+so this is a unitary operator
+-- because the M is Hermitian,
+
+00:41:41.990 --> 00:41:43.370 align:middle line:90%
+this is a unitary operator.
+
+00:41:43.370 --> 00:41:46.100 align:middle line:84%
+So the right-hand side, you
+just go back to this C number.
+
+00:41:46.100 --> 00:41:47.900 align:middle line:90%
+It does not change.
+
+00:41:47.900 --> 00:41:49.670 align:middle line:90%
+So the equation does not change.
+
+00:41:49.670 --> 00:41:53.250 align:middle line:90%
+And the left-hand side--
+
+00:41:53.250 --> 00:41:56.270 align:middle line:90%
+so the delta is the same.
+
+00:41:56.270 --> 00:41:57.875 align:middle line:90%
+So you find that the--
+
+00:41:57.875 --> 00:42:01.100 align:middle line:90%
+
+
+00:42:01.100 --> 00:42:06.020 align:middle line:84%
+yeah, so you find the
+delta x prime, which
+
+00:42:06.020 --> 00:42:07.400 align:middle line:90%
+is equal to this C number.
+
+00:42:07.400 --> 00:42:14.330 align:middle line:84%
+Then, it's the same as
+U Lambda phi x phi x
+
+00:42:14.330 --> 00:42:18.050 align:middle line:90%
+prime and the U lambda dagger.
+
+00:42:18.050 --> 00:42:22.410 align:middle line:84%
+And that gives
+you-- me phi lambda
+
+00:42:22.410 --> 00:42:27.810 align:middle line:84%
+minus 1 x commutator with phi
+lambda 1-- minus 1 x prime.
+
+00:42:27.810 --> 00:42:31.140 align:middle line:84%
+So that's the same
+as delta lambda
+
+00:42:31.140 --> 00:42:33.240 align:middle line:90%
+x and the lambda x prime.
+
+00:42:33.240 --> 00:43:09.590 align:middle line:90%
+
+
+00:43:09.590 --> 00:43:10.970 align:middle line:90%
+Good?
+
+00:43:10.970 --> 00:43:16.170 align:middle line:84%
+So now, we can look
+at the last step.
+
+00:43:16.170 --> 00:43:19.730 align:middle line:84%
+So you see, when we make
+a Lorentz transformation
+
+00:43:19.730 --> 00:43:22.580 align:middle line:84%
+on delta, actually
+nothing changes,
+
+00:43:22.580 --> 00:43:26.400 align:middle line:84%
+and the value is the same
+because the commutator is a C
+
+00:43:26.400 --> 00:43:26.900 align:middle line:90%
+number.
+
+00:43:26.900 --> 00:43:29.610 align:middle line:90%
+
+
+00:43:29.610 --> 00:43:45.140 align:middle line:84%
+And then-- now remember for any
+space-like separated x and x
+
+00:43:45.140 --> 00:43:56.440 align:middle line:84%
+prime, we can always choose
+to find the some lambda--
+
+00:43:56.440 --> 00:44:03.820 align:middle line:84%
+some Lorentz transformation--
+that the lambda
+
+00:44:03.820 --> 00:44:14.570 align:middle line:84%
+x and the lambda x prime
+to be at the equal time.
+
+00:44:14.570 --> 00:44:15.990 align:middle line:90%
+They have the same time.
+
+00:44:15.990 --> 00:44:17.670 align:middle line:84%
+We can always make
+a transformation.
+
+00:44:17.670 --> 00:44:21.270 align:middle line:84%
+Yeah, and let me call it
+something else-- t tilde.
+
+00:44:21.270 --> 00:44:24.720 align:middle line:90%
+So your original x is for--
+
+00:44:24.720 --> 00:44:28.460 align:middle line:84%
+you can always transform
+it to equal time.
+
+00:44:28.460 --> 00:44:33.470 align:middle line:84%
+And then according to this one,
+then will be identically 0.
+
+00:44:33.470 --> 00:44:40.740 align:middle line:84%
+And then we find delta
+x and x prime equal
+
+00:44:40.740 --> 00:44:49.860 align:middle line:84%
+to 0, because now, this is
+evaluated at equal time.
+
+00:44:49.860 --> 00:44:53.180 align:middle line:90%
+So this is very intuitive.
+
+00:44:53.180 --> 00:44:57.350 align:middle line:84%
+When you make a Lorentz
+transformation, you can--
+
+00:44:57.350 --> 00:45:02.060 align:middle line:84%
+yeah-- but this is a precise
+proof of the statement.
+
+00:45:02.060 --> 00:45:04.830 align:middle line:90%
+
+
+00:45:04.830 --> 00:45:07.090 align:middle line:90%
+Any questions on this?
+
+00:45:07.090 --> 00:45:08.281 align:middle line:90%
+Yes?
+
+00:45:08.281 --> 00:45:10.165 align:middle line:84%
+STUDENT: What's the
+x on [INAUDIBLE]??
+
+00:45:10.165 --> 00:45:13.302 align:middle line:90%
+
+
+00:45:13.302 --> 00:45:14.010 align:middle line:90%
+PROFESSOR: Sorry?
+
+00:45:14.010 --> 00:45:17.760 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+00:45:17.760 --> 00:45:22.370 align:middle line:84%
+PROFESSOR: Yeah, for x minus x
+prime squared greater than 0.
+
+00:45:22.370 --> 00:45:24.000 align:middle line:84%
+So this is a four
+distance square.
+
+00:45:24.000 --> 00:45:25.620 align:middle line:84%
+You're asking about
+this notation?
+
+00:45:25.620 --> 00:45:27.840 align:middle line:90%
+Yeah, this is just--
+
+00:45:27.840 --> 00:45:30.510 align:middle line:90%
+there are four distance square--
+
+00:45:30.510 --> 00:45:33.360 align:middle line:90%
+the separation between them.
+
+00:45:33.360 --> 00:45:35.062 align:middle line:90%
+Yes?
+
+00:45:35.062 --> 00:45:37.370 align:middle line:84%
+STUDENT: I have a question
+on the first property.
+
+00:45:37.370 --> 00:45:40.400 align:middle line:84%
+So is that equation
+up in the corner,
+
+00:45:40.400 --> 00:45:43.390 align:middle line:84%
+so that defines
+the-- it says that G
+
+00:45:43.390 --> 00:45:47.133 align:middle line:84%
+is like the Green's function
+for your Klein-Gordon operator?
+
+00:45:47.133 --> 00:45:47.800 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:45:47.800 --> 00:45:49.660 align:middle line:90%
+STUDENT: So why does that--
+
+00:45:49.660 --> 00:45:52.588 align:middle line:84%
+is there an intuition for why
+the correlator in the vacuum
+
+00:45:52.588 --> 00:45:54.130 align:middle line:84%
+state gives you the
+Green's function?
+
+00:45:54.130 --> 00:45:57.130 align:middle line:84%
+Because then you could use this
+to get any classical solution
+
+00:45:57.130 --> 00:45:57.940 align:middle line:90%
+right?
+
+00:45:57.940 --> 00:46:02.260 align:middle line:90%
+
+
+00:46:02.260 --> 00:46:06.820 align:middle line:84%
+PROFESSOR: Yeah, so the
+intuition is that essentially--
+
+00:46:06.820 --> 00:46:10.840 align:middle line:84%
+yeah, so for example,
+this is just how we--
+
+00:46:10.840 --> 00:46:17.890 align:middle line:90%
+
+
+00:46:17.890 --> 00:46:22.730 align:middle line:84%
+yeah, first is that this kind
+of thing is simple enough.
+
+00:46:22.730 --> 00:46:27.370 align:middle line:84%
+Essentially, you can just see
+by observation, but in a more
+
+00:46:27.370 --> 00:46:28.870 align:middle line:90%
+complicated theory.
+
+00:46:28.870 --> 00:46:32.710 align:middle line:84%
+And you can actually derive it--
+and the retarded Green function
+
+00:46:32.710 --> 00:46:34.940 align:middle line:90%
+always have this form.
+
+00:46:34.940 --> 00:46:37.760 align:middle line:84%
+Yeah, so that's a thorough
+more elaborate derivation.
+
+00:46:37.760 --> 00:46:41.513 align:middle line:90%
+
+
+00:46:41.513 --> 00:46:43.930 align:middle line:84%
+STUDENT: When you're talking
+about classical field theory,
+
+00:46:43.930 --> 00:46:46.540 align:middle line:84%
+usually solving the Green's
+function is kind of hard
+
+00:46:46.540 --> 00:46:48.774 align:middle line:90%
+and you have to expand--
+
+00:46:48.774 --> 00:46:53.580 align:middle line:84%
+like, here, we quantize
+it and then got out--
+
+00:46:53.580 --> 00:46:56.040 align:middle line:84%
+PROFESSOR: Yeah,
+this is different.
+
+00:46:56.040 --> 00:46:58.500 align:middle line:84%
+So classically, we just
+define those functions
+
+00:46:58.500 --> 00:47:01.060 align:middle line:90%
+using those equations.
+
+00:47:01.060 --> 00:47:03.660 align:middle line:90%
+So here, we just say--
+
+00:47:03.660 --> 00:47:07.740 align:middle line:84%
+in quantum field theory, the
+object can be written this way.
+
+00:47:07.740 --> 00:47:10.800 align:middle line:84%
+Yeah, those objects can
+be written this way.
+
+00:47:10.800 --> 00:47:16.620 align:middle line:84%
+And this definition just follows
+from the standard-- yeah,
+
+00:47:16.620 --> 00:47:22.020 align:middle line:84%
+if you do quantum mechanics
+and you-- a retarded function
+
+00:47:22.020 --> 00:47:23.805 align:middle line:90%
+can always be written like this.
+
+00:47:23.805 --> 00:47:25.680 align:middle line:84%
+Yeah, this is also just
+in quantum mechanics,
+
+00:47:25.680 --> 00:47:28.020 align:middle line:84%
+but it requires a little bit
+of calculation to see that.
+
+00:47:28.020 --> 00:47:31.720 align:middle line:90%
+
+
+00:47:31.720 --> 00:47:33.070 align:middle line:90%
+Other questions?
+
+00:47:33.070 --> 00:47:33.850 align:middle line:90%
+Yes?
+
+00:47:33.850 --> 00:47:36.637 align:middle line:84%
+STUDENT: Should it
+be lambda minus 1?
+
+00:47:36.637 --> 00:47:37.470 align:middle line:90%
+PROFESSOR: Oh, yeah.
+
+00:47:37.470 --> 00:47:37.860 align:middle line:90%
+Sorry.
+
+00:47:37.860 --> 00:47:39.027 align:middle line:90%
+Yeah, it's-- lambda minus 1.
+
+00:47:39.027 --> 00:47:42.570 align:middle line:90%
+
+
+00:47:42.570 --> 00:47:45.000 align:middle line:84%
+Yeah, so here also
+should be lambda minus 1.
+
+00:47:45.000 --> 00:47:49.880 align:middle line:90%
+
+
+00:47:49.880 --> 00:47:53.100 align:middle line:90%
+Other questions?
+
+00:47:53.100 --> 00:47:53.900 align:middle line:90%
+OK, good.
+
+00:47:53.900 --> 00:48:00.310 align:middle line:90%
+
+
+00:48:00.310 --> 00:48:04.020 align:middle line:90%
+Yeah, so this also shows--
+
+00:48:04.020 --> 00:48:06.950 align:middle line:90%
+
+
+00:48:06.950 --> 00:48:11.640 align:middle line:84%
+yeah, so when we talk about
+the canonical quantization--
+
+00:48:11.640 --> 00:48:15.320 align:middle line:84%
+so we mentioned that we need
+to impose this equal time
+
+00:48:15.320 --> 00:48:19.460 align:middle line:90%
+commutator to be 0.
+
+00:48:19.460 --> 00:48:21.770 align:middle line:84%
+That's our canonical
+commutation.
+
+00:48:21.770 --> 00:48:25.130 align:middle line:84%
+Yeah, we impose the canonical
+commutation relation
+
+00:48:25.130 --> 00:48:26.135 align:middle line:90%
+at a single time.
+
+00:48:26.135 --> 00:48:29.730 align:middle line:90%
+
+
+00:48:29.730 --> 00:48:34.370 align:middle line:84%
+And some of you were
+asking that actually--
+
+00:48:34.370 --> 00:48:36.680 align:middle line:84%
+does that actually
+break Lorentz symmetry
+
+00:48:36.680 --> 00:48:39.500 align:middle line:84%
+because we have to
+choose a single time?
+
+00:48:39.500 --> 00:48:41.240 align:middle line:84%
+But now, you can
+see actually this
+
+00:48:41.240 --> 00:48:44.180 align:middle line:84%
+does not break Lorentz
+symmetry because the only
+
+00:48:44.180 --> 00:48:48.120 align:middle line:84%
+space-like separated, and the
+commutator is always the same.
+
+00:48:48.120 --> 00:48:53.870 align:middle line:84%
+So no matter what frame
+you choose and the--
+
+00:48:53.870 --> 00:48:58.070 align:middle line:84%
+in any frame, if
+it's equal time,
+
+00:48:58.070 --> 00:49:00.920 align:middle line:84%
+and it's always space-like
+separated in some other frame.
+
+00:49:00.920 --> 00:49:07.240 align:middle line:90%
+
+
+00:49:07.240 --> 00:49:07.740 align:middle line:90%
+Good?
+
+00:49:07.740 --> 00:49:14.260 align:middle line:90%
+
+
+00:49:14.260 --> 00:49:19.690 align:middle line:84%
+So that means-- so
+immediate conclusion--
+
+00:49:19.690 --> 00:49:29.860 align:middle line:84%
+it means that for
+space-like separated,
+
+00:49:29.860 --> 00:49:38.470 align:middle line:84%
+x and x prime G plus equal
+to G minus is equal to G F.
+
+00:49:38.470 --> 00:49:43.540 align:middle line:84%
+So the time ordering does
+not matter, so the G plus--
+
+00:49:43.540 --> 00:49:44.920 align:middle line:90%
+then you can do G minus.
+
+00:49:44.920 --> 00:49:47.860 align:middle line:84%
+And then the G F equal
+to the sum of them.
+
+00:49:47.860 --> 00:49:51.130 align:middle line:84%
+And then when-- here, it's
+for t greater than t prime.
+
+00:49:51.130 --> 00:49:53.620 align:middle line:84%
+Here, it's for t
+prime greater than t.
+
+00:49:53.620 --> 00:49:56.140 align:middle line:84%
+And then this should
+just add equal to 1
+
+00:49:56.140 --> 00:49:59.630 align:middle line:84%
+because these two
+become the same.
+
+00:49:59.630 --> 00:50:07.640 align:middle line:84%
+And the G R and the G A
+equal to delta equal to 0
+
+00:50:07.640 --> 00:50:09.630 align:middle line:90%
+for space-like surface case.
+
+00:50:09.630 --> 00:50:12.660 align:middle line:84%
+So those functions
+are pretty simple.
+
+00:50:12.660 --> 00:50:14.540 align:middle line:90%
+So the-- yeah.
+
+00:50:14.540 --> 00:50:22.930 align:middle line:90%
+
+
+00:50:22.930 --> 00:50:28.070 align:middle line:90%
+So now-- so the last property--
+
+00:50:28.070 --> 00:50:37.610 align:middle line:84%
+now, you can show due to
+the spacetime translation
+
+00:50:37.610 --> 00:50:52.470 align:middle line:84%
+symmetry and the Lorentz
+symmetry of the vacuum--
+
+00:50:52.470 --> 00:50:55.300 align:middle line:90%
+
+
+00:50:55.300 --> 00:50:57.940 align:middle line:90%
+of the vacuum state.
+
+00:50:57.940 --> 00:51:00.270 align:middle line:90%
+So you can show--
+
+00:51:00.270 --> 00:51:02.850 align:middle line:90%
+I think this will be--
+
+00:51:02.850 --> 00:51:05.190 align:middle line:84%
+this is a pretty
+simple argument,
+
+00:51:05.190 --> 00:51:07.620 align:middle line:84%
+but I will leave it
+to show yourself.
+
+00:51:07.620 --> 00:51:12.680 align:middle line:84%
+You can show that any
+of those functions only
+
+00:51:12.680 --> 00:51:16.580 align:middle line:84%
+depend on the difference
+between of them--
+
+00:51:16.580 --> 00:51:19.100 align:middle line:84%
+and in particular, only
+depend on the four distance
+
+00:51:19.100 --> 00:51:19.790 align:middle line:90%
+between them.
+
+00:51:19.790 --> 00:51:23.480 align:middle line:90%
+
+
+00:51:23.480 --> 00:51:31.740 align:middle line:84%
+And this G here can be any of
+the G R, G A, G plus/minus,
+
+00:51:31.740 --> 00:51:35.590 align:middle line:90%
+G F, et cetera.
+
+00:51:35.590 --> 00:51:38.900 align:middle line:84%
+So all of them have
+very nice properties.
+
+00:51:38.900 --> 00:51:43.430 align:middle line:84%
+Even naively depend
+on two arguments.
+
+00:51:43.430 --> 00:51:46.570 align:middle line:90%
+So x have four components.
+
+00:51:46.570 --> 00:51:49.010 align:middle line:90%
+x prime have four components.
+
+00:51:49.010 --> 00:51:52.890 align:middle line:84%
+So naively, this is a
+function of eight variables,
+
+00:51:52.890 --> 00:51:56.760 align:middle line:84%
+but this tells you once
+you use all the symmetries,
+
+00:51:56.760 --> 00:52:00.580 align:middle line:84%
+this is actually a function
+only a single variable.
+
+00:52:00.580 --> 00:52:02.440 align:middle line:84%
+This is a very
+powerful statement.
+
+00:52:02.440 --> 00:52:05.290 align:middle line:84%
+So they have very--
+yeah, so this answers one
+
+00:52:05.290 --> 00:52:08.140 align:middle line:90%
+of the question some--
+
+00:52:08.140 --> 00:52:09.700 align:middle line:90%
+one of you asked earlier--
+
+00:52:09.700 --> 00:52:13.510 align:middle line:84%
+that the-- despite
+the theta functions,
+
+00:52:13.510 --> 00:52:16.330 align:middle line:84%
+you can show that they still
+have very nice properties
+
+00:52:16.330 --> 00:52:17.740 align:middle line:90%
+under Lorentz transformation.
+
+00:52:17.740 --> 00:52:19.930 align:middle line:84%
+You can show they
+have a nice properties
+
+00:52:19.930 --> 00:52:21.628 align:middle line:90%
+under Lorentz transformation.
+
+00:52:21.628 --> 00:52:26.080 align:middle line:90%
+
+
+00:52:26.080 --> 00:52:26.580 align:middle line:90%
+Good.
+
+00:52:26.580 --> 00:52:43.940 align:middle line:90%
+
+
+00:52:43.940 --> 00:52:44.930 align:middle line:90%
+Other questions?
+
+00:52:44.930 --> 00:52:48.260 align:middle line:90%
+
+
+00:52:48.260 --> 00:52:48.890 align:middle line:90%
+Yes?
+
+00:52:48.890 --> 00:52:51.530 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+00:52:51.530 --> 00:52:55.760 align:middle line:84%
+PROFESSOR: Yeah, so
+this is very easy.
+
+00:52:55.760 --> 00:53:00.230 align:middle line:84%
+When you have a translation
+symmetry, and then
+
+00:53:00.230 --> 00:53:02.240 align:middle line:84%
+the reference point
+you choose is not--
+
+00:53:02.240 --> 00:53:05.550 align:middle line:84%
+you can choose any point
+to be the reference point.
+
+00:53:05.550 --> 00:53:11.180 align:middle line:84%
+And so you can just
+choose x, and then only
+
+00:53:11.180 --> 00:53:13.648 align:middle line:84%
+the separation between x
+and the x prime matters,
+
+00:53:13.648 --> 00:53:15.690 align:middle line:84%
+because you can just choose
+x prime, for example,
+
+00:53:15.690 --> 00:53:16.760 align:middle line:90%
+to be at the origin--
+
+00:53:16.760 --> 00:53:18.920 align:middle line:90%
+and then only the separation.
+
+00:53:18.920 --> 00:53:21.830 align:middle line:84%
+And then the Lorentz
+symmetry tells you
+
+00:53:21.830 --> 00:53:24.780 align:middle line:90%
+that only the distance matters.
+
+00:53:24.780 --> 00:53:27.740 align:middle line:90%
+It doesn't matter the direction.
+
+00:53:27.740 --> 00:53:28.240 align:middle line:90%
+Yes?
+
+00:53:28.240 --> 00:53:30.407 align:middle line:84%
+STUDENT: Does the commutator
+have this property too,
+
+00:53:30.407 --> 00:53:31.350 align:middle line:90%
+or is it just G?
+
+00:53:31.350 --> 00:53:33.683 align:middle line:84%
+PROFESSOR: Yeah, the commutator
+also have this property.
+
+00:53:33.683 --> 00:53:35.655 align:middle line:84%
+Yeah, the delta also
+have this property.
+
+00:53:35.655 --> 00:53:40.780 align:middle line:90%
+
+
+00:53:40.780 --> 00:53:42.415 align:middle line:90%
+Yes?
+
+00:53:42.415 --> 00:53:44.665 align:middle line:84%
+STUDENT: Is this only true
+when x and x' are spacelike
+
+00:53:44.665 --> 00:53:46.470 align:middle line:90%
+separated?
+
+00:53:46.470 --> 00:53:50.010 align:middle line:84%
+PROFESSOR: No, this
+is true in general.
+
+00:53:50.010 --> 00:53:54.340 align:middle line:84%
+This is always true, but it's
+only in the vacuum state.
+
+00:53:54.340 --> 00:53:56.892 align:middle line:84%
+So the key is that
+you have to use
+
+00:53:56.892 --> 00:53:58.350 align:middle line:84%
+that the vacuum
+state are invariant
+
+00:53:58.350 --> 00:54:00.015 align:middle line:90%
+under those transformations.
+
+00:54:00.015 --> 00:54:05.600 align:middle line:90%
+
+
+00:54:05.600 --> 00:54:08.160 align:middle line:84%
+Yeah, it's a-- once you
+understand how to do it,
+
+00:54:08.160 --> 00:54:11.750 align:middle line:84%
+it's a very simple argument,
+so that's why I will leave it
+
+00:54:11.750 --> 00:54:14.780 align:middle line:90%
+into one of the exercises.
+
+00:54:14.780 --> 00:54:19.620 align:middle line:90%
+
+
+00:54:19.620 --> 00:54:22.020 align:middle line:90%
+Other questions?
+
+00:54:22.020 --> 00:54:22.950 align:middle line:90%
+OK, good.
+
+00:54:22.950 --> 00:54:25.100 align:middle line:84%
+So now, let's compute
+this object G plus.
+
+00:54:25.100 --> 00:54:29.160 align:middle line:90%
+
+
+00:54:29.160 --> 00:54:30.850 align:middle line:90%
+We have been talking about it.
+
+00:54:30.850 --> 00:54:32.580 align:middle line:84%
+And now, finally,
+after discussing
+
+00:54:32.580 --> 00:54:34.690 align:middle line:90%
+all these general properties--
+
+00:54:34.690 --> 00:54:36.750 align:middle line:84%
+so let's compute
+them explicitly.
+
+00:54:36.750 --> 00:55:14.950 align:middle line:90%
+
+
+00:55:14.950 --> 00:55:18.630 align:middle line:84%
+So let's just first
+compute the G plus.
+
+00:55:18.630 --> 00:55:21.510 align:middle line:84%
+Did I just erase the
+definition of G plus?
+
+00:55:21.510 --> 00:55:22.620 align:middle line:90%
+Yeah.
+
+00:55:22.620 --> 00:55:28.450 align:middle line:90%
+So this is easy to do.
+
+00:55:28.450 --> 00:55:33.030 align:middle line:84%
+So those properties you
+can just get by symmetries.
+
+00:55:33.030 --> 00:55:37.890 align:middle line:84%
+Of course, you can also get by
+doing explicit calculations,
+
+00:55:37.890 --> 00:55:40.410 align:middle line:84%
+but you can get them without
+doing any explicit calculation
+
+00:55:40.410 --> 00:55:42.165 align:middle line:90%
+just based on symmetries.
+
+00:55:42.165 --> 00:55:44.580 align:middle line:90%
+So here, we do--
+
+00:55:44.580 --> 00:55:46.080 align:middle line:84%
+calculate this
+object explicitly,
+
+00:55:46.080 --> 00:55:48.380 align:middle line:84%
+we will see-- satisfy
+those properties.
+
+00:55:48.380 --> 00:55:52.600 align:middle line:90%
+
+
+00:55:52.600 --> 00:56:01.900 align:middle line:84%
+So we just put in the
+expansion of phi and phi
+
+00:56:01.900 --> 00:56:03.040 align:middle line:90%
+x and the phi x prime.
+
+00:56:03.040 --> 00:56:14.950 align:middle line:90%
+
+
+00:56:14.950 --> 00:56:19.480 align:middle line:84%
+And then-- yeah,
+then we have the 0,
+
+00:56:19.480 --> 00:56:26.080 align:middle line:84%
+and then we have
+a k u k evaluated
+
+00:56:26.080 --> 00:56:33.790 align:middle line:84%
+at x plus a k dagger
+u k star evaluated
+
+00:56:33.790 --> 00:56:42.820 align:middle line:84%
+at x times a k prime
+u k prime evaluated
+
+00:56:42.820 --> 00:56:52.570 align:middle line:84%
+at x prime plus a k prime dagger
+u k prime star at x prime,
+
+00:56:52.570 --> 00:56:55.240 align:middle line:90%
+and then acting on 0.
+
+00:56:55.240 --> 00:56:59.470 align:middle line:84%
+So this decay with
+2 omega k, and this
+
+00:56:59.470 --> 00:57:01.610 align:middle line:90%
+essentially gives you phi.
+
+00:57:01.610 --> 00:57:04.060 align:middle line:84%
+And the other one
+gives you the phi--
+
+00:57:04.060 --> 00:57:07.090 align:middle line:84%
+so this gives you the
+phi x, and this one
+
+00:57:07.090 --> 00:57:09.430 align:middle line:90%
+gives you the phi x prime.
+
+00:57:09.430 --> 00:57:11.110 align:middle line:90%
+I just calculated this.
+
+00:57:11.110 --> 00:57:15.630 align:middle line:90%
+
+
+00:57:15.630 --> 00:57:17.230 align:middle line:90%
+So now, this is easy to do.
+
+00:57:17.230 --> 00:57:19.470 align:middle line:84%
+This is just now
+become an exercise
+
+00:57:19.470 --> 00:57:21.700 align:middle line:90%
+in harmonic oscillator.
+
+00:57:21.700 --> 00:57:23.880 align:middle line:90%
+So only this term--
+
+00:57:23.880 --> 00:57:25.080 align:middle line:90%
+multiply this term.
+
+00:57:25.080 --> 00:57:27.060 align:middle line:90%
+It's non-zero.
+
+00:57:27.060 --> 00:57:31.620 align:middle line:84%
+The rest of terms are 0,
+because this will annihilate
+
+00:57:31.620 --> 00:57:35.430 align:middle line:84%
+the vacuum, and this
+2a dagger together
+
+00:57:35.430 --> 00:57:37.560 align:middle line:90%
+will annihilate that vacuum.
+
+00:57:37.560 --> 00:57:41.310 align:middle line:84%
+So the only term not
+vanishing is this term
+
+00:57:41.310 --> 00:57:42.930 align:middle line:90%
+combined with this term.
+
+00:57:42.930 --> 00:57:45.920 align:middle line:90%
+So you just get--
+
+00:57:45.920 --> 00:57:47.390 align:middle line:84%
+and there's a
+delta function when
+
+00:57:47.390 --> 00:57:50.600 align:middle line:90%
+you evaluate them between 0.
+
+00:57:50.600 --> 00:57:51.980 align:middle line:90%
+And so you find--
+
+00:57:51.980 --> 00:58:03.460 align:middle line:90%
+
+
+00:58:03.460 --> 00:58:05.063 align:middle line:90%
+And then you have --
+
+00:58:05.063 --> 00:58:10.900 align:middle line:90%
+
+
+00:58:10.900 --> 00:58:12.130 align:middle line:90%
+t minus t prime.
+
+00:58:12.130 --> 00:58:19.970 align:middle line:90%
+
+
+00:58:19.970 --> 00:58:22.940 align:middle line:90%
+So this is the object.
+
+00:58:22.940 --> 00:58:26.480 align:middle line:90%
+
+
+00:58:26.480 --> 00:58:30.650 align:middle line:84%
+So we can do this
+integral further,
+
+00:58:30.650 --> 00:58:36.130 align:middle line:84%
+and then we also rewrite this
+in a slightly different form.
+
+00:58:36.130 --> 00:58:40.740 align:middle line:84%
+So you can also write this
+as integrating-- so here,
+
+00:58:40.740 --> 00:58:45.510 align:middle line:84%
+omega k is on shell, so I can
+also write it in a more general
+
+00:58:45.510 --> 00:58:46.740 align:middle line:90%
+form--
+
+00:58:46.740 --> 00:58:48.780 align:middle line:90%
+in the form like this--
+
+00:58:48.780 --> 00:58:56.810 align:middle line:84%
+2 pi theta k 0 delta k
+squared plus m square
+
+00:58:56.810 --> 00:59:04.360 align:middle line:90%
+exponential i k dot minus x.
+
+00:59:04.360 --> 00:59:07.870 align:middle line:84%
+So in this form, the
+k is unconstrained,
+
+00:59:07.870 --> 00:59:11.800 align:middle line:84%
+but I have a delta function
+to enforce it on shell.
+
+00:59:11.800 --> 00:59:16.570 align:middle line:84%
+And then I put the theta k
+0 to make it to be positive.
+
+00:59:16.570 --> 00:59:19.900 align:middle line:84%
+And then you can see that
+this will lead to that.
+
+00:59:19.900 --> 00:59:23.820 align:middle line:90%
+
+
+00:59:23.820 --> 00:59:24.782 align:middle line:90%
+You can see that.
+
+00:59:24.782 --> 00:59:27.680 align:middle line:90%
+
+
+00:59:27.680 --> 00:59:30.620 align:middle line:90%
+And similarly, you can find--
+
+00:59:30.620 --> 00:59:32.750 align:middle line:84%
+similarly, you can find
+the integral expressions
+
+00:59:32.750 --> 00:59:42.290 align:middle line:84%
+for G R, G A, and G F. I will
+not give the expression here.
+
+00:59:42.290 --> 00:59:49.580 align:middle line:84%
+Yeah, we will-- yeah, you can
+easily find them yourself.
+
+00:59:49.580 --> 00:59:55.060 align:middle line:90%
+So let me just make one remark.
+
+00:59:55.060 --> 00:59:57.650 align:middle line:90%
+
+
+00:59:57.650 --> 01:00:00.170 align:middle line:84%
+So you can now actually
+calculate this object.
+
+01:00:00.170 --> 01:00:02.700 align:middle line:90%
+
+
+01:00:02.700 --> 01:00:04.320 align:middle line:84%
+So now, let's
+calculate this object.
+
+01:00:04.320 --> 01:00:09.600 align:middle line:84%
+Remember earlier, we say
+this object is the overlap
+
+01:00:09.600 --> 01:00:13.050 align:middle line:90%
+between x and x prime.
+
+01:00:13.050 --> 01:00:17.640 align:middle line:84%
+So let's see in what sense
+this is like a delta function.
+
+01:00:17.640 --> 01:00:20.280 align:middle line:84%
+In this sense, it's like
+a delta function when
+
+01:00:20.280 --> 01:00:22.650 align:middle line:90%
+we say them to be equal time.
+
+01:00:22.650 --> 01:00:27.600 align:middle line:84%
+So now, note-- so let's
+consider the equal time
+
+01:00:27.600 --> 01:00:28.545 align:middle line:90%
+t equal to t prime.
+
+01:00:28.545 --> 01:00:32.160 align:middle line:90%
+
+
+01:00:32.160 --> 01:00:33.690 align:middle line:90%
+So for t equal to t prime--
+
+01:00:33.690 --> 01:00:36.380 align:middle line:90%
+
+
+01:00:36.380 --> 01:00:39.800 align:middle line:84%
+so the integral
+becomes following--
+
+01:00:39.800 --> 01:00:43.685 align:middle line:84%
+G plus x and x prime
+just equal to--
+
+01:00:43.685 --> 01:00:58.370 align:middle line:90%
+
+
+01:00:58.370 --> 01:01:01.230 align:middle line:90%
+just become this.
+
+01:01:01.230 --> 01:01:04.460 align:middle line:84%
+And this integral
+clearly is non-zero.
+
+01:01:04.460 --> 01:01:09.830 align:middle line:84%
+So that's why we said earlier,
+this is not a localized state.
+
+01:01:09.830 --> 01:01:14.330 align:middle line:84%
+So this is equal to
+this x and x prime.
+
+01:01:14.330 --> 01:01:17.570 align:middle line:84%
+So this is non-zero as
+equal to, and so this is not
+
+01:01:17.570 --> 01:01:20.580 align:middle line:90%
+a localized state.
+
+01:01:20.580 --> 01:01:22.080 align:middle line:84%
+Yeah, so this is
+not proportional
+
+01:01:22.080 --> 01:01:26.520 align:middle line:84%
+to a delta function
+if the thing is here.
+
+01:01:26.520 --> 01:01:28.020 align:middle line:84%
+If you don't have
+this factor, then
+
+01:01:28.020 --> 01:01:31.870 align:middle line:84%
+it's a delta function,
+but this one, it's not.
+
+01:01:31.870 --> 01:01:36.000 align:middle line:84%
+But you can nevertheless you
+can calculate this integral
+
+01:01:36.000 --> 01:01:36.500 align:middle line:90%
+exactly.
+
+01:01:36.500 --> 01:01:41.010 align:middle line:90%
+
+
+01:01:41.010 --> 01:01:43.410 align:middle line:84%
+And also just
+based on the here--
+
+01:01:43.410 --> 01:01:46.093 align:middle line:84%
+based on the
+spherical symmetry--
+
+01:01:46.093 --> 01:01:47.760 align:middle line:84%
+rotational symmetry,
+you can immediately
+
+01:01:47.760 --> 01:01:52.010 align:middle line:84%
+see that only depend on
+the distance between them.
+
+01:01:52.010 --> 01:01:58.070 align:middle line:84%
+Only-- so this G plus will only
+be a G plus a function of r,
+
+01:01:58.070 --> 01:02:02.150 align:middle line:84%
+and r is the distance between
+the-- yeah, just based
+
+01:02:02.150 --> 01:02:04.220 align:middle line:84%
+on symmetry, you can
+easily convince yourself.
+
+01:02:04.220 --> 01:02:07.725 align:middle line:84%
+And this only depends on
+the distance between them
+
+01:02:07.725 --> 01:02:09.350 align:middle line:84%
+just from the symmetry
+of the integral.
+
+01:02:09.350 --> 01:02:09.850 align:middle line:90%
+Yes?
+
+01:02:09.850 --> 01:02:14.280 align:middle line:84%
+STUDENT: So when we added
+the 2 omega k [INAUDIBLE]??
+
+01:02:14.280 --> 01:02:20.090 align:middle line:90%
+
+
+01:02:20.090 --> 01:02:24.665 align:middle line:90%
+PROFESSOR: Yeah, it's for the--
+
+01:02:24.665 --> 01:02:27.710 align:middle line:84%
+for example, for
+calculating the--
+
+01:02:27.710 --> 01:02:32.640 align:middle line:90%
+you wan a, a dagger equal to 1.
+
+01:02:32.640 --> 01:02:35.430 align:middle line:84%
+Yeah, because that's the
+normalization for the a dagger.
+
+01:02:35.430 --> 01:02:40.040 align:middle line:90%
+
+
+01:02:40.040 --> 01:02:42.118 align:middle line:90%
+Yeah, that's a good question.
+
+01:02:42.118 --> 01:02:43.160 align:middle line:90%
+I forgot to mention that.
+
+01:02:43.160 --> 01:02:46.470 align:middle line:90%
+
+
+01:02:46.470 --> 01:02:49.010 align:middle line:90%
+Other questions?
+
+01:02:49.010 --> 01:02:51.870 align:middle line:84%
+So this object at
+t equal to 0 only
+
+01:02:51.870 --> 01:02:53.670 align:middle line:84%
+depends on the
+distance between them,
+
+01:02:53.670 --> 01:02:56.580 align:middle line:84%
+because this is a spherical
+integral because this one only
+
+01:02:56.580 --> 01:02:58.590 align:middle line:90%
+depends on the magnitude of k.
+
+01:02:58.590 --> 01:03:03.470 align:middle line:84%
+And then this is just a
+standard Fourier transform.
+
+01:03:03.470 --> 01:03:07.855 align:middle line:84%
+So now, you can just evaluate
+this integral explicitly.
+
+01:03:07.855 --> 01:03:09.820 align:middle line:90%
+I urge you to do it yourself.
+
+01:03:09.820 --> 01:03:13.330 align:middle line:84%
+And then you can show this
+is actually proportional--
+
+01:03:13.330 --> 01:03:16.610 align:middle line:84%
+you can actually evaluate
+this using Bessel function.
+
+01:03:16.610 --> 01:03:19.540 align:middle line:84%
+So this gives you a
+modified Bessel function--
+
+01:03:19.540 --> 01:03:22.720 align:middle line:90%
+K0 times m r.
+
+01:03:22.720 --> 01:03:25.070 align:middle line:90%
+So do any of you--
+
+01:03:25.070 --> 01:03:26.975 align:middle line:84%
+are any of you expert
+of Bessel function?
+
+01:03:26.975 --> 01:03:30.492 align:middle line:90%
+
+
+01:03:30.492 --> 01:03:32.325 align:middle line:84%
+So do you know the
+behavior of this function
+
+01:03:32.325 --> 01:03:34.050 align:middle line:90%
+for when r is large.
+
+01:03:34.050 --> 01:03:34.878 align:middle line:90%
+STUDENT: Goes to 0.
+
+01:03:34.878 --> 01:03:42.290 align:middle line:90%
+
+
+01:03:42.290 --> 01:03:43.540 align:middle line:90%
+PROFESSOR: Yeah, it does to 0.
+
+01:03:43.540 --> 01:03:46.625 align:middle line:84%
+That's a good intuition, but
+it goes to 0 in what way?
+
+01:03:46.625 --> 01:03:49.150 align:middle line:90%
+
+
+01:03:49.150 --> 01:03:51.970 align:middle line:90%
+Actually, exponentially.
+
+01:03:51.970 --> 01:03:55.720 align:middle line:84%
+So it actually goes to
+exponential minus mr,
+
+01:03:55.720 --> 01:03:57.280 align:middle line:90%
+so for r large.
+
+01:03:57.280 --> 01:04:01.150 align:middle line:90%
+For m r greater than 1.
+
+01:04:01.150 --> 01:04:03.310 align:middle line:84%
+Now, you can see in
+what sense this is
+
+01:04:03.310 --> 01:04:06.570 align:middle line:90%
+approximately localized state.
+
+01:04:06.570 --> 01:04:11.480 align:middle line:84%
+You see this is
+not 0, but this is
+
+01:04:11.480 --> 01:04:14.010 align:middle line:90%
+pretty small at large distance.
+
+01:04:14.010 --> 01:04:17.060 align:middle line:84%
+So at distance r, it's
+much greater than 1 over m.
+
+01:04:17.060 --> 01:04:35.560 align:middle line:90%
+
+
+01:04:35.560 --> 01:04:38.860 align:middle line:84%
+So when r is much
+greater than 1 of m--
+
+01:04:38.860 --> 01:04:42.295 align:middle line:84%
+so that object is very small,
+so this exponential is small.
+
+01:04:42.295 --> 01:04:51.710 align:middle line:90%
+
+
+01:04:51.710 --> 01:04:54.500 align:middle line:84%
+So this tells you that
+even though this is not
+
+01:04:54.500 --> 01:04:57.830 align:middle line:84%
+a perfectly
+localized state, this
+
+01:04:57.830 --> 01:05:05.480 align:middle line:84%
+is localized to the
+distance of 1 over m.
+
+01:05:05.480 --> 01:05:09.620 align:middle line:84%
+So if these two points
+are separated more than 1
+
+01:05:09.620 --> 01:05:13.610 align:middle line:84%
+over m, and then the
+overlap becomes very small.
+
+01:05:13.610 --> 01:05:15.360 align:middle line:90%
+And so this is--
+
+01:05:15.360 --> 01:05:21.690 align:middle line:84%
+yeah, so sometimes,
+we call this xi.
+
+01:05:21.690 --> 01:05:24.090 align:middle line:84%
+And then can in
+condensed matter--
+
+01:05:24.090 --> 01:05:27.210 align:middle line:84%
+language which, when you
+interpret this as a correlation
+
+01:05:27.210 --> 01:05:29.060 align:middle line:90%
+function--
+
+01:05:29.060 --> 01:05:33.000 align:middle line:84%
+which the correlation between
+the x and the phi x prime--
+
+01:05:33.000 --> 01:05:37.040 align:middle line:84%
+and then this is also called
+the correlation length.
+
+01:05:37.040 --> 01:05:38.120 align:middle line:90%
+So when the phi--
+
+01:05:38.120 --> 01:05:40.640 align:middle line:90%
+the distance beyond 1 over m--
+
+01:05:40.640 --> 01:05:45.440 align:middle line:84%
+or beyond this xi and then
+the phi no longer correlated.
+
+01:05:45.440 --> 01:05:49.150 align:middle line:90%
+
+
+01:05:49.150 --> 01:05:51.460 align:middle line:84%
+So this a sense-- this is
+approximately localized
+
+01:05:51.460 --> 01:05:55.030 align:middle line:84%
+object, and it's essentially
+the Compton wavelength
+
+01:05:55.030 --> 01:05:56.857 align:middle line:90%
+of the particle.
+
+01:05:56.857 --> 01:05:58.690 align:middle line:84%
+It's the Compton
+wavelength of the particle.
+
+01:05:58.690 --> 01:06:01.030 align:middle line:84%
+And once you go outside
+the Compton wavelength
+
+01:06:01.030 --> 01:06:05.890 align:middle line:84%
+of the particle, and then the
+overlap becomes very small.
+
+01:06:05.890 --> 01:06:09.055 align:middle line:84%
+So this makes perfect
+physical sense.
+
+01:06:09.055 --> 01:06:10.870 align:middle line:90%
+It makes perfect physical sense.
+
+01:06:10.870 --> 01:06:13.650 align:middle line:90%
+
+
+01:06:13.650 --> 01:06:15.473 align:middle line:90%
+There was a hand?
+
+01:06:15.473 --> 01:06:17.640 align:middle line:84%
+STUDENT: Yeah, I had a
+question, but then I realized
+
+01:06:17.640 --> 01:06:19.110 align:middle line:90%
+that my thinking was wrong.
+
+01:06:19.110 --> 01:06:20.030 align:middle line:90%
+PROFESSOR: OK, good.
+
+01:06:20.030 --> 01:06:29.370 align:middle line:90%
+
+
+01:06:29.370 --> 01:06:31.620 align:middle line:84%
+Yeah, so this is
+just [INAUDIBLE]
+
+01:06:31.620 --> 01:06:32.655 align:middle line:90%
+of what we said earlier.
+
+01:06:32.655 --> 01:06:37.440 align:middle line:90%
+
+
+01:06:37.440 --> 01:06:40.560 align:middle line:84%
+So you can similarly get such
+kind of integral expression
+
+01:06:40.560 --> 01:06:43.830 align:middle line:90%
+for those things.
+
+01:06:43.830 --> 01:06:48.510 align:middle line:84%
+But rather than-- the coordinate
+space expression is actually
+
+01:06:48.510 --> 01:06:51.540 align:middle line:84%
+often-- will be often-- actually
+lead to the expression momentum
+
+01:06:51.540 --> 01:06:52.590 align:middle line:90%
+space.
+
+01:06:52.590 --> 01:06:56.940 align:middle line:90%
+So it often leads there.
+
+01:06:56.940 --> 01:07:12.860 align:middle line:84%
+So often-- in the future, we'll
+often lead the expressions
+
+01:07:12.860 --> 01:07:13.800 align:middle line:90%
+momentum space.
+
+01:07:13.800 --> 01:07:21.010 align:middle line:90%
+
+
+01:07:21.010 --> 01:07:23.230 align:middle line:84%
+So we can just consider
+the Fourier transform.
+
+01:07:23.230 --> 01:07:26.520 align:middle line:90%
+
+
+01:07:26.520 --> 01:07:30.310 align:middle line:84%
+So here is the convention
+of the Fourier transform.
+
+01:07:30.310 --> 01:07:35.850 align:middle line:84%
+So dx-- so any object
+or function of x--
+
+01:07:35.850 --> 01:07:42.570 align:middle line:84%
+again, this is a four
+vector, and the minus i k x.
+
+01:07:42.570 --> 01:07:45.660 align:middle line:84%
+So I use the same
+notation, G, to denote
+
+01:07:45.660 --> 01:07:48.120 align:middle line:84%
+its Fourier transform,
+and distinguish them
+
+01:07:48.120 --> 01:07:52.110 align:middle line:84%
+only by k and x because it's
+just annoying to always put
+
+01:07:52.110 --> 01:07:56.740 align:middle line:90%
+some tilde above it.
+
+01:07:56.740 --> 01:08:04.660 align:middle line:84%
+And the inverse transformation
+would be the G x x prime.
+
+01:08:04.660 --> 01:08:07.480 align:middle line:84%
+So you see here explicitly--
+yeah, there, we already
+
+01:08:07.480 --> 01:08:13.970 align:middle line:84%
+see explicitly that is only the
+function of their separations.
+
+01:08:13.970 --> 01:08:16.250 align:middle line:84%
+And then if you use the
+symmetry here further,
+
+01:08:16.250 --> 01:08:18.370 align:middle line:90%
+then you see the distances.
+
+01:08:18.370 --> 01:08:25.324 align:middle line:84%
+So we can also just write
+this in terms of the--
+
+01:08:25.324 --> 01:08:32.170 align:middle line:84%
+this is i k x x
+minus x prime G k.
+
+01:08:32.170 --> 01:08:36.340 align:middle line:84%
+So this is our convention
+for the Fourier transform.
+
+01:08:36.340 --> 01:08:41.670 align:middle line:84%
+So from here, if you just
+look at this expression
+
+01:08:41.670 --> 01:08:43.950 align:middle line:84%
+and compare with
+this expression,
+
+01:08:43.950 --> 01:08:47.790 align:middle line:84%
+and then immediately we conclude
+for this Whiteman function
+
+01:08:47.790 --> 01:08:56.359 align:middle line:84%
+G plus, k is just given by 2
+pi theta k 0 delta function
+
+01:08:56.359 --> 01:08:57.874 align:middle line:90%
+k squared plus m squared.
+
+01:08:57.874 --> 01:09:02.330 align:middle line:90%
+
+
+01:09:02.330 --> 01:09:06.660 align:middle line:84%
+So this is the expression
+for the G plus.
+
+01:09:06.660 --> 01:09:07.350 align:middle line:90%
+Yes?
+
+01:09:07.350 --> 01:09:12.488 align:middle line:84%
+STUDENT: So this
+localization is [INAUDIBLE],,
+
+01:09:12.488 --> 01:09:14.280 align:middle line:84%
+which is greater for
+higher momentum, so is
+
+01:09:14.280 --> 01:09:16.363 align:middle line:84%
+this a manifestation of
+the uncertainty principle?
+
+01:09:16.363 --> 01:09:19.319 align:middle line:90%
+
+
+01:09:19.319 --> 01:09:22.050 align:middle line:90%
+PROFESSOR: Yeah, this is a--
+
+01:09:22.050 --> 01:09:24.930 align:middle line:84%
+so here, this is, in some sense,
+the uncertainty principle.
+
+01:09:24.930 --> 01:09:29.710 align:middle line:84%
+This-- here, we just
+consider in the vacuum state,
+
+01:09:29.710 --> 01:09:32.069 align:middle line:90%
+so there's not--
+
+01:09:32.069 --> 01:09:35.149 align:middle line:84%
+the state itself does
+not have any energy.
+
+01:09:35.149 --> 01:09:37.050 align:middle line:84%
+And so this is just
+the Compton wavelength
+
+01:09:37.050 --> 01:09:40.020 align:middle line:90%
+of the particle itself.
+
+01:09:40.020 --> 01:09:43.689 align:middle line:84%
+And it's just like a
+static Compton wavelength.
+
+01:09:43.689 --> 01:09:50.040 align:middle line:90%
+
+
+01:09:50.040 --> 01:09:50.760 align:middle line:90%
+Other questions?
+
+01:09:50.760 --> 01:09:51.479 align:middle line:90%
+Yes?
+
+01:09:51.479 --> 01:09:53.771 align:middle line:84%
+STUDENT: If this is the vacuum
+state, then what does it
+
+01:09:53.771 --> 01:09:55.720 align:middle line:90%
+mean to be [INAUDIBLE]?
+
+01:09:55.720 --> 01:10:01.120 align:middle line:90%
+
+
+01:10:01.120 --> 01:10:03.750 align:middle line:84%
+PROFESSOR: Yeah, but still
+you have fluctuations.
+
+01:10:03.750 --> 01:10:05.310 align:middle line:90%
+This is quantum mechanics.
+
+01:10:05.310 --> 01:10:10.020 align:middle line:90%
+
+
+01:10:10.020 --> 01:10:13.440 align:middle line:84%
+Yeah, for example, you can
+calculate an analogous object
+
+01:10:13.440 --> 01:10:15.760 align:middle line:90%
+for the harmonic oscillator.
+
+01:10:15.760 --> 01:10:17.580 align:middle line:84%
+So if you have a
+harmonic oscillator,
+
+01:10:17.580 --> 01:10:21.300 align:middle line:84%
+the analogous object
+is this object,
+
+01:10:21.300 --> 01:10:24.990 align:middle line:84%
+and you can also calculate
+this non-zero just because
+
+01:10:24.990 --> 01:10:26.160 align:middle line:90%
+of the fluctuations.
+
+01:10:26.160 --> 01:10:29.570 align:middle line:90%
+
+
+01:10:29.570 --> 01:10:30.560 align:middle line:90%
+Other questions?
+
+01:10:30.560 --> 01:10:33.800 align:middle line:90%
+
+
+01:10:33.800 --> 01:10:36.220 align:middle line:90%
+OK, good.
+
+01:10:36.220 --> 01:10:43.480 align:middle line:84%
+So this is the expression
+for the G plus.
+
+01:10:43.480 --> 01:10:48.580 align:middle line:84%
+And for those object, we can
+get a momentum space expression
+
+01:10:48.580 --> 01:10:52.700 align:middle line:84%
+by going through
+the same procedure.
+
+01:10:52.700 --> 01:10:57.590 align:middle line:84%
+Just plug them in, labor
+through, and then write
+
+01:10:57.590 --> 01:11:00.890 align:middle line:84%
+the final answer in this
+four momentum integral form,
+
+01:11:00.890 --> 01:11:03.020 align:middle line:84%
+and then you just
+read the answer.
+
+01:11:03.020 --> 01:11:05.060 align:middle line:84%
+For them, we can
+do the same thing.
+
+01:11:05.060 --> 01:11:08.350 align:middle line:90%
+But it's actually much easier.
+
+01:11:08.350 --> 01:11:10.000 align:middle line:84%
+Instead of going
+through that procedure
+
+01:11:10.000 --> 01:11:13.090 align:middle line:84%
+to calculate those quantities,
+it's actually much easier
+
+01:11:13.090 --> 01:11:20.310 align:middle line:84%
+to start from here, because
+they satisfy these equations.
+
+01:11:20.310 --> 01:11:23.830 align:middle line:90%
+So let me call this star.
+
+01:11:23.830 --> 01:11:38.190 align:middle line:84%
+So to find G F k the
+same with G R, A k,
+
+01:11:38.190 --> 01:11:49.165 align:middle line:84%
+it's actually
+easier to use star.
+
+01:11:49.165 --> 01:11:55.030 align:middle line:84%
+Unfortunately-- so now, if
+you look at this equation--
+
+01:11:55.030 --> 01:11:59.350 align:middle line:90%
+
+
+01:11:59.350 --> 01:12:02.730 align:middle line:84%
+if we look at this
+equation, then
+
+01:12:02.730 --> 01:12:04.480 align:middle line:84%
+let's use Fourier
+transform on both sides.
+
+01:12:04.480 --> 01:12:20.220 align:middle line:90%
+
+
+01:12:20.220 --> 01:12:22.680 align:middle line:84%
+We do a Fourier
+transform on both sides.
+
+01:12:22.680 --> 01:12:26.150 align:middle line:84%
+So the left-hand
+side, the partial--
+
+01:12:26.150 --> 01:12:28.010 align:middle line:84%
+each derivative
+just gives you a k.
+
+01:12:28.010 --> 01:12:30.900 align:middle line:84%
+So this is the standard
+rule for Fourier transform.
+
+01:12:30.900 --> 01:12:35.390 align:middle line:84%
+And so here, you just get
+k squared plus m squared.
+
+01:12:35.390 --> 01:12:39.290 align:middle line:84%
+And let me just call it
+G, so denote any of them,
+
+01:12:39.290 --> 01:12:42.260 align:middle line:90%
+equal to minus i.
+
+01:12:42.260 --> 01:12:44.100 align:middle line:84%
+Because the
+right-hand side, when
+
+01:12:44.100 --> 01:12:46.100 align:middle line:84%
+you do a Fourier transform,
+it just becomes one.
+
+01:12:46.100 --> 01:12:47.700 align:middle line:90%
+It's a delta function.
+
+01:12:47.700 --> 01:12:51.840 align:middle line:84%
+So now, we can immediately
+write down the expression
+
+01:12:51.840 --> 01:12:52.700 align:middle line:90%
+in momentum space.
+
+01:12:52.700 --> 01:13:03.090 align:middle line:90%
+
+
+01:13:03.090 --> 01:13:06.460 align:middle line:84%
+But now, you see
+we have a problem.
+
+01:13:06.460 --> 01:13:10.240 align:middle line:90%
+So what problem do we have?
+
+01:13:10.240 --> 01:13:11.290 align:middle line:90%
+Yes?
+
+01:13:11.290 --> 01:13:14.050 align:middle line:84%
+STUDENT: When you have k squared
+equals negative m squared
+
+01:13:14.050 --> 01:13:15.850 align:middle line:90%
+it's like a singularity.
+
+01:13:15.850 --> 01:13:16.930 align:middle line:90%
+PROFESSOR: Good.
+
+01:13:16.930 --> 01:13:19.338 align:middle line:90%
+Well, we have a lot of problems.
+
+01:13:19.338 --> 01:13:20.630 align:middle line:90%
+So this is one of the problems.
+
+01:13:20.630 --> 01:13:21.635 align:middle line:90%
+We have another problem.
+
+01:13:21.635 --> 01:13:22.565 align:middle line:90%
+Yes?
+
+01:13:22.565 --> 01:13:23.960 align:middle line:90%
+STUDENT: Is this on shell?
+
+01:13:23.960 --> 01:13:24.593 align:middle line:90%
+PROFESSOR: Hmm?
+
+01:13:24.593 --> 01:13:26.958 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+01:13:26.958 --> 01:13:29.800 align:middle line:90%
+
+
+01:13:29.800 --> 01:13:31.780 align:middle line:84%
+PROFESSOR: So k is not
+on shell, because when
+
+01:13:31.780 --> 01:13:36.910 align:middle line:84%
+we do a Fourier transform,
+it's for the general k.
+
+01:13:36.910 --> 01:13:39.370 align:middle line:84%
+Yeah, it's defined
+for the general k.
+
+01:13:39.370 --> 01:13:40.990 align:middle line:84%
+Indeed, for the on
+shell value of k,
+
+01:13:40.990 --> 01:13:43.165 align:middle line:84%
+then you will have
+a singular behavior.
+
+01:13:43.165 --> 01:13:45.680 align:middle line:90%
+
+
+01:13:45.680 --> 01:13:48.380 align:middle line:84%
+But for the-- but we still
+have another problem.
+
+01:13:48.380 --> 01:13:57.410 align:middle line:90%
+
+
+01:13:57.410 --> 01:13:58.060 align:middle line:90%
+Yes?
+
+01:13:58.060 --> 01:14:00.910 align:middle line:84%
+STUDENT: They're not
+supposed to be complex?
+
+01:14:00.910 --> 01:14:02.230 align:middle line:90%
+PROFESSOR: Yeah, it is complex.
+
+01:14:02.230 --> 01:14:04.580 align:middle line:90%
+It's OK.
+
+01:14:04.580 --> 01:14:06.050 align:middle line:90%
+Yeah, that aspect is OK.
+
+01:14:06.050 --> 01:14:07.445 align:middle line:90%
+Yeah, so since--
+
+01:14:07.445 --> 01:14:08.810 align:middle line:90%
+[INAUDIBLE]
+
+01:14:08.810 --> 01:14:15.900 align:middle line:84%
+So you see here, we have defined
+the three different functions,
+
+01:14:15.900 --> 01:14:19.281 align:middle line:84%
+but there, how many
+solutions we have?
+
+01:14:19.281 --> 01:14:20.160 align:middle line:90%
+We only have one.
+
+01:14:20.160 --> 01:14:22.380 align:middle line:84%
+We have unique
+solution seems like.
+
+01:14:22.380 --> 01:14:24.635 align:middle line:90%
+Then we have a problem.
+
+01:14:24.635 --> 01:14:26.010 align:middle line:84%
+It seems like--
+that seems to say
+
+01:14:26.010 --> 01:14:27.218 align:middle line:90%
+all these three are the same.
+
+01:14:27.218 --> 01:14:31.080 align:middle line:84%
+But if you calculate them
+going through this theta
+
+01:14:31.080 --> 01:14:35.310 align:middle line:84%
+function [INAUDIBLE],,
+they are not the same.
+
+01:14:35.310 --> 01:14:37.670 align:middle line:84%
+So it turns out these
+two problems are related.
+
+01:14:37.670 --> 01:14:40.205 align:middle line:90%
+
+
+01:14:40.205 --> 01:14:43.320 align:middle line:84%
+It turns out these two problems
+are related because now,
+
+01:14:43.320 --> 01:14:47.790 align:middle line:84%
+if you consider the coordinate
+space expression, which
+
+01:14:47.790 --> 01:14:50.145 align:middle line:84%
+obtained by the Fourier
+transform of this guy--
+
+01:14:50.145 --> 01:15:01.070 align:middle line:90%
+
+
+01:15:01.070 --> 01:15:04.180 align:middle line:84%
+again, by Fourier
+transform of this guy--
+
+01:15:04.180 --> 01:15:12.410 align:middle line:84%
+so in the-- so if you write
+down explicitly 1 over k squared
+
+01:15:12.410 --> 01:15:14.300 align:middle line:90%
+plus--
+
+01:15:14.300 --> 01:15:17.670 align:middle line:84%
+so 1 over k squared
+plus m squared,
+
+01:15:17.670 --> 01:15:19.020 align:middle line:90%
+if we write it explicitly.
+
+01:15:19.020 --> 01:15:24.140 align:middle line:84%
+So this is 1 over minus omega
+squared plus k squared plus m
+
+01:15:24.140 --> 01:15:25.670 align:middle line:90%
+squared--
+
+01:15:25.670 --> 01:15:26.910 align:middle line:90%
+write it explicitly.
+
+01:15:26.910 --> 01:15:30.020 align:middle line:84%
+And then this is
+equal to minus omega
+
+01:15:30.020 --> 01:15:33.380 align:middle line:90%
+squared plus omega k squared.
+
+01:15:33.380 --> 01:15:35.015 align:middle line:84%
+So this is just the
+omega k squared.
+
+01:15:35.015 --> 01:15:37.970 align:middle line:90%
+
+
+01:15:37.970 --> 01:15:43.040 align:middle line:84%
+So as you said, this actually
+has a singularity when omega
+
+01:15:43.040 --> 01:15:45.040 align:middle line:90%
+equal to plus minus omega k.
+
+01:15:45.040 --> 01:15:49.330 align:middle line:84%
+When you satisfy this
+on shell condition.
+
+01:15:49.330 --> 01:15:53.680 align:middle line:84%
+But this singularity is actually
+along the integration contour
+
+01:15:53.680 --> 01:15:54.190 align:middle line:90%
+of omega.
+
+01:15:54.190 --> 01:15:56.850 align:middle line:90%
+
+
+01:15:56.850 --> 01:16:03.190 align:middle line:84%
+Because in these four integrals
+is given by d omega dk.
+
+01:16:03.190 --> 01:16:06.730 align:middle line:84%
+So the omega-- so this
+from minus infinity
+
+01:16:06.730 --> 01:16:08.790 align:middle line:90%
+to plus infinity.
+
+01:16:08.790 --> 01:16:12.330 align:middle line:84%
+And these two singularities
+are the real value of omega.
+
+01:16:12.330 --> 01:16:18.080 align:middle line:84%
+So they actually-- so if
+you look at omega axis--
+
+01:16:18.080 --> 01:16:21.190 align:middle line:84%
+so at these two points,
+actually, they become singular.
+
+01:16:21.190 --> 01:16:25.730 align:middle line:90%
+The integrand is singular.
+
+01:16:25.730 --> 01:16:29.340 align:middle line:84%
+So the integral is
+actually not well-defined.
+
+01:16:29.340 --> 01:16:31.620 align:middle line:84%
+So the integral is
+not well-defined.
+
+01:16:31.620 --> 01:16:35.020 align:middle line:84%
+So in order to
+define the integral--
+
+01:16:35.020 --> 01:16:38.320 align:middle line:84%
+in order to define
+this omega integral,
+
+01:16:38.320 --> 01:16:45.250 align:middle line:84%
+then we have to do your standard
+trick in complex analysis.
+
+01:16:45.250 --> 01:16:47.690 align:middle line:90%
+So what is that trick?
+
+01:16:47.690 --> 01:16:48.470 align:middle line:90%
+Yes?
+
+01:16:48.470 --> 01:16:50.120 align:middle line:90%
+STUDENT: [INAUDIBLE]
+
+01:16:50.120 --> 01:16:51.120 align:middle line:90%
+PROFESSOR: That's right.
+
+01:16:51.120 --> 01:16:55.150 align:middle line:90%
+You go around the singularity.
+
+01:16:55.150 --> 01:16:58.940 align:middle line:84%
+So now, you go to
+the complex plane--
+
+01:16:58.940 --> 01:17:00.290 align:middle line:90%
+complex omega plane.
+
+01:17:00.290 --> 01:17:02.930 align:middle line:90%
+So now this is a real omega.
+
+01:17:02.930 --> 01:17:04.400 align:middle line:90%
+This is imaginary omega.
+
+01:17:04.400 --> 01:17:05.960 align:middle line:84%
+You go to the
+complex omega plane.
+
+01:17:05.960 --> 01:17:09.390 align:middle line:84%
+Now, the integration constant
+is along the real axis.
+
+01:17:09.390 --> 01:17:12.900 align:middle line:84%
+And now, you have four
+different choices.
+
+01:17:12.900 --> 01:17:19.040 align:middle line:84%
+You can either go up or going
+down for each one of them.
+
+01:17:19.040 --> 01:17:21.030 align:middle line:84%
+And now you have four
+different choices.
+
+01:17:21.030 --> 01:17:25.420 align:middle line:84%
+And this 3 equals 1 into
+three choices of them.
+
+01:17:25.420 --> 01:17:28.530 align:middle line:84%
+Then there's a fourth one,
+which is not frequently used,
+
+01:17:28.530 --> 01:17:30.920 align:middle line:84%
+so we normally don't
+give them a name.
+
+01:17:30.920 --> 01:17:34.160 align:middle line:84%
+And the fourth one, sometimes,
+we call them G F tilde.
+
+01:17:34.160 --> 01:17:38.150 align:middle line:84%
+It's just-- anyway, so there are
+four different choices of going
+
+01:17:38.150 --> 01:17:41.540 align:middle line:84%
+around the singularity,
+and then that gives you
+
+01:17:41.540 --> 01:17:44.930 align:middle line:90%
+four possible solutions.
+
+01:17:44.930 --> 01:17:47.421 align:middle line:90%
+And then that gives you the--
+
+01:17:47.421 --> 01:17:51.300 align:middle line:90%
+
+
+01:17:51.300 --> 01:17:54.540 align:middle line:84%
+yeah, so now let's
+talk about the G R--
+
+01:17:54.540 --> 01:17:56.500 align:middle line:90%
+do them one by one.
+
+01:17:56.500 --> 01:17:59.430 align:middle line:90%
+So for G R--
+
+01:17:59.430 --> 01:18:03.120 align:middle line:84%
+so remember, G R
+is defined to be
+
+01:18:03.120 --> 01:18:06.360 align:middle line:84%
+when theta t greater
+than t prime,
+
+01:18:06.360 --> 01:18:10.420 align:middle line:84%
+G R should be proportional
+to t, to t minus t prime.
+
+01:18:10.420 --> 01:18:16.580 align:middle line:84%
+So that means this should
+be 0 for t minus t prime
+
+01:18:16.580 --> 01:18:17.390 align:middle line:90%
+smaller than 0.
+
+01:18:17.390 --> 01:18:19.910 align:middle line:90%
+
+
+01:18:19.910 --> 01:18:25.090 align:middle line:84%
+This should be 0 for t minus
+t prime smaller than 0.
+
+01:18:25.090 --> 01:18:30.370 align:middle line:84%
+So how do we achieve that
+by going around the poles?
+
+01:18:30.370 --> 01:18:35.500 align:middle line:84%
+So remember, in this
+integral, it's a peice minus--
+
+01:18:35.500 --> 01:18:41.180 align:middle line:84%
+the omega dependent piece is
+minus i omega t minus t prime.
+
+01:18:41.180 --> 01:18:43.970 align:middle line:84%
+So when t minus t
+prime smaller than 0.
+
+01:18:43.970 --> 01:18:48.630 align:middle line:84%
+If you want to do this integral
+using contour integration,
+
+01:18:48.630 --> 01:18:50.810 align:middle line:90%
+then you can close--
+
+01:18:50.810 --> 01:18:53.353 align:middle line:84%
+so this is smaller than 0,
+and then this is positive.
+
+01:18:53.353 --> 01:18:55.520 align:middle line:84%
+And then you can close the
+contour in the upper half
+
+01:18:55.520 --> 01:18:56.960 align:middle line:90%
+plane.
+
+01:18:56.960 --> 01:18:59.330 align:middle line:84%
+You can close the contour
+in the upper half plane.
+
+01:18:59.330 --> 01:19:02.090 align:middle line:84%
+In order for this
+to be identically 0,
+
+01:19:02.090 --> 01:19:04.550 align:middle line:84%
+you need your
+integration-- counter
+
+01:19:04.550 --> 01:19:06.830 align:middle line:90%
+don't enclose any singularity.
+
+01:19:06.830 --> 01:19:11.690 align:middle line:84%
+So that means for
+the retarded, you
+
+01:19:11.690 --> 01:19:14.360 align:middle line:84%
+need to going around the
+singularity along which
+
+01:19:14.360 --> 01:19:15.020 align:middle line:90%
+direction?
+
+01:19:15.020 --> 01:19:18.150 align:middle line:90%
+
+
+01:19:18.150 --> 01:19:19.826 align:middle line:90%
+We only have one minute left.
+
+01:19:19.826 --> 01:19:22.060 align:middle line:90%
+[LAUGHTER]
+
+01:19:22.060 --> 01:19:24.550 align:middle line:84%
+For it to be 0, when
+you integrate-- so
+
+01:19:24.550 --> 01:19:27.940 align:middle line:84%
+you want to close in
+the upper half plane.
+
+01:19:27.940 --> 01:19:31.030 align:middle line:84%
+You want to close it
+because the t minus t prime
+
+01:19:31.030 --> 01:19:34.110 align:middle line:84%
+is smaller than 0, and then this
+is positive i, and the omega
+
+01:19:34.110 --> 01:19:35.110 align:middle line:90%
+in the upper half plane.
+
+01:19:35.110 --> 01:19:37.490 align:middle line:90%
+This is a decay exponential.
+
+01:19:37.490 --> 01:19:41.690 align:middle line:84%
+And so you wonder, there's no
+singularity inside the contour,
+
+01:19:41.690 --> 01:19:46.700 align:middle line:84%
+and then you want to go around
+the singularity this way.
+
+01:19:46.700 --> 01:19:49.400 align:middle line:90%
+Going above the singularity.
+
+01:19:49.400 --> 01:19:51.920 align:middle line:84%
+When you're going above
+the singularity, and then
+
+01:19:51.920 --> 01:19:53.970 align:middle line:90%
+this contour don't include--
+
+01:19:53.970 --> 01:19:57.350 align:middle line:90%
+and then within this contour--
+
+01:19:57.350 --> 01:19:58.730 align:middle line:90%
+and then there's no singularity.
+
+01:19:58.730 --> 01:20:01.790 align:middle line:84%
+Then, this is identically
+0 from the Cauchy theorem.
+
+01:20:01.790 --> 01:20:04.820 align:middle line:84%
+So it tells you that for
+the retarded Green function,
+
+01:20:04.820 --> 01:20:08.640 align:middle line:90%
+you need the contour like that.
+
+01:20:08.640 --> 01:20:15.450 align:middle line:90%
+So similarly, for the advanced--
+
+01:20:15.450 --> 01:20:19.090 align:middle line:84%
+because the advanced, we
+just change the direction.
+
+01:20:19.090 --> 01:20:21.300 align:middle line:90%
+So this is for the retarded.
+
+01:20:21.300 --> 01:20:26.200 align:middle line:84%
+For the advanced,
+it's proportional to t
+
+01:20:26.200 --> 01:20:26.898 align:middle line:90%
+minus t prime.
+
+01:20:26.898 --> 01:20:28.690 align:middle line:84%
+Then you just go in
+the opposite direction.
+
+01:20:28.690 --> 01:20:31.870 align:middle line:90%
+
+
+01:20:31.870 --> 01:20:35.410 align:middle line:84%
+So this is for the
+retarded-- for the advanced.
+
+01:20:35.410 --> 01:20:41.070 align:middle line:84%
+And then, finally, if we want
+to do it for the Feynman--
+
+01:20:41.070 --> 01:20:43.800 align:middle line:84%
+and then you choose
+one of them going up
+
+01:20:43.800 --> 01:20:44.940 align:middle line:90%
+and one of them going down.
+
+01:20:44.940 --> 01:20:48.030 align:middle line:84%
+I always forget which one
+going up, which one going down.
+
+01:20:48.030 --> 01:20:52.920 align:middle line:84%
+Yeah, so actually, this one
+you go down, and this one you
+
+01:20:52.920 --> 01:20:54.240 align:middle line:90%
+go up.
+
+01:20:54.240 --> 01:21:04.140 align:middle line:84%
+So this is for the Feynman for
+the G F. That's all for today.
+
+01:21:04.140 --> 01:21:08.000 align:middle line:90%

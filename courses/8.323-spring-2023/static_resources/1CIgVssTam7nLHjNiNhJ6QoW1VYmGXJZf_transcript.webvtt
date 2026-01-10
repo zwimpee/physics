@@ -1,0 +1,4076 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.948 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.948 --> 00:00:03.896 align:middle line:90%
+[RUSTLING]
+
+00:00:03.896 --> 00:00:10.720 align:middle line:90%
+[CLICKING]
+
+00:00:10.720 --> 00:00:11.950 align:middle line:90%
+HONG LIU: OK.
+
+00:00:11.950 --> 00:00:12.450 align:middle line:90%
+Good.
+
+00:00:12.450 --> 00:00:17.930 align:middle line:84%
+So last lecture, we
+talked about the property
+
+00:00:17.930 --> 00:00:24.230 align:middle line:84%
+of this propagator,
+which is defined
+
+00:00:24.230 --> 00:00:31.880 align:middle line:84%
+to be x, x prime which is
+also the same as phi x,
+
+00:00:31.880 --> 00:00:34.910 align:middle line:90%
+phi x prime here.
+
+00:00:34.910 --> 00:00:36.140 align:middle line:90%
+OK?
+
+00:00:36.140 --> 00:00:40.010 align:middle line:90%
+So this object, we discussed.
+
+00:00:40.010 --> 00:00:42.630 align:middle line:84%
+So conceptually, it
+can be considered--
+
+00:00:42.630 --> 00:00:45.330 align:middle line:90%
+so you have two interpretations.
+
+00:00:45.330 --> 00:00:48.660 align:middle line:90%
+So one is from here.
+
+00:00:48.660 --> 00:00:57.840 align:middle line:84%
+So this roughly can be
+heuristically interpreted
+
+00:00:57.840 --> 00:01:16.380 align:middle line:84%
+as the transition amplitude for
+a particle from x to x prime.
+
+00:01:16.380 --> 00:01:20.960 align:middle line:84%
+OK, so heuristically,
+you can think of it, say,
+
+00:01:20.960 --> 00:01:22.460 align:middle line:90%
+if you have a point--
+
+00:01:22.460 --> 00:01:26.090 align:middle line:84%
+say, if you have a
+space-time point, x
+
+00:01:26.090 --> 00:01:28.550 align:middle line:90%
+prime has another points x.
+
+00:01:28.550 --> 00:01:32.510 align:middle line:84%
+And then you ask, what's
+the transition amplitude
+
+00:01:32.510 --> 00:01:34.894 align:middle line:90%
+from x prime to x?
+
+00:01:34.894 --> 00:01:40.700 align:middle line:84%
+OK, so one way to interpret
+this object is that.
+
+00:01:40.700 --> 00:01:45.260 align:middle line:84%
+And as I emphasize, this
+is only heuristically,
+
+00:01:45.260 --> 00:01:48.080 align:middle line:84%
+because this does
+not really describe
+
+00:01:48.080 --> 00:01:49.880 align:middle line:90%
+a generally localized state.
+
+00:01:49.880 --> 00:01:55.770 align:middle line:84%
+It's only a approximately
+localized state, OK?
+
+00:01:55.770 --> 00:02:01.770 align:middle line:84%
+And similarly, the
+second interpretation
+
+00:02:01.770 --> 00:02:03.315 align:middle line:90%
+is the correlation function.
+
+00:02:03.315 --> 00:02:10.130 align:middle line:90%
+
+
+00:02:10.130 --> 00:02:25.270 align:middle line:84%
+It describes correlations
+of phi between, say, x.
+
+00:02:25.270 --> 00:02:30.700 align:middle line:84%
+Yeah, just correlations,
+square correlations
+
+00:02:30.700 --> 00:02:39.190 align:middle line:84%
+between the value of phi at
+x prime and the value of phi
+
+00:02:39.190 --> 00:02:39.755 align:middle line:90%
+at x.
+
+00:02:39.755 --> 00:02:48.160 align:middle line:84%
+OK, so this is the
+interpretation most convenient,
+
+00:02:48.160 --> 00:02:50.140 align:middle line:84%
+for example, from condensed
+matter perspective
+
+00:02:50.140 --> 00:02:52.900 align:middle line:84%
+if your phi, say,
+describes average spins.
+
+00:02:52.900 --> 00:02:53.620 align:middle line:90%
+OK.
+
+00:02:53.620 --> 00:03:05.500 align:middle line:84%
+So similarly, the
+G minus, which is
+
+00:03:05.500 --> 00:03:15.930 align:middle line:84%
+defined to be in
+the opposite order,
+
+00:03:15.930 --> 00:03:20.040 align:middle line:90%
+also have two interpretations.
+
+00:03:20.040 --> 00:03:26.130 align:middle line:84%
+So this is like a transition
+from x to x prime.
+
+00:03:26.130 --> 00:03:31.170 align:middle line:84%
+Yeah, so if I draw x and
+if I still draw x that way,
+
+00:03:31.170 --> 00:03:33.470 align:middle line:84%
+so it's like a transition
+amplitude like this,
+
+00:03:33.470 --> 00:03:35.610 align:middle line:90%
+from x to x prime.
+
+00:03:35.610 --> 00:03:37.350 align:middle line:90%
+OK?
+
+00:03:37.350 --> 00:03:42.690 align:middle line:84%
+So you can similarly interpret
+the other using this language,
+
+00:03:42.690 --> 00:03:57.530 align:middle line:84%
+for example, this Feynman,
+which is theta G plus x, x prime
+
+00:03:57.530 --> 00:04:04.240 align:middle line:90%
+plus x minus.
+
+00:04:04.240 --> 00:04:10.720 align:middle line:84%
+And then this means that when
+t is greater than t prime,
+
+00:04:10.720 --> 00:04:13.660 align:middle line:84%
+say, for now, let's
+take this to be
+
+00:04:13.660 --> 00:04:15.700 align:middle line:90%
+the direction of time going up.
+
+00:04:15.700 --> 00:04:21.339 align:middle line:84%
+And now if the x has a
+later time than x prime,
+
+00:04:21.339 --> 00:04:25.730 align:middle line:84%
+and then describe the
+transition from x prime to x.
+
+00:04:25.730 --> 00:04:26.230 align:middle line:90%
+OK?
+
+00:04:26.230 --> 00:04:34.930 align:middle line:84%
+But if the x prime has a larger
+time, and x has a smaller time,
+
+00:04:34.930 --> 00:04:39.410 align:middle line:84%
+and then describe the opposite
+direction from x to x prime.
+
+00:04:39.410 --> 00:04:42.340 align:middle line:84%
+But in both cases, you always
+go from the smaller time
+
+00:04:42.340 --> 00:04:43.090 align:middle line:90%
+to bigger time.
+
+00:04:43.090 --> 00:04:44.170 align:middle line:90%
+OK?
+
+00:04:44.170 --> 00:04:47.170 align:middle line:84%
+And so we often
+call this, also GF,
+
+00:04:47.170 --> 00:04:49.670 align:middle line:84%
+the time-ordered
+correlation function.
+
+00:04:49.670 --> 00:04:52.270 align:middle line:90%
+So the GF is also called--
+
+00:04:52.270 --> 00:04:54.670 align:middle line:84%
+so it's called the
+Feynman-Green functions.
+
+00:04:54.670 --> 00:05:01.480 align:middle line:84%
+It's also called the
+time-ordered correlation
+
+00:05:01.480 --> 00:05:01.980 align:middle line:90%
+function.
+
+00:05:01.980 --> 00:05:10.850 align:middle line:90%
+
+
+00:05:10.850 --> 00:05:14.430 align:middle line:84%
+And then we wrote
+down the expression.
+
+00:05:14.430 --> 00:05:18.410 align:middle line:84%
+So we calculate the expression
+explicitly for G plus.
+
+00:05:18.410 --> 00:05:23.690 align:middle line:84%
+And we also almost finished
+the expression for--
+
+00:05:23.690 --> 00:05:26.780 align:middle line:84%
+yeah, similarly, you can
+do retarded et cetera.
+
+00:05:26.780 --> 00:05:30.980 align:middle line:84%
+And also, so any
+questions on this?
+
+00:05:30.980 --> 00:05:32.060 align:middle line:90%
+Yes?
+
+00:05:32.060 --> 00:05:33.950 align:middle line:84%
+AUDIENCE: So on
+the set, we showed
+
+00:05:33.950 --> 00:05:37.910 align:middle line:84%
+that for the complex scalar
+field, phi x phi x' is 0.
+
+00:05:37.910 --> 00:05:38.960 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:05:38.960 --> 00:05:40.335 align:middle line:84%
+AUDIENCE: So what
+does that mean?
+
+00:05:40.335 --> 00:05:41.600 align:middle line:90%
+There's no commutator?
+
+00:05:41.600 --> 00:05:44.570 align:middle line:84%
+HONG LIU: Yeah, yeah,
+yeah, because of the charge
+
+00:05:44.570 --> 00:05:45.950 align:middle line:90%
+conservation.
+
+00:05:45.950 --> 00:05:48.620 align:middle line:84%
+And you cannot propagate from
+one particle to the other
+
+00:05:48.620 --> 00:05:49.790 align:middle line:90%
+particle.
+
+00:05:49.790 --> 00:05:54.530 align:middle line:84%
+So because phi, when
+it acts on the 0,
+
+00:05:54.530 --> 00:05:57.260 align:middle line:90%
+generates, say, a particle.
+
+00:05:57.260 --> 00:05:59.960 align:middle line:84%
+But when phi acts on
+the left, it actually
+
+00:05:59.960 --> 00:06:02.690 align:middle line:90%
+generates the antiparticle.
+
+00:06:02.690 --> 00:06:06.100 align:middle line:84%
+So a particle cannot become
+a antiparticle, right?
+
+00:06:06.100 --> 00:06:09.280 align:middle line:84%
+So only when phi and the
+phi dagger, and then it's
+
+00:06:09.280 --> 00:06:10.810 align:middle line:90%
+from just the particle.
+
+00:06:10.810 --> 00:06:11.310 align:middle line:90%
+Yeah.
+
+00:06:11.310 --> 00:06:16.020 align:middle line:90%
+
+
+00:06:16.020 --> 00:06:16.950 align:middle line:90%
+Other questions?
+
+00:06:16.950 --> 00:06:20.280 align:middle line:90%
+
+
+00:06:20.280 --> 00:06:22.200 align:middle line:90%
+OK, good.
+
+00:06:22.200 --> 00:06:25.770 align:middle line:90%
+So we also discussed the--
+
+00:06:25.770 --> 00:06:29.670 align:middle line:84%
+yeah, so we wrote down
+this formula for R,
+
+00:06:29.670 --> 00:06:36.290 align:middle line:90%
+A, F, say, in coordinate space.
+
+00:06:36.290 --> 00:06:40.030 align:middle line:84%
+So x prime can be written
+as a Fourier transform.
+
+00:06:40.030 --> 00:06:50.360 align:middle line:90%
+
+
+00:06:50.360 --> 00:06:56.192 align:middle line:84%
+I think it's k squared
+plus m squared.
+
+00:06:56.192 --> 00:06:57.905 align:middle line:90%
+And let me just check the sign.
+
+00:06:57.905 --> 00:07:00.730 align:middle line:90%
+
+
+00:07:00.730 --> 00:07:03.380 align:middle line:90%
+I think it's i or minus i.
+
+00:07:03.380 --> 00:07:06.490 align:middle line:90%
+Yeah, minus i.
+
+00:07:06.490 --> 00:07:11.680 align:middle line:90%
+So right, OK?
+
+00:07:11.680 --> 00:07:18.490 align:middle line:84%
+And then we mentioned that this
+factor actually has a pole.
+
+00:07:18.490 --> 00:07:22.240 align:middle line:84%
+In the downstairs, these
+have the form omega squared--
+
+00:07:22.240 --> 00:07:26.140 align:middle line:84%
+minus omega squared
+plus omega k squared
+
+00:07:26.140 --> 00:07:28.510 align:middle line:90%
+if you write it explicitly.
+
+00:07:28.510 --> 00:07:35.960 align:middle line:84%
+And then this quantity
+becomes singular at--
+
+00:07:35.960 --> 00:07:44.985 align:middle line:84%
+so singular at omega equal
+to plus-minus omega k.
+
+00:07:44.985 --> 00:07:47.305 align:middle line:90%
+
+
+00:07:47.305 --> 00:07:47.805 align:middle line:90%
+OK?
+
+00:07:47.805 --> 00:07:50.370 align:middle line:90%
+
+
+00:07:50.370 --> 00:07:53.850 align:middle line:84%
+And the singularity lies
+on the integration contour
+
+00:07:53.850 --> 00:07:57.600 align:middle line:84%
+if we consider a
+complex omega plane.
+
+00:07:57.600 --> 00:08:00.990 align:middle line:84%
+And so here, one of the
+integral is the omega.
+
+00:08:00.990 --> 00:08:05.710 align:middle line:84%
+And then the omega go
+along the real axis.
+
+00:08:05.710 --> 00:08:07.960 align:middle line:84%
+So the integration goes
+along the real axis.
+
+00:08:07.960 --> 00:08:14.150 align:middle line:84%
+And here is minus omega
+k, here is omega k.
+
+00:08:14.150 --> 00:08:18.800 align:middle line:84%
+So you have singularity on
+the integration contour.
+
+00:08:18.800 --> 00:08:24.890 align:middle line:84%
+And then different ways of going
+around the singularity then
+
+00:08:24.890 --> 00:08:28.160 align:middle line:84%
+give you different choice
+of retarded and advanced
+
+00:08:28.160 --> 00:08:30.970 align:middle line:90%
+and the Feynman.
+
+00:08:30.970 --> 00:08:34.600 align:middle line:84%
+And which one to
+choose based on-- which
+
+00:08:34.600 --> 00:08:36.940 align:middle line:84%
+control you should
+choose, whether you
+
+00:08:36.940 --> 00:08:41.200 align:middle line:84%
+should go around, go above,
+or go below the singularity.
+
+00:08:41.200 --> 00:08:46.780 align:middle line:84%
+And depends on the
+prescription for each of them.
+
+00:08:46.780 --> 00:08:52.360 align:middle line:84%
+So we discussed
+that for G R, which
+
+00:08:52.360 --> 00:08:57.250 align:middle line:84%
+is proportional to theta,
+t minus t prime, then that
+
+00:08:57.250 --> 00:09:01.330 align:middle line:84%
+means we should-- yeah, so let
+me just draw the singularity.
+
+00:09:01.330 --> 00:09:04.220 align:middle line:90%
+
+
+00:09:04.220 --> 00:09:07.690 align:middle line:84%
+So that means you actually
+need to change your contour
+
+00:09:07.690 --> 00:09:14.200 align:middle line:84%
+to go above the singularity, to
+go above the both singularity.
+
+00:09:14.200 --> 00:09:17.500 align:middle line:84%
+OK, so that will guarantee
+you to proportional
+
+00:09:17.500 --> 00:09:22.480 align:middle line:84%
+to theta minus theta prime
+when you do the integral--
+
+00:09:22.480 --> 00:09:25.300 align:middle line:84%
+when you do the
+integral, the omega
+
+00:09:25.300 --> 00:09:31.570 align:middle line:84%
+integral using the contours
+and using the contours.
+
+00:09:31.570 --> 00:09:38.260 align:middle line:84%
+And similarly, for G A, which
+is proportional to theta t
+
+00:09:38.260 --> 00:09:41.320 align:middle line:90%
+prime and t minus t prime--
+
+00:09:41.320 --> 00:09:43.540 align:middle line:84%
+in order to guarantee
+that, then you
+
+00:09:43.540 --> 00:09:50.760 align:middle line:84%
+have to take your control
+to be below the singularity,
+
+00:09:50.760 --> 00:09:52.210 align:middle line:90%
+be below the singularity.
+
+00:09:52.210 --> 00:09:54.675 align:middle line:84%
+So this is omega,
+real omega axis.
+
+00:09:54.675 --> 00:09:57.230 align:middle line:90%
+
+
+00:09:57.230 --> 00:09:59.660 align:middle line:90%
+And for the Feynman--
+
+00:09:59.660 --> 00:10:03.610 align:middle line:84%
+so the Feynman is
+half and a half.
+
+00:10:03.610 --> 00:10:06.370 align:middle line:84%
+So there's a theta t minus
+t prime part-- there's
+
+00:10:06.370 --> 00:10:09.280 align:middle line:90%
+a theta t prime minus t part.
+
+00:10:09.280 --> 00:10:13.510 align:middle line:90%
+OK, if you try to check that--
+
+00:10:13.510 --> 00:10:15.670 align:middle line:84%
+so we're not going
+to detail it there.
+
+00:10:15.670 --> 00:10:22.100 align:middle line:84%
+Here we'll give you a
+exercise for yourself.
+
+00:10:22.100 --> 00:10:25.120 align:middle line:84%
+So if you want to satisfy
+that kind of condition
+
+00:10:25.120 --> 00:10:28.870 align:middle line:84%
+when t greater than t
+prime gives you G plus
+
+00:10:28.870 --> 00:10:30.820 align:middle line:84%
+and when t smaller
+than t prime gives you
+
+00:10:30.820 --> 00:10:37.760 align:middle line:84%
+G minus, when you do
+the contour integration,
+
+00:10:37.760 --> 00:10:39.570 align:middle line:84%
+you have to do
+the following way.
+
+00:10:39.570 --> 00:10:45.240 align:middle line:84%
+So for this one, you go below,
+for this one you go from up.
+
+00:10:45.240 --> 00:10:49.400 align:middle line:90%
+OK, you go up.
+
+00:10:49.400 --> 00:10:52.010 align:middle line:84%
+And then there's
+another way, which
+
+00:10:52.010 --> 00:10:56.780 align:middle line:84%
+is G F tilde, which is the
+opposite for G F in terms
+
+00:10:56.780 --> 00:10:57.860 align:middle line:90%
+of time-ordering.
+
+00:10:57.860 --> 00:11:00.000 align:middle line:84%
+And then you will do the
+opposite way over here.
+
+00:11:00.000 --> 00:11:02.150 align:middle line:84%
+OK, so altogether, there
+are four different ways
+
+00:11:02.150 --> 00:11:04.460 align:middle line:84%
+you can go around the
+singularity that give you four
+
+00:11:04.460 --> 00:11:08.860 align:middle line:90%
+different kind of functions.
+
+00:11:08.860 --> 00:11:10.830 align:middle line:84%
+OK, they give you four
+different functions.
+
+00:11:10.830 --> 00:11:15.800 align:middle line:84%
+So for those of you who are not
+familiar with complex analysis
+
+00:11:15.800 --> 00:11:21.230 align:middle line:84%
+or the contour integrals, try to
+refresh yourself a little bit.
+
+00:11:21.230 --> 00:11:24.590 align:middle line:84%
+Because the complex
+analysis is definitely
+
+00:11:24.590 --> 00:11:26.570 align:middle line:90%
+a very, very powerful tool.
+
+00:11:26.570 --> 00:11:29.930 align:middle line:84%
+To be very familiar with
+it is very important.
+
+00:11:29.930 --> 00:11:33.130 align:middle line:90%
+
+
+00:11:33.130 --> 00:11:37.000 align:middle line:84%
+OK, so it's
+allowing-- each time,
+
+00:11:37.000 --> 00:11:40.150 align:middle line:84%
+if you have to specifier
+your contour like this--
+
+00:11:40.150 --> 00:11:43.600 align:middle line:84%
+so if each time you have to
+specify a contour like this,
+
+00:11:43.600 --> 00:11:44.960 align:middle line:90%
+it's not convenient.
+
+00:11:44.960 --> 00:11:48.340 align:middle line:84%
+And the physicists developed
+a more convenient way
+
+00:11:48.340 --> 00:11:50.650 align:middle line:84%
+to treat all of
+them in one shot.
+
+00:11:50.650 --> 00:11:59.300 align:middle line:84%
+OK, so instead of going
+around the contour like this,
+
+00:11:59.300 --> 00:12:02.680 align:middle line:84%
+we just try to move
+the singularity.
+
+00:12:02.680 --> 00:12:05.480 align:middle line:84%
+OK so we keep the
+contour to be fixed,
+
+00:12:05.480 --> 00:12:08.240 align:middle line:84%
+but we slightly move
+the singularity.
+
+00:12:08.240 --> 00:12:11.400 align:middle line:84%
+OK, for example,
+for the retarded,
+
+00:12:11.400 --> 00:12:18.500 align:middle line:84%
+this is the same if I just
+slightly move the singularity
+
+00:12:18.500 --> 00:12:23.140 align:middle line:84%
+by a tiny bit below
+the real axis.
+
+00:12:23.140 --> 00:12:26.380 align:middle line:84%
+So if my integral
+contour is like this,
+
+00:12:26.380 --> 00:12:28.830 align:middle line:90%
+then this is equivalent to that.
+
+00:12:28.830 --> 00:12:31.620 align:middle line:84%
+If this is just a tiny
+part, then this one
+
+00:12:31.620 --> 00:12:33.570 align:middle line:90%
+won't affect your answer.
+
+00:12:33.570 --> 00:12:37.300 align:middle line:84%
+OK, and similarly
+here, in this case,
+
+00:12:37.300 --> 00:12:40.000 align:middle line:84%
+we just move both singularity
+above a little bit.
+
+00:12:40.000 --> 00:12:42.360 align:middle line:84%
+And in this case, I move
+one singularity above,
+
+00:12:42.360 --> 00:12:45.090 align:middle line:84%
+move one singularity
+down, in which case
+
+00:12:45.090 --> 00:12:46.620 align:middle line:84%
+I don't have to
+change my contour,
+
+00:12:46.620 --> 00:12:48.990 align:middle line:84%
+just slightly change
+my singularity.
+
+00:12:48.990 --> 00:12:54.390 align:middle line:84%
+And this can be achieved by
+so-called epsilon prescription.
+
+00:12:54.390 --> 00:13:04.920 align:middle line:84%
+So a convenient trick
+is in the-- for example,
+
+00:13:04.920 --> 00:13:10.900 align:middle line:84%
+in the retarded case,
+instead of this--
+
+00:13:10.900 --> 00:13:17.370 align:middle line:84%
+so we always do the integral
+with the same contour.
+
+00:13:17.370 --> 00:13:24.180 align:middle line:84%
+So we don't change the
+contour, but we slightly
+
+00:13:24.180 --> 00:13:33.610 align:middle line:84%
+change the integration to be
+omega plus i epsilon squared
+
+00:13:33.610 --> 00:13:37.000 align:middle line:90%
+plus omega k squared.
+
+00:13:37.000 --> 00:13:40.780 align:middle line:84%
+OK, so the downstairs
+previously was minus omega
+
+00:13:40.780 --> 00:13:44.400 align:middle line:90%
+squared plus omega k squared.
+
+00:13:44.400 --> 00:13:47.070 align:middle line:90%
+But now, I add a tiny--
+
+00:13:47.070 --> 00:13:49.800 align:middle line:90%
+so epsilon is infinitesimal.
+
+00:13:49.800 --> 00:13:54.027 align:middle line:90%
+It's positive and infinitesimal.
+
+00:13:54.027 --> 00:13:59.940 align:middle line:90%
+
+
+00:13:59.940 --> 00:14:05.700 align:middle line:84%
+So you see, by adding
+such a tiny piece to here,
+
+00:14:05.700 --> 00:14:08.960 align:middle line:84%
+when you solve
+this singularity--
+
+00:14:08.960 --> 00:14:13.280 align:middle line:84%
+so it's now omega plus i epsilon
+equal to plus minus omega.
+
+00:14:13.280 --> 00:14:17.150 align:middle line:84%
+And then move the epsilon
+to the other side,
+
+00:14:17.150 --> 00:14:21.620 align:middle line:84%
+and then the solution
+becomes minus i epsilon.
+
+00:14:21.620 --> 00:14:24.230 align:middle line:84%
+And then because
+epsilon is positive,
+
+00:14:24.230 --> 00:14:27.710 align:middle line:84%
+then this is slightly
+in the lower half plane.
+
+00:14:27.710 --> 00:14:34.950 align:middle line:84%
+And similarly, for the advanced,
+you just do a minus, OK?
+
+00:14:34.950 --> 00:14:37.895 align:middle line:84%
+And then both
+singularity will move up.
+
+00:14:37.895 --> 00:14:38.770 align:middle line:90%
+And for the Feynman--
+
+00:14:38.770 --> 00:14:43.930 align:middle line:90%
+
+
+00:14:43.930 --> 00:14:47.035 align:middle line:84%
+so the trick is you
+can do the same thing.
+
+00:14:47.035 --> 00:14:53.160 align:middle line:90%
+
+
+00:14:53.160 --> 00:14:55.760 align:middle line:90%
+Yeah.
+
+00:14:55.760 --> 00:15:00.320 align:middle line:90%
+Sorry, I still have i k.
+
+00:15:00.320 --> 00:15:02.870 align:middle line:90%
+So this is the minus i.
+
+00:15:02.870 --> 00:15:05.540 align:middle line:84%
+So I just do k squared
+plus m squared,
+
+00:15:05.540 --> 00:15:09.800 align:middle line:84%
+the whole thing minus i epsilon,
+rather than change the omega,
+
+00:15:09.800 --> 00:15:11.510 align:middle line:84%
+and the whole thing
+minus i epsilon.
+
+00:15:11.510 --> 00:15:17.590 align:middle line:90%
+
+
+00:15:17.590 --> 00:15:19.840 align:middle line:90%
+And you can check yourself.
+
+00:15:19.840 --> 00:15:22.150 align:middle line:84%
+When you solve the
+omega using this,
+
+00:15:22.150 --> 00:15:25.720 align:middle line:84%
+this is the whole thing minus
+i epsilon, in this case.
+
+00:15:25.720 --> 00:15:27.940 align:middle line:84%
+So for retarded and
+advanced, you put it
+
+00:15:27.940 --> 00:15:29.470 align:middle line:90%
+inside the omega squared.
+
+00:15:29.470 --> 00:15:31.390 align:middle line:84%
+But here, you put
+it other side, OK?
+
+00:15:31.390 --> 00:15:33.550 align:middle line:84%
+And then you can check
+when you solve for omega.
+
+00:15:33.550 --> 00:15:35.740 align:middle line:84%
+Actually, you get
+this situation.
+
+00:15:35.740 --> 00:15:38.110 align:middle line:84%
+One move up-- it
+will actually move up
+
+00:15:38.110 --> 00:15:39.950 align:middle line:90%
+and the positive move down.
+
+00:15:39.950 --> 00:15:40.450 align:middle line:90%
+OK?
+
+00:15:40.450 --> 00:15:41.020 align:middle line:90%
+Yes.
+
+00:15:41.020 --> 00:15:43.762 align:middle line:84%
+AUDIENCE: Can you outline
+how I would convince myself
+
+00:15:43.762 --> 00:15:47.130 align:middle line:84%
+that these two pictures
+are equivalent?
+
+00:15:47.130 --> 00:15:50.600 align:middle line:84%
+Are they going-- moving,
+integrating with the contour
+
+00:15:50.600 --> 00:15:55.500 align:middle line:84%
+that jumps out over or
+under these poles for--
+
+00:15:55.500 --> 00:15:56.460 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:15:56.460 --> 00:15:58.335 align:middle line:84%
+Yeah, because from the
+contour point of view,
+
+00:15:58.335 --> 00:16:03.300 align:middle line:84%
+from the control
+integration point of view,
+
+00:16:03.300 --> 00:16:06.210 align:middle line:84%
+the precise shape of the
+contour is not important.
+
+00:16:06.210 --> 00:16:10.560 align:middle line:84%
+It only matters what
+singularity it encloses.
+
+00:16:10.560 --> 00:16:13.830 align:middle line:84%
+So as far as it encloses
+these two singularity,
+
+00:16:13.830 --> 00:16:15.750 align:middle line:90%
+and then the story is the same.
+
+00:16:15.750 --> 00:16:19.050 align:middle line:84%
+But since I changed the
+singularity location only
+
+00:16:19.050 --> 00:16:20.400 align:middle line:90%
+by epsilon--
+
+00:16:20.400 --> 00:16:23.610 align:middle line:84%
+and in the end, I will
+take this epsilon go to 0--
+
+00:16:23.610 --> 00:16:25.620 align:middle line:84%
+and then the value
+will be the same.
+
+00:16:25.620 --> 00:16:28.510 align:middle line:90%
+
+
+00:16:28.510 --> 00:16:29.840 align:middle line:90%
+Other questions?
+
+00:16:29.840 --> 00:16:35.470 align:middle line:84%
+And so this is a very, very
+simple, but very powerful
+
+00:16:35.470 --> 00:16:36.370 align:middle line:90%
+trick.
+
+00:16:36.370 --> 00:16:38.560 align:middle line:84%
+This makes things
+much more convenient
+
+00:16:38.560 --> 00:16:43.900 align:middle line:84%
+when you do many manipulations
+so that you don't
+
+00:16:43.900 --> 00:16:47.770 align:middle line:84%
+have to constantly
+worry about the contour,
+
+00:16:47.770 --> 00:16:50.005 align:middle line:90%
+the precise contour you take.
+
+00:16:50.005 --> 00:16:53.800 align:middle line:90%
+
+
+00:16:53.800 --> 00:16:56.080 align:middle line:90%
+Any other questions?
+
+00:16:56.080 --> 00:16:56.580 align:middle line:90%
+Good.
+
+00:16:56.580 --> 00:17:01.080 align:middle line:90%
+
+
+00:17:01.080 --> 00:17:02.640 align:middle line:90%
+Good.
+
+00:17:02.640 --> 00:17:05.470 align:middle line:84%
+So let me just give
+some final remarks.
+
+00:17:05.470 --> 00:17:09.260 align:middle line:84%
+So this almost
+concludes our discussion
+
+00:17:09.260 --> 00:17:10.589 align:middle line:90%
+of the free field theory.
+
+00:17:10.589 --> 00:17:12.335 align:middle line:84%
+So let me just give
+some final remarks.
+
+00:17:12.335 --> 00:17:21.319 align:middle line:90%
+
+
+00:17:21.319 --> 00:17:30.520 align:middle line:84%
+So as I mentioned, the G plus
+and the G R and the retarded
+
+00:17:30.520 --> 00:17:31.960 align:middle line:90%
+have many applications.
+
+00:17:31.960 --> 00:17:40.160 align:middle line:90%
+
+
+00:17:40.160 --> 00:17:42.020 align:middle line:90%
+Saying, in condensed matter.
+
+00:17:42.020 --> 00:17:47.390 align:middle line:84%
+So you deal with them-- you
+deal with them all the time.
+
+00:17:47.390 --> 00:17:54.970 align:middle line:84%
+And then this
+Feynman propagator,
+
+00:17:54.970 --> 00:18:03.630 align:middle line:84%
+we will see it plays
+a very important role
+
+00:18:03.630 --> 00:18:13.530 align:middle line:84%
+in next chapter, which we will
+start in the next few minutes.
+
+00:18:13.530 --> 00:18:15.585 align:middle line:84%
+So the G F will play
+a very important role.
+
+00:18:15.585 --> 00:18:18.650 align:middle line:90%
+
+
+00:18:18.650 --> 00:18:24.500 align:middle line:84%
+And so in addition
+to these two points--
+
+00:18:24.500 --> 00:18:28.780 align:middle line:84%
+so these are the correlation
+function of two points, OK?
+
+00:18:28.780 --> 00:18:30.400 align:middle line:90%
+Just the x and x prime.
+
+00:18:30.400 --> 00:18:33.640 align:middle line:84%
+You can, in principle, consider,
+say, more general correlation
+
+00:18:33.640 --> 00:18:34.510 align:middle line:90%
+functions.
+
+00:18:34.510 --> 00:18:52.460 align:middle line:90%
+
+
+00:18:52.460 --> 00:18:58.710 align:middle line:84%
+Say, you can say, consider
+an arbitrary state.
+
+00:18:58.710 --> 00:19:07.520 align:middle line:90%
+
+
+00:19:07.520 --> 00:19:10.520 align:middle line:84%
+Say, for example, you can
+just consider some state psi,
+
+00:19:10.520 --> 00:19:16.130 align:middle line:84%
+and then you can consider
+phi x1, phi x2, say, phi xn.
+
+00:19:16.130 --> 00:19:22.860 align:middle line:90%
+
+
+00:19:22.860 --> 00:19:25.530 align:middle line:84%
+So this is some
+n-point function.
+
+00:19:25.530 --> 00:19:27.450 align:middle line:84%
+Yeah, what's normally
+called n-point function,
+
+00:19:27.450 --> 00:19:29.967 align:middle line:90%
+some general state, psi.
+
+00:19:29.967 --> 00:19:31.425 align:middle line:84%
+Psi does not have
+to be the vacuum.
+
+00:19:31.425 --> 00:19:36.320 align:middle line:90%
+
+
+00:19:36.320 --> 00:19:40.110 align:middle line:84%
+So general state--
+remember, general state psi
+
+00:19:40.110 --> 00:19:43.250 align:middle line:84%
+can all be built
+from a and a dagger.
+
+00:19:43.250 --> 00:19:46.880 align:middle line:84%
+And the phi can also be
+written this way, in a dagger.
+
+00:19:46.880 --> 00:19:48.567 align:middle line:90%
+So if you give me a state--
+
+00:19:48.567 --> 00:19:50.150 align:middle line:84%
+so I can, in principle,
+calculate this
+
+00:19:50.150 --> 00:19:51.358 align:middle line:90%
+for any correlation function.
+
+00:19:51.358 --> 00:19:54.000 align:middle line:84%
+OK, so this theory
+is fully solved.
+
+00:19:54.000 --> 00:19:56.250 align:middle line:84%
+And then no matter
+what you want me
+
+00:19:56.250 --> 00:20:00.780 align:middle line:84%
+to compute using what we
+have developed so far,
+
+00:20:00.780 --> 00:20:03.600 align:middle line:90%
+you can now compute them.
+
+00:20:03.600 --> 00:20:09.640 align:middle line:84%
+So this theory,
+everything is computable.
+
+00:20:09.640 --> 00:20:13.420 align:middle line:84%
+And so now, let me just mention
+one simple fact regarding
+
+00:20:13.420 --> 00:20:16.703 align:middle line:90%
+the vacuum correlation function.
+
+00:20:16.703 --> 00:20:18.745 align:middle line:84%
+So let's consider the
+n-point function of vacuum.
+
+00:20:18.745 --> 00:20:22.690 align:middle line:90%
+
+
+00:20:22.690 --> 00:20:26.760 align:middle line:84%
+And then you can easily
+convince yourself--
+
+00:20:26.760 --> 00:20:28.440 align:middle line:84%
+OK, you can easily
+convince yourself
+
+00:20:28.440 --> 00:20:48.990 align:middle line:84%
+this factorize into sums of
+product of two-point functions.
+
+00:20:48.990 --> 00:21:06.050 align:middle line:90%
+
+
+00:21:06.050 --> 00:21:08.900 align:middle line:84%
+So this is simple
+because a and a dagger,
+
+00:21:08.900 --> 00:21:11.400 align:middle line:90%
+they have to be paired.
+
+00:21:11.400 --> 00:21:16.450 align:middle line:84%
+Because any a dagger
+creates something out of 0
+
+00:21:16.450 --> 00:21:21.270 align:middle line:84%
+has to be annihilated
+by a somewhere later.
+
+00:21:21.270 --> 00:21:25.250 align:middle line:84%
+So that means all the a and
+a dagger has to be paired.
+
+00:21:25.250 --> 00:21:28.320 align:middle line:84%
+And then that means
+that they have to reduce
+
+00:21:28.320 --> 00:21:29.730 align:middle line:90%
+to all the two-point functions.
+
+00:21:29.730 --> 00:21:32.140 align:middle line:90%
+OK, so you can check explicitly.
+
+00:21:32.140 --> 00:21:37.360 align:middle line:84%
+So for example, the simplest
+is the four-point function.
+
+00:21:37.360 --> 00:21:44.840 align:middle line:90%
+So if you consider phi x, OK?
+
+00:21:44.840 --> 00:21:50.650 align:middle line:84%
+So you can easily convince
+yourself that the a dagger--
+
+00:21:50.650 --> 00:21:55.330 align:middle line:84%
+when a dagger of this creates
+on this, and then that can be,
+
+00:21:55.330 --> 00:21:58.330 align:middle line:90%
+say, annihilated by any of them.
+
+00:21:58.330 --> 00:22:01.790 align:middle line:90%
+And so you can have, say--
+
+00:22:01.790 --> 00:22:05.210 align:middle line:84%
+and similarly, a dagger
+created by this one
+
+00:22:05.210 --> 00:22:07.060 align:middle line:84%
+have to be annihilated
+by some later.
+
+00:22:07.060 --> 00:22:09.110 align:middle line:84%
+So you have to
+always pair them, OK?
+
+00:22:09.110 --> 00:22:12.260 align:middle line:84%
+So you can show that
+this just reduces
+
+00:22:12.260 --> 00:22:14.810 align:middle line:90%
+to all possible pairings.
+
+00:22:14.810 --> 00:22:32.770 align:middle line:84%
+So you can pair 3 and 4, or pair
+1 and 4 and 2 and 3, or 1 and 3
+
+00:22:32.770 --> 00:22:34.130 align:middle line:90%
+and 2 and 4.
+
+00:22:34.130 --> 00:22:37.665 align:middle line:84%
+OK, you just write down
+all possible pairings.
+
+00:22:37.665 --> 00:22:39.415 align:middle line:84%
+OK, just write down
+all possible pairings.
+
+00:22:39.415 --> 00:22:43.790 align:middle line:90%
+
+
+00:22:43.790 --> 00:22:45.350 align:middle line:90%
+So in free theory--
+
+00:22:45.350 --> 00:22:49.300 align:middle line:84%
+so in this free theory, any
+point functions in the vacuum,
+
+00:22:49.300 --> 00:22:52.120 align:middle line:84%
+they just reduce to
+the two-point function.
+
+00:22:52.120 --> 00:22:54.730 align:middle line:84%
+If you know the two-point
+function, you know everything.
+
+00:22:54.730 --> 00:22:56.270 align:middle line:90%
+OK, you know everything.
+
+00:22:56.270 --> 00:23:00.870 align:middle line:90%
+
+
+00:23:00.870 --> 00:23:04.385 align:middle line:84%
+So this, I will give you as
+an exercise to check yourself.
+
+00:23:04.385 --> 00:23:10.050 align:middle line:90%
+
+
+00:23:10.050 --> 00:23:14.880 align:middle line:84%
+And then the final remark
+is related to the problem 3,
+
+00:23:14.880 --> 00:23:17.980 align:middle line:90%
+I think, in your Pset.
+
+00:23:17.980 --> 00:23:27.320 align:middle line:84%
+So in addition to
+phi, we can also
+
+00:23:27.320 --> 00:23:30.050 align:middle line:84%
+consider more
+complicated operators.
+
+00:23:30.050 --> 00:23:37.330 align:middle line:84%
+We can consider, say,
+so-called composite operators.
+
+00:23:37.330 --> 00:23:40.950 align:middle line:90%
+
+
+00:23:40.950 --> 00:23:45.030 align:middle line:84%
+Means that we take the product
+of phi, of which is momentum.
+
+00:23:45.030 --> 00:23:46.160 align:middle line:90%
+So we can have--
+
+00:23:46.160 --> 00:23:50.120 align:middle line:84%
+say, we can consider
+phi squared,
+
+00:23:50.120 --> 00:23:58.730 align:middle line:84%
+phi cubed, say, the Hamiltonian
+density, the stress tensor.
+
+00:23:58.730 --> 00:24:02.920 align:middle line:84%
+So these are all involving
+some product of phis.
+
+00:24:02.920 --> 00:24:05.490 align:middle line:90%
+Or its canonical momentum.
+
+00:24:05.490 --> 00:24:10.250 align:middle line:84%
+And so these are normally
+called the composite operators.
+
+00:24:10.250 --> 00:24:17.680 align:middle line:84%
+And as you should have
+learned from your P
+
+00:24:17.680 --> 00:24:22.490 align:middle line:84%
+set problem 3 that
+those operators often
+
+00:24:22.490 --> 00:24:23.750 align:middle line:90%
+are not well defined.
+
+00:24:23.750 --> 00:24:26.330 align:middle line:84%
+Because when you multiply
+them at the same point,
+
+00:24:26.330 --> 00:24:29.210 align:middle line:90%
+you will get a singularity.
+
+00:24:29.210 --> 00:24:31.128 align:middle line:90%
+You will get singular behavior.
+
+00:24:31.128 --> 00:24:32.420 align:middle line:90%
+You will get singular behavior.
+
+00:24:32.420 --> 00:24:34.760 align:middle line:84%
+And the really to
+renormalize them, et cetera.
+
+00:24:34.760 --> 00:24:35.930 align:middle line:90%
+OK?
+
+00:24:35.930 --> 00:24:39.680 align:middle line:84%
+And so such kind of
+divergent behavior
+
+00:24:39.680 --> 00:24:42.410 align:middle line:84%
+is generic in
+quantum field theory.
+
+00:24:42.410 --> 00:24:47.660 align:middle line:84%
+And one of the most important
+parts of quantum field theory
+
+00:24:47.660 --> 00:24:51.350 align:middle line:84%
+is to find sensible
+ways to renormalize
+
+00:24:51.350 --> 00:24:58.040 align:middle line:84%
+those divergent quantities in
+the physically sensible way.
+
+00:24:58.040 --> 00:25:03.440 align:middle line:84%
+And the problem 3, it's the
+first example you encounter.
+
+00:25:03.440 --> 00:25:06.500 align:middle line:84%
+And later, when we deal
+with interacting theories,
+
+00:25:06.500 --> 00:25:10.170 align:middle line:84%
+there are more complicated
+examples, et cetera.
+
+00:25:10.170 --> 00:25:13.040 align:middle line:84%
+OK, so do you have
+any questions?
+
+00:25:13.040 --> 00:25:13.553 align:middle line:90%
+Yes?
+
+00:25:13.553 --> 00:25:14.970 align:middle line:84%
+AUDIENCE: So I'm
+a little confused
+
+00:25:14.970 --> 00:25:17.950 align:middle line:84%
+on how to interpret this
+n-point correlation function.
+
+00:25:17.950 --> 00:25:21.163 align:middle line:84%
+Because for the two-point, we
+have this heuristic condition
+
+00:25:21.163 --> 00:25:22.033 align:middle line:90%
+amplitude.
+
+00:25:22.033 --> 00:25:22.700 align:middle line:90%
+HONG LIU: Right.
+
+00:25:22.700 --> 00:25:24.367 align:middle line:84%
+AUDIENCE: But how do
+you interpret this,
+
+00:25:24.367 --> 00:25:27.740 align:middle line:84%
+especially with theories
+where it's not a free scalar
+
+00:25:27.740 --> 00:25:29.740 align:middle line:84%
+field where you can't
+decompose them like this--
+
+00:25:29.740 --> 00:25:30.610 align:middle line:90%
+HONG LIU: Right.
+
+00:25:30.610 --> 00:25:33.110 align:middle line:84%
+AUDIENCE: --by being expressed
+in terms of ladder operators?
+
+00:25:33.110 --> 00:25:34.570 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:25:34.570 --> 00:25:37.180 align:middle line:84%
+So just heuristically,
+you can imagine-- say, you
+
+00:25:37.180 --> 00:25:39.970 align:middle line:90%
+can imagine these correlations.
+
+00:25:39.970 --> 00:25:44.020 align:middle line:84%
+So, say, you make measurements
+at different points.
+
+00:25:44.020 --> 00:25:47.170 align:middle line:84%
+And you study some kind of
+joint amplitude of them.
+
+00:25:47.170 --> 00:25:50.135 align:middle line:84%
+Yeah, so this is one way
+to interpret this quantity.
+
+00:25:50.135 --> 00:25:51.760 align:middle line:84%
+AUDIENCE: Like, the
+value of the field?
+
+00:25:51.760 --> 00:25:52.635 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:25:52.635 --> 00:25:55.510 align:middle line:84%
+For example, if you imagine
+they are spin operators.
+
+00:25:55.510 --> 00:25:58.930 align:middle line:84%
+And say, phi denotes
+some kind of spin,
+
+00:25:58.930 --> 00:26:00.850 align:middle line:84%
+and then you can
+imagine you measure them
+
+00:26:00.850 --> 00:26:02.650 align:middle line:90%
+at different space time points.
+
+00:26:02.650 --> 00:26:05.070 align:middle line:84%
+And you look for
+their correlations.
+
+00:26:05.070 --> 00:26:06.790 align:middle line:90%
+Yeah.
+
+00:26:06.790 --> 00:26:08.860 align:middle line:84%
+Yeah, so this is
+the one example.
+
+00:26:08.860 --> 00:26:10.390 align:middle line:90%
+But later, we will see--
+
+00:26:10.390 --> 00:26:13.300 align:middle line:84%
+we will actually almost
+see immediately-- yeah,
+
+00:26:13.300 --> 00:26:16.212 align:middle line:84%
+just today, I think
+we will reach there.
+
+00:26:16.212 --> 00:26:18.670 align:middle line:84%
+And you will see this actually
+is related to the scattering
+
+00:26:18.670 --> 00:26:21.550 align:middle line:84%
+amplitudes when we talk
+about interacting series.
+
+00:26:21.550 --> 00:26:24.220 align:middle line:90%
+Yeah.
+
+00:26:24.220 --> 00:26:25.210 align:middle line:90%
+Other questions?
+
+00:26:25.210 --> 00:26:29.630 align:middle line:90%
+
+
+00:26:29.630 --> 00:26:30.910 align:middle line:90%
+OK, good.
+
+00:26:30.910 --> 00:26:32.710 align:middle line:90%
+Good.
+
+00:26:32.710 --> 00:26:38.290 align:middle line:84%
+So try to enjoy the
+problem 3 in your Pset.
+
+00:26:38.290 --> 00:26:43.060 align:middle line:84%
+And after doing it, really
+read the problem again, OK?
+
+00:26:43.060 --> 00:26:46.645 align:middle line:90%
+Read the problem again.
+
+00:26:46.645 --> 00:26:50.785 align:middle line:84%
+That problem contains
+the things which--
+
+00:26:50.785 --> 00:26:56.710 align:middle line:84%
+yeah, just the simplest
+situation for the divergences
+
+00:26:56.710 --> 00:26:59.230 align:middle line:84%
+you will see in
+quantum field theory.
+
+00:26:59.230 --> 00:27:03.610 align:middle line:84%
+And to be prepared
+for that is important.
+
+00:27:03.610 --> 00:27:05.860 align:middle line:84%
+Yeah, even though
+we will not directly
+
+00:27:05.860 --> 00:27:10.900 align:middle line:84%
+use the result of the problem
+3 in the immediate future,
+
+00:27:10.900 --> 00:27:13.660 align:middle line:84%
+but I think it's important
+as part of your education
+
+00:27:13.660 --> 00:27:17.650 align:middle line:84%
+to get used to the infinities
+and the divergences
+
+00:27:17.650 --> 00:27:19.030 align:middle line:90%
+in quantum field theory.
+
+00:27:19.030 --> 00:27:21.580 align:middle line:90%
+OK, good.
+
+00:27:21.580 --> 00:27:23.140 align:middle line:90%
+Other questions?
+
+00:27:23.140 --> 00:27:24.070 align:middle line:90%
+Yes?
+
+00:27:24.070 --> 00:27:28.150 align:middle line:84%
+AUDIENCE: So I guess over here,
+everything on the left hand
+
+00:27:28.150 --> 00:27:30.790 align:middle line:84%
+side is, in terms of
+these Green's functions,
+
+00:27:30.790 --> 00:27:32.530 align:middle line:84%
+which could have been
+solved classically
+
+00:27:32.530 --> 00:27:34.690 align:middle line:90%
+without doing any quantization.
+
+00:27:34.690 --> 00:27:38.220 align:middle line:84%
+So is there a reason
+why the correlator
+
+00:27:38.220 --> 00:27:39.840 align:middle line:84%
+and the quantized
+field theory is
+
+00:27:39.840 --> 00:27:42.540 align:middle line:84%
+the same as the correlator
+in the the classical?
+
+00:27:42.540 --> 00:27:44.650 align:middle line:84%
+HONG LIU: Yeah, just
+because it's a very simple--
+
+00:27:44.650 --> 00:27:46.980 align:middle line:90%
+this is a very simple theory.
+
+00:27:46.980 --> 00:27:47.740 align:middle line:90%
+Yeah.
+
+00:27:47.740 --> 00:27:48.240 align:middle line:90%
+Yeah.
+
+00:27:48.240 --> 00:27:51.810 align:middle line:84%
+Yeah, but even in this
+case, it's actually--
+
+00:27:51.810 --> 00:27:54.300 align:middle line:84%
+yeah, it depends on how
+you interpret the behavior
+
+00:27:54.300 --> 00:27:56.580 align:middle line:90%
+of those functions.
+
+00:27:56.580 --> 00:27:59.610 align:middle line:84%
+Even though this form,
+you might say, oh, maybe
+
+00:27:59.610 --> 00:28:03.530 align:middle line:90%
+we could anticipate this.
+
+00:28:03.530 --> 00:28:07.560 align:middle line:84%
+Say, if you have a, say,
+Gaussian statistical system,
+
+00:28:07.560 --> 00:28:09.480 align:middle line:90%
+you will anticipate this.
+
+00:28:09.480 --> 00:28:11.910 align:middle line:84%
+Just say you only have
+Gaussian fluctuations--
+
+00:28:11.910 --> 00:28:14.460 align:middle line:84%
+you only have Gaussian
+correlations and nothing else.
+
+00:28:14.460 --> 00:28:16.920 align:middle line:84%
+But the specific form
+of the functions, they
+
+00:28:16.920 --> 00:28:18.750 align:middle line:90%
+do encode the quantum physics.
+
+00:28:18.750 --> 00:28:23.910 align:middle line:84%
+And even though this
+factorized form is like in--
+
+00:28:23.910 --> 00:28:27.196 align:middle line:84%
+yeah, say, like in the
+Gaussian statistical theory.
+
+00:28:27.196 --> 00:28:27.696 align:middle line:90%
+Yeah.
+
+00:28:27.696 --> 00:28:30.600 align:middle line:90%
+
+
+00:28:30.600 --> 00:28:32.650 align:middle line:90%
+Good?
+
+00:28:32.650 --> 00:28:39.220 align:middle line:84%
+OK, so so far, we discussed
+the simplest free theory, just
+
+00:28:39.220 --> 00:28:42.430 align:middle line:84%
+the theory of free
+scalar particles.
+
+00:28:42.430 --> 00:28:44.620 align:middle line:90%
+They don't have spin.
+
+00:28:44.620 --> 00:28:49.480 align:middle line:84%
+They have spin 0, so they don't
+have any space-time component.
+
+00:28:49.480 --> 00:28:54.040 align:middle line:84%
+And they have some mass,
+relativistic particles.
+
+00:28:54.040 --> 00:28:58.030 align:middle line:84%
+And later, we will talk about
+electrons, which have spin 1/2,
+
+00:28:58.030 --> 00:29:00.850 align:middle line:84%
+and talk about photons,
+which have spin 1.
+
+00:29:00.850 --> 00:29:04.480 align:middle line:84%
+And before talking about
+them, let's talk a little bit
+
+00:29:04.480 --> 00:29:05.620 align:middle line:90%
+about interactions.
+
+00:29:05.620 --> 00:29:08.380 align:middle line:84%
+Because so far, this theory
+is absolutely boring.
+
+00:29:08.380 --> 00:29:14.470 align:middle line:84%
+So even though this theory
+illustrates this very important
+
+00:29:14.470 --> 00:29:18.250 align:middle line:84%
+conceptual point that somehow
+when you quantize the fields
+
+00:29:18.250 --> 00:29:19.510 align:middle line:90%
+you can get particles.
+
+00:29:19.510 --> 00:29:21.580 align:middle line:84%
+OK, you can get arbitrary
+number of particles.
+
+00:29:21.580 --> 00:29:25.180 align:middle line:84%
+So it's a connection between
+the field and the particles.
+
+00:29:25.180 --> 00:29:27.400 align:middle line:84%
+But just in terms of
+theory of particles,
+
+00:29:27.400 --> 00:29:29.320 align:middle line:84%
+this series is
+absolutely boring.
+
+00:29:29.320 --> 00:29:32.630 align:middle line:84%
+There's nothing-- the
+particles don't do anything.
+
+00:29:32.630 --> 00:29:36.730 align:middle line:84%
+They just go straight,
+which is Newton's First Law.
+
+00:29:36.730 --> 00:29:38.860 align:middle line:84%
+They just go straight
+like Newton's First Law.
+
+00:29:38.860 --> 00:29:46.150 align:middle line:84%
+And so now, let's try to add
+a little bit fun to introduce
+
+00:29:46.150 --> 00:29:47.650 align:middle line:90%
+a little bit interactions.
+
+00:29:47.650 --> 00:29:49.360 align:middle line:84%
+And you will see that
+when you introduce
+
+00:29:49.360 --> 00:29:53.840 align:middle line:84%
+a little bit interactions,
+the story becomes much richer.
+
+00:29:53.840 --> 00:29:57.290 align:middle line:84%
+So now, let's talk
+about interactions.
+
+00:29:57.290 --> 00:30:10.100 align:middle line:90%
+
+
+00:30:10.100 --> 00:30:13.870 align:middle line:84%
+It turns out to
+describe interactions,
+
+00:30:13.870 --> 00:30:17.810 align:middle line:84%
+a very powerful approach
+is the path integral.
+
+00:30:17.810 --> 00:30:21.340 align:middle line:84%
+OK, so we will also
+discuss the path integral.
+
+00:30:21.340 --> 00:30:25.970 align:middle line:84%
+So we will use the path
+integral approach to describe
+
+00:30:25.970 --> 00:30:29.180 align:middle line:90%
+how to treat interactions.
+
+00:30:29.180 --> 00:30:37.030 align:middle line:84%
+And yeah, so first,
+let's just say
+
+00:30:37.030 --> 00:30:42.265 align:middle line:84%
+a few words about some general
+remark on interacting theories.
+
+00:30:42.265 --> 00:30:49.450 align:middle line:90%
+
+
+00:30:49.450 --> 00:30:52.805 align:middle line:84%
+So previously, we
+consider theories
+
+00:30:52.805 --> 00:30:54.805 align:middle line:84%
+with a Lagrangian density
+of the following form.
+
+00:30:54.805 --> 00:31:00.970 align:middle line:90%
+
+
+00:31:00.970 --> 00:31:02.600 align:middle line:84%
+And we find it's
+a free particle.
+
+00:31:02.600 --> 00:31:04.860 align:middle line:90%
+It's a theory of free particles.
+
+00:31:04.860 --> 00:31:07.320 align:middle line:84%
+And now, we can easily
+make this theory
+
+00:31:07.320 --> 00:31:11.820 align:middle line:84%
+to be of interacting
+particles if we just
+
+00:31:11.820 --> 00:31:15.000 align:middle line:90%
+add some higher order powers.
+
+00:31:15.000 --> 00:31:19.300 align:middle line:84%
+So for example, one
+of the simplest power
+
+00:31:19.300 --> 00:31:22.352 align:middle line:90%
+is phi to the power of 4.
+
+00:31:22.352 --> 00:31:26.410 align:middle line:90%
+
+
+00:31:26.410 --> 00:31:31.150 align:middle line:84%
+So yeah, you can also add
+phi to the power of 3,
+
+00:31:31.150 --> 00:31:38.620 align:middle line:84%
+but phi to the power of
+3 is a little bit sick.
+
+00:31:38.620 --> 00:31:45.860 align:middle line:84%
+It's because the phi cubed
+doesn't have a definite sign.
+
+00:31:45.860 --> 00:31:50.405 align:middle line:84%
+I don't have a definite
+sign, and so phi cubed, say,
+
+00:31:50.405 --> 00:31:52.460 align:middle line:84%
+does not have a
+well defined energy.
+
+00:31:52.460 --> 00:31:54.440 align:middle line:84%
+So your energy can go
+arbitrarily negative.
+
+00:31:54.440 --> 00:31:59.120 align:middle line:84%
+And so this is the
+simplest interacting theory
+
+00:31:59.120 --> 00:32:00.620 align:middle line:90%
+with a well defined energy.
+
+00:32:00.620 --> 00:32:03.650 align:middle line:90%
+
+
+00:32:03.650 --> 00:32:11.200 align:middle line:84%
+So we will write this as
+L0, which is the free theory
+
+00:32:11.200 --> 00:32:14.690 align:middle line:84%
+part, which we can see there,
+and then the interacting part,
+
+00:32:14.690 --> 00:32:15.190 align:middle line:90%
+OK?
+
+00:32:15.190 --> 00:32:20.480 align:middle line:84%
+This lambda
+factorial, phi fourth.
+
+00:32:20.480 --> 00:32:24.890 align:middle line:84%
+And so this lambda, essentially
+heuristic, this lambda
+
+00:32:24.890 --> 00:32:28.170 align:middle line:84%
+should characterize the
+importance of this term.
+
+00:32:28.170 --> 00:32:29.810 align:middle line:84%
+So if lambda goes
+to 0, of course,
+
+00:32:29.810 --> 00:32:31.670 align:middle line:84%
+then this term goes
+away, and then this term
+
+00:32:31.670 --> 00:32:32.810 align:middle line:90%
+is not important.
+
+00:32:32.810 --> 00:32:34.820 align:middle line:84%
+And when lambda becomes
+bigger, then this term
+
+00:32:34.820 --> 00:32:36.480 align:middle line:90%
+becomes more and more important.
+
+00:32:36.480 --> 00:32:40.550 align:middle line:84%
+And so we call the lambda
+to be the coupling, which
+
+00:32:40.550 --> 00:32:42.440 align:middle line:84%
+characterizes the
+importance of this term.
+
+00:32:42.440 --> 00:32:49.740 align:middle line:90%
+
+
+00:32:49.740 --> 00:32:52.980 align:middle line:84%
+So now, first,
+let's follow what we
+
+00:32:52.980 --> 00:32:56.790 align:middle line:84%
+were doing before for the
+general quantization procedure.
+
+00:32:56.790 --> 00:32:59.950 align:middle line:84%
+We tried to write down the
+classical equation of motion,
+
+00:32:59.950 --> 00:33:01.800 align:middle line:84%
+and then we
+quantized-- and then we
+
+00:33:01.800 --> 00:33:04.890 align:middle line:84%
+solved the most general
+classical equations,
+
+00:33:04.890 --> 00:33:07.740 align:middle line:84%
+the most general solutions
+for the classical equations.
+
+00:33:07.740 --> 00:33:11.850 align:middle line:84%
+And then we promote those
+solutions to operators, right?
+
+00:33:11.850 --> 00:33:14.880 align:middle line:84%
+Yeah, so let's try
+to do this one.
+
+00:33:14.880 --> 00:33:22.498 align:middle line:90%
+
+
+00:33:22.498 --> 00:33:24.665 align:middle line:84%
+So now, when you write down
+the equation of motion--
+
+00:33:24.665 --> 00:33:30.237 align:middle line:90%
+
+
+00:33:30.237 --> 00:33:31.945 align:middle line:84%
+so the equation of
+motion is very simple.
+
+00:33:31.945 --> 00:33:34.640 align:middle line:90%
+
+
+00:33:34.640 --> 00:33:39.280 align:middle line:84%
+You just get partial
+square phi, m square phi.
+
+00:33:39.280 --> 00:33:41.500 align:middle line:90%
+So this is the free theory part.
+
+00:33:41.500 --> 00:33:47.260 align:middle line:84%
+And now, you have a
+nonlinear part, the cube, OK?
+
+00:33:47.260 --> 00:33:51.337 align:middle line:90%
+
+
+00:33:51.337 --> 00:33:52.920 align:middle line:84%
+So now, you have a
+nonlinear equation.
+
+00:33:52.920 --> 00:33:59.840 align:middle line:90%
+
+
+00:33:59.840 --> 00:34:01.265 align:middle line:90%
+So who can solve this equation?
+
+00:34:01.265 --> 00:34:06.130 align:middle line:90%
+
+
+00:34:06.130 --> 00:34:07.270 align:middle line:90%
+Any volunteers?
+
+00:34:07.270 --> 00:34:11.469 align:middle line:90%
+
+
+00:34:11.469 --> 00:34:13.270 align:middle line:84%
+It turns out actually
+this equation,
+
+00:34:13.270 --> 00:34:16.250 align:middle line:84%
+nobody has been able
+to solve it so far.
+
+00:34:16.250 --> 00:34:18.940 align:middle line:90%
+OK?
+
+00:34:18.940 --> 00:34:21.520 align:middle line:84%
+So we don't know
+how to solve it.
+
+00:34:21.520 --> 00:34:24.340 align:middle line:84%
+And so our previous
+strategy, even though
+
+00:34:24.340 --> 00:34:27.770 align:middle line:84%
+sounds very powerful and
+immediately it breaks down, OK?
+
+00:34:27.770 --> 00:34:31.449 align:middle line:84%
+Because rely on you can
+actually find the solutions
+
+00:34:31.449 --> 00:34:34.000 align:middle line:90%
+to this equation of motion.
+
+00:34:34.000 --> 00:34:38.020 align:middle line:84%
+And yeah, so we don't
+know how to solve this.
+
+00:34:38.020 --> 00:34:53.159 align:middle line:90%
+
+
+00:34:53.159 --> 00:34:56.420 align:middle line:84%
+But heuristically,
+you can imagine
+
+00:34:56.420 --> 00:34:58.970 align:middle line:84%
+that this, indeed, should
+be a theory of interacting
+
+00:34:58.970 --> 00:35:00.910 align:middle line:90%
+particles.
+
+00:35:00.910 --> 00:35:03.388 align:middle line:84%
+Because previously, when
+you don't have this term,
+
+00:35:03.388 --> 00:35:04.930 align:middle line:84%
+you just have a
+linear equation, then
+
+00:35:04.930 --> 00:35:06.980 align:middle line:90%
+the phi is not doing anything.
+
+00:35:06.980 --> 00:35:08.780 align:middle line:84%
+OK, now, you have
+a phi cubed term.
+
+00:35:08.780 --> 00:35:11.800 align:middle line:84%
+So that means that the different
+phis can now doing something
+
+00:35:11.800 --> 00:35:12.580 align:middle line:90%
+together, OK?
+
+00:35:12.580 --> 00:35:15.340 align:middle line:84%
+So when different phi's
+doing something together,
+
+00:35:15.340 --> 00:35:17.350 align:middle line:84%
+by definition, that's
+called interactions.
+
+00:35:17.350 --> 00:35:19.510 align:middle line:84%
+OK, and that's
+called interactions.
+
+00:35:19.510 --> 00:35:22.660 align:middle line:84%
+And so just heuristically,
+this should already--
+
+00:35:22.660 --> 00:35:26.405 align:middle line:84%
+this should give you a theory
+of interacting particles.
+
+00:35:26.405 --> 00:35:26.905 align:middle line:90%
+OK.
+
+00:35:26.905 --> 00:35:35.400 align:middle line:90%
+
+
+00:35:35.400 --> 00:35:38.850 align:middle line:84%
+So we will talk about how
+to treat such a theory.
+
+00:35:38.850 --> 00:35:40.800 align:middle line:84%
+Since this cannot
+be solved exactly,
+
+00:35:40.800 --> 00:35:44.730 align:middle line:84%
+we can only try to
+solve it approximately.
+
+00:35:44.730 --> 00:35:48.630 align:middle line:84%
+So the only way we know how to
+solve it approximately so far
+
+00:35:48.630 --> 00:35:51.680 align:middle line:84%
+is to imagine the
+lambda is small.
+
+00:35:51.680 --> 00:35:54.198 align:middle line:84%
+And then you just expand
+the lambda perturbatively.
+
+00:35:54.198 --> 00:35:55.990 align:middle line:84%
+Just treat the lambda
+as a small parameter,
+
+00:35:55.990 --> 00:35:57.700 align:middle line:90%
+you just expand the lambda.
+
+00:35:57.700 --> 00:36:01.840 align:middle line:84%
+And so I will outline this
+procedure in a little bit.
+
+00:36:01.840 --> 00:36:04.820 align:middle line:84%
+But before that, let me just
+make some general remarks,
+
+00:36:04.820 --> 00:36:08.675 align:middle line:84%
+which apply to general
+interacting theories, which
+
+00:36:08.675 --> 00:36:10.050 align:middle line:84%
+this is just one
+of the examples.
+
+00:36:10.050 --> 00:36:14.260 align:middle line:90%
+
+
+00:36:14.260 --> 00:36:20.470 align:middle line:84%
+So actually figuring out
+interactions from experiments--
+
+00:36:20.470 --> 00:36:26.120 align:middle line:84%
+it's actually one of the main
+tasks of the particle physics
+
+00:36:26.120 --> 00:36:29.910 align:middle line:84%
+and many areas of
+condensed matter physics.
+
+00:36:29.910 --> 00:36:36.500 align:middle line:84%
+OK, and so for example,
+we build LHC at CERN
+
+00:36:36.500 --> 00:36:41.420 align:middle line:84%
+and you collide these protons
+together, billions of dollars.
+
+00:36:41.420 --> 00:36:44.390 align:middle line:84%
+The whole purpose is to
+figure out the interactions
+
+00:36:44.390 --> 00:36:46.520 align:middle line:90%
+between the particles.
+
+00:36:46.520 --> 00:36:52.790 align:middle line:84%
+Between the elementary particles
+and to verify them, et cetera.
+
+00:36:52.790 --> 00:36:57.290 align:middle line:84%
+And similarly, with many
+condensed matter experiments.
+
+00:36:57.290 --> 00:36:59.940 align:middle line:84%
+So now, I'll ask you
+a simple question.
+
+00:36:59.940 --> 00:37:02.930 align:middle line:84%
+So what's the most powerful
+way, experimentally,
+
+00:37:02.930 --> 00:37:06.920 align:middle line:84%
+to probe the interactions
+between particles?
+
+00:37:06.920 --> 00:37:10.130 align:middle line:84%
+What is the word to describe
+that kind of experiment?
+
+00:37:10.130 --> 00:37:14.660 align:middle line:90%
+
+
+00:37:14.660 --> 00:37:16.035 align:middle line:90%
+What?
+
+00:37:16.035 --> 00:37:16.910 align:middle line:90%
+AUDIENCE: Scattering.
+
+00:37:16.910 --> 00:37:19.963 align:middle line:90%
+HONG LIU: Yeah, scattering.
+
+00:37:19.963 --> 00:37:21.380 align:middle line:84%
+So you should
+already have learned
+
+00:37:21.380 --> 00:37:23.540 align:middle line:90%
+this in quantum mechanics.
+
+00:37:23.540 --> 00:37:28.280 align:middle line:84%
+So scattering is
+the key thing, OK?
+
+00:37:28.280 --> 00:37:37.980 align:middle line:84%
+So that's essentially
+the universal approach
+
+00:37:37.980 --> 00:37:41.770 align:middle line:84%
+we have been using for more
+than 100 years, starting
+
+00:37:41.770 --> 00:37:48.520 align:middle line:84%
+from Rutherford, who first
+shoot the helium atom at the--
+
+00:37:48.520 --> 00:37:53.600 align:middle line:84%
+who first shooting electrons
+at the helium atom.
+
+00:37:53.600 --> 00:37:54.240 align:middle line:90%
+OK?
+
+00:37:54.240 --> 00:37:56.020 align:middle line:90%
+No, no, no, no, no.
+
+00:37:56.020 --> 00:37:58.330 align:middle line:84%
+Shoot the alpha
+particles at the--
+
+00:37:58.330 --> 00:38:00.350 align:middle line:90%
+alpha particles at atoms.
+
+00:38:00.350 --> 00:38:09.600 align:middle line:84%
+And so the scattering-- and
+then, so you have Rutherford,
+
+00:38:09.600 --> 00:38:15.790 align:middle line:84%
+and then you have the so-called
+deep inelastic scattering, DIS,
+
+00:38:15.790 --> 00:38:18.280 align:middle line:84%
+which you figured out
+that the proton actually
+
+00:38:18.280 --> 00:38:22.900 align:middle line:84%
+has substructure, which leads
+to the discovery of quarks.
+
+00:38:22.900 --> 00:38:27.940 align:middle line:84%
+And actually, MIT played a key
+role, Friedman and Kendall,
+
+00:38:27.940 --> 00:38:32.710 align:middle line:84%
+in the DIS experiment, which
+figured out the structure--
+
+00:38:32.710 --> 00:38:37.900 align:middle line:84%
+which discovered that
+the quarks were--
+
+00:38:37.900 --> 00:38:42.980 align:middle line:84%
+yeah, they played
+the key role in that.
+
+00:38:42.980 --> 00:38:49.540 align:middle line:84%
+So and still, many, many
+interactions and the particles
+
+00:38:49.540 --> 00:38:51.880 align:middle line:90%
+were discovered this way.
+
+00:38:51.880 --> 00:39:00.500 align:middle line:84%
+And so the basic
+idea of scattering--
+
+00:39:00.500 --> 00:39:06.170 align:middle line:90%
+
+
+00:39:06.170 --> 00:39:07.735 align:middle line:84%
+so essentially,
+it's very simple.
+
+00:39:07.735 --> 00:39:10.280 align:middle line:90%
+
+
+00:39:10.280 --> 00:39:23.220 align:middle line:84%
+You just collide a
+bunch of particles, OK?
+
+00:39:23.220 --> 00:39:24.660 align:middle line:90%
+And just examine the outcome.
+
+00:39:24.660 --> 00:39:34.520 align:middle line:90%
+
+
+00:39:34.520 --> 00:39:36.860 align:middle line:84%
+OK, so from the outcome,
+you try to deduce
+
+00:39:36.860 --> 00:39:39.560 align:middle line:84%
+what are the interactions
+between those particles?
+
+00:39:39.560 --> 00:39:42.050 align:middle line:84%
+OK, so that's what
+the experiment--
+
+00:39:42.050 --> 00:39:44.570 align:middle line:90%
+scattering experiment about.
+
+00:39:44.570 --> 00:39:50.930 align:middle line:84%
+OK, so from here, you deduce the
+interaction, which has always
+
+00:39:50.930 --> 00:39:53.040 align:middle line:90%
+been very successful.
+
+00:39:53.040 --> 00:39:57.350 align:middle line:84%
+So in condensed matter, you have
+neutron scattering, et cetera.
+
+00:39:57.350 --> 00:40:00.110 align:middle line:84%
+X-ray, you can use
+X-ray and the neutrons
+
+00:40:00.110 --> 00:40:02.135 align:middle line:90%
+to shine on your samples.
+
+00:40:02.135 --> 00:40:04.830 align:middle line:90%
+
+
+00:40:04.830 --> 00:40:08.960 align:middle line:84%
+And one of the most
+important observables
+
+00:40:08.960 --> 00:40:14.200 align:middle line:84%
+for the scattering
+experiment is what?
+
+00:40:14.200 --> 00:40:16.943 align:middle line:84%
+Again, this is a simple
+question of quantum mechanics.
+
+00:40:16.943 --> 00:40:17.735 align:middle line:90%
+AUDIENCE: Momentum?
+
+00:40:17.735 --> 00:40:18.398 align:middle line:90%
+HONG LIU: Hmm?
+
+00:40:18.398 --> 00:40:20.240 align:middle line:90%
+AUDIENCE: Momentum?
+
+00:40:20.240 --> 00:40:21.267 align:middle line:90%
+HONG LIU: Sorry?
+
+00:40:21.267 --> 00:40:22.338 align:middle line:90%
+AUDIENCE: Momentum?
+
+00:40:22.338 --> 00:40:23.838 align:middle line:84%
+HONG LIU: No,
+momentum is not that--
+
+00:40:23.838 --> 00:40:25.152 align:middle line:90%
+AUDIENCE: And cross section.
+
+00:40:25.152 --> 00:40:26.030 align:middle line:90%
+Cross section.
+
+00:40:26.030 --> 00:40:26.120 align:middle line:90%
+
+
+00:40:26.120 --> 00:40:27.495 align:middle line:84%
+HONG LIU: Cross
+section is close,
+
+00:40:27.495 --> 00:40:30.573 align:middle line:90%
+but there's a more fancy word.
+
+00:40:30.573 --> 00:40:31.448 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:40:31.448 --> 00:40:33.840 align:middle line:90%
+HONG LIU: Hmm?
+
+00:40:33.840 --> 00:40:36.680 align:middle line:84%
+AUDIENCE: Differential
+cross section?
+
+00:40:36.680 --> 00:40:40.890 align:middle line:84%
+HONG LIU: That's fancier,
+but not fancy enough.
+
+00:40:40.890 --> 00:40:41.765 align:middle line:90%
+It's called S-matrix.
+
+00:40:41.765 --> 00:40:46.310 align:middle line:90%
+
+
+00:40:46.310 --> 00:40:47.810 align:middle line:84%
+AUDIENCE: No, I
+said S-matrix, but I
+
+00:40:47.810 --> 00:40:48.740 align:middle line:90%
+didn't say it loud enough.
+
+00:40:48.740 --> 00:40:49.448 align:middle line:90%
+HONG LIU: Oh, OK.
+
+00:40:49.448 --> 00:40:50.900 align:middle line:90%
+Yeah, just be brave.
+
+00:40:50.900 --> 00:40:53.090 align:middle line:90%
+Be braver next time.
+
+00:40:53.090 --> 00:40:58.440 align:middle line:90%
+
+
+00:40:58.440 --> 00:41:01.520 align:middle line:90%
+So one of the key elements--
+
+00:41:01.520 --> 00:41:07.910 align:middle line:84%
+yeah, so one of the key
+observables for scattering
+
+00:41:07.910 --> 00:41:09.680 align:middle line:90%
+is a so-called the S-matrix.
+
+00:41:09.680 --> 00:41:18.190 align:middle line:84%
+OK, to define S-matrix,
+we need a little bit
+
+00:41:18.190 --> 00:41:23.980 align:middle line:84%
+of mathematical idealization,
+just as always in physics.
+
+00:41:23.980 --> 00:41:26.160 align:middle line:84%
+So the mathematical
+idealization,
+
+00:41:26.160 --> 00:41:28.980 align:middle line:84%
+in order to define
+S-matrix, is the following.
+
+00:41:28.980 --> 00:41:36.770 align:middle line:90%
+
+
+00:41:36.770 --> 00:41:42.780 align:middle line:84%
+So at t equal to infinity,
+t equal to minus infinity,
+
+00:41:42.780 --> 00:41:47.775 align:middle line:90%
+prepare initial state--
+
+00:41:47.775 --> 00:41:56.750 align:middle line:90%
+
+
+00:41:56.750 --> 00:42:06.200 align:middle line:84%
+yeah, initial state may be the
+initial state as localized,
+
+00:42:06.200 --> 00:42:13.105 align:middle line:84%
+say, wave packet
+infinitely far apart.
+
+00:42:13.105 --> 00:42:20.290 align:middle line:90%
+
+
+00:42:20.290 --> 00:42:23.520 align:middle line:84%
+So this is the mathematical
+idealization part, OK?
+
+00:42:23.520 --> 00:42:25.245 align:middle line:84%
+We want them to be
+infinitely far apart.
+
+00:42:25.245 --> 00:42:32.260 align:middle line:90%
+
+
+00:42:32.260 --> 00:42:34.120 align:middle line:90%
+But you aim them, OK?
+
+00:42:34.120 --> 00:42:38.050 align:middle line:84%
+So you prepare them spatially
+infinitely far apart,
+
+00:42:38.050 --> 00:42:41.470 align:middle line:84%
+but you aim of them-- you
+prepare their initial momentum
+
+00:42:41.470 --> 00:42:43.780 align:middle line:84%
+so that they can come
+together at some point.
+
+00:42:43.780 --> 00:42:46.020 align:middle line:90%
+You aim them.
+
+00:42:46.020 --> 00:42:48.690 align:middle line:84%
+And then they will come
+together at some point,
+
+00:42:48.690 --> 00:42:50.610 align:middle line:90%
+and then they will scatter.
+
+00:42:50.610 --> 00:42:53.190 align:middle line:84%
+They will interact
+with each other.
+
+00:42:53.190 --> 00:42:57.930 align:middle line:84%
+And then they will form
+some final product,
+
+00:42:57.930 --> 00:43:01.290 align:middle line:84%
+and then the final product will
+then run away from each other,
+
+00:43:01.290 --> 00:43:01.950 align:middle line:90%
+OK?
+
+00:43:01.950 --> 00:43:03.820 align:middle line:84%
+They will have
+velocity momentum.
+
+00:43:03.820 --> 00:43:04.920 align:middle line:90%
+They will run away.
+
+00:43:04.920 --> 00:43:06.720 align:middle line:90%
+And then you just wait.
+
+00:43:06.720 --> 00:43:09.030 align:middle line:84%
+Wait until the
+products are far apart,
+
+00:43:09.030 --> 00:43:11.160 align:middle line:90%
+then you match with them.
+
+00:43:11.160 --> 00:43:15.300 align:middle line:84%
+So mathematically, this is
+called t equals infinity--
+
+00:43:15.300 --> 00:43:17.760 align:middle line:84%
+yeah, of course, t equal
+to plus-minus infinity
+
+00:43:17.760 --> 00:43:20.550 align:middle line:84%
+is also a mathematical
+idealization.
+
+00:43:20.550 --> 00:43:28.860 align:middle line:84%
+And the final particles
+are also far apart.
+
+00:43:28.860 --> 00:43:32.250 align:middle line:90%
+Again, infinitely far apart.
+
+00:43:32.250 --> 00:43:38.520 align:middle line:84%
+Because they are all
+relativistic particles and they
+
+00:43:38.520 --> 00:43:41.450 align:middle line:90%
+all move.
+
+00:43:41.450 --> 00:43:43.430 align:middle line:84%
+And even with slightly
+momentum difference,
+
+00:43:43.430 --> 00:43:44.810 align:middle line:90%
+eventually, they will be--
+
+00:43:44.810 --> 00:43:47.570 align:middle line:84%
+if you wait long enough
+time, then they will be--
+
+00:43:47.570 --> 00:43:51.120 align:middle line:90%
+
+
+00:43:51.120 --> 00:43:53.740 align:middle line:84%
+so this final path
+are very important,
+
+00:43:53.740 --> 00:44:11.050 align:middle line:84%
+these two, because this means
+we can neglect the interactions.
+
+00:44:11.050 --> 00:44:17.770 align:middle line:90%
+
+
+00:44:17.770 --> 00:44:22.856 align:middle line:84%
+OK, as t goes to
+plus-minus infinity.
+
+00:44:22.856 --> 00:44:27.600 align:middle line:84%
+OK, so with this set
+up, and then t equals
+
+00:44:27.600 --> 00:44:31.200 align:middle line:84%
+plus-minus infinity,
+they are very far away.
+
+00:44:31.200 --> 00:44:32.950 align:middle line:84%
+And then you can neglect
+the interactions.
+
+00:44:32.950 --> 00:44:33.630 align:middle line:90%
+This is important.
+
+00:44:33.630 --> 00:44:35.100 align:middle line:84%
+Then we can identify
+each particle,
+
+00:44:35.100 --> 00:44:36.720 align:middle line:84%
+because when they
+are together, they
+
+00:44:36.720 --> 00:44:39.420 align:middle line:84%
+all interacting with
+each other, it's
+
+00:44:39.420 --> 00:44:41.730 align:middle line:84%
+not easy to cleanly
+identify each particles
+
+00:44:41.730 --> 00:44:43.710 align:middle line:90%
+and discuss their properties.
+
+00:44:43.710 --> 00:44:47.610 align:middle line:84%
+And so now, we can
+neglect the interactions.
+
+00:44:47.610 --> 00:44:56.620 align:middle line:90%
+
+
+00:44:56.620 --> 00:45:15.990 align:middle line:84%
+So the initial and final
+states, and then a collection
+
+00:45:15.990 --> 00:45:17.160 align:middle line:90%
+of free particles.
+
+00:45:17.160 --> 00:45:24.890 align:middle line:90%
+
+
+00:45:24.890 --> 00:45:26.615 align:middle line:84%
+And they can be
+described by free theory.
+
+00:45:26.615 --> 00:45:35.050 align:middle line:90%
+
+
+00:45:35.050 --> 00:45:38.950 align:middle line:84%
+So this is very important
+because remember,
+
+00:45:38.950 --> 00:45:41.290 align:middle line:84%
+we cannot solve this kind of
+interacting theory exactly.
+
+00:45:41.290 --> 00:45:44.040 align:middle line:90%
+
+
+00:45:44.040 --> 00:45:49.470 align:middle line:84%
+So now, but we can reliably
+almost to infinitely accuracy
+
+00:45:49.470 --> 00:45:53.640 align:middle line:84%
+if you talk about the initial
+state and the final state.
+
+00:45:53.640 --> 00:45:55.830 align:middle line:84%
+And we can talk about
+them as precisely
+
+00:45:55.830 --> 00:45:59.820 align:middle line:84%
+as we can, as far as we go to
+t going to plus-minus infinity.
+
+00:45:59.820 --> 00:46:00.600 align:middle line:90%
+Yes?
+
+00:46:00.600 --> 00:46:04.503 align:middle line:84%
+AUDIENCE: So how do you know
+adding a phi to the fourth term
+
+00:46:04.503 --> 00:46:05.420 align:middle line:90%
+leads to interactions?
+
+00:46:05.420 --> 00:46:08.035 align:middle line:84%
+Just because its the simplest
+term that [INAUDIBLE]..
+
+00:46:08.035 --> 00:46:09.520 align:middle line:84%
+HONG LIU: Yeah,
+just in principle,
+
+00:46:09.520 --> 00:46:14.100 align:middle line:84%
+any nonlinear term will
+lead to interactions.
+
+00:46:14.100 --> 00:46:16.410 align:middle line:84%
+Yeah, the intuition
+is that anything
+
+00:46:16.410 --> 00:46:19.680 align:middle line:84%
+beyond the linear level, you
+will have different phi's
+
+00:46:19.680 --> 00:46:20.620 align:middle line:90%
+coming together.
+
+00:46:20.620 --> 00:46:24.870 align:middle line:84%
+So whether it's phi cubed,
+or phi four, so higher powers
+
+00:46:24.870 --> 00:46:26.940 align:middle line:90%
+or exponentials.
+
+00:46:26.940 --> 00:46:30.108 align:middle line:84%
+Yeah, just anything
+which is not linear phi's
+
+00:46:30.108 --> 00:46:31.650 align:middle line:84%
+have to do something
+with each other,
+
+00:46:31.650 --> 00:46:33.690 align:middle line:90%
+and that just means interaction.
+
+00:46:33.690 --> 00:46:34.290 align:middle line:90%
+Yeah.
+
+00:46:34.290 --> 00:46:34.635 align:middle line:90%
+Yes?
+
+00:46:34.635 --> 00:46:36.427 align:middle line:84%
+AUDIENCE: Why are you
+doing the interaction
+
+00:46:36.427 --> 00:46:40.950 align:middle line:84%
+from the minus one half m
+squared phi squared term?
+
+00:46:40.950 --> 00:46:43.383 align:middle line:90%
+HONG LIU: Sorry, say it again.
+
+00:46:43.383 --> 00:46:44.300 align:middle line:90%
+AUDIENCE: So we have--
+
+00:46:44.300 --> 00:46:45.550 align:middle line:90%
+HONG LIU: Oh yeah, yeah, yeah.
+
+00:46:45.550 --> 00:46:47.420 align:middle line:84%
+Yeah, this does not
+give you interactions
+
+00:46:47.420 --> 00:46:48.530 align:middle line:90%
+because this just--
+
+00:46:48.530 --> 00:46:52.130 align:middle line:84%
+remember, when you do equation
+of motion, that still gives you
+
+00:46:52.130 --> 00:46:52.880 align:middle line:90%
+a linear term.
+
+00:46:52.880 --> 00:46:53.300 align:middle line:90%
+AUDIENCE: Oh, OK.
+
+00:46:53.300 --> 00:46:54.510 align:middle line:84%
+HONG LIU: Linear term
+just give you a mass.
+
+00:46:54.510 --> 00:46:54.790 align:middle line:90%
+AUDIENCE: [INAUDIBLE].
+
+00:46:54.790 --> 00:46:55.873 align:middle line:90%
+HONG LIU: Yeah yeah, yeah.
+
+00:46:55.873 --> 00:46:56.840 align:middle line:90%
+Right, right.
+
+00:46:56.840 --> 00:46:58.610 align:middle line:90%
+Yeah, yeah, yeah, yeah, yeah.
+
+00:46:58.610 --> 00:47:03.320 align:middle line:84%
+Yeah, in the Lagrangian, the
+quadratic term, a free term.
+
+00:47:03.320 --> 00:47:05.210 align:middle line:84%
+So since above
+the quadratic term
+
+00:47:05.210 --> 00:47:06.380 align:middle line:90%
+gives you the interactions.
+
+00:47:06.380 --> 00:47:07.270 align:middle line:90%
+Yeah.
+
+00:47:07.270 --> 00:47:09.210 align:middle line:90%
+Yes.
+
+00:47:09.210 --> 00:47:09.710 align:middle line:90%
+Yes?
+
+00:47:09.710 --> 00:47:11.607 align:middle line:84%
+AUDIENCE: If I know what
+the interaction potential is
+
+00:47:11.607 --> 00:47:14.240 align:middle line:84%
+to the particles, like gluon
+or something like that, how
+
+00:47:14.240 --> 00:47:15.425 align:middle line:90%
+can I translate that into--
+
+00:47:15.425 --> 00:47:16.550 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:47:16.550 --> 00:47:19.250 align:middle line:90%
+Here you can not translate.
+
+00:47:19.250 --> 00:47:22.070 align:middle line:84%
+Here, I'm just giving you the
+intuition that somehow when
+
+00:47:22.070 --> 00:47:23.810 align:middle line:84%
+you add such kind
+of nonlinear term
+
+00:47:23.810 --> 00:47:26.510 align:middle line:84%
+that should lead to some
+kind of interactions.
+
+00:47:26.510 --> 00:47:29.720 align:middle line:84%
+But to understand what
+precisely kind of interactions,
+
+00:47:29.720 --> 00:47:31.643 align:middle line:84%
+you have to look at
+physical observables.
+
+00:47:31.643 --> 00:47:33.560 align:middle line:84%
+So that's why we need
+to look at the S-matrix.
+
+00:47:33.560 --> 00:47:37.250 align:middle line:84%
+Even for this theory,
+we want to say, suppose
+
+00:47:37.250 --> 00:47:41.000 align:middle line:84%
+we have this theory,
+but in real life,
+
+00:47:41.000 --> 00:47:46.550 align:middle line:84%
+how do we see in
+the real experiment?
+
+00:47:46.550 --> 00:47:49.460 align:middle line:84%
+Yeah, if this theory
+can be realized
+
+00:47:49.460 --> 00:47:51.500 align:middle line:84%
+in the real experiment,
+what it looks like?
+
+00:47:51.500 --> 00:47:54.410 align:middle line:84%
+And the only way to see it
+is through this S-matrix.
+
+00:47:54.410 --> 00:47:55.340 align:middle line:90%
+Yeah, yeah.
+
+00:47:55.340 --> 00:48:00.020 align:middle line:84%
+And so this S-matrix, and
+then yeah, we can deduce back.
+
+00:48:00.020 --> 00:48:00.520 align:middle line:90%
+Good?
+
+00:48:00.520 --> 00:48:05.470 align:middle line:90%
+
+
+00:48:05.470 --> 00:48:06.510 align:middle line:90%
+OK, good?
+
+00:48:06.510 --> 00:48:09.810 align:middle line:84%
+So this is important
+because this makes sure
+
+00:48:09.810 --> 00:48:14.790 align:middle line:84%
+that even when we're unable
+to solve the theory exactly,
+
+00:48:14.790 --> 00:48:18.510 align:middle line:84%
+we can still talk about initial
+and final state exactly.
+
+00:48:18.510 --> 00:48:19.780 align:middle line:90%
+OK?
+
+00:48:19.780 --> 00:48:23.770 align:middle line:84%
+At least we can define
+our problem precisely.
+
+00:48:23.770 --> 00:48:26.530 align:middle line:84%
+So let's denote the
+collection of initial particle
+
+00:48:26.530 --> 00:48:31.010 align:middle line:84%
+to be alpha, the momentum
+of initial particles.
+
+00:48:31.010 --> 00:48:32.540 align:middle line:84%
+So essentially,
+this characterizes
+
+00:48:32.540 --> 00:48:35.780 align:middle line:90%
+your initial state.
+
+00:48:35.780 --> 00:48:38.472 align:middle line:84%
+And because here we're talking
+about scalar particles.
+
+00:48:38.472 --> 00:48:40.055 align:middle line:84%
+They don't have spin,
+so the momentum,
+
+00:48:40.055 --> 00:48:43.100 align:middle line:90%
+they are only quantum numbers.
+
+00:48:43.100 --> 00:48:48.020 align:middle line:84%
+And say I use beta to
+describe their final momentum.
+
+00:48:48.020 --> 00:48:51.530 align:middle line:90%
+I call them p 1 prime, say p n.
+
+00:48:51.530 --> 00:48:53.780 align:middle line:84%
+So the initial
+number of particles
+
+00:48:53.780 --> 00:48:57.980 align:middle line:84%
+and final number of particles
+don't have to be the same.
+
+00:48:57.980 --> 00:49:01.010 align:middle line:84%
+And then the scattering
+process is just
+
+00:49:01.010 --> 00:49:03.350 align:middle line:90%
+to go from alpha to beta.
+
+00:49:03.350 --> 00:49:06.200 align:middle line:84%
+OK, you start a bunch of
+particles at t equal to
+
+00:49:06.200 --> 00:49:08.120 align:middle line:84%
+minus infinity with
+those momentum,
+
+00:49:08.120 --> 00:49:11.780 align:middle line:84%
+and then at t plus infinity,
+you observe some other particles
+
+00:49:11.780 --> 00:49:13.400 align:middle line:90%
+with those momentum, OK?
+
+00:49:13.400 --> 00:49:15.740 align:middle line:84%
+And then we want to
+understand the transition
+
+00:49:15.740 --> 00:49:16.860 align:middle line:90%
+amplitude between them.
+
+00:49:16.860 --> 00:49:19.490 align:middle line:84%
+So that's why the
+experiment matches.
+
+00:49:19.490 --> 00:49:21.950 align:middle line:84%
+And from here, of course,
+you get the cross section,
+
+00:49:21.950 --> 00:49:23.682 align:middle line:90%
+et cetera.
+
+00:49:23.682 --> 00:49:25.265 align:middle line:84%
+But this is a more
+fundamental object.
+
+00:49:25.265 --> 00:49:33.520 align:middle line:90%
+
+
+00:49:33.520 --> 00:49:36.680 align:middle line:90%
+So to write this precisely--
+
+00:49:36.680 --> 00:49:48.810 align:middle line:90%
+
+
+00:49:48.810 --> 00:49:50.850 align:middle line:84%
+so essentially, we
+are looking at, say,
+
+00:49:50.850 --> 00:49:56.800 align:middle line:84%
+in the Heisenberg picture,
+this is my final state.
+
+00:49:56.800 --> 00:50:01.830 align:middle line:84%
+And I look at the evolution
+from minus infinity
+
+00:50:01.830 --> 00:50:05.200 align:middle line:84%
+to plus infinity, start
+from initial state alpha.
+
+00:50:05.200 --> 00:50:10.990 align:middle line:84%
+So this is the
+evolution operator
+
+00:50:10.990 --> 00:50:14.310 align:middle line:90%
+of your quantum system.
+
+00:50:14.310 --> 00:50:18.180 align:middle line:84%
+And so sometimes, we also
+write this as the-- so this
+
+00:50:18.180 --> 00:50:20.190 align:middle line:90%
+is in the Schrodinger picture.
+
+00:50:20.190 --> 00:50:23.520 align:middle line:84%
+And in the Heisenberg
+picture, we write it as this.
+
+00:50:23.520 --> 00:50:26.220 align:middle line:90%
+
+
+00:50:26.220 --> 00:50:29.790 align:middle line:84%
+So now, this means that this is
+the state defined at the minus
+
+00:50:29.790 --> 00:50:31.920 align:middle line:84%
+infinity, this is
+the state that's
+
+00:50:31.920 --> 00:50:33.557 align:middle line:90%
+defined as plus infinity.
+
+00:50:33.557 --> 00:50:35.640 align:middle line:84%
+So this is the notation
+in the Heisenberg picture.
+
+00:50:35.640 --> 00:50:37.860 align:middle line:84%
+And this is the notation
+in the Schrodinger picture.
+
+00:50:37.860 --> 00:50:45.855 align:middle line:84%
+OK, so this object
+we often denote.
+
+00:50:45.855 --> 00:50:48.420 align:middle line:90%
+
+
+00:50:48.420 --> 00:50:50.070 align:middle line:90%
+So you can worry--
+
+00:50:50.070 --> 00:50:51.930 align:middle line:84%
+you can run alpha
+and the beta over all
+
+00:50:51.930 --> 00:50:55.320 align:middle line:84%
+possible initial states and
+all possible final states.
+
+00:50:55.320 --> 00:50:58.470 align:middle line:84%
+And then that
+forms a big matrix,
+
+00:50:58.470 --> 00:51:00.930 align:middle line:84%
+in fact infinite
+times infinite matrix.
+
+00:51:00.930 --> 00:51:02.790 align:middle line:90%
+And so this is our S-matrix.
+
+00:51:02.790 --> 00:51:06.160 align:middle line:90%
+
+
+00:51:06.160 --> 00:51:09.850 align:middle line:84%
+So essentially, all your
+secret of interactions
+
+00:51:09.850 --> 00:51:12.350 align:middle line:90%
+are encoded in here.
+
+00:51:12.350 --> 00:51:12.890 align:middle line:90%
+Yes?
+
+00:51:12.890 --> 00:51:15.040 align:middle line:84%
+AUDIENCE: Why is it an
+infinite dimensional matrix?
+
+00:51:15.040 --> 00:51:16.540 align:middle line:84%
+HONG LIU: Yeah,
+because you can--
+
+00:51:16.540 --> 00:51:21.640 align:middle line:84%
+yeah, so you have a value
+for any choice of alpha
+
+00:51:21.640 --> 00:51:22.990 align:middle line:90%
+and the beta, right?
+
+00:51:22.990 --> 00:51:27.430 align:middle line:84%
+And so any choice of alpha and
+the beta is one matrix element.
+
+00:51:27.430 --> 00:51:30.463 align:middle line:84%
+But you have infinite possible
+choice of initial momentum.
+
+00:51:30.463 --> 00:51:32.630 align:middle line:84%
+Yeah, you can have an
+arbitrary number of particles,
+
+00:51:32.630 --> 00:51:34.460 align:middle line:84%
+you can have a
+arbitrary momentum.
+
+00:51:34.460 --> 00:51:37.585 align:middle line:84%
+And similarly, in principle,
+for the final state.
+
+00:51:37.585 --> 00:51:38.085 align:middle line:90%
+Yeah.
+
+00:51:38.085 --> 00:51:41.058 align:middle line:84%
+AUDIENCE: And all this
+is one kind of particle?
+
+00:51:41.058 --> 00:51:41.850 align:middle line:90%
+Or how do you know?
+
+00:51:41.850 --> 00:51:42.475 align:middle line:90%
+HONG LIU: Yeah.
+
+00:51:42.475 --> 00:51:44.280 align:middle line:84%
+Yeah, here, for this
+particular problem,
+
+00:51:44.280 --> 00:51:45.570 align:middle line:90%
+it's one kind of particle.
+
+00:51:45.570 --> 00:51:47.072 align:middle line:84%
+But this definition
+is very general.
+
+00:51:47.072 --> 00:51:48.280 align:middle line:90%
+This is a very good question.
+
+00:51:48.280 --> 00:51:51.550 align:middle line:84%
+It doesn't matter whether you
+have one kind of particle,
+
+00:51:51.550 --> 00:51:54.780 align:middle line:84%
+two kinds of particle, even an
+infinite number of particles.
+
+00:51:54.780 --> 00:51:55.620 align:middle line:90%
+Yeah.
+
+00:51:55.620 --> 00:51:57.520 align:middle line:84%
+An infinite species
+of particles.
+
+00:51:57.520 --> 00:52:00.540 align:middle line:84%
+So here, even for one
+kind the particle,
+
+00:52:00.540 --> 00:52:02.970 align:middle line:84%
+I have infinite possible
+choices because I
+
+00:52:02.970 --> 00:52:05.580 align:middle line:84%
+have infinite possible choice
+of all those momentums.
+
+00:52:05.580 --> 00:52:09.240 align:middle line:84%
+I can choose k equal to
+1, 2, 3, to infinity.
+
+00:52:09.240 --> 00:52:11.430 align:middle line:84%
+And also, the value of
+those k can all change.
+
+00:52:11.430 --> 00:52:13.010 align:middle line:90%
+P can change.
+
+00:52:13.010 --> 00:52:13.670 align:middle line:90%
+So yeah.
+
+00:52:13.670 --> 00:52:15.587 align:middle line:84%
+So this is the infinite
+times infinite matrix.
+
+00:52:15.587 --> 00:52:20.440 align:middle line:90%
+
+
+00:52:20.440 --> 00:52:25.212 align:middle line:90%
+OK, so essentially, this S--
+
+00:52:25.212 --> 00:52:26.920 align:middle line:84%
+this is essentially
+just a matrix element
+
+00:52:26.920 --> 00:52:29.598 align:middle line:90%
+of this evolution operator.
+
+00:52:29.598 --> 00:52:31.390 align:middle line:84%
+OK, essentially, this
+is the matrix element
+
+00:52:31.390 --> 00:52:32.473 align:middle line:90%
+of the evolution operator.
+
+00:52:32.473 --> 00:52:36.010 align:middle line:84%
+You can see it from here
+explicitly from minus infinity
+
+00:52:36.010 --> 00:52:36.910 align:middle line:90%
+to plus infinity.
+
+00:52:36.910 --> 00:52:42.190 align:middle line:90%
+OK, good?
+
+00:52:42.190 --> 00:52:45.450 align:middle line:90%
+
+
+00:52:45.450 --> 00:52:48.770 align:middle line:84%
+So it's convenient--
+so let me just
+
+00:52:48.770 --> 00:52:55.020 align:middle line:84%
+say a few things
+about the S-matrix.
+
+00:52:55.020 --> 00:52:58.290 align:middle line:84%
+So it's convenient-- so when
+the interaction is weak--
+
+00:52:58.290 --> 00:53:06.940 align:middle line:90%
+
+
+00:53:06.940 --> 00:53:10.708 align:middle line:84%
+so when the interaction
+is weak, you can imagine,
+
+00:53:10.708 --> 00:53:12.500 align:middle line:84%
+most of the time, the
+particles, they don't
+
+00:53:12.500 --> 00:53:15.740 align:middle line:90%
+interact with each other, OK?
+
+00:53:15.740 --> 00:53:18.590 align:middle line:84%
+So when you do the
+scattering, you
+
+00:53:18.590 --> 00:53:20.400 align:middle line:84%
+put a bunch of
+particles scattering--
+
+00:53:20.400 --> 00:53:22.160 align:middle line:84%
+if the interaction
+is very weak, then
+
+00:53:22.160 --> 00:53:26.660 align:middle line:84%
+they don't actually
+interact very much.
+
+00:53:26.660 --> 00:53:32.590 align:middle line:84%
+So we expect-- so when
+the S equals to identity,
+
+00:53:32.590 --> 00:53:35.340 align:middle line:84%
+then that means there's
+no interaction at all.
+
+00:53:35.340 --> 00:53:39.100 align:middle line:84%
+OK, for free theory, it
+will be just the identity.
+
+00:53:39.100 --> 00:53:41.350 align:middle line:84%
+So now, if you're seeing
+that the interaction is weak,
+
+00:53:41.350 --> 00:53:43.720 align:middle line:84%
+and then it's convenient,
+we write the S-matrix
+
+00:53:43.720 --> 00:53:48.940 align:middle line:84%
+in the following form, i T, and
+this includes the interaction
+
+00:53:48.940 --> 00:53:49.540 align:middle line:90%
+part.
+
+00:53:49.540 --> 00:53:54.170 align:middle line:90%
+OK, captures interacting effect.
+
+00:53:54.170 --> 00:53:59.475 align:middle line:90%
+
+
+00:53:59.475 --> 00:53:59.975 align:middle line:90%
+OK?
+
+00:53:59.975 --> 00:54:06.790 align:middle line:90%
+
+
+00:54:06.790 --> 00:54:08.270 align:middle line:90%
+Good?
+
+00:54:08.270 --> 00:54:13.860 align:middle line:84%
+And by definition-- yeah,
+any questions on this?
+
+00:54:13.860 --> 00:54:14.370 align:middle line:90%
+Yes?
+
+00:54:14.370 --> 00:54:17.194 align:middle line:84%
+AUDIENCE: So I was interpreting
+the elements of the S-matrix
+
+00:54:17.194 --> 00:54:19.294 align:middle line:84%
+as sort of the
+probability to end up
+
+00:54:19.294 --> 00:54:21.270 align:middle line:84%
+in a certain state
+from the initial state.
+
+00:54:21.270 --> 00:54:21.895 align:middle line:90%
+HONG LIU: Yeah.
+
+00:54:21.895 --> 00:54:25.590 align:middle line:84%
+Yeah, S-matrix is the
+amplitude, the probability
+
+00:54:25.590 --> 00:54:26.580 align:middle line:90%
+you have to square it.
+
+00:54:26.580 --> 00:54:27.090 align:middle line:90%
+AUDIENCE: Oh, yes.
+
+00:54:27.090 --> 00:54:27.715 align:middle line:90%
+HONG LIU: Yeah.
+
+00:54:27.715 --> 00:54:30.030 align:middle line:84%
+AUDIENCE: But then
+why does it make sense
+
+00:54:30.030 --> 00:54:33.132 align:middle line:84%
+that if it's a weak
+interaction, that it would--
+
+00:54:33.132 --> 00:54:35.510 align:middle line:84%
+like, as the limit
+goes to no interaction,
+
+00:54:35.510 --> 00:54:38.140 align:middle line:84%
+the S-matrix would be
+normal at the identity?
+
+00:54:38.140 --> 00:54:39.390 align:middle line:90%
+HONG LIU: Sorry, say it again.
+
+00:54:39.390 --> 00:54:41.640 align:middle line:84%
+AUDIENCE: So why do we see
+that for weak interactions,
+
+00:54:41.640 --> 00:54:42.410 align:middle line:90%
+it's the identity?
+
+00:54:42.410 --> 00:54:44.160 align:middle line:84%
+HONG LIU: Yeah, if
+there's no interaction,
+
+00:54:44.160 --> 00:54:45.150 align:middle line:90%
+it will be identity.
+
+00:54:45.150 --> 00:54:46.775 align:middle line:84%
+AUDIENCE: But why
+does that make sense?
+
+00:54:46.775 --> 00:54:48.780 align:middle line:84%
+Because that's just
+saying the amplitude
+
+00:54:48.780 --> 00:54:52.140 align:middle line:84%
+is 1 to end up in
+a certain state?
+
+00:54:52.140 --> 00:54:54.420 align:middle line:84%
+HONG LIU: Yeah, just
+you always go back to--
+
+00:54:54.420 --> 00:54:57.390 align:middle line:90%
+the state does not change.
+
+00:54:57.390 --> 00:54:59.310 align:middle line:90%
+What it means is that--
+
+00:54:59.310 --> 00:55:00.910 align:middle line:90%
+it means delta alpha beta.
+
+00:55:00.910 --> 00:55:02.317 align:middle line:84%
+Because alpha must
+equal to beta.
+
+00:55:02.317 --> 00:55:03.150 align:middle line:90%
+AUDIENCE: Oh, I see.
+
+00:55:03.150 --> 00:55:03.650 align:middle line:90%
+I see.
+
+00:55:03.650 --> 00:55:07.530 align:middle line:84%
+HONG LIU: Yeah, what it means
+is just delta alpha beta, right?
+
+00:55:07.530 --> 00:55:09.255 align:middle line:84%
+So it means the
+alpha equals to beta.
+
+00:55:09.255 --> 00:55:09.963 align:middle line:90%
+AUDIENCE: Thanks.
+
+00:55:09.963 --> 00:55:11.760 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:55:11.760 --> 00:55:12.480 align:middle line:90%
+Yes?
+
+00:55:12.480 --> 00:55:14.840 align:middle line:84%
+AUDIENCE: Is S a
+Hermitian Matrix?
+
+00:55:14.840 --> 00:55:16.760 align:middle line:84%
+HONG LIU: Yeah, we
+will talk about that.
+
+00:55:16.760 --> 00:55:18.530 align:middle line:90%
+It's not Hermitian it's unitary.
+
+00:55:18.530 --> 00:55:19.070 align:middle line:90%
+Yeah.
+
+00:55:19.070 --> 00:55:19.817 align:middle line:90%
+Yes?
+
+00:55:19.817 --> 00:55:21.650 align:middle line:84%
+AUDIENCE: Does the phase
+of the entries in S
+
+00:55:21.650 --> 00:55:23.320 align:middle line:90%
+carry any physical consequences?
+
+00:55:23.320 --> 00:55:25.210 align:middle line:84%
+HONG LIU: Yeah, that's
+a good question.
+
+00:55:25.210 --> 00:55:28.120 align:middle line:90%
+
+
+00:55:28.120 --> 00:55:30.880 align:middle line:84%
+So if you can see the particular
+amplitude when you square it,
+
+00:55:30.880 --> 00:55:32.560 align:middle line:90%
+of course, the phase don't.
+
+00:55:32.560 --> 00:55:35.200 align:middle line:84%
+But in principle, you can
+design the different--
+
+00:55:35.200 --> 00:55:38.487 align:middle line:84%
+you can design experiments
+in the different things they
+
+00:55:38.487 --> 00:55:39.070 align:middle line:90%
+can interfere.
+
+00:55:39.070 --> 00:55:39.570 align:middle line:90%
+Yeah.
+
+00:55:39.570 --> 00:55:42.010 align:middle line:84%
+Yeah, so in principle, they
+contain physical information.
+
+00:55:42.010 --> 00:55:43.990 align:middle line:90%
+Yeah.
+
+00:55:43.990 --> 00:55:44.900 align:middle line:90%
+Yes?
+
+00:55:44.900 --> 00:55:48.010 align:middle line:84%
+AUDIENCE: Why is
+this entry complex?
+
+00:55:48.010 --> 00:55:49.260 align:middle line:90%
+HONG LIU: Or just convenience.
+
+00:55:49.260 --> 00:55:49.818 align:middle line:90%
+AUDIENCE: OK.
+
+00:55:49.818 --> 00:55:51.360 align:middle line:84%
+HONG LIU: Yeah, just
+for convenience.
+
+00:55:51.360 --> 00:55:51.860 align:middle line:90%
+Yeah.
+
+00:55:51.860 --> 00:55:54.160 align:middle line:90%
+
+
+00:55:54.160 --> 00:55:58.300 align:middle line:84%
+AUDIENCE: Yeah, if alpha was a
+particle at minus x infinity,
+
+00:55:58.300 --> 00:56:04.790 align:middle line:84%
+beta was the same particle
+at plus x infinity?
+
+00:56:04.790 --> 00:56:06.580 align:middle line:90%
+HONG LIU: Sorry, say it again.
+
+00:56:06.580 --> 00:56:09.360 align:middle line:84%
+AUDIENCE: If my alpha to
+beta was just particle here
+
+00:56:09.360 --> 00:56:11.825 align:middle line:84%
+goes to particle there, is
+that captured by S equals 1?
+
+00:56:11.825 --> 00:56:12.450 align:middle line:90%
+HONG LIU: Yeah.
+
+00:56:12.450 --> 00:56:13.230 align:middle line:90%
+Yeah, yeah.
+
+00:56:13.230 --> 00:56:13.772 align:middle line:90%
+AUDIENCE: OK.
+
+00:56:13.772 --> 00:56:16.380 align:middle line:84%
+HONG LIU: Just say
+in the free theory,
+
+00:56:16.380 --> 00:56:19.380 align:middle line:84%
+if you start with a bunch
+of particles at p 1 and p k
+
+00:56:19.380 --> 00:56:23.230 align:middle line:84%
+then you end with the
+same p 1 p k Yeah.
+
+00:56:23.230 --> 00:56:23.730 align:middle line:90%
+Yeah.
+
+00:56:23.730 --> 00:56:26.190 align:middle line:90%
+Yeah.
+
+00:56:26.190 --> 00:56:28.960 align:middle line:90%
+OK?
+
+00:56:28.960 --> 00:56:33.030 align:middle line:90%
+So due to translation symmetry--
+
+00:56:33.030 --> 00:56:37.250 align:middle line:84%
+so we expect energy
+momentum conservation.
+
+00:56:37.250 --> 00:56:50.090 align:middle line:90%
+
+
+00:56:50.090 --> 00:56:52.340 align:middle line:84%
+OK, so yeah, so
+this, if you write it
+
+00:56:52.340 --> 00:56:57.570 align:middle line:84%
+in terms of the
+component rotation,
+
+00:56:57.570 --> 00:57:02.690 align:middle line:84%
+so this is delta beta
+alpha plus i T beta alpha.
+
+00:57:02.690 --> 00:57:05.630 align:middle line:84%
+OK, and i just
+purely convention.
+
+00:57:05.630 --> 00:57:07.820 align:middle line:84%
+i is purely convention,
+just for convenience.
+
+00:57:07.820 --> 00:57:12.930 align:middle line:90%
+
+
+00:57:12.930 --> 00:57:14.970 align:middle line:84%
+So due to the momentum
+conservation--
+
+00:57:14.970 --> 00:57:17.830 align:middle line:90%
+
+
+00:57:17.830 --> 00:57:20.530 align:middle line:84%
+so this corresponding
+to the interaction part.
+
+00:57:20.530 --> 00:57:23.310 align:middle line:84%
+So in this part, we expect
+alpha not equal to beta
+
+00:57:23.310 --> 00:57:26.230 align:middle line:90%
+because you have interactions.
+
+00:57:26.230 --> 00:57:28.270 align:middle line:84%
+But the total momentum
+must be conserved.
+
+00:57:28.270 --> 00:57:33.550 align:middle line:84%
+So the sum of here must
+be the sum of here.
+
+00:57:33.550 --> 00:57:37.320 align:middle line:84%
+Just the total momentum
+must be conserved.
+
+00:57:37.320 --> 00:57:41.720 align:middle line:84%
+So that means this scene
+must contain a delta function
+
+00:57:41.720 --> 00:57:43.670 align:middle line:84%
+between the total
+initial momentum
+
+00:57:43.670 --> 00:57:46.970 align:middle line:90%
+and the total final momentum.
+
+00:57:46.970 --> 00:57:50.345 align:middle line:84%
+And so we can just
+convenient to extract--
+
+00:57:50.345 --> 00:57:53.047 align:middle line:90%
+
+
+00:57:53.047 --> 00:57:54.380 align:middle line:90%
+to separate that delta function.
+
+00:57:54.380 --> 00:58:08.460 align:middle line:84%
+OK, so convenient to write
+i T beta alpha equal to i,
+
+00:58:08.460 --> 00:58:10.340 align:middle line:84%
+you separate out
+this delta function.
+
+00:58:10.340 --> 00:58:13.640 align:middle line:84%
+Because we know the delta
+function must be there,
+
+00:58:13.640 --> 00:58:15.500 align:middle line:90%
+so p alpha minus p beta.
+
+00:58:15.500 --> 00:58:18.950 align:middle line:84%
+So p alpha and p beta
+means total momentum
+
+00:58:18.950 --> 00:58:20.060 align:middle line:90%
+for alpha and the beta.
+
+00:58:20.060 --> 00:58:23.630 align:middle line:90%
+And then, you have M alpha beta.
+
+00:58:23.630 --> 00:58:25.310 align:middle line:90%
+So this is the nontrivial part.
+
+00:58:25.310 --> 00:58:26.850 align:middle line:90%
+So this part is trivial.
+
+00:58:26.850 --> 00:58:28.700 align:middle line:90%
+You expect from kinematics.
+
+00:58:28.700 --> 00:58:30.770 align:middle line:84%
+And so this M alpha
+beta is called
+
+00:58:30.770 --> 00:58:32.720 align:middle line:90%
+the scattering amplitude.
+
+00:58:32.720 --> 00:58:42.770 align:middle line:90%
+
+
+00:58:42.770 --> 00:58:51.795 align:middle line:84%
+So now some properties of the
+S-matrix because you see that
+
+00:58:51.795 --> 00:58:56.070 align:middle line:84%
+S-matrix is essentially
+just a matrix element--
+
+00:58:56.070 --> 00:59:00.160 align:middle line:84%
+essentially just the
+matrix of the U. And the U
+
+00:59:00.160 --> 00:59:04.250 align:middle line:84%
+is a unitary matrix, because
+it's a evolution operator.
+
+00:59:04.250 --> 00:59:18.370 align:middle line:84%
+OK, so that means that the
+S-matrix is unitary since U--
+
+00:59:18.370 --> 00:59:24.010 align:middle line:84%
+this is a unitary
+operator, so that means
+
+00:59:24.010 --> 00:59:29.060 align:middle line:90%
+that S is a unitary matrix.
+
+00:59:29.060 --> 00:59:35.820 align:middle line:90%
+
+
+00:59:35.820 --> 00:59:38.430 align:middle line:90%
+Also, you can show--
+
+00:59:38.430 --> 00:59:41.520 align:middle line:84%
+somebody be running out
+of time because today,
+
+00:59:41.520 --> 00:59:43.740 align:middle line:90%
+we have to end at 5:40.
+
+00:59:43.740 --> 00:59:48.090 align:middle line:84%
+And so for any symmetry
+of the Hamiltonian--
+
+00:59:48.090 --> 00:59:57.172 align:middle line:90%
+
+
+00:59:57.172 --> 01:00:02.670 align:middle line:84%
+for any symmetry
+of the Hamiltonian,
+
+01:00:02.670 --> 01:00:06.360 align:middle line:84%
+that means that if
+you have some Q--
+
+01:00:06.360 --> 01:00:10.140 align:middle line:84%
+yeah, if you have some,
+say, unitary operator, which
+
+01:00:10.140 --> 01:00:11.625 align:middle line:90%
+commutes with the Hamiltonian.
+
+01:00:11.625 --> 01:00:14.940 align:middle line:90%
+
+
+01:00:14.940 --> 01:00:19.160 align:middle line:84%
+OK, so remember
+all the symmetries,
+
+01:00:19.160 --> 01:00:25.190 align:middle line:84%
+the interaction are generated
+by unitary operators.
+
+01:00:25.190 --> 01:00:28.060 align:middle line:84%
+OK, so suppose we have
+some unitary, which
+
+01:00:28.060 --> 01:00:29.500 align:middle line:90%
+commutes with the Hamiltonian.
+
+01:00:29.500 --> 01:00:36.040 align:middle line:90%
+
+
+01:00:36.040 --> 01:00:38.420 align:middle line:84%
+Then, you can easily
+show yourself--
+
+01:00:38.420 --> 01:00:43.650 align:middle line:84%
+so I'll leave this
+exercise to yourself.
+
+01:00:43.650 --> 01:00:52.200 align:middle line:84%
+So lambda is a unitary operator
+generating some symmetries.
+
+01:00:52.200 --> 01:01:01.457 align:middle line:90%
+
+
+01:01:01.457 --> 01:01:03.540 align:middle line:84%
+OK, so for example, for
+the Lorentz transformation
+
+01:01:03.540 --> 01:01:05.340 align:middle line:84%
+would be like this
+e to the i omega
+
+01:01:05.340 --> 01:01:09.540 align:middle line:84%
+M, which you have
+done in your homework.
+
+01:01:09.540 --> 01:01:12.465 align:middle line:90%
+And then it will satisfy--
+
+01:01:12.465 --> 01:01:17.070 align:middle line:90%
+
+
+01:01:17.070 --> 01:01:19.830 align:middle line:84%
+then when you act initial
+state and the final state
+
+01:01:19.830 --> 01:01:27.380 align:middle line:84%
+by this lambda, and then the
+matrix should be the same.
+
+01:01:27.380 --> 01:01:30.560 align:middle line:84%
+So you can easily prove
+this by using the commute.
+
+01:01:30.560 --> 01:01:32.290 align:middle line:90%
+OK?
+
+01:01:32.290 --> 01:01:32.950 align:middle line:90%
+Yes?
+
+01:01:32.950 --> 01:01:34.408 align:middle line:84%
+AUDIENCE: Is another
+equivalent way
+
+01:01:34.408 --> 01:01:37.390 align:middle line:84%
+of saying that like S
+and lambda also commute?
+
+01:01:37.390 --> 01:01:40.848 align:middle line:90%
+
+
+01:01:40.848 --> 01:01:41.390 align:middle line:90%
+HONG LIU: No.
+
+01:01:41.390 --> 01:01:41.950 align:middle line:90%
+No, no, no.
+
+01:01:41.950 --> 01:01:47.230 align:middle line:90%
+No, they don't.
+
+01:01:47.230 --> 01:01:48.730 align:middle line:90%
+Yeah.
+
+01:01:48.730 --> 01:01:51.430 align:middle line:84%
+Yeah, that's the
+statement, right?
+
+01:01:51.430 --> 01:01:52.730 align:middle line:90%
+This is a statement.
+
+01:01:52.730 --> 01:01:54.290 align:middle line:90%
+So as S-matrix element.
+
+01:01:54.290 --> 01:01:55.090 align:middle line:90%
+Yeah.
+
+01:01:55.090 --> 01:01:55.750 align:middle line:90%
+Yeah.
+
+01:01:55.750 --> 01:01:59.502 align:middle line:84%
+Yes, it's a statement that
+the lambda commute with U.
+
+01:01:59.502 --> 01:02:00.210 align:middle line:90%
+AUDIENCE: OK, OK.
+
+01:02:00.210 --> 01:02:02.020 align:middle line:84%
+HONG LIU: Yeah, lambda
+commute with U and S
+
+01:02:02.020 --> 01:02:03.760 align:middle line:90%
+is the matrix element of U.
+
+01:02:03.760 --> 01:02:04.480 align:middle line:90%
+AUDIENCE: OK, OK.
+
+01:02:04.480 --> 01:02:04.670 align:middle line:90%
+Thank you.
+
+01:02:04.670 --> 01:02:05.795 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+01:02:05.795 --> 01:02:08.290 align:middle line:90%
+
+
+01:02:08.290 --> 01:02:12.280 align:middle line:84%
+OK, so this is the key
+object we want to calculate
+
+01:02:12.280 --> 01:02:13.690 align:middle line:90%
+in the interacting theory.
+
+01:02:13.690 --> 01:02:16.220 align:middle line:90%
+
+
+01:02:16.220 --> 01:02:20.000 align:middle line:90%
+So now, without proof--
+
+01:02:20.000 --> 01:02:24.890 align:middle line:84%
+because the proof requires
+something going beyond what
+
+01:02:24.890 --> 01:02:26.820 align:middle line:90%
+we discussed so far.
+
+01:02:26.820 --> 01:02:34.640 align:middle line:84%
+So let me just code
+this LSZ theorem, which
+
+01:02:34.640 --> 01:02:40.300 align:middle line:84%
+said that the M alpha beta,
+this scattering amplitude,
+
+01:02:40.300 --> 01:02:40.975 align:middle line:90%
+can be obtained.
+
+01:02:40.975 --> 01:02:46.740 align:middle line:90%
+
+
+01:02:46.740 --> 01:02:49.920 align:middle line:84%
+So we will discuss how
+you obtain in nature
+
+01:02:49.920 --> 01:02:57.470 align:middle line:84%
+from such correlation functions,
+time-ordered correlation
+
+01:02:57.470 --> 01:02:58.220 align:middle line:90%
+functions.
+
+01:02:58.220 --> 01:03:02.670 align:middle line:90%
+
+
+01:03:02.670 --> 01:03:08.270 align:middle line:84%
+So this omega is the vacuum for
+the full interaction theory.
+
+01:03:08.270 --> 01:03:10.770 align:middle line:90%
+OK, so this is the vacuum.
+
+01:03:10.770 --> 01:03:13.070 align:middle line:84%
+So I write omega
+to distinguish it
+
+01:03:13.070 --> 01:03:17.130 align:middle line:84%
+from 0, which is the free
+theory we discussed earlier.
+
+01:03:17.130 --> 01:03:19.800 align:middle line:84%
+And this time-ordering means
+that you order the operator
+
+01:03:19.800 --> 01:03:21.180 align:middle line:90%
+according to their time.
+
+01:03:21.180 --> 01:03:27.720 align:middle line:84%
+So whichever time is
+bigger sits earlier, OK?
+
+01:03:27.720 --> 01:03:31.050 align:middle line:84%
+So this is the
+object, key object,
+
+01:03:31.050 --> 01:03:33.450 align:middle line:84%
+if you want to calculate
+the M alpha beta.
+
+01:03:33.450 --> 01:03:36.900 align:middle line:84%
+And you have to calculate
+this object first.
+
+01:03:36.900 --> 01:03:40.510 align:middle line:90%
+OK, and so I will stop here.
+
+01:03:40.510 --> 01:03:45.180 align:middle line:84%
+And so next time, we
+will say a few more words
+
+01:03:45.180 --> 01:03:49.620 align:middle line:84%
+about how the general approach
+to treat this kind of theory,
+
+01:03:49.620 --> 01:03:52.890 align:middle line:84%
+and then we will start talking
+about the path integral.
+
+01:03:52.890 --> 01:03:57.100 align:middle line:84%
+So have people studied
+the path integral before?
+
+01:03:57.100 --> 01:03:59.453 align:middle line:84%
+So you are a expert of
+path integral or not quite?
+
+01:03:59.453 --> 01:04:00.870 align:middle line:84%
+AUDIENCE: Expert
+is a strong word.
+
+01:04:00.870 --> 01:04:02.070 align:middle line:84%
+AUDIENCE: I know
+we've heard of it.
+
+01:04:02.070 --> 01:04:02.640 align:middle line:90%
+HONG LIU: OK.
+
+01:04:02.640 --> 01:04:07.440 align:middle line:84%
+Yeah, so I will review
+the path integral of--
+
+01:04:07.440 --> 01:04:10.770 align:middle line:90%
+yeah, I will actually--
+
+01:04:10.770 --> 01:04:13.830 align:middle line:84%
+so I will actually introduce
+the path integral from scratch,
+
+01:04:13.830 --> 01:04:18.400 align:middle line:84%
+but I will do it a little bit
+faster than ordinary quantum
+
+01:04:18.400 --> 01:04:19.390 align:middle line:90%
+mechanical class.
+
+01:04:19.390 --> 01:04:21.670 align:middle line:84%
+And even for people who
+have not seen it before,
+
+01:04:21.670 --> 01:04:24.340 align:middle line:84%
+I think you should
+be able to follow
+
+01:04:24.340 --> 01:04:26.290 align:middle line:84%
+with a little bit of
+effort after the class.
+
+01:04:26.290 --> 01:04:26.790 align:middle line:90%
+OK.
+
+01:04:26.790 --> 01:04:28.140 align:middle line:90%
+AUDIENCE: Good point.
+
+01:04:28.140 --> 01:04:32.000 align:middle line:90%

@@ -1,0 +1,23 @@
+{
+  "course_title":"Relativistic Quantum Field Theory I",
+  "course_description":"This course is a one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics and condensed matter physics.",
+  "course_description_html":"This course is a one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics and condensed matter physics.",
+  "site_uid":"ec977747-1fd7-439c-8ed3-110854954232",
+  "legacy_uid":"","instructors": [{
+    "first_name":"Hong",
+    "last_name":"Liu",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Hong Liu"}],"department_numbers":["8"],
+  "learning_resource_types":["Lecture Videos","Readings","Problem-solving Notes","Problem Sets","Problem Set Solutions"],
+  "topics":[["Science","Physics","Condensed Matter Physics"],["Science","Physics","Particle Physics"],["Science","Physics","Quantum Mechanics"],["Science","Physics","Relativity"],["Science","Physics","Theoretical Physics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"8.323",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2023",
+  "level":["Graduate"],
+  "hide_download":false,
+  "image_src":"./static_resources/mit8_323_s23_chp.jpg",
+  "course_image_metadata":{"body":"","content_type":"resource","draft":false,"file":"/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_chp.jpg","file_size":38008,"file_type":"image/jpeg","image_metadata":{"caption":"A Feynman diagram describing gluon radiation in which an electron and a positron collide and form a photon before decaying into an antiquark/quark pair. Eventually, the antiquark releases a gluon. (This image is in the public domain. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Feynmann_Diagram_Gluon_Radiation.svg).)","credit":"","image-alt":"Four arrowed lines connected by a wave line at the center and a horizontal line with arrow at the bottom."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","resourcetype":"Image","title":"mit8_323_s23_chp.jpg","uid":"359ce80f-971b-497b-98a2-292772318ade","video_files":{"archive_url":"","video_captions_file":"","video_thumbnail_file":"","video_transcript_file":""},"video_metadata":{"video_speakers":"","video_tags":"","youtube_description":"","youtube_id":""}}}
+

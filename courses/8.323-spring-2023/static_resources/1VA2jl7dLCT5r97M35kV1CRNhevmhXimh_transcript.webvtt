@@ -1,0 +1,5134 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.968 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.968 --> 00:00:03.936 align:middle line:90%
+[RUSTLING]
+
+00:00:03.936 --> 00:00:05.412 align:middle line:90%
+[CLICKING]
+
+00:00:05.412 --> 00:00:10.840 align:middle line:90%
+
+
+00:00:10.840 --> 00:00:12.190 align:middle line:90%
+HONG LIU: OK, great.
+
+00:00:12.190 --> 00:00:13.970 align:middle line:90%
+So now let's talk about QED.
+
+00:00:13.970 --> 00:00:25.320 align:middle line:90%
+
+
+00:00:25.320 --> 00:00:34.700 align:middle line:90%
+And OK.
+
+00:00:34.700 --> 00:00:39.080 align:middle line:90%
+So let's first talk about QED.
+
+00:00:39.080 --> 00:00:42.180 align:middle line:90%
+
+
+00:00:42.180 --> 00:00:46.970 align:middle line:84%
+And we have talked about
+the Maxwell action.
+
+00:00:46.970 --> 00:00:50.270 align:middle line:84%
+So here is the
+Lagrangian density.
+
+00:00:50.270 --> 00:01:00.920 align:middle line:84%
+We have F mu nu
+minus J mu A mu, OK?
+
+00:01:00.920 --> 00:01:08.080 align:middle line:84%
+And J mu should be
+a conserved current
+
+00:01:08.080 --> 00:01:12.550 align:middle line:84%
+because for the consistency
+of the Maxwell equation, OK?
+
+00:01:12.550 --> 00:01:16.160 align:middle line:84%
+Remember-- J mu has
+to be conserved.
+
+00:01:16.160 --> 00:01:19.810 align:middle line:84%
+So now, the question is
+what provides this J mu, OK?
+
+00:01:19.810 --> 00:01:21.400 align:middle line:90%
+So now, let's imagine.
+
+00:01:21.400 --> 00:01:24.010 align:middle line:84%
+Now, let's introduce
+some other fields.
+
+00:01:24.010 --> 00:01:25.795 align:middle line:84%
+Now, imagine we have
+some Dirac fermions.
+
+00:01:25.795 --> 00:01:30.560 align:middle line:90%
+
+
+00:01:30.560 --> 00:01:32.420 align:middle line:90%
+We have some fermionic field.
+
+00:01:32.420 --> 00:01:34.250 align:middle line:90%
+Same with the Lagrangian.
+
+00:01:34.250 --> 00:01:42.590 align:middle line:90%
+
+
+00:01:42.590 --> 00:01:43.090 align:middle line:90%
+OK.
+
+00:01:43.090 --> 00:01:48.970 align:middle line:84%
+So this is the Lagrangian
+for the Dirac fermion.
+
+00:01:48.970 --> 00:01:53.860 align:middle line:84%
+And then we discussed
+that for Dirac fermion--
+
+00:01:53.860 --> 00:01:55.690 align:middle line:84%
+and then there's a
+conserved current
+
+00:01:55.690 --> 00:01:58.570 align:middle line:84%
+because there's a
+global symmetry.
+
+00:01:58.570 --> 00:02:07.310 align:middle line:84%
+There's a U1 symmetry
+corresponding to psi--
+
+00:02:07.310 --> 00:02:12.505 align:middle line:84%
+goes to exponential i alpha psi
+with alpha to be a constant.
+
+00:02:12.505 --> 00:02:15.590 align:middle line:90%
+
+
+00:02:15.590 --> 00:02:16.280 align:middle line:90%
+OK?
+
+00:02:16.280 --> 00:02:20.090 align:middle line:84%
+And then this leads
+to a Noether current--
+
+00:02:20.090 --> 00:02:21.980 align:middle line:90%
+J mu, which is conserved.
+
+00:02:21.980 --> 00:02:30.920 align:middle line:90%
+
+
+00:02:30.920 --> 00:02:32.180 align:middle line:90%
+OK?
+
+00:02:32.180 --> 00:02:37.700 align:middle line:84%
+So now, if we want to couple the
+fermions to the Maxwell fields,
+
+00:02:37.700 --> 00:02:42.710 align:middle line:84%
+then it's natural we identify
+this J mu with this J mu, OK?
+
+00:02:42.710 --> 00:02:46.250 align:middle line:84%
+Because here we need
+the conserved current.
+
+00:02:46.250 --> 00:02:49.340 align:middle line:84%
+And here we have a
+conserved current, OK?
+
+00:02:49.340 --> 00:02:53.150 align:middle line:84%
+So it's natural to
+write down the theory.
+
+00:02:53.150 --> 00:02:55.490 align:middle line:84%
+Then this J mu is just
+replaced by this J mu.
+
+00:02:55.490 --> 00:02:57.780 align:middle line:84%
+That's why I use
+the same notation.
+
+00:02:57.780 --> 00:03:01.910 align:middle line:84%
+So then that gives us
+the Lagrangian for QED.
+
+00:03:01.910 --> 00:03:06.330 align:middle line:90%
+
+
+00:03:06.330 --> 00:03:13.120 align:middle line:84%
+We have the Maxwell,
+which is the free photon.
+
+00:03:13.120 --> 00:03:14.710 align:middle line:84%
+And then we have
+the free fermion.
+
+00:03:14.710 --> 00:03:23.060 align:middle line:90%
+
+
+00:03:23.060 --> 00:03:25.790 align:middle line:84%
+But then the fermion
+and the photon
+
+00:03:25.790 --> 00:03:37.840 align:middle line:84%
+are coupled together
+through this, OK?
+
+00:03:37.840 --> 00:03:41.770 align:middle line:84%
+So now, this is
+a cubic term, OK?
+
+00:03:41.770 --> 00:03:45.200 align:middle line:84%
+So now, this is an
+interaction term, OK?
+
+00:03:45.200 --> 00:03:46.970 align:middle line:84%
+So now, this is an
+interaction term.
+
+00:03:46.970 --> 00:03:51.940 align:middle line:84%
+And this e can
+play two roles, OK?
+
+00:03:51.940 --> 00:03:54.860 align:middle line:84%
+It can be considered as
+a coupling constant--
+
+00:03:54.860 --> 00:04:00.030 align:middle line:90%
+
+
+00:04:00.030 --> 00:04:03.380 align:middle line:84%
+essentially, the e,
+which just determines
+
+00:04:03.380 --> 00:04:07.020 align:middle line:84%
+the coupling strength between
+the psi and the A, OK?
+
+00:04:07.020 --> 00:04:10.760 align:middle line:84%
+If e is bigger, then of course,
+the coupling is stronger, OK?
+
+00:04:10.760 --> 00:04:13.590 align:middle line:84%
+And the e can also
+be considered--
+
+00:04:13.590 --> 00:04:15.680 align:middle line:90%
+so it plays a dual role.
+
+00:04:15.680 --> 00:04:17.720 align:middle line:84%
+One role is you
+consider as a coupling.
+
+00:04:17.720 --> 00:04:20.870 align:middle line:84%
+And the second role is you can
+consider as a unit of charge.
+
+00:04:20.870 --> 00:04:27.520 align:middle line:90%
+
+
+00:04:27.520 --> 00:04:28.330 align:middle line:90%
+OK?
+
+00:04:28.330 --> 00:04:29.650 align:middle line:90%
+A unit of charge.
+
+00:04:29.650 --> 00:04:34.440 align:middle line:84%
+Because when we talk
+about the Noether current,
+
+00:04:34.440 --> 00:04:35.190 align:middle line:90%
+this is conserved.
+
+00:04:35.190 --> 00:04:38.070 align:middle line:84%
+You can multiply this
+by an arbitrary number.
+
+00:04:38.070 --> 00:04:40.680 align:middle line:90%
+This is still conserved, OK?
+
+00:04:40.680 --> 00:04:41.850 align:middle line:90%
+This-- still conserved.
+
+00:04:41.850 --> 00:04:47.520 align:middle line:84%
+And here it just means that
+the unit of this current
+
+00:04:47.520 --> 00:04:49.860 align:middle line:90%
+is given by e, OK?
+
+00:04:49.860 --> 00:04:55.010 align:middle line:84%
+So the e plays two
+roles here, OK?
+
+00:04:55.010 --> 00:04:56.750 align:middle line:84%
+And then of course
+this e is just
+
+00:04:56.750 --> 00:04:59.010 align:middle line:90%
+our standard electric charge.
+
+00:04:59.010 --> 00:05:03.050 align:middle line:84%
+So if you take the
+psi to be electron,
+
+00:05:03.050 --> 00:05:05.270 align:middle line:84%
+then this will be
+standard electric charge
+
+00:05:05.270 --> 00:05:07.280 align:middle line:84%
+for the electron,
+and then this will
+
+00:05:07.280 --> 00:05:11.330 align:middle line:84%
+be a theory which
+governs the interaction
+
+00:05:11.330 --> 00:05:14.210 align:middle line:84%
+between the electron
+and the photon, OK?
+
+00:05:14.210 --> 00:05:17.190 align:middle line:90%
+
+
+00:05:17.190 --> 00:05:18.750 align:middle line:90%
+Any questions on this?
+
+00:05:18.750 --> 00:05:19.887 align:middle line:90%
+Yes?
+
+00:05:19.887 --> 00:05:21.720 align:middle line:84%
+AUDIENCE: How come
+different particles still
+
+00:05:21.720 --> 00:05:23.693 align:middle line:84%
+have some multiple
+of the same charge?
+
+00:05:23.693 --> 00:05:25.110 align:middle line:84%
+You might think
+that you could set
+
+00:05:25.110 --> 00:05:28.970 align:middle line:84%
+the coupling constant
+to any arbitrary value.
+
+00:05:28.970 --> 00:05:30.200 align:middle line:90%
+HONG LIU: Sorry?
+
+00:05:30.200 --> 00:05:31.910 align:middle line:84%
+AUDIENCE: How come
+different particles
+
+00:05:31.910 --> 00:05:34.555 align:middle line:84%
+have charges that are multiples
+and different multiples--
+
+00:05:34.555 --> 00:05:35.430 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:05:35.430 --> 00:05:36.240 align:middle line:84%
+AUDIENCE: I think
+in this framework,
+
+00:05:36.240 --> 00:05:38.130 align:middle line:84%
+you can set the coupling
+constant to whatever you like.
+
+00:05:38.130 --> 00:05:38.580 align:middle line:90%
+HONG LIU: That's right.
+
+00:05:38.580 --> 00:05:39.122 align:middle line:90%
+That's right.
+
+00:05:39.122 --> 00:05:40.230 align:middle line:90%
+Yeah, yeah.
+
+00:05:40.230 --> 00:05:45.600 align:middle line:84%
+So in this framework, indeed,
+this e can be arbitrary.
+
+00:05:45.600 --> 00:05:48.960 align:middle line:84%
+And then different particles
+can have different charge.
+
+00:05:48.960 --> 00:05:53.280 align:middle line:84%
+For example, if we couple this
+to electron, this will be e e.
+
+00:05:53.280 --> 00:05:56.280 align:middle line:84%
+And then if we couple this
+to muon-- so in principle, we
+
+00:05:56.280 --> 00:05:57.690 align:middle line:84%
+have some e tilde,
+which does not
+
+00:05:57.690 --> 00:05:59.340 align:middle line:90%
+have to be the same as this e.
+
+00:05:59.340 --> 00:06:00.090 align:middle line:90%
+Indeed.
+
+00:06:00.090 --> 00:06:02.820 align:middle line:84%
+And it's a highly
+unusual feature.
+
+00:06:02.820 --> 00:06:06.010 align:middle line:90%
+
+
+00:06:06.010 --> 00:06:10.260 align:middle line:84%
+In nature, what we observe-- the
+charge seems to be quantized.
+
+00:06:10.260 --> 00:06:15.540 align:middle line:84%
+There seems to be
+multiple of some charge.
+
+00:06:15.540 --> 00:06:18.240 align:middle line:84%
+And that cannot be explained
+using this framework.
+
+00:06:18.240 --> 00:06:22.838 align:middle line:84%
+It has to be explained
+using some other framework,
+
+00:06:22.838 --> 00:06:24.630 align:middle line:84%
+sometimes called the
+grand unified theory--
+
+00:06:24.630 --> 00:06:26.670 align:middle line:90%
+can be used to explain that.
+
+00:06:26.670 --> 00:06:28.070 align:middle line:90%
+Yeah.
+
+00:06:28.070 --> 00:06:28.910 align:middle line:90%
+Other questions?
+
+00:06:28.910 --> 00:06:30.860 align:middle line:90%
+AUDIENCE: So I'm confused.
+
+00:06:30.860 --> 00:06:32.798 align:middle line:84%
+In this middle
+section, this J mu
+
+00:06:32.798 --> 00:06:36.080 align:middle line:84%
+is the conserved
+current from the U1--
+
+00:06:36.080 --> 00:06:36.832 align:middle line:90%
+HONG LIU: Yeah.
+
+00:06:36.832 --> 00:06:38.790 align:middle line:84%
+AUDIENCE: What was the
+analogy you were making?
+
+00:06:38.790 --> 00:06:41.078 align:middle line:84%
+That it can do--
+you could take it
+
+00:06:41.078 --> 00:06:44.090 align:middle line:84%
+to do the same J mu for
+the Maxwell and Lagrangian?
+
+00:06:44.090 --> 00:06:45.200 align:middle line:90%
+HONG LIU: Yeah.
+
+00:06:45.200 --> 00:06:47.960 align:middle line:90%
+Just the natural implication.
+
+00:06:47.960 --> 00:06:52.730 align:middle line:84%
+AUDIENCE: But this Lagrangian
+doesn't have this U1 symmetry
+
+00:06:52.730 --> 00:06:55.365 align:middle line:84%
+for this fermionic field because
+it doesn't even exist, right?
+
+00:06:55.365 --> 00:06:56.240 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:06:56.240 --> 00:06:57.050 align:middle line:90%
+Yeah, yeah.
+
+00:06:57.050 --> 00:06:58.968 align:middle line:90%
+So no, I coupled them.
+
+00:06:58.968 --> 00:06:59.510 align:middle line:90%
+AUDIENCE: OK.
+
+00:06:59.510 --> 00:07:01.052 align:middle line:84%
+So you're just taking
+inspiration now
+
+00:07:01.052 --> 00:07:02.090 align:middle line:90%
+to add both of them--
+
+00:07:02.090 --> 00:07:02.720 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:07:02.720 --> 00:07:04.340 align:middle line:90%
+Really, that's what we do here.
+
+00:07:04.340 --> 00:07:05.240 align:middle line:90%
+We add both of them.
+
+00:07:05.240 --> 00:07:05.740 align:middle line:90%
+Yeah.
+
+00:07:05.740 --> 00:07:10.240 align:middle line:90%
+
+
+00:07:10.240 --> 00:07:14.170 align:middle line:84%
+Yeah, so we have a theory
+with a photon and fermion.
+
+00:07:14.170 --> 00:07:16.510 align:middle line:84%
+And now, their coupling
+is through this J.
+
+00:07:16.510 --> 00:07:18.240 align:middle line:90%
+And this J is given by this one.
+
+00:07:18.240 --> 00:07:18.740 align:middle line:90%
+Yeah.
+
+00:07:18.740 --> 00:07:22.660 align:middle line:90%
+
+
+00:07:22.660 --> 00:07:24.160 align:middle line:90%
+OK?
+
+00:07:24.160 --> 00:07:25.150 align:middle line:90%
+Other questions?
+
+00:07:25.150 --> 00:07:27.910 align:middle line:90%
+
+
+00:07:27.910 --> 00:07:29.205 align:middle line:90%
+OK, good.
+
+00:07:29.205 --> 00:07:30.580 align:middle line:90%
+Good.
+
+00:07:30.580 --> 00:07:34.960 align:middle line:84%
+So we can also slightly
+rewrite this Lagrangian
+
+00:07:34.960 --> 00:07:36.750 align:middle line:90%
+in a somewhat different way.
+
+00:07:36.750 --> 00:07:37.250 align:middle line:90%
+OK?
+
+00:07:37.250 --> 00:07:45.100 align:middle line:84%
+So QED can also be written
+in the following way, OK?
+
+00:07:45.100 --> 00:07:49.580 align:middle line:84%
+So we can also rewrite
+this as 1/4 F mu nu.
+
+00:07:49.580 --> 00:07:52.070 align:middle line:90%
+So this part, we don't change.
+
+00:07:52.070 --> 00:07:55.450 align:middle line:84%
+But we can actually combine
+these two terms together
+
+00:07:55.450 --> 00:07:57.110 align:middle line:90%
+in the following way.
+
+00:07:57.110 --> 00:08:02.770 align:middle line:84%
+We write it as i psi
+bar, and then gamma mu.
+
+00:08:02.770 --> 00:08:08.740 align:middle line:84%
+I introduce a new derivative
+called D mu minus m psi.
+
+00:08:08.740 --> 00:08:11.660 align:middle line:90%
+And this D mu--
+
+00:08:11.660 --> 00:08:15.290 align:middle line:84%
+capital D mu psi is
+equal to partial mu
+
+00:08:15.290 --> 00:08:24.490 align:middle line:90%
+psi minus ie A mu psi, OK?
+
+00:08:24.490 --> 00:08:29.120 align:middle line:84%
+So this is the same as
+that because the first term
+
+00:08:29.120 --> 00:08:32.630 align:middle line:90%
+here just gives you this term.
+
+00:08:32.630 --> 00:08:36.169 align:middle line:84%
+And the second term--
+this e A mu psi term--
+
+00:08:36.169 --> 00:08:39.710 align:middle line:84%
+just gives you this
+e A mu psi bar.
+
+00:08:39.710 --> 00:08:40.640 align:middle line:90%
+Yeah.
+
+00:08:40.640 --> 00:08:44.500 align:middle line:90%
+It just gives you that, OK?
+
+00:08:44.500 --> 00:08:47.500 align:middle line:84%
+And so mathematically, these two
+are just completely equivalent.
+
+00:08:47.500 --> 00:08:50.740 align:middle line:90%
+I just slightly rewrote it.
+
+00:08:50.740 --> 00:08:54.970 align:middle line:84%
+But writing this way actually
+makes one new property
+
+00:08:54.970 --> 00:08:58.090 align:middle line:90%
+of this theory manifest, OK?
+
+00:08:58.090 --> 00:09:06.630 align:middle line:84%
+So this theory-- so we
+know that this theory
+
+00:09:06.630 --> 00:09:07.545 align:middle line:90%
+has a gauge symmetry.
+
+00:09:07.545 --> 00:09:10.520 align:middle line:90%
+
+
+00:09:10.520 --> 00:09:14.965 align:middle line:84%
+But this theory only has
+a global symmetry, OK?
+
+00:09:14.965 --> 00:09:16.590 align:middle line:84%
+This theory only has
+a global symmetry.
+
+00:09:16.590 --> 00:09:19.710 align:middle line:84%
+This alpha must
+be a constant, OK?
+
+00:09:19.710 --> 00:09:23.076 align:middle line:84%
+So now, when we
+combine together,
+
+00:09:23.076 --> 00:09:25.550 align:middle line:84%
+and now this new
+Lagrangian actually
+
+00:09:25.550 --> 00:09:32.150 align:middle line:84%
+has a generalized
+gauge symmetry, OK?
+
+00:09:32.150 --> 00:09:40.500 align:middle line:84%
+So L max-- so L
+QED turns out to be
+
+00:09:40.500 --> 00:09:48.690 align:middle line:90%
+invariant under the following.
+
+00:09:48.690 --> 00:09:52.800 align:middle line:90%
+
+
+00:09:52.800 --> 00:09:55.340 align:middle line:90%
+So still, you take A mu.
+
+00:09:55.340 --> 00:09:59.090 align:middle line:84%
+Goes to A mu plus that
+partial mu lambda x.
+
+00:09:59.090 --> 00:10:01.940 align:middle line:90%
+
+
+00:10:01.940 --> 00:10:07.220 align:middle line:84%
+And then now, you transform psi
+also by a local transformation.
+
+00:10:07.220 --> 00:10:12.000 align:middle line:90%
+
+
+00:10:12.000 --> 00:10:14.100 align:middle line:84%
+You transform it
+by exponential i.
+
+00:10:14.100 --> 00:10:18.420 align:middle line:90%
+So now, this e is different, OK?
+
+00:10:18.420 --> 00:10:21.070 align:middle line:90%
+
+
+00:10:21.070 --> 00:10:27.520 align:middle line:84%
+So now, you can transform psi
+by, actually, a local phase.
+
+00:10:27.520 --> 00:10:29.740 align:middle line:90%
+Actually now, it can depend--
+
+00:10:29.740 --> 00:10:32.060 align:middle line:90%
+this arbitrary function lambda.
+
+00:10:32.060 --> 00:10:33.890 align:middle line:84%
+So you can show that
+actually, this QED
+
+00:10:33.890 --> 00:10:36.690 align:middle line:84%
+is invariant under this
+transformation, OK?
+
+00:10:36.690 --> 00:10:40.840 align:middle line:90%
+So if I call this A mu prime--
+
+00:10:40.840 --> 00:10:43.550 align:middle line:90%
+if I call this psi prime x--
+
+00:10:43.550 --> 00:10:44.050 align:middle line:90%
+OK?
+
+00:10:44.050 --> 00:10:46.930 align:middle line:90%
+So you can check yourself.
+
+00:10:46.930 --> 00:10:50.190 align:middle line:84%
+With this transformation,
+this D mu psi--
+
+00:10:50.190 --> 00:10:53.440 align:middle line:90%
+
+
+00:10:53.440 --> 00:10:59.180 align:middle line:90%
+so this D mu prime, psi prime--
+
+00:10:59.180 --> 00:10:59.680 align:middle line:90%
+OK?
+
+00:10:59.680 --> 00:11:02.890 align:middle line:84%
+So D mu prime is
+obtained by this D mu.
+
+00:11:02.890 --> 00:11:06.880 align:middle line:84%
+You replace the A
+mu by A mu prime.
+
+00:11:06.880 --> 00:11:12.100 align:middle line:84%
+And then here you can show that
+this is equal to exponential
+
+00:11:12.100 --> 00:11:20.000 align:middle line:90%
+i e lambda x D mu psi, OK?
+
+00:11:20.000 --> 00:11:28.290 align:middle line:84%
+So it turns out, in
+this combination,
+
+00:11:28.290 --> 00:11:31.700 align:middle line:84%
+so when you make such
+a local transformation
+
+00:11:31.700 --> 00:11:36.670 align:middle line:84%
+on psi, when you
+take a derivative,
+
+00:11:36.670 --> 00:11:39.358 align:middle line:90%
+then you get an extra term, OK?
+
+00:11:39.358 --> 00:11:41.400 align:middle line:84%
+You get the extra term
+from taking the derivative
+
+00:11:41.400 --> 00:11:43.330 align:middle line:90%
+on this lambda.
+
+00:11:43.330 --> 00:11:45.490 align:middle line:84%
+But when you have this
+combination with A mu--
+
+00:11:45.490 --> 00:11:48.730 align:middle line:84%
+but A mu also transforms
+with additional lambda term--
+
+00:11:48.730 --> 00:11:49.690 align:middle line:90%
+partial mu lambda term.
+
+00:11:49.690 --> 00:11:51.850 align:middle line:84%
+And then these two
+terms just cancel, OK?
+
+00:11:51.850 --> 00:11:55.570 align:middle line:90%
+So in the end, this D prime mu--
+
+00:11:55.570 --> 00:11:57.280 align:middle line:84%
+D prime, mu prime--
+actually transforms
+
+00:11:57.280 --> 00:11:59.892 align:middle line:90%
+in a very simple way, OK?
+
+00:11:59.892 --> 00:12:01.350 align:middle line:84%
+It transforms in
+a very simple way.
+
+00:12:01.350 --> 00:12:01.850 align:middle line:90%
+Yes?
+
+00:12:01.850 --> 00:12:04.350 align:middle line:84%
+AUDIENCE: Is D mu prime
+any different than just
+
+00:12:04.350 --> 00:12:07.166 align:middle line:90%
+D mu [INAUDIBLE]?
+
+00:12:07.166 --> 00:12:09.555 align:middle line:84%
+Are we changing things
+out [INAUDIBLE]??
+
+00:12:09.555 --> 00:12:10.430 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:12:10.430 --> 00:12:12.035 align:middle line:84%
+We replaced the A
+mu by A mu prime.
+
+00:12:12.035 --> 00:12:12.577 align:middle line:90%
+AUDIENCE: Oh.
+
+00:12:12.577 --> 00:12:14.330 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:12:14.330 --> 00:12:15.820 align:middle line:90%
+Yeah.
+
+00:12:15.820 --> 00:12:19.660 align:middle line:84%
+So this tells you-- and then
+this transforms very simply.
+
+00:12:19.660 --> 00:12:22.410 align:middle line:90%
+
+
+00:12:22.410 --> 00:12:24.210 align:middle line:84%
+And then this
+transforms very simply.
+
+00:12:24.210 --> 00:12:26.978 align:middle line:84%
+And psi bar-- there's
+no derivative here.
+
+00:12:26.978 --> 00:12:28.770 align:middle line:84%
+Then this, straightforward,
+just transforms
+
+00:12:28.770 --> 00:12:32.130 align:middle line:90%
+as the exponential minus e.
+
+00:12:32.130 --> 00:12:35.020 align:middle line:90%
+And then we conclude.
+
+00:12:35.020 --> 00:12:35.520 align:middle line:90%
+OK?
+
+00:12:35.520 --> 00:12:41.100 align:middle line:84%
+So we conclude that
+L QED is invariant
+
+00:12:41.100 --> 00:12:46.480 align:middle line:90%
+under this transformation, OK?
+
+00:12:46.480 --> 00:12:47.555 align:middle line:90%
+Indeed, it's invariant.
+
+00:12:47.555 --> 00:12:48.055 align:middle line:90%
+OK.
+
+00:12:48.055 --> 00:12:53.370 align:middle line:90%
+
+
+00:12:53.370 --> 00:12:56.860 align:middle line:90%
+So we call it gauge invariant.
+
+00:12:56.860 --> 00:12:59.880 align:middle line:84%
+So now, this is the
+generalized gauge symmetry.
+
+00:12:59.880 --> 00:13:03.092 align:middle line:84%
+Now, you also
+transform the fermions.
+
+00:13:03.092 --> 00:13:04.425 align:middle line:90%
+You also transform the fermions.
+
+00:13:04.425 --> 00:13:12.080 align:middle line:90%
+
+
+00:13:12.080 --> 00:13:13.860 align:middle line:90%
+OK.
+
+00:13:13.860 --> 00:13:16.260 align:middle line:90%
+Any questions on this?
+
+00:13:16.260 --> 00:13:18.260 align:middle line:90%
+So now, we can turn it around.
+
+00:13:18.260 --> 00:13:22.110 align:middle line:90%
+So let us review our logic.
+
+00:13:22.110 --> 00:13:25.130 align:middle line:84%
+So we first start with
+the Maxwell theory.
+
+00:13:25.130 --> 00:13:27.360 align:middle line:84%
+So the Maxwell theory--
+there's a J here,
+
+00:13:27.360 --> 00:13:29.660 align:middle line:90%
+which you need to provide.
+
+00:13:29.660 --> 00:13:34.760 align:middle line:84%
+And then from the fermionic
+theory, you have another J.
+
+00:13:34.760 --> 00:13:37.190 align:middle line:84%
+And then we just combine
+these two theories
+
+00:13:37.190 --> 00:13:43.550 align:middle line:84%
+by replacing that J
+naturally from the fermions.
+
+00:13:43.550 --> 00:13:46.850 align:middle line:84%
+But it turns out, when
+we combine them together,
+
+00:13:46.850 --> 00:13:51.010 align:middle line:84%
+this theory actually has a
+generalized gauge symmetry.
+
+00:13:51.010 --> 00:13:55.400 align:middle line:84%
+You also now can
+transform psi locally, OK?
+
+00:13:55.400 --> 00:14:00.170 align:middle line:84%
+You can transform psi locally
+with this nice structure, OK?
+
+00:14:00.170 --> 00:14:02.060 align:middle line:84%
+So this theory has
+this nice structure.
+
+00:14:02.060 --> 00:14:08.930 align:middle line:84%
+And then now, you can
+transform psi also locally.
+
+00:14:08.930 --> 00:14:10.580 align:middle line:90%
+So we can also turn this around.
+
+00:14:10.580 --> 00:14:23.160 align:middle line:90%
+
+
+00:14:23.160 --> 00:14:24.240 align:middle line:90%
+So we can say--
+
+00:14:24.240 --> 00:14:30.420 align:middle line:90%
+
+
+00:14:30.420 --> 00:14:32.240 align:middle line:84%
+so if we call this
+thing to be star--
+
+00:14:32.240 --> 00:14:36.060 align:middle line:90%
+
+
+00:14:36.060 --> 00:14:53.810 align:middle line:84%
+so if we require the
+theory of A mu and psi
+
+00:14:53.810 --> 00:15:11.480 align:middle line:84%
+to be invariant under star, and
+then that uniquely leads to--
+
+00:15:11.480 --> 00:15:14.900 align:middle line:90%
+
+
+00:15:14.900 --> 00:15:16.460 align:middle line:90%
+maybe not uniquely.
+
+00:15:16.460 --> 00:15:21.420 align:middle line:84%
+That leads to the interaction
+of the form J mu A mu, OK?
+
+00:15:21.420 --> 00:15:24.360 align:middle line:84%
+It just leads to this
+kind of interaction.
+
+00:15:24.360 --> 00:15:24.900 align:middle line:90%
+OK?
+
+00:15:24.900 --> 00:15:26.910 align:middle line:90%
+So we can turn it around.
+
+00:15:26.910 --> 00:15:29.710 align:middle line:90%
+We say, OK.
+
+00:15:29.710 --> 00:15:32.920 align:middle line:84%
+Using a different
+logic, we want to couple
+
+00:15:32.920 --> 00:15:36.700 align:middle line:90%
+the photon and the psi together.
+
+00:15:36.700 --> 00:15:39.550 align:middle line:84%
+We want to couple A
+mu and psi together.
+
+00:15:39.550 --> 00:15:43.240 align:middle line:84%
+And we know that A mu
+previously has a gauge symmetry.
+
+00:15:43.240 --> 00:15:45.640 align:middle line:84%
+And now, I want to generalize
+that gauge symmetry
+
+00:15:45.640 --> 00:15:47.590 align:middle line:90%
+to include the fermions.
+
+00:15:47.590 --> 00:15:51.190 align:middle line:84%
+And then I require
+the full theory
+
+00:15:51.190 --> 00:15:54.340 align:middle line:84%
+to be invariant
+under this symmetry.
+
+00:15:54.340 --> 00:15:56.830 align:middle line:84%
+And this requirement
+then requires
+
+00:15:56.830 --> 00:16:02.870 align:middle line:84%
+that the interaction between
+them must have this form, OK?
+
+00:16:02.870 --> 00:16:04.250 align:middle line:90%
+Yeah.
+
+00:16:04.250 --> 00:16:07.730 align:middle line:84%
+Let me write more explicitly
+the interaction of the form.
+
+00:16:07.730 --> 00:16:11.540 align:middle line:90%
+Psi bar gamma mu psi A mu, OK?
+
+00:16:11.540 --> 00:16:14.052 align:middle line:84%
+So that will lead to
+this kind of interaction.
+
+00:16:14.052 --> 00:16:19.340 align:middle line:90%
+
+
+00:16:19.340 --> 00:16:22.820 align:middle line:84%
+So the reason--
+even though this is
+
+00:16:22.820 --> 00:16:28.040 align:middle line:84%
+just rephrase of
+what we just did,
+
+00:16:28.040 --> 00:16:30.630 align:middle line:84%
+this rephrase is
+actually powerful.
+
+00:16:30.630 --> 00:16:31.130 align:middle line:90%
+OK?
+
+00:16:31.130 --> 00:16:38.860 align:middle line:84%
+Here it means that when we
+impose this gauge symmetry,
+
+00:16:38.860 --> 00:16:42.040 align:middle line:84%
+we actually can deduce
+the interactions.
+
+00:16:42.040 --> 00:16:45.940 align:middle line:90%
+
+
+00:16:45.940 --> 00:16:48.550 align:middle line:90%
+Deduce the interactions, OK?
+
+00:16:48.550 --> 00:16:52.000 align:middle line:84%
+We can actually deduce
+the interactions.
+
+00:16:52.000 --> 00:16:54.580 align:middle line:84%
+We can fix the
+interactions by requiring
+
+00:16:54.580 --> 00:16:56.240 align:middle line:90%
+certain kinds of symmetries.
+
+00:16:56.240 --> 00:16:57.070 align:middle line:90%
+Yes?
+
+00:16:57.070 --> 00:16:59.490 align:middle line:84%
+AUDIENCE: Is there a
+natural way to think about
+
+00:16:59.490 --> 00:17:02.596 align:middle line:84%
+what would motivate you
+to assert this local gauge
+
+00:17:02.596 --> 00:17:05.265 align:middle line:90%
+symmetry?
+
+00:17:05.265 --> 00:17:05.890 align:middle line:90%
+HONG LIU: Yeah.
+
+00:17:05.890 --> 00:17:10.540 align:middle line:90%
+That's what motivates me.
+
+00:17:10.540 --> 00:17:13.319 align:middle line:84%
+Maxwell theory-- you already
+have a gauge symmetry.
+
+00:17:13.319 --> 00:17:15.819 align:middle line:84%
+And when I couple the fermion,
+I just want to generalize it.
+
+00:17:15.819 --> 00:17:19.960 align:middle line:90%
+
+
+00:17:19.960 --> 00:17:21.319 align:middle line:90%
+OK.
+
+00:17:21.319 --> 00:17:22.036 align:middle line:90%
+Yes?
+
+00:17:22.036 --> 00:17:24.119 align:middle line:84%
+AUDIENCE: I guess, instead
+of a question, I guess,
+
+00:17:24.119 --> 00:17:29.685 align:middle line:84%
+why is it that we know that
+it should be a scalar basis?
+
+00:17:29.685 --> 00:17:31.590 align:middle line:84%
+And why couldn't it
+be anything else?
+
+00:17:31.590 --> 00:17:32.460 align:middle line:90%
+HONG LIU: Sorry?
+
+00:17:32.460 --> 00:17:36.318 align:middle line:84%
+AUDIENCE: I guess
+why should we know--
+
+00:17:36.318 --> 00:17:38.068 align:middle line:84%
+if you start from the
+gauge symmetry going
+
+00:17:38.068 --> 00:17:40.530 align:middle line:84%
+to the interactions
+logic, then why
+
+00:17:40.530 --> 00:17:44.180 align:middle line:84%
+should we know that it should
+be a scalar function, that it
+
+00:17:44.180 --> 00:17:46.630 align:middle line:90%
+does all those [INAUDIBLE]?
+
+00:17:46.630 --> 00:17:51.170 align:middle line:84%
+Why couldn't it be
+the [INAUDIBLE]??
+
+00:17:51.170 --> 00:17:53.210 align:middle line:84%
+HONG LIU: Because we
+already have this, right?
+
+00:17:53.210 --> 00:17:56.090 align:middle line:90%
+We just want to generalize this.
+
+00:17:56.090 --> 00:17:58.090 align:middle line:84%
+The Maxwell theory--
+we already have this.
+
+00:17:58.090 --> 00:18:00.682 align:middle line:84%
+We just need to generalize
+this to fermion.
+
+00:18:00.682 --> 00:18:02.390 align:middle line:84%
+And then there's a
+natural generalization
+
+00:18:02.390 --> 00:18:04.307 align:middle line:84%
+because the fermion is
+already invariant under
+
+00:18:04.307 --> 00:18:06.410 align:middle line:90%
+the global phase symmetry.
+
+00:18:06.410 --> 00:18:09.020 align:middle line:84%
+We just need to generalize in
+the way so to make it local.
+
+00:18:09.020 --> 00:18:12.320 align:middle line:90%
+
+
+00:18:12.320 --> 00:18:12.820 align:middle line:90%
+OK.
+
+00:18:12.820 --> 00:18:14.010 align:middle line:90%
+Yes?
+
+00:18:14.010 --> 00:18:15.870 align:middle line:84%
+AUDIENCE: So in
+quantum mechanics,
+
+00:18:15.870 --> 00:18:19.920 align:middle line:84%
+when we do a single particle
+in an electromagnetic field,
+
+00:18:19.920 --> 00:18:24.240 align:middle line:84%
+the gauge transformation on
+the wave function is the same.
+
+00:18:24.240 --> 00:18:25.920 align:middle line:90%
+Is there a reason why that's--
+
+00:18:25.920 --> 00:18:27.090 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:18:27.090 --> 00:18:27.690 align:middle line:90%
+It's the same.
+
+00:18:27.690 --> 00:18:30.270 align:middle line:90%
+
+
+00:18:30.270 --> 00:18:31.260 align:middle line:90%
+Yeah, yeah.
+
+00:18:31.260 --> 00:18:32.010 align:middle line:90%
+There is a reason.
+
+00:18:32.010 --> 00:18:37.850 align:middle line:90%
+
+
+00:18:37.850 --> 00:18:38.350 align:middle line:90%
+Yeah.
+
+00:18:38.350 --> 00:18:49.310 align:middle line:84%
+The reason is that when you
+go to non relativistic case,
+
+00:18:49.310 --> 00:18:51.890 align:middle line:84%
+this reduces just to one
+particle-- quantum mechanics.
+
+00:18:51.890 --> 00:18:53.325 align:middle line:84%
+So one particle,
+quantum mechanics
+
+00:18:53.325 --> 00:18:54.950 align:middle line:84%
+should also have this
+kind of symmetry.
+
+00:18:54.950 --> 00:18:55.450 align:middle line:90%
+Yeah.
+
+00:18:55.450 --> 00:18:58.570 align:middle line:90%
+
+
+00:18:58.570 --> 00:19:00.860 align:middle line:90%
+Good.
+
+00:19:00.860 --> 00:19:06.125 align:middle line:84%
+So this is, in fact, not
+just a reinterpretation
+
+00:19:06.125 --> 00:19:07.610 align:middle line:84%
+of what we are
+looking at so far.
+
+00:19:07.610 --> 00:19:10.730 align:middle line:84%
+This is actually a very deep
+dynamical principle, OK?
+
+00:19:10.730 --> 00:19:18.190 align:middle line:84%
+So this is, in
+fact, a dynamical--
+
+00:19:18.190 --> 00:19:20.110 align:middle line:84%
+a deep-- let me
+emphasize that this
+
+00:19:20.110 --> 00:19:23.140 align:middle line:90%
+is a deep, dynamical principle.
+
+00:19:23.140 --> 00:19:31.030 align:middle line:90%
+
+
+00:19:31.030 --> 00:19:36.490 align:middle line:84%
+So essentially, you have gauge
+symmetries, or in other words,
+
+00:19:36.490 --> 00:19:37.720 align:middle line:90%
+local symmetries.
+
+00:19:37.720 --> 00:19:41.210 align:middle line:90%
+
+
+00:19:41.210 --> 00:19:45.620 align:middle line:84%
+Can be used to determine
+interactions, OK?
+
+00:19:45.620 --> 00:19:50.910 align:middle line:90%
+
+
+00:19:50.910 --> 00:19:51.420 align:middle line:90%
+OK.
+
+00:19:51.420 --> 00:19:57.120 align:middle line:84%
+Or in other words, all
+interactions in nature--
+
+00:19:57.120 --> 00:20:00.100 align:middle line:84%
+turns out, they are related
+to some gauge symmetries.
+
+00:20:00.100 --> 00:20:04.595 align:middle line:84%
+So this applies to all
+interactions in nature.
+
+00:20:04.595 --> 00:20:10.830 align:middle line:90%
+
+
+00:20:10.830 --> 00:20:17.300 align:middle line:84%
+So this principle applies to
+all interactions in nature, OK?
+
+00:20:17.300 --> 00:20:20.540 align:middle line:90%
+
+
+00:20:20.540 --> 00:20:25.982 align:middle line:84%
+So here we see, in the
+electromagnetic interactions,
+
+00:20:25.982 --> 00:20:27.440 align:middle line:84%
+it turns out the
+same thing happens
+
+00:20:27.440 --> 00:20:30.050 align:middle line:90%
+for the weak interaction.
+
+00:20:30.050 --> 00:20:32.480 align:middle line:84%
+Same thing happens for
+the strong interaction.
+
+00:20:32.480 --> 00:20:34.850 align:middle line:84%
+And the same thing
+happens for gravity.
+
+00:20:34.850 --> 00:20:37.520 align:middle line:84%
+They all can be formulated
+as a consequence
+
+00:20:37.520 --> 00:20:42.230 align:middle line:90%
+of some local symmetries.
+
+00:20:42.230 --> 00:20:43.977 align:middle line:90%
+And why is that the case?
+
+00:20:43.977 --> 00:20:45.350 align:middle line:90%
+We don't really know.
+
+00:20:45.350 --> 00:20:48.710 align:middle line:84%
+We don't really
+understand why, somehow,
+
+00:20:48.710 --> 00:20:51.590 align:middle line:84%
+this dynamical principle
+should be there.
+
+00:20:51.590 --> 00:20:55.550 align:middle line:84%
+But this is just a fact that all
+our fundamental interactions--
+
+00:20:55.550 --> 00:20:58.280 align:middle line:84%
+they can all be
+understood this way, OK?
+
+00:20:58.280 --> 00:21:04.430 align:middle line:84%
+So we roughly
+understand, but yeah.
+
+00:21:04.430 --> 00:21:07.430 align:middle line:84%
+But going into that
+will be a long story.
+
+00:21:07.430 --> 00:21:09.020 align:middle line:90%
+Yes?
+
+00:21:09.020 --> 00:21:11.060 align:middle line:84%
+AUDIENCE: So people
+sometimes say
+
+00:21:11.060 --> 00:21:13.940 align:middle line:84%
+that gauge invariance is an
+ambiguity of the theories--
+
+00:21:13.940 --> 00:21:14.565 align:middle line:90%
+HONG LIU: Yeah.
+
+00:21:14.565 --> 00:21:17.280 align:middle line:84%
+AUDIENCE: So you can shift
+your fields by whatever,
+
+00:21:17.280 --> 00:21:18.870 align:middle line:90%
+and the theory's invariant.
+
+00:21:18.870 --> 00:21:21.660 align:middle line:84%
+How can an ambiguity
+in your description
+
+00:21:21.660 --> 00:21:24.240 align:middle line:84%
+lead to something very physical,
+which is being interacted--
+
+00:21:24.240 --> 00:21:25.080 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:21:25.080 --> 00:21:25.740 align:middle line:90%
+Exactly.
+
+00:21:25.740 --> 00:21:29.370 align:middle line:84%
+So we emphasized-- so
+when you say ambiguity,
+
+00:21:29.370 --> 00:21:33.180 align:middle line:84%
+this is what we said earlier,
+that the local symmetries,
+
+00:21:33.180 --> 00:21:36.915 align:middle line:84%
+or gauge symmetry-- they
+just tell you your theory
+
+00:21:36.915 --> 00:21:40.750 align:middle line:84%
+that the degrees
+freedom are redundant.
+
+00:21:40.750 --> 00:21:41.250 align:middle line:90%
+OK?
+
+00:21:41.250 --> 00:21:44.130 align:middle line:84%
+Some of the degrees
+freedom is not important.
+
+00:21:44.130 --> 00:21:46.380 align:middle line:84%
+Then you say, this should
+be pretty artificial, right?
+
+00:21:46.380 --> 00:21:48.838 align:middle line:84%
+They just tell you you have
+some redundant degrees freedom.
+
+00:21:48.838 --> 00:21:49.930 align:middle line:90%
+We just get rid of them.
+
+00:21:49.930 --> 00:21:53.290 align:middle line:84%
+But it turns out that
+they actually-- yeah.
+
+00:21:53.290 --> 00:21:53.790 align:middle line:90%
+Yeah.
+
+00:21:53.790 --> 00:21:57.900 align:middle line:84%
+So this is part of
+the mystery, OK?
+
+00:21:57.900 --> 00:21:59.280 align:middle line:90%
+This is part of the mystery--
+
+00:21:59.280 --> 00:22:05.350 align:middle line:84%
+why, somehow, the gauge symmetry
+leads to the interactions.
+
+00:22:05.350 --> 00:22:05.850 align:middle line:90%
+Yeah.
+
+00:22:05.850 --> 00:22:08.310 align:middle line:90%
+So Yeah yeah.
+
+00:22:08.310 --> 00:22:09.480 align:middle line:90%
+Yeah, it's a long story.
+
+00:22:09.480 --> 00:22:14.970 align:middle line:84%
+Let me just briefly make
+some comments here, OK?
+
+00:22:14.970 --> 00:22:19.890 align:middle line:84%
+So now, we more
+or less understand
+
+00:22:19.890 --> 00:22:24.050 align:middle line:90%
+that all these interactions--
+
+00:22:24.050 --> 00:22:27.440 align:middle line:84%
+essentially, all these
+important interactions
+
+00:22:27.440 --> 00:22:30.080 align:middle line:84%
+in nature, those
+fundamental interactions--
+
+00:22:30.080 --> 00:22:35.030 align:middle line:84%
+they're all governed by
+some massless particle, OK?
+
+00:22:35.030 --> 00:22:37.640 align:middle line:84%
+They're all governed by
+some massless particle.
+
+00:22:37.640 --> 00:22:42.480 align:middle line:84%
+But somehow, a
+massless particle--
+
+00:22:42.480 --> 00:22:46.980 align:middle line:84%
+you actually require to
+have some kind of redundancy
+
+00:22:46.980 --> 00:22:50.520 align:middle line:84%
+so that you can describe them
+in a Lorentz covariant way.
+
+00:22:50.520 --> 00:22:53.790 align:middle line:84%
+Without those redundancy,
+you cannot describe them
+
+00:22:53.790 --> 00:22:55.270 align:middle line:90%
+in the Lorentz covariant way.
+
+00:22:55.270 --> 00:22:58.060 align:middle line:84%
+So in the sense, that's
+where that comes from.
+
+00:22:58.060 --> 00:22:58.620 align:middle line:90%
+OK?
+
+00:22:58.620 --> 00:22:59.200 align:middle line:90%
+Yeah.
+
+00:22:59.200 --> 00:23:02.640 align:middle line:84%
+Yeah, but you make the
+statement which I just said.
+
+00:23:02.640 --> 00:23:06.430 align:middle line:84%
+Precisely, it's
+actually a long story.
+
+00:23:06.430 --> 00:23:08.490 align:middle line:90%
+Do you have any questions?
+
+00:23:08.490 --> 00:23:09.450 align:middle line:90%
+Yes?
+
+00:23:09.450 --> 00:23:11.492 align:middle line:84%
+AUDIENCE: Would it have
+been possible to quantize
+
+00:23:11.492 --> 00:23:13.914 align:middle line:84%
+the Maxwell theory just using
+the E field and the B field
+
+00:23:13.914 --> 00:23:19.650 align:middle line:84%
+without involving
+any kind of gauge?
+
+00:23:19.650 --> 00:23:22.770 align:middle line:90%
+HONG LIU: We don't know how to--
+
+00:23:22.770 --> 00:23:24.720 align:middle line:90%
+so we don't know how to--
+
+00:23:24.720 --> 00:23:30.360 align:middle line:84%
+there's no good way to quantize
+that to give you a nice quantum
+
+00:23:30.360 --> 00:23:30.960 align:middle line:90%
+theory.
+
+00:23:30.960 --> 00:23:36.270 align:middle line:84%
+And we also know that
+physically, A mu actually plays
+
+00:23:36.270 --> 00:23:37.470 align:middle line:90%
+a role.
+
+00:23:37.470 --> 00:23:41.555 align:middle line:84%
+And in situations like
+a Aharonov--Bohm effect,
+
+00:23:41.555 --> 00:23:42.930 align:middle line:84%
+the A mu plays an
+important role,
+
+00:23:42.930 --> 00:23:44.790 align:middle line:90%
+even when E and B is equal to 0.
+
+00:23:44.790 --> 00:23:49.890 align:middle line:84%
+So A mu is a more fundamental
+object than E and B.
+
+00:23:49.890 --> 00:23:54.780 align:middle line:84%
+So E and B should be considered
+as a derived object from A mu.
+
+00:23:54.780 --> 00:23:59.950 align:middle line:90%
+
+
+00:23:59.950 --> 00:24:00.670 align:middle line:90%
+Other questions?
+
+00:24:00.670 --> 00:24:01.240 align:middle line:90%
+Yes?
+
+00:24:01.240 --> 00:24:04.877 align:middle line:84%
+AUDIENCE: So here it was quite
+natural to extend to fermions
+
+00:24:04.877 --> 00:24:08.782 align:middle line:84%
+to just have to identify--
+the symmetry is already there.
+
+00:24:08.782 --> 00:24:10.510 align:middle line:84%
+You didn't have to
+engineer it, I guess.
+
+00:24:10.510 --> 00:24:11.135 align:middle line:90%
+HONG LIU: Yeah.
+
+00:24:11.135 --> 00:24:13.880 align:middle line:84%
+AUDIENCE: But is there
+a situation where
+
+00:24:13.880 --> 00:24:16.600 align:middle line:84%
+extending this symmetry
+to another field
+
+00:24:16.600 --> 00:24:20.141 align:middle line:84%
+causes an issue when you're
+trying to fix your gauge like
+
+00:24:20.141 --> 00:24:21.780 align:middle line:90%
+you had before--
+
+00:24:21.780 --> 00:24:24.550 align:middle line:84%
+increase your
+redundancy, I guess,
+
+00:24:24.550 --> 00:24:28.550 align:middle line:84%
+when you're making
+the [INAUDIBLE]??
+
+00:24:28.550 --> 00:24:30.740 align:middle line:84%
+HONG LIU: I'm not sure I
+understand your question.
+
+00:24:30.740 --> 00:24:33.010 align:middle line:84%
+AUDIENCE: So here
+we had the issue
+
+00:24:33.010 --> 00:24:36.262 align:middle line:90%
+in gauge fixing was from--
+
+00:24:36.262 --> 00:24:36.970 align:middle line:90%
+HONG LIU: No, no.
+
+00:24:36.970 --> 00:24:38.800 align:middle line:84%
+We're not doing any
+gauge fixing here.
+
+00:24:38.800 --> 00:24:44.470 align:middle line:84%
+We just have a more
+generalized gauge symmetry.
+
+00:24:44.470 --> 00:24:46.320 align:middle line:84%
+We're not doing
+any gauge fixing.
+
+00:24:46.320 --> 00:24:47.195 align:middle line:90%
+AUDIENCE: No, no, no.
+
+00:24:47.195 --> 00:24:50.588 align:middle line:84%
+I'm saying, so that came out
+of the local gauge symmetry
+
+00:24:50.588 --> 00:24:52.040 align:middle line:90%
+of our A mu's.
+
+00:24:52.040 --> 00:24:55.515 align:middle line:84%
+But I'm saying when you extend
+that to the psi, for example--
+
+00:24:55.515 --> 00:24:56.140 align:middle line:90%
+HONG LIU: Yeah.
+
+00:24:56.140 --> 00:24:57.740 align:middle line:84%
+AUDIENCE: --you get
+any other issues
+
+00:24:57.740 --> 00:24:59.910 align:middle line:90%
+like we had from earlier or no?
+
+00:24:59.910 --> 00:25:01.770 align:middle line:84%
+HONG LIU: What do you
+mean by other issues?
+
+00:25:01.770 --> 00:25:04.365 align:middle line:84%
+AUDIENCE: So issues when
+you're fixing your gauge.
+
+00:25:04.365 --> 00:25:05.948 align:middle line:84%
+Or is that just a
+step that we already
+
+00:25:05.948 --> 00:25:07.160 align:middle line:84%
+did before that we don't
+have to worry about?
+
+00:25:07.160 --> 00:25:08.930 align:middle line:90%
+HONG LIU: Oh, oh, oh, oh, oh.
+
+00:25:08.930 --> 00:25:09.900 align:middle line:90%
+You mean when we--
+
+00:25:09.900 --> 00:25:10.940 align:middle line:90%
+no, no.
+
+00:25:10.940 --> 00:25:14.450 align:middle line:84%
+That won't change much
+because we did before
+
+00:25:14.450 --> 00:25:16.080 align:middle line:90%
+for the gauge fixing already.
+
+00:25:16.080 --> 00:25:16.670 align:middle line:90%
+It's enough.
+
+00:25:16.670 --> 00:25:17.870 align:middle line:90%
+Yeah.
+
+00:25:17.870 --> 00:25:18.370 align:middle line:90%
+Yeah.
+
+00:25:18.370 --> 00:25:21.210 align:middle line:90%
+
+
+00:25:21.210 --> 00:25:22.580 align:middle line:90%
+OK?
+
+00:25:22.580 --> 00:25:26.100 align:middle line:84%
+So now, let's talk
+about the other example.
+
+00:25:26.100 --> 00:25:34.130 align:middle line:84%
+So if you have a scalar
+field which is charged--
+
+00:25:34.130 --> 00:25:36.660 align:middle line:90%
+say, complex scalar field--
+
+00:25:36.660 --> 00:25:43.730 align:middle line:84%
+you can also couple
+it to the photon, OK?
+
+00:25:43.730 --> 00:25:47.150 align:middle line:84%
+That's what we did
+for the fermions, OK?
+
+00:25:47.150 --> 00:25:51.767 align:middle line:84%
+So let's consider if you
+have a complex scalar.
+
+00:25:51.767 --> 00:25:53.350 align:middle line:84%
+So consider you have
+a complex scalar.
+
+00:25:53.350 --> 00:26:03.310 align:middle line:90%
+
+
+00:26:03.310 --> 00:26:03.810 align:middle line:90%
+Yeah.
+
+00:26:03.810 --> 00:26:09.030 align:middle line:84%
+Maybe you can also have
+some interaction terms, OK?
+
+00:26:09.030 --> 00:26:14.080 align:middle line:84%
+So let's imagine we have
+some complex scalar.
+
+00:26:14.080 --> 00:26:18.180 align:middle line:84%
+And so this is
+invariant under phi.
+
+00:26:18.180 --> 00:26:20.250 align:middle line:84%
+Again, there's a
+global symmetry.
+
+00:26:20.250 --> 00:26:22.710 align:middle line:90%
+U1 global symmetry.
+
+00:26:22.710 --> 00:26:23.730 align:middle line:90%
+Alpha equal to constant.
+
+00:26:23.730 --> 00:26:26.330 align:middle line:90%
+
+
+00:26:26.330 --> 00:26:27.830 align:middle line:90%
+OK?
+
+00:26:27.830 --> 00:26:33.200 align:middle line:84%
+And then we have a
+conserved current here--
+
+00:26:33.200 --> 00:26:35.780 align:middle line:90%
+J mu equal to minus i.
+
+00:26:35.780 --> 00:26:37.730 align:middle line:90%
+So again, your Noether current.
+
+00:26:37.730 --> 00:26:47.700 align:middle line:90%
+
+
+00:26:47.700 --> 00:26:49.830 align:middle line:90%
+OK.
+
+00:26:49.830 --> 00:26:57.880 align:middle line:84%
+So now, you can just try
+to do the same trick, OK?
+
+00:26:57.880 --> 00:27:00.250 align:middle line:84%
+So let's just
+couple this theory,
+
+00:27:00.250 --> 00:27:03.100 align:middle line:84%
+combine this theory
+to the Maxwell theory,
+
+00:27:03.100 --> 00:27:05.470 align:middle line:90%
+but identify that J with this J.
+
+00:27:05.470 --> 00:27:10.210 align:middle line:84%
+So naively-- so the
+reason I say naively
+
+00:27:10.210 --> 00:27:14.450 align:middle line:84%
+is because this procedure
+in this case will not work.
+
+00:27:14.450 --> 00:27:19.810 align:middle line:84%
+So now, we can consider
+the scalar QED, say,
+
+00:27:19.810 --> 00:27:24.280 align:middle line:84%
+with photon couple, and
+again, with this minus 1/4
+
+00:27:24.280 --> 00:27:25.400 align:middle line:90%
+F square term.
+
+00:27:25.400 --> 00:27:27.640 align:middle line:84%
+So let me just write
+the simplified version--
+
+00:27:27.640 --> 00:27:28.990 align:middle line:90%
+just write F square.
+
+00:27:28.990 --> 00:27:34.930 align:middle line:84%
+And then you can add this
+scalar Lagrangian, OK?
+
+00:27:34.930 --> 00:27:38.680 align:middle line:84%
+And now, you add the
+coupling E. And then
+
+00:27:38.680 --> 00:27:42.835 align:middle line:84%
+you can put A mu equal to J mu,
+but with J mu given by this.
+
+00:27:42.835 --> 00:27:45.640 align:middle line:90%
+
+
+00:27:45.640 --> 00:27:47.470 align:middle line:90%
+OK?
+
+00:27:47.470 --> 00:27:49.360 align:middle line:90%
+We say A mu given by this, OK?
+
+00:27:49.360 --> 00:27:54.520 align:middle line:84%
+So this is the natural thing to
+do based on our fermion story.
+
+00:27:54.520 --> 00:28:07.770 align:middle line:90%
+
+
+00:28:07.770 --> 00:28:09.030 align:middle line:90%
+But now, you can check.
+
+00:28:09.030 --> 00:28:12.060 align:middle line:90%
+
+
+00:28:12.060 --> 00:28:13.440 align:middle line:90%
+But now, you can easily check.
+
+00:28:13.440 --> 00:28:19.230 align:middle line:90%
+
+
+00:28:19.230 --> 00:28:19.730 align:middle line:90%
+OK?
+
+00:28:19.730 --> 00:28:21.752 align:middle line:84%
+So I will not do the
+exact check here.
+
+00:28:21.752 --> 00:28:22.835 align:middle line:90%
+You should check yourself.
+
+00:28:22.835 --> 00:28:26.150 align:middle line:90%
+
+
+00:28:26.150 --> 00:28:28.700 align:middle line:90%
+So let me call this L prime, OK?
+
+00:28:28.700 --> 00:28:31.370 align:middle line:84%
+L tilde because this
+is our naive theory.
+
+00:28:31.370 --> 00:28:39.980 align:middle line:84%
+You can check that this
+L tilde QED, scalar QED,
+
+00:28:39.980 --> 00:28:41.570 align:middle line:90%
+is not invariant--
+
+00:28:41.570 --> 00:28:45.480 align:middle line:90%
+
+
+00:28:45.480 --> 00:28:52.160 align:middle line:90%
+gauge invariant, OK?
+
+00:28:52.160 --> 00:29:00.510 align:middle line:84%
+Means that you cannot find
+the transformation on phi, OK?
+
+00:29:00.510 --> 00:29:02.540 align:middle line:84%
+That this whole thing
+is gauge invariant.
+
+00:29:02.540 --> 00:29:03.040 align:middle line:90%
+OK?
+
+00:29:03.040 --> 00:29:05.080 align:middle line:84%
+This whole thing
+is gauge invariant.
+
+00:29:05.080 --> 00:29:11.540 align:middle line:84%
+And so for example, so
+it's not gauge invariant.
+
+00:29:11.540 --> 00:29:19.020 align:middle line:84%
+When we can check explicitly, if
+you just copy what we do here,
+
+00:29:19.020 --> 00:29:29.680 align:middle line:84%
+this phi x given by
+ie lambda x phi x--
+
+00:29:29.680 --> 00:29:31.780 align:middle line:90%
+so this won't work, OK?
+
+00:29:31.780 --> 00:29:34.160 align:middle line:90%
+So it's not invariant.
+
+00:29:34.160 --> 00:29:35.880 align:middle line:90%
+OK.
+
+00:29:35.880 --> 00:29:36.630 align:middle line:90%
+Yes?
+
+00:29:36.630 --> 00:29:37.297 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:29:37.297 --> 00:29:39.677 align:middle line:84%
+Can you just leave phi
+the same when you do--
+
+00:29:39.677 --> 00:29:41.510 align:middle line:84%
+HONG LIU: No, you cannot
+leave phi the same.
+
+00:29:41.510 --> 00:29:44.750 align:middle line:90%
+
+
+00:29:44.750 --> 00:29:46.890 align:middle line:84%
+Yeah, that's a
+very good question.
+
+00:29:46.890 --> 00:29:50.870 align:middle line:84%
+So you cannot
+leave phi the same.
+
+00:29:50.870 --> 00:29:54.590 align:middle line:90%
+
+
+00:29:54.590 --> 00:29:56.360 align:middle line:84%
+So naively, you
+can ask yourself--
+
+00:29:56.360 --> 00:29:59.550 align:middle line:84%
+you say this is supposed
+to be conserved.
+
+00:29:59.550 --> 00:30:01.505 align:middle line:84%
+And we previously
+said if we have
+
+00:30:01.505 --> 00:30:05.100 align:middle line:84%
+A mu to a conserved current,
+this is gauge invariant.
+
+00:30:05.100 --> 00:30:10.320 align:middle line:84%
+But this is conserved only when
+you use the equation of motion
+
+00:30:10.320 --> 00:30:12.060 align:middle line:90%
+of this theory.
+
+00:30:12.060 --> 00:30:14.910 align:middle line:84%
+But now, when you couple
+these two to this theory,
+
+00:30:14.910 --> 00:30:17.610 align:middle line:84%
+then the equation of
+motion for phi changed.
+
+00:30:17.610 --> 00:30:20.940 align:middle line:90%
+And then so yeah.
+
+00:30:20.940 --> 00:30:22.770 align:middle line:90%
+So it no longer works, OK?
+
+00:30:22.770 --> 00:30:26.040 align:middle line:90%
+And so just naively, do this.
+
+00:30:26.040 --> 00:30:28.560 align:middle line:84%
+Naively, this is not
+guaranteed to work.
+
+00:30:28.560 --> 00:30:30.810 align:middle line:84%
+It turns out in
+the fermion case,
+
+00:30:30.810 --> 00:30:34.592 align:middle line:84%
+it just worked because of the
+existence of this symmetry,
+
+00:30:34.592 --> 00:30:36.300 align:middle line:84%
+because of the existence
+of the symmetry.
+
+00:30:36.300 --> 00:30:38.920 align:middle line:90%
+
+
+00:30:38.920 --> 00:30:41.860 align:middle line:90%
+And it turns out, this theory--
+
+00:30:41.860 --> 00:30:45.050 align:middle line:84%
+so now, this theory will
+not be gauge invariant.
+
+00:30:45.050 --> 00:30:48.090 align:middle line:90%
+And now, this would be bad, OK?
+
+00:30:48.090 --> 00:30:51.210 align:middle line:84%
+It will be bad because
+you can no longer
+
+00:30:51.210 --> 00:30:53.670 align:middle line:90%
+find any local symmetry.
+
+00:30:53.670 --> 00:30:57.480 align:middle line:90%
+This theory is invariant, OK?
+
+00:30:57.480 --> 00:31:00.870 align:middle line:84%
+And this is one where the
+generalization does not work.
+
+00:31:00.870 --> 00:31:02.850 align:middle line:90%
+You cannot find anything.
+
+00:31:02.850 --> 00:31:04.830 align:middle line:90%
+You can also not find others.
+
+00:31:04.830 --> 00:31:08.760 align:middle line:84%
+But this is bad because we
+said we need gauge symmetry
+
+00:31:08.760 --> 00:31:12.150 align:middle line:84%
+to get rid of unphysical
+degrees freedom in A mu
+
+00:31:12.150 --> 00:31:14.370 align:middle line:84%
+because A mu should only
+have two polarizations,
+
+00:31:14.370 --> 00:31:15.210 align:middle line:90%
+not to have four.
+
+00:31:15.210 --> 00:31:16.950 align:middle line:84%
+So we need those
+gauge symmetries
+
+00:31:16.950 --> 00:31:20.100 align:middle line:84%
+to get rid of the unphysical
+degrees freedom in A mu.
+
+00:31:20.100 --> 00:31:22.410 align:middle line:84%
+But if this gauge symmetry
+is broken by coupling
+
+00:31:22.410 --> 00:31:26.590 align:middle line:84%
+to the scalar field, then this
+theory cannot be consistent,
+
+00:31:26.590 --> 00:31:27.090 align:middle line:90%
+OK?
+
+00:31:27.090 --> 00:31:29.850 align:middle line:90%
+So this theory is bad.
+
+00:31:29.850 --> 00:31:31.570 align:middle line:90%
+OK.
+
+00:31:31.570 --> 00:31:33.460 align:middle line:90%
+This theory is bad.
+
+00:31:33.460 --> 00:31:38.920 align:middle line:84%
+And it turns out, we can just
+generalize this principle, OK?
+
+00:31:38.920 --> 00:31:42.850 align:middle line:84%
+We say let's just impose
+gauge symmetry, OK?
+
+00:31:42.850 --> 00:31:46.020 align:middle line:84%
+We can just impose
+gauge symmetry.
+
+00:31:46.020 --> 00:31:48.300 align:middle line:90%
+So the way out--
+
+00:31:48.300 --> 00:31:50.025 align:middle line:84%
+we can just impose
+the gauge symmetry.
+
+00:31:50.025 --> 00:31:52.920 align:middle line:90%
+
+
+00:31:52.920 --> 00:32:09.320 align:middle line:84%
+Impose the theory to be
+invariant under this A mu,
+
+00:32:09.320 --> 00:32:13.370 align:middle line:84%
+goes to A mu plus
+partial mu lambda.
+
+00:32:13.370 --> 00:32:22.150 align:middle line:84%
+And the phi goes to exponential
+minus ie lambda x phi, OK?
+
+00:32:22.150 --> 00:32:28.830 align:middle line:84%
+So we require this
+to be under that, OK?
+
+00:32:28.830 --> 00:32:33.870 align:middle line:84%
+So to write the theory
+invariant under this,
+
+00:32:33.870 --> 00:32:38.870 align:middle line:84%
+we can just easily borrow the
+inside we already obtained
+
+00:32:38.870 --> 00:32:41.940 align:middle line:90%
+from the fermionic case.
+
+00:32:41.940 --> 00:32:43.380 align:middle line:84%
+But in the fermionic
+case, we were
+
+00:32:43.380 --> 00:32:48.330 align:middle line:84%
+told that this derivative,
+this capital D,
+
+00:32:48.330 --> 00:32:52.690 align:middle line:84%
+actually transforms nicely
+under such transformation.
+
+00:32:52.690 --> 00:32:54.085 align:middle line:84%
+When we make such
+transformation,
+
+00:32:54.085 --> 00:32:56.210 align:middle line:84%
+whether psi is a fermion
+or boson, and whether it's
+
+00:32:56.210 --> 00:32:59.610 align:middle line:84%
+a scalar or spinor does
+not play any role, OK?
+
+00:32:59.610 --> 00:33:02.040 align:middle line:84%
+So we can now just
+introduce D phi.
+
+00:33:02.040 --> 00:33:06.290 align:middle line:90%
+
+
+00:33:06.290 --> 00:33:12.430 align:middle line:84%
+We can just introduce D
+phi equal to partial mu phi
+
+00:33:12.430 --> 00:33:15.430 align:middle line:90%
+minus ie A mu phi, OK?
+
+00:33:15.430 --> 00:33:18.340 align:middle line:84%
+We can similarly
+introduce D phi like this.
+
+00:33:18.340 --> 00:33:21.880 align:middle line:84%
+And now, D phi then
+transforms nicely
+
+00:33:21.880 --> 00:33:23.860 align:middle line:84%
+under this kind of
+transformation, OK?
+
+00:33:23.860 --> 00:33:34.855 align:middle line:90%
+So D phi-- to mu phi, OK?
+
+00:33:34.855 --> 00:33:36.700 align:middle line:90%
+They transform nicely.
+
+00:33:36.700 --> 00:33:38.680 align:middle line:84%
+And since this
+transforms nicely,
+
+00:33:38.680 --> 00:33:40.780 align:middle line:84%
+then we can easily write
+down the Lagrangian, OK?
+
+00:33:40.780 --> 00:33:45.700 align:middle line:84%
+So the L scalar QED
+then can be written
+
+00:33:45.700 --> 00:33:50.370 align:middle line:90%
+as just minus 1/4 F squared.
+
+00:33:50.370 --> 00:33:56.210 align:middle line:84%
+And now, instead of the
+standard derivative,
+
+00:33:56.210 --> 00:33:59.360 align:middle line:90%
+I use this derivative.
+
+00:33:59.360 --> 00:34:03.850 align:middle line:84%
+I use this capital
+D derivative, OK?
+
+00:34:03.850 --> 00:34:07.330 align:middle line:84%
+And then I have m
+square phi star.
+
+00:34:07.330 --> 00:34:10.900 align:middle line:84%
+And then I can have
+phi phi star, OK?
+
+00:34:10.900 --> 00:34:13.510 align:middle line:84%
+And so this will be
+invariant because those
+
+00:34:13.510 --> 00:34:16.300 align:middle line:84%
+don't matter because those
+don't involve derivatives, OK?
+
+00:34:16.300 --> 00:34:20.710 align:middle line:90%
+And so yeah.
+
+00:34:20.710 --> 00:34:24.011 align:middle line:90%
+So this is now gauge invariant.
+
+00:34:24.011 --> 00:34:32.670 align:middle line:90%
+
+
+00:34:32.670 --> 00:34:33.270 align:middle line:90%
+OK?
+
+00:34:33.270 --> 00:34:40.440 align:middle line:84%
+So this D mu is called
+covariant derivative, OK?
+
+00:34:40.440 --> 00:34:45.330 align:middle line:84%
+Becaues it transforms
+nicely under this gauge
+
+00:34:45.330 --> 00:34:46.179 align:middle line:90%
+transformation.
+
+00:34:46.179 --> 00:34:48.108 align:middle line:84%
+So it's called
+covariant derivative.
+
+00:34:48.108 --> 00:34:56.590 align:middle line:90%
+
+
+00:34:56.590 --> 00:35:02.370 align:middle line:84%
+So this capital D mu also
+has a very deep connection
+
+00:35:02.370 --> 00:35:04.530 align:middle line:90%
+to mathematics.
+
+00:35:04.530 --> 00:35:07.080 align:middle line:84%
+And so this is
+related to a subject,
+
+00:35:07.080 --> 00:35:09.300 align:middle line:90%
+say, in differential geometry--
+
+00:35:09.300 --> 00:35:14.910 align:middle line:84%
+a deep connection to
+differential geometry,
+
+00:35:14.910 --> 00:35:18.030 align:middle line:84%
+to a thing in
+differential geometry
+
+00:35:18.030 --> 00:35:20.580 align:middle line:90%
+called the connection, OK?
+
+00:35:20.580 --> 00:35:21.660 align:middle line:90%
+Called the connection.
+
+00:35:21.660 --> 00:35:22.530 align:middle line:90%
+And yeah, sorry.
+
+00:35:22.530 --> 00:35:24.428 align:middle line:90%
+We're not going into that.
+
+00:35:24.428 --> 00:35:24.928 align:middle line:90%
+Yeah.
+
+00:35:24.928 --> 00:35:29.380 align:middle line:90%
+
+
+00:35:29.380 --> 00:35:36.520 align:middle line:84%
+So now, let's compare this
+theory with that naive theory.
+
+00:35:36.520 --> 00:35:43.750 align:middle line:84%
+So you can check
+that L SQED is almost
+
+00:35:43.750 --> 00:35:51.310 align:middle line:84%
+that L tilde SQED except
+this has one more term.
+
+00:35:51.310 --> 00:35:57.520 align:middle line:84%
+So the difference with
+the fermion case--
+
+00:35:57.520 --> 00:36:00.680 align:middle line:84%
+the fermion only has
+one derivative, OK?
+
+00:36:00.680 --> 00:36:04.310 align:middle line:84%
+And this one does not
+have a derivative, OK?
+
+00:36:04.310 --> 00:36:07.850 align:middle line:84%
+And here you have
+two derivatives.
+
+00:36:07.850 --> 00:36:13.010 align:middle line:84%
+And each derivative gives
+you additional A mu, OK?
+
+00:36:13.010 --> 00:36:18.770 align:middle line:84%
+So when you expand this, so
+here there are four terms, OK?
+
+00:36:18.770 --> 00:36:20.280 align:middle line:90%
+There are four terms.
+
+00:36:20.280 --> 00:36:25.550 align:middle line:84%
+And three terms are
+encoded in here, OK?
+
+00:36:25.550 --> 00:36:27.900 align:middle line:84%
+Three terms are encoded
+in here and in here.
+
+00:36:27.900 --> 00:36:29.780 align:middle line:90%
+But there's one more term, OK?
+
+00:36:29.780 --> 00:36:31.550 align:middle line:84%
+It turns out this
+leaves one more term.
+
+00:36:31.550 --> 00:36:37.810 align:middle line:90%
+
+
+00:36:37.810 --> 00:36:40.100 align:middle line:90%
+OK.
+
+00:36:40.100 --> 00:36:45.780 align:middle line:84%
+So actually, there's a quartic
+inaction between A mu and phi,
+
+00:36:45.780 --> 00:36:46.280 align:middle line:90%
+OK?
+
+00:36:46.280 --> 00:36:49.590 align:middle line:84%
+So this only introduces
+cubic interaction.
+
+00:36:49.590 --> 00:36:51.787 align:middle line:84%
+So if you just have
+this J mu A mu,
+
+00:36:51.787 --> 00:36:53.120 align:middle line:90%
+you only have cubic interaction.
+
+00:36:53.120 --> 00:36:58.040 align:middle line:84%
+You only have 2 phi and 1 A. But
+here because of this structure,
+
+00:36:58.040 --> 00:36:59.825 align:middle line:90%
+you actually have 2 A.
+
+00:36:59.825 --> 00:37:02.980 align:middle line:84%
+Also, a term with
+2A and 2 phi, OK?
+
+00:37:02.980 --> 00:37:06.730 align:middle line:90%
+
+
+00:37:06.730 --> 00:37:09.760 align:middle line:84%
+And when you add this term, then
+the whole thing is nice, OK?
+
+00:37:09.760 --> 00:37:15.620 align:middle line:90%
+
+
+00:37:15.620 --> 00:37:16.120 align:middle line:90%
+Good.
+
+00:37:16.120 --> 00:37:18.980 align:middle line:90%
+Any questions?
+
+00:37:18.980 --> 00:37:19.730 align:middle line:90%
+Yes?
+
+00:37:19.730 --> 00:37:21.626 align:middle line:84%
+AUDIENCE: Can I also
+add higher order terms
+
+00:37:21.626 --> 00:37:25.643 align:middle line:84%
+like these quartic terms
+into the fermionic theory?
+
+00:37:25.643 --> 00:37:26.310 align:middle line:90%
+HONG LIU: Sorry.
+
+00:37:26.310 --> 00:37:27.000 align:middle line:90%
+Say it again.
+
+00:37:27.000 --> 00:37:30.690 align:middle line:84%
+AUDIENCE: Can I also add quartic
+terms or some higher order
+
+00:37:30.690 --> 00:37:33.895 align:middle line:84%
+terms into the QED
+-- fermionic theory?
+
+00:37:33.895 --> 00:37:34.770 align:middle line:90%
+HONG LIU: No, no, no.
+
+00:37:34.770 --> 00:37:39.420 align:middle line:84%
+You cannot add this term because
+this term by itself is not
+
+00:37:39.420 --> 00:37:41.070 align:middle line:90%
+gauge invariant.
+
+00:37:41.070 --> 00:37:43.770 align:middle line:84%
+Fermionic term is already
+gauge invariant by itself--
+
+00:37:43.770 --> 00:37:46.580 align:middle line:84%
+because there's no
+derivative here.
+
+00:37:46.580 --> 00:37:50.430 align:middle line:90%
+And so the structure is simpler.
+
+00:37:50.430 --> 00:37:51.000 align:middle line:90%
+Yes?
+
+00:37:51.000 --> 00:37:52.875 align:middle line:84%
+AUDIENCE: So I guess to
+add to that question,
+
+00:37:52.875 --> 00:37:55.180 align:middle line:84%
+can you carefully engineer
+higher order terms such that
+
+00:37:55.180 --> 00:37:55.680 align:middle line:90%
+they're--
+
+00:37:55.680 --> 00:37:56.555 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:37:56.555 --> 00:37:59.460 align:middle line:84%
+Yeah, you can engineer more
+complicated terms, but not
+
+00:37:59.460 --> 00:38:00.930 align:middle line:90%
+this kind of term.
+
+00:38:00.930 --> 00:38:01.650 align:middle line:90%
+Yeah.
+
+00:38:01.650 --> 00:38:03.655 align:middle line:90%
+AUDIENCE: This is required for--
+
+00:38:03.655 --> 00:38:04.530 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:38:04.530 --> 00:38:06.562 align:middle line:84%
+This is required for
+gauge invariance.
+
+00:38:06.562 --> 00:38:07.990 align:middle line:90%
+Yeah.
+
+00:38:07.990 --> 00:38:09.010 align:middle line:90%
+Yeah.
+
+00:38:09.010 --> 00:38:11.560 align:middle line:84%
+For both fermion
+and the scalar case,
+
+00:38:11.560 --> 00:38:14.830 align:middle line:84%
+you can write down
+more complicated terms
+
+00:38:14.830 --> 00:38:16.330 align:middle line:90%
+which are gauge invariant.
+
+00:38:16.330 --> 00:38:22.850 align:middle line:84%
+And the one we wrote down so
+far is just the simplest one.
+
+00:38:22.850 --> 00:38:23.350 align:middle line:90%
+Yeah.
+
+00:38:23.350 --> 00:38:24.010 align:middle line:90%
+Simplest ones.
+
+00:38:24.010 --> 00:38:24.775 align:middle line:90%
+Yes?
+
+00:38:24.775 --> 00:38:27.150 align:middle line:84%
+AUDIENCE: So which one should
+of these should I interpret
+
+00:38:27.150 --> 00:38:28.180 align:middle line:90%
+as the electric current?
+
+00:38:28.180 --> 00:38:32.650 align:middle line:84%
+J mu there or I guess J mu
+plus the A mu psi psi psi?
+
+00:38:32.650 --> 00:38:33.850 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:38:33.850 --> 00:38:39.160 align:middle line:84%
+So still, so when you
+interpret the electric current,
+
+00:38:39.160 --> 00:38:40.070 align:middle line:90%
+it's still this J mu.
+
+00:38:40.070 --> 00:38:40.570 align:middle line:90%
+Yeah.
+
+00:38:40.570 --> 00:38:47.700 align:middle line:90%
+
+
+00:38:47.700 --> 00:38:50.190 align:middle line:90%
+Other questions?
+
+00:38:50.190 --> 00:38:52.130 align:middle line:90%
+OK, great.
+
+00:38:52.130 --> 00:38:56.110 align:middle line:84%
+So now, so let me
+just make a comment.
+
+00:38:56.110 --> 00:39:04.795 align:middle line:84%
+So in this story, now the global
+charge before now becomes the--
+
+00:39:04.795 --> 00:39:06.670 align:middle line:84%
+just to emphasize again--
+in the scalar case,
+
+00:39:06.670 --> 00:39:10.370 align:middle line:84%
+again, the global charge
+for this global current
+
+00:39:10.370 --> 00:39:13.180 align:middle line:84%
+has now become the
+electric charge
+
+00:39:13.180 --> 00:39:16.270 align:middle line:84%
+coupled to the electro-
+magnetic fields, OK?
+
+00:39:16.270 --> 00:39:19.150 align:middle line:84%
+Become electric charge coupled
+to electro- magnetic field, OK?
+
+00:39:19.150 --> 00:39:21.900 align:middle line:90%
+
+
+00:39:21.900 --> 00:39:22.630 align:middle line:90%
+OK, good.
+
+00:39:22.630 --> 00:39:26.430 align:middle line:84%
+So let's draw the
+Feynman rules, OK?
+
+00:39:26.430 --> 00:39:29.535 align:middle line:84%
+So from here we can just
+talk about the Feynman rules.
+
+00:39:29.535 --> 00:39:39.830 align:middle line:90%
+
+
+00:39:39.830 --> 00:39:43.210 align:middle line:84%
+So let's first do
+the fermionic case.
+
+00:39:43.210 --> 00:39:45.680 align:middle line:84%
+So the rules for fermions
+is the same as before.
+
+00:39:45.680 --> 00:39:48.054 align:middle line:84%
+The only thing we just
+need to write down--
+
+00:39:48.054 --> 00:39:56.960 align:middle line:84%
+the propagators are the same
+as previously for the Maxwell
+
+00:39:56.960 --> 00:39:57.460 align:middle line:90%
+theory.
+
+00:39:57.460 --> 00:40:00.070 align:middle line:90%
+
+
+00:40:00.070 --> 00:40:02.770 align:middle line:90%
+Yeah, let's first do the QED.
+
+00:40:02.770 --> 00:40:12.300 align:middle line:84%
+And the propagator
+for A mu and phi--
+
+00:40:12.300 --> 00:40:14.730 align:middle line:90%
+it's the same as before, OK?
+
+00:40:14.730 --> 00:40:16.320 align:middle line:84%
+Because the
+propagator only cares
+
+00:40:16.320 --> 00:40:17.580 align:middle line:90%
+about the quadratic theory.
+
+00:40:17.580 --> 00:40:19.560 align:middle line:84%
+It doesn't care
+about interactions.
+
+00:40:19.560 --> 00:40:23.100 align:middle line:90%
+Same as before.
+
+00:40:23.100 --> 00:40:28.160 align:middle line:84%
+So we can draw a wavy line
+corresponding to A mu, OK?
+
+00:40:28.160 --> 00:40:34.490 align:middle line:84%
+And then the solid line
+corresponding to, say, psi, OK?
+
+00:40:34.490 --> 00:40:35.960 align:middle line:90%
+Solid line equals 1 and 2 psi.
+
+00:40:35.960 --> 00:40:38.630 align:middle line:84%
+So this is related
+to A mu propagator.
+
+00:40:38.630 --> 00:40:42.920 align:middle line:84%
+This is related to
+psi propagator, OK?
+
+00:40:42.920 --> 00:40:44.820 align:middle line:84%
+And now, the interaction
+between them--
+
+00:40:44.820 --> 00:40:49.850 align:middle line:84%
+this interaction between
+them is given by this term.
+
+00:40:49.850 --> 00:40:51.680 align:middle line:84%
+And then these
+have the structure.
+
+00:40:51.680 --> 00:40:54.440 align:middle line:90%
+
+
+00:40:54.440 --> 00:40:57.780 align:middle line:90%
+You have one fermion come in.
+
+00:40:57.780 --> 00:41:00.750 align:middle line:84%
+You have two fermions and
+then coupled to a photon, OK?
+
+00:41:00.750 --> 00:41:03.660 align:middle line:84%
+So this is the same, very
+similar to this Yukawa
+
+00:41:03.660 --> 00:41:04.560 align:middle line:90%
+coupling.
+
+00:41:04.560 --> 00:41:06.300 align:middle line:90%
+We can that before--
+
+00:41:06.300 --> 00:41:08.850 align:middle line:84%
+just now, this one
+becomes a photon, OK?
+
+00:41:08.850 --> 00:41:10.920 align:middle line:90%
+This one becomes a photon.
+
+00:41:10.920 --> 00:41:12.780 align:middle line:84%
+And this effective
+vertex is given
+
+00:41:12.780 --> 00:41:19.610 align:middle line:90%
+by minus ie A mu gamma mu, OK?
+
+00:41:19.610 --> 00:41:26.020 align:middle line:84%
+So the minus comes
+from minus here.
+
+00:41:26.020 --> 00:41:28.540 align:middle line:84%
+The i comes from the
+i in the action, OK?
+
+00:41:28.540 --> 00:41:30.160 align:middle line:84%
+When you do the
+passing equal action.
+
+00:41:30.160 --> 00:41:31.810 align:middle line:90%
+And you have minus ie.
+
+00:41:31.810 --> 00:41:37.040 align:middle line:84%
+And then phi, psi, and A mu are
+taken care of by those lines.
+
+00:41:37.040 --> 00:41:39.700 align:middle line:84%
+And then you only
+have a gamma mu, OK?
+
+00:41:39.700 --> 00:41:43.780 align:middle line:84%
+So the vertex here
+is the gamma mu.
+
+00:41:43.780 --> 00:41:44.830 align:middle line:90%
+But pay attention.
+
+00:41:44.830 --> 00:41:48.140 align:middle line:84%
+This gamma mu is actually a
+matrix in the spinor space.
+
+00:41:48.140 --> 00:41:51.310 align:middle line:84%
+And so you have to be careful
+when you contract to the spinor
+
+00:41:51.310 --> 00:41:54.850 align:middle line:84%
+indices because now,
+these have spinor indices.
+
+00:41:54.850 --> 00:41:58.220 align:middle line:90%
+And it's a matrix, OK?
+
+00:41:58.220 --> 00:41:58.720 align:middle line:90%
+Good?
+
+00:41:58.720 --> 00:42:04.300 align:middle line:90%
+So this is for the fermion.
+
+00:42:04.300 --> 00:42:05.640 align:middle line:90%
+And oh, yeah.
+
+00:42:05.640 --> 00:42:09.250 align:middle line:90%
+So I should also mention--
+
+00:42:09.250 --> 00:42:21.980 align:middle line:84%
+for the external legs, so
+this is for the vertices
+
+00:42:21.980 --> 00:42:23.120 align:middle line:90%
+and the propagator.
+
+00:42:23.120 --> 00:42:25.750 align:middle line:90%
+
+
+00:42:25.750 --> 00:42:28.240 align:middle line:84%
+And if we consider the
+scattering amplitude--
+
+00:42:28.240 --> 00:42:36.450 align:middle line:90%
+
+
+00:42:36.450 --> 00:42:39.470 align:middle line:84%
+so for scattering amplitude,
+we mentioned it before.
+
+00:42:39.470 --> 00:42:44.190 align:middle line:84%
+For fermion, we need to include
+the polarization vector.
+
+00:42:44.190 --> 00:42:46.370 align:middle line:84%
+Similarly, for the
+photon, we also
+
+00:42:46.370 --> 00:42:54.180 align:middle line:84%
+need to include the polarization
+vector for the external legs,
+
+00:42:54.180 --> 00:42:54.680 align:middle line:90%
+OK?
+
+00:42:54.680 --> 00:43:01.140 align:middle line:84%
+So for external legs, for
+scattering amplitude--
+
+00:43:01.140 --> 00:43:11.020 align:middle line:90%
+
+
+00:43:11.020 --> 00:43:14.560 align:middle line:84%
+yeah, if you calculate the green
+function, it doesn't matter.
+
+00:43:14.560 --> 00:43:16.870 align:middle line:84%
+You just include the
+external propagator.
+
+00:43:16.870 --> 00:43:18.940 align:middle line:84%
+But for the
+scattering amplitude,
+
+00:43:18.940 --> 00:43:22.720 align:middle line:84%
+then we need to include
+the polarization vector
+
+00:43:22.720 --> 00:43:23.900 align:middle line:90%
+for photons.
+
+00:43:23.900 --> 00:43:29.170 align:middle line:84%
+So for the initial state,
+supposing the initial state,
+
+00:43:29.170 --> 00:43:33.100 align:middle line:84%
+we have, say, some
+vector k and alpha.
+
+00:43:33.100 --> 00:43:36.560 align:middle line:84%
+So alpha gives its
+polarization vector.
+
+00:43:36.560 --> 00:43:38.410 align:middle line:90%
+And k is the momentum.
+
+00:43:38.410 --> 00:43:41.450 align:middle line:90%
+And then we can denote it as--
+
+00:43:41.450 --> 00:43:46.070 align:middle line:84%
+so alpha denotes the
+polarization for the--
+
+00:43:46.070 --> 00:43:47.870 align:middle line:90%
+and then say we can have k.
+
+00:43:47.870 --> 00:43:50.490 align:middle line:90%
+So this is the momentum index.
+
+00:43:50.490 --> 00:43:52.760 align:middle line:84%
+So this is the
+momentum arrow, OK?
+
+00:43:52.760 --> 00:43:55.730 align:middle line:84%
+And so this [INAUDIBLE]
+corresponding to--
+
+00:43:55.730 --> 00:43:59.660 align:middle line:90%
+
+
+00:43:59.660 --> 00:44:00.290 align:middle line:90%
+OK.
+
+00:44:00.290 --> 00:44:01.610 align:middle line:90%
+OK?
+
+00:44:01.610 --> 00:44:03.710 align:middle line:84%
+And so this is for
+the initial state.
+
+00:44:03.710 --> 00:44:10.660 align:middle line:84%
+Then for the final state,
+if you have a photon
+
+00:44:10.660 --> 00:44:14.530 align:middle line:90%
+in the final state, like this--
+
+00:44:14.530 --> 00:44:18.850 align:middle line:84%
+and then again, we
+just have an alpha.
+
+00:44:18.850 --> 00:44:21.700 align:middle line:84%
+And so normally, we throw the
+momentum arrow to come out
+
+00:44:21.700 --> 00:44:23.330 align:middle line:90%
+if you have a final state.
+
+00:44:23.330 --> 00:44:31.230 align:middle line:84%
+And then the polarization vector
+will be just this star, OK?
+
+00:44:31.230 --> 00:44:32.720 align:middle line:90%
+Just the complex conjugate.
+
+00:44:32.720 --> 00:44:33.720 align:middle line:90%
+OK, it's very easy.
+
+00:44:33.720 --> 00:44:34.220 align:middle line:90%
+OK?
+
+00:44:34.220 --> 00:44:37.410 align:middle line:90%
+
+
+00:44:37.410 --> 00:44:38.040 align:middle line:90%
+Yeah.
+
+00:44:38.040 --> 00:44:40.500 align:middle line:84%
+So when you write
+down the amplitude,
+
+00:44:40.500 --> 00:44:42.810 align:middle line:90%
+you just have to be careful.
+
+00:44:42.810 --> 00:44:45.390 align:middle line:84%
+For external photon
+legs, you have
+
+00:44:45.390 --> 00:44:48.970 align:middle line:84%
+to include the
+polarization vector.
+
+00:44:48.970 --> 00:44:51.060 align:middle line:84%
+So for scalar QED,
+it's very similar.
+
+00:44:51.060 --> 00:44:59.390 align:middle line:90%
+
+
+00:44:59.390 --> 00:45:05.480 align:middle line:84%
+So here we can
+introduce a dashed line
+
+00:45:05.480 --> 00:45:09.510 align:middle line:84%
+that's corresponding
+to a scalar propagator.
+
+00:45:09.510 --> 00:45:10.010 align:middle line:90%
+OK?
+
+00:45:10.010 --> 00:45:13.790 align:middle line:84%
+So corresponding to the
+scalar propagator, OK?
+
+00:45:13.790 --> 00:45:18.410 align:middle line:84%
+And now, this arrow
+now has a meaning
+
+00:45:18.410 --> 00:45:20.330 align:middle line:84%
+because the scalar
+has a charge, OK?
+
+00:45:20.330 --> 00:45:21.990 align:middle line:90%
+A scalar has a charge.
+
+00:45:21.990 --> 00:45:23.990 align:middle line:84%
+And so this arrow is
+not the momentum arrow
+
+00:45:23.990 --> 00:45:26.490 align:middle line:90%
+you can do arbitrarily.
+
+00:45:26.490 --> 00:45:31.140 align:middle line:90%
+And so there are various--
+
+00:45:31.140 --> 00:45:35.130 align:middle line:90%
+and yeah.
+
+00:45:35.130 --> 00:45:39.960 align:middle line:84%
+And so for QED, let's
+look at the interaction
+
+00:45:39.960 --> 00:45:40.950 align:middle line:90%
+with the photon.
+
+00:45:40.950 --> 00:45:44.550 align:middle line:90%
+And then we have this vertex.
+
+00:45:44.550 --> 00:45:52.500 align:middle line:84%
+And we also have this vertex
+with J mu coupled to that, OK?
+
+00:45:52.500 --> 00:45:56.530 align:middle line:84%
+So then that kind of interaction
+will have the following form.
+
+00:45:56.530 --> 00:45:59.220 align:middle line:90%
+So this J mu coupling is easy.
+
+00:45:59.220 --> 00:46:03.360 align:middle line:84%
+We can schematically
+write it down.
+
+00:46:03.360 --> 00:46:08.745 align:middle line:84%
+So again, you have 2 phi and
+then coupled to a photon, OK?
+
+00:46:08.745 --> 00:46:11.460 align:middle line:90%
+
+
+00:46:11.460 --> 00:46:14.410 align:middle line:90%
+Coupled to a photon, OK?
+
+00:46:14.410 --> 00:46:19.840 align:middle line:90%
+And so A mu will have index.
+
+00:46:19.840 --> 00:46:23.880 align:middle line:84%
+And so we can put
+the mu here, OK?
+
+00:46:23.880 --> 00:46:33.060 align:middle line:84%
+And this vertex is given by
+minus i e k plus k prime mu,
+
+00:46:33.060 --> 00:46:33.560 align:middle line:90%
+OK?
+
+00:46:33.560 --> 00:46:35.710 align:middle line:90%
+Suppose the momentum here is k.
+
+00:46:35.710 --> 00:46:37.990 align:middle line:84%
+And the momentum
+here is k prime, OK?
+
+00:46:37.990 --> 00:46:42.640 align:middle line:84%
+So yeah, the reason you
+have this k plus k prime mu
+
+00:46:42.640 --> 00:46:48.990 align:middle line:84%
+is because here there's a
+derivative acting on phi.
+
+00:46:48.990 --> 00:46:54.120 align:middle line:84%
+And so this derivative acting
+on this phi gives you a k1, a k.
+
+00:46:54.120 --> 00:46:57.450 align:middle line:84%
+And this derivative on phi
+gives you the k prime, OK?
+
+00:46:57.450 --> 00:47:00.280 align:middle line:84%
+And you have the sum
+of these two terms.
+
+00:47:00.280 --> 00:47:04.140 align:middle line:84%
+So that's why you have this kind
+of term for the interaction.
+
+00:47:04.140 --> 00:47:04.943 align:middle line:90%
+Yes?
+
+00:47:04.943 --> 00:47:05.610 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:47:05.610 --> 00:47:08.325 align:middle line:84%
+Going back to the fermion
+QED for a second--
+
+00:47:08.325 --> 00:47:08.950 align:middle line:90%
+HONG LIU: Yeah.
+
+00:47:08.950 --> 00:47:12.640 align:middle line:84%
+AUDIENCE: Do you still also
+have, for the external legs,
+
+00:47:12.640 --> 00:47:14.600 align:middle line:90%
+for fermions that are usually--
+
+00:47:14.600 --> 00:47:16.100 align:middle line:84%
+HONG LIU: Yeah, the
+same [AUDIO OUT]
+
+00:47:16.100 --> 00:47:16.460 align:middle line:90%
+AUDIENCE: OK.
+
+00:47:16.460 --> 00:47:17.085 align:middle line:90%
+HONG LIU: Yeah.
+
+00:47:17.085 --> 00:47:20.748 align:middle line:84%
+So fermion-- external legs,
+exactly the same as before.
+
+00:47:20.748 --> 00:47:21.290 align:middle line:90%
+AUDIENCE: OK.
+
+00:47:21.290 --> 00:47:21.915 align:middle line:90%
+HONG LIU: Yeah.
+
+00:47:21.915 --> 00:47:23.090 align:middle line:90%
+And yeah.
+
+00:47:23.090 --> 00:47:25.950 align:middle line:84%
+So we only need to introduce
+new rules for photons.
+
+00:47:25.950 --> 00:47:29.600 align:middle line:90%
+
+
+00:47:29.600 --> 00:47:30.230 align:middle line:90%
+Yes?
+
+00:47:30.230 --> 00:47:33.320 align:middle line:84%
+AUDIENCE: Still follow the same
+rules for starting from one--
+
+00:47:33.320 --> 00:47:34.460 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:47:34.460 --> 00:47:36.050 align:middle line:90%
+That rule is exactly the same.
+
+00:47:36.050 --> 00:47:37.280 align:middle line:84%
+AUDIENCE: If you got a
+[INAUDIBLE] interaction,
+
+00:47:37.280 --> 00:47:38.450 align:middle line:90%
+[INAUDIBLE] in the right order?
+
+00:47:38.450 --> 00:47:39.020 align:middle line:90%
+HONG LIU: That's right.
+
+00:47:39.020 --> 00:47:39.500 align:middle line:90%
+That's right.
+
+00:47:39.500 --> 00:47:40.000 align:middle line:90%
+Yeah.
+
+00:47:40.000 --> 00:47:41.880 align:middle line:84%
+And now, you have
+to just be careful.
+
+00:47:41.880 --> 00:47:45.440 align:middle line:84%
+Some of the vertices are
+now including matrices.
+
+00:47:45.440 --> 00:47:47.205 align:middle line:90%
+Yeah.
+
+00:47:47.205 --> 00:47:47.705 align:middle line:90%
+Yes?
+
+00:47:47.705 --> 00:47:49.588 align:middle line:84%
+AUDIENCE: Doesn't
+photon polarization
+
+00:47:49.588 --> 00:47:51.912 align:middle line:84%
+have to transverse
+the momentum--
+
+00:47:51.912 --> 00:47:52.495 align:middle line:90%
+HONG LIU: Hmm?
+
+00:47:52.495 --> 00:47:53.953 align:middle line:84%
+AUDIENCE: Isn't
+photon polarization
+
+00:47:53.953 --> 00:47:55.575 align:middle line:90%
+have to transverse the momentum?
+
+00:47:55.575 --> 00:47:56.700 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:47:56.700 --> 00:47:57.090 align:middle line:90%
+They do.
+
+00:47:57.090 --> 00:47:57.590 align:middle line:90%
+Yeah, yeah.
+
+00:47:57.590 --> 00:47:59.010 align:middle line:90%
+For the physical photon, yeah.
+
+00:47:59.010 --> 00:48:03.585 align:middle line:84%
+Yeah, but for the physical
+photon, indeed, yeah.
+
+00:48:03.585 --> 00:48:06.548 align:middle line:84%
+AUDIENCE: Also,
+why is it complex?
+
+00:48:06.548 --> 00:48:07.090 align:middle line:90%
+HONG LIU: Oh.
+
+00:48:07.090 --> 00:48:08.960 align:middle line:90%
+You can choose it to be complex.
+
+00:48:08.960 --> 00:48:10.130 align:middle line:90%
+Yeah.
+
+00:48:10.130 --> 00:48:14.440 align:middle line:84%
+For example, if you
+choose a spherically--
+
+00:48:14.440 --> 00:48:17.050 align:middle line:84%
+polarization, then
+it's a complex vector.
+
+00:48:17.050 --> 00:48:18.310 align:middle line:90%
+Yeah.
+
+00:48:18.310 --> 00:48:20.620 align:middle line:84%
+For the one we wrote
+down, it's real.
+
+00:48:20.620 --> 00:48:22.360 align:middle line:84%
+But then this
+complex is the same.
+
+00:48:22.360 --> 00:48:23.140 align:middle line:90%
+Yeah.
+
+00:48:23.140 --> 00:48:23.800 align:middle line:90%
+Yes?
+
+00:48:23.800 --> 00:48:25.300 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+this, but when
+
+00:48:25.300 --> 00:48:28.030 align:middle line:84%
+you have an internal
+photon like in a diagram,
+
+00:48:28.030 --> 00:48:32.877 align:middle line:84%
+do you sum over all four
+polarizations or just two?
+
+00:48:32.877 --> 00:48:34.460 align:middle line:84%
+HONG LIU: Internal
+photon-- you always
+
+00:48:34.460 --> 00:48:38.440 align:middle line:90%
+just use the photon propagator.
+
+00:48:38.440 --> 00:48:41.570 align:middle line:84%
+And the photon propagator
+will include everything.
+
+00:48:41.570 --> 00:48:42.297 align:middle line:90%
+Yeah.
+
+00:48:42.297 --> 00:48:43.130 align:middle line:90%
+AUDIENCE: Thank you.
+
+00:48:43.130 --> 00:48:45.517 align:middle line:90%
+
+
+00:48:45.517 --> 00:48:46.600 align:middle line:90%
+HONG LIU: Other questions?
+
+00:48:46.600 --> 00:48:47.440 align:middle line:90%
+Yes?
+
+00:48:47.440 --> 00:48:50.080 align:middle line:84%
+AUDIENCE: For external
+vertices having matrices-- now,
+
+00:48:50.080 --> 00:48:52.570 align:middle line:84%
+that's just a byproduct of the
+number of degrees of freedom
+
+00:48:52.570 --> 00:48:54.290 align:middle line:90%
+you have per particle?
+
+00:48:54.290 --> 00:48:55.070 align:middle line:90%
+HONG LIU: Yeah.
+
+00:48:55.070 --> 00:48:56.400 align:middle line:90%
+Yeah.
+
+00:48:56.400 --> 00:48:57.515 align:middle line:90%
+You mean the gamma mu?
+
+00:48:57.515 --> 00:48:58.140 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:48:58.140 --> 00:48:58.765 align:middle line:90%
+HONG LIU: Yeah.
+
+00:48:58.765 --> 00:49:02.610 align:middle line:84%
+It's just because of
+spinor nature, right?
+
+00:49:02.610 --> 00:49:03.940 align:middle line:90%
+OK, good.
+
+00:49:03.940 --> 00:49:08.100 align:middle line:84%
+So this vertex-- so A mu
+J mu gave you this vertex,
+
+00:49:08.100 --> 00:49:10.620 align:middle line:90%
+but we also have this vertex.
+
+00:49:10.620 --> 00:49:13.590 align:middle line:90%
+And this vertex is easy.
+
+00:49:13.590 --> 00:49:20.920 align:middle line:84%
+We essentially just have
+two fermions or two scalars,
+
+00:49:20.920 --> 00:49:26.590 align:middle line:84%
+but this one with
+two photons, OK?
+
+00:49:26.590 --> 00:49:28.190 align:middle line:90%
+With two photons.
+
+00:49:28.190 --> 00:49:33.640 align:middle line:84%
+And so these have A
+mu A mu contracted.
+
+00:49:33.640 --> 00:49:38.500 align:middle line:84%
+So if we write mu
+here and nu here,
+
+00:49:38.500 --> 00:49:47.610 align:middle line:84%
+then we will have minus
+ie squared eta mu nu, OK?
+
+00:49:47.610 --> 00:49:53.670 align:middle line:90%
+
+
+00:49:53.670 --> 00:49:54.170 align:middle line:90%
+OK.
+
+00:49:54.170 --> 00:49:55.790 align:middle line:90%
+Minus ie squared.
+
+00:49:55.790 --> 00:49:56.720 align:middle line:90%
+OK?
+
+00:49:56.720 --> 00:49:59.160 align:middle line:84%
+So minus i for the
+same reason, and the e
+
+00:49:59.160 --> 00:50:00.540 align:middle line:90%
+squared for the same reason.
+
+00:50:00.540 --> 00:50:05.880 align:middle line:84%
+And this A mu contracted, so
+you have eta mu nu there, OK?
+
+00:50:05.880 --> 00:50:06.380 align:middle line:90%
+Good?
+
+00:50:06.380 --> 00:50:10.700 align:middle line:90%
+
+
+00:50:10.700 --> 00:50:17.640 align:middle line:84%
+And depending on
+what is V here, phi
+
+00:50:17.640 --> 00:50:20.300 align:middle line:84%
+may have some
+additional interaction.
+
+00:50:20.300 --> 00:50:22.890 align:middle line:90%
+But suppose V is given by phi 4.
+
+00:50:22.890 --> 00:50:23.390 align:middle line:90%
+OK?
+
+00:50:23.390 --> 00:50:33.040 align:middle line:84%
+Suppose V, say, is equal to
+lambda 4 and phi phi star
+
+00:50:33.040 --> 00:50:35.770 align:middle line:90%
+squared, OK?
+
+00:50:35.770 --> 00:50:44.630 align:middle line:84%
+And then you will also have
+interactions like these--
+
+00:50:44.630 --> 00:50:47.030 align:middle line:90%
+four scalar interactions.
+
+00:50:47.030 --> 00:50:50.760 align:middle line:90%
+
+
+00:50:50.760 --> 00:50:51.420 align:middle line:90%
+OK.
+
+00:50:51.420 --> 00:50:53.172 align:middle line:90%
+Yeah.
+
+00:50:53.172 --> 00:50:54.630 align:middle line:84%
+You have two come
+in, two come out.
+
+00:50:54.630 --> 00:50:55.130 align:middle line:90%
+OK?
+
+00:50:55.130 --> 00:50:58.050 align:middle line:90%
+
+
+00:50:58.050 --> 00:51:03.190 align:middle line:84%
+And this would be just
+minus i lambda, OK?
+
+00:51:03.190 --> 00:51:03.880 align:middle line:90%
+Yes?
+
+00:51:03.880 --> 00:51:06.520 align:middle line:84%
+AUDIENCE: Could you clarify--
+the vertex with two scalars
+
+00:51:06.520 --> 00:51:08.592 align:middle line:90%
+and one photon comes from?
+
+00:51:08.592 --> 00:51:09.175 align:middle line:90%
+HONG LIU: Hmm?
+
+00:51:09.175 --> 00:51:11.330 align:middle line:84%
+AUDIENCE: Can you
+explain where the V
+
+00:51:11.330 --> 00:51:13.270 align:middle line:90%
+is a vertex with two scalars?
+
+00:51:13.270 --> 00:51:14.260 align:middle line:90%
+HONG LIU: Oh, right.
+
+00:51:14.260 --> 00:51:14.760 align:middle line:90%
+Right.
+
+00:51:14.760 --> 00:51:17.865 align:middle line:90%
+It comes from this term.
+
+00:51:17.865 --> 00:51:20.620 align:middle line:90%
+It comes from this term.
+
+00:51:20.620 --> 00:51:27.160 align:middle line:84%
+So this is A mu times J.
+And the J has two phis here.
+
+00:51:27.160 --> 00:51:28.078 align:middle line:90%
+AUDIENCE: Oh.
+
+00:51:28.078 --> 00:51:29.286 align:middle line:90%
+HONG LIU: Right, right, yeah.
+
+00:51:29.286 --> 00:51:35.240 align:middle line:90%
+
+
+00:51:35.240 --> 00:51:36.200 align:middle line:90%
+Other questions?
+
+00:51:36.200 --> 00:51:39.640 align:middle line:90%
+
+
+00:51:39.640 --> 00:51:40.480 align:middle line:90%
+Yes?
+
+00:51:40.480 --> 00:51:42.730 align:middle line:84%
+AUDIENCE: Would it be possible
+just to hypothetically,
+
+00:51:42.730 --> 00:51:45.070 align:middle line:84%
+if I wanted to, give
+the photon mass?
+
+00:51:45.070 --> 00:51:47.000 align:middle line:84%
+I'd just add a mass
+term to the Lagrangian?
+
+00:51:47.000 --> 00:51:48.205 align:middle line:90%
+HONG LIU: Yeah, yeah.
+
+00:51:48.205 --> 00:51:50.540 align:middle line:90%
+
+
+00:51:50.540 --> 00:51:51.040 align:middle line:90%
+OK.
+
+00:51:51.040 --> 00:51:52.760 align:middle line:90%
+What's the question?
+
+00:51:52.760 --> 00:51:53.260 align:middle line:90%
+[LAUGHTER]
+
+00:51:53.260 --> 00:51:54.130 align:middle line:90%
+AUDIENCE: I'm sorry.
+
+00:51:54.130 --> 00:51:56.620 align:middle line:84%
+Is it possible to
+add a mass term
+
+00:51:56.620 --> 00:51:58.420 align:middle line:84%
+for the photon in
+the Lagrangian?
+
+00:51:58.420 --> 00:51:59.992 align:middle line:90%
+HONG LIU: No, you cannot.
+
+00:51:59.992 --> 00:52:01.825 align:middle line:84%
+No because that violates
+the gauge symmetry.
+
+00:52:01.825 --> 00:52:02.170 align:middle line:90%
+AUDIENCE: OK.
+
+00:52:02.170 --> 00:52:02.810 align:middle line:90%
+HONG LIU: Yeah.
+
+00:52:02.810 --> 00:52:03.310 align:middle line:90%
+Yeah.
+
+00:52:03.310 --> 00:52:07.970 align:middle line:84%
+So the gauge symmetry is what
+ensures the photon is massless.
+
+00:52:07.970 --> 00:52:11.110 align:middle line:84%
+Yeah, so that's why
+this is something
+
+00:52:11.110 --> 00:52:12.250 align:middle line:90%
+we don't want to break.
+
+00:52:12.250 --> 00:52:14.400 align:middle line:90%
+Yeah.
+
+00:52:14.400 --> 00:52:15.533 align:middle line:90%
+Other questions?
+
+00:52:15.533 --> 00:52:16.200 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:52:16.200 --> 00:52:17.492 align:middle line:90%
+This might be a silly question.
+
+00:52:17.492 --> 00:52:22.140 align:middle line:84%
+But if you have the scalar
+QED and then the fermion QED,
+
+00:52:22.140 --> 00:52:22.925 align:middle line:90%
+can you add them?
+
+00:52:22.925 --> 00:52:23.550 align:middle line:90%
+HONG LIU: Yeah.
+
+00:52:23.550 --> 00:52:24.280 align:middle line:90%
+You can add them.
+
+00:52:24.280 --> 00:52:27.370 align:middle line:84%
+AUDIENCE: So then it's the
+one theory and [INAUDIBLE]??
+
+00:52:27.370 --> 00:52:28.110 align:middle line:90%
+It's combined?
+
+00:52:28.110 --> 00:52:28.360 align:middle line:90%
+HONG LIU: Yeah.
+
+00:52:28.360 --> 00:52:29.010 align:middle line:90%
+Yeah, yeah.
+
+00:52:29.010 --> 00:52:33.400 align:middle line:84%
+You can combine them just
+like you have a theory--
+
+00:52:33.400 --> 00:52:35.800 align:middle line:84%
+the electromagnetic
+field coupled both to
+
+00:52:35.800 --> 00:52:38.850 align:middle line:84%
+charged scalar and
+the charged fermions.
+
+00:52:38.850 --> 00:52:41.000 align:middle line:84%
+Yeah, you can
+certainly combine them.
+
+00:52:41.000 --> 00:52:41.500 align:middle line:90%
+Yeah.
+
+00:52:41.500 --> 00:52:45.815 align:middle line:84%
+The reason I'm separating
+them is just for convenience.
+
+00:52:45.815 --> 00:52:47.440 align:middle line:84%
+AUDIENCE: So can we
+have an interaction
+
+00:52:47.440 --> 00:52:50.750 align:middle line:84%
+term directly between the
+fermion term and the scalar
+
+00:52:50.750 --> 00:52:51.250 align:middle line:90%
+term?
+
+00:52:51.250 --> 00:52:52.042 align:middle line:90%
+HONG LIU: Oh, yeah.
+
+00:52:52.042 --> 00:52:53.770 align:middle line:90%
+You can add whatever.
+
+00:52:53.770 --> 00:52:57.910 align:middle line:84%
+You only have to make sure
+things are gauge invariant.
+
+00:52:57.910 --> 00:53:00.820 align:middle line:84%
+And you can add arbitrary
+interactions you want.
+
+00:53:00.820 --> 00:53:02.410 align:middle line:84%
+Just, you have to
+make sure they're
+
+00:53:02.410 --> 00:53:05.680 align:middle line:84%
+invariant under those
+gauge transformations.
+
+00:53:05.680 --> 00:53:07.140 align:middle line:84%
+AUDIENCE: So on
+the other question,
+
+00:53:07.140 --> 00:53:14.520 align:middle line:84%
+can we make another theory
+that has U1 gauge theory,
+
+00:53:14.520 --> 00:53:20.240 align:middle line:90%
+but with massive particles?
+
+00:53:20.240 --> 00:53:21.650 align:middle line:84%
+HONG LIU: With
+massive particles?
+
+00:53:21.650 --> 00:53:22.550 align:middle line:90%
+Massive photons?
+
+00:53:22.550 --> 00:53:24.230 align:middle line:90%
+AUDIENCE: With the photons.
+
+00:53:24.230 --> 00:53:28.080 align:middle line:84%
+We have something
+that is massive
+
+00:53:28.080 --> 00:53:32.550 align:middle line:90%
+and coupled to the [INAUDIBLE].
+
+00:53:32.550 --> 00:53:33.330 align:middle line:90%
+Can we do that?
+
+00:53:33.330 --> 00:53:33.630 align:middle line:90%
+HONG LIU: No.
+
+00:53:33.630 --> 00:53:34.110 align:middle line:90%
+No.
+
+00:53:34.110 --> 00:53:34.610 align:middle line:90%
+No.
+
+00:53:34.610 --> 00:53:39.450 align:middle line:84%
+You're asking whether the
+massive photon coupled
+
+00:53:39.450 --> 00:53:42.060 align:middle line:90%
+to fermionic field exists?
+
+00:53:42.060 --> 00:53:43.050 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:53:43.050 --> 00:53:43.890 align:middle line:90%
+HONG LIU: OK.
+
+00:53:43.890 --> 00:53:44.490 align:middle line:90%
+Yeah.
+
+00:53:44.490 --> 00:53:51.610 align:middle line:84%
+So this question can be
+answered in several--
+
+00:53:51.610 --> 00:53:55.070 align:middle line:84%
+so if you just directly
+add a mass term--
+
+00:53:55.070 --> 00:53:59.110 align:middle line:84%
+so let's add a mass
+term for the photon.
+
+00:53:59.110 --> 00:54:01.840 align:middle line:90%
+
+
+00:54:01.840 --> 00:54:02.890 align:middle line:90%
+OK?
+
+00:54:02.890 --> 00:54:06.220 align:middle line:90%
+So you can immediately check.
+
+00:54:06.220 --> 00:54:07.910 align:middle line:90%
+This is not gauge invariant.
+
+00:54:07.910 --> 00:54:10.900 align:middle line:84%
+So that's the reason we didn't
+add such a term to the Maxwell
+
+00:54:10.900 --> 00:54:13.900 align:middle line:84%
+theory because in the Maxwell
+theory, if you add this term,
+
+00:54:13.900 --> 00:54:15.760 align:middle line:84%
+it will violate
+the gauge symmetry.
+
+00:54:15.760 --> 00:54:17.120 align:middle line:90%
+The same reason here.
+
+00:54:17.120 --> 00:54:20.620 align:middle line:84%
+So you cannot add
+such a term, OK?
+
+00:54:20.620 --> 00:54:23.710 align:middle line:90%
+So you cannot add such a term.
+
+00:54:23.710 --> 00:54:26.170 align:middle line:90%
+So this is ruled out, OK?
+
+00:54:26.170 --> 00:54:29.070 align:middle line:90%
+You cannot add this.
+
+00:54:29.070 --> 00:54:32.580 align:middle line:84%
+But now, you say is
+it possible somehow,
+
+00:54:32.580 --> 00:54:38.080 align:middle line:84%
+through some other way, that the
+photon actually gains mass, OK?
+
+00:54:38.080 --> 00:54:40.450 align:middle line:90%
+That's possible.
+
+00:54:40.450 --> 00:54:41.920 align:middle line:84%
+That's called the
+Higgs mechanism.
+
+00:54:41.920 --> 00:54:44.680 align:middle line:84%
+That's how Higgs
+got a Nobel Prize.
+
+00:54:44.680 --> 00:54:47.510 align:middle line:90%
+And that comes from this term.
+
+00:54:47.510 --> 00:54:51.930 align:middle line:84%
+So now, you imagine
+somehow, this phi now
+
+00:54:51.930 --> 00:54:54.680 align:middle line:90%
+has a vacuum expectation value.
+
+00:54:54.680 --> 00:54:58.260 align:middle line:84%
+And now, phi has
+a constant part.
+
+00:54:58.260 --> 00:55:02.970 align:middle line:84%
+If phi has a constant path,
+then this becomes a mass term
+
+00:55:02.970 --> 00:55:04.320 align:middle line:90%
+for the photon, OK?
+
+00:55:04.320 --> 00:55:06.688 align:middle line:84%
+And then the photon
+becomes massive.
+
+00:55:06.688 --> 00:55:08.230 align:middle line:84%
+And actually, that's
+precisely what's
+
+00:55:08.230 --> 00:55:10.810 align:middle line:84%
+happening inside
+the superconductor.
+
+00:55:10.810 --> 00:55:14.760 align:middle line:84%
+So in every superconductor,
+something like this happens.
+
+00:55:14.760 --> 00:55:15.330 align:middle line:90%
+OK?
+
+00:55:15.330 --> 00:55:21.060 align:middle line:84%
+And the photon inside the
+superconductor is massive, OK?
+
+00:55:21.060 --> 00:55:27.190 align:middle line:84%
+That's what responsible for this
+London effect, Meisner effect,
+
+00:55:27.190 --> 00:55:28.680 align:middle line:90%
+et cetera, OK?
+
+00:55:28.680 --> 00:55:31.440 align:middle line:84%
+And in the
+superconductor, that's
+
+00:55:31.440 --> 00:55:35.190 align:middle line:90%
+understood by Phillip Anderson.
+
+00:55:35.190 --> 00:55:40.020 align:middle line:84%
+He was a little bit
+unhappy because he
+
+00:55:40.020 --> 00:55:43.860 align:middle line:84%
+thought he should have
+claimed for the Higgs effect
+
+00:55:43.860 --> 00:55:45.900 align:middle line:84%
+because he understood
+it earlier.
+
+00:55:45.900 --> 00:55:47.280 align:middle line:90%
+And yeah.
+
+00:55:47.280 --> 00:55:50.040 align:middle line:84%
+But he did understand
+the mechanism earlier.
+
+00:55:50.040 --> 00:55:50.940 align:middle line:90%
+Yeah, yeah.
+
+00:55:50.940 --> 00:55:53.340 align:middle line:84%
+But Higgs got the
+Nobel Prize because he
+
+00:55:53.340 --> 00:55:54.990 align:middle line:90%
+predicted the particle.
+
+00:55:54.990 --> 00:56:00.210 align:middle line:84%
+Anyway, that's a long story
+I'm not going to go into.
+
+00:56:00.210 --> 00:56:00.737 align:middle line:90%
+Yeah.
+
+00:56:00.737 --> 00:56:02.070 align:middle line:90%
+AUDIENCE: Just a quick question.
+
+00:56:02.070 --> 00:56:05.910 align:middle line:84%
+For the photon propagator,
+do we give the same factor?
+
+00:56:05.910 --> 00:56:08.430 align:middle line:84%
+Because I don't think we
+said in the previous lecture
+
+00:56:08.430 --> 00:56:13.433 align:middle line:84%
+that we give the same factor
+as for the scalar field.
+
+00:56:13.433 --> 00:56:14.100 align:middle line:90%
+HONG LIU: Sorry.
+
+00:56:14.100 --> 00:56:14.580 align:middle line:90%
+Say it again.
+
+00:56:14.580 --> 00:56:15.990 align:middle line:84%
+AUDIENCE: For
+photon propagator--
+
+00:56:15.990 --> 00:56:16.615 align:middle line:90%
+HONG LIU: Yeah.
+
+00:56:16.615 --> 00:56:18.480 align:middle line:84%
+AUDIENCE: --which
+factor do we give?
+
+00:56:18.480 --> 00:56:19.500 align:middle line:90%
+HONG LIU: Which factor?
+
+00:56:19.500 --> 00:56:21.660 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:56:21.660 --> 00:56:23.400 align:middle line:90%
+HONG LIU: You mean--
+
+00:56:23.400 --> 00:56:24.935 align:middle line:84%
+we just use the
+photon propagator.
+
+00:56:24.935 --> 00:56:25.560 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:56:25.560 --> 00:56:28.422 align:middle line:84%
+Because I don't think we
+did it in this lecture.
+
+00:56:28.422 --> 00:56:29.130 align:middle line:90%
+HONG LIU: We did.
+
+00:56:29.130 --> 00:56:29.630 align:middle line:90%
+Yeah.
+
+00:56:29.630 --> 00:56:31.020 align:middle line:84%
+Yeah, at the end
+of last lecture.
+
+00:56:31.020 --> 00:56:32.353 align:middle line:90%
+Yeah, let me just write it down.
+
+00:56:32.353 --> 00:56:42.090 align:middle line:84%
+So the photon propagator
+depends on this parameter xi.
+
+00:56:42.090 --> 00:56:46.470 align:middle line:84%
+For xi equal to 1, the
+photon propagator--
+
+00:56:46.470 --> 00:56:48.630 align:middle line:90%
+if I call it D mu nu, yeah.
+
+00:56:48.630 --> 00:56:50.760 align:middle line:84%
+Anyway, let me
+just write it down.
+
+00:56:50.760 --> 00:56:54.015 align:middle line:84%
+For xi equal to 1, this
+is just given by eta mu nu
+
+00:56:54.015 --> 00:56:56.530 align:middle line:90%
+k squared minus i epsilon.
+
+00:56:56.530 --> 00:56:59.310 align:middle line:90%
+So this is for xi equal to 1.
+
+00:56:59.310 --> 00:57:02.760 align:middle line:84%
+So for xi not equal
+to 1, so yeah.
+
+00:57:02.760 --> 00:57:04.800 align:middle line:90%
+So this is for xi equal to 1.
+
+00:57:04.800 --> 00:57:06.390 align:middle line:84%
+For xi not equal
+to 1, then there
+
+00:57:06.390 --> 00:57:09.530 align:middle line:90%
+are some additional terms.
+
+00:57:09.530 --> 00:57:10.190 align:middle line:90%
+Yes?
+
+00:57:10.190 --> 00:57:12.398 align:middle line:84%
+AUDIENCE: I might be leaving
+the scope of this class,
+
+00:57:12.398 --> 00:57:14.905 align:middle line:84%
+but the weak force has a
+carrier that has mass, right?
+
+00:57:14.905 --> 00:57:15.530 align:middle line:90%
+HONG LIU: Yeah.
+
+00:57:15.530 --> 00:57:17.030 align:middle line:84%
+AUDIENCE: And it's
+called a fermion.
+
+00:57:17.030 --> 00:57:17.710 align:middle line:90%
+HONG LIU: Right.
+
+00:57:17.710 --> 00:57:19.885 align:middle line:84%
+AUDIENCE: So that is
+possible to construct.
+
+00:57:19.885 --> 00:57:21.010 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:57:21.010 --> 00:57:21.510 align:middle line:90%
+Yeah.
+
+00:57:21.510 --> 00:57:24.450 align:middle line:84%
+Again, this mechanism
+is what's responsible
+
+00:57:24.450 --> 00:57:26.903 align:middle line:84%
+for the weak interaction
+in short ranged.
+
+00:57:26.903 --> 00:57:27.570 align:middle line:90%
+AUDIENCE: I see.
+
+00:57:27.570 --> 00:57:27.990 align:middle line:90%
+Oh.
+
+00:57:27.990 --> 00:57:29.365 align:middle line:84%
+HONG LIU: So the
+weak interaction
+
+00:57:29.365 --> 00:57:31.212 align:middle line:90%
+started as massless particle--
+
+00:57:31.212 --> 00:57:31.920 align:middle line:90%
+AUDIENCE: Got it.
+
+00:57:31.920 --> 00:57:34.320 align:middle line:84%
+HONG LIU: --but then
+through the Higgs mechanism
+
+00:57:34.320 --> 00:57:38.850 align:middle line:84%
+and then the analog of A mu
+for the weak interaction,
+
+00:57:38.850 --> 00:57:40.950 align:middle line:84%
+becomes massive, and then
+becomes short ranged.
+
+00:57:40.950 --> 00:57:41.410 align:middle line:90%
+AUDIENCE: Got it.
+
+00:57:41.410 --> 00:57:41.630 align:middle line:90%
+That makes sense.
+
+00:57:41.630 --> 00:57:42.780 align:middle line:90%
+HONG LIU: Yeah, yeah, yeah.
+
+00:57:42.780 --> 00:57:43.890 align:middle line:90%
+And yeah, yeah.
+
+00:57:43.890 --> 00:57:45.190 align:middle line:90%
+And yeah.
+
+00:57:45.190 --> 00:57:45.690 align:middle line:90%
+Good.
+
+00:57:45.690 --> 00:57:46.860 align:middle line:90%
+Other questions?
+
+00:57:46.860 --> 00:57:47.580 align:middle line:90%
+Yes?
+
+00:57:47.580 --> 00:57:50.580 align:middle line:84%
+AUDIENCE: In the standard model
+is the Higgs the only scalar
+
+00:57:50.580 --> 00:57:54.080 align:middle line:84%
+that couples to the
+photon [INAUDIBLE]??
+
+00:57:54.080 --> 00:57:58.430 align:middle line:84%
+HONG LIU: So in
+the standard model,
+
+00:57:58.430 --> 00:58:00.864 align:middle line:90%
+Higgs is the only scalar field.
+
+00:58:00.864 --> 00:58:01.364 align:middle line:90%
+Yeah.
+
+00:58:01.364 --> 00:58:06.780 align:middle line:90%
+
+
+00:58:06.780 --> 00:58:10.410 align:middle line:84%
+But you can have some other
+composite scalars, like pions.
+
+00:58:10.410 --> 00:58:15.030 align:middle line:84%
+Fundamental scalars--
+it's just the Higgs field.
+
+00:58:15.030 --> 00:58:16.450 align:middle line:90%
+Good.
+
+00:58:16.450 --> 00:58:17.550 align:middle line:90%
+OK, good.
+
+00:58:17.550 --> 00:58:22.380 align:middle line:84%
+So this concludes the
+discussion of the QED.
+
+00:58:22.380 --> 00:58:28.380 align:middle line:84%
+And now, ready just to study the
+physical processes in QED, OK?
+
+00:58:28.380 --> 00:58:31.170 align:middle line:84%
+And before doing that,
+we need to develop
+
+00:58:31.170 --> 00:58:35.340 align:middle line:84%
+a little bit of
+formalism because when
+
+00:58:35.340 --> 00:58:36.870 align:middle line:84%
+we talk about
+physical process, then
+
+00:58:36.870 --> 00:58:38.910 align:middle line:90%
+we need to make connection.
+
+00:58:38.910 --> 00:58:39.540 align:middle line:90%
+Yeah.
+
+00:58:39.540 --> 00:58:41.430 align:middle line:90%
+QED is real life, OK?
+
+00:58:41.430 --> 00:58:46.180 align:middle line:84%
+And then we can make connection
+with the real experiments.
+
+00:58:46.180 --> 00:58:46.887 align:middle line:90%
+OK?
+
+00:58:46.887 --> 00:58:48.720 align:middle line:84%
+To make connection with
+the real experiment,
+
+00:58:48.720 --> 00:58:51.930 align:middle line:84%
+we need to develop
+one more thing.
+
+00:58:51.930 --> 00:58:55.240 align:middle line:84%
+We need to develop
+one more thing.
+
+00:58:55.240 --> 00:59:01.080 align:middle line:84%
+So we need to learn
+how to calculate
+
+00:59:01.080 --> 00:59:03.130 align:middle line:90%
+the cross-section, OK?
+
+00:59:03.130 --> 00:59:23.250 align:middle line:90%
+
+
+00:59:23.250 --> 00:59:26.410 align:middle line:84%
+So let's talk about how to
+calculate the cross-section.
+
+00:59:26.410 --> 00:59:33.030 align:middle line:90%
+So this is a digression, OK?
+
+00:59:33.030 --> 00:59:37.860 align:middle line:84%
+So first, let's
+remind you how we
+
+00:59:37.860 --> 00:59:41.820 align:middle line:84%
+define a cross-section in
+nonrelativistic quantum
+
+00:59:41.820 --> 00:59:42.630 align:middle line:90%
+mechanics, OK?
+
+00:59:42.630 --> 00:59:45.180 align:middle line:84%
+In the scattering theory
+of nonrelativistic quantum
+
+00:59:45.180 --> 00:59:46.020 align:middle line:90%
+mechanics.
+
+00:59:46.020 --> 00:59:53.740 align:middle line:84%
+So in nonrelativistic
+quantum mechanics,
+
+00:59:53.740 --> 00:59:57.220 align:middle line:90%
+you consider there is a target.
+
+00:59:57.220 --> 00:59:59.860 align:middle line:84%
+The target is normally
+considered to be a point, OK?
+
+00:59:59.860 --> 01:00:04.070 align:middle line:84%
+Here I just make it big
+so that we can see it.
+
+01:00:04.070 --> 01:00:08.210 align:middle line:90%
+So here is the target.
+
+01:00:08.210 --> 01:00:11.170 align:middle line:90%
+And then we define our axis--
+
+01:00:11.170 --> 01:00:14.750 align:middle line:84%
+the scattering axis, which
+the particle come in.
+
+01:00:14.750 --> 01:00:17.425 align:middle line:84%
+So this is some incident
+beam of particle.
+
+01:00:17.425 --> 01:00:24.960 align:middle line:90%
+
+
+01:00:24.960 --> 01:00:26.650 align:middle line:90%
+OK, coming into this direction.
+
+01:00:26.650 --> 01:00:29.940 align:middle line:84%
+So say this is a
+Z-direction, OK?
+
+01:00:29.940 --> 01:00:33.720 align:middle line:84%
+And moving in this
+direction to--
+
+01:00:33.720 --> 01:00:36.990 align:middle line:84%
+and then it will interact
+with this particle.
+
+01:00:36.990 --> 01:00:39.690 align:middle line:90%
+And then it will scatter, OK?
+
+01:00:39.690 --> 01:00:41.250 align:middle line:90%
+So the particle will scatter.
+
+01:00:41.250 --> 01:00:48.300 align:middle line:84%
+And then we put the detector
+around this target particle
+
+01:00:48.300 --> 01:00:51.190 align:middle line:84%
+to detect the
+scattered particle.
+
+01:00:51.190 --> 01:00:51.690 align:middle line:90%
+OK?
+
+01:00:51.690 --> 01:00:53.520 align:middle line:90%
+So for example, yeah.
+
+01:00:53.520 --> 01:00:59.440 align:middle line:84%
+So you should view
+this solid angle here.
+
+01:00:59.440 --> 01:00:59.940 align:middle line:90%
+OK?
+
+01:00:59.940 --> 01:01:03.290 align:middle line:84%
+And so this is
+the phi direction.
+
+01:01:03.290 --> 01:01:06.850 align:middle line:84%
+And so this is the
+theta direction, OK?
+
+01:01:06.850 --> 01:01:13.410 align:middle line:90%
+So here is the theta direction.
+
+01:01:13.410 --> 01:01:20.780 align:middle line:84%
+And this is some small solid
+angle, which the detector--
+
+01:01:20.780 --> 01:01:22.850 align:middle line:84%
+suppose there's a
+detector here, OK?
+
+01:01:22.850 --> 01:01:25.800 align:middle line:90%
+
+
+01:01:25.800 --> 01:01:27.570 align:middle line:90%
+Suppose there's a detector here.
+
+01:01:27.570 --> 01:01:32.970 align:middle line:84%
+And then this detector spread
+the solid angle, D omega,
+
+01:01:32.970 --> 01:01:35.910 align:middle line:90%
+with respect to the target, OK?
+
+01:01:35.910 --> 01:01:41.490 align:middle line:84%
+So this is the standard
+setup for nonrelativistic--
+
+01:01:41.490 --> 01:01:45.540 align:middle line:84%
+scattering process in the
+nonrelativistic quantum
+
+01:01:45.540 --> 01:01:47.940 align:middle line:90%
+mechanics.
+
+01:01:47.940 --> 01:02:04.630 align:middle line:84%
+So what we measure is dN
+dt outgoing particle, OK?
+
+01:02:04.630 --> 01:02:08.920 align:middle line:84%
+Scattered particle in the
+theta and phi direction, OK?
+
+01:02:08.920 --> 01:02:11.750 align:middle line:90%
+So this is theta and phi.
+
+01:02:11.750 --> 01:02:14.770 align:middle line:84%
+This is where the detector
+locates in the theta phi
+
+01:02:14.770 --> 01:02:16.210 align:middle line:90%
+direction.
+
+01:02:16.210 --> 01:02:19.620 align:middle line:90%
+So this is the number.
+
+01:02:19.620 --> 01:02:24.740 align:middle line:84%
+So this dN dt is the
+number of particles--
+
+01:02:24.740 --> 01:02:36.850 align:middle line:84%
+number of scattered particles,
+number of scattered particles
+
+01:02:36.850 --> 01:02:37.510 align:middle line:90%
+in --
+
+01:02:37.510 --> 01:02:45.945 align:middle line:90%
+per unit time in the detector.
+
+01:02:45.945 --> 01:02:49.430 align:middle line:90%
+
+
+01:02:49.430 --> 01:02:52.880 align:middle line:84%
+It means registered by
+the detector, detected
+
+01:02:52.880 --> 01:02:58.910 align:middle line:84%
+by the detector at the
+location theta phi, OK?
+
+01:02:58.910 --> 01:03:02.585 align:middle line:90%
+
+
+01:03:02.585 --> 01:03:03.085 align:middle line:90%
+OK?
+
+01:03:03.085 --> 01:03:06.650 align:middle line:90%
+
+
+01:03:06.650 --> 01:03:12.618 align:middle line:84%
+So the quantity we
+measure is this quantity.
+
+01:03:12.618 --> 01:03:13.910 align:middle line:90%
+We just put the detector there.
+
+01:03:13.910 --> 01:03:17.270 align:middle line:90%
+We just measure particles, OK?
+
+01:03:17.270 --> 01:03:22.810 align:middle line:84%
+And clearly, so this scene
+depends on many things, OK?
+
+01:03:22.810 --> 01:03:24.400 align:middle line:84%
+This quantity depends
+on many things,
+
+01:03:24.400 --> 01:03:30.980 align:middle line:84%
+depends on the interaction
+between the incident particle
+
+01:03:30.980 --> 01:03:32.900 align:middle line:90%
+and the target, et cetera.
+
+01:03:32.900 --> 01:03:36.710 align:middle line:84%
+But they also depend on many
+other kinematic factors, OK?
+
+01:03:36.710 --> 01:03:43.630 align:middle line:84%
+So for example, it will
+depend on -- this out--
+
+01:03:43.630 --> 01:03:48.940 align:middle line:84%
+clearly, it will depend on the
+number of incident particles.
+
+01:03:48.940 --> 01:03:53.480 align:middle line:90%
+
+
+01:03:53.480 --> 01:03:53.980 align:middle line:90%
+OK?
+
+01:03:53.980 --> 01:03:55.810 align:middle line:84%
+So this is the number
+of incident particles
+
+01:03:55.810 --> 01:03:56.605 align:middle line:90%
+per unit time.
+
+01:03:56.605 --> 01:04:08.820 align:middle line:90%
+
+
+01:04:08.820 --> 01:04:11.020 align:middle line:84%
+If you have more incident
+particles, of course,
+
+01:04:11.020 --> 01:04:14.850 align:middle line:84%
+you will detect more
+outgoing particles, OK?
+
+01:04:14.850 --> 01:04:17.760 align:middle line:84%
+And of course, this will also
+be proportional to D omega,
+
+01:04:17.760 --> 01:04:23.800 align:middle line:84%
+the solid angle extended
+by the detector.
+
+01:04:23.800 --> 01:04:25.810 align:middle line:84%
+So if you have a larger
+detector, of course,
+
+01:04:25.810 --> 01:04:28.260 align:middle line:84%
+you will detect
+more particles, OK?
+
+01:04:28.260 --> 01:04:34.250 align:middle line:90%
+
+
+01:04:34.250 --> 01:04:41.990 align:middle line:84%
+And then if we divide it by
+those obvious kinematic factors
+
+01:04:41.990 --> 01:04:44.930 align:middle line:84%
+away, then we will
+get something more
+
+01:04:44.930 --> 01:04:48.050 align:middle line:84%
+intrinsic to the
+interactions, OK?
+
+01:04:48.050 --> 01:05:11.450 align:middle line:90%
+So we can consider--
+
+01:05:11.450 --> 01:05:14.170 align:middle line:90%
+
+
+01:05:14.170 --> 01:05:16.404 align:middle line:84%
+we can divide by D omega
+and divide it by this thing.
+
+01:05:16.404 --> 01:05:21.640 align:middle line:90%
+So this object, dN dt.
+
+01:05:21.640 --> 01:05:26.650 align:middle line:84%
+Then we divide it by D
+omega per solid angle out
+
+01:05:26.650 --> 01:05:29.830 align:middle line:84%
+and divide it by
+the incident number
+
+01:05:29.830 --> 01:05:32.750 align:middle line:90%
+of particles per unit time.
+
+01:05:32.750 --> 01:05:44.810 align:middle line:84%
+So this should give
+us the probability
+
+01:05:44.810 --> 01:06:00.860 align:middle line:84%
+of a particle to be scattered
+to theta phi direction, OK?
+
+01:06:00.860 --> 01:06:05.900 align:middle line:84%
+So this is the quantity
+which captures the effect
+
+01:06:05.900 --> 01:06:07.760 align:middle line:90%
+of the interaction, OK?
+
+01:06:07.760 --> 01:06:09.920 align:middle line:84%
+So this is a more
+intrinsic quantity.
+
+01:06:09.920 --> 01:06:14.100 align:middle line:90%
+
+
+01:06:14.100 --> 01:06:16.290 align:middle line:84%
+But experimentally,
+this is actually
+
+01:06:16.290 --> 01:06:21.470 align:middle line:84%
+not the thing we directly
+measure in the experiment
+
+01:06:21.470 --> 01:06:22.940 align:middle line:84%
+because in the
+experiment, it's not
+
+01:06:22.940 --> 01:06:26.240 align:middle line:84%
+easy to count the number of
+the incident particles, OK?
+
+01:06:26.240 --> 01:06:30.600 align:middle line:84%
+We always consider
+a beam of particles.
+
+01:06:30.600 --> 01:06:33.810 align:middle line:84%
+We always consider a
+large number of particles,
+
+01:06:33.810 --> 01:06:36.760 align:middle line:90%
+a beam of particles.
+
+01:06:36.760 --> 01:06:41.460 align:middle line:84%
+So experimentally,
+it's more convenient.
+
+01:06:41.460 --> 01:06:49.400 align:middle line:90%
+
+
+01:06:49.400 --> 01:06:52.150 align:middle line:90%
+We often use the incident flux.
+
+01:06:52.150 --> 01:06:57.580 align:middle line:90%
+
+
+01:06:57.580 --> 01:07:09.740 align:middle line:84%
+It's the number of particles
+per unit time and per unit area,
+
+01:07:09.740 --> 01:07:10.340 align:middle line:90%
+OK?
+
+01:07:10.340 --> 01:07:11.810 align:middle line:90%
+So we just send the beam.
+
+01:07:11.810 --> 01:07:14.300 align:middle line:84%
+And we just need to know
+the density of the beam, OK?
+
+01:07:14.300 --> 01:07:18.980 align:middle line:84%
+So that will give us
+the flux, the number
+
+01:07:18.980 --> 01:07:22.350 align:middle line:84%
+of particles ingoing per
+unit time and per unit area.
+
+01:07:22.350 --> 01:07:28.470 align:middle line:84%
+So A is the cross-section
+of the incident beam, OK?
+
+01:07:28.470 --> 01:07:30.290 align:middle line:90%
+So now, this is the quantity.
+
+01:07:30.290 --> 01:07:32.320 align:middle line:90%
+And now, we have to divide--
+
+01:07:32.320 --> 01:07:35.140 align:middle line:84%
+so instead of dividing by this
+one, we divide by this one.
+
+01:07:35.140 --> 01:07:35.640 align:middle line:90%
+OK?
+
+01:07:35.640 --> 01:07:46.790 align:middle line:84%
+So now, this D sigma D omega,
+which is defined to be dN
+
+01:07:46.790 --> 01:07:51.790 align:middle line:90%
+dt D omega out--
+
+01:07:51.790 --> 01:07:54.940 align:middle line:84%
+and then you divide it
+by incident flux, OK?
+
+01:07:54.940 --> 01:07:58.890 align:middle line:90%
+
+
+01:07:58.890 --> 01:08:02.860 align:middle line:90%
+Incident flux per unit time, OK?
+
+01:08:02.860 --> 01:08:08.310 align:middle line:84%
+So that's the object we
+actually measure, OK?
+
+01:08:08.310 --> 01:08:14.590 align:middle line:90%
+So some comments on this.
+
+01:08:14.590 --> 01:08:18.269 align:middle line:84%
+So the first comment is that
+this has dimension of area.
+
+01:08:18.269 --> 01:08:26.890 align:middle line:90%
+
+
+01:08:26.890 --> 01:08:30.250 align:middle line:84%
+So because this thing
+is dimensionless--
+
+01:08:30.250 --> 01:08:32.800 align:middle line:84%
+this thing is dimensionless
+because T canceled,
+
+01:08:32.800 --> 01:08:35.109 align:middle line:90%
+but now, we have divided by dA.
+
+01:08:35.109 --> 01:08:36.649 align:middle line:90%
+So A is going up.
+
+01:08:36.649 --> 01:08:38.649 align:middle line:84%
+And then this has
+dimension of area.
+
+01:08:38.649 --> 01:08:41.899 align:middle line:90%
+
+
+01:08:41.899 --> 01:08:45.470 align:middle line:84%
+So the physical
+meaning of this, which
+
+01:08:45.470 --> 01:08:50.029 align:middle line:84%
+I'm sure you learned in
+your nonrelativistic quantum
+
+01:08:50.029 --> 01:09:00.250 align:middle line:84%
+mechanics class, is that this
+gives you the physical meaning
+
+01:09:00.250 --> 01:09:02.750 align:middle line:90%
+of this object.
+
+01:09:02.750 --> 01:09:18.279 align:middle line:84%
+So this gives you the effective
+area of interaction, OK?
+
+01:09:18.279 --> 01:09:20.939 align:middle line:90%
+
+
+01:09:20.939 --> 01:09:27.010 align:middle line:84%
+So heuristically, you can
+imagine the following.
+
+01:09:27.010 --> 01:09:30.942 align:middle line:84%
+So if you imagine the
+incident particle,
+
+01:09:30.942 --> 01:09:33.359 align:middle line:84%
+this target particle-- they
+actually have some short range
+
+01:09:33.359 --> 01:09:34.710 align:middle line:90%
+interaction, OK?
+
+01:09:34.710 --> 01:09:38.910 align:middle line:84%
+And then they no
+longer interact, say,
+
+01:09:38.910 --> 01:09:40.770 align:middle line:90%
+outside some distance.
+
+01:09:40.770 --> 01:09:43.800 align:middle line:84%
+And then heuristically,
+then this quantity then
+
+01:09:43.800 --> 01:09:51.810 align:middle line:84%
+can be considered as-- give
+you the area of interaction
+
+01:09:51.810 --> 01:09:56.770 align:middle line:90%
+around this target particle, OK?
+
+01:09:56.770 --> 01:09:58.330 align:middle line:90%
+Around the target particle.
+
+01:09:58.330 --> 01:10:03.220 align:middle line:84%
+So that's why this D
+sigma D omega is called
+
+01:10:03.220 --> 01:10:04.780 align:middle line:90%
+the differential cross-section.
+
+01:10:04.780 --> 01:10:14.420 align:middle line:90%
+
+
+01:10:14.420 --> 01:10:19.220 align:middle line:84%
+So the area which is going into
+the direction of theta phi--
+
+01:10:19.220 --> 01:10:23.120 align:middle line:84%
+and the sigma total,
+which is defined
+
+01:10:23.120 --> 01:10:27.510 align:middle line:84%
+to be D sigma, D omega-- you
+integrate them over all angles,
+
+01:10:27.510 --> 01:10:28.010 align:middle line:90%
+OK?
+
+01:10:28.010 --> 01:10:30.530 align:middle line:84%
+So this is a function
+of theta and phi.
+
+01:10:30.530 --> 01:10:33.270 align:middle line:84%
+And now, you integrate
+over all solid angles.
+
+01:10:33.270 --> 01:10:35.420 align:middle line:84%
+And then that gives you
+the total cross-section.
+
+01:10:35.420 --> 01:10:44.060 align:middle line:90%
+
+
+01:10:44.060 --> 01:10:44.600 align:middle line:90%
+OK?
+
+01:10:44.600 --> 01:10:51.840 align:middle line:84%
+And to see this effective
+area of interaction,
+
+01:10:51.840 --> 01:10:56.100 align:middle line:84%
+can be seen in the very
+simple classical example.
+
+01:10:56.100 --> 01:10:58.350 align:middle line:84%
+So this definition actually
+is not quantum mechanical.
+
+01:10:58.350 --> 01:11:00.000 align:middle line:84%
+You can also do it
+classically, OK?
+
+01:11:00.000 --> 01:11:03.060 align:middle line:84%
+It's not restricted
+to quantum mechanics.
+
+01:11:03.060 --> 01:11:06.160 align:middle line:84%
+This can be defined for
+any scattering event,
+
+01:11:06.160 --> 01:11:08.970 align:middle line:84%
+including in
+classical mechanics.
+
+01:11:08.970 --> 01:11:20.130 align:middle line:90%
+
+
+01:11:20.130 --> 01:11:29.570 align:middle line:84%
+So for example, if you
+have classical scattering,
+
+01:11:29.570 --> 01:11:38.970 align:middle line:84%
+say, of some bullets,
+off a billiard ball,
+
+01:11:38.970 --> 01:11:42.330 align:middle line:84%
+and then you find
+the sigma total--
+
+01:11:42.330 --> 01:11:45.960 align:middle line:84%
+so suppose you have
+classical scattering, OK?
+
+01:11:45.960 --> 01:11:48.660 align:middle line:84%
+And then you find
+the sigma total.
+
+01:11:48.660 --> 01:11:50.460 align:middle line:90%
+It's just the cross-section.
+
+01:11:50.460 --> 01:11:56.130 align:middle line:84%
+It's just the total
+area, total surface area.
+
+01:11:56.130 --> 01:11:56.670 align:middle line:90%
+Yeah.
+
+01:11:56.670 --> 01:11:57.360 align:middle line:90%
+No.
+
+01:11:57.360 --> 01:12:05.180 align:middle line:84%
+It's the cross-section area
+over the billiards, OK?
+
+01:12:05.180 --> 01:12:11.910 align:middle line:90%
+
+
+01:12:11.910 --> 01:12:14.982 align:middle line:84%
+Because classically, when
+you hit the billiard ball,
+
+01:12:14.982 --> 01:12:16.440 align:middle line:84%
+then you hit the
+billiard ball, OK?
+
+01:12:16.440 --> 01:12:18.240 align:middle line:84%
+If you don't hit
+the billiard ball,
+
+01:12:18.240 --> 01:12:20.280 align:middle line:90%
+then you don't change direction.
+
+01:12:20.280 --> 01:12:23.130 align:middle line:84%
+And then the total
+cross-section just
+
+01:12:23.130 --> 01:12:27.180 align:middle line:84%
+is the cross-section of
+the billiard ball, OK?
+
+01:12:27.180 --> 01:12:33.390 align:middle line:84%
+And so when you go
+to quantum theory,
+
+01:12:33.390 --> 01:12:35.940 align:middle line:84%
+then this is the heuristic
+way you understand
+
+01:12:35.940 --> 01:12:40.830 align:middle line:84%
+there's some kind of effective
+cross-section for this target,
+
+01:12:40.830 --> 01:12:41.430 align:middle line:90%
+OK?
+
+01:12:41.430 --> 01:12:46.710 align:middle line:84%
+And outside that area
+then you no longer have--
+
+01:12:46.710 --> 01:12:47.610 align:middle line:90%
+yeah.
+
+01:12:47.610 --> 01:12:50.820 align:middle line:84%
+Heuristically, you no
+longer have interactions.
+
+01:12:50.820 --> 01:12:51.510 align:middle line:90%
+OK.
+
+01:12:51.510 --> 01:12:56.610 align:middle line:84%
+So now, let me just
+make two quick remarks
+
+01:12:56.610 --> 01:12:58.065 align:middle line:90%
+in a relativistic theory.
+
+01:12:58.065 --> 01:13:02.850 align:middle line:90%
+
+
+01:13:02.850 --> 01:13:05.590 align:middle line:90%
+So now, we can generalize.
+
+01:13:05.590 --> 01:13:10.550 align:middle line:84%
+So this discussion is in
+the nonrelativistic context.
+
+01:13:10.550 --> 01:13:12.940 align:middle line:84%
+So in the relativistic
+context, we essentially just
+
+01:13:12.940 --> 01:13:20.630 align:middle line:84%
+have D sigma cross-section from
+initial state to final state,
+
+01:13:20.630 --> 01:13:21.130 align:middle line:90%
+OK?
+
+01:13:21.130 --> 01:13:23.620 align:middle line:84%
+We no longer have-- so
+this is very specific.
+
+01:13:23.620 --> 01:13:27.000 align:middle line:84%
+We have one particle
+scattering the other particle.
+
+01:13:27.000 --> 01:13:29.880 align:middle line:84%
+And this particle
+scatters away, OK?
+
+01:13:29.880 --> 01:13:33.870 align:middle line:84%
+But in relativistic, you
+can have two particles.
+
+01:13:33.870 --> 01:13:36.840 align:middle line:84%
+You can create
+10,000 particles, OK?
+
+01:13:36.840 --> 01:13:40.320 align:middle line:84%
+And so this language
+no longer works, OK?
+
+01:13:40.320 --> 01:13:43.230 align:middle line:84%
+So but still, you can define
+some kind of cross-section
+
+01:13:43.230 --> 01:13:47.890 align:middle line:84%
+of initial state alpha to
+some final state beta, OK?
+
+01:13:47.890 --> 01:13:52.900 align:middle line:84%
+And so we will be interested
+in the situation in which we
+
+01:13:52.900 --> 01:13:55.030 align:middle line:90%
+have two initial particles, OK?
+
+01:13:55.030 --> 01:14:01.360 align:middle line:84%
+Because experimentally,
+it's convenient just
+
+01:14:01.360 --> 01:14:03.040 align:middle line:84%
+to have two
+particles scattering.
+
+01:14:03.040 --> 01:14:04.660 align:middle line:84%
+So you have two
+initial particles.
+
+01:14:04.660 --> 01:14:13.390 align:middle line:84%
+But final state, in principle,
+can be arbitrary, OK?
+
+01:14:13.390 --> 01:14:18.960 align:middle line:90%
+And so this object--
+
+01:14:18.960 --> 01:14:20.890 align:middle line:84%
+since, in the
+relativistic theory,
+
+01:14:20.890 --> 01:14:27.212 align:middle line:84%
+this should be physically
+observable, so this should be--
+
+01:14:27.212 --> 01:14:29.670 align:middle line:84%
+so because this essentially is
+a measure of the probability
+
+01:14:29.670 --> 01:14:32.930 align:middle line:84%
+of the scattering,
+so we require this
+
+01:14:32.930 --> 01:14:38.961 align:middle line:90%
+object to be Lorentz invariant.
+
+01:14:38.961 --> 01:14:46.040 align:middle line:90%
+
+
+01:14:46.040 --> 01:14:47.450 align:middle line:90%
+OK?
+
+01:14:47.450 --> 01:14:52.760 align:middle line:84%
+And also, in the relativistic,
+we just scatter two particles.
+
+01:14:52.760 --> 01:14:54.500 align:middle line:84%
+There's no notion of
+what is the target
+
+01:14:54.500 --> 01:14:56.990 align:middle line:84%
+or what is the
+incident particle.
+
+01:14:56.990 --> 01:14:59.240 align:middle line:84%
+So these two particles
+should have equal rho.
+
+01:14:59.240 --> 01:15:08.040 align:middle line:84%
+So this should be
+symmetric in 1 2, OK?
+
+01:15:08.040 --> 01:15:10.260 align:middle line:84%
+So if you exchange 1
+2, this cross-section
+
+01:15:10.260 --> 01:15:12.020 align:middle line:90%
+should be the same.
+
+01:15:12.020 --> 01:15:12.520 align:middle line:90%
+OK?
+
+01:15:12.520 --> 01:15:15.470 align:middle line:90%
+It should be the same.
+
+01:15:15.470 --> 01:15:18.820 align:middle line:84%
+So now, if you consider--
+but you can always
+
+01:15:18.820 --> 01:15:22.180 align:middle line:84%
+consider in the rest frame,
+say, of particle 2, OK?
+
+01:15:22.180 --> 01:15:27.265 align:middle line:84%
+So suppose we consider
+the rest frame.
+
+01:15:27.265 --> 01:15:30.390 align:middle line:90%
+
+
+01:15:30.390 --> 01:15:35.120 align:middle line:84%
+Suppose we go into the
+rest frame of particle 2.
+
+01:15:35.120 --> 01:15:40.010 align:middle line:84%
+And then we roughly
+have this situation, OK?
+
+01:15:40.010 --> 01:15:41.630 align:middle line:90%
+So this is particle 2.
+
+01:15:41.630 --> 01:15:44.820 align:middle line:84%
+This is the particle 1,
+which comes to particle 2.
+
+01:15:44.820 --> 01:15:53.520 align:middle line:84%
+And then in this situation, we
+can define the alpha to beta
+
+01:15:53.520 --> 01:15:56.350 align:middle line:84%
+based on our nonrelativistic
+considerations.
+
+01:15:56.350 --> 01:15:58.450 align:middle line:90%
+And then we consider--
+
+01:15:58.450 --> 01:16:07.990 align:middle line:84%
+so here I use the probability
+from alpha to beta dP, OK?
+
+01:16:07.990 --> 01:16:12.970 align:middle line:84%
+So this essentially
+replaces that.
+
+01:16:12.970 --> 01:16:13.600 align:middle line:90%
+OK?
+
+01:16:13.600 --> 01:16:16.510 align:middle line:84%
+Here the final particle
+only has one particle.
+
+01:16:16.510 --> 01:16:19.490 align:middle line:90%
+So you can define a solid angle.
+
+01:16:19.490 --> 01:16:24.370 align:middle line:84%
+But if we have 10,000 particles
+here in the beta, of course,
+
+01:16:24.370 --> 01:16:25.960 align:middle line:84%
+I cannot define a
+solid angle, OK?
+
+01:16:25.960 --> 01:16:30.370 align:middle line:84%
+So I can just talk about
+probability from alpha to beta,
+
+01:16:30.370 --> 01:16:31.720 align:middle line:90%
+OK?
+
+01:16:31.720 --> 01:16:34.390 align:middle line:84%
+From alpha to beta,
+but per unit time.
+
+01:16:34.390 --> 01:16:40.120 align:middle line:84%
+And then again, we divide it
+by the incident flux of 1.
+
+01:16:40.120 --> 01:16:43.550 align:middle line:90%
+
+
+01:16:43.550 --> 01:16:44.690 align:middle line:90%
+OK?
+
+01:16:44.690 --> 01:16:47.940 align:middle line:90%
+The incident flux of 1, OK?
+
+01:16:47.940 --> 01:16:48.510 align:middle line:90%
+Oh.
+
+01:16:48.510 --> 01:16:51.710 align:middle line:90%
+And let me just call it in.
+
+01:16:51.710 --> 01:16:56.690 align:middle line:84%
+And 1 means the number
+of particles of 1, OK?
+
+01:16:56.690 --> 01:16:59.390 align:middle line:90%
+So yeah.
+
+01:16:59.390 --> 01:17:04.160 align:middle line:84%
+So what we will do
+is that we will first
+
+01:17:04.160 --> 01:17:08.540 align:middle line:84%
+calculate this object
+in the rest frame of 2.
+
+01:17:08.540 --> 01:17:13.460 align:middle line:84%
+And then we construct the
+Lorentz invariant version
+
+01:17:13.460 --> 01:17:15.140 align:middle line:90%
+of this, OK?
+
+01:17:15.140 --> 01:17:19.490 align:middle line:84%
+So that's our strategy
+to define what
+
+01:17:19.490 --> 01:17:21.540 align:middle line:84%
+will be the relativistic
+generalization of this.
+
+01:17:21.540 --> 01:17:22.040 align:middle line:90%
+OK.
+
+01:17:22.040 --> 01:17:25.960 align:middle line:84%
+So we will discuss
+this next time.
+
+01:17:25.960 --> 01:17:30.000 align:middle line:90%
